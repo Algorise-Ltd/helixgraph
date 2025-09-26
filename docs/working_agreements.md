@@ -7,6 +7,10 @@ feat/HEL-8-marketing-taxonomy
 # Commits
 We are going to follow the **Conventional Commits** style:
 feat: create marketing taxonomy
+fix: resolve merge conflicts
+bug: fix marketing taxonomy
+style: improve code style
+docs || chore: add working agreements
 
 # PR rules
 - [] add at least one reviewer 
