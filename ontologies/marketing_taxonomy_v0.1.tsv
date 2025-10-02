@@ -1,0 +1,16 @@
+id	tparent_id	tname	tdescription	texamples
+CHAN-ROOT		Channel Root	Top-level container	All channels
+CHAN-PAID	CHAN-ROOT	Paid Media	Any paid placements	Search Ads, Social Ads, Display Ads, Affiliate
+CHAN-ORG	CHAN-ROOT	Owned/Organic	Owned & non-paid channels	Email, SEO, Blogs, PR
+CHAN-SEARCH	CHAN-PAID	SEM	Search Engine Marketing (paid search ads)	Google Ads, Bing Ads
+CHAN-SOCIAL	CHAN-PAID	Social Ads	Paid social media campaigns	Meta Ads, TikTok Ads, Twitter Ads
+CHAN-DISPLAY	CHAN-PAID	Display Ads	Banner and display advertising	GDN, Programmatic
+CHAN-AFFILIATE	CHAN-PAID	Affiliate	Performance-based partner channels	Amazon Associates, Rakuten, Influencers, Bloggers
+CHAN-TVC	CHAN-PAID	TVC	Television commercials	National TV, Cable TV
+CHAN-OOH	CHAN-PAID	OOH	Out-of-home advertising	Billboards, Transit ads
+CHAN-ECOM	CHAN-ORG	Ecommerce	Owned e-commerce or app platforms	Online shop, Mobile app
+CHAN-EMAIL	CHAN-ORG	Email	Campaign or transactional emails	Newsletters, Promotions
+CHAN-SEO	CHAN-ORG	SEO	Search Engine Optimization content	Guides, Blogs
+CHAN-PR	CHAN-ORG	PR	Public relations and earned media	Press releases, Media coverage
+CHAN-BLOG	CHAN-ORG	Blogs	Owned blog content	Company blog, Product articles
+CHAN-GENERIC	CHAN-ROOT	Generic	General marketing category	Cross-channel metrics
