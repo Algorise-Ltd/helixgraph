@@ -1,0 +1,21 @@
+vendorCode,legalName,address,country,contactPerson,isActive,financialHealth,riskScore
+SUP-97120bc1,Naturprodukter AB,Parkvägen 39 90718 Västerås,Sweden,Eriksson Anna,True,High,0.0
+SUP-c5b92241,Optima Supply Solutions GmbH,Anna-Maria-Dobes-Weg 8-8 10230 Iserlohn,Germany,Max Mustermann,True,Low,40.0
+SUP-d3ace385,Indo Marine Supplies,"Jl. Ronggowarsito No. 265 Ternate, Kalimantan Barat 78920",Indonesia,Siti Nur Aisyah,True,Low,65.0
+SUP-bdeb26ca,TechInnovations GmbH,Nevenka-Martin-Platz 553 62802 Einbeck,Germany,Oliver Schmidt,True,Low,40.0
+SUP-a046f4ea,OptiTech Solutions GmbH,Joanna-Bärer-Platz 6/4 48256 Fürstenwalde,Germany,Alexander Schmidt,True,Low,40.0
+SUP-967dccad,Global Himalayan Suppliers,"Callejón Portugal 102 Edif. 086 , Depto. 676 Nueva Bhután, Q. ROO 93649-4722",Mexico,Rajiv Singh Thapliyal,True,High,15.0
+SUP-fcd12c54,Almacenes del Nudo,"Plaza de Tomasa Alcántara 798 Apt. 21 Albacete, 06751",Spain,María Teresa Ruiz Fernández,True,Low,25.0
+SUP-e90200cd,Northern Harvest Supplies Ltd.,"198 Stewart Club Destinychester, AB M7V3K9",Canada,Margaret Wallace,True,Low,25.0
+SUP-b5d82121,Global Logistics Solutions LLC,"5334 Evans Fields Mckeeborough, WV 61160",United Arab Emirates,James Robert Thompson,True,High,15.0
+SUP-ced1fbd3,Erdingner Landpflanzen GmbH,Rosemanngasse 4945 46401 Erding,Germany,Anna Becker,True,Low,40.0
+SUP-fb32215d,Hersteltechnik GmbH,Stolzering 91-28 73923 Göttingen,Germany,Margarete Schultz,True,Low,40.0
+SUP-3fcafb95,OptiSupply GmbH,Aynur-Herrmann-Weg 21 52022 Bersenbrück,Germany,Erich Schmidt,True,High,32.5
+SUP-057ce1e5,Austrian Alpine Supplies GmbH,Kalina-Haslauer-Weg 3 9741 Wörgl,Austria,Anna Weber,True,Medium,10.0
+SUP-af0e3332,Énergie Nouvelle Solutions,"78, rue de Picard 87950 SchmittVille",France,Claire Dubois,False,Medium,10.0
+SUP-e24e5367,Global Innovations Lithuania Ltd.,"3667 Gediminas Track Suite 036 North Tautvydasshire, WY 39218",Lithuania,Andrzej Kowalczyk,True,Low,25.0
+SUP-82b7cec2,Eco-Friendly Solutions Rom,"Strada Adina Stan Nr. 18 Aiud, 182459",Romania,Lucia Elena Pop,True,Low,25.0
+SUP-c716a636,JenaTech Innovations GmbH,Etzlerallee 67-76 83331 Jena,Germany,Lukas Schmidt,True,High,15.0
+SUP-98832716,EnergieTechnik GmbH,Hans-Henning-Dörr-Straße 257 56321 Jülich,Germany,Hans-Joachim Schmidt,True,Medium,25.0
+SUP-3963da6f,OptiMist Solutions GmbH,Wilhelmine-Scheibe-Allee 8-5 60074 Zeulenroda,Germany,Friedrich Schmidt,False,Medium,25.0
+SUP-9040f854,Rohring GmbH,Rohtring 187 19228 Säckingen,Germany,Anna Müller,True,Low,50.0
