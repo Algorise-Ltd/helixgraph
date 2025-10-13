@@ -14,7 +14,7 @@ OLLAMA_MODEL = 'granite4:micro'
 NUM_PRODUCTS = 100
 NUM_PURCHASES = 400
 NUM_SUPPLIERS = 200
-APPEND_MODE = False
+APPEND_MODE = True
 OVER_REP_PERCENT = 50
 UNDER_REP_PERCENT = 15
 
@@ -628,6 +628,7 @@ if __name__ == '__main__':
     products_data = []
     po_data = []
     invoice_data = []
+    risks_data = []
 
     if APPEND_MODE:
         print("\n--- APPEND MODE ON: Loading existing data ---\n")
@@ -748,7 +749,20 @@ if __name__ == '__main__':
             'total_spend': supplier_pos['orderTotalValue'].sum(),
             'critical_items': critical_items_for_risk_calc
         }
-        suppliers_df.at[i, 'riskScore'] = risk_calculator.calculate_supplier_risk(supplier_risk_data)
+        risk_scores = risk_calculator.calculate_supplier_risk(supplier_risk_data)
+        suppliers_df.at[i, 'riskScore'] = risk_scores['total_risk']
+        
+        for risk_type, risk_value in risk_scores.items():
+            if risk_type != 'total_risk':
+                risks_data.append({
+                    'riskId': f"RISK-{str(uuid.uuid4().hex)[:8]}",
+                    'supplierVendorCode': supplier['vendorCode'],
+                    'riskType': risk_type.replace('_', ' ').title(),
+                    'riskScore': risk_value,
+                    'riskDescription': f'{risk_type.replace("_", " ").title()} for supplier {supplier['vendorCode']} is {risk_value}.',
+                    'mitigationPlan': 'N/A',
+                    'riskStatus': 'Active'
+                })
 
     # 8. Save DataFrames
     if not suppliers_df.empty:
@@ -764,5 +778,9 @@ if __name__ == '__main__':
         invoice_df = pd.DataFrame(invoice_data)
         invoice_df.to_csv(os.path.join(script_dir, 'invoices.csv'), index=False)
         print(f"Successfully generated and saved {len(invoice_data)} invoices.")
+    if risks_data:
+        risks_df = pd.DataFrame(risks_data)
+        risks_df.to_csv(os.path.join(script_dir, 'risks.csv'), index=False)
+        print(f"Successfully generated and saved {len(risks_df)} risks.")
 
 print("\nData generation complete.")

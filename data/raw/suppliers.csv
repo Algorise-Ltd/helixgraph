@@ -1,21 +1,241 @@
 vendorCode,legalName,address,country,contactPerson,isActive,financialHealth,riskScore
-SUP-97120bc1,Naturprodukter AB,Parkvägen 39 90718 Västerås,Sweden,Eriksson Anna,True,High,0.0
-SUP-c5b92241,Optima Supply Solutions GmbH,Anna-Maria-Dobes-Weg 8-8 10230 Iserlohn,Germany,Max Mustermann,True,Low,40.0
-SUP-d3ace385,Indo Marine Supplies,"Jl. Ronggowarsito No. 265 Ternate, Kalimantan Barat 78920",Indonesia,Siti Nur Aisyah,True,Low,65.0
-SUP-bdeb26ca,TechInnovations GmbH,Nevenka-Martin-Platz 553 62802 Einbeck,Germany,Oliver Schmidt,True,Low,40.0
-SUP-a046f4ea,OptiTech Solutions GmbH,Joanna-Bärer-Platz 6/4 48256 Fürstenwalde,Germany,Alexander Schmidt,True,Low,40.0
-SUP-967dccad,Global Himalayan Suppliers,"Callejón Portugal 102 Edif. 086 , Depto. 676 Nueva Bhután, Q. ROO 93649-4722",Mexico,Rajiv Singh Thapliyal,True,High,15.0
-SUP-fcd12c54,Almacenes del Nudo,"Plaza de Tomasa Alcántara 798 Apt. 21 Albacete, 06751",Spain,María Teresa Ruiz Fernández,True,Low,25.0
-SUP-e90200cd,Northern Harvest Supplies Ltd.,"198 Stewart Club Destinychester, AB M7V3K9",Canada,Margaret Wallace,True,Low,25.0
-SUP-b5d82121,Global Logistics Solutions LLC,"5334 Evans Fields Mckeeborough, WV 61160",United Arab Emirates,James Robert Thompson,True,High,15.0
-SUP-ced1fbd3,Erdingner Landpflanzen GmbH,Rosemanngasse 4945 46401 Erding,Germany,Anna Becker,True,Low,40.0
-SUP-fb32215d,Hersteltechnik GmbH,Stolzering 91-28 73923 Göttingen,Germany,Margarete Schultz,True,Low,40.0
-SUP-3fcafb95,OptiSupply GmbH,Aynur-Herrmann-Weg 21 52022 Bersenbrück,Germany,Erich Schmidt,True,High,32.5
-SUP-057ce1e5,Austrian Alpine Supplies GmbH,Kalina-Haslauer-Weg 3 9741 Wörgl,Austria,Anna Weber,True,Medium,10.0
-SUP-af0e3332,Énergie Nouvelle Solutions,"78, rue de Picard 87950 SchmittVille",France,Claire Dubois,False,Medium,10.0
-SUP-e24e5367,Global Innovations Lithuania Ltd.,"3667 Gediminas Track Suite 036 North Tautvydasshire, WY 39218",Lithuania,Andrzej Kowalczyk,True,Low,25.0
-SUP-82b7cec2,Eco-Friendly Solutions Rom,"Strada Adina Stan Nr. 18 Aiud, 182459",Romania,Lucia Elena Pop,True,Low,25.0
-SUP-c716a636,JenaTech Innovations GmbH,Etzlerallee 67-76 83331 Jena,Germany,Lukas Schmidt,True,High,15.0
-SUP-98832716,EnergieTechnik GmbH,Hans-Henning-Dörr-Straße 257 56321 Jülich,Germany,Hans-Joachim Schmidt,True,Medium,25.0
-SUP-3963da6f,OptiMist Solutions GmbH,Wilhelmine-Scheibe-Allee 8-5 60074 Zeulenroda,Germany,Friedrich Schmidt,False,Medium,25.0
-SUP-9040f854,Rohring GmbH,Rohtring 187 19228 Säckingen,Germany,Anna Müller,True,Low,50.0
+SUP-154dd692,EuroTech Solutions NV,"215 Druart Lane West Martinemouth, MS 45659",Belgium,Marie-José Delacroix,True,Low,0.0
+SUP-f23a29b3,TechSupply Solutions GmbH,Budigstraße 357 38232 Paderborn,Germany,Anna Becker,True,Low,15.0
+SUP-09b2252b,Empresa Distribuidora de Productos S.A.,"Vial Maximiano Cadenas 2 Puerta 3 Cádiz, 38937",Venezuela,María Elena González Torres,True,Medium,25.0
+SUP-5ae46043,Optima Solutions GmbH,Wirthplatz 93-39 70475 Wetzlar,Germany,Anna Müller,True,Low,15.0
+SUP-a6ad3c4e,EcoFutur Erittelyt Oy,Kolukatu 5 58075 Jomala,Finland,Mikko Rantanen,True,Low,0.0
+SUP-aff7db91,Nordwest-Halbwaren GmbH,Dietmar-Kuhl-Ring 2-9 18469 Belzig,Germany,Helmut Schneider,True,Low,15.0
+SUP-f1e94c05,Vertriebsgesellschaft GmbH,Hans-Günther-Röhrdanz-Allee 20/82 80207 Hettstedt,Germany,Anna Müller,True,High,40.0
+SUP-9be461f4,Proveedores del Valle,"Calle de Patricia Valencia 781 Cáceres, 08851",Venezuela,María Elena González,True,Medium,25.0
+SUP-d9ee32f7,Optima Vertriebs GmbH,Stolzering 9 03136 Genthin,Germany,Max Mustermann,True,Low,15.0
+SUP-7c874ae3,Agriculture Moroccon Export,"23, rue de Blot 15505 BaronBourg",Morocco,Salem El-Khatib,True,Low,15.0
+SUP-0ad5b00c,Hochwertige Lieferant GmbH,Hornigallee 661 25956 Eisleben,Germany,Marie Schwarz,False,Medium,25.0
+SUP-fb469ef4,TechInnovate Solutions GmbH,Hermannplatz 2 72372 Günzburg,Germany,Anna Müller,True,High,40.0
+SUP-9ccc86ff,Krško Industrial Supplies d.d.,Tavčarjeva ulica 698 4708 Krško,Slovenia,Janez Novak,True,Low,0.0
+SUP-657ae49c,TechNova Industries Pvt Ltd,H.No. 14 Subramaniam Marg North Dumdum-734686,India,Rajesh Kumar,True,Low,30.0
+SUP-4bc6d876,Belgian Innovations NV,"60948 Rita Views Apt. 583 Desmetstad, GA 84778",Belgium,Martijn Janssen,True,Low,0.0
+SUP-5d1146c8,Fábrica Nacional de Produtos Especiais,"Praça de Lopes, 450 2510-486 Mirandela",Portugal,Maria dos Santos Oliveira,True,Medium,10.0
+SUP-34c21a15,Calauer Bauunternehmen GmbH,Gierschnerstr. 1 95179 Calau,Germany,Anna Schmid,True,Low,15.0
+SUP-122f9bcf,Tech Innovations GmbH,Bährstraße 7/2 60696 Kulmbach,Germany,Anna Müller,True,Low,15.0
+SUP-1de8ee68,Mellrichstadt Industrial Supplies GmbH,Handeweg 154 53089 Mellrichstadt,Germany,Anna Schmidt,True,Low,15.0
+SUP-4ec4e9dc,Équipement Premium SARL,"22, boulevard de Lefebvre 17642 Dupuy",France,Jean-Pierre Dubois,True,Low,0.0
+SUP-a1b769f6,TechSupply GmbH,Lübsstraße 8-7 19618 Peine,Germany,Anna Müller,True,Low,15.0
+SUP-fbd94e2f,Hochwertige Lieferant GmbH,Friederike-Klapp-Ring 24-98 43805 Rottweil,Germany,Friederike Klapp-Ring,True,Medium,25.0
+SUP-9d604aae,Hersteltechnik GmbH,Pechelgasse 9-4 91963 Holzminden,Germany,Anna Schmitt,True,High,40.0
+SUP-f90572fe,Agricola Natura Srl,"Contrada Sabatini, 83 09079, Tresnuraghes (OR)",Italy,Maria Antonietta Rossi,True,Low,0.0
+SUP-9f4c8b97,Herzog & Söhne GmbH,Svea-Liebelt-Platz 60-75 45346 Werdau,Germany,Greta Meier,True,Low,15.0
+SUP-4f08dfa6,Croatian Export Solutions d.o.o.,Svibovac 2c 60845 Senj,Croatia,Marko Petrovic,True,Low,0.0
+SUP-804a3fff,Nigerian Precision Components Ltd.,"45307 Chukwu Points Apt. 316 South Joshua, IL 14190",Nigeria,Osinachi Emmanuel,True,Medium,40.0
+SUP-ee9bcb83,Proveedores Venezolanos S.A.,"Acceso de Marcela Ángel 693 Teruel, 14074",Venezuela,Marcela Ángel,True,Low,15.0
+SUP-06835418,Hersteltechnik GmbH,Ilona-Schenk-Ring 58/22 76010 Delitzsch,Germany,Ewald Braun,True,Low,15.0
+SUP-587182ce,EcoSupply GmbH,Leyla-Jessel-Gasse 13-76 10284 Kemnath,Germany,Lars Müller,True,Low,15.0
+SUP-340ae111,Sri Lanka Agricultural Supplies Pvt Ltd,"26905 Wells Underpass Braunfurt, IL 54707",Sri Lanka,Ranil Senanayake,True,High,40.0
+SUP-ca5ec489,OptiTech Solutions GmbH,Astrid-Keudel-Platz 555 39379 Cloppenburg,Germany,Hans-David Müller,True,Low,15.0
+SUP-c2a5676a,Højre-Industri ApS,Steinsgade 347 1972 Brovst,Denmark,Lars Madsen,True,Low,0.0
+SUP-470b7c4e,Estonian Precision Components,"2486 Mihkel Forges Peeterburgh, DE 06940",Estonia,Andrea Kurbjuun,True,Low,0.0
+SUP-cab4b7f2,Eco-Friendly Solutions GmbH,Monique-Baum-Weg 29-13 22183 Kamenz,Germany,Max Mustermann,False,Medium,25.0
+SUP-6fd9b4a6,Harvest Solutions Inc.,"32780 Gallagher Mall Port Emilyfort, NS N7R 8G1",Canada,Emily Thompson,True,Medium,10.0
+SUP-98ddc5bb,Optima Supply GmbH,Stadelmannweg 41/52 98026 Bruchsal,Germany,Anna Müller,True,Low,15.0
+SUP-09be9878,TechSupply Solutions GmbH,Bolanderplatz 3-4 84589 Fürstenfeldbruck,Germany,Anna Müller,True,Medium,25.0
+SUP-c2b881af,Δημοσίου Παναθαιναϊκός Δημοσιοτήτων,"Παραλίου Άστρους 51, 76101 Ηράκλειο",Greece,Γεώργιος Μπάκος,True,High,25.0
+SUP-963dd8a4,Agricultura Moderna S.A.,"Bulevardul Niță Nr. 14 Insuratei, 722278",Romania,Ana Maria Popescu,True,Low,0.0
+SUP-8a6fa90f,Hersteller GmbH,Roskothallee 2-2 45905 Görlitz,Germany,Anna Müller,True,Low,15.0
+SUP-7f4fa930,Metz Supplies GmbH,Maurice-Metz-Allee 2-1 78913 Saarbrücken,Germany,Anna Schmidt,True,Low,15.0
+SUP-1f6b4735,Mittelmeerpresse GmbH,Mohauptgasse 5-5 07555 Meppen,Germany,Anna Becker,True,High,40.0
+SUP-2c37132c,Supplizität GmbH,Lia-Wende-Weg 9-7 39897 Sebnitz,Germany,Hans-Jürgen Schneider,True,Low,15.0
+SUP-f7052c42,OptiMech Technologie GmbH,Schlosserplatz 4/1 37608 Neu-Ulm,Germany,Thomas Müller,True,Low,15.0
+SUP-068fb3c1,Suprimentos EcoSoluções LTDA,"Setor Dante Nogueira, 92 Palmeiras 01494-313 Almeida / MT",Brazil,Maria do Socorro Silva,True,Low,15.0
+SUP-d8ddf706,Bavarian Harvest Supplies GmbH,Heinz-Gerd-Adolph-Allee 8048 97462 Northeim,Germany,Margarete Bauer,True,Low,15.0
+SUP-90d82a36,ForestTech Supplies GmbH,Schollring 8/7 73756 Neustadtner Waldnaab,Germany,Anna Becker,True,High,40.0
+SUP-075e9bbb,华鲸国际物流有限公司,澳门特别行政区晨市海港向路N座 443448,China,李明达,True,Low,40.0
+SUP-f1d17ae6,Suppliers & Distributors Chile Ltda,"Av. Los Higos 147 Dpto. 70 Santa María, Región de Valparaíso",Chile,Fernando Ramírez,True,High,40.0
+SUP-4e740d5a,Eco-Friendly Solutions GmbH,Mattias-Mosemann-Platz 20-37 84791 Kleve,Germany,Anna Musterfrau,True,Medium,25.0
+SUP-3b07b7de,TechSupply GmbH,Erik-Haering-Ring 23/88 70596 Lippstadt,Germany,Anna Müller,True,Medium,25.0
+SUP-ea09b39a,Επιχειρόμενος Διάλυσης Περιφέρειας,"Μεγάρχης 89, 12912 Κατερίνη",Greece,Γεώργιος Κωνσταντίνου,False,Medium,10.0
+SUP-500ec2ad,ValleyTech Industries,"59391 ظهير Valley Suite 521 North مُسعف, SD 48329",Saudi Arabia,Mohammed Al-Farsi,True,Low,30.0
+SUP-03de0a6a,NoviTech Supplies d.o.o.,Lepodvorska ulica 6a 3400 Novo mesto,Slovenia,Marketa Novak,True,Low,0.0
+SUP-76ff9e6e,Truppmann GmbH,Xenia-Trupp-Gasse 69 47770 Rathenow,Germany,Hans Trapp,True,Low,15.0
+SUP-98309406,GreenHarvest Solutions B.V.,Berendhof 6 8531 SM Terheijden,Netherlands,Johan de Vries,True,High,25.0
+SUP-8316fd3d,TechSupply Solutions GmbH,Döringgasse 9 02790 Perleberg,Germany,Anna Müller,True,High,40.0
+SUP-89be7c73,TechSupply GmbH,Magnus-Söding-Straße 8 44424 Kemnath,Germany,Anna Müller,True,Low,15.0
+SUP-8d756b6c,TechSupply GmbH,Girschnerplatz 408 09164 Pritzwalk,Germany,Anna Schmidt,True,High,40.0
+SUP-acb6f64c,Global Precision Solutions Inc.,"1411 Jennifer Parkway Suite 792 Catherineberg, QC C9Y5X7",Canada,Emily Johnson,True,Low,0.0
+SUP-2cb279db,Innovative Solutions GmbH,Kristina-Heinz-Platz 5 42648 Hettstedt,Germany,Kristina Heinz,True,High,40.0
+SUP-e60225b6,Adria Marine Supplies d.d.,Ribnjak 0a/1 60194 Vodice,Croatia,Marko Petrovic,True,Low,0.0
+SUP-aaab2f4f,Global Peruvian Supplies Ltda,"Paseo de Sosimo Casas 4 Madrid, 14259",Peru,Ana María Pérez López,True,Low,15.0
+SUP-a38914b1,Hersteller GmbH & Co. KG,Anny-Weller-Ring 5 46689 Kyritz,Germany,Anna Weller,True,Medium,25.0
+SUP-9c2971cf,Krofna Kavarna Tbilisi,Tbilisijska ulica 58 5775 Cerknica,Slovenia,Ana Petric,True,High,25.0
+SUP-619ce414,Mittelklasse-Hardware GmbH,Rigo-Dörr-Ring 84/27 41121 Emmendingen,Germany,Thomas Müller,True,Low,15.0
+SUP-9e7ec53a,Inmobiliaria Proyectos Aná,"Glorieta de Anastasio Asenjo 798 Valladolid, 27838",Uruguay,José Martínez López,True,Low,15.0
+SUP-439a377c,Silva-Hornig Vertriebs GmbH,Silva-Hornig-Platz 612 01360 Deggendorf,Germany,Hans Müller,True,Low,15.0
+SUP-04b712ff,ErgoSupply GmbH,Viktoria-Dowerg-Allee 8-3 20416 Eggenfelden,Germany,Max Mustermann,True,Low,15.0
+SUP-91cd49f0,TechNova Solutions Pte Ltd,"4682 Paul Hollow Apt. 840 Port Danielfort, PR 91733",Singapore,Emily Chen,False,Low,0.0
+SUP-738ad56b,Alimentos Naturales S.L.,"Pasaje de Almudena Velasco 80 Barcelona, 06904",Spain,Ana García Fernández,True,Low,0.0
+SUP-0afe4cb0,TechSupply GmbH,Walterstr. 6654 49725 Gadebusch,Germany,Max Mustermann,True,Low,15.0
+SUP-4e2222c3,EbernTech Solutions GmbH,Anka-Hermann-Allee 988 02467 Ebern,Germany,Matthias Becker,True,Medium,25.0
+SUP-5fe4f09e,GreinTech Solutions GmbH,Angelika-Grein Groth-Gasse 6/6 59438 Belzig,Germany,Angelika Grein,True,Medium,25.0
+SUP-28a85ab4,TechSupplies GmbH,Schuchhardtplatz 2808 65066 Sebnitz,Germany,Anna Müller,True,Low,15.0
+SUP-cab9caf8,Mark's Keys & Co.,"413 Mark Keys Apt. 561 New Christopherville, IL 27102",United States,Christopher New,True,Low,0.0
+SUP-f5d76ae4,Metz Supplies GmbH,Gordana-Metz-Weg 50-12 23933 Lippstadt,Germany,Karin Weber,True,Medium,25.0
+SUP-745fa4d9,Hersteltechnik GmbH,Kuschplatz 548 84203 Werdau,Germany,Anna Schmidt,True,Low,15.0
+SUP-41f112a7,Muster-Landwirtschaftsbetrieb GmbH,Michail-Beckmann-Ring 7514 65868 Hildburghausen,Germany,Hans Müller,False,Low,15.0
+SUP-60c7ba4c,Muster-Unternehmen GmbH,Edwin-Winkler-Gasse 8/4 35403 Kusel,Germany,Hans Müller,True,Medium,25.0
+SUP-2dc5bfd8,TechNatura GmbH,Ortmannstr. 34-62 05110 Sondershausen,Germany,Anna Meier,True,Low,15.0
+SUP-327e9482,Aurimas Orchard Supplies,"1502 Vanesa Orchard Apt. 946 Aurimaschester, GA 65049",Lithuania,Jonas Kvitonas,True,Medium,10.0
+SUP-6e0098ec,Estonian Marine Supplies Ltd,"11314 Sergei Cove Meelisview, KY 05300",Estonia,Meelis Valk,True,Medium,10.0
+SUP-fb85787f,TechSupplies GmbH,Elzbieta-Johann-Gasse 51 72229 Werdau,Germany,Elzbieta Johann,True,Low,15.0
+SUP-f0be1f95,AfricanTech Solutions Ltd,"1532 David Roads Apt. 893 Cartermouth, VI 32311",Ghana,John Adu,True,Medium,40.0
+SUP-294b5b93,Optima Supply GmbH,Atzlerstr. 43-76 58122 Wolgast,Germany,Anna Schmidt,True,Low,15.0
+SUP-7eb462ab,Luxembourg Eco Supplies SA,rue de Fernandes 40444 Michaud-sur-Guillet,Luxembourg,Marie-Josée Dubois,True,Low,0.0
+SUP-5aad0312,Pacific Ocean Supplies Inc.,"7367 Tran Mill Apt. 203 Williamsview, WA 71940",United States,Margaret L. Johnson,True,Low,0.0
+SUP-5e584cda,Global Supply Dynamics BV,"PSC 3100, Box 6791 APO AP 81737",Belgium,Anna De Clercq,True,Low,0.0
+SUP-c888e987,TechSupply GmbH,Milan-Weihmann-Platz 6 36311 Rudolstadt,Germany,Anna Müller,True,Low,15.0
+SUP-c92b33fe,Veredas do Sertão Ltda.,Vereda Ana Carolina Garcia Serra Do Curral 61675-827 Sá de Rios / GO,Brazil,Pedro Luiz Ferreira,True,Medium,25.0
+SUP-dcd1048a,Kvalitný Dobyv Skal,Vápenná 4 938 40 Olejníkov,Slovakia,Jana Novák,True,Low,0.0
+SUP-31b021e8,Optima Logistics Solutions GmbH,Henschelplatz 53 71037 Parchim,Germany,Anna Müller,True,Low,15.0
+SUP-25de762f,České záchranné služby a vybavení s.r.o.,Hasičská 12 477 74 Hrotovice,Czech Republic,Jana Nováková,True,Medium,20.0
+SUP-735055ac,Ireland Precision Components Ltd,32 McFall Street H24 CRYX Grant Ville,Ireland,Eamon O'Leary,False,Low,0.0
+SUP-b23233be,OptiTech Solutions GmbH,Alicia-Köster-Ring 795 10382 Sternberg,Germany,Max Mustermann,True,Medium,25.0
+SUP-9fcd2885,OptiSupply GmbH,Schenkallee 605 66218 Marktheidenfeld,Germany,Anna Weber,True,Low,15.0
+SUP-12c5d9c1,Maverick Machinery Inc.,"3947 Munoz Ford Apt. 460 Port Gabriellachester, PW 35289",United States,Evelyn Thorne,True,High,25.0
+SUP-791e70d4,EuroTech Solutions SA,"4, boulevard Lefèvre 41244 Sainte Maryse",Luxembourg,Claire Dubois,True,High,25.0
+SUP-c8d8e118,Estonian Marine Solutions Ltd,"04290 Arro Locks Suite 236 North Niinaport, NY 78158",Estonia,Andra Kiviste,True,Low,0.0
+SUP-4973df09,"Tech Innovators Co., Ltd.",전라북도 청주시 상당구 반포대가 101-33,South Korea,Lee Sun-ho,True,Low,0.0
+SUP-e207c286,Vertriebsgesellschaft GmbH & Co. KG,Södingring 177 78877 Luckau,Germany,Anna Müller,True,Low,15.0
+SUP-c3f1c2da,Ostwind Materialien GmbH,Oestrovskygasse 992 37498 Tecklenburg,Germany,Hans Müller,True,Low,15.0
+SUP-02e8db01,Innovadora S.A.,"Cr. 2ª # 4-58 Sur 858798 Pore, Casanare",Colombia,Juan Carlos Méndez,True,Medium,25.0
+SUP-f39c5427,Suppliers GmbH & Co KG,Döhnweg 30/99 97389 Luckenwalde,Germany,Anna Müller,True,High,40.0
+SUP-3a2a0fab,FosterTech Supplies Ltd,365 Fletcher street Fostertown N6T 7YJ,United Kingdom,Emma Thompson,False,High,25.0
+SUP-0b60c0ab,Hochwertige Rohstoffe GmbH,Steckelstraße 8/2 68961 Teterow,Germany,Anna Müller,True,Low,15.0
+SUP-79c48927,Pacific Solar Innovations Ltd,"908 Morrison Lights West Debbie, ID 06696",Singapore,Emily Tan,True,Low,0.0
+SUP-a0c87085,TechnoSupply GmbH,Gierschnerallee 4-3 99653 Weißwasser,Germany,Anna Müller,False,Low,25.0
+SUP-b2cf0670,Creative Solutions Ltd,Studio 28r Lesley corner East Sheila SO9 8YD,United Kingdom,Lesley J. Shepherd,True,Low,0.0
+SUP-fbcdb05b,TechSupply Solutions GmbH,Meistergasse 42 20157 Kulmbach,Germany,Anna Müller,True,Medium,25.0
+SUP-1949ba54,Hersteltechnik GmbH,Gotthilf-Koch II-Allee 90 75598 Bremervörde,Germany,Hans Müller,True,Low,15.0
+SUP-b7eb23ec,Suppliers GmbH,Maik-Hecker-Allee 9869 24871 Kehl,Germany,Anna Müller,True,Low,15.0
+SUP-11af46af,Mittelstand-Logistik GmbH,Weinholdstraße 3/7 45356 Brand,Germany,Anna Becker,True,Low,15.0
+SUP-2819a87c,Aardrijkskundige Producten N.V.,Milanpad 96 9700 AV Pingjum,Netherlands,Johan van der Meer,True,Low,0.0
+SUP-0e737f61,TechSupply Solutions GmbH,Mudeplatz 9-2 45656 Passau,Germany,Anna Müller,True,High,40.0
+SUP-45b218a6,EuroChem Distributors NV,"88940 Alain Stravenue Apt. 740 Port Stéphanie, AR 01774",Belgium,Marcel Van de Voorde,True,Low,0.0
+SUP-c2aa978f,New Horizon Supply Co.,4 Tautangi Heights RD 5 Logan Hill 7822,New Zealand,Eleanor Thompson,True,High,25.0
+SUP-8c24af93,Quantum Precision Components GmbH,Schröderplatz 5/2 6760 Klosterneuburg,Austria,Anna Fischer,True,Low,0.0
+SUP-e0606575,Hofmann's Precision Components GmbH,Nagelstr. 9 4244 Hainburg an der Donau,Austria,Michaela Schneider,True,Low,0.0
+SUP-e0f3bbad,OptiTech Solutions GmbH,Justine-Mielcarek-Gasse 5-2 31153 Altentreptow,Germany,Anna Weber,True,Low,15.0
+SUP-fe67c71e,Herstel-Technik GmbH,Francis-Davids-Ring 89/65 72189 Zeulenroda,Germany,Anna Müller,True,Low,15.0
+SUP-59361bb3,Éléments Artisans de la Chaîne,"89, chemin Boucher 69217 Saint Odette",France,Marie-Jeanne Dubois,True,Low,0.0
+SUP-03f06eef,NaturaSupply GmbH,Linda-Nohlmans-Straße 71-64 81339 Bremervörde,Germany,Anna Müller,True,Medium,25.0
+SUP-0bfdaac0,Comercialización Innovadora S.A.,"Cuesta de Sonia Gisbert 235 Piso 0 Murcia, 45655",Uruguay,María Elena Campos,True,Low,15.0
+SUP-d5b1c1b8,TerraFirma Italia srl,"Viale Rossi, 54 Piano 4 09078, Sennariolo (OR)",Italy,Giovanna Rossi,False,High,25.0
+SUP-26fc153f,Hersteltechnik GmbH,Monique-Gutknecht-Platz 35/93 61738 Burg,Germany,Monica Gutknecht,True,Low,15.0
+SUP-200e696c,FinTech Solutions Ltd.,Lipského 5 853 01 Fintice,Slovakia,Jan Novak,True,Low,0.0
+SUP-8e697275,Vertriebspartner GmbH,Heimo-Oestrovsky-Ring 77-74 59501 Gütersloh,Germany,Anna Becker,True,Low,15.0
+SUP-9c7e592a,OptiTech Solutions GmbH,Staudeweg 199 61154 Dinslaken,Germany,Anna Müller,True,Low,15.0
+SUP-d5c45b64,TechInnovate Solutions Ltd.,Bajai köz 77. H-8592 Békésháthalas,Hungary,Andrea Kovacs,True,High,25.0
+SUP-fe96227b,Bolnaya Rapid Solutions,"37219 Болен Rapid West Пелай, SD 81551",Bulgaria,Ivan Petrov,True,Medium,10.0
+SUP-9f4d7f0c,TechSupply Solutions GmbH,Pölitzweg 5811 12360 Sömmerda,Germany,Anna Müller,True,Medium,25.0
+SUP-88f776b6,Global Precision Supplies Pvt Ltd,236 Bail Zila Narasaraopet 737967,India,Ravi Kumar Singh,True,Low,30.0
+SUP-dbe262ef,TechSupply Solutions GmbH,Dörrallee 4/6 61222 Gütersloh,Germany,Anna Müller,True,Low,15.0
+SUP-54216b22,RomTech Innovations Ltd.,"Bulevardul Dochioiu Nr. 906 Bl. 62  Sc. 78 Ap. 482 Sabaoani, 319024",Romania,Ana Maria Petru,False,Low,0.0
+SUP-2ea6c704,Heritage Harvest Supplies,"210 Roman Wall Mcculloughmouth, MB R7Y 9V7",Canada,Emma Thompson,True,Low,0.0
+SUP-a0a69b80,Latvian Tech Solutions Ltd,"299 Balode Center Suite 610 Strazdiņštown, NV 57953",Latvia,Andris Pūčkis,True,Low,0.0
+SUP-52ce241f,Hersteltechnik GmbH,Fabian-Nohlmans-Gasse 5/3 85384 Riesa,Germany,Anna Becker,True,Medium,25.0
+SUP-fed7499e,TechnoSupply CZ s.r.o.,Rýmařovská 4 769 07 Potštát,Czech Republic,Jiří Novák,True,Low,0.0
+SUP-72589b92,SwissPrecision Solutions,Bianchistrasse 29 2576 Versoix,Switzerland,Marie-Pierre Dubois,True,Medium,10.0
+SUP-ca6acbcb,Finland Tech Innovations Ltd,Uskalikonkuja 531 15345 Soini,Finland,Jarmo Kallioniemi,False,Low,0.0
+SUP-555eadb3,TechSupply Solutions GmbH,Ruben-Striebitz-Platz 7 08717 Rastatt,Germany,Anna Müller,True,Medium,25.0
+SUP-677cab27,TechSupplies GmbH,Davidsstr. 2494 88334 Büsingen am Hochrhein,Germany,Anna Müller,True,Low,15.0
+SUP-4ccc28f8,Tres Estrellas S.A.,"Av. Tierra del Fuego N° 34 Piso 5 Dto. 4 La Plata 1900, Buenos Aires",Argentina,Luisa Fernanda Montenegro,True,Low,15.0
+SUP-f7aa1d19,Innovative Solutions GmbH,Cristina-Junk-Platz 8285 17059 Neunburg vorm Wald,Germany,Anna Schmidt,True,Medium,25.0
+SUP-24bdfd52,Suppléa Fournitures,"7633 Lefèbvre Shores New Cédric, FM 92078",Belgium,Jean-Michel Dubois,True,Medium,10.0
+SUP-28af0534,Arte e Stile Srl,"Contrada Palladio, 971 Appartamento 60 21026, Gavirate (VA)",Italy,Luca Romano,False,Low,0.0
+SUP-c0ba57fc,Hersteltechnik GmbH,Eckbauergasse 9 28119 Oranienburg,Germany,Anna Schmidt,True,Medium,25.0
+SUP-7db396b1,AdriaTech Supplies,Jagodnjak 4a 46836 Zadar,Croatia,Marko Kovacevic,True,Low,0.0
+SUP-e87805e3,OptiTech Solutions GmbH,Josephine-Gude-Straße 90-76 65470 Hünfeld,Germany,Margaret Schmidt,True,Low,15.0
+SUP-eaaca603,Suprimentos Eletrônicos Brasil LTDA,"Pátio de Costela, 644 Vila Nova Dos Milionarios 89650-551 da Paz / TO",Brazil,Maria Augusta Alves Santos,True,Medium,25.0
+SUP-342d519f,TechInnovations GmbH,Lilian-Zahn-Platz 18 37429 Flöha,Germany,Anna Müller,True,High,40.0
+SUP-769e3b94,TechSupply Solutions GmbH,Bährplatz 6661 01403 Vilsbiburg,Germany,Anna Müller,True,Medium,25.0
+SUP-35e2be79,Mittelständischer Handel GmbH,Tlustekplatz 18/95 45988 Gerolzhofen,Germany,Hans Müller,True,Medium,25.0
+SUP-7cdcb70b,OptiTech Industrie-Systeme GmbH,Kraushaarallee 8/7 77494 Aue,Germany,Anna Wagner,True,Low,15.0
+SUP-c9f959df,Netherlands Precision Components NV,Bastiaanbaan 344 1942ED Diever,Netherlands,Lars de Groot,True,Medium,10.0
+SUP-1e2df0ad,Mittelklasse-Hersteller GmbH,Georgios-Bonbach-Gasse 8-7 02076 Uelzen,Germany,Anna Müller,True,High,40.0
+SUP-f86986df,GoslarTech Solutions GmbH,Scheelstraße 43/55 26851 Goslar,Germany,Anna Müller,True,Medium,25.0
+SUP-35e6a67b,EcoSolutions AG,Felberstrasse 19 5531 Nyon,Switzerland,Marie Dupont,True,Low,0.0
+SUP-9abd60ea,Suppliers of Excellence Tunisie,"358, avenue Boyer 90584 Leroux",Tunisia,Mouna Ben Salah,True,Low,30.0
+SUP-e29eb08c,Optima Supply Solutions GmbH,Erna-Schacht-Straße 932 67519 Schwerin,Germany,Anna Müller,True,Low,15.0
+SUP-2fdc9c4b,Kontakt Společnost,Thurnova 8 762 17 Chřibská,Czech Republic,Jana Novak,True,Medium,10.0
+SUP-d83ecb47,EcoSupply LTDA,"Av Vaz, 78 2937-448 Lisboa",Portugal,Ana Sofia Fernandes,True,Medium,10.0
+SUP-7efd9e4f,Suplier Teknologi Inovasi,"Jalan Sadang Serang No. 389 Sibolga, Sulawesi Tenggara 08118",Indonesia,Rina Dewi Sari,True,Low,30.0
+SUP-78cb4845,Mittelhäusern GmbH,Röhrdanzweg 4 12309 Lichtenfels,Germany,Anna Schmidt,True,Medium,25.0
+SUP-5c5542fb,DeliverPro Perú S.A.C.,"Pasadizo de Débora Amat 59 Piso 6 Madrid, 47287",Peru,Ana María Pérez Gómez,True,Low,15.0
+SUP-49cf6baf,Querfurt Technologie GmbH,Liebeltgasse 2-1 07180 Querfurt,Germany,Anna Müller,False,Medium,25.0
+SUP-eab3e10c,Vertriebspartner GmbH,Hanne-Lore-Siering-Weg 14/53 90143 Warendorf,Germany,Hans Müller,True,High,40.0
+SUP-46d916b1,Optima Supplies GmbH,Hessering 53 04667 Bad Langensalza,Germany,Anna Müller,True,Medium,25.0
+SUP-2d89fb59,Müller & Partner GmbH,Pärtzeltring 939 09308 Mühlhausen,Germany,Anna Müller,True,Low,15.0
+SUP-6047ac25,Comércio e Logística Amareleira,"Praça de Leal, 88 0851-300 Amarante",Portugal,Maria do Carmo Silva,True,Low,0.0
+SUP-89966013,Hilltop Agricultural Supplies LLC,"751 Wagner Hollow Apt. 995 New Douglas, AL 59715",United States,Emily Thompson,True,Low,0.0
+SUP-b4efd1d7,Nature's Harvest Supply Co.,"19071 Jimenez Land Suite 052 Claudiashire, MB V2E1J3",Canada,Emily Thompson,True,Low,0.0
+SUP-3c8c9993,Estonian Precision Components,"29498 Viktor Fall Apt. 745 Tammeport, IN 56047",Estonia,Andra Kiviste,True,Low,0.0
+SUP-a7832de5,Marek Dolenčič Sklad,Na Rojah 2a 3401 Piran,Slovenia,Jasna Horvat,True,Low,0.0
+SUP-e91ab8b3,Vertriebs GmbH & Co. KG,Pascale-Stahr-Platz 8 27364 Sondershausen,Germany,Hans Müller,True,Low,15.0
+SUP-aafcb2f8,Hersteller GmbH,Wolf-Tlustek-Platz 63/48 45997 Sebnitz,Germany,Anna Schmidt,True,Medium,25.0
+SUP-7bee96e1,Élément Chimique SA,chemin Pasquier 30910 Morvan-sur-Collet,Luxembourg,Jean-Pierre Leclair,True,Low,0.0
+SUP-530ffafe,ΠολυΕιδικά Κέραμα,"Κεραματών 4, ΤΚ 43333 Αθήνα",Greece,Μαρία Βενέγκη,False,Medium,10.0
+SUP-2ca7d6f1,Swiss Precision Components AG,Widmerstrasse 65 6088 Arth,Switzerland,Thomas Müller,True,Low,0.0
+SUP-e072e213,TechInnovations GmbH,Staudeallee 464 01763 Forchheim,Germany,Anna Müller,True,Low,15.0
+SUP-49723f25,Hersteltechnik GmbH,Janett-Söding-Allee 8/9 29539 Sangerhausen,Germany,Anna Müller,True,Low,15.0
+SUP-d660a5b9,TechSupply Solutions GmbH,Hans-Karl-Wende-Allee 9859 76351 Ludwigslust,Germany,Anna Müller,True,Low,15.0
+SUP-1cdc4016,Global Logistics Solutions,"PSC 1977, Box 2777 APO AE 66362",United Arab Emirates,Hamda Al-Mansoori,True,Medium,25.0
+SUP-a834dd9c,"EcoFresh Supplies Co., Ltd.",454/31 ถนนนาคสุทิน ต.หนองแสง อ.ซับใหญ่ จ.อุตรดิตถ์ 99940,Thailand,Sanya Thammasiri,True,Low,15.0
+SUP-2f651785,Branntweidemarkt GmbH,Katalin-Noack-Allee 891 38179 Warendorf,Germany,Klaus Müller,True,Medium,25.0
+SUP-ace5657e,Hersteller GmbH,Patrizia-Aumann-Ring 53-89 21913 Illertissen,Germany,Patrizia Aumann,False,High,40.0
+SUP-d496eb3d,Trübig Chemie GmbH,Trübstraße 82/81 23645 Forchheim,Germany,Hans Müller,True,Low,25.0
+SUP-7fbb8fe4,Casa del Maíz S.A.,"Via de Isabel Vall 65 Piso 8 Zaragoza, 16476",Spain,Ana García López,True,Low,0.0
+SUP-99811f39,Luxuriance Supplies SA,"51, avenue Humbert 26496 GuichardVille",Luxembourg,Jean-Pierre Moreau,True,High,25.0
+SUP-6cb4883c,Vertriebs GmbH,Kösterstraße 2 34167 Aachen,Germany,Anna Müller,True,Low,15.0
+SUP-df5351b0,Společnost ProTeplice,Čestmírova 3 339 86 Teplice,Czech Republic,Jan Novák,True,Low,0.0
+SUP-6485ce65,Gotha Industrial Supplies GmbH,Klotzplatz 21/43 51728 Gotha,Germany,Anna Schmidt,True,Medium,25.0
+SUP-f5f440cd,Latvia Tech Solutions Ltd.,"2843 Priede Plaza Tomsshire, TN 69104",Latvia,Anna Petronijevs,False,Low,0.0
+SUP-481ed54d,Górnica Export Spółka z o.o.,ul. Górnicza 044 80-345 Wałcz,Poland,Anna Nowak,True,Low,0.0
+SUP-04fb54b3,Suppliers & Distributors Chile,"Juan Torres 1859 Of. 2406 Chile Chico, Región de Aysén del General Carlos Ibáñez del Campo",Chile,María Fernanda Sánchez,True,High,40.0
+SUP-71835ef8,Eichstätter Vertriebs GmbH,Gabriel-Freudenberger-Allee 12-85 82850 Eichstätt,Germany,Anna Müller,True,Low,15.0
+SUP-64bd9887,Suppliers GmbH & Co. KG,Birgid-Hande-Straße 8-3 57337 Oberviechtach,Germany,Birgid Hande,True,Medium,25.0
+SUP-92d0da48,LuxuryTech Solutions S.A.,"4, boulevard de Durand 68535 Munoz",Luxembourg,Jean-Pierre Dubois,False,Low,0.0
+SUP-58224553,Tolmin Trade Supplies d.o.o.,Suhadolčanova ulica 70 0414 Tolmin,Slovenia,Janez Novak,True,Low,0.0
+SUP-ae2a9fc5,Suppliers & Associates S.A.,"Callejón de Cebrián Pereira 93 Navarra, 34939",Uruguay,Luisa Fernández de Rivera,True,High,40.0
+SUP-ace73ca2,TechSupply Solutions GmbH,Arzu-Junitz-Platz 4/7 64458 Gera,Germany,Anna Schneider,True,Medium,25.0
+SUP-17196e8b,Mellrichstadt Supplies GmbH,Stadelmannplatz 3 98460 Mellrichstadt,Germany,Anna Schmidt,True,Low,15.0
+SUP-ae63189e,Supremo Distribución S.A.,"Urbanización de Amílcar Batlle 2 Palencia, 24825",Venezuela,Isabel Fernández López,True,High,40.0
+SUP-44beba7f,Suppliers of Quality Products S.A.,"Circunvalación Norte Ocasio 371 612 San Conchita de la Montaña, MOR 57742",Mexico,José Miguel Fernández López,True,Medium,25.0
+SUP-25a08f8d,GreenTech Solutions NV,Jenniferboulevard 74 7367 VH Grashoek,Netherlands,Marcel Jansen,True,Low,0.0
+SUP-ac85c96c,Estonian Precision Components Ltd,"0736 Nadežda Row Apt. 393 Kivistikshire, AR 06031",Estonia,Andrey Ivanovich Petrov,True,Medium,10.0
+SUP-8b893a5e,EcoHarvest Supplies Ltd,44 Rayel Street T65 X6WV Caomhan Ville,Ireland,Margaret O'Sullivan,True,Low,0.0
+SUP-8f16b703,TechInnovations GmbH,Kadestraße 607 27963 Sebnitz,Germany,Anna Müller,True,Low,15.0
+SUP-25297dff,Empresa de Servicios Innovadores S.L.,"Calle de Josep Villalonga 93 Puerta 9 Lugo, 31136",Spain,Carlos Méndez,True,High,25.0
+SUP-d31dcd2f,Vietnam Precision Components Ltd.,"27 Lê Làng Thành phố JaneHuyện, 696864",Vietnam,Jane Huy,True,Low,15.0
+SUP-f69864c0,Swiss Precision Components AG,Meierstrasse 2 2854 Carouge,Switzerland,Ludwig Fischer,True,Low,0.0
+SUP-2bcb64b9,InovaTech s.r.o.,K Vodě 1 301 76 Světlá nad Sázavou,Czech Republic,Jana Novak,True,Low,0.0
+SUP-d4b3882d,OptiTech Solutions GmbH,Annekatrin-Staude-Allee 1-1 22087 Hünfeld,Germany,Annekatrin Staude,True,Medium,25.0
+SUP-49439d6f,GreenTech Supplies Ltd.,06 Tracy Street H12 YT7E Tonicha Ville,Ireland,Emily O'Connor,True,Low,0.0
+SUP-5fc8f158,Especialidades del Valle,"Via de Esteban Narváez 974 Cuenca, 04878",Peru,Juan Carlos Mendizábal,True,High,40.0
+SUP-935de865,Grafenauer Rohstoffe GmbH,Carmine-Förster-Allee 1-6 04892 Grafenau,Germany,Anna Müller,True,Low,15.0
+SUP-db22ca64,OptiTech Solutions GmbH,Hethurgasse 39 57107 Demmin,Germany,Anna Müller,True,Low,15.0
+SUP-f37582a8,OptiChem Solutions s.r.o.,Matenská 404 287 90 Staňkov,Czech Republic,Jana Novak,True,Medium,10.0
+SUP-6fb663c2,Tunturitalo Oy,Jätkäsaarenpolku 35 28903 Liperi,Finland,Mikko Kallio,True,Medium,10.0
+SUP-307c7e0f,TechSupply GmbH,Ullrichgasse 828 41699 Erbisdorf,Germany,Anna Müller,True,Low,15.0
+SUP-dd791f34,Vertriebs GmbH & Co KG,Carin-Nerger-Ring 6/4 88513 Gotha,Germany,Lars Becker,True,Low,15.0
+SUP-052180d7,Hydraulic Solutions A/S,Sætersdalgade 74 4584 Lundby,Denmark,Johan Nielsen,True,Medium,10.0
+SUP-b84bb2c6,EcoSupply GmbH,Rörrichtplatz 96-49 14986 Königs Wusterhausen,Germany,Julia Schmidt,True,Low,15.0
+SUP-3c5f2aeb,Meißen Innovations GmbH,Hörleweg 7/7 94481 Meißen,Germany,Anna Müller,True,High,40.0
+SUP-142893ff,TechSupply GmbH,Girschnerstr. 4-4 11183 Ludwigslust,Germany,Anna Müller,True,Low,15.0
+SUP-8ca8bae7,Suppliers GmbH,Christl-Hofmann-Weg 9-9 78310 Klötze,Germany,Anna Becker,True,Low,15.0
+SUP-7562c21f,Vertrauliche Buchhaltung GmbH,Steuerallee 4/5 54690 Stadtroda,Germany,Anna Müller,True,Medium,25.0
+SUP-9ec2ea9a,Hersteltechnik GmbH,Yilmaz-Spieß-Ring 4368 95138 Aue,Germany,Anna Meier,True,High,40.0
+SUP-052690a9,Astra Manufacturing Indonesia,"Jl. KH Amin Jasuta No. 1 Bukittinggi, Maluku 84467",Indonesia,Dr. Agustinus Prawiro M.Si.,True,Low,30.0
+SUP-7f19809c,TechSupply Solutions GmbH,Schülergasse 8/9 91037 Biedenkopf,Germany,Anna Müller,True,Low,15.0
+SUP-f7b28c6b,Herstellers GmbH,Jose-Pechel-Ring 9-7 05722 Sankt Goar,Germany,Anna Wagner,True,Medium,25.0
+SUP-2e75bb4f,Eckhaus GmbH,Eckbauerring 628 23642 Hainichen,Germany,Anna Müller,True,High,40.0
+SUP-4228189e,Hochleistungstechnik GmbH,Cosimo-Meister-Gasse 8 97942 Säckingen,Germany,Anna Becker,True,Low,15.0
+SUP-f374e72a,Innovative Solutions GmbH,Noackstr. 5/8 62577 Mettmann,Germany,Anna Becker,True,Low,15.0
+SUP-3dbd3b20,Hersteller GmbH & Co KG,Preißweg 1/4 99031 Badibling,Germany,Anna Müller,True,Low,15.0
+SUP-db388ee6,Naturprodukter AB,Granvägen 20 19468 Jönköping,Sweden,Lars Eriksson,True,High,25.0
+SUP-6b696345,OptiTech Solutions GmbH,Döringallee 528 60905 Karlsruhe,Germany,Anna Müller,True,Low,15.0

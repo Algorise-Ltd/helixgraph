@@ -9,9 +9,8 @@
 - country ([Text])
 - contactPerson ([Text])
 - isActive ([Boolean])
-- riskScore ([Number], 0-100 score)
 - financialHealth([Text], High, Medium, Low)
-- countryRisk([Text], High, Medium, Low)
+- riskScore ([Number], 0-100 score)
 
 **PO (Purchase Order)**
 - orderNumber ([Text]), Internal identifier - Primary Key)
@@ -41,6 +40,7 @@
 - hasAmendments ([Boolean])
 
 **Risk**
+- riskId ([Text], Internal identifier - Primary Key)
 - riskType ([Text], e.g., FinancialRisk)
 - riskDescription ([Text])
 - mitigationPlan ([Text])

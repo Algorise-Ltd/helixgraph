@@ -51,7 +51,7 @@ class RiskCalculator:
         return total_risk
 
     def calculate_financial_health_risk(self, financial_health_status):
-        if financial_health_status == "Low":
+        if financial_health_status == "High":
             return 25
         elif financial_health_status == "Medium":
             return 10
@@ -99,4 +99,10 @@ class RiskCalculator:
             spend_concentration_risk
         )
 
-        return min(total_risk, 100)
+        return {
+            "country_risk": country_risk,
+            "single_sourcing_risk": single_sourcing_risk,
+            "financial_health_risk": financial_health_risk,
+            "spend_concentration_risk": spend_concentration_risk,
+            "total_risk": min(total_risk, 100)
+        }
