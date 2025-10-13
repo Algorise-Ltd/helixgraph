@@ -1,6 +1,5 @@
 import json
 import ollama
-import traceback
 from faker import Faker
 import random
 import pandas as pd
@@ -15,6 +14,9 @@ OLLAMA_MODEL = 'granite4:micro'
 NUM_PRODUCTS = 100
 NUM_PURCHASES = 400
 NUM_SUPPLIERS = 200
+APPEND_MODE = False
+OVER_REP_PERCENT = 50
+UNDER_REP_PERCENT = 15
 
 
 # --- Comprehensive country -> Faker locale mapping ---
@@ -503,60 +505,183 @@ def generate_invoices(purchase_orders):
                 })
     return invoices
 
-def check_spend_distribution(purchase_orders, products):
+def generate_single_po_item(po_number, supplier, order_date, cost_center, product):
     """
-    Checks if the spend distribution across the main categories is within the desired range.
+    Generates a single purchase order item.
+    """
+    fake = Faker()
+    quantity = random.randint(1, 100)
+    unit_price = round(random.uniform(10, 1000), 2)
+    delivery_date = order_date + timedelta(days=random.randint(7, 60))
+    
+    status = random.choices(['Draft', 'Pending Approval', 'Approved', 'Rejected', 'Issued', 'Partially Received', 'Delivered', 'Closed', 'Cancelled'], weights=[0.05, 0.05, 0.1, 0.05, 0.1, 0.1, 0.1, 0.4, 0.05], k=1)[0]
+    if status in ['Draft', 'Pending Approval', 'Approved', 'Rejected', 'Cancelled']:
+        still_to_be_delivered_qty = quantity
+        still_to_be_invoiced_qty = quantity
+    elif status in ['Issued', 'Partially Received']:
+        still_to_be_delivered_qty = random.randint(0, quantity)
+        still_to_be_invoiced_qty = random.randint(still_to_be_delivered_qty, quantity)
+    else: # Delivered, Closed
+        still_to_be_delivered_qty = 0
+        still_to_be_invoiced_qty = random.randint(0, quantity)
+
+    return {
+        'orderNumber': po_number,
+        'item': 1, # Assuming one item per new PO for simplicity
+        'dateIssued': order_date,
+        'dateChanged': order_date + timedelta(days=random.randint(1, 30)),
+        'orderStatus': status,
+        'orderTotalValue': quantity * unit_price,
+        'approvedBy': fake.name(),
+        'supplierVendorCode': supplier['vendorCode'],
+        'productSku': product['sku'],
+        'quantity': quantity,
+        'unitPrice': unit_price,
+        'deliveryDate': delivery_date,
+        'still_to_be_delivered_qty': still_to_be_delivered_qty,
+        'still_to_be_delivered_value': still_to_be_delivered_qty * unit_price,
+        'still_to_be_invoiced_qty': still_to_be_invoiced_qty,
+        'still_to_be_invoiced_value': still_to_be_invoiced_qty * unit_price,
+        'contractReference': f"CTR-{str(uuid.uuid4().hex)[:10]}" if random.random() < 0.3 else None,
+        'paymentTerms': random.choice(['Net 30', 'Net 60', 'Net 90']),
+        'requisitioner': fake.name(),
+        'costCenter': cost_center,
+    }
+
+def balance_spend_distribution(purchase_orders, products, suppliers, max_iterations=10):
+    """
+    Balances the spend distribution across main categories by adding or removing purchase orders.
     """
     po_df = pd.DataFrame(purchase_orders)
     products_df = pd.DataFrame(products)
-    merged_df = pd.merge(po_df, products_df, left_on='productSku', right_on='sku')
     
-    total_spend = merged_df['orderTotalValue'].sum()
-    category_spend = merged_df.groupby('category_L1')['orderTotalValue'].sum()
-    
-    spend_distribution = (category_spend / total_spend) * 100
-    print("\n--- Spend Distribution Check ---")
-    print(spend_distribution)
-    
-    for category, percentage in spend_distribution.items():
-        if not (15 <= percentage <= 50):
-            print(f"Spend for category '{category}' is {percentage:.2f}%, which is outside the 15-50% range.")
-            return False
+    for i in range(max_iterations):
+        merged_df = pd.merge(po_df, products_df, left_on='productSku', right_on='sku')
+        total_spend = merged_df['orderTotalValue'].sum()
+        if total_spend == 0:
+            return po_df.to_dict('records')
             
-    print("Spend distribution is within the desired range.")
-    return True
+        category_spend = merged_df.groupby('category_L1')['orderTotalValue'].sum()
+        spend_distribution = (category_spend / total_spend) * 100
+        
+        print(f"\n--- Iteration {i+1}: Spend Distribution Check ---")
+        print(spend_distribution)
+        
+        under_represented = spend_distribution[spend_distribution < UNDER_REP_PERCENT]
+        over_represented = spend_distribution[spend_distribution > OVER_REP_PERCENT]
+        
+        if under_represented.empty and over_represented.empty:
+            print("Spend distribution is within the desired range.")
+            return po_df.to_dict('records')
+
+        # Add POs for under-represented categories
+        for category, percentage in under_represented.items():
+            spend_needed = ((UNDER_REP_PERCENT/100) * total_spend) - category_spend.get(category, 0)
+            products_in_cat = products_df[products_df['category_L1'] == category]
+            if products_in_cat.empty:
+                continue
+            
+            added_spend = 0
+            while added_spend < spend_needed:
+                product = products_in_cat.sample(1).iloc[0]
+                supplier = random.choice(suppliers)
+                fake = Faker()
+                order_date = fake.date_time_between(start_date='-2y', end_date='now')
+                po_number = f"PO-ADJ-{str(uuid.uuid4().hex)[:8]}"
+                cost_center = f"CC-{random.randint(100, 180)}"
+                
+                new_po_item = generate_single_po_item(po_number, supplier, order_date, cost_center, product)
+                
+                po_df = pd.concat([po_df, pd.DataFrame([new_po_item])], ignore_index=True)
+                added_spend += new_po_item['orderTotalValue']
+
+        # Remove POs from over-represented categories
+        for category, percentage in over_represented.items():
+            spend_to_remove = category_spend[category] - ((OVER_REP_PERCENT/100) * total_spend)
+            
+            merged_df_for_removal = pd.merge(po_df, products_df, left_on='productSku', right_on='sku')
+            pos_in_cat = merged_df_for_removal[merged_df_for_removal['category_L1'] == category]
+            
+            pos_to_remove = pos_in_cat.sort_values('orderTotalValue', ascending=True)
+            
+            removed_spend = 0
+            for idx, po_to_remove in pos_to_remove.iterrows():
+                if removed_spend >= spend_to_remove:
+                    break
+                
+                order_number_to_remove = po_to_remove['orderNumber']
+                
+                po_spend = po_df[po_df['orderNumber'] == order_number_to_remove]['orderTotalValue'].sum()
+
+                po_df = po_df[po_df['orderNumber'] != order_number_to_remove]
+                removed_spend += po_spend
+
+    print("Could not balance spend distribution within max iterations.")
+    return po_df.to_dict('records')
 
 if __name__ == '__main__':
     script_dir = os.path.dirname(os.path.abspath(__file__))
     ontology_path = os.path.join(script_dir, '../../ontologies/procurement_v0.9.md')
     country_locales, _locale_report = sanitize_country_locales(country_locales)
 
-    while True:
-        # 1. Parse Categories
-        categories = parse_categories(ontology_path)
+    suppliers_data = []
+    products_data = []
+    po_data = []
+    invoice_data = []
 
-        # 2. Generate Products
-        print("\n--- Generating Products ---")
-        products_data = generate_products_with_ollama(categories, NUM_PRODUCTS)
+    if APPEND_MODE:
+        print("\n--- APPEND MODE ON: Loading existing data ---\n")
+        try:
+            suppliers_data = pd.read_csv(os.path.join(script_dir, 'suppliers.csv')).to_dict('records')
+            print(f"Loaded {len(suppliers_data)} existing suppliers.")
+        except FileNotFoundError:
+            print("No existing suppliers.csv found.")
+            pass
+        try:
+            products_data = pd.read_csv(os.path.join(script_dir, 'products.csv')).to_dict('records')
+            print(f"Loaded {len(products_data)} existing products.")
+        except FileNotFoundError:
+            print("No existing products.csv found.")
+            pass
+        try:
+            po_data = pd.read_csv(os.path.join(script_dir, 'purchase_orders.csv')).to_dict('records')
+            print(f"Loaded {len(po_data)} existing purchase orders.")
+        except FileNotFoundError:
+            print("No existing purchase_orders.csv found.")
+            pass
+        try:
+            invoice_data = pd.read_csv(os.path.join(script_dir, 'invoices.csv')).to_dict('records')
+            print(f"Loaded {len(invoice_data)} existing invoices.")
+        except FileNotFoundError:
+            print("No existing invoices.csv found.")
+            pass
 
-        # 3. Generate Suppliers
-        print("--- Generating Suppliers ---")
-        # call the sanitizer once at startup and overwrite the mapping with the cleaned one
-        suppliers_data = generate_suppliers_with_ollama(NUM_SUPPLIERS)
+    # 1. Parse Categories
+    categories = parse_categories(ontology_path)
 
-        # 4. Generate Purchase Orders
-        print("\n--- Generating Purchase Orders ---")
-        po_data = generate_purchase_orders(suppliers_data, products_data, NUM_PURCHASES)
+    # 2. Generate Products
+    print("\n--- Generating Products ---")
+    new_products_data = generate_products_with_ollama(categories, NUM_PRODUCTS)
+    products_data.extend(new_products_data)
 
-        # 5. Check Spend Distribution
-        if check_spend_distribution(po_data, products_data):
-            break # Exit loop if distribution is correct
-        else:
-            print("Retrying data generation to meet spend distribution requirements...")
+    # 3. Generate Suppliers
+    print("--- Generating Suppliers ---")
+    new_suppliers_data = generate_suppliers_with_ollama(NUM_SUPPLIERS)
+    suppliers_data.extend(new_suppliers_data)
+
+    # 4. Generate Purchase Orders
+    print("\n--- Generating Purchase Orders ---")
+    new_po_data = generate_purchase_orders(suppliers_data, products_data, NUM_PURCHASES)
+    po_data.extend(new_po_data)
+
+    # 5. Balance Spend Distribution
+    print("\n--- Balancing Spend Distribution ---")
+    po_data = balance_spend_distribution(po_data, products_data, suppliers_data)
 
     # 6. Generate Invoices
     print("\n--- Generating Invoices ---")
-    invoice_data = generate_invoices(po_data)
+    new_invoice_data = generate_invoices(new_po_data)
+    invoice_data.extend(new_invoice_data)
 
     # 7. Calculate Risk Score
     print("\n--- Calculating Risk Scores ---")
@@ -594,41 +719,47 @@ if __name__ == '__main__':
 
     risk_calculator = RiskCalculator(country_risk_map, company_total_spend=sum(po['orderTotalValue'] for po in po_data))
 
-    supplier_spend = {s['vendorCode']: 0 for s in suppliers_data}
-    for po in po_data:
-        supplier_spend[po['supplierVendorCode']] += po['orderTotalValue']
+    # Calculate total spend per critical item
+    po_df = pd.DataFrame(po_data)
+    products_df = pd.DataFrame(products_data)
+    suppliers_df = pd.DataFrame(suppliers_data)
 
-    for supplier in suppliers_data:
-        critical_items = []
-        if random.random() < 0.3:
-            num_critical = random.randint(1, 3)
-            for _ in range(num_critical):
-                critical_items.append({
-                    'supplier_spend': random.uniform(10000, 100000),
-                    'total_category_spend': random.uniform(100000, 200000)
+    critical_products = products_df[products_df['isCritical']]
+    merged_df = pd.merge(po_df, critical_products, left_on='productSku', right_on='sku')
+    total_item_spend = merged_df.groupby('productSku')['orderTotalValue'].sum().to_dict()
+
+    for i, supplier in suppliers_df.iterrows():
+        supplier_pos = po_df[po_df['supplierVendorCode'] == supplier['vendorCode']]
+        supplier_critical_items = pd.merge(supplier_pos, critical_products, left_on='productSku', right_on='sku')
+        
+        critical_items_for_risk_calc = []
+        if not supplier_critical_items.empty:
+            for sku, group in supplier_critical_items.groupby('productSku'):
+                supplier_spend_for_item = group['orderTotalValue'].sum()
+                total_spend_for_item = total_item_spend.get(sku, 0)
+                critical_items_for_risk_calc.append({
+                    'supplier_spend': supplier_spend_for_item,
+                    'total_item_spend': total_spend_for_item
                 })
 
         supplier_risk_data = {
             'country': supplier['country'],
             'financial_health_status': supplier['financialHealth'],
-            'total_spend': supplier_spend.get(supplier['vendorCode'], 0),
-            'critical_items': critical_items
+            'total_spend': supplier_pos['orderTotalValue'].sum(),
+            'critical_items': critical_items_for_risk_calc
         }
-        supplier['riskScore'] = risk_calculator.calculate_supplier_risk(supplier_risk_data)
+        suppliers_df.at[i, 'riskScore'] = risk_calculator.calculate_supplier_risk(supplier_risk_data)
 
     # 8. Save DataFrames
-    if suppliers_data:
-        suppliers_df = pd.DataFrame(suppliers_data)
+    if not suppliers_df.empty:
         suppliers_df.to_csv(os.path.join(script_dir, 'suppliers.csv'), index=False)
-        print(f"Successfully generated and saved {len(suppliers_data)} suppliers.")
-    if products_data:
-        products_df = pd.DataFrame(products_data)
+        print(f"Successfully generated and saved {len(suppliers_df)} suppliers.")
+    if not products_df.empty:
         products_df.to_csv(os.path.join(script_dir, 'products.csv'), index=False)
-        print(f"Successfully generated and saved {len(products_data)} products.")
-    if po_data:
-        po_df = pd.DataFrame(po_data)
+        print(f"Successfully generated and saved {len(products_df)} products.")
+    if not po_df.empty:
         po_df.to_csv(os.path.join(script_dir, 'purchase_orders.csv'), index=False)
-        print(f"Successfully generated and saved {len(po_data)} purchase orders.")
+        print(f"Successfully generated and saved {len(po_df)} purchase orders.")
     if invoice_data:
         invoice_df = pd.DataFrame(invoice_data)
         invoice_df.to_csv(os.path.join(script_dir, 'invoices.csv'), index=False)

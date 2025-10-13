@@ -26,14 +26,14 @@ class RiskCalculator:
         Args:
             critical_items (list): A list of dictionaries, where each dictionary represents a critical item and has:
                 - 'supplier_spend' (float)
-                - 'total_category_spend' (float)
+                - 'total_item_spend' (float)
         """
         single_sourced_items = []
         partially_sourced_items = []
 
         for item in critical_items:
-            if item['total_category_spend'] > 0:
-                spend_percentage = (item['supplier_spend'] / item['total_category_spend']) * 100
+            if item['total_item_spend'] > 0:
+                spend_percentage = (item['supplier_spend'] / item['total_item_spend']) * 100
                 if spend_percentage >= 90:
                     single_sourced_items.append(item)
                 elif 50 <= spend_percentage < 90:

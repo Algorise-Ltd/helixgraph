@@ -18,8 +18,8 @@ The supplier risk score is a value between 0 and 100, calculated from four facto
 #### 2. Single Sourcing Risk (Weight: 25%)
 - **Description:** Evaluates dependence on a single supplier for critical materials or services. This measure is calculated based on the number of critical items that are single-sourced or partially-sourced from the supplier.
 - **Scoring Logic:**
-  - A critical item is considered **Single-Sourced** if the supplier accounts for ≥ 90% of the annual spend for that item in the last 12 months.
-  - A critical item is considered **Partially-Sourced** if the supplier accounts for 50% to 89% of the annual spend for that item in the last 12 months.
+  - A critical item is considered **Single-Sourced** if the supplier accounts for ≥ 90% of the annual spend for that specific item (SKU) across all suppliers in the last 12 months.
+  - A critical item is considered **Partially-Sourced** if the supplier accounts for 50% to 89% of the annual spend for that specific item (SKU) across all suppliers in the last 12 months.
 - **Point Allocation:**
   - If there is at least one single-sourced critical item:
     - **25 points** for the first single-sourced item.
