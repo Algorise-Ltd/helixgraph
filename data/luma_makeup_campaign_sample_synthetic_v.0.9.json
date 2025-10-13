@@ -16,19 +16,19 @@
       "primary_kpi": "conversions"
     },
 
-    "metrics_total": {
-      "budget": 11250,
-      "impressions": 676627,
-      "clicks": 14509,
-      "views": 41654,
-      "engagement": 10418,
-      "open": null,
-      "ad_link_click": 151? /* replace on need */,
-      "sessions": 14810? /* replace on need */,
-      "conversions": 128? /* replace on need */,
-      "revenue_attributed": 31230,
-      "roas": 2.77
-    },
+  "metrics_total": {
+  "budget": 11250,
+  "impressions": 676628,
+  "clicks": 14509,
+  "views": 41654,
+  "engagement": 10418,
+  "open": null,
+  "ad_link_click": 14881,
+  "sessions": 13185,
+  "conversions": 347,
+  "revenue_attributed": 31230,
+  "roas": 2.78
+  }
 
     "ad_groups": [
       {
