@@ -1,0 +1,103 @@
+{  "meta": {
+    "version": "0.9",
+    "source": "Amazon Order Report Field Definitions, Google Analytics",
+    "note": "This order schema references the Amazon 'Order Report Field Definitions' as a baseline for global retailer standardization (https://sellercentral.amazon.com/help/hub/reference/external/G201648780?locale=en-US) and Google Analytics. It is designed to accommodate both 3rd-party marketplaces and brand-owned e-commerce websites, ensuring consistent tracking and attribution across multiple retail channels."
+  },
+
+  "OrderHeader": {
+    "order_id": "string (uuid)",
+    "order_datetime": "timestamptz",
+    "status": "enum [created, paid, shipped, delivered, cancelled, returned]",
+    "sales_channel": "string",
+    "currency_code": "string(ISO-4217)",
+
+    "totals": {
+      "subtotal": "decimal",
+      "shipping_fee": "decimal",
+      "discount": "decimal",
+      "tax": "decimal",
+      "grand_total": "decimal"
+    },
+
+    "customer": {
+      "customer_id": "string|null",
+      "email": "string|null",
+      "name": "string|null",
+      "phone": "string|null",
+      "membership": "string|null",
+
+      "demographics": {
+        "age_range": "string|null",
+        "gender": "enum [male, female, non_binary, undisclosed]|string|null",
+        "location": {
+          "country": "string(ISO-3166-1 alpha-2)|null",
+          "region": "string|null",
+          "city": "string|null"
+        }
+      },
+
+      "customer_type": "enum [new, returning]|string|null",
+      "first_purchase_date": "datetime|null",
+      "last_purchase_date": "datetime|null"
+    },
+
+    "shipping_address": {
+      "name": "string",
+      "line1": "string",
+      "line2": "string|null",
+      "city": "string",
+      "state_region": "string|null",
+      "postal_code": "string",
+      "country_code": "string(ISO-3166-1 alpha-2)"
+    },
+    "shipping_service_level": "string|null",
+
+    "timestamps": {
+      "paid_at": "timestamptz|null",
+      "shipped_at": "timestamptz|null",
+      "delivered_at": "timestamptz|null",
+      "cancelled_at": "timestamptz|null"
+    },
+
+    "behavior": {
+      "add_to_basket": "integer|null",
+      "click_to_pay": "boolean|null",
+      "session_duration_sec": "integer|null",
+      "conversion_time_sec": "integer|null"
+    },
+
+    "payment": {
+      "payment_method": "enum [credit_card, debit_card, paypal, klarna, apple_pay, google_pay, bank_transfer, cash_on_delivery, other]|string|null",
+      "payment_status": "enum [pending, completed, failed, refunded]|string|null",
+      "payment_provider": "string|null",
+      "payment_amount": "decimal|null",
+      "note": "Payment amount = quantity × ASP (Average Selling Price) = (quantity × RRP) − discount"
+    }
+  },
+
+  "OrderLine": {
+    "order_id": "string (uuid)",
+    "sku_id": "string (uuid)",
+    "sku_name": "string",
+    "quantity": "integer",
+    "unit_price_rrp": "decimal",
+    "unit_price_asp": "decimal",
+    "line_discount": "decimal",
+    "line_tax": "decimal",
+    "line_shipping_fee": "decimal|null",
+    "line_total_payment": "decimal",
+    "note": "Unit × RRP − line_discount = Unit × ASP = line_total_payment"
+  },
+
+  "OrderAttribution": {
+    "order_id": "string (uuid)",
+    "campaign_id": "string (uuid)",
+    "attribution_model": "enum [last_click, first_click, linear, time_decay]"
+  },
+
+  "Review": {
+    "rating": "integer|null",
+    "review_text": "string|null",
+    "liked": "boolean|null"
+  }
+}
