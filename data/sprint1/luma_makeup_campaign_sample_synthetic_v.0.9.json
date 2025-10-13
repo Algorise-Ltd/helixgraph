@@ -1,0 +1,3288 @@
+{
+  "campaign": {
+    "id": "b0fd9da3-72cb-524a-8916-f1a1a3759d7b",
+    "name": "luma_202501_conv",
+    "brand_name": "luma",
+    "category": "makeup",
+    "country": "de",
+
+    "start_date": "2025-01-01",
+    "end_date": "2025-01-31",
+    "status": "planned",
+    "objective": "conversion",
+    "currency": "eur",
+
+    "kpi_targets": {
+      "primary_kpi": "conversions"
+    },
+
+    "metrics_total": {
+      "budget": 11250,
+      "impressions": 676627,
+      "clicks": 14509,
+      "views": 41654,
+      "engagement": 10418,
+      "open": null,
+      "ad_link_click": 151? /* replace on need */,
+      "sessions": 14810? /* replace on need */,
+      "conversions": 128? /* replace on need */,
+      "revenue_attributed": 31230,
+      "roas": 2.77
+    },
+
+    "ad_groups": [
+      {
+        "id": "b0fd9da3-72cb-524a-8916-f1a1a3759d7b-1",
+        "name": "google ad group 1",
+
+        "start_date": "2025-01-01",
+        "end_date": "2025-01-31",
+
+        "media_platform": "google ads",
+        "channel": "search",
+        "ad_placement": "search network (text ads)",
+        "ad_format": "text",
+        "sem_keyword_type": "brand",
+
+        "audience_targeting": {},
+
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.71,
+        "budget": 7500,
+        "actual_spend": 7500,
+
+        "impressions": 487920,
+        "clicks": 10522,
+        "ctr": 2.16,
+        "views": null,
+        "vtr": null,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 10714,
+
+        "sessions": 9643,
+        "conversions": 255,
+        "conversion_rate": 2.64,
+        "revenue_attributed": 22950,
+        "roas": 3.06
+      },
+      {
+        "id": "b0fd9da3-72cb-524a-8916-f1a1a3759d7b-01",
+        "name": "meta ad set 1",
+
+        "start_date": "2025-01-01",
+        "end_date": "2025-01-31",
+
+        "media_platform": "meta ads",
+        "channel": "social",
+        "ad_placement": "ig/fb feed+stories (image/video)",
+        "ad_format": "video",
+        "sem_keyword_type": "null",
+
+        "audience_targeting": {
+          "retargeting": true,
+          "age_groups": ["18-44"],
+          "genders": ["female"],
+          "devices": [],
+          "include_audiences": [],
+          "exclude_audiences": [],
+          "interests": ["beauty", "fashion"],
+          "audience_type": "retargeting"
+        },
+
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.94,
+        "budget": 3750,
+        "actual_spend": 3750,
+
+        "impressions": 188707,
+        "clicks": 3987,
+        "ctr": 2.11,
+        "views": 41654,
+        "vtr": 22.07,
+        "engagement": 10418,
+        "engagement_rate": 5.00,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 4167,
+
+        "sessions": 3542,
+        "conversions": 92,
+        "conversion_rate": 2.59,
+        "revenue_attributed": 8280,
+        "roas": 2.21
+      }
+    ],
+
+    "provenance_note": "de/eu channel benchmarks were applied, ≤20% noise added per metric; typical media mix (search 35%, social 25%, email 20%, display 15%, affiliate 5%) with q4 spike; ai-assisted manual curation.",
+    "benchmark_notes": {
+      "market": "de/eu",
+      "sources": "industry benchmarks + internal assumptions",
+      "roas_ranges": {
+        "search": "3–6x",
+        "meta": "1.5–3x",
+        "gdn": "0.8–1.5x (prospecting), 2–4x (retargeting)"
+      },
+      "cpc_ctr": {
+        "google_search": { "ctr_percent": "1.5–3.5", "cpc_eur": "0.50–0.90", "notes": "non-brand baseline; brand/review terms ctr↑ cpc↑" },
+        "meta_social": { "ctr_percent": "1.3–2.5", "cpc_eur": "0.70–1.10", "notes": "feed/stories mix; catalog/ugc creative favorable" },
+        "gdn_display": { "ctr_percent": "0.10–0.15", "cpc_eur": "0.07–0.40", "notes": "retargeting more efficient; prospecting lower ctr" }
+      },
+      "example_calc": "search (beauty): aov €90, cvr 2.5%, cpc €0.70 ⇒ roas ≈ (€90×0.025)/€0.70 ≈ 3.2x",
+      "noise_policy": "per line item ≤20% perturbation on cpc/ctr/vtr/open-rate",
+      "seasonality": { "category": "makeup", "index": [90, 95, 105, 110, 100, 95, 90, 100, 110, 120, 140, 150] }
+    }
+  }
+}
+{
+  "campaign": {
+    "id": "3fc7b4da-ab62-5cbd-b000-ed5c82b09663",
+    "name": "luma_202501_influencer",
+    "brand_name": "luma",
+    "category": "makeup",
+    "country": "de",
+
+    "start_date": "2025-01-15",
+    "end_date": "2025-01-31",
+    "status": "planned",
+    "objective": "consideration",
+    "currency": "eur",
+
+    "kpi_targets": {
+      "primary_kpi": "ctr"
+    },
+
+    "metrics_total": {
+      "budget": 3750,
+      "impressions": 224270,
+      "clicks": 4520,
+      "views": 48403,
+      "engagement": 8334,
+      "open": null,
+      "ad_link_click": 4167,
+      "sessions": 3542,
+      "conversions": 50,
+      "revenue_attributed": 4500,
+      "roas": 1.2
+    },
+
+    "ad_groups": [
+      {
+        "id": "3fc7b4da-ab62-5cbd-b000-ed5c82b09663-1",
+        "name": "meta ad set 1",
+
+        "start_date": "2025-01-15",
+        "end_date": "2025-01-31",
+
+        "media_platform": "meta ads",
+        "channel": "social",
+        "ad_placement": "ig/fb feed+stories (image/video)",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+
+        "audience_targeting": {
+          "retargeting": false,
+          "age_groups": ["18-44"],
+          "genders": ["female"],
+          "devices": [],
+          "include_audiences": [],
+          "exclude_audiences": [],
+          "interests": ["beauty", "fashion"],
+          "audience_type": "prospecting"
+        },
+
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.83,
+        "budget": 3750,
+        "actual_spend": 3750,
+
+        "impressions": 224270,
+        "clicks": 4520,
+        "ctr": 2.02,
+        "views": 48403,
+        "vtr": 21.58,
+        "engagement": 8334,
+        "engagement_rate": 4.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 4167,
+
+        "sessions": 3542,
+        "conversions": 50,
+        "conversion_rate": 1.41,
+        "revenue_attributed": 4500,
+        "roas": 1.2
+      }
+    ],
+
+    "provenance_note": "de/eu channel benchmarks were applied, ≤20% noise added per metric; typical media mix (search 35%, social 25%, email 20%, display 15%, affiliate 5%) with q4 spike; ai-assisted manual curation.",
+    "benchmark_notes": {
+      "market": "de/eu",
+      "sources": "industry benchmarks + internal assumptions",
+      "roas_ranges": {
+        "search": "3–6x",
+        "meta": "1.5–3x",
+        "gdn": "0.8–1.5x (prospecting), 2–4x (retargeting)"
+      },
+      "cpc_ctr": {
+        "google_search": { "ctr_percent": "1.5–3.5", "cpc_eur": "0.50–0.90", "notes": "non-brand baseline; brand/review terms ctr↑ cpc↑" },
+        "meta_social": { "ctr_percent": "1.3–2.5", "cpc_eur": "0.70–1.10", "notes": "feed/stories mix; catalog/ugc creative favorable" },
+        "gdn_display": { "ctr_percent": "0.10–0.15", "cpc_eur": "0.07–0.40", "notes": "retargeting more efficient; prospecting lower ctr" }
+      },
+      "example_calc": "search (beauty): aov €90, cvr 2.5%, cpc €0.70 ⇒ roas ≈ (€90×0.025)/€0.70 ≈ 3.2x",
+      "noise_policy": "per line item ≤20% perturbation on cpc/ctr/vtr/open-rate",
+      "seasonality": { "category": "makeup", "index": [90, 95, 105, 110, 100, 95, 90, 100, 110, 120, 140, 150] }
+    }
+  }
+}
+{
+  "campaign": {
+    "id": "ac36b280-a2ca-5143-9809-b825b729e59d",
+    "name": "always_on_crm",
+    "brand_name": "luma",
+    "category": "makeup",
+    "country": "de",
+
+    "start_date": "2025-01-01",
+    "end_date": "2025-12-31",
+    "status": "planned",
+    "objective": "conversion",
+    "currency": "eur",
+
+    "kpi_targets": { "primary_kpi": "open_rate" },
+
+    "metrics_total": {
+      "budget": 0,
+      "impressions": null,
+      "clicks": null,
+      "views": null,
+      "engagement": null,
+      "open": 194400,
+      "ad_link_click": 14814,
+      "sessions": 13332,
+      "conversions": 294,
+      "revenue_attributed": 26460,
+      "roas": null
+    },
+
+    "ad_groups": [
+      {
+        "id": "ac36b280-a2ca-5143-9809-b825b729e59d-1",
+        "start_date": "2025-01-01",
+        "end_date": "2025-12-31",
+
+        "media_platform": "salesforce",
+        "channel": "email",
+        "ad_placement": "inbox (promotions/primary)",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+
+        "audience_targeting": {
+          "include_audiences": ["subscribers"],
+          "interests": [],
+          "audience_type": "crm"
+        },
+
+        "billing_type": "cpa",
+        "billing_unit_cost": null,
+        "budget": 0,
+        "actual_spend": 0,
+
+        "impressions": null,
+        "clicks": null,
+        "ctr": null,
+        "views": null,
+        "vtr": null,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": 194400,
+        "open_rate": 32.4,
+        "ad_link_click": 14814,
+
+        "sessions": 13332,
+        "conversions": 294,
+        "conversion_rate": 2.2,
+        "revenue_attributed": 26460,
+        "roas": null
+      }
+    ],
+
+    "provenance_note": "de/eu channel benchmarks were applied, ≤20% noise added per metric; typical media mix (search 35%, social 25%, email 20%, display 15%, affiliate 5%) with q4 spike; ai-assisted manual curation.",
+    "benchmark_notes": { "market": "de/eu", "sources": "industry benchmarks + internal assumptions" }
+  }
+}
+{
+  "campaign": {
+    "id": "cce92871-f122-59ec-a64e-0fa0a100fbf9",
+    "name": "luma_202502_valentine",
+    "brand_name": "luma",
+    "category": "makeup",
+    "country": "de",
+
+    "start_date": "2025-02-01",
+    "end_date": "2025-02-28",
+    "status": "planned",
+    "objective": "conversion",
+    "currency": "eur",
+
+    "kpi_targets": { "primary_kpi": "conversions" },
+
+    "metrics_total": {
+      "budget": 18000,
+      "impressions": 1053942,
+      "clicks": 23192,
+      "views": 121156,
+      "engagement": 22500,
+      "open": null,
+      "ad_link_click": 22857,
+      "sessions": 20071,
+      "conversions": 451,
+      "revenue_attributed": 40590,
+      "roas": 2.26
+    },
+
+    "ad_groups": [
+      {
+        "id": "cce92871-f122-59ec-a64e-0fa0a100fbf9-1",
+        "start_date": "2025-02-01",
+        "end_date": "2025-02-28",
+
+        "media_platform": "google ads",
+        "channel": "search",
+        "ad_placement": "search network (text ads)",
+        "ad_format": "text",
+        "sem_keyword_type": "brand",
+
+        "audience_targeting": {},
+
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.66,
+        "budget": 9000,
+        "actual_spend": 9000,
+
+        "impressions": 559633,
+        "clicks": 13551,
+        "ctr": 2.42,
+        "views": null,
+        "vtr": null,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 12857,
+
+        "sessions": 11571,
+        "conversions": 290,
+        "conversion_rate": 2.51,
+        "revenue_attributed": 26100,
+        "roas": 2.9
+      },
+      {
+        "id": "cce92871-f122-59ec-a64e-0fa0a100fbf9-2",
+        "start_date": "2025-02-01",
+        "end_date": "2025-02-28",
+
+        "media_platform": "meta ads",
+        "channel": "social",
+        "ad_placement": "ig/fb feed+stories (image/video)",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+
+        "audience_targeting": {
+          "retargeting": true,
+          "audience_type": "retargeting"
+        },
+
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.94,
+        "budget": 4500,
+        "actual_spend": 4500,
+
+        "impressions": 237911,
+        "clicks": 4777,
+        "ctr": 2.01,
+        "views": 63500,
+        "vtr": 26.69,
+        "engagement": 12500,
+        "engagement_rate": 5.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 5000,
+
+        "sessions": 4250,
+        "conversions": 104,
+        "conversion_rate": 2.45,
+        "revenue_attributed": 9360,
+        "roas": 2.08
+      },
+      {
+        "id": "cce92871-f122-59ec-a64e-0fa0a100fbf9-3",
+        "start_date": "2025-02-01",
+        "end_date": "2025-02-28",
+
+        "media_platform": "meta ads",
+        "channel": "social",
+        "ad_placement": "ig/fb feed+stories (image/video)",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+
+        "audience_targeting": {
+          "retargeting": false,
+          "age_groups": ["18-44"],
+          "genders": ["female"],
+          "interests": ["beauty", "fashion"],
+          "audience_type": "prospecting"
+        },
+
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.93,
+        "budget": 4500,
+        "actual_spend": 4500,
+
+        "impressions": 256398,
+        "clicks": 4864,
+        "ctr": 1.9,
+        "views": 57656,
+        "vtr": 22.49,
+        "engagement": 10000,
+        "engagement_rate": 4.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 5000,
+
+        "sessions": 4250,
+        "conversions": 57,
+        "conversion_rate": 1.34,
+        "revenue_attributed": 5130,
+        "roas": 1.14
+      }
+    ],
+
+    "provenance_note": "de/eu channel benchmarks were applied, ≤20% noise added per metric; typical media mix (search 35%, social 25%, email 20%, display 15%, affiliate 5%) with q4 spike; ai-assisted manual curation.",
+    "benchmark_notes": { "market": "de/eu", "sources": "industry benchmarks + internal assumptions" }
+  }
+}
+{
+  "campaign": {
+    "id": "d532849e-674f-52c0-b1c4-aaf446a8b59c",
+    "name": "luma_202502_spring",
+    "brand_name": "luma",
+    "category": "makeup",
+    "country": "de",
+
+    "start_date": "2025-03-01",
+    "end_date": "2025-03-03",
+    "status": "planned",
+    "objective": "consideration",
+    "currency": "eur",
+
+    "kpi_targets": { "primary_kpi": "vtr" },
+
+    "metrics_total": {
+      "budget": 10000,
+      "impressions": null,
+      "clicks": null,
+      "views": 150000,
+      "engagement": 50000,
+      "open": null,
+      "ad_link_click": 75000,
+      "sessions": 6750,
+      "conversions": 1688,
+      "revenue_attributed": 173750,
+      "roas": 6.95
+    },
+
+    "ad_groups": [
+      {
+        "id": "d532849e-674f-52c0-b1c4-aaf446a8b59c-1",
+        "start_date": "2025-03-01",
+        "end_date": "2025-03-03",
+
+        "media_platform": "meta ads",
+        "channel": "social",
+        "ad_placement": "",
+        "ad_format": "video",
+        "sem_keyword_type": "null",
+
+        "audience_targeting": {
+          "retargeting": false,
+          "age_groups": ["18-44"],
+          "genders": ["female"],
+          "interests": ["beauty", "fashion"],
+          "audience_type": "prospecting"
+        },
+
+        "billing_type": "flat",
+        "billing_unit_cost": 10000,
+        "budget": 10000,
+        "actual_spend": 10000,
+
+        "impressions": null,
+        "clicks": null,
+        "ctr": null,
+        "views": 150000,
+        "vtr": null,
+        "engagement": 50000,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 75000,
+
+        "sessions": 6750,
+        "conversions": 1688,
+        "conversion_rate": 25.0,
+        "revenue_attributed": 173750,
+        "roas": 6.95
+      }
+    ],
+
+    "provenance_note": "de/eu channel benchmarks were applied, ≤20% noise added per metric; typical media mix (search 35%, social 25%, email 20%, display 15%, affiliate 5%) with q4 spike; ai-assisted manual curation.",
+    "benchmark_notes": { "market": "de/eu", "sources": "industry benchmarks + internal assumptions" }
+  }
+}
+{
+  "campaign": {
+    "id": "40b36005-de1f-5958-b54b-65e924648cbd",
+    "name": "luma_202503_klaviyo-crm",
+    "brand_name": "luma",
+    "category": "makeup",
+    "country": "de",
+
+    "start_date": "2025-03-01",
+    "end_date": "2025-03-31",
+    "status": "planned",
+    "objective": "conversion",
+    "currency": "eur",
+
+    "kpi_targets": { "primary_kpi": "open_rate" },
+
+    "metrics_total": {
+      "budget": 0,
+      "impressions": null,
+      "clicks": null,
+      "views": null,
+      "engagement": null,
+      "open": 58320,
+      "ad_link_click": 4443,
+      "sessions": 3999,
+      "conversions": 92,
+      "revenue_attributed": 8280,
+      "roas": null
+    },
+
+    "ad_groups": [
+      {
+        "id": "40b36005-de1f-5958-b54b-65e924648cbd-1",
+        "start_date": "2025-03-01",
+        "end_date": "2025-03-31",
+
+        "media_platform": "klaviyo",
+        "channel": "email",
+        "ad_placement": "inbox (promotions/primary)",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+
+        "audience_targeting": {
+          "include_audiences": ["subscribers"],
+          "audience_type": "crm"
+        },
+
+        "billing_type": "cpa",
+        "billing_unit_cost": null,
+        "budget": 0,
+        "actual_spend": 0,
+
+        "impressions": null,
+        "clicks": null,
+        "ctr": null,
+        "views": null,
+        "vtr": null,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": 58320,
+        "open_rate": 32.4,
+        "ad_link_click": 4443,
+
+        "sessions": 3999,
+        "conversions": 92,
+        "conversion_rate": 2.31,
+        "revenue_attributed": 8280,
+        "roas": null
+      }
+    ],
+
+    "provenance_note": "de/eu channel benchmarks were applied, ≤20% noise added per metric; typical media mix (search 35%, social 25%, email 20%, display 15%, affiliate 5%) with q4 spike; ai-assisted manual curation.",
+    "benchmark_notes": { "market": "de/eu", "sources": "industry benchmarks + internal assumptions" }
+  }
+}
+{
+  "campaign": {
+    "id": "8f6e45c7-6f08-59d1-9265-da5b2fc6abea",
+    "name": "luma_202503_spring-launch",
+    "brand_name": "luma",
+    "category": "makeup",
+    "country": "de",
+
+    "start_date": "2025-03-01",
+    "end_date": "2025-03-31",
+    "status": "planned",
+    "objective": "awareness",
+    "currency": "eur",
+
+    "kpi_targets": { "primary_kpi": "ctr" },
+
+    "metrics_total": {
+      "budget": 50000,
+      "impressions": 2982540,
+      "clicks": 64994,
+      "views": 379218,
+      "engagement": 75044,
+      "open": null,
+      "ad_link_click": 60962,
+      "sessions": 25299,
+      "conversions": 452,
+      "revenue_attributed": 40236,
+      "roas": 0.8
+    },
+
+    "ad_groups": [
+      {
+        "id": "8f6e45c7-6f08-59d1-9265-da5b2fc6abea-1",
+        "start_date": "2025-03-01",
+        "end_date": "2025-03-31",
+
+        "media_platform": "google ads",
+        "channel": "search",
+        "ad_placement": "search network (text ads)",
+        "ad_format": "text",
+        "sem_keyword_type": "brand",
+
+        "audience_targeting": {},
+
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.7,
+        "budget": 15000,
+        "actual_spend": 15000,
+
+        "impressions": 869361,
+        "clicks": 21493,
+        "ctr": 2.47,
+        "views": null,
+        "vtr": null,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 19286,
+
+        "sessions": 506,
+        "conversions": 3,
+        "conversion_rate": null,
+        "revenue_attributed": 45540,
+        "roas": 3.03
+      },
+      {
+        "id": "8f6e45c7-6f08-59d1-9265-da5b2fc6abea-2",
+        "start_date": "2025-03-01",
+        "end_date": "2025-03-31",
+
+        "media_platform": "google ads",
+        "channel": "search",
+        "ad_placement": "search network (text ads)",
+        "ad_format": "text",
+        "sem_keyword_type": "generic",
+
+        "audience_targeting": {},
+
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.67,
+        "budget": 10000,
+        "actual_spend": 10000,
+
+        "impressions": 630744,
+        "clicks": 14894,
+        "ctr": 2.36,
+        "views": null,
+        "vtr": null,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 12857,
+
+        "sessions": 297,
+        "conversions": 2,
+        "conversion_rate": null,
+        "revenue_attributed": 26730,
+        "roas": 2.67
+      },
+      {
+        "id": "8f6e45c7-6f08-59d1-9265-da5b2fc6abea-3",
+        "start_date": "2025-03-01",
+        "end_date": "2025-03-31",
+
+        "media_platform": "meta ads",
+        "channel": "social",
+        "ad_placement": "ig/fb feed+stories (image/video)",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+
+        "audience_targeting": { "retargeting": true, "audience_type": "retargeting" },
+
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.89,
+        "budget": 10000,
+        "actual_spend": 10000,
+
+        "impressions": 575546,
+        "clicks": 11215,
+        "ctr": 1.95,
+        "views": 140846,
+        "vtr": 24.47,
+        "engagement": 27778,
+        "engagement_rate": 5.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 11111,
+
+        "sessions": 9444,
+        "conversions": 218,
+        "conversion_rate": 2.31,
+        "revenue_attributed": 19620,
+        "roas": 1.96
+      },
+      {
+        "id": "8f6e45c7-6f08-59d1-9265-da5b2fc6abea-4",
+        "start_date": "2025-03-01",
+        "end_date": "2025-03-31",
+
+        "media_platform": "meta ads",
+        "channel": "social",
+        "ad_placement": "ig/fb feed+stories (image/video)",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+
+        "audience_targeting": {
+          "retargeting": false,
+          "age_groups": ["18-44"],
+          "genders": ["female"],
+          "interests": ["beauty", "fashion"],
+          "audience_type": "prospecting"
+        },
+
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.93,
+        "budget": 7500,
+        "actual_spend": 7500,
+
+        "impressions": 395107,
+        "clicks": 8075,
+        "ctr": 2.04,
+        "views": 89076,
+        "vtr": 22.54,
+        "engagement": 16667,
+        "engagement_rate": 4.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 8333,
+
+        "sessions": 7083,
+        "conversions": 89,
+        "conversion_rate": 1.26,
+        "revenue_attributed": 8010,
+        "roas": 1.07
+      },
+      {
+        "id": "8f6e45c7-6f08-59d1-9265-da5b2fc6abea-5",
+        "start_date": "2025-03-01",
+        "end_date": "2025-03-31",
+
+        "media_platform": "tiktok",
+        "channel": "social",
+        "ad_placement": "in-feed video",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+
+        "audience_targeting": { "retargeting": true, "audience_type": "retargeting" },
+
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.82,
+        "budget": 5000,
+        "actual_spend": 5000,
+
+        "impressions": 299932,
+        "clicks": 6093,
+        "ctr": 2.03,
+        "views": 87785,
+        "vtr": 29.27,
+        "engagement": 20833,
+        "engagement_rate": 6.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 6250,
+
+        "sessions": 5313,
+        "conversions": 112,
+        "conversion_rate": 2.1,
+        "revenue_attributed": 10080,
+        "roas": 2.02
+      },
+      {
+        "id": "8f6e45c7-6f08-59d1-9265-da5b2fc6abea-6",
+        "start_date": "2025-03-01",
+        "end_date": "2025-03-31",
+
+        "media_platform": "tiktok",
+        "channel": "social",
+        "ad_placement": "in-feed video",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+
+        "audience_targeting": {
+          "retargeting": false,
+          "age_groups": ["18-44"],
+          "genders": ["female"],
+          "interests": ["beauty", "fashion"],
+          "audience_type": "prospecting"
+        },
+
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.78,
+        "budget": 2500,
+        "actual_spend": 2500,
+
+        "impressions": 211850,
+        "clicks": 3224,
+        "ctr": 1.52,
+        "views": 61510,
+        "vtr": 29.03,
+        "engagement": 9766,
+        "engagement_rate": 5.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 3125,
+
+        "sessions": 2656,
+        "conversions": 28,
+        "conversion_rate": 1.05,
+        "revenue_attributed": 2520,
+        "roas": 1.01
+      }
+    ],
+
+    "provenance_note": "de/eu channel benchmarks were applied, ≤20% noise added per metric; typical media mix (search 35%, social 25%, email 20%, display 15%, affiliate 5%) with q4 spike; ai-assisted manual curation.",
+    "benchmark_notes": { "market": "de/eu", "sources": "industry benchmarks + internal assumptions" }
+  }
+}
+{
+  "campaign": {
+    "id": "72ac3c18-42e6-5fb3-8b44-a4896838fdb2",
+    "name": "luma_202504_spring-promo",
+    "brand_name": "luma",
+    "category": "makeup",
+    "country": "de",
+
+    "start_date": "2025-04-01",
+    "end_date": "2025-04-30",
+    "status": "planned",
+    "objective": "conversion",
+    "currency": "eur",
+
+    "kpi_targets": { "primary_kpi": "conversions" },
+
+    "metrics_total": {
+      "budget": 60000,
+      "impressions": 3607541,
+      "clicks": 77415,
+      "views": 446164,
+      "engagement": 90052,
+      "open": null,
+      "ad_link_click": 73155,
+      "sessions": 30405,
+      "conversions": 566,
+      "revenue_attributed": 50496,
+      "roas": 0.84
+    },
+
+    "ad_groups": [
+      {
+        "id": "72ac3c18-42e6-5fb3-8b44-a4896838fdb2-1",
+        "start_date": "2025-04-01",
+        "end_date": "2025-04-30",
+
+        "media_platform": "google ads",
+        "channel": "search",
+        "ad_placement": "search network (text ads)",
+        "ad_format": "text",
+        "sem_keyword_type": "brand",
+
+        "audience_targeting": {},
+
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.7,
+        "budget": 18000,
+        "actual_spend": 18000,
+
+        "impressions": 1090630,
+        "clicks": 25891,
+        "ctr": 2.37,
+        "views": null,
+        "vtr": null,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 23143,
+
+        "sessions": 613? ,
+        "conversions": 3,
+        "conversion_rate": null,
+        "revenue_attributed": 57240,
+        "roas": 3.18
+      },
+      {
+        "id": "72ac3c18-42e6-5fb3-8b44-a4896838fdb2-2",
+        "start_date": "2025-04-01",
+        "end_date": "2025-04-30",
+
+        "media_platform": "google ads",
+        "channel": "search",
+        "ad_placement": "search network (text ads)",
+        "ad_format": "text",
+        "sem_keyword_type": "generic",
+
+        "audience_targeting": {},
+
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.67,
+        "budget": 12000,
+        "actual_spend": 12000,
+
+        "impressions": 788976,
+        "clicks": 18035,
+        "ctr": 2.29,
+        "views": null,
+        "vtr": null,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 15429,
+
+        "sessions": 373,
+        "conversions": 2,
+        "conversion_rate": null,
+        "revenue_attributed": 33570,
+        "roas": 2.8
+      },
+      {
+        "id": "72ac3c18-42e6-5fb3-8b44-a4896838fdb2-3",
+        "start_date": "2025-04-01",
+        "end_date": "2025-04-30",
+
+        "media_platform": "meta ads",
+        "channel": "social",
+        "ad_placement": "ig/fb feed+stories (image/video)",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+
+        "audience_targeting": { "retargeting": true, "audience_type": "retargeting" },
+
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.94,
+        "budget": 12000,
+        "actual_spend": 12000,
+
+        "impressions": 618063,
+        "clicks": 12764,
+        "ctr": 2.07,
+        "views": 148346,
+        "vtr": 24.0,
+        "engagement": 33333,
+        "engagement_rate": 5.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 13333,
+
+        "sessions": 11333,
+        "conversions": 274,
+        "conversion_rate": 2.42,
+        "revenue_attributed": 24660,
+        "roas": 2.06
+      },
+      {
+        "id": "72ac3c18-42e6-5fb3-8b44-a4896838fdb2-4",
+        "start_date": "2025-04-01",
+        "end_date": "2025-04-30",
+
+        "media_platform": "meta ads",
+        "channel": "social",
+        "ad_placement": "ig/fb feed+stories (image/video)",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+
+        "audience_targeting": {
+          "retargeting": false,
+          "age_groups": ["18-44"],
+          "genders": ["female"],
+          "interests": ["beauty", "fashion"],
+          "audience_type": "prospecting"
+        },
+
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.91,
+        "budget": 9000,
+        "actual_spend": 9000,
+
+        "impressions": 489702,
+        "clicks": 9863,
+        "ctr": 2.01,
+        "views": 109148,
+        "vtr": 22.29,
+        "engagement": 20000,
+        "engagement_rate": 4.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 10000,
+
+        "sessions": 8500,
+        "conversions": 112,
+        "conversion_rate": 1.32,
+        "revenue_attributed": 10080,
+        "roas": 1.12
+      },
+      {
+        "id": "72ac3c18-42e6-5fb3-8b44-a4896838fdb2-5",
+        "start_date": "2025-04-01",
+        "end_date": "2025-04-30",
+
+        "media_platform": "tiktok",
+        "channel": "social",
+        "ad_placement": "in-feed video",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+
+        "audience_targeting": { "retargeting": true, "audience_type": "retargeting" },
+
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.84,
+        "budget": 6000,
+        "actual_spend": 6000,
+
+        "impressions": 390722,
+        "clicks": 7127,
+        "ctr": 1.82,
+        "views": 121991,
+        "vtr": 31.22,
+        "engagement": 25000,
+        "engagement_rate": 6.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 7500,
+
+        "sessions": 6375,
+        "conversions": 140,
+        "conversion_rate": 2.2,
+        "revenue_attributed": 12600,
+        "roas": 2.1
+      },
+      {
+        "id": "72ac3c18-42e6-5fb3-8b44-a4896838fdb2-6",
+        "start_date": "2025-04-01",
+        "end_date": "2025-04-30",
+
+        "media_platform": "tiktok",
+        "channel": "social",
+        "ad_placement": "in-feed video",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+
+        "audience_targeting": {
+          "retargeting": false,
+          "age_groups": ["18-44"],
+          "genders": ["female"],
+          "interests": ["beauty", "fashion"],
+          "audience_type": "prospecting"
+        },
+
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.8,
+        "budget": 3000,
+        "actual_spend": 3000,
+
+        "impressions": 229448,
+        "clicks": 3735,
+        "ctr": 1.63,
+        "views": 66679,
+        "vtr": 29.06,
+        "engagement": 11719,
+        "engagement_rate": 5.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 3750,
+
+        "sessions": 3188,
+        "conversions": 35,
+        "conversion_rate": 1.1,
+        "revenue_attributed": 3150,
+        "roas": 1.05
+      }
+    ],
+
+    "provenance_note": "de/eu channel benchmarks were applied, ≤20% noise added per metric; typical media mix (search 35%, social 25%, email 20%, display 15%, affiliate 5%) with q4 spike; ai-assisted manual curation.",
+    "benchmark_notes": { "market": "de/eu", "sources": "industry benchmarks + internal assumptions" }
+  }
+}
+{
+  "campaign": {
+    "id": "a415ef7b-d38b-5086-ab69-a15de1f92270",
+    "name": "luma_202505_mothers-day",
+    "brand_name": "luma",
+    "category": "makeup",
+    "country": "de",
+
+    "start_date": "2025-05-01",
+    "end_date": "2025-05-31",
+    "status": "planned",
+    "objective": "conversion",
+    "currency": "eur",
+
+    "kpi_targets": { "primary_kpi": "conversions" },
+
+    "metrics_total": {
+      "budget": 20000,
+      "impressions": 1215836,
+      "clicks": 25601,
+      "views": 124383,
+      "engagement": 25000,
+      "open": null,
+      "ad_link_click": 25398,
+      "sessions": 22301,
+      "conversions": 529,
+      "revenue_attributed": 47610,
+      "roas": 2.38
+    },
+
+    "ad_groups": [
+      {
+        "id": "a415ef7b-d38b-5086-ab69-a15de1f92270-1",
+        "start_date": "2025-05-01",
+        "end_date": "2025-05-31",
+
+        "media_platform": "google ads",
+        "channel": "search",
+        "ad_placement": "search network (text ads)",
+        "ad_format": "text",
+        "sem_keyword_type": "brand",
+
+        "audience_targeting": {},
+
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.68,
+        "budget": 10000,
+        "actual_spend": 10000,
+
+        "impressions": 664634,
+        "clicks": 14701,
+        "ctr": 2.21,
+        "views": null,
+        "vtr": null,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 14286,
+
+        "sessions": 12857,
+        "conversions": 340,
+        "conversion_rate": 2.64,
+        "revenue_attributed": 30600,
+        "roas": 3.06
+      },
+      {
+        "id": "a415ef7b-d38b-5086-ab69-a15de1f92270-2",
+        "start_date": "2025-05-01",
+        "end_date": "2025-05-31",
+
+        "media_platform": "meta ads",
+        "channel": "social",
+        "ad_placement": "ig/fb feed+stories (image/video)",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+
+        "audience_targeting": { "retargeting": true, "audience_type": "retargeting" },
+
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.89,
+        "budget": 5000,
+        "actual_spend": 5000,
+
+        "impressions": 259192,
+        "clicks": 5649,
+        "ctr": 2.18,
+        "views": 61432,
+        "vtr": 23.7,
+        "engagement": 13889,
+        "engagement_rate": 5.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 5556,
+
+        "sessions": 4722,
+        "conversions": 122,
+        "conversion_rate": 2.59,
+        "revenue_attributed": 10980,
+        "roas": 2.2
+      },
+      {
+        "id": "a415ef7b-d38b-5086-ab69-a15de1f92270-3",
+        "start_date": "2025-05-01",
+        "end_date": "2025-05-31",
+
+        "media_platform": "meta ads",
+        "channel": "social",
+        "ad_placement": "ig/fb feed+stories (image/video)",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+
+        "audience_targeting": {
+          "retargeting": false,
+          "age_groups": ["18-44"],
+          "genders": ["female"],
+          "interests": ["beauty", "fashion"],
+          "audience_type": "prospecting"
+        },
+
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.95,
+        "budget": 5000,
+        "actual_spend": 5000,
+
+        "impressions": 292011,
+        "clicks": 5251,
+        "ctr": 1.8,
+        "views": 62952,
+        "vtr": 21.56,
+        "engagement": 11111,
+        "engagement_rate": 4.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 5556,
+
+        "sessions": 4722,
+        "conversions": 67,
+        "conversion_rate": 1.41,
+        "revenue_attributed": 6030,
+        "roas": 1.21
+      }
+    ],
+
+    "provenance_note": "de/eu channel benchmarks were applied, ≤20% noise added per metric; typical media mix (search 35%, social 25%, email 20%, display 15%, affiliate 5%) with q4 spike; ai-assisted manual curation.",
+    "benchmark_notes": { "market": "de/eu", "sources": "industry benchmarks + internal assumptions" }
+  }
+}
+{
+  "campaign": {
+    "id": "d94028e0-c8a9-5e13-8758-08c9d99ae50c",
+    "name": "luma_2025h2_affiliate",
+    "brand_name": "luma",
+    "category": "makeup",
+    "country": "de",
+
+    "start_date": "2025-06-01",
+    "end_date": "2025-12-31",
+    "status": "planned",
+    "objective": "conversion",
+    "currency": "eur",
+
+    "kpi_targets": { "primary_kpi": "revenue" },
+
+    "metrics_total": {
+      "budget": 12000,
+      "impressions": null,
+      "clicks": null,
+      "views": null,
+      "engagement": null,
+      "open": null,
+      "ad_link_click": null,
+      "sessions": 800,
+      "conversions": null,
+      "revenue_attributed": 98800,
+      "roas": 8.23
+    },
+
+    "ad_groups": [
+      {
+        "id": "d94028e0-c8a9-5e13-8758-08c9d99ae50c-1",
+        "start_date": "2025-06-01",
+        "end_date": "2025-12-31",
+
+        "media_platform": "amazon associates",
+        "channel": "affiliate",
+        "ad_placement": "",
+        "ad_format": "other",
+        "sem_keyword_type": "null",
+
+        "audience_targeting": { "audience_type": "prospecting" },
+
+        "billing_type": "cpa",
+        "billing_unit_cost": 15.0,
+        "budget": 12000,
+        "actual_spend": 12000,
+
+        "impressions": null,
+        "clicks": null,
+        "ctr": null,
+        "views": null,
+        "vtr": null,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": null,
+
+        "sessions": 800,
+        "conversions": null,
+        "conversion_rate": null,
+        "revenue_attributed": 98800,
+        "roas": 8.23
+      }
+    ],
+
+    "provenance_note": "de/eu channel benchmarks were applied, ≤20% noise added per metric; typical media mix (search 35%, social 25%, email 20%, display 15%, affiliate 5%) with q4 spike; ai-assisted manual curation.",
+    "benchmark_notes": { "market": "de/eu", "sources": "industry benchmarks + internal assumptions" }
+  }
+}
+{
+  "campaign": {
+    "id": "a8719398-b22a-58a2-bbaa-b2cae6435bac",
+    "name": "luma_202506_influencer",
+    "brand_name": "luma",
+    "category": "makeup",
+    "country": "de",
+
+    "start_date": "2025-06-01",
+    "end_date": "2025-06-03",
+    "status": "planned",
+    "objective": "consideration",
+    "currency": "eur",
+
+    "kpi_targets": { "primary_kpi": "vtr" },
+
+    "metrics_total": {
+      "budget": 10000,
+      "impressions": null,
+      "clicks": null,
+      "views": 200000,
+      "engagement": 40000,
+      "open": null,
+      "ad_link_click": 100000,
+      "sessions": 9000,
+      "conversions": 2025,
+      "revenue_attributed": 17500,
+      "roas": 3.5
+    },
+
+    "ad_groups": [
+      {
+        "id": "a8719398-b22a-58a2-bbaa-b2cae6435bac-1",
+        "start_date": "2025-06-01",
+        "end_date": "2025-06-03",
+
+        "media_platform": "tiktok",
+        "channel": "social",
+        "ad_placement": "",
+        "ad_format": "video",
+        "sem_keyword_type": "null",
+
+        "audience_targeting": {
+          "retargeting": false,
+          "age_groups": ["18-44"],
+          "genders": ["female"],
+          "interests": ["beauty", "fashion"],
+          "audience_type": "prospecting"
+        },
+
+        "billing_type": "flat",
+        "billing_unit_cost": 10000,
+        "budget": 10000,
+        "actual_spend": 10000,
+
+        "impressions": null,
+        "clicks": null,
+        "ctr": null,
+        "views": 200000,
+        "vtr": null,
+        "engagement": 40000,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 100000,
+
+        "sessions": 9000,
+        "conversions": 2025,
+        "conversion_rate": 22.5,
+        "revenue_attributed": 17500,
+        "roas": 3.5
+      }
+    ],
+
+    "provenance_note": "de/eu channel benchmarks were applied, ≤20% noise added per metric; typical media mix (search 35%, social 25%, email 20%, display 15%, affiliate 5%) with q4 spike; ai-assisted manual curation.",
+    "benchmark_notes": { "market": "de/eu", "sources": "industry benchmarks + internal assumptions" }
+  }
+}
+{
+  "campaign": {
+    "id": "19db3a4a-ab02-5d90-8d90-199059b7db17",
+    "name": "luma_202506_midyear",
+    "brand_name": "luma",
+    "category": "makeup",
+    "country": "de",
+
+    "start_date": "2025-06-01",
+    "end_date": "2025-06-30",
+    "status": "planned",
+    "objective": "consideration",
+    "currency": "eur",
+
+    "kpi_targets": { "primary_kpi": "conversions" },
+
+    "metrics_total": {
+      "budget": 20000,
+      "impressions": 1164733,
+      "clicks": 24995,
+      "views": 139101,
+      "engagement": 25000,
+      "open": null,
+      "ad_link_click": 25398,
+      "sessions": 22301,
+      "conversions": 488,
+      "revenue_attributed": 43920,
+      "roas": 2.2
+    },
+
+    "ad_groups": [
+      {
+        "id": "19db3a4a-ab02-5d90-8d90-199059b7db17-1",
+        "start_date": "2025-06-01",
+        "end_date": "2025-06-30",
+
+        "media_platform": "google ads",
+        "channel": "search",
+        "ad_placement": "search network (text ads)",
+        "ad_format": "text",
+        "sem_keyword_type": "brand",
+
+        "audience_targeting": {},
+
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.73,
+        "budget": 10000,
+        "actual_spend": 10000,
+
+        "impressions": 568630,
+        "clicks": 13701,
+        "ctr": 2.41,
+        "views": null,
+        "vtr": null,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 14286,
+
+        "sessions": 12857,
+        "conversions": 323,
+        "conversion_rate": 2.51,
+        "revenue_attributed": 29070,
+        "roas": 2.91
+      },
+      {
+        "id": "19db3a4a-ab02-5d90-8d90-199059b7db17-2",
+        "start_date": "2025-06-01",
+        "end_date": "2025-06-30",
+
+        "media_platform": "meta ads",
+        "channel": "social",
+        "ad_placement": "ig/fb feed+stories (image/video)",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+
+        "audience_targeting": { "retargeting": true, "audience_type": "retargeting" },
+
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.88,
+        "budget": 5000,
+        "actual_spend": 5000,
+
+        "impressions": 291809,
+        "clicks": 5674,
+        "ctr": 1.94,
+        "views": 76708,
+        "vtr": 26.29,
+        "engagement": 13889,
+        "engagement_rate": 5.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 5556,
+
+        "sessions": 4722,
+        "conversions": 110,
+        "conversion_rate": 2.33,
+        "revenue_attributed": 9900,
+        "roas": 1.98
+      },
+      {
+        "id": "19db3a4a-ab02-5d90-8d90-199059b7db17-3",
+        "start_date": "2025-06-01",
+        "end_date": "2025-06-30",
+
+        "media_platform": "meta ads",
+        "channel": "social",
+        "ad_placement": "ig/fb feed+stories (image/video)",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+
+        "audience_targeting": {
+          "retargeting": false,
+          "age_groups": ["18-44"],
+          "genders": ["female"],
+          "interests": ["beauty", "fashion"],
+          "audience_type": "prospecting"
+        },
+
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.89,
+        "budget": 5000,
+        "actual_spend": 5000,
+
+        "impressions": 304294,
+        "clicks": 5620,
+        "ctr": 1.85,
+        "views": 62393,
+        "vtr": 20.5,
+        "engagement": 11111,
+        "engagement_rate": 4.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 5556,
+
+        "sessions": 4722,
+        "conversions": 55,
+        "conversion_rate": 1.17,
+        "revenue_attributed": 4950,
+        "roas": 0.99
+      }
+    ],
+
+    "provenance_note": "de/eu channel benchmarks were applied, ≤20% noise added per metric; typical media mix (search 35%, social 25%, email 20%, display 15%, affiliate 5%) with q4 spike; ai-assisted manual curation.",
+    "benchmark_notes": { "market": "de/eu", "sources": "industry benchmarks + internal assumptions" }
+  }
+}
+{
+  "campaign": {
+    "id": "d5f0a945-003c-5f4d-a978-886ecb7a9139",
+    "name": "luma_202507_summer-sale",
+    "brand_name": "luma",
+    "category": "makeup",
+    "country": "de",
+
+    "start_date": "2025-07-01",
+    "end_date": "2025-07-31",
+    "status": "planned",
+    "objective": "conversion",
+    "currency": "eur",
+
+    "kpi_targets": { "primary_kpi": "conversions" },
+
+    "metrics_total": {
+      "budget": 18000,
+      "impressions": 1034313,
+      "clicks": 22975,
+      "views": 118304,
+      "engagement": 22500,
+      "open": null,
+      "ad_link_click": 22857,
+      "sessions": 20071,
+      "conversions": 448,
+      "revenue_attributed": 40320,
+      "roas": 2.24
+    },
+
+    "ad_groups": [
+      {
+        "id": "d5f0a945-003c-5f4d-a978-886ecb7a9139-1",
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-31",
+        "media_platform": "google ads",
+        "channel": "search",
+        "ad_placement": "search network (text ads)",
+        "ad_format": "text",
+        "sem_keyword_type": "brand",
+        "audience_targeting": {},
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.71,
+        "budget": 9000,
+        "actual_spend": 9000,
+        "impressions": 532220,
+        "clicks": 12748,
+        "ctr": 2.4,
+        "views": null,
+        "vtr": null,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 12857,
+        "sessions": 11571,
+        "conversions": 293,
+        "conversion_rate": 2.53,
+        "revenue_attributed": 26370,
+        "roas": 2.93
+      },
+      {
+        "id": "d5f0a945-003c-5f4d-a978-886ecb7a9139-2",
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-31",
+        "media_platform": "meta ads",
+        "channel": "social",
+        "ad_placement": "ig/fb feed+stories (image/video)",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+        "audience_targeting": { "retargeting": true, "audience_type": "retargeting" },
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.88,
+        "budget": 4500,
+        "actual_spend": 4500,
+        "impressions": 254160,
+        "clicks": 5132,
+        "ctr": 2.02,
+        "views": 65925,
+        "vtr": 25.94,
+        "engagement": 12500,
+        "engagement_rate": 5.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 5000,
+        "sessions": 4250,
+        "conversions": 102,
+        "conversion_rate": 2.4,
+        "revenue_attributed": 9180,
+        "roas": 2.04
+      },
+      {
+        "id": "d5f0a945-003c-5f4d-a978-886ecb7a9139-3",
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-31",
+        "media_platform": "meta ads",
+        "channel": "social",
+        "ad_placement": "ig/fb feed+stories (image/video)",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+        "audience_targeting": {
+          "retargeting": false,
+          "age_groups": ["18-44"],
+          "genders": ["female"],
+          "interests": ["beauty", "fashion"],
+          "audience_type": "prospecting"
+        },
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.88,
+        "budget": 4500,
+        "actual_spend": 4500,
+        "impressions": 247933,
+        "clicks": 5095,
+        "ctr": 2.05,
+        "views": 52379,
+        "vtr": 21.13,
+        "engagement": 10000,
+        "engagement_rate": 4.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 5000,
+        "sessions": 4250,
+        "conversions": 53,
+        "conversion_rate": 1.25,
+        "revenue_attributed": 4770,
+        "roas": 1.06
+      }
+    ],
+
+    "provenance_note": "de/eu channel benchmarks were applied, ≤20% noise added per metric; typical media mix (search 35%, social 25%, email 20%, display 15%, affiliate 5%) with q4 spike; ai-assisted manual curation.",
+    "benchmark_notes": { "market": "de/eu", "sources": "industry benchmarks + internal assumptions" }
+  }
+}
+{
+  "campaign": {
+    "id": "1880136b-bffc-5c7c-a0da-93d072735a2e",
+    "name": "luma_202508_back-to-work",
+    "brand_name": "luma",
+    "category": "makeup",
+    "country": "de",
+
+    "start_date": "2025-08-01",
+    "end_date": "2025-08-31",
+    "status": "planned",
+    "objective": "conversion",
+    "currency": "eur",
+
+    "kpi_targets": { "primary_kpi": "conversions" },
+
+    "metrics_total": {
+      "budget": 22000,
+      "impressions": 1315479,
+      "clicks": 29169,
+      "views": 143392,
+      "engagement": 27500,
+      "open": null,
+      "ad_link_click": 27936,
+      "sessions": 24531,
+      "conversions": 579,
+      "revenue_attributed": 52110,
+      "roas": 2.37
+    },
+
+    "ad_groups": [
+      {
+        "id": "1880136b-bffc-5c7c-a0da-93d072735a2e-1",
+        "start_date": "2025-08-01",
+        "end_date": "2025-08-31",
+        "media_platform": "google ads",
+        "channel": "search",
+        "ad_placement": "search network (text ads)",
+        "ad_format": "text",
+        "sem_keyword_type": "brand",
+        "audience_targeting": {},
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.65,
+        "budget": 11000,
+        "actual_spend": 11000,
+        "impressions": 715146,
+        "clicks": 16929,
+        "ctr": 2.37,
+        "views": null,
+        "vtr": null,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 15714,
+        "sessions": 14143,
+        "conversions": 374,
+        "conversion_rate": 2.64,
+        "revenue_attributed": 33660,
+        "roas": 3.06
+      },
+      {
+        "id": "1880136b-bffc-5c7c-a0da-93d072735a2e-2",
+        "start_date": "2025-08-01",
+        "end_date": "2025-08-31",
+        "media_platform": "meta ads",
+        "channel": "social",
+        "ad_placement": "ig/fb feed+stories (image/video)",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+        "audience_targeting": { "retargeting": true, "audience_type": "retargeting" },
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.87,
+        "budget": 5500,
+        "actual_spend": 5500,
+        "impressions": 314175,
+        "clicks": 6288,
+        "ctr": 2.0,
+        "views": 80809,
+        "vtr": 25.72,
+        "engagement": 15278,
+        "engagement_rate": 5.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 6111,
+        "sessions": 5194,
+        "conversions": 132,
+        "conversion_rate": 2.54,
+        "revenue_attributed": 11880,
+        "roas": 2.16
+      },
+      {
+        "id": "1880136b-bffc-5c7c-a0da-93d072735a2e-3",
+        "start_date": "2025-08-01",
+        "end_date": "2025-08-31",
+        "media_platform": "meta ads",
+        "channel": "social",
+        "ad_placement": "ig/fb feed+stories (image/video)",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+        "audience_targeting": {
+          "retargeting": false,
+          "age_groups": ["18-44"],
+          "genders": ["female"],
+          "interests": ["beauty", "fashion"],
+          "audience_type": "prospecting"
+        },
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.92,
+        "budget": 5500,
+        "actual_spend": 5500,
+        "impressions": 286158,
+        "clicks": 5952,
+        "ctr": 2.08,
+        "views": 62583,
+        "vtr": 21.87,
+        "engagement": 12222,
+        "engagement_rate": 4.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 6111,
+        "sessions": 5194,
+        "conversions": 73,
+        "conversion_rate": 1.41,
+        "revenue_attributed": 6570,
+        "roas": 1.19
+      }
+    ],
+
+    "provenance_note": "de/eu channel benchmarks were applied, ≤20% noise added per metric; typical media mix (search 35%, social 25%, email 20%, display 15%, affiliate 5%) with q4 spike; ai-assisted manual curation.",
+    "benchmark_notes": { "market": "de/eu", "sources": "industry benchmarks + internal assumptions" }
+  }
+}
+{
+  "campaign": {
+    "id": "579c7da8-35cd-5475-9be4-eef87a1f7048",
+    "name": "luma_202509_influencer",
+    "brand_name": "luma",
+    "category": "makeup",
+    "country": "de",
+
+    "start_date": "2025-09-01",
+    "end_date": "2025-09-03",
+    "status": "planned",
+    "objective": "conversion",
+    "currency": "eur",
+
+    "kpi_targets": { "primary_kpi": "vtr" },
+
+    "metrics_total": {
+      "budget": 10000,
+      "impressions": 45000,
+      "clicks": null,
+      "views": 80000,
+      "engagement": null,
+      "open": null,
+      "ad_link_click": 40000,
+      "sessions": 3600,
+      "conversions": 1260,
+      "revenue_attributed": 30075,
+      "roas": 3.01
+    },
+
+    "ad_groups": [
+      {
+        "id": "579c7da8-35cd-5475-9be4-eef87a1f7048-1",
+        "start_date": "2025-09-01",
+        "end_date": "2025-09-03",
+        "media_platform": "youtube",
+        "channel": "video",
+        "ad_placement": "in-stream (skippable)",
+        "ad_format": "video",
+        "sem_keyword_type": "null",
+        "audience_targeting": {
+          "retargeting": false,
+          "age_groups": ["18-44"],
+          "genders": ["female"],
+          "interests": ["beauty", "fashion"],
+          "audience_type": "prospecting"
+        },
+        "billing_type": "flat",
+        "billing_unit_cost": 10000,
+        "budget": 10000,
+        "actual_spend": 10000,
+        "impressions": 45000,
+        "clicks": null,
+        "ctr": null,
+        "views": 80000,
+        "vtr": 31.99,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 40000,
+        "sessions": 3600,
+        "conversions": 1260,
+        "conversion_rate": 35.0,
+        "revenue_attributed": 30075,
+        "roas": 3.01
+      }
+    ],
+
+    "provenance_note": "de/eu channel benchmarks were applied, ≤20% noise added per metric; typical media mix (search 35%, social 25%, email 20%, display 15%, affiliate 5%) with q4 spike; ai-assisted manual curation.",
+    "benchmark_notes": { "market": "de/eu", "sources": "industry benchmarks + internal assumptions" }
+  }
+}
+{
+  "campaign": {
+    "id": "579c7da8-35cd-5475-9be4-eef87a1f7048",
+    "name": "luma_202509_influencer",
+    "brand_name": "luma",
+    "category": "makeup",
+    "country": "de",
+
+    "start_date": "2025-09-01",
+    "end_date": "2025-09-03",
+    "status": "planned",
+    "objective": "conversion",
+    "currency": "eur",
+
+    "kpi_targets": { "primary_kpi": "vtr" },
+
+    "metrics_total": {
+      "budget": 10000,
+      "impressions": 45000,
+      "clicks": null,
+      "views": 80000,
+      "engagement": null,
+      "open": null,
+      "ad_link_click": 40000,
+      "sessions": 3600,
+      "conversions": 1260,
+      "revenue_attributed": 30075,
+      "roas": 3.01
+    },
+
+    "ad_groups": [
+      {
+        "id": "579c7da8-35cd-5475-9be4-eef87a1f7048-1",
+        "start_date": "2025-09-01",
+        "end_date": "2025-09-03",
+        "media_platform": "youtube",
+        "channel": "video",
+        "ad_placement": "in-stream (skippable)",
+        "ad_format": "video",
+        "sem_keyword_type": "null",
+        "audience_targeting": {
+          "retargeting": false,
+          "age_groups": ["18-44"],
+          "genders": ["female"],
+          "interests": ["beauty", "fashion"],
+          "audience_type": "prospecting"
+        },
+        "billing_type": "flat",
+        "billing_unit_cost": 10000,
+        "budget": 10000,
+        "actual_spend": 10000,
+        "impressions": 45000,
+        "clicks": null,
+        "ctr": null,
+        "views": 80000,
+        "vtr": 31.99,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 40000,
+        "sessions": 3600,
+        "conversions": 1260,
+        "conversion_rate": 35.0,
+        "revenue_attributed": 30075,
+        "roas": 3.01
+      }
+    ],
+
+    "provenance_note": "de/eu channel benchmarks were applied, ≤20% noise added per metric; typical media mix (search 35%, social 25%, email 20%, display 15%, affiliate 5%) with q4 spike; ai-assisted manual curation.",
+    "benchmark_notes": { "market": "de/eu", "sources": "industry benchmarks + internal assumptions" }
+  }
+}
+{
+  "campaign": {
+    "id": "131614f6-cbd9-5e53-96cd-fe216a45f75b",
+    "name": "luma_202509_fall-collection",
+    "brand_name": "luma",
+    "category": "makeup",
+    "country": "de",
+
+    "start_date": "2025-09-01",
+    "end_date": "2025-09-30",
+    "status": "planned",
+    "objective": "awareness",
+    "currency": "eur",
+
+    "kpi_targets": { "primary_kpi": "ctr" },
+
+    "metrics_total": {
+      "budget": 50000,
+      "impressions": 3325496,
+      "clicks": 67752,
+      "views": 383906,
+      "engagement": 75044,
+      "open": null,
+      "ad_link_click": 60962,
+      "sessions": 26447,
+      "conversions": 484,
+      "revenue_attributed": 118800,
+      "roas": 2.38
+    },
+
+    "ad_groups": [
+      {
+        "id": "131614f6-cbd9-5e53-96cd-fe216a45f75b-1",
+        "start_date": "2025-09-01",
+        "end_date": "2025-09-30",
+        "media_platform": "google ads",
+        "channel": "search",
+        "ad_placement": "search network (text ads)",
+        "ad_format": "text",
+        "sem_keyword_type": "brand",
+        "audience_targeting": {},
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.63,
+        "budget": 15000,
+        "actual_spend": 15000,
+        "impressions": 1044375,
+        "clicks": 23842,
+        "ctr": 2.28,
+        "views": null,
+        "vtr": null,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 19286,
+        "sessions": 530,
+        "conversions": 3,
+        "conversion_rate": null,
+        "revenue_attributed": 47700,
+        "roas": 3.18
+      },
+      {
+        "id": "131614f6-cbd9-5e53-96cd-fe216a45f75b-2",
+        "start_date": "2025-09-01",
+        "end_date": "2025-09-30",
+        "media_platform": "google ads",
+        "channel": "search",
+        "ad_placement": "search network (text ads)",
+        "ad_format": "text",
+        "sem_keyword_type": "generic",
+        "audience_targeting": {},
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.64,
+        "budget": 10000,
+        "actual_spend": 10000,
+        "impressions": 750216,
+        "clicks": 15517,
+        "ctr": 2.07,
+        "views": null,
+        "vtr": null,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 12857,
+        "sessions": 311,
+        "conversions": 2,
+        "conversion_rate": null,
+        "revenue_attributed": 27990,
+        "roas": 2.8
+      },
+      {
+        "id": "131614f6-cbd9-5e53-96cd-fe216a45f75b-3",
+        "start_date": "2025-09-01",
+        "end_date": "2025-09-30",
+        "media_platform": "meta ads",
+        "channel": "social",
+        "ad_placement": "ig/fb feed+stories (image/video)",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+        "audience_targeting": { "retargeting": true, "audience_type": "retargeting" },
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.92,
+        "budget": 10000,
+        "actual_spend": 10000,
+        "impressions": 573711,
+        "clicks": 10851,
+        "ctr": 1.89,
+        "views": 140173,
+        "vtr": 24.43,
+        "engagement": 27778,
+        "engagement_rate": 5.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 11111,
+        "sessions": 9889,
+        "conversions": 239,
+        "conversion_rate": 2.42,
+        "revenue_attributed": 21510,
+        "roas": 2.15
+      },
+      {
+        "id": "131614f6-cbd9-5e53-96cd-fe216a45f75b-4",
+        "start_date": "2025-09-01",
+        "end_date": "2025-09-30",
+        "media_platform": "meta ads",
+        "channel": "social",
+        "ad_placement": "ig/fb feed+stories (image/video)",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+        "audience_targeting": {
+          "retargeting": false,
+          "age_groups": ["18-44"],
+          "genders": ["female"],
+          "interests": ["beauty", "fashion"],
+          "audience_type": "prospecting"
+        },
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.97,
+        "budget": 7500,
+        "actual_spend": 7500,
+        "impressions": 394978,
+        "clicks": 7731,
+        "ctr": 1.96,
+        "views": 90740,
+        "vtr": 22.97,
+        "engagement": 16667,
+        "engagement_rate": 4.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 8333,
+        "sessions": 7427,
+        "conversions": 93,
+        "conversion_rate": 1.25,
+        "revenue_attributed": 8370,
+        "roas": 1.12
+      },
+      {
+        "id": "131614f6-cbd9-5e53-96cd-fe216a45f75b-5",
+        "start_date": "2025-09-01",
+        "end_date": "2025-09-30",
+        "media_platform": "tiktok",
+        "channel": "social",
+        "ad_placement": "in-feed video",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+        "audience_targeting": { "retargeting": true, "audience_type": "retargeting" },
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.76,
+        "budget": 5000,
+        "actual_spend": 5000,
+        "impressions": 372417,
+        "clicks": 6621,
+        "ctr": 1.78,
+        "views": 105357,
+        "vtr": 28.29,
+        "engagement": 20833,
+        "engagement_rate": 6.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 6250,
+        "sessions": 5563,
+        "conversions": 118,
+        "conversion_rate": 2.12,
+        "revenue_attributed": 10620,
+        "roas": 2.12
+      },
+      {
+        "id": "131614f6-cbd9-5e53-96cd-fe216a45f75b-6",
+        "start_date": "2025-09-01",
+        "end_date": "2025-09-30",
+        "media_platform": "tiktok",
+        "channel": "social",
+        "ad_placement": "in-feed video",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+        "audience_targeting": {
+          "retargeting": false,
+          "age_groups": ["18-44"],
+          "genders": ["female"],
+          "interests": ["beauty", "fashion"],
+          "audience_type": "prospecting"
+        },
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.78,
+        "budget": 2500,
+        "actual_spend": 2500,
+        "impressions": 189799,
+        "clicks": 3190,
+        "ctr": 1.68,
+        "views": 47636,
+        "vtr": 25.1,
+        "engagement": 9766,
+        "engagement_rate": 5.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 3125,
+        "sessions": 2727,
+        "conversions": 29,
+        "conversion_rate": 1.06,
+        "revenue_attributed": 2610,
+        "roas": 1.04
+      }
+    ],
+
+    "provenance_note": "de/eu channel benchmarks were applied, ≤20% noise added per metric; typical media mix (search 35%, social 25%, email 20%, display 15%, affiliate 5%) with q4 spike; ai-assisted manual curation.",
+    "benchmark_notes": { "market": "de/eu", "sources": "industry benchmarks + internal assumptions" }
+  }
+}
+{
+  "campaign": {
+    "id": "d7f6b64f-bb05-587f-8e26-5ade1e755171",
+    "name": "luma_202510_pre-bf",
+    "brand_name": "luma",
+    "category": "makeup",
+    "country": "de",
+
+    "start_date": "2025-10-01",
+    "end_date": "2025-10-31",
+    "status": "planned",
+    "objective": "consideration",
+    "currency": "eur",
+
+    "kpi_targets": { "primary_kpi": "conversions" },
+
+    "metrics_total": {
+      "budget": 70000,
+      "impressions": 4383777,
+      "clicks": 91120,
+      "views": 553878,
+      "engagement": 102327,
+      "open": null,
+      "ad_link_click": 85348,
+      "sessions": 35596,
+      "conversions": 687,
+      "revenue_attributed": 178380,
+      "roas": 2.55
+    },
+
+    "ad_groups": [
+      {
+        "id": "d7f6b64f-bb05-587f-8e26-5ade1e755171-1",
+        "start_date": "2025-10-01",
+        "end_date": "2025-10-31",
+        "media_platform": "google ads",
+        "channel": "search",
+        "ad_placement": "search network (text ads)",
+        "ad_format": "text",
+        "sem_keyword_type": "brand",
+        "audience_targeting": {},
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.68,
+        "budget": 21000,
+        "actual_spend": 21000,
+        "impressions": 1362583,
+        "clicks": 31109,
+        "ctr": 2.28,
+        "views": null,
+        "vtr": null,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 27000,
+        "sessions": 864,
+        "conversions": 3,
+        "conversion_rate": null,
+        "revenue_attributed": 77760,
+        "roas": 3.7
+      },
+      {
+        "id": "d7f6b64f-bb05-587f-8e26-5ade1e755171-2",
+        "start_date": "2025-10-01",
+        "end_date": "2025-10-31",
+        "media_platform": "google ads",
+        "channel": "search",
+        "ad_placement": "search network (text ads)",
+        "ad_format": "text",
+        "sem_keyword_type": "generic",
+        "audience_targeting": {},
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.7,
+        "budget": 14000,
+        "actual_spend": 14000,
+        "impressions": 934874,
+        "clicks": 19914,
+        "ctr": 2.13,
+        "views": null,
+        "vtr": null,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 18000,
+        "sessions": 436,
+        "conversions": 2,
+        "conversion_rate": null,
+        "revenue_attributed": 39240,
+        "roas": 2.8
+      },
+      {
+        "id": "d7f6b64f-bb05-587f-8e26-5ade1e755171-3",
+        "start_date": "2025-10-01",
+        "end_date": "2025-10-31",
+        "media_platform": "meta ads",
+        "channel": "social",
+        "ad_placement": "ig/fb feed+stories (image/video)",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+        "audience_targeting": { "retargeting": true, "audience_type": "retargeting" },
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.91,
+        "budget": 14000,
+        "actual_spend": 14000,
+        "impressions": 766065,
+        "clicks": 15341,
+        "ctr": 2.0,
+        "views": 209922,
+        "vtr": 27.4,
+        "engagement": 38889,
+        "engagement_rate": 5.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 15556,
+        "sessions": 13222,
+        "conversions": 317,
+        "conversion_rate": 2.4,
+        "revenue_attributed": 28530,
+        "roas": 2.04
+      },
+      {
+        "id": "d7f6b64f-bb05-587f-8e26-5ade1e755171-4",
+        "start_date": "2025-10-01",
+        "end_date": "2025-10-31",
+        "media_platform": "meta ads",
+        "channel": "social",
+        "ad_placement": "ig/fb feed+stories (image/video)",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+        "audience_targeting": {
+          "retargeting": false,
+          "age_groups": ["18-44"],
+          "genders": ["female"],
+          "interests": ["beauty", "fashion"],
+          "audience_type": "prospecting"
+        },
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.89,
+        "budget": 10500,
+        "actual_spend": 10500,
+        "impressions": 630555,
+        "clicks": 11837,
+        "ctr": 1.88,
+        "views": 140214,
+        "vtr": 22.24,
+        "engagement": 23333,
+        "engagement_rate": 4.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 11667,
+        "sessions": 9917,
+        "conversions": 142,
+        "conversion_rate": 1.43,
+        "revenue_attributed": 12780,
+        "roas": 1.22
+      },
+      {
+        "id": "d7f6b64f-bb05-587f-8e26-5ade1e755171-5",
+        "start_date": "2025-10-01",
+        "end_date": "2025-10-31",
+        "media_platform": "tiktok",
+        "channel": "social",
+        "ad_placement": "in-feed video",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+        "audience_targeting": { "retargeting": true, "audience_type": "retargeting" },
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.81,
+        "budget": 7000,
+        "actual_spend": 7000,
+        "impressions": 443602,
+        "clicks": 8636,
+        "ctr": 1.95,
+        "views": 139749,
+        "vtr": 31.5,
+        "engagement": 29167,
+        "engagement_rate": 6.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 8750,
+        "sessions": 7438,
+        "conversions": 178,
+        "conversion_rate": 2.4,
+        "revenue_attributed": 16020,
+        "roas": 2.29
+      },
+      {
+        "id": "d7f6b64f-bb05-587f-8e26-5ade1e755171-6",
+        "start_date": "2025-10-01",
+        "end_date": "2025-10-31",
+        "media_platform": "tiktok",
+        "channel": "social",
+        "ad_placement": "in-feed video",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+        "audience_targeting": {
+          "retargeting": false,
+          "age_groups": ["18-44"],
+          "genders": ["female"],
+          "interests": ["beauty", "fashion"],
+          "audience_type": "prospecting"
+        },
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.82,
+        "budget": 3500,
+        "actual_spend": 3500,
+        "impressions": 246098,
+        "clicks": 4283,
+        "ctr": 1.74,
+        "views": 63993,
+        "vtr": 26.0,
+        "engagement": 10938,
+        "engagement_rate": 5.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 4375,
+        "sessions": 3719,
+        "conversions": 45,
+        "conversion_rate": 1.21,
+        "revenue_attributed": 4050,
+        "roas": 1.16
+      }
+    ],
+
+    "provenance_note": "de/eu channel benchmarks were applied, ≤20% noise added per metric; typical media mix (search 35%, social 25%, email 20%, display 15%, affiliate 5%) with q4 spike; ai-assisted manual curation.",
+    "benchmark_notes": { "market": "de/eu", "sources": "industry benchmarks + internal assumptions" }
+  }
+}
+{
+  "campaign": {
+    "id": "3181c616-e872-58fa-8066-f46864933441",
+    "name": "luma_202511_black-friday",
+    "brand_name": "luma",
+    "category": "makeup",
+    "country": "de",
+
+    "start_date": "2025-11-01",
+    "end_date": "2025-11-30",
+    "status": "planned",
+    "objective": "conversion",
+    "currency": "eur",
+
+    "kpi_targets": { "primary_kpi": "roas" },
+
+    "metrics_total": {
+      "budget": 180000,
+      "impressions": 34428954,
+      "clicks": 229886,
+      "views": 1144337,
+      "engagement": 174759,
+      "open": null,
+      "ad_link_click": 213719,
+      "sessions": 213759,
+      "conversions": 5983,
+      "revenue_attributed": 576608,
+      "roas": 3.2
+    },
+
+    "ad_groups": [
+      {
+        "id": "3181c616-e872-58fa-8066-f46864933441-1",
+        "start_date": "2025-11-01",
+        "end_date": "2025-11-30",
+        "media_platform": "google ads",
+        "channel": "search",
+        "ad_placement": "search network (text ads)",
+        "ad_format": "text",
+        "sem_keyword_type": "brand",
+        "audience_targeting": {},
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.7,
+        "budget": 58500,
+        "actual_spend": 58500,
+        "impressions": 3238809,
+        "clicks": 83196,
+        "ctr": 2.57,
+        "views": null,
+        "vtr": null,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 74750,
+        "sessions": 69518,
+        "conversions": 2496,
+        "conversion_rate": 3.6,
+        "revenue_attributed": 241605,
+        "roas": 4.13
+      },
+      {
+        "id": "3181c616-e872-58fa-8066-f46864933441-2",
+        "start_date": "2025-11-01",
+        "end_date": "2025-11-30",
+        "media_platform": "google ads",
+        "channel": "search",
+        "ad_placement": "search network (text ads)",
+        "ad_format": "text",
+        "sem_keyword_type": "generic",
+        "audience_targeting": {},
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.75,
+        "budget": 27000,
+        "actual_spend": 27000,
+        "impressions": 1525480,
+        "clicks": 36123,
+        "ctr": 2.37,
+        "views": null,
+        "vtr": null,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 35625,
+        "sessions": 33131,
+        "conversions": 1027,
+        "conversion_rate": 3.1,
+        "revenue_attributed": 99360,
+        "roas": 3.68
+      },
+      {
+        "id": "3181c616-e872-58fa-8066-f46864933441-3",
+        "start_date": "2025-11-01",
+        "end_date": "2025-11-30",
+        "media_platform": "meta ads",
+        "channel": "social",
+        "ad_placement": "ig/fb feed+stories (image/video)",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+        "audience_targeting": { "retargeting": true, "audience_type": "retargeting" },
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.91,
+        "budget": 36000,
+        "actual_spend": 36000,
+        "impressions": 1911206,
+        "clicks": 39484,
+        "ctr": 2.07,
+        "views": 486789,
+        "vtr": 25.47,
+        "engagement": 81818,
+        "engagement_rate": 5.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 34200,
+        "sessions": 31806,
+        "conversions": 970,
+        "conversion_rate": 3.0,
+        "revenue_attributed": 93960,
+        "roas": 2.61
+      },
+      {
+        "id": "3181c616-e872-58fa-8066-f46864933441-4",
+        "start_date": "2025-11-01",
+        "end_date": "2025-11-30",
+        "media_platform": "meta ads",
+        "channel": "social",
+        "ad_placement": "ig/fb feed+stories (image/video)",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+        "audience_targeting": {
+          "retargeting": false,
+          "age_groups": ["18-44"],
+          "genders": ["female"],
+          "interests": ["beauty", "fashion"],
+          "audience_type": "prospecting"
+        },
+        "billing_type": "cpc",
+        "billing_unit_cost": 1.05,
+        "budget": 22500,
+        "actual_spend": 22500,
+        "impressions": 956538,
+        "clicks": 21423,
+        "ctr": 2.24,
+        "views": 247230,
+        "vtr": 25.85,
+        "engagement": 45000,
+        "engagement_rate": 4.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 20925,
+        "sessions": 19460,
+        "conversions": 348,
+        "conversion_rate": 1.8,
+        "revenue_attributed": 33750,
+        "roas": 1.5
+      },
+      {
+        "id": "3181c616-e872-58fa-8066-f46864933441-5",
+        "start_date": "2025-11-01",
+        "end_date": "2025-11-30",
+        "media_platform": "tiktok",
+        "channel": "social",
+        "ad_placement": "in-feed video",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+        "audience_targeting": { "retargeting": true, "audience_type": "retargeting" },
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.87,
+        "budget": 9000,
+        "actual_spend": 9000,
+        "impressions": 610192,
+        "clicks": 10331,
+        "ctr": 1.69,
+        "views": 159640,
+        "vtr": 26.16,
+        "engagement": 31765,
+        "engagement_rate": 5.4,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 9837,
+        "sessions": 9148,
+        "conversions": 209,
+        "conversion_rate": 2.3,
+        "revenue_attributed": 20160,
+        "roas": 2.24
+      },
+      {
+        "id": "3181c616-e872-58fa-8066-f46864933441-6",
+        "start_date": "2025-11-01",
+        "end_date": "2025-11-30",
+        "media_platform": "tiktok",
+        "channel": "social",
+        "ad_placement": "in-feed video",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+        "audience_targeting": {
+          "retargeting": false,
+          "age_groups": ["18-44"],
+          "genders": ["female"],
+          "interests": ["beauty", "fashion"],
+          "audience_type": "prospecting"
+        },
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.86,
+        "budget": 4500,
+        "actual_spend": 4500,
+        "impressions": 334000,
+        "clicks": 5210,
+        "ctr": 1.56,
+        "views": 97703,
+        "vtr": 29.25,
+        "engagement": 16176,
+        "engagement_rate": 5.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 4923,
+        "sessions": 4578,
+        "conversions": 59,
+        "conversion_rate": 1.3,
+        "revenue_attributed": 5670,
+        "roas": 1.26
+      },
+      {
+        "id": "3181c616-e872-58fa-8066-f46864933441-7",
+        "start_date": "2025-11-01",
+        "end_date": "2025-11-30",
+        "media_platform": "google display network",
+        "channel": "display",
+        "ad_placement": "responsive display",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+        "audience_targeting": { "include_audiences": ["in-market=beauty"], "audience_type": "prospecting" },
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.34,
+        "budget": 6750,
+        "actual_spend": 6750,
+        "impressions": 18355972,
+        "clicks": 20021,
+        "ctr": 0.11,
+        "views": null,
+        "vtr": null,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 17934,
+        "sessions": 16679,
+        "conversions": 188,
+        "conversion_rate": 1.1,
+        "revenue_attributed": 18293,
+        "roas": 2.71
+      },
+      {
+        "id": "3181c616-e872-58fa-8066-f46864933441-8",
+        "start_date": "2025-11-01",
+        "end_date": "2025-11-30",
+        "media_platform": "criteo",
+        "channel": "display",
+        "ad_placement": "standard retargeting",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+        "audience_targeting": { "retargeting": true, "audience_type": "retargeting" },
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.48,
+        "budget": 6750,
+        "actual_spend": 6750,
+        "impressions": 6983342,
+        "clicks": 14098,
+        "ctr": 0.2,
+        "views": null,
+        "vtr": null,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 13950,
+        "sessions": 12974,
+        "conversions": 293,
+        "conversion_rate": 2.3,
+        "revenue_attributed": 28350,
+        "roas": 4.2
+      },
+      {
+        "id": "3181c616-e872-58fa-8066-f46864933441-9",
+        "start_date": "2025-11-01",
+        "end_date": "2025-11-30",
+        "media_platform": "youtube",
+        "channel": "video",
+        "ad_placement": "in-stream (skippable)",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+        "audience_targeting": { "retargeting": true, "audience_type": "retargeting" },
+        "billing_type": "cpv",
+        "billing_unit_cost": 0.03,
+        "budget": 2250,
+        "actual_spend": 2250,
+        "impressions": 280597,
+        "clicks": null,
+        "ctr": null,
+        "views": 75721,
+        "vtr": 26.99,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 900,
+        "sessions": 837,
+        "conversions": 13,
+        "conversion_rate": 1.6,
+        "revenue_attributed": 1260,
+        "roas": 0.56
+      },
+      {
+        "id": "3181c616-e872-58fa-8066-f46864933441-10",
+        "start_date": "2025-11-01",
+        "end_date": "2025-11-30",
+        "media_platform": "youtube",
+        "channel": "video",
+        "ad_placement": "in-stream (skippable)",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+        "audience_targeting": {
+          "retargeting": false,
+          "age_groups": ["18-44"],
+          "interests": ["beauty"],
+          "audience_type": "prospecting"
+        },
+        "billing_type": "cpv",
+        "billing_unit_cost": 0.03,
+        "budget": 2250,
+        "actual_spend": 2250,
+        "impressions": 232818,
+        "clicks": null,
+        "ctr": null,
+        "views": 77254,
+        "vtr": 33.18,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 675,
+        "sessions": 628,
+        "conversions": 5,
+        "conversion_rate": 0.8,
+        "revenue_attributed": 450,
+        "roas": 0.2
+      },
+      {
+        "id": "3181c616-e872-58fa-8066-f46864933441-11",
+        "start_date": "2025-11-01",
+        "end_date": "2025-11-30",
+        "media_platform": "affiliate network",
+        "channel": "affiliate",
+        "ad_placement": "top publishers",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+        "audience_targeting": { "include_audiences": ["publishers=beauty/style"], "audience_type": "prospecting" },
+        "billing_type": "cpa",
+        "billing_unit_cost": 12.0,
+        "budget": 4500,
+        "actual_spend": 4500,
+        "impressions": null,
+        "clicks": null,
+        "ctr": null,
+        "views": null,
+        "vtr": null,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": null,
+        "sessions": 15000,
+        "conversions": 375,
+        "conversion_rate": 2.7,
+        "revenue_attributed": 33750,
+        "roas": 7.5
+      }
+    ],
+
+    "provenance_note": "de/eu channel benchmarks were applied, ≤20% noise added per metric; typical media mix (search 35%, social 25%, email 20%, display 15%, affiliate 5%) with q4 spike; ai-assisted manual curation.",
+    "benchmark_notes": { "market": "de/eu", "sources": "industry benchmarks + internal assumptions" }
+  }
+}
+{
+  "campaign": {
+    "id": "87996024-b6fe-5544-98ec-d1398f2c7a5c",
+    "name": "luma_202512_xmas-gifting",
+    "brand_name": "luma",
+    "category": "makeup",
+    "country": "de",
+
+    "start_date": "2025-12-01",
+    "end_date": "2025-12-31",
+    "status": "planned",
+    "objective": "conversion",
+    "currency": "eur",
+
+    "kpi_targets": { "primary_kpi": "roas" },
+
+    "metrics_total": {
+      "budget": 200000,
+      "impressions": 36543303,
+      "clicks": 224183,
+      "views": 1256342,
+      "engagement": 198507,
+      "open": null,
+      "ad_link_click": 254632,
+      "sessions": 229067,
+      "conversions": 13501,
+      "revenue_attributed": 779955,
+      "roas": 3.9
+    },
+
+    "ad_groups": [
+      {
+        "id": "87996024-b6fe-5544-98ec-d1398f2c7a5c-1",
+        "start_date": "2025-12-01",
+        "end_date": "2025-12-31",
+        "media_platform": "google ads",
+        "channel": "search",
+        "ad_placement": "search network (text ads)",
+        "ad_format": "text",
+        "sem_keyword_type": "brand",
+        "audience_targeting": {},
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.7,
+        "budget": 65000,
+        "actual_spend": 65000,
+        "impressions": 3578175,
+        "clicks": 93066,
+        "ctr": 2.6,
+        "views": null,
+        "vtr": null,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 90278,
+        "sessions": 83055,
+        "conversions": 2990,
+        "conversion_rate": 3.6,
+        "revenue_attributed": 269100,
+        "roas": 4.14
+      },
+      {
+        "id": "87996024-b6fe-5544-98ec-d1398f2c7a5c-2",
+        "start_date": "2025-12-01",
+        "end_date": "2025-12-31",
+        "media_platform": "google ads",
+        "channel": "search",
+        "ad_placement": "search network (text ads)",
+        "ad_format": "text",
+        "sem_keyword_type": "generic",
+        "audience_targeting": {},
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.68,
+        "budget": 30000,
+        "actual_spend": 30000,
+        "impressions": 1926659,
+        "clicks": 44228,
+        "ctr": 2.3,
+        "views": null,
+        "vtr": null,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 41667,
+        "sessions": 38333,
+        "conversions": 1227,
+        "conversion_rate": 3.2,
+        "revenue_attributed": 110430,
+        "roas": 3.68
+      },
+      {
+        "id": "87996024-b6fe-5544-98ec-d1398f2c7a5c-3",
+        "start_date": "2025-12-01",
+        "end_date": "2025-12-31",
+        "media_platform": "meta ads",
+        "channel": "social",
+        "ad_placement": "ig/fb feed+stories (image/video)",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+        "audience_targeting": { "retargeting": true, "audience_type": "retargeting" },
+        "billing_type": "cpc",
+        "billing_unit_cost": 1.13,
+        "budget": 40000,
+        "actual_spend": 40000,
+        "impressions": 1695858,
+        "clicks": 35470,
+        "ctr": 2.09,
+        "views": 445294,
+        "vtr": 26.26,
+        "engagement": 90909,
+        "engagement_rate": 5.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 40000,
+        "sessions": 35200,
+        "conversions": 1162,
+        "conversion_rate": 3.3,
+        "revenue_attributed": 104580,
+        "roas": 2.61
+      },
+      {
+        "id": "87996024-b6fe-5544-98ec-d1398f2c7a5c-4",
+        "start_date": "2025-12-01",
+        "end_date": "2025-12-03",
+        "media_platform": "meta ads",
+        "channel": "social",
+        "ad_placement": "",
+        "ad_format": "video",
+        "sem_keyword_type": "null",
+        "audience_targeting": {
+          "retargeting": false,
+          "age_groups": ["18-44"],
+          "genders": ["female"],
+          "interests": ["beauty", "fashion"],
+          "audience_type": "prospecting"
+        },
+        "billing_type": "flat",
+        "billing_unit_cost": 25000.0,
+        "budget": 25000,
+        "actual_spend": 25000,
+        "impressions": null,
+        "clicks": null,
+        "ctr": null,
+        "views": 281721,
+        "vtr": null,
+        "engagement": 50000,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 25000,
+        "sessions": 22000,
+        "conversions": 6270,
+        "conversion_rate": 28.5,
+        "revenue_attributed": 173750,
+        "roas": 6.95
+      },
+      {
+        "id": "87996024-b6fe-5544-98ec-d1398f2c7a5c-5",
+        "start_date": "2025-12-01",
+        "end_date": "2025-12-31",
+        "media_platform": "tiktok",
+        "channel": "social",
+        "ad_placement": "in-feed video",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+        "audience_targeting": { "retargeting": true, "audience_type": "retargeting" },
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.84,
+        "budget": 10000,
+        "actual_spend": 10000,
+        "impressions": 661413,
+        "clicks": 11876,
+        "ctr": 1.8,
+        "views": 222400,
+        "vtr": 33.62,
+        "engagement": 39217,
+        "engagement_rate": 6.0,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 11765,
+        "sessions": 10353,
+        "conversions": 290,
+        "conversion_rate": 2.8,
+        "revenue_attributed": 26100,
+        "roas": 2.61
+      },
+      {
+        "id": "87996024-b6fe-5544-98ec-d1398f2c7a5c-6",
+        "start_date": "2025-12-03",
+        "end_date": "2025-12-05",
+        "media_platform": "tiktok",
+        "channel": "social",
+        "ad_placement": "",
+        "ad_format": "video",
+        "sem_keyword_type": "null",
+        "audience_targeting": {
+          "retargeting": false,
+          "age_groups": ["18-44"],
+          "genders": ["female"],
+          "interests": ["beauty", "fashion"],
+          "audience_type": "prospecting"
+        },
+        "billing_type": "flat",
+        "billing_unit_cost": 5000.0,
+        "budget": 5000,
+        "actual_spend": 5000,
+        "impressions": null,
+        "clicks": null,
+        "ctr": null,
+        "views": 102313,
+        "vtr": null,
+        "engagement": 18381,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 5882,
+        "sessions": 5176,
+        "conversions": 776,
+        "conversion_rate": 15.0,
+        "revenue_attributed": 17500,
+        "roas": 3.5
+      },
+      {
+        "id": "87996024-b6fe-5544-98ec-d1398f2c7a5c-7",
+        "start_date": "2025-12-01",
+        "end_date": "2025-12-31",
+        "media_platform": "google display network",
+        "channel": "display",
+        "ad_placement": "responsive display",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+        "audience_targeting": { "include_audiences": ["in-market=beauty"], "audience_type": "prospecting" },
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.32,
+        "budget": 7500,
+        "actual_spend": 7500,
+        "impressions": 20882016,
+        "clicks": 23208,
+        "ctr": 0.11,
+        "views": 23208,
+        "vtr": null,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 21429,
+        "sessions": 18214,
+        "conversions": 200,
+        "conversion_rate": 1.1,
+        "revenue_attributed": 18000,
+        "roas": 2.4
+      },
+      {
+        "id": "87996024-b6fe-5544-98ec-d1398f2c7a5c-8",
+        "start_date": "2025-12-01",
+        "end_date": "2025-12-31",
+        "media_platform": "criteo",
+        "channel": "display",
+        "ad_placement": "standard retargeting",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+        "audience_targeting": { "retargeting": true, "audience_type": "retargeting" },
+        "billing_type": "cpc",
+        "billing_unit_cost": 0.49,
+        "budget": 7500,
+        "actual_spend": 7500,
+        "impressions": 7539742,
+        "clicks": 15224,
+        "ctr": 0.2,
+        "views": 15224,
+        "vtr": null,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 16667,
+        "sessions": 14667,
+        "conversions": 323,
+        "conversion_rate": 2.2,
+        "revenue_attributed": 29070,
+        "roas": 3.88
+      },
+      {
+        "id": "87996024-b6fe-5544-98ec-d1398f2c7a5c-9",
+        "start_date": "2025-12-01",
+        "end_date": "2025-12-31",
+        "media_platform": "youtube",
+        "channel": "video",
+        "ad_placement": "in-stream (skippable)",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+        "audience_targeting": { "retargeting": true, "audience_type": "retargeting" },
+        "billing_type": "cpv",
+        "billing_unit_cost": 0.03,
+        "budget": 2500,
+        "actual_spend": 2500,
+        "impressions": 259440,
+        "clicks": 1111,
+        "ctr": 0.41,
+        "views": 83931,
+        "vtr": 32.35,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 1111,
+        "sessions": 944,
+        "conversions": 15,
+        "conversion_rate": 1.6,
+        "revenue_attributed": 1350,
+        "roas": 0.54
+      },
+      {
+        "id": "87996024-b6fe-5544-98ec-d1398f2c7a5c-10",
+        "start_date": "2025-12-13",
+        "end_date": "2025-12-15",
+        "media_platform": "youtube",
+        "channel": "video",
+        "ad_placement": "",
+        "ad_format": "video",
+        "sem_keyword_type": "null",
+        "audience_targeting": {
+          "retargeting": false,
+          "age_groups": ["18-44"],
+          "interests": ["beauty"],
+          "audience_type": "prospecting"
+        },
+        "billing_type": "flat",
+        "billing_unit_cost": 2500.0,
+        "budget": 2500,
+        "actual_spend": 2500,
+        "impressions": null,
+        "clicks": null,
+        "ctr": null,
+        "views": 82251,
+        "vtr": 31.99,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": 833,
+        "sessions": 708,
+        "conversions": 248,
+        "conversion_rate": 35.0,
+        "revenue_attributed": 30075,
+        "roas": 12.03
+      },
+      {
+        "id": "87996024-b6fe-5544-98ec-d1398f2c7a5c-11",
+        "start_date": "2025-12-01",
+        "end_date": "2025-12-31",
+        "media_platform": "affiliate network",
+        "channel": "affiliate",
+        "ad_placement": "top publishers",
+        "ad_format": "text",
+        "sem_keyword_type": "null",
+        "audience_targeting": { "audience_type": "prospecting" },
+        "billing_type": "cpa",
+        "billing_unit_cost": 12.0,
+        "budget": 5000,
+        "actual_spend": 5000,
+        "impressions": null,
+        "clicks": null,
+        "ctr": null,
+        "views": null,
+        "vtr": null,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": null,
+        "sessions": 417,
+        "conversions": null,
+        "conversion_rate": null,
+        "revenue_attributed": null,
+        "roas": null
+      }
+    ],
+
+    "provenance_note": "de/eu channel benchmarks were applied, ≤20% noise added per metric; typical media mix (search 35%, social 25%, email 20%, display 15%, affiliate 5%) with q4 spike; ai-assisted manual curation.",
+    "benchmark_notes": { "market": "de/eu", "sources": "industry benchmarks + internal assumptions" }
+  }
+}
+{
+  "campaign": {
+    "id": "12f3269a-3688-5091-8e5e-c9e966f2d070",
+    "name": "luma_202512_vogue-pr",
+    "brand_name": "luma",
+    "category": "makeup",
+    "country": "de",
+
+    "start_date": "2025-12-13",
+    "end_date": "2025-12-15",
+    "status": "planned",
+    "objective": "conversion",
+    "currency": "eur",
+
+    "kpi_targets": { "primary_kpi": "vtr" },
+
+    "metrics_total": {
+      "budget": 0,
+      "impressions": null,
+      "clicks": null,
+      "views": 120000,
+      "engagement": null,
+      "open": null,
+      "ad_link_click": null,
+      "sessions": 16200,
+      "conversions": 2430,
+      "revenue_attributed": 150000,
+      "roas": null
+    },
+
+    "ad_groups": [
+      {
+        "id": "12f3269a-3688-5091-8e5e-c9e966f2d070-1",
+        "start_date": "2025-12-13",
+        "end_date": "2025-12-15",
+        "media_platform": "vogue",
+        "channel": "video",
+        "ad_placement": "",
+        "ad_format": "video",
+        "sem_keyword_type": "null",
+        "audience_targeting": {},
+        "billing_type": "cpm",
+        "billing_unit_cost": null,
+        "budget": 0,
+        "actual_spend": 0,
+        "impressions": null,
+        "clicks": null,
+        "ctr": null,
+        "views": 120000,
+        "vtr": 15.0,
+        "engagement": null,
+        "engagement_rate": null,
+        "open": null,
+        "open_rate": null,
+        "ad_link_click": null,
+        "sessions": 16200,
+        "conversions": 2430,
+        "conversion_rate": 15.0,
+        "revenue_attributed": 150000,
+        "roas": null
+      }
+    ],
+
+    "provenance_note": "de/eu channel benchmarks were applied, ≤20% noise added per metric; typical media mix (search 35%, social 25%, email 20%, display 15%, affiliate 5%) with q4 spike; ai-assisted manual curation.",
+    "benchmark_notes": { "market": "de/eu", "sources": "industry benchmarks + internal assumptions" }
+  }
+}
