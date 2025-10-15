@@ -13,15 +13,24 @@ Main Components:
 from etl.base_loader import BaseLoader, LoadStats
 from etl.hr_loader import HRLoader
 from etl.marketing_loader import MarketingLoader
-from etl.procurement_loader import ProcurementLoader
+from etl.procurement_csv_loader import ProcurementCSVLoader
 from etl import utils
+
+# Legacy import for backward compatibility
+try:
+    from etl.procurement_loader import ProcurementLoader as _LegacyProcurementLoader
+    ProcurementLoader = _LegacyProcurementLoader
+except ImportError:
+    # If old loader doesn't exist, alias to new CSV loader
+    ProcurementLoader = ProcurementCSVLoader
 
 __all__ = [
     'BaseLoader',
     'LoadStats',
     'HRLoader',
     'MarketingLoader',
-    'ProcurementLoader',
+    'ProcurementCSVLoader',
+    'ProcurementLoader',  # Legacy alias
     'utils'
 ]
 

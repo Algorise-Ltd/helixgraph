@@ -155,49 +155,44 @@ def generate_employee_skills(employee_id, job_title, department, hire_date_str):
 def generate_hr_data(num_employees=200):
     """Generate sample HR employee data with skills"""
     
-    departments = ['Engineering', 'Marketing', 'Sales', 'HR', 'Finance', 'Operations']
-    locations = ['New York', 'San Francisco', 'London', 'Tokyo', 'Berlin', 'Toronto']
+    # Simplified to 3 core departments (aligned with business domains)
+    departments = ['Engineering', 'Marketing', 'Sales']
+    locations = ['San Francisco', 'London', 'Tokyo']
     
     job_titles = {
-        'Engineering': ['Software Engineer', 'Senior Engineer', 'Tech Lead', 'Engineering Manager', 'Staff Engineer'],
-        'Marketing': ['Marketing Manager', 'Content Writer', 'SEO Specialist', 'Brand Manager', 'Marketing Coordinator'],
-        'Sales': ['Sales Rep', 'Account Executive', 'Sales Manager', 'VP of Sales', 'Sales Development Rep'],
-        'HR': ['HR Manager', 'Recruiter', 'HR Specialist', 'Chief People Officer', 'HR Coordinator'],
-        'Finance': ['Financial Analyst', 'Accountant', 'Finance Manager', 'CFO', 'Senior Accountant'],
-        'Operations': ['Operations Manager', 'Project Manager', 'Ops Coordinator', 'COO', 'Operations Analyst']
+        'Engineering': ['Software Engineer', 'Senior Engineer', 'Tech Lead', 'Engineering Manager', 'Staff Engineer', 'DevOps Engineer', 'Data Engineer', 'QA Engineer'],
+        'Marketing': ['Marketing Manager', 'Content Writer', 'SEO Specialist', 'Brand Manager', 'Marketing Coordinator', 'Digital Marketing Specialist', 'Product Marketing Manager', 'Growth Manager'],
+        'Sales': ['Sales Rep', 'Account Executive', 'Sales Manager', 'VP of Sales', 'Sales Development Rep', 'Account Manager', 'Business Development Manager', 'Sales Engineer']
     }
     
     salary_ranges = {
+        # Engineering roles
         'Software Engineer': (70000, 120000),
         'Senior Engineer': (100000, 160000),
         'Staff Engineer': (140000, 190000),
         'Tech Lead': (130000, 180000),
         'Engineering Manager': (140000, 200000),
+        'DevOps Engineer': (80000, 140000),
+        'Data Engineer': (85000, 145000),
+        'QA Engineer': (65000, 110000),
+        # Marketing roles
         'Marketing Manager': (80000, 130000),
         'Content Writer': (50000, 80000),
         'Marketing Coordinator': (45000, 65000),
         'SEO Specialist': (60000, 90000),
         'Brand Manager': (90000, 140000),
+        'Digital Marketing Specialist': (55000, 95000),
+        'Product Marketing Manager': (80000, 135000),
+        'Growth Manager': (75000, 130000),
+        # Sales roles
         'Sales Rep': (50000, 90000),
         'Sales Development Rep': (45000, 75000),
         'Account Executive': (70000, 120000),
         'Sales Manager': (90000, 150000),
         'VP of Sales': (150000, 250000),
-        'HR Manager': (80000, 120000),
-        'Recruiter': (55000, 85000),
-        'HR Specialist': (50000, 75000),
-        'HR Coordinator': (45000, 65000),
-        'Chief People Officer': (140000, 200000),
-        'Financial Analyst': (65000, 95000),
-        'Accountant': (55000, 85000),
-        'Senior Accountant': (75000, 105000),
-        'Finance Manager': (95000, 145000),
-        'CFO': (180000, 300000),
-        'Operations Manager': (85000, 130000),
-        'Project Manager': (75000, 115000),
-        'Ops Coordinator': (50000, 75000),
-        'Operations Analyst': (60000, 90000),
-        'COO': (170000, 280000)
+        'Account Manager': (60000, 105000),
+        'Business Development Manager': (75000, 130000),
+        'Sales Engineer': (70000, 125000)
     }
     
     employees = []

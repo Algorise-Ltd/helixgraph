@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "version": "0.9",
+    "updated": "2025-10-12",
+    "note": "Marketing KPI definitions aligned with campaign measurement framework"
+  },
+  "kpis": [
+    {
+      "kpi_id": "KPI-CTR",
+      "name": "Click Through Rate",
+      "description": "Ratio of clicks to impressions, measuring ad engagement effectiveness",
+      "unit": "Ratio",
+      "direction": "higher_is_better",
+      "formula": "Clicks / Impressions",
+      "category": "Engagement"
+    },
+    {
+      "kpi_id": "KPI-CVR",
+      "name": "Conversion Rate",
+      "description": "Purchases divided by clicks, measuring conversion effectiveness",
+      "unit": "Ratio",
+      "direction": "higher_is_better",
+      "formula": "Conversions / Clicks",
+      "category": "Conversion"
+    },
+    {
+      "kpi_id": "KPI-ROAS",
+      "name": "Return On Ad Spend",
+      "description": "Revenue divided by advertising spend, measuring campaign profitability",
+      "unit": "Currency",
+      "direction": "higher_is_better",
+      "formula": "Revenue / Ad Spend",
+      "category": "Financial"
+    },
+    {
+      "kpi_id": "KPI-IMPRESSIONS",
+      "name": "Impressions",
+      "description": "Number of ad impressions delivered",
+      "unit": "Count",
+      "direction": "higher_is_better",
+      "formula": "Sum of ad views",
+      "category": "Reach"
+    },
+    {
+      "kpi_id": "KPI-CPA",
+      "name": "Cost Per Acquisition",
+      "description": "Spend divided by conversions, measuring acquisition efficiency",
+      "unit": "Currency",
+      "direction": "lower_is_better",
+      "formula": "Ad Spend / Conversions",
+      "category": "Financial"
+    },
+    {
+      "kpi_id": "KPI-CPM",
+      "name": "Cost Per Mille",
+      "description": "Cost per thousand impressions",
+      "unit": "Currency",
+      "direction": "lower_is_better",
+      "formula": "(Ad Spend / Impressions) * 1000",
+      "category": "Financial"
+    },
+    {
+      "kpi_id": "KPI-CPC",
+      "name": "Cost Per Click",
+      "description": "Average cost per click",
+      "unit": "Currency",
+      "direction": "lower_is_better",
+      "formula": "Ad Spend / Clicks",
+      "category": "Financial"
+    },
+    {
+      "kpi_id": "KPI-REACH",
+      "name": "Reach",
+      "description": "Unique users reached by campaign",
+      "unit": "Count",
+      "direction": "higher_is_better",
+      "formula": "Unique user count",
+      "category": "Reach"
+    },
+    {
+      "kpi_id": "KPI-ENGAGEMENT-RATE",
+      "name": "Engagement Rate",
+      "description": "Ratio of engaged users to total reach",
+      "unit": "Ratio",
+      "direction": "higher_is_better",
+      "formula": "Engagements / Reach",
+      "category": "Engagement"
+    },
+    {
+      "kpi_id": "KPI-BRAND-LIFT",
+      "name": "Brand Lift",
+      "description": "Measured increase in brand awareness or consideration",
+      "unit": "Percent",
+      "direction": "higher_is_better",
+      "formula": "Survey-based measurement",
+      "category": "Brand"
+    }
+  ]
+}
+
+

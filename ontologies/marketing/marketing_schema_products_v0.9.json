@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Marketing Product Schema",
+  "version": "0.9",
+  "description": "Schema for products featured in marketing campaigns",
+  "type": "object",
+  "properties": {
+    "product_id": {
+      "type": "string",
+      "description": "Unique product identifier",
+      "pattern": "^PRD-"
+    },
+    "name": {
+      "type": "string",
+      "description": "Product name"
+    },
+    "brand_id": {
+      "type": "string",
+      "description": "Reference to brand",
+      "pattern": "^BRD-"
+    },
+    "category": {
+      "type": "string",
+      "description": "Product category",
+      "enum": ["Makeup", "Skincare", "Haircare", "Fragrance", "Fashion", "Health", "Toys", "Automotive", "Sports & Outdoor Fashion"]
+    },
+    "subcategory": {
+      "type": "string",
+      "description": "Product subcategory"
+    },
+    "price": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Product price"
+    },
+    "currency": {
+      "type": "string",
+      "enum": ["EUR", "USD", "GBP"],
+      "description": "Currency code"
+    },
+    "sku": {
+      "type": "string",
+      "description": "Stock keeping unit"
+    },
+    "description": {
+      "type": "string",
+      "description": "Product description"
+    },
+    "launch_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Product launch date"
+    },
+    "is_active": {
+      "type": "boolean",
+      "description": "Whether product is currently active"
+    },
+    "attributes": {
+      "type": "object",
+      "description": "Additional product attributes",
+      "properties": {
+        "color": {"type": "string"},
+        "size": {"type": "string"},
+        "material": {"type": "string"},
+        "weight": {"type": "number"},
+        "dimensions": {"type": "string"}
+      }
+    }
+  },
+  "required": ["product_id", "name", "brand_id", "category", "price", "currency"]
+}
+
+

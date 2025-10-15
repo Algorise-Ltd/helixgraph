@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "version": "0.9",
+    "updated": "2025-10-12",
+    "note": "Marketing channel taxonomy with hierarchical structure"
+  },
+  "channels": [
+    {
+      "channel_id": "CH-DIG",
+      "name": "Digital",
+      "type": "Digital",
+      "parent_id": null,
+      "description": "Umbrella category for all digital marketing channels"
+    },
+    {
+      "channel_id": "CH-SOC",
+      "name": "Social",
+      "type": "Social",
+      "parent_id": "CH-DIG",
+      "description": "Social media marketing channels",
+      "platforms": ["Facebook", "Instagram", "TikTok", "LinkedIn", "Twitter", "YouTube"]
+    },
+    {
+      "channel_id": "CH-DSP",
+      "name": "Programmatic Display",
+      "type": "Display",
+      "parent_id": "CH-DIG",
+      "description": "Programmatic display advertising across web and mobile",
+      "platforms": ["Google Display Network", "Trade Desk", "DV360"]
+    },
+    {
+      "channel_id": "CH-VID",
+      "name": "Online Video",
+      "type": "Display",
+      "parent_id": "CH-DIG",
+      "description": "Video advertising across streaming and social platforms",
+      "platforms": ["YouTube", "Connected TV", "In-Stream Video"]
+    },
+    {
+      "channel_id": "CH-SEA",
+      "name": "Paid Search",
+      "type": "Search",
+      "parent_id": "CH-DIG",
+      "description": "Search engine advertising",
+      "platforms": ["Google Ads", "Bing Ads"]
+    },
+    {
+      "channel_id": "CH-EML",
+      "name": "Email",
+      "type": "Email",
+      "parent_id": null,
+      "description": "Email marketing campaigns"
+    },
+    {
+      "channel_id": "CH-RET",
+      "name": "Retail",
+      "type": "Retail",
+      "parent_id": null,
+      "description": "Retail and in-store marketing"
+    },
+    {
+      "channel_id": "CH-PR",
+      "name": "Public Relations",
+      "type": "PR",
+      "parent_id": null,
+      "description": "Public relations and earned media"
+    },
+    {
+      "channel_id": "CH-AFF",
+      "name": "Affiliate",
+      "type": "Digital",
+      "parent_id": "CH-DIG",
+      "description": "Affiliate and partnership marketing"
+    },
+    {
+      "channel_id": "CH-NAT",
+      "name": "Native Advertising",
+      "type": "Display",
+      "parent_id": "CH-DIG",
+      "description": "Native content and sponsored posts"
+    }
+  ]
+}
+
+

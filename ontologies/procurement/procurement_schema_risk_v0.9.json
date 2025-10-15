@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Procurement Risk Assessment Schema",
+  "version": "0.9",
+  "description": "Schema for supplier risk scores and assessments",
+  "type": "object",
+  "properties": {
+    "assessment_id": {
+      "type": "string",
+      "description": "Unique risk assessment identifier",
+      "pattern": "^RISK-"
+    },
+    "supplier_id": {
+      "type": "string",
+      "description": "Reference to supplier",
+      "pattern": "^SUP-"
+    },
+    "category": {
+      "type": "string",
+      "description": "Risk category",
+      "enum": ["Financial", "Operational", "ESG", "GeoPolitical", "Compliance"]
+    },
+    "score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Risk score (0-100, higher is better)"
+    },
+    "assessed_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of assessment"
+    },
+    "assessor": {
+      "type": "string",
+      "description": "Person or system that performed assessment"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Assessment notes and observations"
+    },
+    "risk_level": {
+      "type": "string",
+      "enum": ["Critical", "High", "Medium", "Low", "Minimal"],
+      "description": "Categorical risk level"
+    },
+    "mitigation_actions": {
+      "type": "array",
+      "description": "Required mitigation actions",
+      "items": {
+        "type": "object",
+        "properties": {
+          "action": {"type": "string"},
+          "owner": {"type": "string"},
+          "due_date": {"type": "string", "format": "date"},
+          "status": {"type": "string", "enum": ["pending", "in_progress", "completed", "overdue"]}
+        }
+      }
+    },
+    "indicators": {
+      "type": "object",
+      "description": "Specific risk indicators and their values",
+      "additionalProperties": true
+    }
+  },
+  "required": ["supplier_id", "category", "score", "assessed_date"]
+}
+
+
+

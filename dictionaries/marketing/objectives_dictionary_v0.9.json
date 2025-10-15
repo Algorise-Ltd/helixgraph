@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "version": "0.9",
+    "updated": "2025-10-12",
+    "note": "Marketing campaign objectives taxonomy"
+  },
+  "objectives": [
+    {
+      "objective_id": "OBJ-AWARENESS",
+      "name": "Brand Awareness",
+      "description": "Increase reach across priority markets",
+      "primary_kpis": ["KPI-IMPRESSIONS", "KPI-REACH", "KPI-BRAND-LIFT"],
+      "typical_channels": ["CH-DSP", "CH-VID", "CH-SOC"]
+    },
+    {
+      "objective_id": "OBJ-ACQUISITION",
+      "name": "Customer Acquisition",
+      "description": "Generate new customers from paid channels",
+      "primary_kpis": ["KPI-CPA", "KPI-CVR", "KPI-ROAS"],
+      "typical_channels": ["CH-SEA", "CH-SOC", "CH-DSP"]
+    },
+    {
+      "objective_id": "OBJ-RETENTION",
+      "name": "Retention",
+      "description": "Drive repeat purchases from existing customers",
+      "primary_kpis": ["KPI-CVR", "KPI-ROAS", "KPI-ENGAGEMENT-RATE"],
+      "typical_channels": ["CH-EML", "CH-SOC"]
+    },
+    {
+      "objective_id": "OBJ-NEW-LAUNCH",
+      "name": "Product Launch",
+      "description": "Support new product release campaign",
+      "primary_kpis": ["KPI-REACH", "KPI-ENGAGEMENT-RATE", "KPI-CVR"],
+      "typical_channels": ["CH-SOC", "CH-PR", "CH-DSP", "CH-VID"]
+    },
+    {
+      "objective_id": "OBJ-COMMERCE",
+      "name": "E-commerce Revenue",
+      "description": "Maximize online revenue from paid media",
+      "primary_kpis": ["KPI-ROAS", "KPI-CVR", "KPI-CPA"],
+      "typical_channels": ["CH-SEA", "CH-SOC", "CH-DSP"]
+    },
+    {
+      "objective_id": "OBJ-ENGAGEMENT",
+      "name": "Audience Engagement",
+      "description": "Build community and deepen customer relationships",
+      "primary_kpis": ["KPI-ENGAGEMENT-RATE", "KPI-CTR"],
+      "typical_channels": ["CH-SOC", "CH-EML"]
+    },
+    {
+      "objective_id": "OBJ-CONSIDERATION",
+      "name": "Brand Consideration",
+      "description": "Move consumers from awareness to purchase intent",
+      "primary_kpis": ["KPI-CTR", "KPI-ENGAGEMENT-RATE", "KPI-BRAND-LIFT"],
+      "typical_channels": ["CH-VID", "CH-SOC", "CH-DSP"]
+    }
+  ]
+}
+
+

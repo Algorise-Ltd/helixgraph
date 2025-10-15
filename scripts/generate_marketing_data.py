@@ -1,4 +1,18 @@
-"""Generate synthetic marketing dataset aligned with marketing_schema."""
+"""Generate synthetic marketing dataset aligned with marketing_schema.
+
+NOTE: This is a LOCAL DATA GENERATOR for testing and development purposes.
+For team collaboration and production use, refer to the official marketing data
+provided by the marketing domain team (HEL-18).
+
+Official team schemas and dictionaries are located in:
+- ontologies/marketing/ (JSON schemas)
+- dictionaries/marketing/ (reference dictionaries)
+
+This generator can be used for:
+- Local testing and development
+- ETL pipeline validation
+- Performance testing with large datasets
+"""
 from __future__ import annotations
 
 import json

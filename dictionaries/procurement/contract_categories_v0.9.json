@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "version": "0.9",
+    "updated": "2025-10-12",
+    "note": "Procurement contract category taxonomy"
+  },
+  "categories": [
+    {
+      "category_id": "CAT-PCB",
+      "name": "PCB Assembly",
+      "description": "Printed Circuit Board assembly and manufacturing",
+      "industry": "Electronics",
+      "typical_suppliers": 5,
+      "avg_contract_value": 500000
+    },
+    {
+      "category_id": "CAT-MACH",
+      "name": "Machining",
+      "description": "Metal machining and fabrication services",
+      "industry": "Metals",
+      "typical_suppliers": 8,
+      "avg_contract_value": 350000
+    },
+    {
+      "category_id": "CAT-LOG",
+      "name": "Logistics",
+      "description": "Transportation and logistics services",
+      "industry": "Logistics",
+      "typical_suppliers": 12,
+      "avg_contract_value": 800000
+    },
+    {
+      "category_id": "CAT-CONSULT",
+      "name": "Consulting",
+      "description": "Professional consulting services",
+      "industry": "Consulting",
+      "typical_suppliers": 15,
+      "avg_contract_value": 250000
+    },
+    {
+      "category_id": "CAT-SW-LIC",
+      "name": "Software Licenses",
+      "description": "Software licensing and subscriptions",
+      "industry": "IT Services",
+      "typical_suppliers": 20,
+      "avg_contract_value": 150000
+    },
+    {
+      "category_id": "CAT-FACILITY",
+      "name": "Facility Services",
+      "description": "Building maintenance and facility management",
+      "industry": "Facilities",
+      "typical_suppliers": 10,
+      "avg_contract_value": 200000
+    },
+    {
+      "category_id": "CAT-PKG",
+      "name": "Packaging",
+      "description": "Packaging materials and services",
+      "industry": "Packaging",
+      "typical_suppliers": 6,
+      "avg_contract_value": 400000
+    },
+    {
+      "category_id": "CAT-STEEL",
+      "name": "Steel Raw Materials",
+      "description": "Steel and metal raw materials",
+      "industry": "Raw Materials",
+      "typical_suppliers": 4,
+      "avg_contract_value": 1200000
+    },
+    {
+      "category_id": "CAT-INJ-MOLD",
+      "name": "Injection Molding",
+      "description": "Plastic injection molding services",
+      "industry": "Components",
+      "typical_suppliers": 7,
+      "avg_contract_value": 450000
+    },
+    {
+      "category_id": "CAT-3D-PRINT",
+      "name": "3D Printing",
+      "description": "Additive manufacturing and 3D printing",
+      "industry": "Components",
+      "typical_suppliers": 5,
+      "avg_contract_value": 180000
+    },
+    {
+      "category_id": "CAT-CHEM",
+      "name": "Chemicals",
+      "description": "Industrial chemicals and materials",
+      "industry": "Chemicals",
+      "typical_suppliers": 6,
+      "avg_contract_value": 600000
+    },
+    {
+      "category_id": "CAT-IT-INFRA",
+      "name": "IT Infrastructure",
+      "description": "IT hardware and infrastructure",
+      "industry": "IT Services",
+      "typical_suppliers": 8,
+      "avg_contract_value": 350000
+    }
+  ]
+}
+
+
