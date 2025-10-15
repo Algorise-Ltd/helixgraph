@@ -1,0 +1,51 @@
+skill_id,name,category
+SKILL001,Python,Technical
+SKILL002,Java,Technical
+SKILL003,JavaScript,Technical
+SKILL004,TypeScript,Technical
+SKILL005,C++,Technical
+SKILL006,Go,Technical
+SKILL007,SQL,Technical
+SKILL008,React,Technical
+SKILL009,Node.js,Technical
+SKILL010,Machine Learning,Technical
+SKILL011,Data Analysis,Technical
+SKILL012,API Design,Technical
+SKILL013,Docker,Tool
+SKILL014,Kubernetes,Tool
+SKILL015,Git,Tool
+SKILL016,AWS,Tool
+SKILL017,Azure,Tool
+SKILL018,Salesforce,Tool
+SKILL019,Tableau,Tool
+SKILL020,Excel,Tool
+SKILL021,Jira,Tool
+SKILL022,Figma,Tool
+SKILL023,Leadership,Soft Skill
+SKILL024,Communication,Soft Skill
+SKILL025,Problem Solving,Soft Skill
+SKILL026,Team Collaboration,Soft Skill
+SKILL027,Project Management,Soft Skill
+SKILL028,Negotiation,Soft Skill
+SKILL029,Public Speaking,Soft Skill
+SKILL030,Critical Thinking,Soft Skill
+SKILL031,Time Management,Soft Skill
+SKILL032,Mentoring,Soft Skill
+SKILL033,Digital Marketing,Domain
+SKILL034,SEO/SEM,Domain
+SKILL035,Content Strategy,Domain
+SKILL036,Financial Modeling,Domain
+SKILL037,Accounting,Domain
+SKILL038,Sales Strategy,Domain
+SKILL039,Customer Success,Domain
+SKILL040,Recruitment,Domain
+SKILL041,HR Policies,Domain
+SKILL042,Supply Chain,Domain
+SKILL043,Agile/Scrum,Domain
+SKILL044,DevOps,Domain
+SKILL045,English,Language
+SKILL046,Spanish,Language
+SKILL047,Mandarin,Language
+SKILL048,French,Language
+SKILL049,German,Language
+SKILL050,Japanese,Language

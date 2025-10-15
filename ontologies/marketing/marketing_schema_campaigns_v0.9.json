@@ -1,0 +1,148 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Marketing Campaign Schema",
+  "version": "0.9",
+  "description": "Schema for marketing campaign data including channels, budgets, and KPIs",
+  "type": "object",
+  "properties": {
+    "campaign_id": {
+      "type": "string",
+      "description": "Unique campaign identifier",
+      "pattern": "^CMP-[0-9]{4}-[0-9]{4}$"
+    },
+    "name": {
+      "type": "string",
+      "description": "Campaign name"
+    },
+    "objective_id": {
+      "type": "string",
+      "description": "Reference to marketing objective",
+      "pattern": "^OBJ-"
+    },
+    "brand_id": {
+      "type": "string",
+      "description": "Reference to brand",
+      "pattern": "^BRD-"
+    },
+    "region": {
+      "type": "string",
+      "description": "Target region code (ISO 3166-1 alpha-2)"
+    },
+    "start_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Campaign start date"
+    },
+    "end_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Campaign end date"
+    },
+    "budget": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Total campaign budget"
+    },
+    "currency": {
+      "type": "string",
+      "enum": ["EUR", "USD", "GBP"],
+      "description": "Currency code"
+    },
+    "channels": {
+      "type": "array",
+      "description": "Channel allocation and performance",
+      "items": {
+        "$ref": "#/definitions/CampaignChannel"
+      }
+    },
+    "orders": {
+      "type": "array",
+      "description": "Orders attributed to this campaign",
+      "items": {
+        "$ref": "#/definitions/CampaignOrder"
+      }
+    }
+  },
+  "required": ["campaign_id", "name", "objective_id", "brand_id", "start_date", "end_date", "budget", "currency"],
+  "definitions": {
+    "CampaignChannel": {
+      "type": "object",
+      "properties": {
+        "channel_id": {
+          "type": "string",
+          "description": "Reference to channel taxonomy"
+        },
+        "spend": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Spend allocated to this channel"
+        },
+        "currency": {
+          "type": "string",
+          "enum": ["EUR", "USD", "GBP"]
+        },
+        "kpis": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/CampaignChannelKPI"
+          }
+        }
+      },
+      "required": ["channel_id", "spend", "currency"]
+    },
+    "CampaignChannelKPI": {
+      "type": "object",
+      "properties": {
+        "kpi_id": {
+          "type": "string",
+          "description": "Reference to KPI definition"
+        },
+        "value": {
+          "type": "number",
+          "description": "KPI value"
+        },
+        "unit": {
+          "type": "string",
+          "enum": ["Percent", "Count", "Currency", "Ratio", "Index"]
+        },
+        "period_start": {
+          "type": "string",
+          "format": "date"
+        },
+        "period_end": {
+          "type": "string",
+          "format": "date"
+        }
+      },
+      "required": ["kpi_id", "value", "unit", "period_start", "period_end"]
+    },
+    "CampaignOrder": {
+      "type": "object",
+      "properties": {
+        "order_id": {
+          "type": "string",
+          "description": "Unique order identifier"
+        },
+        "platform": {
+          "type": "string",
+          "description": "E-commerce platform"
+        },
+        "revenue": {
+          "type": "number",
+          "minimum": 0
+        },
+        "currency": {
+          "type": "string",
+          "enum": ["EUR", "USD", "GBP"]
+        },
+        "conversion_date": {
+          "type": "string",
+          "format": "date"
+        }
+      },
+      "required": ["order_id", "platform", "revenue", "currency", "conversion_date"]
+    }
+  }
+}
+
+

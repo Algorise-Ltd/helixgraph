@@ -1,0 +1,118 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Procurement Purchase Order Schema",
+  "version": "0.9",
+  "description": "Schema for purchase orders and order lines",
+  "type": "object",
+  "properties": {
+    "po_id": {
+      "type": "string",
+      "description": "Unique purchase order identifier",
+      "pattern": "^PO-[0-9]{5}$"
+    },
+    "supplier_id": {
+      "type": "string",
+      "description": "Reference to supplier",
+      "pattern": "^SUP-"
+    },
+    "issue_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Purchase order issue date"
+    },
+    "expected_delivery_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Expected delivery date"
+    },
+    "actual_delivery_date": {
+      "type": ["string", "null"],
+      "format": "date",
+      "description": "Actual delivery date"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["Open", "Approved", "In Transit", "Delivered", "Closed", "Cancelled"],
+      "description": "Purchase order status"
+    },
+    "requester": {
+      "type": "string",
+      "description": "Person or department that requested the order"
+    },
+    "buyer": {
+      "type": "string",
+      "description": "Buyer responsible for the purchase order"
+    },
+    "lines": {
+      "type": "array",
+      "description": "Purchase order line items",
+      "items": {
+        "$ref": "#/definitions/PurchaseOrderLine"
+      },
+      "minItems": 1
+    },
+    "total_value": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Total order value"
+    },
+    "currency": {
+      "type": "string",
+      "enum": ["EUR", "USD", "GBP"]
+    }
+  },
+  "required": ["po_id", "supplier_id", "issue_date", "expected_delivery_date", "status", "lines"],
+  "definitions": {
+    "PurchaseOrderLine": {
+      "type": "object",
+      "properties": {
+        "line_id": {
+          "type": "string",
+          "description": "Unique line identifier",
+          "pattern": "^POL-"
+        },
+        "contract_id": {
+          "type": "string",
+          "description": "Reference to contract",
+          "pattern": "^CON-"
+        },
+        "product_category": {
+          "type": "string",
+          "description": "Product or service category"
+        },
+        "description": {
+          "type": "string",
+          "description": "Line item description"
+        },
+        "quantity": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Order quantity"
+        },
+        "unit_price": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Unit price"
+        },
+        "currency": {
+          "type": "string",
+          "enum": ["EUR", "USD", "GBP"]
+        },
+        "line_total": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Line total (quantity * unit_price)"
+        },
+        "delivery_status": {
+          "type": "string",
+          "enum": ["pending", "partial", "complete"],
+          "description": "Delivery status for this line"
+        }
+      },
+      "required": ["line_id", "contract_id", "product_category", "quantity", "unit_price", "currency"]
+    }
+  }
+}
+
+
+

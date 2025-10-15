@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "version": "0.9",
+    "updated": "2025-10-12",
+    "note": "Supplier tier classification and segmentation framework"
+  },
+  "tiers": [
+    {
+      "tier_id": "TIER-STRATEGIC",
+      "name": "Strategic",
+      "description": "Top-tier strategic suppliers with critical importance",
+      "criteria": {
+        "annual_spend_threshold": 1000000,
+        "relationship_type": "Long-term partnership",
+        "risk_tolerance": "Low",
+        "review_frequency": "Quarterly"
+      },
+      "benefits": [
+        "Dedicated account management",
+        "Priority support",
+        "Joint innovation programs",
+        "Extended payment terms"
+      ]
+    },
+    {
+      "tier_id": "TIER-PREFERRED",
+      "name": "Preferred",
+      "description": "High-value suppliers with proven track record",
+      "criteria": {
+        "annual_spend_threshold": 250000,
+        "relationship_type": "Preferred partnership",
+        "risk_tolerance": "Low to Medium",
+        "review_frequency": "Semi-annual"
+      },
+      "benefits": [
+        "Preferential pricing",
+        "Priority in RFQ processes",
+        "Regular business reviews"
+      ]
+    },
+    {
+      "tier_id": "TIER-APPROVED",
+      "name": "Approved",
+      "description": "Qualified suppliers meeting basic requirements",
+      "criteria": {
+        "annual_spend_threshold": 50000,
+        "relationship_type": "Transactional",
+        "risk_tolerance": "Medium",
+        "review_frequency": "Annual"
+      },
+      "benefits": [
+        "Standard terms",
+        "Access to bidding opportunities"
+      ]
+    },
+    {
+      "tier_id": "TIER-TACTICAL",
+      "name": "Tactical",
+      "description": "Occasional or low-value suppliers",
+      "criteria": {
+        "annual_spend_threshold": 0,
+        "relationship_type": "Spot purchases",
+        "risk_tolerance": "Medium to High",
+        "review_frequency": "As needed"
+      },
+      "benefits": [
+        "Basic vendor status",
+        "Limited engagement"
+      ]
+    }
+  ]
+}
+
+
+

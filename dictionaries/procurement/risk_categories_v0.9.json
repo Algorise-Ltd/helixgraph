@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "version": "0.9",
+    "updated": "2025-10-12",
+    "note": "Supplier risk assessment category definitions and scoring framework"
+  },
+  "risk_categories": [
+    {
+      "category_id": "RISK-FINANCIAL",
+      "name": "Financial",
+      "description": "Financial stability and creditworthiness of supplier",
+      "weight": 0.25,
+      "indicators": [
+        "Credit rating",
+        "Debt-to-equity ratio",
+        "Cash flow stability",
+        "Payment defaults history",
+        "Annual revenue trends"
+      ],
+      "scoring_criteria": {
+        "0-20": "Critical financial distress",
+        "21-40": "Significant financial concerns",
+        "41-60": "Moderate financial risk",
+        "61-80": "Acceptable financial health",
+        "81-100": "Strong financial position"
+      }
+    },
+    {
+      "category_id": "RISK-OPERATIONAL",
+      "name": "Operational",
+      "description": "Operational capability and delivery reliability",
+      "weight": 0.25,
+      "indicators": [
+        "On-time delivery rate",
+        "Quality defect rate",
+        "Capacity utilization",
+        "Business continuity plans",
+        "Technology infrastructure"
+      ],
+      "scoring_criteria": {
+        "0-20": "Severe operational issues",
+        "21-40": "Frequent operational problems",
+        "41-60": "Occasional operational challenges",
+        "61-80": "Reliable operations",
+        "81-100": "Excellent operational performance"
+      }
+    },
+    {
+      "category_id": "RISK-ESG",
+      "name": "ESG",
+      "description": "Environmental, Social, and Governance factors",
+      "weight": 0.20,
+      "indicators": [
+        "Environmental certifications",
+        "Carbon footprint",
+        "Labor practices",
+        "Diversity and inclusion",
+        "Ethics and compliance programs"
+      ],
+      "scoring_criteria": {
+        "0-20": "Major ESG violations",
+        "21-40": "Significant ESG concerns",
+        "41-60": "Basic ESG compliance",
+        "61-80": "Strong ESG practices",
+        "81-100": "Industry-leading ESG performance"
+      }
+    },
+    {
+      "category_id": "RISK-GEOPOLITICAL",
+      "name": "GeoPolitical",
+      "description": "Geopolitical and location-based risks",
+      "weight": 0.15,
+      "indicators": [
+        "Country political stability",
+        "Trade restrictions",
+        "Sanctions exposure",
+        "Regional conflicts",
+        "Currency volatility"
+      ],
+      "scoring_criteria": {
+        "0-20": "High geopolitical instability",
+        "21-40": "Elevated geopolitical concerns",
+        "41-60": "Moderate geopolitical risk",
+        "61-80": "Stable political environment",
+        "81-100": "Very stable region"
+      }
+    },
+    {
+      "category_id": "RISK-COMPLIANCE",
+      "name": "Compliance",
+      "description": "Regulatory and legal compliance",
+      "weight": 0.15,
+      "indicators": [
+        "Regulatory violations",
+        "Industry certifications",
+        "Data privacy compliance",
+        "Anti-corruption measures",
+        "Audit findings"
+      ],
+      "scoring_criteria": {
+        "0-20": "Major compliance violations",
+        "21-40": "Significant compliance gaps",
+        "41-60": "Basic compliance met",
+        "61-80": "Strong compliance record",
+        "81-100": "Exemplary compliance"
+      }
+    }
+  ],
+  "composite_scoring": {
+    "method": "weighted_average",
+    "overall_risk_bands": {
+      "0-40": "High Risk - Immediate action required",
+      "41-60": "Medium Risk - Monitor closely",
+      "61-80": "Low Risk - Standard monitoring",
+      "81-100": "Minimal Risk - Preferred supplier"
+    }
+  }
+}
+
+

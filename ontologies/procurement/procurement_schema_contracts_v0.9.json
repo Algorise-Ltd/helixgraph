@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Procurement Contract Schema",
+  "version": "0.9",
+  "description": "Schema for procurement contracts between buyer and suppliers",
+  "type": "object",
+  "properties": {
+    "contract_id": {
+      "type": "string",
+      "description": "Unique contract identifier",
+      "pattern": "^CON-[0-9]{5}$"
+    },
+    "supplier_id": {
+      "type": "string",
+      "description": "Reference to supplier",
+      "pattern": "^SUP-"
+    },
+    "category": {
+      "type": "string",
+      "description": "Contract category",
+      "enum": [
+        "PCB Assembly",
+        "Machining",
+        "Logistics",
+        "Consulting",
+        "Software Licenses",
+        "Facility Services",
+        "Packaging",
+        "Steel Raw Materials",
+        "Injection Molding",
+        "3D Printing",
+        "Chemicals",
+        "IT Infrastructure"
+      ]
+    },
+    "start_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Contract start date"
+    },
+    "end_date": {
+      "type": ["string", "null"],
+      "format": "date",
+      "description": "Contract end date (null for open-ended)"
+    },
+    "value": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Total contract value"
+    },
+    "currency": {
+      "type": "string",
+      "enum": ["EUR", "USD", "GBP"],
+      "description": "Currency code"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "active", "suspended", "expired", "terminated"],
+      "description": "Contract status"
+    },
+    "payment_terms": {
+      "type": "string",
+      "description": "Payment terms (e.g., Net 30, Net 60)"
+    },
+    "renewal_type": {
+      "type": "string",
+      "enum": ["auto_renew", "manual_renew", "fixed_term"],
+      "description": "Contract renewal type"
+    }
+  },
+  "required": ["contract_id", "supplier_id", "category", "start_date", "value", "currency"]
+}
+
+
+

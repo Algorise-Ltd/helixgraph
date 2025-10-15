@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Procurement Supplier Schema",
+  "version": "0.9",
+  "description": "Schema for supplier master data in procurement domain",
+  "type": "object",
+  "properties": {
+    "supplier_id": {
+      "type": "string",
+      "description": "Unique supplier identifier",
+      "pattern": "^SUP-[0-9]{4}$"
+    },
+    "name": {
+      "type": "string",
+      "description": "Supplier company name"
+    },
+    "country": {
+      "type": "string",
+      "description": "Supplier country code (ISO 3166-1 alpha-2)",
+      "pattern": "^[A-Z]{2}$"
+    },
+    "industry": {
+      "type": "string",
+      "description": "Primary industry sector",
+      "enum": [
+        "Electronics",
+        "Metals",
+        "Chemicals",
+        "Logistics",
+        "Packaging",
+        "IT Services",
+        "Consulting",
+        "Raw Materials",
+        "Components",
+        "Facilities"
+      ]
+    },
+    "tier": {
+      "type": "string",
+      "description": "Supplier tier classification",
+      "enum": ["Strategic", "Preferred", "Approved", "Tactical"]
+    },
+    "onboarding_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date supplier was onboarded"
+    },
+    "contact_info": {
+      "type": "object",
+      "properties": {
+        "email": {"type": "string", "format": "email"},
+        "phone": {"type": "string"},
+        "address": {"type": "string"},
+        "website": {"type": "string", "format": "uri"}
+      }
+    },
+    "certifications": {
+      "type": "array",
+      "description": "Supplier certifications",
+      "items": {
+        "type": "string"
+      }
+    },
+    "annual_spend": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Estimated annual spend with supplier"
+    }
+  },
+  "required": ["supplier_id", "name", "country", "industry", "tier", "onboarding_date"]
+}
+
+
+
