@@ -1,0 +1,16 @@
+Q006:
+  input:
+    orders:
+      - employee_id: 101
+        employee_name: "Alice"
+        created: "2025-08-01"
+        fulfilled: "2025-08-04"   # 3 days
+      - employee_id: 101
+        employee_name: "Alice"
+        created: "2025-09-10"
+        fulfilled: "2025-09-11"   # 1 day
+  expected:
+    rows:
+      - employee_id: 101
+        employee_name: "Alice"
+        average_processing_days: 2.0
