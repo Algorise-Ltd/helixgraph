@@ -1,0 +1,15 @@
+Q011:
+  input:
+    campaign_effects:
+      - campaign_id: 101 ; campaign_name: "Spring" ; spend: 100 ; revenue: 300 ; stock_before: 80 ; stock_after: 60
+      - campaign_id: 102 ; campaign_name: "Email"  ; spend: 200 ; revenue: 220 ; stock_before: 50 ; stock_after: 45
+  expected:
+    rows:
+      - campaign_id: 101
+        campaign_name: "Spring"
+        roi: 3.0
+        stock_change: -20
+      - campaign_id: 102
+        campaign_name: "Email"
+        roi: 1.1
+        stock_change: -5

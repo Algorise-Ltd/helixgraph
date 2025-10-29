@@ -1,0 +1,13 @@
+Q008:
+  input:
+    onboarding:
+      - employee_id: 11 ; employee_name: "Jin"  ; hired: "2025-07-01" ; completed_at: "2025-08-15"
+      - employee_id: 12 ; employee_name: "Maya" ; hired: "2025-07-10" ; completed_at: null
+  expected:
+    rows:
+      - employee_id: 11
+        employee_name: "Jin"
+        completed_onboarding: true
+      - employee_id: 12
+        employee_name: "Maya"
+        completed_onboarding: false
