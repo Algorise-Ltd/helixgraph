@@ -1,0 +1,14 @@
+Q004:
+  input:
+    suppliers:
+      - id: 1
+        name: "Alpha"
+        deliveries: [{on_time: true}, {on_time: false}, {on_time: true}]
+      - id: 2
+        name: "Beta"
+        deliveries: [{on_time: true}, {on_time: true}, {on_time: true}]
+  expected:
+    rows:
+      - supplier_id: 2
+        supplier_name: "Beta"
+        on_time_delivery_rate: 1.0
