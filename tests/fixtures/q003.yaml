@@ -1,0 +1,15 @@
+Q003:
+  input:
+    customers:
+      - id: 1
+        region: "North"
+        orders: [100, 120, 130]
+      - id: 2
+        region: "South"
+        orders: [80]
+  expected:
+    rows:
+      - region: "North"
+        average_orders: 3
+      - region: "South"
+        average_orders: 1

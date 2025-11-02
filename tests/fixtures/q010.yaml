@@ -1,0 +1,16 @@
+Q010:
+  input:
+    orders:
+      - customer_id: 1 ; customer_name: "Aurora" ; delayed_days: 3 ; revenue: 500
+      - customer_id: 1 ; customer_name: "Aurora" ; delayed_days: 0 ; revenue: 200
+      - customer_id: 2 ; customer_name: "Blake"  ; delayed_days: 5 ; revenue: 100
+  expected:
+    rows:
+      - customer_id: 1
+        customer_name: "Aurora"
+        total_revenue: 700.0
+        average_order_delay_days: 1.5
+      - customer_id: 2
+        customer_name: "Blake"
+        total_revenue: 100.0
+        average_order_delay_days: 5.0

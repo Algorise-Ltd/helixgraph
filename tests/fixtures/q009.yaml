@@ -1,0 +1,17 @@
+Q009:
+  input:
+    projects:
+      - employee_id: 21 ; employee_name: "Noah" ; team_id: 1 ; completed: 6 ; score: 4.5
+      - employee_id: 22 ; employee_name: "Ivy"  ; team_id: 1 ; completed: 4 ; score: 3.8
+  expected:
+    rows:
+      - employee_id: 21
+        employee_name: "Noah"
+        team_id: 1
+        projects_completed: 6
+        performance_score: 4.5
+      - employee_id: 22
+        employee_name: "Ivy"
+        team_id: 1
+        projects_completed: 4
+        performance_score: 3.8

@@ -1,0 +1,15 @@
+Q007:
+  input:
+    employees:
+      - id: 1  ; department_id: 10 ; department_name: "Sales" ; left: true
+      - id: 2  ; department_id: 10 ; department_name: "Sales" ; left: false
+      - id: 3  ; department_id: 20 ; department_name: "HR"    ; left: false
+      - id: 4  ; department_id: 20 ; department_name: "HR"    ; left: false
+  expected:
+    rows:
+      - department_id: 10
+        department_name: "Sales"
+        attrition_rate: 0.5
+      - department_id: 20
+        department_name: "HR"
+        attrition_rate: 0.0

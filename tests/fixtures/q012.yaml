@@ -1,0 +1,15 @@
+Q012:
+  input:
+    sales_and_feedback:
+      - team_id: 7 ; team_name: "North" ; sales: 1000.0 ; feedback_scores: [4, 5, 4]
+      - team_id: 8 ; team_name: "South" ; sales: 700.0  ; feedback_scores: [3, 3, 4]
+  expected:
+    rows:
+      - team_id: 7
+        team_name: "North"
+        team_sales_total: 1000.0
+        average_customer_feedback_score: 4.33
+      - team_id: 8
+        team_name: "South"
+        team_sales_total: 700.0
+        average_customer_feedback_score: 3.33
