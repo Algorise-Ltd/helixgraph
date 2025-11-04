@@ -11,7 +11,7 @@
 - [x] Delete previously generated data.
 
 #### New Sprint Tasks
-- [ ] Execute `procurement_data_generator.py` to generate the full dataset.
+- [x] Execute `procurement_data_generator.py` to generate the full dataset.
 
 **Part 1: Supplier Generation**
 - [x] Generate `data/processed/procurement/suppliers.csv` with 150 realistic suppliers.

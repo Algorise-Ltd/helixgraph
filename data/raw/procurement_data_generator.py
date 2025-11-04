@@ -1,4 +1,9 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+
 import json
+from json import JSONDecodeError
 import ollama
 from faker import Faker
 import random
@@ -7,14 +12,18 @@ from math import floor
 import os
 import uuid
 import re
+import ast
 from datetime import datetime, timedelta
 from etl.procurement.risk_calculator import RiskCalculator
+from etl.procurement import procurement_data_integrity_checker
+import numpy as np
 
 OLLAMA_MODEL = 'granite4:micro'
-NUM_PRODUCTS = 100
-NUM_PURCHASES = 400
+
+NUM_PRODUCTS = 300
+NUM_PURCHASES = 600
 NUM_SUPPLIERS = 200
-APPEND_MODE = True
+APPEND_MODE = False
 OVER_REP_PERCENT = 50
 UNDER_REP_PERCENT = 15
 
@@ -207,65 +216,117 @@ def parse_categories(markdown_file):
     """
     Parses the category taxonomy from the markdown file.
     """
-    with open(markdown_file, 'r') as f:
+    taxonomy = parse_ontology_taxonomy(markdown_file)
+    categories = []
+    for l1, l2_dict in taxonomy.items():
+        for l2, l3_dict in l2_dict.items():
+            for l3, l4_list in l3_dict.items():
+                for l4 in l4_list:
+                    categories.append({
+                        'L1CategoryName': l1,
+                        'L2CategoryName': l2,
+                        'L3CategoryName': l3,
+                        'L4CategoryName': l4,
+                    })
+    return categories
+
+def generate_with_ollama(prompt, system_message=None, retries=3):
+    """
+    Sends a prompt to the Ollama API and gets a response with retry mechanism.
+    """
+    for i in range(retries):
+        try:
+            messages = [{'role': 'user', 'content': prompt}]
+            if system_message:
+                messages.insert(0, {'role': 'system', 'content': system_message})
+            
+            response = ollama.chat(model=OLLAMA_MODEL, messages=messages)
+            response_str = response['message']['content']
+
+            try:
+                # First, try to load as-is, assuming perfect JSON
+                return json.loads(response_str)
+            except json.JSONDecodeError:
+                # If that fails, try to extract from markdown
+                match = re.search(r"```json\n(.*)\n```", response_str, re.DOTALL)
+                if match:
+                    json_str = match.group(1)
+                    try:
+                        return json.loads(json_str)
+                    except json.JSONDecodeError:
+                        # Fall through to the next method if markdown extraction fails
+                        pass
+                
+                # If still not parsed, try the ast.literal_eval trick
+                try:
+                    # Find the dict-like string
+                    json_start = response_str.find('{')
+                    json_end = response_str.rfind('}') + 1
+                    if json_start != -1 and json_end != 0:
+                        dict_str = response_str[json_start:json_end]
+                        # ast.literal_eval can safely evaluate Python literals
+                        return ast.literal_eval(dict_str)
+                except (ValueError, SyntaxError):
+                    print(f"Could not parse JSON from Ollama response, retrying... ({i+1}/{retries})")
+
+        except Exception as e:
+            print(f"Error interacting with Ollama: {e}, retrying... ({i+1}/{retries})")
+            
+    return None
+
+def parse_ontology_taxonomy(markdown_file):
+    with open(markdown_file, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    categories = []
+    taxonomy = {}
     current_l1 = None
     current_l2 = None
     current_l3 = None
 
-    for line in content.split('\n'):
-        l1_match = re.match(r'### L1: (.*)', line)
-        l2_match = re.match(r'-   \*\*L2: (.*)\*\*', line)
-        l3_match = re.match(r'    -   \*\*L3: (.*)\*\*', line)
-        l4_match = re.match(r'        -   L4: (.*)', line)
+    for line in content.splitlines():
+        if not line.strip():
+            continue
 
+        # Check for L1 header
+        l1_match = re.match(r'### L1: (.*)', line.strip())
         if l1_match:
             current_l1 = l1_match.group(1).strip()
-        elif l2_match:
+            taxonomy[current_l1] = {}
+            current_l2 = None
+            current_l3 = None
+            continue
+
+        # Check for L2 header
+        l2_match = re.match(r'-\s+\*\*L2: (.*)\*\*', line.strip())
+        if l2_match and current_l1:
             current_l2 = l2_match.group(1).strip()
-        elif l3_match:
+            taxonomy[current_l1][current_l2] = {}
+            current_l3 = None
+            continue
+
+        # Check for L3 header
+        l3_match = re.match(r'-\s+\*\*L3: (.*)\*\*', line.strip())
+        if l3_match and current_l1 and current_l2:
             current_l3 = l3_match.group(1).strip()
-        elif l4_match:
+            taxonomy[current_l1][current_l2][current_l3] = []
+            continue
+
+        # Check for L4 item
+        l4_match = re.match(r'-\s+L4: (.*)', line.strip())
+        if l4_match and current_l1 and current_l2 and current_l3:
             l4_category = l4_match.group(1).strip()
-            categories.append({
-                'L1CategoryName': current_l1,
-                'L2CategoryName': current_l2,
-                'L3CategoryName': current_l3,
-                'L4CategoryName': l4_category,
-            })
-
-    return categories
-
-def generate_with_ollama(prompt):
-    """
-    Sends a prompt to the Ollama API and gets a response.
-    """
-    try:
-        response = ollama.generate(model=OLLAMA_MODEL, prompt=prompt, stream=False)
-        response_str = response.get('response', '')
-
-        json_start = response_str.find('{')
-        json_end = response_str.rfind('}') + 1
-
-        if json_start != -1 and json_end != 0:
-            json_str = response_str[json_start:json_end]
-            return json.loads(json_str)
-        else:
-            return None
-
-    except Exception as e:
-        print(f"Error interacting with Ollama: {e}")
-        return None
+            taxonomy[current_l1][current_l2][current_l3].append(l4_category)
+            
+    return taxonomy
 
 def generate_mitigation_plan(risk_type, risk_score):
     """
     Generates a realistic mitigation plan using Ollama based on risk type and score.
     """
-    prompt = f"Generate a brief, one-sentence mitigation plan for a supplier risk of type '{risk_type}' with a score of {risk_score}. The plan should be actionable and concise. Output the result in JSON format with a single key: 'mitigation_plan'."
+    prompt = f"Generate a brief, one-sentence mitigation plan for a supplier risk of type '{risk_type}' with a score of {risk_score}. The plan should be actionable and concise."
+    system_message = "You are a helpful assistant that only outputs JSON. Your response should be a single JSON object with a single key 'mitigation_plan'."
     
-    mitigation_data = generate_with_ollama(prompt)
+    mitigation_data = generate_with_ollama(prompt, system_message=system_message)
     
     if mitigation_data and 'mitigation_plan' in mitigation_data:
         return mitigation_data['mitigation_plan']
@@ -318,6 +379,43 @@ def generate_suppliers_with_ollama(num_suppliers):
 
     suppliers = []
 
+    # Parse the ontology to get the category taxonomy
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    ontology_path = os.path.join(script_dir, '../../ontologies/procurement_v0.9.md')
+    taxonomy = parse_ontology_taxonomy(ontology_path)
+
+    # Define high-level category distribution from sprint plan
+    high_level_categories = {
+        "IT Services": 0.2,
+        "Marketing & Sales": 0.15,
+        "Office Supplies": 0.25,
+        "Logistics": 0.15,
+        "Consulting": 0.1,
+        "Manufacturing": 0.15
+    }
+
+    # Map high-level categories to ontology structure
+    category_mapping = {
+        "IT Services": taxonomy.get("Indirect Services and Materials", {}).get("IT & Technology", {}),
+        "Marketing & Sales": taxonomy.get("Indirect Services and Materials", {}).get("Marketing & Sales", {}),
+        "Office Supplies": taxonomy.get("Indirect Services and Materials", {}).get("Facility Services", {}),
+        "Logistics": taxonomy.get("Indirect Services and Materials", {}).get("Logistics", {}),
+        "Consulting": taxonomy.get("Indirect Services and Materials", {}).get("Corporate & Professional Services", {}),
+        "Manufacturing": {**taxonomy.get("Direct Materials", {}), **taxonomy.get("Technical Materials", {})}
+    }
+
+    def get_all_l4(sub_taxonomy):
+        l4_list = []
+        for key, value in sub_taxonomy.items():
+            if isinstance(value, list):
+                # This is an L3 -> [L4] mapping
+                l4_list.extend(value)
+            elif isinstance(value, dict):
+                # This is an L2 -> {L3 -> [L4]} mapping
+                for l3, l4_items in value.items():
+                    l4_list.extend(l4_items)
+        return l4_list
+
     for i in range(num_suppliers):
         country = country_list[i]
         locale = country_locales.get(country, 'en_US')
@@ -325,11 +423,30 @@ def generate_suppliers_with_ollama(num_suppliers):
         raw_address = fake.address()
         # normalize multi-line addresses to a single-line string
         address = " ".join(line.strip() for line in raw_address.splitlines() if line.strip())
-        print(f"Generating supplier {i+1}/{num_suppliers} for country: {country}...")
+        
+        # Select a high-level category
+        high_level_cat = random.choices(list(high_level_categories.keys()), weights=list(high_level_categories.values()), k=1)[0]
+        
+        # Get all L4 categories for the selected high-level category
+        l4_pool = get_all_l4(category_mapping.get(high_level_cat, {}))
+        
+        if not l4_pool:
+            # Fallback to a random L4 category if the mapping is empty
+            all_l4 = get_all_l4(taxonomy.get("Indirect Services and Materials", {})) + get_all_l4(taxonomy.get("Direct Materials", {})) + get_all_l4(taxonomy.get("Technical Materials", {}))
+            if not all_l4:
+                category = "General" # Ultimate fallback
+            else:
+                category = random.choice(all_l4)
+        else:
+            category = random.choice(l4_pool)
 
-        prompt = f"Generate a realistic and unique supplier name and a contact person's full name for a company located at this address in {country}: {address}. Output the result in JSON format with keys: 'name', 'contact_person'."
+        payment_terms = random.choice(['Net 30', 'Net 60', 'Net 90'])
 
-        supplier_data = generate_with_ollama(prompt)
+        print(f"Generating supplier {i+1}/{num_suppliers} for country: {country}, category: {category}...")
+
+        prompt = f"Generate a realistic and unique supplier name and a contact person's full name for a company that is a '{category}' supplier located at this address in {country}: {address}. Output the result in JSON format with keys: 'name', 'contact_person'."
+        system_message = "You are a helpful assistant that only outputs JSON. Your response should be a single JSON object with keys 'name' and 'contact_person'."
+        supplier_data = generate_with_ollama(prompt, system_message=system_message)
 
         if supplier_data:
             name = supplier_data.get('name') if isinstance(supplier_data.get('name'), str) else 'N/A'
@@ -338,11 +455,13 @@ def generate_suppliers_with_ollama(num_suppliers):
             suppliers.append({
                 'vendorCode': f"SUP-{str(uuid.uuid4().hex)[:8]}",
                 'legalName': name,
+                'category': category,
                 'address': address,
                 'country': country,
                 'contactPerson': contact_person,
                 'isActive': random.choices([True, False], weights=[0.9, 0.1], k=1)[0],
                 'financialHealth': random.choices(['High', 'Medium', 'Low'], weights=[0.1, 0.3, 0.6], k=1)[0],
+                'paymentTerms': payment_terms,
             })
         else:
             print(f"Failed to generate data for supplier {i+1}.")
@@ -376,8 +495,8 @@ def generate_products_with_ollama(categories, num_products=50):
         print(f"Generating product {i+1}/{num_products} for category: {category['L4CategoryName']}...")
         
         prompt = f"Generate a realistic product name and a brief, one-sentence description for a product in the category '{category['L4CategoryName']}'. Output the result in JSON format with keys: 'name', 'description'."
-        
-        product_data = generate_with_ollama(prompt)
+        system_message = "You are a helpful assistant that only outputs JSON. Your response should be a single JSON object with keys 'name' and 'description'."
+        product_data = generate_with_ollama(prompt, system_message=system_message)
         
         if product_data:
             products.append({
@@ -396,69 +515,120 @@ def generate_products_with_ollama(categories, num_products=50):
             
     return products
 
-def generate_purchase_orders(suppliers, products, num_pos=400):
+def generate_purchase_orders(suppliers, products, num_pos=600):
     """
-    Generates a list of synthetic purchase orders with multiple line items and cost centers.
+    Generates a list of synthetic purchase orders with realistic distributions.
     """
     fake = Faker()
     purchase_orders = []
+
+    # 1. Supplier-PO Relationship Distribution
+    num_suppliers = len(suppliers)
+    high_volume_suppliers = int(0.2 * num_suppliers)
+    regular_suppliers = int(0.5 * num_suppliers)
+    occasional_suppliers = num_suppliers - high_volume_suppliers - regular_suppliers
+
+    shuffled_suppliers = random.sample(suppliers, k=num_suppliers)
     
-    direct_products = [p for p in products if p['category_L1'] == 'Direct Materials']
-    indirect_products = [p for p in products if p['category_L1'] == 'Indirect Services and Materials']
-    technical_products = [p for p in products if p['category_L1'] == 'Technical Materials']
+    high_volume_pool = shuffled_suppliers[:high_volume_suppliers]
+    regular_pool = shuffled_suppliers[high_volume_suppliers : high_volume_suppliers + regular_suppliers]
+    occasional_pool = shuffled_suppliers[high_volume_suppliers + regular_suppliers :]
 
-    for _ in range(num_pos):
-        po_number = f"PO-{str(uuid.uuid4().hex)[:10]}"
-        supplier = random.choice(suppliers)
-        order_date = fake.date_time_between(start_date='-2y', end_date='now')
-        num_items = random.randint(1, 5)
-        cost_center = f"CC-{random.randint(100, 180)}"
+    # 2. Log-normal distribution for PO amounts
+    amounts = np.random.lognormal(mean=10, sigma=1.5, size=num_pos)
+    amounts = np.clip(amounts, 500, 150000)
+
+    # 6. Campaign Linkage (using placeholder IDs)
+    campaign_ids = [f"CAMP-{i:03d}" for i in range(1, 31)]
+    
+    for i in range(num_pos):
+        # Select supplier based on distribution
+        rand_val = random.random()
+        if rand_val < 0.5 and high_volume_pool:
+            supplier = random.choice(high_volume_pool)
+        elif rand_val < 0.9 and regular_pool:
+            supplier = random.choice(regular_pool)
+        elif occasional_pool:
+            supplier = random.choice(occasional_pool)
+        else:
+            supplier = random.choice(suppliers)
+
+
+        # 3. Temporal Patterns for PO dates
+        # Q4 spike (2x probability)
+        month = random.choices(range(1, 13), weights=[1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2], k=1)[0]
+        # Month-end clustering (last 5 days are 3x more likely)
+        day_weights = [1]*25 + [3]*6
+        day = random.choices(range(1, 32), weights=day_weights, k=1)[0]
+        # Weekday bias (95% on weekdays)
+        is_weekday = random.random() < 0.95
         
-        for item_num in range(1, num_items + 1):
-            if random.random() < 0.7 and (direct_products or technical_products):
-                product = random.choice(direct_products + technical_products)
-            elif indirect_products:
-                product = random.choice(indirect_products)
+        year = random.choice([2023, 2024, 2025])
+        
+        try:
+            if is_weekday:
+                date_issued = fake.date_time_between(start_date=f"-{36-month}m", end_date="now").replace(year=year, month=month, day=day)
+                while date_issued.weekday() >= 5:
+                    date_issued -= timedelta(days=1)
             else:
-                product = random.choice(products) # Fallback
+                date_issued = fake.date_time_between(start_date=f"-{36-month}m", end_date="now").replace(year=year, month=month, day=day)
+                while date_issued.weekday() < 5:
+                    date_issued += timedelta(days=1)
+        except ValueError:
+            # Handle invalid date combinations like Feb 30
+            day = min(day, 28)
+            date_issued = fake.date_time_between(start_date=f"-{36-month}m", end_date="now").replace(year=year, month=month, day=day)
 
-            quantity = random.randint(1, 100)
-            unit_price = round(random.uniform(10, 1000), 2)
-            delivery_date = order_date + timedelta(days=random.randint(7, 60))
+
+        # 4. Status Distribution
+        if date_issued.year == 2025:
+            status = random.choices(['completed', 'approved', 'pending', 'cancelled'], weights=[0.75, 0.15, 0.07, 0.03], k=1)[0]
+            if status == 'pending' and (datetime.now() - date_issued).days > 30:
+                status = 'approved' # Old pending POs should be approved
+        else:
+            status = 'completed' # POs from previous years are completed
+
+        # 5. Delivery Date Distribution
+        if date_issued.year == 2024:
+            delivery_date = date_issued + timedelta(days=random.randint(30, 365))
+            if delivery_date.year == 2024:
+                delivery_date = delivery_date.replace(year=2025)
+        else:
+            delivery_date = date_issued + timedelta(days=random.randint(7, 60))
+
+        # Campaign Linkage
+        campaign_id = None
+        if random.random() < 0.3:
+            campaign_id = random.choice(campaign_ids)
             
-            status = random.choices(['Draft', 'Pending Approval', 'Approved', 'Rejected', 'Issued', 'Partially Received', 'Delivered', 'Closed', 'Cancelled'], weights=[0.05, 0.05, 0.1, 0.05, 0.1, 0.1, 0.1, 0.4, 0.05], k=1)[0]
-            if status in ['Draft', 'Pending Approval', 'Approved', 'Rejected', 'Cancelled']:
-                still_to_be_delivered_qty = quantity
-                still_to_be_invoiced_qty = quantity
-            elif status in ['Issued', 'Partially Received']:
-                still_to_be_delivered_qty = random.randint(0, quantity)
-                still_to_be_invoiced_qty = random.randint(still_to_be_delivered_qty, quantity)
-            else: # Delivered, Closed
-                still_to_be_delivered_qty = 0
-                still_to_be_invoiced_qty = random.randint(0, quantity)
+        product = random.choice(products)
 
-            purchase_orders.append({
-                'orderNumber': po_number,
-                'item': item_num,
-                'dateIssued': order_date,
-                'dateChanged': order_date + timedelta(days=random.randint(1, 30)),
-                'orderStatus': status,
-                'orderTotalValue': quantity * unit_price,
-                'approvedBy': fake.name(),
-                'supplierVendorCode': supplier['vendorCode'],
-                'productSku': product['sku'],
-                'quantity': quantity,
-                'unitPrice': unit_price,
-                'deliveryDate': delivery_date,
-                'still_to_be_delivered_qty': still_to_be_delivered_qty,
-                'still_to_be_delivered_value': still_to_be_delivered_qty * unit_price,
-                'still_to_be_invoiced_qty': still_to_be_invoiced_qty,
-                'still_to_be_invoiced_value': still_to_be_invoiced_qty * unit_price,
-                'contractReference': f"CTR-{str(uuid.uuid4().hex)[:10]}" if random.random() < 0.3 else None,
-                'paymentTerms': random.choice(['Net 30', 'Net 60', 'Net 90']),
-                'requisitioner': fake.name(),
-                'costCenter': cost_center,
-            })
+        purchase_orders.append({
+            'orderNumber': f"PO-{str(uuid.uuid4().hex)[:10]}",
+            'supplierVendorCode': supplier['vendorCode'],
+            'orderTotalValue': round(amounts[i], 2),
+            'dateIssued': date_issued,
+            'orderStatus': status,
+            'category': product['category_L4'],
+            'campaign_id': campaign_id,
+            'description': product['description'],
+            'deliveryDate': delivery_date,
+            'productSku': product['sku'],
+            'quantity': 1, # Simplified to one line item per PO
+            'unitPrice': round(amounts[i], 2),
+            'item': 1,
+            'dateChanged': date_issued + timedelta(days=random.randint(1, 30)),
+            'approvedBy': fake.name(),
+            'still_to_be_delivered_qty': 0,
+            'still_to_be_delivered_value': 0,
+            'still_to_be_invoiced_qty': 0,
+            'still_to_be_invoiced_value': 0,
+            'contractReference': f"CTR-{str(uuid.uuid4().hex)[:10]}" if random.random() < 0.3 else None,
+            'paymentTerms': supplier['paymentTerms'],
+            'requisitioner': fake.name(),
+            'costCenter': f"CC-{random.randint(100, 180)}",
+        })
+        
     return purchase_orders
 
 def generate_invoices(purchase_orders):
@@ -473,48 +643,51 @@ def generate_invoices(purchase_orders):
         po_total_value = po_items['orderTotalValue'].sum()
         first_po_item = po_items.iloc[0]
 
-        if first_po_item['orderStatus'] in ['Issued', 'Partially Received', 'Delivered', 'Closed']:
+        if first_po_item['orderStatus'] in ['completed', 'approved'] and random.random() < 0.9:
             num_invoices = random.randint(1, 3)
             invoice_amounts = [po_total_value / num_invoices] * num_invoices
             invoice_amounts = [max(0, amt + random.uniform(-amt*0.1, amt*0.1)) for amt in invoice_amounts]
             amount_diff = po_total_value - sum(invoice_amounts)
-            invoice_amounts[-1] += amount_diff
+            if invoice_amounts:
+                invoice_amounts[-1] += amount_diff
 
             for amount in invoice_amounts:
                 payment_terms_days = int(first_po_item['paymentTerms'].split(' ')[1])
-                due_date = first_po_item['dateIssued'] + timedelta(days=payment_terms_days)
+                issue_date = first_po_item['dateIssued'] + timedelta(days=random.randint(1, 5))
+                due_date = issue_date + timedelta(days=payment_terms_days)
                 
-                # Realistic Status Logic
-                status_flow = ['Received', 'Approved', 'Scheduled for Payment', 'Paid']
-                is_rejected = random.random() < 0.05
-                if is_rejected:
-                    status = 'Rejected'
-                else:
-                    status = random.choice(status_flow)
-
+                paid_date = None
                 is_late = False
-                if status == 'Paid':
-                    if random.random() < 0.15:
-                        is_late = True
-                        payment_date = due_date + timedelta(days=random.randint(1, 45))
+                
+                # Payment Status Realism: 80% on time, 15% paid late, 5% overdue
+                rand_status = random.random()
+                if rand_status < 0.8: # 80% paid on time
+                    status = 'paid'
+                    paid_date = due_date - timedelta(days=random.randint(1, 15))
+                elif rand_status < 0.95: # 15% paid late
+                    status = 'paid'
+                    is_late = True
+                    paid_date = due_date + timedelta(days=random.randint(1, 30))
+                else: # 5% overdue
+                    if datetime.now() > due_date:
+                        status = 'overdue'
                     else:
-                        payment_date = due_date - timedelta(days=random.randint(1, 15))
-                elif status == 'Scheduled for Payment' and due_date < datetime.now():
-                    status = 'Overdue'
+                        status = 'pending' # If due date is in the future, it's pending
 
                 invoices.append({
                     'invoiceNumber': f"INV-{str(uuid.uuid4().hex)[:8]}",
-                    'supplierReference': fake.ean(length=13),
-                    'dateCreated': first_po_item['dateIssued'] + timedelta(days=random.randint(1, 5)),
-                    'paymentDueDate': due_date,
-                    'totalPaymentDue': round(amount, 2),
-                    'paymentStatus': status,
+                    'po_id': po_number,
+                    'amount': round(amount, 2),
+                    'issue_date': issue_date.isoformat(),
+                    'due_date': due_date.isoformat(),
+                    'paid_date': paid_date.isoformat() if paid_date else None,
+                    'status': status,
                     'late_payment_flag': is_late,
-                    'poOrderNumber': po_number,
+                    'supplierReference': fake.ean(length=13),
                     'glAccount': f"GL-{random.randint(1000, 1200)}",
                     'costCenter': first_po_item['costCenter'],
                     'invoiceText': f"Invoice for PO {po_number}",
-                    'postingDate': first_po_item['dateIssued'] + timedelta(days=random.randint(1, 10)),
+                    'postingDate': issue_date + timedelta(days=random.randint(1, 10)),
                 })
     return invoices
 
@@ -688,14 +861,29 @@ if __name__ == '__main__':
     new_po_data = generate_purchase_orders(suppliers_data, products_data, NUM_PURCHASES)
     po_data.extend(new_po_data)
 
+    # Calculate last annual revenue from POs
+    print("\n--- Calculating Last Annual Revenue for Suppliers ---")
+    po_df_for_revenue = pd.DataFrame(po_data)
+    current_year = datetime.now().year
+    previous_year = current_year - 1
+    
+    # Ensure 'dateIssued' is in datetime format
+    po_df_for_revenue['dateIssued'] = pd.to_datetime(po_df_for_revenue['dateIssued'])
+    
+    previous_year_pos = po_df_for_revenue[po_df_for_revenue['dateIssued'].dt.year == previous_year]
+    
+    supplier_spend = previous_year_pos.groupby('supplierVendorCode')['orderTotalValue'].sum().to_dict()
+
+    for supplier in suppliers_data:
+        supplier['lastAnnualRevenue'] = supplier_spend.get(supplier['vendorCode'], 0)
+
     # 5. Balance Spend Distribution
     print("\n--- Balancing Spend Distribution ---")
     po_data = balance_spend_distribution(po_data, products_data, suppliers_data)
 
     # 6. Generate Invoices
     print("\n--- Generating Invoices ---")
-    new_invoice_data = generate_invoices(new_po_data)
-    invoice_data.extend(new_invoice_data)
+    invoice_data.extend(generate_invoices(po_data))
 
     # 7. Calculate Risk Score
     print("\n--- Calculating Risk Scores ---")
@@ -798,7 +986,7 @@ if __name__ == '__main__':
         print(f"Successfully generated and saved {len(risks_df)} risks.")
 
 print("\n--- Running Data Integrity Check ---")
-from etl.procurement.procurement_data_integrity_checker import check_integrity
-check_integrity()
+
+procurement_data_integrity_checker.check_data_integrity()
 
 print("\nData generation complete.")
