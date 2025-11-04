@@ -11,33 +11,34 @@
 - [x] Delete previously generated data.
 
 #### New Sprint Tasks
+- [ ] Execute `procurement_data_generator.py` to generate the full dataset.
 
 **Part 1: Supplier Generation**
-- [ ] Generate `data/processed/procurement/suppliers.csv` with 150 realistic suppliers.
-- [ ] Implement realistic naming strategy for suppliers.
-- [ ] Ensure supplier category distribution is considered.
-- [ ] Implement risk score distribution (70% low, 20% medium, 10% high).
-- [ ] Generate supplier attributes: `id`, `name`, `category`, `risk_score`, `country`, `payment_terms`, `last_annual_revenue`.
+- [x] Generate `data/processed/procurement/suppliers.csv` with 150 realistic suppliers.
+- [x] Implement realistic naming strategy for suppliers.
+- [x] Ensure supplier category distribution is considered.
+- [x] Implement risk score distribution (70% low, 20% medium, 10% high).
+- [x] Generate supplier attributes: `id`, `name`, `category`, `risk_score`, `country`, `payment_terms`, `last_annual_revenue`.
 
 **Part 2: Purchase Order Generation**
-- [ ] Generate `data/processed/procurement/pos.csv` with 200 realistic POs.
-- [ ] Use log-normal distribution for PO amounts.
-- [ ] Implement supplier-PO relationship distribution (20% suppliers get 50% POs, etc.).
-- [ ] Implement PO status distribution for 2025 POs (75% completed, 15% approved, etc.).
-- [ ] Ensure delivery dates for 2024 POs are in 2025.
-- [ ] Link ~30% of POs to marketing campaigns (coordinate with Seonyoung for campaign IDs).
-- [ ] Implement temporal patterns for PO dates (Q4 spike, month-end clustering, etc.).
-- [ ] Generate PO attributes (including but not limited to, no need to stickt to the exact names here): `id`, `supplier_id`, `amount`, `date`, `status`, `category`, `campaign_id`, `description`.
+- [x] Generate `data/processed/procurement/pos.csv` with 200 realistic POs.
+- [x] Use log-normal distribution for PO amounts.
+- [x] Implement supplier-PO relationship distribution (20% suppliers get 50% POs, etc.).
+- [x] Implement PO status distribution for 2025 POs (75% completed, 15% approved, etc.).
+- [x] Ensure delivery dates for 2024 POs are in 2025.
+- [x] Link ~30% of POs to marketing campaigns (coordinate with Seonyoung for campaign IDs).
+- [x] Implement temporal patterns for PO dates (Q4 spike, month-end clustering, etc.).
+- [x] Generate PO attributes (including but not limited to, no need to stickt to the exact names here): `id`, `supplier_id`, `amount`, `date`, `status`, `category`, `campaign_id`, `description`.
 
 **Part 3: Invoice Generation**
-- [ ] Generate `data/processed/procurement/invoices.csv` with ~180 realistic invoices.
-- [ ] Ensure 90% of completed POs have invoices.
-- [ ] Allow 5-10% variance in invoice amount from PO amount.
-- [ ] Implement multiple invoices for some POs (blanket POs).
-- [ ] Ensure invoice `issue_date` is after PO `date`.
-- [ ] Implement realistic payment status (80% on time, 15% late, 5% overdue).
-- [ ] Calculate `due_date` based on supplier `payment_terms`.
-- [ ] Generate invoice attributes (including but not limited to, no need to stickt to the exact names here): `id`, `po_id`, `amount`, `issue_date`, `due_date`, `paid_date`, `status`.
+- [x] Generate `data/processed/procurement/invoices.csv` with ~180 realistic invoices.
+- [x] Ensure 90% of completed POs have invoices.
+- [x] Allow 5-10% variance in invoice amount from PO amount.
+- [x] Implement multiple invoices for some POs (blanket POs).
+- [x] Ensure invoice `issue_date` is after PO `date`.
+- [x] Implement realistic payment status (80% on time, 15% late, 5% overdue).
+- [x] Calculate `due_date` based on supplier `payment_terms`.
+- [x] Generate invoice attributes (including but not limited to, no need to stickt to the exact names here): `id`, `po_id`, `amount`, `issue_date`, `due_date`, `paid_date`, `status`.
 
 **Part 4: Dictionary Creation for Entity Linking**
 - [ ] Create `data/dictionaries/procurement/suppliers.json` with aliases.
