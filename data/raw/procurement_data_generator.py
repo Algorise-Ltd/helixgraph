@@ -73,10 +73,10 @@ mena_africa = [
 ]
 
 region_shares = {
-    'domestic': 0.50,
+    'domestic': 0.60,
     'europe': 0.30,
-    'americas': 0.10,
-    'asia_oceania': 0.04,
+    'americas': 0.07,
+    'asia_oceania': 0.02,
     'mena_africa': 0.01
 }
 
@@ -258,6 +258,19 @@ def generate_with_ollama(prompt):
     except Exception as e:
         print(f"Error interacting with Ollama: {e}")
         return None
+
+def generate_mitigation_plan(risk_type, risk_score):
+    """
+    Generates a realistic mitigation plan using Ollama based on risk type and score.
+    """
+    prompt = f"Generate a brief, one-sentence mitigation plan for a supplier risk of type '{risk_type}' with a score of {risk_score}. The plan should be actionable and concise. Output the result in JSON format with a single key: 'mitigation_plan'."
+    
+    mitigation_data = generate_with_ollama(prompt)
+    
+    if mitigation_data and 'mitigation_plan' in mitigation_data:
+        return mitigation_data['mitigation_plan']
+    else:
+        return "Develop a contingency plan." # Fallback
 
 def generate_suppliers_with_ollama(num_suppliers):
     """
@@ -481,7 +494,7 @@ def generate_invoices(purchase_orders):
 
                 is_late = False
                 if status == 'Paid':
-                    if random.random() < 0.1:
+                    if random.random() < 0.15:
                         is_late = True
                         payment_date = due_date + timedelta(days=random.randint(1, 45))
                     else:
@@ -754,13 +767,14 @@ if __name__ == '__main__':
         
         for risk_type, risk_value in risk_scores.items():
             if risk_type != 'total_risk':
+                mitigation_plan = generate_mitigation_plan(risk_type, risk_value)
                 risks_data.append({
                     'riskId': f"RISK-{str(uuid.uuid4().hex)[:8]}",
                     'supplierVendorCode': supplier['vendorCode'],
                     'riskType': risk_type.replace('_', ' ').title(),
                     'riskScore': risk_value,
                     'riskDescription': f'{risk_type.replace("_", " ").title()} for supplier {supplier['vendorCode']} is {risk_value}.',
-                    'mitigationPlan': 'N/A',
+                    'mitigationPlan': mitigation_plan,
                     'riskStatus': 'Active'
                 })
 
@@ -782,5 +796,9 @@ if __name__ == '__main__':
         risks_df = pd.DataFrame(risks_data)
         risks_df.to_csv(os.path.join(script_dir, 'risks.csv'), index=False)
         print(f"Successfully generated and saved {len(risks_df)} risks.")
+
+print("\n--- Running Data Integrity Check ---")
+from etl.procurement.procurement_data_integrity_checker import check_integrity
+check_integrity()
 
 print("\nData generation complete.")
