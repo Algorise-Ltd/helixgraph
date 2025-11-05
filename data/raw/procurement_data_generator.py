@@ -20,6 +20,50 @@ import numpy as np
 
 OLLAMA_MODEL = 'granite4:micro'
 
+def create_supplier_dictionary(suppliers_df, output_dir):
+    print("\n--- Creating Supplier Dictionary ---")
+    supplier_dict = {}
+    for index, row in suppliers_df.iterrows():
+        legal_name = row.get("legalName")
+        vendor_code = row.get("vendorCode")
+        if legal_name and vendor_code and legal_name != "N/A":
+            supplier_dict[legal_name] = {
+                "aliases": [legal_name],
+                "vendor_code": vendor_code
+            }
+    output_path = os.path.join(output_dir, 'suppliers.json')
+    with open(output_path, mode='w', encoding='utf-8') as json_file:
+        json.dump(supplier_dict, json_file, indent=4)
+    print(f"Successfully created {output_path}")
+
+def create_po_dictionary(po_df, output_dir):
+    print("\n--- Creating Purchase Order Dictionary ---")
+    po_dict = {}
+    for index, row in po_df.iterrows():
+        order_number = row.get("orderNumber")
+        description = row.get("description")
+        if order_number:
+            po_dict[order_number] = {
+                "description": description
+            }
+    output_path = os.path.join(output_dir, 'pos.json')
+    with open(output_path, mode='w', encoding='utf-8') as json_file:
+        json.dump(po_dict, json_file, indent=4)
+    print(f"Successfully created {output_path}")
+
+def create_contract_dictionary(po_df, output_dir):
+    print("\n--- Creating Contract Dictionary ---")
+    contract_dict = {}
+    for index, row in po_df.iterrows():
+        contract_reference = row.get("contractReference")
+        if contract_reference and pd.notna(contract_reference):
+            contract_dict[contract_reference] = {}
+    output_path = os.path.join(output_dir, 'contracts.json')
+    with open(output_path, mode='w', encoding='utf-8') as json_file:
+        json.dump(contract_dict, json_file, indent=4)
+    print(f"Successfully created {output_path}")
+
+
 NUM_PRODUCTS = 300
 NUM_PURCHASES = 600
 NUM_SUPPLIERS = 200
@@ -984,6 +1028,13 @@ if __name__ == '__main__':
         risks_df = pd.DataFrame(risks_data)
         risks_df.to_csv(os.path.join(script_dir, 'risks.csv'), index=False)
         print(f"Successfully generated and saved {len(risks_df)} risks.")
+
+    # Create Dictionaries
+    dicts_output_dir = os.path.join(script_dir, '../dictionaries/procurement')
+    os.makedirs(dicts_output_dir, exist_ok=True)
+    create_supplier_dictionary(suppliers_df, dicts_output_dir)
+    create_po_dictionary(po_df, dicts_output_dir)
+    create_contract_dictionary(po_df, dicts_output_dir)
 
 print("\n--- Running Data Integrity Check ---")
 

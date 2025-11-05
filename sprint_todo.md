@@ -41,14 +41,14 @@
 - [x] Generate invoice attributes (including but not limited to, no need to stickt to the exact names here): `id`, `po_id`, `amount`, `issue_date`, `due_date`, `paid_date`, `status`.
 
 **Part 4: Dictionary Creation for Entity Linking**
-- [ ] Create `data/dictionaries/procurement/suppliers.json` with aliases.
-- [ ] Create `data/dictionaries/procurement/pos.json`.
-- [ ] Create `data/dictionaries/procurement/contracts.json` (if applicable).
-- [ ] Create validation script `etl/validate_procurement_data.py`.
-- [ ] Create documentation for the data generation process in `data/raw/data_generation_documentation.md`.
+- [x] Create `data/dictionaries/procurement/suppliers.json` with aliases.
+- [x] Create `data/dictionaries/procurement/pos.json`.
+- [x] Create `data/dictionaries/procurement/contracts.json` (if applicable).
+- [x] Create validation script `etl/validate_procurement_data.py`.
+- [x] Create documentation for the data generation process in `data/raw/data_generation_documentation.md`.
 
 **Part 5: Data Model Documentation**
-- [ ] Create `ontologies/joins_sprint2.md` with comprehensive documentation.
+- [x] Create `ontologies/joins_sprint2.md` with comprehensive documentation.
 - [ ] Include an entity-relationship diagram (e.g., using Mermaid).
 - [ ] Provide at least 3 example Cypher queries.
 - [ ] Document business scenarios.
