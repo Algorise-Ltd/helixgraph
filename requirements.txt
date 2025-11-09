@@ -1,0 +1,5 @@
+google-generativeai
+jinja2
+python-dotenv
+neo4j
+pandas

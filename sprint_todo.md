@@ -48,23 +48,25 @@
 - [x] Create documentation for the data generation process in `data/raw/data_generation_documentation.md`.
 
 **Part 5: Data Model Documentation**
+- [x] Run `python temp_create_campaign_links.py`
 - [x] Create `ontologies/joins_sprint2.md` with comprehensive documentation.
-- [ ] Include an entity-relationship diagram (e.g., using Mermaid).
-- [ ] Provide at least 3 example Cypher queries.
-- [ ] Document business scenarios.
-- [ ] Generate `data/processed/campaign_po_links.csv` with 50-100 links.
-- [ ] Validate `campaign_po_links.csv`.
-- [ ] Coordinate with Seonyoung about PO IDs.
+- [x] Include an entity-relationship diagram (e.g., using Mermaid).
+- [x] Provide at least 3 example Cypher queries.
+- [x] Document business scenarios.
+- [x] Generate `data/processed/campaign_po_links.csv` with 50-100 links.
+- [s] Validate `campaign_po_links.csv`.
+- [s] Coordinate with Seonyoung about PO IDs.
 
 **Part 6: Set Up RAG Environment & Gemini API**
-- [ ] Set up Gemini API Key as an environment variable.
+- [x] Set up Gemini API Key as an environment variable.
 - [ ] Test the API key.
-- [ ] Install dependencies: `google-generativeai`, `jinja2`, `python-dotenv` and add them to `requirements.txt`.
-- [ ] Create the RAG directory structure: `rag/`, `rag/templates/`, `rag/examples/`, `rag/tests/`.
-- [ ] Create `rag/config.py` for configuration management.
-- [ ] Create `.env` and `.env.example` files.
-- [ ] Update `.gitignore` to include `.env`.
-- [ ] Create `rag/test_connections.py` to test Gemini and Neo4j connections.
+- [x] add: `google-generativeai`, `jinja2`, `python-dotenv`to `requirements.txt`.
+- [ ] Install dependencies.
+- [x] Create the RAG directory structure: `rag/`, `rag/templates/`, `rag/examples/`, `rag/tests/`.
+- [x] Create `rag/config.py` for configuration management.
+- [x] Create `.env` and `.env.example` files.
+- [x] Update `.gitignore` to include `.env`.
+- [x] Create `rag/test_connections.py` to test Gemini and Neo4j connections.
 - [ ] Create `docs/gemini_setup.md` documentation.
 
 **Part 7: Build Graph Context Retriever**
