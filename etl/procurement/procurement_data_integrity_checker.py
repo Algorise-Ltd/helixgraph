@@ -1,5 +1,84 @@
 import pandas as pd
 import os
+import numpy as np
+
+def check_campaign_po_integrity(data_dir):
+    """
+    Checks that active/completed campaigns have POs and that their spend aligns with the budget.
+    """
+    print("\n--- Checking Campaign PO Integrity ---")
+    try:
+        campaigns_df = pd.read_csv(os.path.join(data_dir, 'campaigns_v1.csv'))
+        po_df = pd.read_csv(os.path.join(data_dir, 'purchase_orders.csv'))
+    except FileNotFoundError as e:
+        print(f"Warning: Could not load campaign or PO files for integrity check: {e}")
+        return
+
+    # Clean column names
+    campaigns_df.columns = campaigns_df.columns.str.strip()
+
+    # Check for necessary columns
+    if 'budget' not in campaigns_df.columns or 'actual_spend' not in campaigns_df.columns:
+        print("(FAILED) Check 5: 'budget' or 'actual_spend' columns not found in campaigns_v1.csv.")
+        return
+
+    # Extract campaign_id from PO description
+    po_df['campaign_id'] = po_df['description'].str.extract(r'\(ID:\s*([A-Z0-9_]+)\)')
+    
+    # Filter for POs linked to campaigns
+    campaign_po_df = po_df.dropna(subset=['campaign_id'])
+
+    # 1. Coverage Check
+    active_completed_campaigns = campaigns_df[campaigns_df['status'].isin(['active', 'completed'])].copy()
+    linked_campaign_ids = set(campaign_po_df['campaign_id'].unique())
+    
+    campaigns_with_no_pos = []
+    for camp_id in active_completed_campaigns['campaign_id']:
+        if camp_id not in linked_campaign_ids:
+            campaigns_with_no_pos.append(camp_id)
+
+    if not campaigns_with_no_pos:
+        print("(PASSED) Check 4: All active/completed campaigns have at least one PO.")
+    else:
+        print(f"(FAILED) Check 4: Found {len(campaigns_with_no_pos)} active/completed campaigns with no associated POs.")
+        print("Campaigns with no POs:", campaigns_with_no_pos)
+
+    # 2. Budget Check
+    # First, create the cleaned columns on the slice
+    active_completed_campaigns['budget_cleaned'] = pd.to_numeric(active_completed_campaigns['budget'].replace({r'[\$,]': ''}, regex=True), errors='coerce').fillna(0)
+    active_completed_campaigns['spend_cleaned'] = pd.to_numeric(active_completed_campaigns['actual_spend'].replace({r'[\$,]': ''}, regex=True), errors='coerce').fillna(0)
+
+    # Then, aggregate them
+    campaign_agg_df = active_completed_campaigns.groupby('campaign_id').agg(
+        budget_cleaned=('budget_cleaned', 'sum'),
+        spend_cleaned=('spend_cleaned', 'sum')
+    ).reset_index()
+
+    # Calculate total PO value per campaign
+    po_spend_per_campaign = campaign_po_df.groupby('campaign_id')['orderTotalValue'].sum().reset_index()
+    
+    merged_df = pd.merge(po_spend_per_campaign, campaign_agg_df, on='campaign_id')
+    
+    budget_mismatches = []
+    for index, row in merged_df.iterrows():
+        target_spend = row['spend_cleaned'] if row['spend_cleaned'] > 0 else row['budget_cleaned']
+        po_total = row['orderTotalValue']
+        
+        # Allow a small tolerance (e.g., 1%) for floating point inaccuracies
+        if not np.isclose(target_spend, po_total, rtol=0.01):
+            budget_mismatches.append({
+                'campaign_id': row['campaign_id'],
+                'expected_spend': target_spend,
+                'actual_po_spend': po_total
+            })
+
+    if not budget_mismatches:
+        print("(PASSED) Check 5: Campaign PO totals align with their budget/spend.")
+    else:
+        print(f"(FAILED) Check 5: Found {len(budget_mismatches)} campaigns where PO totals do not align with budget/spend.")
+        for mismatch in budget_mismatches[:5]: # Print first 5 mismatches
+            print(f"  - Campaign {mismatch['campaign_id']}: Expected ~${mismatch['expected_spend']:.2f}, Found PO Total ${mismatch['actual_po_spend']:.2f}")
+
 
 def check_data_integrity():
     """
@@ -72,6 +151,9 @@ def check_data_integrity():
     else:
         print(f"(FAILED) Check 3: Found {len(missing_pos)} po_ids in Invoices that are not in Purchase Orders.")
         print("Missing po_ids:", missing_pos)
+
+    # --- Campaign PO Integrity Checks ---
+    check_campaign_po_integrity(data_dir)
 
     print("\n--- Data Integrity Checks Complete ---")
 

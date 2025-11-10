@@ -3,7 +3,6 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 
 import json
-from json import JSONDecodeError
 import ollama
 from faker import Faker
 import random
@@ -19,6 +18,12 @@ from etl.procurement import procurement_data_integrity_checker
 import numpy as np
 
 OLLAMA_MODEL = 'granite4:micro'
+NUM_PRODUCTS = 30
+NUM_PURCHASES = 60
+NUM_SUPPLIERS = 20
+APPEND_MODE = False
+OVER_REP_PERCENT = 50
+UNDER_REP_PERCENT = 15
 
 def create_supplier_dictionary(suppliers_df, output_dir):
     print("\n--- Creating Supplier Dictionary ---")
@@ -62,14 +67,6 @@ def create_contract_dictionary(po_df, output_dir):
     with open(output_path, mode='w', encoding='utf-8') as json_file:
         json.dump(contract_dict, json_file, indent=4)
     print(f"Successfully created {output_path}")
-
-
-NUM_PRODUCTS = 300
-NUM_PURCHASES = 600
-NUM_SUPPLIERS = 200
-APPEND_MODE = False
-OVER_REP_PERCENT = 50
-UNDER_REP_PERCENT = 15
 
 
 # --- Comprehensive country -> Faker locale mapping ---
@@ -543,8 +540,14 @@ def generate_products_with_ollama(categories, num_products=50):
         product_data = generate_with_ollama(prompt, system_message=system_message)
         
         if product_data:
+            # SKU logic: only for Direct and Technical materials
+            sku = None
+            if category['L1CategoryName'] in ['Direct Materials', 'Technical Materials']:
+                sku = f"PROD-{str(uuid.uuid4().hex)[:6]}"
+
             products.append({
-                'sku': f"PROD-{str(uuid.uuid4().hex)[:6]}",
+                'temp_id': str(uuid.uuid4()), # Temporary ID for internal linking
+                'sku': sku,
                 'name': product_data.get('name'),
                 'description': product_data.get('description'),
                 'unitOfMeasure': random.choice(['Piece', 'KG', 'Box', 'Set']),
@@ -559,10 +562,12 @@ def generate_products_with_ollama(categories, num_products=50):
             
     return products
 
-def generate_purchase_orders(suppliers, products, num_pos=600):
+def generate_purchase_orders(suppliers, products, num_pos=600, exclude_l3_categories=None):
     """
     Generates a list of synthetic purchase orders with realistic distributions.
     """
+    if exclude_l3_categories is None:
+        exclude_l3_categories = []
     fake = Faker()
     purchase_orders = []
 
@@ -581,10 +586,11 @@ def generate_purchase_orders(suppliers, products, num_pos=600):
     # 2. Log-normal distribution for PO amounts
     amounts = np.random.lognormal(mean=10, sigma=1.5, size=num_pos)
     amounts = np.clip(amounts, 500, 150000)
-
-    # 6. Campaign Linkage (using placeholder IDs)
-    campaign_ids = [f"CAMP-{i:03d}" for i in range(1, 31)]
     
+    filtered_products = [p for p in products if p['category_L3'] not in exclude_l3_categories]
+    if not filtered_products:
+        filtered_products = products
+
     for i in range(num_pos):
         # Select supplier based on distribution
         rand_val = random.random()
@@ -640,12 +646,7 @@ def generate_purchase_orders(suppliers, products, num_pos=600):
         else:
             delivery_date = date_issued + timedelta(days=random.randint(7, 60))
 
-        # Campaign Linkage
-        campaign_id = None
-        if random.random() < 0.3:
-            campaign_id = random.choice(campaign_ids)
-            
-        product = random.choice(products)
+        product = random.choice(filtered_products)
 
         purchase_orders.append({
             'orderNumber': f"PO-{str(uuid.uuid4().hex)[:10]}",
@@ -654,10 +655,10 @@ def generate_purchase_orders(suppliers, products, num_pos=600):
             'dateIssued': date_issued,
             'orderStatus': status,
             'category': product['category_L4'],
-            'campaign_id': campaign_id,
             'description': product['description'],
             'deliveryDate': delivery_date,
             'productSku': product['sku'],
+            'temp_id': product['temp_id'], # Internal linking ID
             'quantity': 1, # Simplified to one line item per PO
             'unitPrice': round(amounts[i], 2),
             'item': 1,
@@ -673,6 +674,111 @@ def generate_purchase_orders(suppliers, products, num_pos=600):
             'costCenter': f"CC-{random.randint(100, 180)}",
         })
         
+    return purchase_orders
+
+def generate_marketing_purchase_orders(campaigns_df, suppliers, products, taxonomy):
+    """
+    Generates purchase orders for marketing campaigns.
+    """
+    fake = Faker()
+    purchase_orders = []
+
+    # Get L4 categories under 'Marketing & Advertising'
+    try:
+        mkt_l4_categories = taxonomy.get("Indirect Services and Materials", {}).get("Marketing & Sales", {}).get("Marketing & Advertising", [])
+    except (AttributeError, KeyError):
+        mkt_l4_categories = []
+
+    marketing_suppliers = [s for s in suppliers if s['category'] in mkt_l4_categories]
+    if not marketing_suppliers:
+        # Fallback to all suppliers if no specific marketing suppliers are found
+        print("Warning: No specific marketing suppliers found. Falling back to all suppliers for marketing POs.")
+        marketing_suppliers = suppliers
+
+    # Filter products to only include those relevant to Marketing & Advertising. Do NOT fall back to all products.
+    marketing_products = [p for p in products if p['category_L3'] == 'Marketing & Advertising']
+    if not marketing_products:
+        print("Warning: No specific marketing products found. Marketing POs will be generated as generic services.")
+
+    for _, campaign in campaigns_df.iterrows():
+        # Only consider active or completed campaigns
+        if campaign['status'] in ['completed', 'active']:
+            # Generate 1 to 3 POs per campaign to simulate various marketing expenditures
+            num_pos_per_campaign = random.randint(1, 3)
+            
+            # Create a single, unique cost center for this campaign, derived from its ID.
+            campaign_cost_center = f"CC-MKT-{campaign['campaign_id']}"
+
+            for _ in range(num_pos_per_campaign):
+                if not marketing_suppliers:
+                    continue
+                
+                supplier = random.choice(marketing_suppliers)
+                product = random.choice(marketing_products) if marketing_products else None
+                
+                # Clean budget and spend columns
+                budget_str = str(campaign.get(' budget ', '0')).replace(',', '').strip()
+                spend_str = str(campaign.get(' actual_spend ', '0')).replace(',', '').strip()
+                
+                try:
+                    budget = float(budget_str)
+                except (ValueError, TypeError):
+                    budget = 0.0
+
+                try:
+                    spend = float(spend_str)
+                except (ValueError, TypeError):
+                    spend = 0.0
+
+                # Allocate a portion of the campaign's actual spend or budget to this PO
+                po_amount = (spend if spend > 0 else budget) / num_pos_per_campaign
+                po_amount = round(po_amount, 2)
+                
+                # Ensure PO amount is within a reasonable range
+                po_amount = max(500.0, po_amount)
+                
+                try:
+                    start_date = pd.to_datetime(campaign['start_date'])
+                    end_date = pd.to_datetime(campaign['end_date'])
+                    # Ensure PO date is within campaign dates
+                    date_issued = fake.date_time_between(start_date=start_date, end_date=end_date)
+                except (ValueError, TypeError):
+                    # Fallback if campaign dates are invalid
+                    date_issued = fake.date_time_between(start_date='-1y', end_date='now')
+
+                # Assign category, SKU, and description correctly.
+                po_category = product['category_L4'] if product else (random.choice(mkt_l4_categories) if mkt_l4_categories else "General Marketing")
+                temp_id = product['temp_id'] if product else None
+                
+                # Create a more descriptive PO description
+                po_description = f"Marketing Services for {campaign.get('brand_name', '')} campaign: '{campaign.get('campaign_name', '')}' ({campaign.get('objective', '')}/{campaign.get('channel', '')}). Campaign ID: {campaign.get('campaign_id', '')}"
+
+
+                purchase_orders.append({
+                    'orderNumber': f"PO-{str(uuid.uuid4().hex)[:10]}",
+                    'supplierVendorCode': supplier['vendorCode'],
+                    'orderTotalValue': po_amount,
+                    'dateIssued': date_issued,
+                    'orderStatus': 'completed' if campaign['status'] == 'completed' else 'approved',
+                    'category': po_category,
+                    'description': po_description,
+                    'deliveryDate': date_issued + timedelta(days=random.randint(7, 30)),
+                    'productSku': None, # IM&S items have no SKU
+                    'temp_id': temp_id, # Internal linking ID
+                    'quantity': 1,
+                    'unitPrice': po_amount,
+                    'item': 1,
+                    'dateChanged': date_issued + timedelta(days=random.randint(1, 5)),
+                    'approvedBy': fake.name(),
+                    'still_to_be_delivered_qty': 0,
+                    'still_to_be_delivered_value': 0,
+                    'still_to_be_invoiced_qty': 0,
+                    'still_to_be_invoiced_value': 0,
+                    'contractReference': f"CTR-{str(uuid.uuid4().hex)[:10]}" if random.random() < 0.3 else None,
+                    'paymentTerms': supplier['paymentTerms'],
+                    'requisitioner': fake.name(),
+                    'costCenter': campaign_cost_center, # Use the campaign-specific cost center
+                })
     return purchase_orders
 
 def generate_invoices(purchase_orders):
@@ -786,7 +892,9 @@ def balance_spend_distribution(purchase_orders, products, suppliers, max_iterati
     products_df = pd.DataFrame(products)
     
     for i in range(max_iterations):
-        merged_df = pd.merge(po_df, products_df, left_on='productSku', right_on='sku')
+        # Use the temporary ID for a reliable merge
+        merged_df = pd.merge(po_df, products_df, on='temp_id', how='left')
+        
         total_spend = merged_df['orderTotalValue'].sum()
         if total_spend == 0:
             return po_df.to_dict('records')
@@ -829,8 +937,12 @@ def balance_spend_distribution(purchase_orders, products, suppliers, max_iterati
         for category, percentage in over_represented.items():
             spend_to_remove = category_spend[category] - ((OVER_REP_PERCENT/100) * total_spend)
             
-            merged_df_for_removal = pd.merge(po_df, products_df, left_on='productSku', right_on='sku')
-            pos_in_cat = merged_df_for_removal[merged_df_for_removal['category_L1'] == category]
+            merged_df_for_removal = pd.merge(po_df, products_df, on='temp_id', how='left')
+            
+            # Exclude marketing POs from the pool of removable POs
+            non_marketing_pos = merged_df_for_removal[merged_df_for_removal['category_L3'] != 'Marketing & Advertising']
+            
+            pos_in_cat = non_marketing_pos[non_marketing_pos['category_L1'] == category]
             
             pos_to_remove = pos_in_cat.sort_values('orderTotalValue', ascending=True)
             
@@ -848,6 +960,26 @@ def balance_spend_distribution(purchase_orders, products, suppliers, max_iterati
 
     print("Could not balance spend distribution within max iterations.")
     return po_df.to_dict('records')
+
+def create_campaign_po_links(input_path, output_path):
+    try:
+        po_df = pd.read_csv(input_path)
+    except FileNotFoundError:
+        print(f"Error: {input_path} not found.")
+        return
+
+    # Extract campaign_id from description using regex
+    # Assuming campaign_id is in the format "(ID: CAMPAIGN_ID)"
+    po_df['campaign_id'] = po_df['description'].str.extract(r'\(ID:\s*([A-Z0-9_]+)\)')
+
+    # Filter out rows where campaign_id could not be extracted
+    campaign_links = po_df[po_df['campaign_id'].notna()][['campaign_id', 'orderNumber']]
+
+    # Rename orderNumber to po_id
+    campaign_links = campaign_links.rename(columns={'orderNumber': 'po_id'})
+
+    campaign_links.to_csv(output_path, index=False)
+    print(f"Successfully created {output_path} with {len(campaign_links)} links.")
 
 if __name__ == '__main__':
     script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -889,6 +1021,7 @@ if __name__ == '__main__':
 
     # 1. Parse Categories
     categories = parse_categories(ontology_path)
+    taxonomy = parse_ontology_taxonomy(ontology_path)
 
     # 2. Generate Products
     print("\n--- Generating Products ---")
@@ -902,8 +1035,29 @@ if __name__ == '__main__':
 
     # 4. Generate Purchase Orders
     print("\n--- Generating Purchase Orders ---")
-    new_po_data = generate_purchase_orders(suppliers_data, products_data, NUM_PURCHASES)
-    po_data.extend(new_po_data)
+    # Load campaigns data
+    campaigns_path = os.path.join(script_dir, 'campaigns_v1.csv')
+    campaigns_df = None
+    try:
+        campaigns_df = pd.read_csv(campaigns_path)
+        print(f"Loaded {len(campaigns_df)} campaigns from {campaigns_path}.")
+    except FileNotFoundError:
+        print(f"Warning: {campaigns_path} not found. Cannot generate marketing-specific POs.")
+
+    # Generate marketing POs if campaigns data is available
+    if campaigns_df is not None:
+        marketing_po_data = generate_marketing_purchase_orders(campaigns_df, suppliers_data, products_data, taxonomy)
+        po_data.extend(marketing_po_data)
+        print(f"Generated {len(marketing_po_data)} marketing purchase orders.")
+    
+    # Generate other POs, excluding 'Marketing & Advertising' L3 category
+    num_other_pos = NUM_PURCHASES
+    if num_other_pos > 0:
+        other_po_data = generate_purchase_orders(suppliers_data, products_data, num_other_pos, exclude_l3_categories=['Marketing & Advertising'])
+        po_data.extend(other_po_data)
+        print(f"Generated {len(other_po_data)} other purchase orders.")
+    else:
+        print("No additional non-marketing POs needed as NUM_PURCHASES is set to 0.")
 
     # Calculate last annual revenue from POs
     print("\n--- Calculating Last Annual Revenue for Suppliers ---")
@@ -1010,7 +1164,13 @@ if __name__ == '__main__':
                     'riskStatus': 'Active'
                 })
 
-    # 8. Save DataFrames
+    # 8. Clean up and Save DataFrames
+    # Drop the temporary ID column before saving
+    if 'temp_id' in po_df.columns:
+        po_df = po_df.drop(columns=['temp_id'])
+    if 'temp_id' in products_df.columns:
+        products_df = products_df.drop(columns=['temp_id'])
+
     if not suppliers_df.empty:
         suppliers_df.to_csv(os.path.join(script_dir, 'suppliers.csv'), index=False)
         print(f"Successfully generated and saved {len(suppliers_df)} suppliers.")
@@ -1036,8 +1196,13 @@ if __name__ == '__main__':
     create_po_dictionary(po_df, dicts_output_dir)
     create_contract_dictionary(po_df, dicts_output_dir)
 
-print("\n--- Running Data Integrity Check ---")
+    # Create Campaign PO Links
+    print("\n--- Creating Campaign PO Links ---")
+    po_csv_path = os.path.join(script_dir, 'purchase_orders.csv')
+    links_output_path = os.path.join(script_dir, '../processed/campaign_po_links.csv')
+    create_campaign_po_links(po_csv_path, links_output_path)
 
-procurement_data_integrity_checker.check_data_integrity()
+    print("\n--- Running Data Integrity Check ---")
+    procurement_data_integrity_checker.check_data_integrity()
 
-print("\nData generation complete.")
+    print("\nData generation complete.")

@@ -2,6 +2,10 @@
 
 **Read the corresponding part in `sprint_plan.md` for task details.**
 
+### To be deleted once completed
+- [ ] Run a small test with data generation. 
+- [ ] If test data generation works, generate with actual numbers. 
+
 #### Previous Sprint Feedback
 - [x] Fix late payment percentage calculation to be between 5-10%.
 - [x] Adjust `region_shares` in the data generator.
@@ -21,14 +25,14 @@
 - [x] Generate supplier attributes: `id`, `name`, `category`, `risk_score`, `country`, `payment_terms`, `last_annual_revenue`.
 
 **Part 2: Purchase Order Generation**
-- [x] Generate `data/processed/procurement/pos.csv` with 200 realistic POs.
+- [ ] Generate `data/processed/procurement/pos.csv` with 200 realistic POs.
 - [x] Use log-normal distribution for PO amounts.
 - [x] Implement supplier-PO relationship distribution (20% suppliers get 50% POs, etc.).
 - [x] Implement PO status distribution for 2025 POs (75% completed, 15% approved, etc.).
 - [x] Ensure delivery dates for 2024 POs are in 2025.
-- [x] Link ~30% of POs to marketing campaigns (coordinate with Seonyoung for campaign IDs).
+- [ ] Link ~30% of POs to marketing campaigns (coordinate with Seonyoung for campaign IDs).
 - [x] Implement temporal patterns for PO dates (Q4 spike, month-end clustering, etc.).
-- [x] Generate PO attributes (including but not limited to, no need to stickt to the exact names here): `id`, `supplier_id`, `amount`, `date`, `status`, `category`, `campaign_id`, `description`.
+- [x] Generate PO attributes (including but not limited to, no need to stickt to the exact names here): `id`, `supplier_id`, `amount`, `date`, `status`, `category`, `description`.
 
 **Part 3: Invoice Generation**
 - [x] Generate `data/processed/procurement/invoices.csv` with ~180 realistic invoices.
@@ -45,17 +49,18 @@
 - [x] Create `data/dictionaries/procurement/pos.json`.
 - [x] Create `data/dictionaries/procurement/contracts.json` (if applicable).
 - [x] Create validation script `etl/validate_procurement_data.py`.
-- [x] Create documentation for the data generation process in `data/raw/data_generation_documentation.md`.
+- [ ] Create documentation for the data generation process in `data/raw/data_generation_documentation.md`.
 
 **Part 5: Data Model Documentation**
-- [x] Run `python temp_create_campaign_links.py`
+- [ ] Run `python temp_create_campaign_links.py`
 - [x] Create `ontologies/joins_sprint2.md` with comprehensive documentation.
 - [x] Include an entity-relationship diagram (e.g., using Mermaid).
 - [x] Provide at least 3 example Cypher queries.
 - [x] Document business scenarios.
-- [x] Generate `data/processed/campaign_po_links.csv` with 50-100 links.
-- [s] Validate `campaign_po_links.csv`.
-- [s] Coordinate with Seonyoung about PO IDs.
+- [ ] Generate `data/processed/campaign_po_links.csv` with 50-100 links.
+- [ ] Validate `campaign_po_links.csv`.
+- [ ] Coordinate with Seonyoung about PO IDs.
+- [ ] Double check previously completed tasks in this segment since procurement data generation logic is enriched with the marketign campaign POs.
 
 **Part 6: Set Up RAG Environment & Gemini API**
 - [x] Set up Gemini API Key as an environment variable.
@@ -96,3 +101,8 @@
 - [ ] Document example Q&A pairs.
 - [ ] List known limitations.
 - [ ] Provide a troubleshooting guide.
+
+**Part 11: Final Review**
+- [ ] `sprint_plan.md` to check if there is any task not implemented.
+- [ ] Review all tasks in this final and check whether they are properly implemented.
+- [ ] Explain / show to user how each task in this document implemented, ask approval for the implementations.

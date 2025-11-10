@@ -1,974 +1,110 @@
 {
-    "Global Alliance for Sponsorships": {
+    "SecureGuard Solutions SA": {
         "aliases": [
-            "Global Alliance for Sponsorships"
+            "SecureGuard Solutions SA"
         ],
-        "vendor_code": "SUP-ebf108f5"
+        "vendor_code": "SUP-f88950d7"
     },
-    "AutoCare Deutschland GmbH": {
+    "EffiCollab Solutions": {
         "aliases": [
-            "AutoCare Deutschland GmbH"
+            "EffiCollab Solutions"
         ],
-        "vendor_code": "SUP-0a7d8fce"
+        "vendor_code": "SUP-ddbe30d3"
     },
-    "GreenCycle Waste Solutions B.V.": {
+    "Catering & Vending Solutions GmbH": {
         "aliases": [
-            "GreenCycle Waste Solutions B.V."
+            "Catering & Vending Solutions GmbH"
         ],
-        "vendor_code": "SUP-e987fae9"
-    },
-    "Global Logistics Solutions GmbH": {
-        "aliases": [
-            "Global Logistics Solutions GmbH"
-        ],
-        "vendor_code": "SUP-fffbfaf4"
-    },
-    "TechVision Nederland": {
-        "aliases": [
-            "TechVision Nederland"
-        ],
-        "vendor_code": "SUP-3a7fde11"
-    },
-    "Florian Food Solutions": {
-        "aliases": [
-            "Florian Food Solutions"
-        ],
-        "vendor_code": "SUP-c33c7862"
-    },
-    "ErgoFurniture GmbH": {
-        "aliases": [
-            "ErgoFurniture GmbH"
-        ],
-        "vendor_code": "SUP-02af31f0"
-    },
-    "TechLog Conveyor Solutions GmbH": {
-        "aliases": [
-            "TechLog Conveyor Solutions GmbH"
-        ],
-        "vendor_code": "SUP-f2a4f9c6"
-    },
-    "SecureGuard Solutions GmbH": {
-        "aliases": [
-            "SecureGuard Solutions GmbH"
-        ],
-        "vendor_code": "SUP-77b65afa"
-    },
-    "SecureFuture Solutions": {
-        "aliases": [
-            "SecureFuture Solutions"
-        ],
-        "vendor_code": "SUP-edda90c6"
-    },
-    "Muster GmbH": {
-        "aliases": [
-            "Muster GmbH"
-        ],
-        "vendor_code": "SUP-558dded2"
-    },
-    "Post & Dokumentenmanagement GmbH": {
-        "aliases": [
-            "Post & Dokumentenmanagement GmbH"
-        ],
-        "vendor_code": "SUP-395e0d18"
-    },
-    "CRM Solutions GmbH": {
-        "aliases": [
-            "CRM Solutions GmbH"
-        ],
-        "vendor_code": "SUP-df3be7dc"
-    },
-    "Stornobuchungen GmbH": {
-        "aliases": [
-            "Stornobuchungen GmbH"
-        ],
-        "vendor_code": "SUP-370d249a"
-    },
-    "Estonian Mail Solutions Ltd": {
-        "aliases": [
-            "Estonian Mail Solutions Ltd"
-        ],
-        "vendor_code": "SUP-8718d112"
-    },
-    "PropertyLeaseHungary": {
-        "aliases": [
-            "PropertyLeaseHungary"
-        ],
-        "vendor_code": "SUP-b05d574a"
-    },
-    "Lithuania Oils & Fats Inc.": {
-        "aliases": [
-            "Lithuania Oils & Fats Inc."
-        ],
-        "vendor_code": "SUP-73c141be"
-    },
-    "ExpoServ Romania": {
-        "aliases": [
-            "ExpoServ Romania"
-        ],
-        "vendor_code": "SUP-e9616727"
-    },
-    "Insight Analytics GmbH": {
-        "aliases": [
-            "Insight Analytics GmbH"
-        ],
-        "vendor_code": "SUP-43ee33d6"
-    },
-    "German Security Solutions GmbH": {
-        "aliases": [
-            "German Security Solutions GmbH"
-        ],
-        "vendor_code": "SUP-c51d2739"
-    },
-    "Caltex Castings & Forgings S.A.": {
-        "aliases": [
-            "Caltex Castings & Forgings S.A."
-        ],
-        "vendor_code": "SUP-5209f8ea"
-    },
-    "SecureGuard Alarm Systeme GmbH": {
-        "aliases": [
-            "SecureGuard Alarm Systeme GmbH"
-        ],
-        "vendor_code": "SUP-9edbcdb0"
-    },
-    "Netzwerk-L\u00f6sungen GmbH": {
-        "aliases": [
-            "Netzwerk-L\u00f6sungen GmbH"
-        ],
-        "vendor_code": "SUP-b1eff380"
-    },
-    "Latvian Conveyor Solutions": {
-        "aliases": [
-            "Latvian Conveyor Solutions"
-        ],
-        "vendor_code": "SUP-39f19935"
-    },
-    "Inova Patentes Ltda.": {
-        "aliases": [
-            "Inova Patentes Ltda."
-        ],
-        "vendor_code": "SUP-3dfc9ddd"
-    },
-    "SecureTech Access Solutions GmbH": {
-        "aliases": [
-            "SecureTech Access Solutions GmbH"
-        ],
-        "vendor_code": "SUP-b6458066"
-    },
-    "PostMate Deutschland GmbH": {
-        "aliases": [
-            "PostMate Deutschland GmbH"
-        ],
-        "vendor_code": "SUP-5a0d18b0"
-    },
-    "MediaTrack Solutions GmbH": {
-        "aliases": [
-            "MediaTrack Solutions GmbH"
-        ],
-        "vendor_code": "SUP-2d911e90"
-    },
-    "Furniturehaus Kehl GmbH": {
-        "aliases": [
-            "Furniturehaus Kehl GmbH"
-        ],
-        "vendor_code": "SUP-59c86bba"
-    },
-    "Latvian Precision 3D": {
-        "aliases": [
-            "Latvian Precision 3D"
-        ],
-        "vendor_code": "SUP-06def392"
-    },
-    "Servi\u00e7os Limpeza e Manuten\u00e7\u00e3o Ltda.": {
-        "aliases": [
-            "Servi\u00e7os Limpeza e Manuten\u00e7\u00e3o Ltda."
-        ],
-        "vendor_code": "SUP-469e0830"
-    },
-    "MetalCraft Castings GmbH": {
-        "aliases": [
-            "MetalCraft Castings GmbH"
-        ],
-        "vendor_code": "SUP-8b102488"
-    },
-    "GreenCare Uruguay S.A.": {
-        "aliases": [
-            "GreenCare Uruguay S.A."
-        ],
-        "vendor_code": "SUP-86769f90"
-    },
-    "Eger Energy Solutions": {
-        "aliases": [
-            "Eger Energy Solutions"
-        ],
-        "vendor_code": "SUP-26517beb"
-    },
-    "Cooperativa de Veh\u00edculos Leasing Uruguaya": {
-        "aliases": [
-            "Cooperativa de Veh\u00edculos Leasing Uruguaya"
-        ],
-        "vendor_code": "SUP-670e0f8f"
-    },
-    "SocialSphere GmbH": {
-        "aliases": [
-            "SocialSphere GmbH"
-        ],
-        "vendor_code": "SUP-992563bf"
-    },
-    "EuroFurnit GmbH": {
-        "aliases": [
-            "EuroFurnit GmbH"
-        ],
-        "vendor_code": "SUP-47cfbef4"
-    },
-    "Funkwerk Training GmbH": {
-        "aliases": [
-            "Funkwerk Training GmbH"
-        ],
-        "vendor_code": "SUP-ce3f5f16"
-    },
-    "Firmen-Vertragsmanagement GmbH": {
-        "aliases": [
-            "Firmen-Vertragsmanagement GmbH"
-        ],
-        "vendor_code": "SUP-6cdb7512"
-    },
-    "Gr\u00fcnCare Deutschland GmbH": {
-        "aliases": [
-            "Gr\u00fcnCare Deutschland GmbH"
-        ],
-        "vendor_code": "SUP-4aa1c386"
-    },
-    "AuditPro Solutions": {
-        "aliases": [
-            "AuditPro Solutions"
-        ],
-        "vendor_code": "SUP-7a46a7ca"
-    },
-    "Lithuania Tech Solutions": {
-        "aliases": [
-            "Lithuania Tech Solutions"
-        ],
-        "vendor_code": "SUP-3ea67b67"
-    },
-    "MetalTech Solutions GmbH": {
-        "aliases": [
-            "MetalTech Solutions GmbH"
-        ],
-        "vendor_code": "SUP-f1d8eab7"
-    },
-    "ShowTime Exhibitions GmbH": {
-        "aliases": [
-            "ShowTime Exhibitions GmbH"
-        ],
-        "vendor_code": "SUP-32112199"
-    },
-    "Nordic CNC Solutions": {
-        "aliases": [
-            "Nordic CNC Solutions"
-        ],
-        "vendor_code": "SUP-47d37bde"
-    },
-    "EnergieManagement GmbH": {
-        "aliases": [
-            "EnergieManagement GmbH"
-        ],
-        "vendor_code": "SUP-3a3d874c"
-    },
-    "ImmobilienMiete GmbH": {
-        "aliases": [
-            "ImmobilienMiete GmbH"
-        ],
-        "vendor_code": "SUP-e844a762"
-    },
-    "Mallersdorf Banking Solutions GmbH": {
-        "aliases": [
-            "Mallersdorf Banking Solutions GmbH"
-        ],
-        "vendor_code": "SUP-dd65cda5"
-    },
-    "CloudSphere Solutions": {
-        "aliases": [
-            "CloudSphere Solutions"
-        ],
-        "vendor_code": "SUP-4494cf42"
-    },
-    "SkyOcean Logistics GmbH": {
-        "aliases": [
-            "SkyOcean Logistics GmbH"
-        ],
-        "vendor_code": "SUP-d0366f62"
-    },
-    "KOMPETENZTRAINING GmbH": {
-        "aliases": [
-            "KOMPETENZTRAINING GmbH"
-        ],
-        "vendor_code": "SUP-f43404ae"
-    },
-    "3PL Solutions s.r.o.": {
-        "aliases": [
-            "3PL Solutions s.r.o."
-        ],
-        "vendor_code": "SUP-e925e86a"
-    },
-    "CleanPro Scandinavia AB": {
-        "aliases": [
-            "CleanPro Scandinavia AB"
-        ],
-        "vendor_code": "SUP-dea9abc5"
-    },
-    "TeleFleet Solutions GmbH": {
-        "aliases": [
-            "TeleFleet Solutions GmbH"
-        ],
-        "vendor_code": "SUP-b6673668"
-    },
-    "GmbH Audit und Steuerberatung": {
-        "aliases": [
-            "GmbH Audit und Steuerberatung"
-        ],
-        "vendor_code": "SUP-3abe9a93"
-    },
-    "Ocean Air Logistics GmbH": {
-        "aliases": [
-            "Ocean Air Logistics GmbH"
-        ],
-        "vendor_code": "SUP-c29e1ccb"
-    },
-    "Optima Banking Solutions GmbH": {
-        "aliases": [
-            "Optima Banking Solutions GmbH"
-        ],
-        "vendor_code": "SUP-738d7f09"
-    },
-    "Chilean Resins S.A.": {
-        "aliases": [
-            "Chilean Resins S.A."
-        ],
-        "vendor_code": "SUP-08d1195f"
-    },
-    "Box Solutions Fr": {
-        "aliases": [
-            "Box Solutions Fr"
-        ],
-        "vendor_code": "SUP-c2a5b13e"
+        "vendor_code": "SUP-9e90b2c8"
     },
     "BestValue Logistics GmbH": {
         "aliases": [
             "BestValue Logistics GmbH"
         ],
-        "vendor_code": "SUP-3e3ecbe0"
+        "vendor_code": "SUP-1a695ce4"
     },
-    "Netzwerke Technik GmbH": {
+    "G\u00f6ppingen Brand Analytics GmbH": {
         "aliases": [
-            "Netzwerke Technik GmbH"
+            "G\u00f6ppingen Brand Analytics GmbH"
         ],
-        "vendor_code": "SUP-1f8ea7d2"
+        "vendor_code": "SUP-53675dfe"
     },
-    "PROMO-ART GmbH": {
+    "TechInnov Engineering & Design Solutions": {
         "aliases": [
-            "PROMO-ART GmbH"
+            "TechInnov Engineering & Design Solutions"
         ],
-        "vendor_code": "SUP-a8c11e4d"
+        "vendor_code": "SUP-20db586f"
     },
-    "OptiWork Solutions": {
+    "PostOffice Solutions GmbH": {
         "aliases": [
-            "OptiWork Solutions"
+            "PostOffice Solutions GmbH"
         ],
-        "vendor_code": "SUP-7b091946"
+        "vendor_code": "SUP-8d18d7a2"
     },
-    "Caroline's Fuel and Card Solutions Ltd": {
+    "AccessSecure Solutions Ltda": {
         "aliases": [
-            "Caroline's Fuel and Card Solutions Ltd"
+            "AccessSecure Solutions Ltda"
         ],
-        "vendor_code": "SUP-cfff7967"
+        "vendor_code": "SUP-3482cd2a"
     },
-    "LabelMaster GmbH": {
+    "SecureDoc Solutions GmbH": {
         "aliases": [
-            "LabelMaster GmbH"
+            "SecureDoc Solutions GmbH"
         ],
-        "vendor_code": "SUP-8b77b9a0"
+        "vendor_code": "SUP-8f12d63b"
     },
-    "Incentive Solutions GmbH": {
+    "Vitro Containers GmbH": {
         "aliases": [
-            "Incentive Solutions GmbH"
+            "Vitro Containers GmbH"
         ],
-        "vendor_code": "SUP-1be7462b"
+        "vendor_code": "SUP-20a2d5cf"
     },
-    "TransEuro Logistics Solutions": {
+    "LogiFul Value-Added Solutions SA": {
         "aliases": [
-            "TransEuro Logistics Solutions"
+            "LogiFul Value-Added Solutions SA"
         ],
-        "vendor_code": "SUP-dc79a280"
+        "vendor_code": "SUP-97f2185f"
     },
-    "Estonian Leads Solutions Ltd": {
+    "Accessibles Espa\u00f1a S.L.": {
         "aliases": [
-            "Estonian Leads Solutions Ltd"
+            "Accessibles Espa\u00f1a S.L."
         ],
-        "vendor_code": "SUP-89ada60c"
+        "vendor_code": "SUP-bf684184"
     },
-    "Motala Property Solutions AB": {
+    "Optima Inventory Solutions GmbH": {
         "aliases": [
-            "Motala Property Solutions AB"
+            "Optima Inventory Solutions GmbH"
         ],
-        "vendor_code": "SUP-f935e212"
+        "vendor_code": "SUP-99e20c53"
     },
-    "IP Solutions GmbH": {
+    "PrintPro Labels GmbH": {
         "aliases": [
-            "IP Solutions GmbH"
+            "PrintPro Labels GmbH"
         ],
-        "vendor_code": "SUP-f3dcd627"
+        "vendor_code": "SUP-23f35952"
     },
-    "HRAssist Technologieberatung GmbH": {
+    "Austrian Clean Services GmbH": {
         "aliases": [
-            "HRAssist Technologieberatung GmbH"
+            "Austrian Clean Services GmbH"
         ],
-        "vendor_code": "SUP-b1215581"
+        "vendor_code": "SUP-80ac4b6e"
     },
-    "Germany Road Freight Solutions GmbH": {
+    "Druck und Kopie Dienstleistungen GmbH": {
         "aliases": [
-            "Germany Road Freight Solutions GmbH"
+            "Druck und Kopie Dienstleistungen GmbH"
         ],
-        "vendor_code": "SUP-5a0ffd38"
+        "vendor_code": "SUP-9deebecc"
     },
-    "Oel- und Fettspezialit\u00e4ten GmbH": {
+    "ExpressDelivery GmbH": {
         "aliases": [
-            "Oel- und Fettspezialit\u00e4ten GmbH"
+            "ExpressDelivery GmbH"
         ],
-        "vendor_code": "SUP-ff6d2275"
+        "vendor_code": "SUP-dfa8aef2"
     },
-    "SkillsGrowth GmbH": {
+    "TechPro Processing Solutions GmbH": {
         "aliases": [
-            "SkillsGrowth GmbH"
+            "TechPro Processing Solutions GmbH"
         ],
-        "vendor_code": "SUP-06b776d7"
-    },
-    "FreightExpress GmbH": {
-        "aliases": [
-            "FreightExpress GmbH"
-        ],
-        "vendor_code": "SUP-92db5471"
-    },
-    "Green Horizon Consulting": {
-        "aliases": [
-            "Green Horizon Consulting"
-        ],
-        "vendor_code": "SUP-92ae3357"
-    },
-    "AutoLeasing GmbH": {
-        "aliases": [
-            "AutoLeasing GmbH"
-        ],
-        "vendor_code": "SUP-46aab4bc"
-    },
-    "LogiValue Solutions GmbH": {
-        "aliases": [
-            "LogiValue Solutions GmbH"
-        ],
-        "vendor_code": "SUP-68d927d2"
-    },
-    "Meininger Print & Kopie GmbH": {
-        "aliases": [
-            "Meininger Print & Kopie GmbH"
-        ],
-        "vendor_code": "SUP-b3ebfbc3"
-    },
-    "Swiss Ferrous Solutions Ltd.": {
-        "aliases": [
-            "Swiss Ferrous Solutions Ltd."
-        ],
-        "vendor_code": "SUP-6b61d347"
-    },
-    "Logiikka Oyj": {
-        "aliases": [
-            "Logiikka Oyj"
-        ],
-        "vendor_code": "SUP-a8450aa9"
-    },
-    "TechDesign Engineering GmbH": {
-        "aliases": [
-            "TechDesign Engineering GmbH"
-        ],
-        "vendor_code": "SUP-b0bf7037"
-    },
-    "Express Logistics Italia": {
-        "aliases": [
-            "Express Logistics Italia"
-        ],
-        "vendor_code": "SUP-37f7ee94"
-    },
-    "Bamberg Pallet Solutions GmbH": {
-        "aliases": [
-            "Bamberg Pallet Solutions GmbH"
-        ],
-        "vendor_code": "SUP-9d317167"
-    },
-    "Bankhaus Securitas AG": {
-        "aliases": [
-            "Bankhaus Securitas AG"
-        ],
-        "vendor_code": "SUP-9e9e8bb2"
-    },
-    "SpeedForm Rapid Prototyping Materials GmbH": {
-        "aliases": [
-            "SpeedForm Rapid Prototyping Materials GmbH"
-        ],
-        "vendor_code": "SUP-29c6a6d9"
-    },
-    "EnergieProduktions GmbH": {
-        "aliases": [
-            "EnergieProduktions GmbH"
-        ],
-        "vendor_code": "SUP-54e3eb07"
-    },
-    "Slovak Energy Solutions": {
-        "aliases": [
-            "Slovak Energy Solutions"
-        ],
-        "vendor_code": "SUP-31f04f23"
-    },
-    "Blick auf die Zukunft Stationers GmbH": {
-        "aliases": [
-            "Blick auf die Zukunft Stationers GmbH"
-        ],
-        "vendor_code": "SUP-92efbcaa"
-    },
-    "Lithuania Lead Solutions Ltd.": {
-        "aliases": [
-            "Lithuania Lead Solutions Ltd."
-        ],
-        "vendor_code": "SUP-8f7a7ec1"
-    },
-    "InnoWork Solutions": {
-        "aliases": [
-            "InnoWork Solutions"
-        ],
-        "vendor_code": "SUP-41c018fa"
-    },
-    "TechNet Data Centers GmbH": {
-        "aliases": [
-            "TechNet Data Centers GmbH"
-        ],
-        "vendor_code": "SUP-a2410af9"
-    },
-    "Druck & Kopie Service GmbH": {
-        "aliases": [
-            "Druck & Kopie Service GmbH"
-        ],
-        "vendor_code": "SUP-b87367a4"
-    },
-    "TechSolutions GmbH": {
-        "aliases": [
-            "TechSolutions GmbH"
-        ],
-        "vendor_code": "SUP-47003a7c"
-    },
-    "Seacargo International AS": {
-        "aliases": [
-            "Seacargo International AS"
-        ],
-        "vendor_code": "SUP-a71b8347"
-    },
-    "Immobilien Miete GmbH": {
-        "aliases": [
-            "Immobilien Miete GmbH"
-        ],
-        "vendor_code": "SUP-53a4d4ee"
-    },
-    "Eutin Injection Molding GmbH": {
-        "aliases": [
-            "Eutin Injection Molding GmbH"
-        ],
-        "vendor_code": "SUP-8f5a9f12"
-    },
-    "Ludwig Becker Corporate Solutions": {
-        "aliases": [
-            "Ludwig Becker Corporate Solutions"
-        ],
-        "vendor_code": "SUP-ab2bdfc6"
-    },
-    "Estonian Eco Clean Solutions": {
-        "aliases": [
-            "Estonian Eco Clean Solutions"
-        ],
-        "vendor_code": "SUP-d52c027a"
-    },
-    "Soluciones de Redes y Soporte": {
-        "aliases": [
-            "Soluciones de Redes y Soporte"
-        ],
-        "vendor_code": "SUP-f0c3853e"
-    },
-    "Insight CRM Solutions GmbH": {
-        "aliases": [
-            "Insight CRM Solutions GmbH"
-        ],
-        "vendor_code": "SUP-d52326c1"
-    },
-    "Hochhauer Rechtsanw\u00e4lte GmbH": {
-        "aliases": [
-            "Hochhauer Rechtsanw\u00e4lte GmbH"
-        ],
-        "vendor_code": "SUP-0d23864d"
-    },
-    "TechSpares GmbH": {
-        "aliases": [
-            "TechSpares GmbH"
-        ],
-        "vendor_code": "SUP-b1e26817"
-    },
-    "ChemTech Solutions GmbH": {
-        "aliases": [
-            "ChemTech Solutions GmbH"
-        ],
-        "vendor_code": "SUP-5677bc35"
-    },
-    "SkyNet Solutions": {
-        "aliases": [
-            "SkyNet Solutions"
-        ],
-        "vendor_code": "SUP-b9c8798e"
-    },
-    "EuroTrans Logistics GmbH": {
-        "aliases": [
-            "EuroTrans Logistics GmbH"
-        ],
-        "vendor_code": "SUP-a9c2c417"
-    },
-    "LuxPrint Solutions": {
-        "aliases": [
-            "LuxPrint Solutions"
-        ],
-        "vendor_code": "SUP-f21564d8"
-    },
-    "GuardSecure GmbH": {
-        "aliases": [
-            "GuardSecure GmbH"
-        ],
-        "vendor_code": "SUP-77f2b94f"
-    },
-    "Innovativa Solutions Ltda": {
-        "aliases": [
-            "Innovativa Solutions Ltda"
-        ],
-        "vendor_code": "SUP-719998ea"
-    },
-    "Norwegian Trade Show Solutions": {
-        "aliases": [
-            "Norwegian Trade Show Solutions"
-        ],
-        "vendor_code": "SUP-a8855b97"
-    },
-    "SecureTech Solutions Ltd": {
-        "aliases": [
-            "SecureTech Solutions Ltd"
-        ],
-        "vendor_code": "SUP-e5a45f64"
-    },
-    "Silicon Valley Passive Solutions GmbH": {
-        "aliases": [
-            "Silicon Valley Passive Solutions GmbH"
-        ],
-        "vendor_code": "SUP-10bd4282"
-    },
-    "Erkelenz Precision Machining GmbH": {
-        "aliases": [
-            "Erkelenz Precision Machining GmbH"
-        ],
-        "vendor_code": "SUP-7b312f6a"
-    },
-    "Optima LubriTech GmbH": {
-        "aliases": [
-            "Optima LubriTech GmbH"
-        ],
-        "vendor_code": "SUP-baa74554"
-    },
-    "LegalShield Solutions GmbH": {
-        "aliases": [
-            "LegalShield Solutions GmbH"
-        ],
-        "vendor_code": "SUP-9a5998a2"
-    },
-    "LogiTrans S.L.": {
-        "aliases": [
-            "LogiTrans S.L."
-        ],
-        "vendor_code": "SUP-cce712d0"
-    },
-    "Furniture Plus Espa\u00f1a": {
-        "aliases": [
-            "Furniture Plus Espa\u00f1a"
-        ],
-        "vendor_code": "SUP-9f7137eb"
-    },
-    "BizzTech Lead Solutions GmbH": {
-        "aliases": [
-            "BizzTech Lead Solutions GmbH"
-        ],
-        "vendor_code": "SUP-bf5445f6"
-    },
-    "SafeGuard Protective Equipment Co., Ltd.": {
-        "aliases": [
-            "SafeGuard Protective Equipment Co., Ltd."
-        ],
-        "vendor_code": "SUP-a60d618a"
-    },
-    "Quantum Data Solutions BVBA": {
-        "aliases": [
-            "Quantum Data Solutions BVBA"
-        ],
-        "vendor_code": "SUP-dda96041"
-    },
-    "Mittelpunkt Catering GmbH": {
-        "aliases": [
-            "Mittelpunkt Catering GmbH"
-        ],
-        "vendor_code": "SUP-e312072f"
-    },
-    "IntelliVision AG": {
-        "aliases": [
-            "IntelliVision AG"
-        ],
-        "vendor_code": "SUP-5f8cc97f"
-    },
-    "Data Insights Analytics GmbH": {
-        "aliases": [
-            "Data Insights Analytics GmbH"
-        ],
-        "vendor_code": "SUP-e5263d4c"
-    },
-    "Finland Insights Co.": {
-        "aliases": [
-            "Finland Insights Co."
-        ],
-        "vendor_code": "SUP-3ce24001"
-    },
-    "Delicious Catering Solutions": {
-        "aliases": [
-            "Delicious Catering Solutions"
-        ],
-        "vendor_code": "SUP-ede1994d"
-    },
-    "Oberliga Promotion GmbH": {
-        "aliases": [
-            "Oberliga Promotion GmbH"
-        ],
-        "vendor_code": "SUP-a1ddc063"
-    },
-    "Estonian Assurance Solutions": {
-        "aliases": [
-            "Estonian Assurance Solutions"
-        ],
-        "vendor_code": "SUP-01f93fb5"
-    },
-    "EuroIncentives GmbH": {
-        "aliases": [
-            "EuroIncentives GmbH"
-        ],
-        "vendor_code": "SUP-6be519f6"
-    },
-    "Giesener Kraftstoffe GmbH": {
-        "aliases": [
-            "Giesener Kraftstoffe GmbH"
-        ],
-        "vendor_code": "SUP-d5b34dcb"
-    },
-    "RoboTech Solutions GmbH": {
-        "aliases": [
-            "RoboTech Solutions GmbH"
-        ],
-        "vendor_code": "SUP-079df3c3"
-    },
-    "ExpoServe Deutschland GmbH": {
-        "aliases": [
-            "ExpoServe Deutschland GmbH"
-        ],
-        "vendor_code": "SUP-582db558"
-    },
-    "Ranua Trade Experiences Ltd": {
-        "aliases": [
-            "Ranua Trade Experiences Ltd"
-        ],
-        "vendor_code": "SUP-bee2f58e"
-    },
-    "Stuhlwerkstatt Heiligenstadt GmbH": {
-        "aliases": [
-            "Stuhlwerkstatt Heiligenstadt GmbH"
-        ],
-        "vendor_code": "SUP-c8778007"
-    },
-    "Zachary Print Solutions": {
-        "aliases": [
-            "Zachary Print Solutions"
-        ],
-        "vendor_code": "SUP-a329c0aa"
-    },
-    "Ocean Air Logistics Ltd.": {
-        "aliases": [
-            "Ocean Air Logistics Ltd."
-        ],
-        "vendor_code": "SUP-3da38598"
-    },
-    "Codyport Print Solutions": {
-        "aliases": [
-            "Codyport Print Solutions"
-        ],
-        "vendor_code": "SUP-5b82c6f6"
-    },
-    "Molding Solutions GmbH": {
-        "aliases": [
-            "Molding Solutions GmbH"
-        ],
-        "vendor_code": "SUP-677b883e"
-    },
-    "Druck- und Kopiemanufaktur GmbH": {
-        "aliases": [
-            "Druck- und Kopiemanufaktur GmbH"
-        ],
-        "vendor_code": "SUP-d41bfc9c"
-    },
-    "DataVision Analytics Solutions": {
-        "aliases": [
-            "DataVision Analytics Solutions"
-        ],
-        "vendor_code": "SUP-dcb82063"
-    },
-    "TerraClean GmbH": {
-        "aliases": [
-            "TerraClean GmbH"
-        ],
-        "vendor_code": "SUP-7a12c9fa"
-    },
-    "SecureGuard Cyber Solutions GmbH": {
-        "aliases": [
-            "SecureGuard Cyber Solutions GmbH"
-        ],
-        "vendor_code": "SUP-fef2910d"
-    },
-    "MantTech Deutschland GmbH": {
-        "aliases": [
-            "MantTech Deutschland GmbH"
-        ],
-        "vendor_code": "SUP-b4f51b18"
-    },
-    "SalesForce Solutions GmbH": {
-        "aliases": [
-            "SalesForce Solutions GmbH"
-        ],
-        "vendor_code": "SUP-2d6bffa9"
-    },
-    "DocsMaster Slovakia": {
-        "aliases": [
-            "DocsMaster Slovakia"
-        ],
-        "vendor_code": "SUP-d2b717af"
-    },
-    "Hungarian Inventory Solutions Ltd.": {
-        "aliases": [
-            "Hungarian Inventory Solutions Ltd."
-        ],
-        "vendor_code": "SUP-de1b9e98"
-    },
-    "SecureGuard Solutions Oy": {
-        "aliases": [
-            "SecureGuard Solutions Oy"
-        ],
-        "vendor_code": "SUP-8bd83c75"
-    },
-    "Innovative Sponsorship Solutions GmbH": {
-        "aliases": [
-            "Innovative Sponsorship Solutions GmbH"
-        ],
-        "vendor_code": "SUP-fbb02420"
-    },
-    "Sollution Catering GmbH": {
-        "aliases": [
-            "Sollution Catering GmbH"
-        ],
-        "vendor_code": "SUP-cdf2db45"
-    },
-    "Impactos Digitais": {
-        "aliases": [
-            "Impactos Digitais"
-        ],
-        "vendor_code": "SUP-bde6d919"
-    },
-    "Herstelcast GmbH": {
-        "aliases": [
-            "Herstelcast GmbH"
-        ],
-        "vendor_code": "SUP-4f441559"
-    },
-    "CloudSphere Solutions GmbH": {
-        "aliases": [
-            "CloudSphere Solutions GmbH"
-        ],
-        "vendor_code": "SUP-923a45cd"
-    },
-    "HR Tech Solutions Ltd.": {
-        "aliases": [
-            "HR Tech Solutions Ltd."
-        ],
-        "vendor_code": "SUP-65a145ca"
-    },
-    "German Steel Solutions GmbH": {
-        "aliases": [
-            "German Steel Solutions GmbH"
-        ],
-        "vendor_code": "SUP-40fa6743"
-    },
-    "Bayregens Design Office": {
-        "aliases": [
-            "Bayregens Design Office"
-        ],
-        "vendor_code": "SUP-d5da126d"
-    },
-    "TechPerfekte GmbH": {
-        "aliases": [
-            "TechPerfekte GmbH"
-        ],
-        "vendor_code": "SUP-378e2b57"
-    },
-    "ExpressLogistics GmbH": {
-        "aliases": [
-            "ExpressLogistics GmbH"
-        ],
-        "vendor_code": "SUP-f3355d8c"
-    },
-    "Miroslav Reuter Precision Solutions GmbH": {
-        "aliases": [
-            "Miroslav Reuter Precision Solutions GmbH"
-        ],
-        "vendor_code": "SUP-2cfc533c"
-    },
-    "NetSecure Solutions Ltd.": {
-        "aliases": [
-            "NetSecure Solutions Ltd."
-        ],
-        "vendor_code": "SUP-d419b560"
-    },
-    "Verlagsdienstleistungen GmbH": {
-        "aliases": [
-            "Verlagsdienstleistungen GmbH"
-        ],
-        "vendor_code": "SUP-4bf372e6"
-    },
-    "PrintPro Services Thailand": {
-        "aliases": [
-            "PrintPro Services Thailand"
-        ],
-        "vendor_code": "SUP-89737a90"
-    },
-    "Accessoires Imprimantes et Peripheriques": {
-        "aliases": [
-            "Accessoires Imprimantes et Peripheriques"
-        ],
-        "vendor_code": "SUP-79c79079"
-    },
-    "L\u012bga Dab\u0101de": {
-        "aliases": [
-            "L\u012bga Dab\u0101de"
-        ],
-        "vendor_code": "SUP-28fe5d35"
+        "vendor_code": "SUP-d2192ab2"
     }
 }
