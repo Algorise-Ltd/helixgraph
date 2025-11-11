@@ -1,0 +1,1234 @@
+﻿customer_id,Brand,campaign_id,ad_group_id,campaign_name,order_id,SKU_id,sku_name,Order_date, RRP ,ASP,no_of_transactions
+cs_239,Adidas,ADIDAS_LRC_001,ADIDAS_LRC_SEM_BR_1,Adidas Local Run Challenge,adi_1,ADI-S-0019,Adizero SL - XL - N/A - 7-zone support,2024-05-24,58,52,1
+cs_239,Adidas,ADIDAS_LRC_001,,Adidas Local Run Challenge,adi_1,ADI-S-0019,Adizero SL - XL - N/A - 7-zone support,2024-06-27,58,52,1
+cs_223,Adidas,ADIDAS_OCR_2024_001,,Adidas Owners Club Refresh,adi_2,ADI-S-0007,Stan Smith - XL - Beige - Boost midsole,2024-03-14,37,33,1
+cs_223,Adidas,ADIDAS_OCR_2024_001,,Adidas Owners Club Refresh,adi_2,ADI-S-0005,Essentials Backpack - 41 - Navy - Satin finish,2024-03-25,126,113,1
+cs_168,Adidas,ADIDAS_OCR_2024_001,,Adidas Owners Club Refresh,adi_3,ADI-S-0059,Essentials Backpack - L - Black - HEPA H13,2024-04-04,34,31,1
+cs_168,Adidas,ADIDAS_OCR_2024_001,,Adidas Owners Club Refresh,adi_3,ADI-S-0005,Essentials Backpack - 41 - Navy - Satin finish,2024-03-09,126,113,1
+cs_168,Adidas,ADIDAS_OCR_2024_001,,Adidas Owners Club Refresh,adi_3,ADI-S-0033,Future Icons Tee - S - White - 7-zone support,2024-03-18,178,160,1
+cs_200,Adidas,ADIDAS_OCR_2024_001,,Adidas Owners Club Refresh,adi_4,ADI-S-0060,Stan Smith - M - N/A - Boost midsole,2024-03-13,142,127,1
+cs_200,Adidas,ADIDAS_OCR_2024_001,,Adidas Owners Club Refresh,adi_4,ADI-S-0036,Essentials Backpack - 200ml - Grey - Ortholite insole,2024-03-25,139,125,1
+cs_128,Adidas,ADIDAS_OCR_2024_001,,Adidas Owners Club Refresh,adi_5,ADI-S-0050,Essentials Backpack - 42 - Grey - Hyaluronic acid,2024-04-06,53,48,1
+cs_128,Adidas,ADIDAS_OCR_2024_001,,Adidas Owners Club Refresh,adi_5,ADI-S-0060,Stan Smith - M - N/A - Boost midsole,2024-04-04,142,127,1
+cs_51,Adidas,ADIDAS_OCR_2024_001,,Adidas Owners Club Refresh,adi_6,ADI-S-0060,Stan Smith - M - N/A - Boost midsole,2024-03-23,142,127,1
+cs_51,Adidas,ADIDAS_OCR_2024_001,,Adidas Owners Club Refresh,adi_6,ADI-S-0030,Essentials Backpack - 200g - White - Instant coffee,2024-04-11,74,66,1
+cs_182,Adidas,ADIDAS_OCR_2024_001,,Adidas Owners Club Refresh,adi_7,ADI-S-0057,Samba OG - S - N/A - HEPA H13,2024-03-25,31,28,1
+cs_182,Adidas,ADIDAS_OCR_2024_001,,Adidas Owners Club Refresh,adi_7,ADI-S-0052,Essentials Backpack - M - Black - Instant coffee,2024-04-10,200,180,1
+cs_11,Adidas,ADIDAS_UL_001,ADIDAS_UL_SEM_BR_1,Adidas Ultraboost Light Launch,adi_8,ADI-S-0042,Ultraboost Light - M - Black - Laptop sleeve,2024-03-28,32,29,1
+cs_11,Adidas,ADIDAS_UL_001,ADIDAS_UL_SEM_BR_1,Adidas Ultraboost Light Launch,adi_8,ADI-S-0029,Ultraboost Light - 50ml - Green - HEPA H13,2024-02-05,157,141,1
+cs_181,Adidas,ADIDAS_UL_001,ADIDAS_UL_SEM_BR_1,Adidas Ultraboost Light Launch,adi_9,ADI-S-0043,Ultraboost Light - 375g - Beige - Boost midsole,2024-03-07,113,101,1
+cs_181,Adidas,ADIDAS_UL_001,ADIDAS_UL_SEM_BR_1,Adidas Ultraboost Light Launch,adi_9,ADI-S-0055,Ultraboost Light - 41 - Green - Satin finish,2024-02-24,71,64,1
+cs_26,Adidas,ADIDAS_UL_001,ADIDAS_UL_META_PR_1,Adidas Ultraboost Light Launch,adi_10,ADI-S-0042,Ultraboost Light - M - Black - Laptop sleeve,2024-02-05,32,29,1
+cs_26,Adidas,ADIDAS_UL_001,ADIDAS_UL_TT_1,Adidas Ultraboost Light Launch,adi_10,ADI-S-0009,Ultraboost Light - 50ml - White/Silver - HEPA H13,2024-02-29,42,38,1
+cs_127,Adidas,ADIDAS_UL_001,ADIDAS_UL_YT_1,Adidas Ultraboost Light Launch,adi_11,ADI-S-0053,Ultraboost Light - M - Navy - Ortholite insole,2024-03-10,93,84,1
+cs_127,Adidas,ADIDAS_UL_001,,Adidas Ultraboost Light Launch,adi_11,ADI-S-0041,Ultraboost Light - 160x200cm - Blue/Copper - Laptop sleeve,2024-02-07,126,113,1
+cs_223,Adidas,ADIDAS_UL_001,,Adidas Ultraboost Light Launch,adi_12,ADI-S-0042,Ultraboost Light - M - Black - Laptop sleeve,2024-03-17,32,29,1
+cs_223,Adidas,ADIDAS_UL_001,,Adidas Ultraboost Light Launch,adi_12,ADI-S-0003,Ultraboost Light - S - White - Laptop sleeve,2024-02-20,62,56,1
+cs_265,Adidas,ADIDAS_UL_001,,Adidas Ultraboost Light Launch,adi_13,ADI-S-0042,Ultraboost Light - M - Black - Laptop sleeve,2024-02-06,32,29,1
+cs_265,Adidas,ADIDAS_UL_001,,Adidas Ultraboost Light Launch,adi_13,ADI-S-0048,Ultraboost Light - 140x200cm - White - AEROREADY,2024-02-21,92,83,1
+cs_220,Adidas,ADIDAS_UL_001,,Adidas Ultraboost Light Launch,adi_14,ADI-S-0006,Ultraboost Light - 200ml - Grey - Hyaluronic acid,2024-03-13,81,73,1
+cs_220,Adidas,ADIDAS_UL_001,,Adidas Ultraboost Light Launch,adi_14,ADI-S-0018,Ultraboost Light - XL - Black - 7-zone support,2024-03-05,92,83,1
+cs_220,Adidas,ADIDAS_UL_001,,Adidas Ultraboost Light Launch,adi_14,ADI-S-0055,Ultraboost Light - 41 - Green - Satin finish,2024-03-29,71,64,1
+cs_266,Adidas,ADIDAS_BF_001,ADIDAS_BF_SEM_BR_1,Black Friday Mega Sale,adi_15,ADI-S-0053,Ultraboost Light - M - Navy - Ortholite insole,2024-11-24,93,65,1
+cs_266,Adidas,ADIDAS_BF_001,ADIDAS_BF_SEM_BR_1,Black Friday Mega Sale,adi_15,ADI-S-0048,Ultraboost Light - 140x200cm - White - AEROREADY,2024-11-10,92,65,1
+cs_155,Adidas,ADIDAS_BF_001,ADIDAS_BF_SEM_BR_1,Black Friday Mega Sale,adi_16,ADI-S-0053,Ultraboost Light - M - Navy - Ortholite insole,2024-11-13,93,65,1
+cs_155,Adidas,ADIDAS_BF_001,ADIDAS_BF_SEM_BR_1,Black Friday Mega Sale,adi_16,ADI-S-0052,Essentials Backpack - M - Black - Instant coffee,2024-11-13,200,140,1
+cs_148,Adidas,ADIDAS_BF_001,ADIDAS_BF_SEM_BR_1,Black Friday Mega Sale,adi_17,ADI-S-0057,Samba OG - S - N/A - HEPA H13,2024-12-03,31,22,1
+cs_148,Adidas,ADIDAS_BF_001,ADIDAS_BF_SEM_BR_1,Black Friday Mega Sale,adi_17,ADI-S-0037,Essentials Backpack - L - Green - HEPA H13,2024-11-20,177,124,1
+cs_148,Adidas,ADIDAS_BF_001,ADIDAS_BF_SEM_BR_1,Black Friday Mega Sale,adi_17,ADI-S-0041,Ultraboost Light - 160x200cm - Blue/Copper - Laptop sleeve,2024-11-30,126,88,1
+cs_116,Adidas,ADIDAS_BF_001,ADIDAS_BF_SEM_BR_1,Black Friday Mega Sale,adi_18,ADI-S-0051,Future Icons Tee - XL - White - Satin finish,2024-12-01,165,116,1
+cs_116,Adidas,ADIDAS_BF_001,ADIDAS_BF_SEM_GEN_1,Black Friday Mega Sale,adi_18,ADI-S-0026,Essentials Backpack - One Size - Blue/Copper - AEROREADY,2024-11-30,142,100,1
+cs_116,Adidas,ADIDAS_BF_001,ADIDAS_BF_SEM_GEN_1,Black Friday Mega Sale,adi_18,ADI-S-0015,Forum Low - 50ml - White - Coanda styling,2024-11-24,134,94,1
+cs_198,Adidas,ADIDAS_BF_001,ADIDAS_BF_META_PR_1,Black Friday Mega Sale,adi_19,ADI-S-0059,Essentials Backpack - L - Black - HEPA H13,2024-12-03,34,24,1
+cs_198,Adidas,ADIDAS_BF_001,ADIDAS_BF_META_PR_1,Black Friday Mega Sale,adi_19,ADI-S-0045,Cushioned Crew Socks 3-Pack - 160x200cm - White/Silver - Laptop sleeve,2024-11-17,161,113,1
+cs_141,Adidas,ADIDAS_BF_001,ADIDAS_BF_META_PR_1,Black Friday Mega Sale,adi_20,ADI-S-0033,Future Icons Tee - S - White - 7-zone support,2024-12-06,178,125,1
+cs_141,Adidas,ADIDAS_BF_001,ADIDAS_BF_META_PR_1,Black Friday Mega Sale,adi_20,ADI-S-0015,Forum Low - 50ml - White - Coanda styling,2024-11-11,134,94,1
+cs_220,Adidas,ADIDAS_BF_001,ADIDAS_BF_META_RT_1,Black Friday Mega Sale,adi_21,ADI-S-0020,Future Icons Tee - 41 - White/Silver - Ortholite insole,2024-11-30,68,47,1
+cs_220,Adidas,ADIDAS_BF_001,ADIDAS_BF_META_RT_1,Black Friday Mega Sale,adi_21,ADI-S-0006,Ultraboost Light - 200ml - Grey - Hyaluronic acid,2024-11-19,81,57,1
+cs_220,Adidas,ADIDAS_BF_001,ADIDAS_BF_META_RT_1,Black Friday Mega Sale,adi_21,ADI-S-0020,Future Icons Tee - 41 - White/Silver - Ortholite insole,2024-11-18,68,47,1
+cs_28,Adidas,ADIDAS_BF_001,ADIDAS_BF_META_RT_1,Black Friday Mega Sale,adi_22,ADI-S-0038,AEROREADY Tee - XL - Blue/Copper - Laptop sleeve,2024-11-14,148,104,1
+cs_28,Adidas,ADIDAS_BF_001,ADIDAS_BF_YT_1,Black Friday Mega Sale,adi_22,ADI-S-0004,Cushioned Crew Socks 3-Pack - S - Blue/Copper - Laptop sleeve,2024-11-21,149,104,1
+cs_256,Adidas,ADIDAS_BF_001,ADIDAS_BF_YT_1,Black Friday Mega Sale,adi_23,ADI-S-0011,Cushioned Crew Socks 3-Pack - 200g - Beige - Coanda styling,2024-11-29,55,38,1
+cs_256,Adidas,ADIDAS_BF_001,ADIDAS_BF_CRITEO_RT_1,Black Friday Mega Sale,adi_23,ADI-S-0036,Essentials Backpack - 200ml - Grey - Ortholite insole,2024-11-10,139,97,1
+cs_256,Adidas,ADIDAS_BF_001,ADIDAS_BF_CRITEO_RT_1,Black Friday Mega Sale,adi_23,ADI-S-0054,Future Icons Tee - XL - Nickel - AEROREADY,2024-11-22,50,35,1
+cs_69,Adidas,ADIDAS_BF_001,ADIDAS_BF_CRITEO_RT_1,Black Friday Mega Sale,adi_24,ADI-S-0043,Ultraboost Light - 375g - Beige - Boost midsole,2024-11-14,113,79,1
+cs_69,Adidas,ADIDAS_BF_001,ADIDAS_BF_AFF_1,Black Friday Mega Sale,adi_24,ADI-S-0016,Essentials Backpack - 50ml - Navy - Ortholite insole,2024-11-19,103,72,1
+cs_147,Adidas,ADIDAS_BF_001,ADIDAS_BF_AFF_1,Black Friday Mega Sale,adi_25,ADI-S-0039,AEROREADY Tee - 140x200cm - Beige - Satin finish,2024-11-15,182,127,1
+cs_147,Adidas,ADIDAS_BF_001,ADIDAS_BF_EMAIL_1,Black Friday Mega Sale,adi_25,ADI-S-0024,Adizero SL - L - Grey - Instant coffee,2024-11-15,96,67,1
+cs_217,Adidas,ADIDAS_BF_001,ADIDAS_BF_EMAIL_1,Black Friday Mega Sale,adi_26,ADI-S-0009,Ultraboost Light - 50ml - White/Silver - HEPA H13,2024-12-04,42,30,1
+cs_217,Adidas,ADIDAS_BF_001,ADIDAS_BF_EMAIL_1,Black Friday Mega Sale,adi_26,ADI-S-0056,Essentials Backpack - 140x200cm - White/Silver - Ortholite insole,2024-11-13,54,38,1
+cs_159,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_27,ADI-S-0054,Future Icons Tee - XL - Nickel - AEROREADY,2024-11-28,50,35,1
+cs_159,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_27,ADI-S-0052,Essentials Backpack - M - Black - Instant coffee,2024-11-13,200,140,1
+cs_247,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_28,ADI-S-0044,Forum Low - 140x200cm - White/Silver - Laptop sleeve,2024-12-05,117,82,1
+cs_247,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_28,ADI-S-0019,Adizero SL - XL - N/A - 7-zone support,2024-11-22,58,41,1
+cs_247,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_28,ADI-S-0024,Adizero SL - L - Grey - Instant coffee,2024-11-27,96,67,1
+cs_191,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_29,ADI-S-0035,Adizero SL - M - White/Silver - Boost midsole,2024-11-26,196,137,1
+cs_191,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_29,ADI-S-0057,Samba OG - S - N/A - HEPA H13,2024-11-14,31,22,1
+cs_208,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_30,ADI-S-0048,Ultraboost Light - 140x200cm - White - AEROREADY,2024-12-06,92,65,1
+cs_208,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_30,ADI-S-0029,Ultraboost Light - 50ml - Green - HEPA H13,2024-11-29,157,110,1
+cs_206,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_31,ADI-S-0036,Essentials Backpack - 200ml - Grey - Ortholite insole,2024-11-16,139,97,1
+cs_206,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_31,ADI-S-0019,Adizero SL - XL - N/A - 7-zone support,2024-11-17,58,41,1
+cs_206,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_31,ADI-S-0012,Adizero SL - S - Navy - Removable cover,2024-11-11,197,138,1
+cs_290,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_32,ADI-S-0019,Adizero SL - XL - N/A - 7-zone support,2024-11-14,58,41,1
+cs_290,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_32,ADI-S-0011,Cushioned Crew Socks 3-Pack - 200g - Beige - Coanda styling,2024-12-04,55,38,1
+cs_141,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_33,ADI-S-0027,Adizero SL - 140x200cm - Blue/Copper - Removable cover,2024-11-17,158,111,1
+cs_141,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_33,ADI-S-0001,Adizero SL - S - Green - Laptop sleeve,2024-11-16,60,42,1
+cs_251,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_34,ADI-S-0031,Essentials Backpack - 160x200cm - Navy - Ortholite insole,2024-11-17,87,61,1
+cs_251,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_34,ADI-S-0049,Tiro 23 Club Pants - 200ml - White - Laptop sleeve,2024-11-23,54,38,1
+cs_106,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_35,ADI-S-0038,AEROREADY Tee - XL - Blue/Copper - Laptop sleeve,2024-11-28,148,104,1
+cs_106,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_35,ADI-S-0035,Adizero SL - M - White/Silver - Boost midsole,2024-11-16,196,137,1
+cs_14,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_36,ADI-S-0044,Forum Low - 140x200cm - White/Silver - Laptop sleeve,2024-11-25,117,82,1
+cs_14,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_36,ADI-S-0053,Ultraboost Light - M - Navy - Ortholite insole,2024-12-01,93,65,1
+cs_40,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_37,ADI-S-0016,Essentials Backpack - 50ml - Navy - Ortholite insole,2024-11-13,103,72,1
+cs_40,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_37,ADI-S-0038,AEROREADY Tee - XL - Blue/Copper - Laptop sleeve,2024-11-13,148,104,1
+cs_40,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_37,ADI-S-0037,Essentials Backpack - L - Green - HEPA H13,2024-11-22,177,124,1
+cs_281,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_38,ADI-S-0028,Tiro 23 Club Pants - M - Green - Hyaluronic acid,2024-11-27,48,34,1
+cs_281,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_38,ADI-S-0001,Adizero SL - S - Green - Laptop sleeve,2024-11-22,60,42,1
+cs_149,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_39,ADI-S-0001,Adizero SL - S - Green - Laptop sleeve,2024-11-18,60,42,1
+cs_149,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_39,ADI-S-0039,AEROREADY Tee - 140x200cm - Beige - Satin finish,2024-11-19,182,127,1
+cs_69,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_40,ADI-S-0051,Future Icons Tee - XL - White - Satin finish,2024-11-24,165,116,1
+cs_69,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_40,ADI-S-0015,Forum Low - 50ml - White - Coanda styling,2024-11-20,134,94,1
+cs_56,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_41,ADI-S-0028,Tiro 23 Club Pants - M - Green - Hyaluronic acid,2024-11-16,48,34,1
+cs_56,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_41,ADI-S-0040,Future Icons Tee - M - Navy - Laptop sleeve,2024-11-19,32,22,1
+cs_153,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_42,ADI-S-0012,Adizero SL - S - Navy - Removable cover,2024-11-26,197,138,1
+cs_153,Adidas,ADIDAS_BF_001,,Black Friday Mega Sale,adi_42,ADI-S-0028,Tiro 23 Club Pants - M - Green - Hyaluronic acid,2024-11-24,48,34,1
+cs_187,Adidas,ADIDAS_INF_001,ADIDAS_INF_IG_POST_1,Influencer Partnership Drive,adi_43,ADI-S-0013,Samba OG - 375g - White - Hyaluronic acid,2024-05-17,70,63,1
+cs_187,Adidas,ADIDAS_INF_001,ADIDAS_INF_IG_POST_1,Influencer Partnership Drive,adi_43,ADI-S-0013,Samba OG - 375g - White - Hyaluronic acid,2024-05-23,70,63,1
+cs_187,Adidas,ADIDAS_INF_001,ADIDAS_INF_IG_POST_1,Influencer Partnership Drive,adi_43,ADI-S-0057,Samba OG - S - N/A - HEPA H13,2024-05-13,31,28,1
+cs_241,Adidas,ADIDAS_INF_001,ADIDAS_INF_IG_POST_1,Influencer Partnership Drive,adi_44,ADI-S-0021,Samba OG - 50ml - Blue/Copper - HEPA H13,2024-06-06,67,61,1
+cs_241,Adidas,ADIDAS_INF_001,ADIDAS_INF_IG_POST_1,Influencer Partnership Drive,adi_44,ADI-S-0044,Forum Low - 140x200cm - White/Silver - Laptop sleeve,2024-05-29,117,105,1
+cs_241,Adidas,ADIDAS_INF_001,ADIDAS_INF_IG_POST_1,Influencer Partnership Drive,adi_44,ADI-S-0057,Samba OG - S - N/A - HEPA H13,2024-05-26,31,28,1
+cs_28,Adidas,ADIDAS_INF_001,ADIDAS_INF_IG_POST_1,Influencer Partnership Drive,adi_45,ADI-S-0013,Samba OG - 375g - White - Hyaluronic acid,2024-06-11,70,63,1
+cs_28,Adidas,ADIDAS_INF_001,ADIDAS_INF_IG_POST_1,Influencer Partnership Drive,adi_45,ADI-S-0047,Tiro 23 Club Pants - 41 - Nickel - Satin finish,2024-05-29,175,158,1
+cs_242,Adidas,ADIDAS_INF_001,ADIDAS_INF_IG_POST_1,Influencer Partnership Drive,adi_46,ADI-S-0058,Tiro 23 Club Pants - S - Black - Coanda styling,2024-05-16,106,95,1
+cs_242,Adidas,ADIDAS_INF_001,ADIDAS_INF_IG_POST_1,Influencer Partnership Drive,adi_46,ADI-S-0058,Tiro 23 Club Pants - S - Black - Coanda styling,2024-05-25,106,95,1
+cs_215,Adidas,ADIDAS_INF_001,ADIDAS_INF_IG_POST_1,Influencer Partnership Drive,adi_47,ADI-S-0054,Future Icons Tee - XL - Nickel - AEROREADY,2024-06-15,50,45,1
+cs_215,Adidas,ADIDAS_INF_001,ADIDAS_INF_TT_POST_1,Influencer Partnership Drive,adi_47,ADI-S-0034,Forum Low - XL - Black - Laptop sleeve,2024-05-30,178,160,1
+cs_168,Adidas,ADIDAS_INF_001,ADIDAS_INF_TT_POST_1,Influencer Partnership Drive,adi_48,ADI-S-0040,Future Icons Tee - M - Navy - Laptop sleeve,2024-06-01,32,28,1
+cs_168,Adidas,ADIDAS_INF_001,ADIDAS_INF_TT_POST_1,Influencer Partnership Drive,adi_48,ADI-S-0044,Forum Low - 140x200cm - White/Silver - Laptop sleeve,2024-05-24,117,105,1
+cs_168,Adidas,ADIDAS_INF_001,ADIDAS_INF_TT_POST_1,Influencer Partnership Drive,adi_48,ADI-S-0057,Samba OG - S - N/A - HEPA H13,2024-05-17,31,28,1
+cs_212,Adidas,ADIDAS_INF_001,ADIDAS_INF_TT_POST_1,Influencer Partnership Drive,adi_49,ADI-S-0015,Forum Low - 50ml - White - Coanda styling,2024-06-11,134,121,1
+cs_212,Adidas,ADIDAS_INF_001,ADIDAS_INF_TT_POST_1,Influencer Partnership Drive,adi_49,ADI-S-0058,Tiro 23 Club Pants - S - Black - Coanda styling,2024-05-15,106,95,1
+cs_212,Adidas,ADIDAS_INF_001,ADIDAS_INF_TT_POST_1,Influencer Partnership Drive,adi_49,ADI-S-0015,Forum Low - 50ml - White - Coanda styling,2024-06-09,134,121,1
+cs_275,Adidas,ADIDAS_INF_001,ADIDAS_INF_TT_POST_1,Influencer Partnership Drive,adi_50,ADI-S-0015,Forum Low - 50ml - White - Coanda styling,2024-05-15,134,121,1
+cs_275,Adidas,ADIDAS_INF_001,ADIDAS_INF_TT_POST_1,Influencer Partnership Drive,adi_50,ADI-S-0028,Tiro 23 Club Pants - M - Green - Hyaluronic acid,2024-06-13,48,44,1
+cs_104,Adidas,ADIDAS_INF_001,ADIDAS_INF_TT_POST_1,Influencer Partnership Drive,adi_51,ADI-S-0017,Forum Low - 200g - Blue/Copper - Laptop sleeve,2024-05-27,143,129,1
+cs_104,Adidas,ADIDAS_INF_001,ADIDAS_INF_MAG_ART_1,Influencer Partnership Drive,adi_51,ADI-S-0020,Future Icons Tee - 41 - White/Silver - Ortholite insole,2024-06-15,68,61,1
+cs_104,Adidas,ADIDAS_INF_001,ADIDAS_INF_MAG_ART_1,Influencer Partnership Drive,adi_51,ADI-S-0028,Tiro 23 Club Pants - M - Green - Hyaluronic acid,2024-05-29,48,44,1
+cs_146,Adidas,ADIDAS_INF_001,ADIDAS_INF_MAG_ART_1,Influencer Partnership Drive,adi_52,ADI-S-0057,Samba OG - S - N/A - HEPA H13,2024-05-13,31,28,1
+cs_146,Adidas,ADIDAS_INF_001,ADIDAS_INF_MAG_ART_1,Influencer Partnership Drive,adi_52,ADI-S-0054,Future Icons Tee - XL - Nickel - AEROREADY,2024-06-04,50,45,1
+cs_161,Adidas,ADIDAS_INF_001,ADIDAS_INF_MAG_ART_1,Influencer Partnership Drive,adi_53,ADI-S-0040,Future Icons Tee - M - Navy - Laptop sleeve,2024-06-11,32,28,1
+cs_161,Adidas,ADIDAS_INF_001,ADIDAS_INF_MAG_ART_1,Influencer Partnership Drive,adi_53,ADI-S-0034,Forum Low - XL - Black - Laptop sleeve,2024-05-19,178,160,1
+cs_157,Adidas,ADIDAS_INF_001,ADIDAS_INF_MAG_ART_1,Influencer Partnership Drive,adi_54,ADI-S-0058,Tiro 23 Club Pants - S - Black - Coanda styling,2024-06-02,106,95,1
+cs_157,Adidas,ADIDAS_INF_001,ADIDAS_INF_MAG_ART_1,Influencer Partnership Drive,adi_54,ADI-S-0015,Forum Low - 50ml - White - Coanda styling,2024-05-18,134,121,1
+cs_157,Adidas,ADIDAS_INF_001,ADIDAS_INF_MAG_ART_1,Influencer Partnership Drive,adi_54,ADI-S-0017,Forum Low - 200g - Blue/Copper - Laptop sleeve,2024-06-04,143,129,1
+cs_258,Adidas,ADIDAS_INF_001,ADIDAS_INF_MAG_ART_1,Influencer Partnership Drive,adi_55,ADI-S-0034,Forum Low - XL - Black - Laptop sleeve,2024-06-09,178,160,1
+cs_258,Adidas,ADIDAS_INF_001,ADIDAS_INF_MAG_ART_1,Influencer Partnership Drive,adi_55,ADI-S-0058,Tiro 23 Club Pants - S - Black - Coanda styling,2024-05-12,106,95,1
+cs_265,Adidas,ADIDAS_INF_001,ADIDAS_INF_MAG_ART_1,Influencer Partnership Drive,adi_56,ADI-S-0021,Samba OG - 50ml - Blue/Copper - HEPA H13,2024-05-16,67,61,1
+cs_265,Adidas,ADIDAS_INF_001,ADIDAS_INF_MAG_ART_1,Influencer Partnership Drive,adi_56,ADI-S-0021,Samba OG - 50ml - Blue/Copper - HEPA H13,2024-05-15,67,61,1
+cs_162,Adidas,ADIDAS_INF_001,ADIDAS_INF_MAG_ART_1,Influencer Partnership Drive,adi_57,ADI-S-0047,Tiro 23 Club Pants - 41 - Nickel - Satin finish,2024-05-25,175,158,1
+cs_162,Adidas,ADIDAS_INF_001,ADIDAS_INF_MAG_ART_1,Influencer Partnership Drive,adi_57,ADI-S-0034,Forum Low - XL - Black - Laptop sleeve,2024-05-28,178,160,1
+cs_63,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_58,ADI-S-0058,Tiro 23 Club Pants - S - Black - Coanda styling,2024-05-24,106,95,1
+cs_63,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_58,ADI-S-0044,Forum Low - 140x200cm - White/Silver - Laptop sleeve,2024-06-01,117,105,1
+cs_63,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_58,ADI-S-0058,Tiro 23 Club Pants - S - Black - Coanda styling,2024-06-13,106,95,1
+cs_238,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_59,ADI-S-0051,Future Icons Tee - XL - White - Satin finish,2024-06-10,165,149,1
+cs_238,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_59,ADI-S-0017,Forum Low - 200g - Blue/Copper - Laptop sleeve,2024-06-07,143,129,1
+cs_238,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_59,ADI-S-0034,Forum Low - XL - Black - Laptop sleeve,2024-06-10,178,160,1
+cs_280,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_60,ADI-S-0047,Tiro 23 Club Pants - 41 - Nickel - Satin finish,2024-05-15,175,158,1
+cs_280,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_60,ADI-S-0033,Future Icons Tee - S - White - 7-zone support,2024-05-30,178,160,1
+cs_105,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_61,ADI-S-0017,Forum Low - 200g - Blue/Copper - Laptop sleeve,2024-05-21,143,129,1
+cs_105,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_61,ADI-S-0013,Samba OG - 375g - White - Hyaluronic acid,2024-05-29,70,63,1
+cs_105,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_61,ADI-S-0047,Tiro 23 Club Pants - 41 - Nickel - Satin finish,2024-06-12,175,158,1
+cs_210,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_62,ADI-S-0033,Future Icons Tee - S - White - 7-zone support,2024-06-02,178,160,1
+cs_210,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_62,ADI-S-0021,Samba OG - 50ml - Blue/Copper - HEPA H13,2024-05-11,67,61,1
+cs_84,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_63,ADI-S-0040,Future Icons Tee - M - Navy - Laptop sleeve,2024-06-15,32,28,1
+cs_84,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_63,ADI-S-0014,Tiro 23 Club Pants - L - Beige - 7-zone support,2024-06-10,58,52,1
+cs_84,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_63,ADI-S-0057,Samba OG - S - N/A - HEPA H13,2024-06-14,31,28,1
+cs_53,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_64,ADI-S-0021,Samba OG - 50ml - Blue/Copper - HEPA H13,2024-06-01,67,61,1
+cs_53,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_64,ADI-S-0047,Tiro 23 Club Pants - 41 - Nickel - Satin finish,2024-05-28,175,158,1
+cs_136,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_65,ADI-S-0033,Future Icons Tee - S - White - 7-zone support,2024-06-04,178,160,1
+cs_136,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_65,ADI-S-0034,Forum Low - XL - Black - Laptop sleeve,2024-05-26,178,160,1
+cs_192,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_66,ADI-S-0044,Forum Low - 140x200cm - White/Silver - Laptop sleeve,2024-05-18,117,105,1
+cs_192,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_66,ADI-S-0021,Samba OG - 50ml - Blue/Copper - HEPA H13,2024-05-21,67,61,1
+cs_279,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_67,ADI-S-0021,Samba OG - 50ml - Blue/Copper - HEPA H13,2024-05-15,67,61,1
+cs_279,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_67,ADI-S-0044,Forum Low - 140x200cm - White/Silver - Laptop sleeve,2024-06-15,117,105,1
+cs_279,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_67,ADI-S-0020,Future Icons Tee - 41 - White/Silver - Ortholite insole,2024-05-31,68,61,1
+cs_237,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_68,ADI-S-0051,Future Icons Tee - XL - White - Satin finish,2024-06-15,165,149,1
+cs_237,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_68,ADI-S-0014,Tiro 23 Club Pants - L - Beige - 7-zone support,2024-05-27,58,52,1
+cs_237,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_68,ADI-S-0058,Tiro 23 Club Pants - S - Black - Coanda styling,2024-06-14,106,95,1
+cs_99,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_69,ADI-S-0020,Future Icons Tee - 41 - White/Silver - Ortholite insole,2024-05-30,68,61,1
+cs_99,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_69,ADI-S-0058,Tiro 23 Club Pants - S - Black - Coanda styling,2024-05-14,106,95,1
+cs_245,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_70,ADI-S-0014,Tiro 23 Club Pants - L - Beige - 7-zone support,2024-05-22,58,52,1
+cs_245,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_70,ADI-S-0049,Tiro 23 Club Pants - 200ml - White - Laptop sleeve,2024-05-28,54,49,1
+cs_245,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_70,ADI-S-0034,Forum Low - XL - Black - Laptop sleeve,2024-05-20,178,160,1
+cs_228,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_71,ADI-S-0058,Tiro 23 Club Pants - S - Black - Coanda styling,2024-06-08,106,95,1
+cs_228,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_71,ADI-S-0033,Future Icons Tee - S - White - 7-zone support,2024-06-12,178,160,1
+cs_213,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_72,ADI-S-0021,Samba OG - 50ml - Blue/Copper - HEPA H13,2024-05-31,67,61,1
+cs_213,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_72,ADI-S-0049,Tiro 23 Club Pants - 200ml - White - Laptop sleeve,2024-05-23,54,49,1
+cs_213,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_72,ADI-S-0013,Samba OG - 375g - White - Hyaluronic acid,2024-05-20,70,63,1
+cs_189,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_73,ADI-S-0058,Tiro 23 Club Pants - S - Black - Coanda styling,2024-05-20,106,95,1
+cs_189,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_73,ADI-S-0040,Future Icons Tee - M - Navy - Laptop sleeve,2024-05-26,32,28,1
+cs_189,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_73,ADI-S-0014,Tiro 23 Club Pants - L - Beige - 7-zone support,2024-05-26,58,52,1
+cs_156,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_74,ADI-S-0054,Future Icons Tee - XL - Nickel - AEROREADY,2024-06-12,50,45,1
+cs_156,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_74,ADI-S-0015,Forum Low - 50ml - White - Coanda styling,2024-05-27,134,121,1
+cs_156,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_74,ADI-S-0033,Future Icons Tee - S - White - 7-zone support,2024-05-11,178,160,1
+cs_262,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_75,ADI-S-0058,Tiro 23 Club Pants - S - Black - Coanda styling,2024-05-22,106,95,1
+cs_262,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_75,ADI-S-0058,Tiro 23 Club Pants - S - Black - Coanda styling,2024-05-21,106,95,1
+cs_262,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_75,ADI-S-0044,Forum Low - 140x200cm - White/Silver - Laptop sleeve,2024-05-10,117,105,1
+cs_209,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_76,ADI-S-0051,Future Icons Tee - XL - White - Satin finish,2024-05-25,165,149,1
+cs_209,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_76,ADI-S-0015,Forum Low - 50ml - White - Coanda styling,2024-05-20,134,121,1
+cs_165,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_77,ADI-S-0020,Future Icons Tee - 41 - White/Silver - Ortholite insole,2024-06-02,68,61,1
+cs_165,Adidas,ADIDAS_INF_001,,Influencer Partnership Drive,adi_77,ADI-S-0015,Forum Low - 50ml - White - Coanda styling,2024-05-19,134,121,1
+cs_286,Adidas,ADIDAS_SS_ROAS_001,ADIDAS_SS_SEM_BR_1,Summer Sale Campaign,adi_78,ADI-S-0050,Essentials Backpack - 42 - Grey - Hyaluronic acid,2024-06-02,53,48,1
+cs_286,Adidas,ADIDAS_SS_ROAS_001,ADIDAS_SS_META_RT_1,Summer Sale Campaign,adi_78,ADI-S-0059,Essentials Backpack - L - Black - HEPA H13,2024-06-10,34,31,1
+cs_286,Adidas,ADIDAS_SS_ROAS_001,ADIDAS_SS_AFF_1,Summer Sale Campaign,adi_78,ADI-S-0026,Essentials Backpack - One Size - Blue/Copper - AEROREADY,2024-06-05,142,128,1
+cs_53,Adidas,ADIDAS_SS_ROAS_001,,Summer Sale Campaign,adi_79,ADI-S-0011,Cushioned Crew Socks 3-Pack - 200g - Beige - Coanda styling,2024-06-29,55,49,1
+cs_53,Adidas,ADIDAS_SS_ROAS_001,,Summer Sale Campaign,adi_79,ADI-S-0052,Essentials Backpack - M - Black - Instant coffee,2024-06-22,200,180,1
+cs_118,Adidas,ADIDAS_SS_ROAS_001,,Summer Sale Campaign,adi_80,ADI-S-0026,Essentials Backpack - One Size - Blue/Copper - AEROREADY,2024-06-28,142,128,1
+cs_118,Adidas,ADIDAS_SS_ROAS_001,,Summer Sale Campaign,adi_80,ADI-S-0050,Essentials Backpack - 42 - Grey - Hyaluronic acid,2024-06-23,53,48,1
+cs_126,Adidas,organic,,organic,adi_81,ADI-S-0043,Ultraboost Light - 375g - Beige - Boost midsole,2024-02-19,113,101,1
+cs_126,Adidas,organic,,organic,adi_81,ADI-S-0042,Ultraboost Light - M - Black - Laptop sleeve,2024-02-22,32,29,1
+cs_234,Adidas,organic,,organic,adi_82,ADI-S-0006,Ultraboost Light - 200ml - Grey - Hyaluronic acid,2024-02-25,81,73,1
+cs_234,Adidas,organic,,organic,adi_82,ADI-S-0041,Ultraboost Light - 160x200cm - Blue/Copper - Laptop sleeve,2024-02-04,126,113,1
+cs_180,Adidas,organic,,organic,adi_83,ADI-S-0009,Ultraboost Light - 50ml - White/Silver - HEPA H13,2024-02-19,42,38,1
+cs_180,Adidas,organic,,organic,adi_83,ADI-S-0009,Ultraboost Light - 50ml - White/Silver - HEPA H13,2024-03-26,42,38,1
+cs_125,Adidas,organic,,organic,adi_84,ADI-S-0029,Ultraboost Light - 50ml - Green - HEPA H13,2024-02-29,157,141,1
+cs_125,Adidas,organic,,organic,adi_84,ADI-S-0023,Stan Smith - 43 - White/Silver - Boost midsole,2024-11-16,156,140,1
+cs_125,Adidas,organic,,organic,adi_84,ADI-S-0018,Ultraboost Light - XL - Black - 7-zone support,2024-03-21,92,83,1
+cs_89,Adidas,organic,,organic,adi_85,ADI-S-0055,Ultraboost Light - 41 - Green - Satin finish,2024-02-25,71,64,1
+cs_89,Adidas,organic,,organic,adi_85,ADI-S-0003,Ultraboost Light - S - White - Laptop sleeve,2024-03-07,62,56,1
+cs_169,Adidas,organic,,organic,adi_86,ADI-S-0029,Ultraboost Light - 50ml - Green - HEPA H13,2024-03-29,157,141,1
+cs_169,Adidas,organic,,organic,adi_86,ADI-S-0048,Ultraboost Light - 140x200cm - White - AEROREADY,2024-03-25,92,83,1
+cs_120,Adidas,organic,,organic,adi_87,ADI-S-0060,Stan Smith - M - N/A - Boost midsole,2024-04-13,142,127,1
+cs_120,Adidas,organic,,organic,adi_87,ADI-S-0023,Stan Smith - 43 - White/Silver - Boost midsole,2024-11-29,156,140,1
+cs_297,Adidas,organic,,organic,adi_88,ADI-S-0006,Ultraboost Light - 200ml - Grey - Hyaluronic acid,2024-03-15,81,73,1
+cs_297,Adidas,organic,,organic,adi_88,ADI-S-0053,Ultraboost Light - M - Navy - Ortholite insole,2024-03-16,93,84,1
+cs_297,Adidas,organic,,organic,adi_88,ADI-S-0048,Ultraboost Light - 140x200cm - White - AEROREADY,2024-02-04,92,83,1
+cs_146,Adidas,organic,,organic,adi_89,ADI-S-0009,Ultraboost Light - 50ml - White/Silver - HEPA H13,2024-02-03,42,38,1
+cs_146,Adidas,organic,,organic,adi_89,ADI-S-0032,Stan Smith - 43 - Blue/Copper - AEROREADY,2024-12-02,128,115,1
+cs_264,Adidas,organic,,organic,adi_90,ADI-S-0018,Ultraboost Light - XL - Black - 7-zone support,2024-03-26,92,83,1
+cs_264,Adidas,organic,,organic,adi_90,ADI-S-0003,Ultraboost Light - S - White - Laptop sleeve,2024-02-07,62,56,1
+cs_160,Adidas,organic,,organic,adi_91,ADI-S-0055,Ultraboost Light - 41 - Green - Satin finish,2024-03-18,71,64,1
+cs_160,Adidas,organic,,organic,adi_91,ADI-S-0023,Stan Smith - 43 - White/Silver - Boost midsole,2024-11-19,156,140,1
+cs_247,Adidas,organic,,organic,adi_92,ADI-S-0042,Ultraboost Light - M - Black - Laptop sleeve,2024-03-27,32,29,1
+cs_247,Adidas,organic,,organic,adi_92,ADI-S-0043,Ultraboost Light - 375g - Beige - Boost midsole,2024-03-18,113,101,1
+cs_247,Adidas,organic,,organic,adi_92,ADI-S-0060,Stan Smith - M - N/A - Boost midsole,2024-03-09,142,127,1
+cs_288,Adidas,organic,,organic,adi_93,ADI-S-0048,Ultraboost Light - 140x200cm - White - AEROREADY,2024-02-24,92,83,1
+cs_288,Adidas,organic,,organic,adi_93,ADI-S-0029,Ultraboost Light - 50ml - Green - HEPA H13,2024-02-24,157,141,1
+cs_288,Adidas,organic,,organic,adi_93,ADI-S-0048,Ultraboost Light - 140x200cm - White - AEROREADY,2024-02-18,92,83,1
+cs_240,Adidas,organic,,organic,adi_94,ADI-S-0023,Stan Smith - 43 - White/Silver - Boost midsole,2024-11-30,156,140,1
+cs_240,Adidas,organic,,organic,adi_94,ADI-S-0042,Ultraboost Light - M - Black - Laptop sleeve,2024-03-08,32,29,1
+cs_240,Adidas,organic,,organic,adi_94,ADI-S-0055,Ultraboost Light - 41 - Green - Satin finish,2024-03-13,71,64,1
+cs_120,Adidas,organic,,organic,adi_95,ADI-S-0043,Ultraboost Light - 375g - Beige - Boost midsole,2024-02-19,113,101,1
+cs_120,Adidas,organic,,organic,adi_95,ADI-S-0009,Ultraboost Light - 50ml - White/Silver - HEPA H13,2024-02-16,42,38,1
+cs_108,Adidas,organic,,organic,adi_96,ADI-S-0023,Stan Smith - 43 - White/Silver - Boost midsole,2024-11-28,156,140,1
+cs_108,Adidas,organic,,organic,adi_96,ADI-S-0006,Ultraboost Light - 200ml - Grey - Hyaluronic acid,2024-03-09,81,73,1
+cs_218,Adidas,organic,,organic,adi_97,ADI-S-0048,Ultraboost Light - 140x200cm - White - AEROREADY,2024-03-20,92,83,1
+cs_218,Adidas,organic,,organic,adi_97,ADI-S-0032,Stan Smith - 43 - Blue/Copper - AEROREADY,2024-11-30,128,115,1
+cs_194,Adidas,organic,,organic,adi_98,ADI-S-0029,Ultraboost Light - 50ml - Green - HEPA H13,2024-03-31,157,141,1
+cs_194,Adidas,organic,,organic,adi_98,ADI-S-0055,Ultraboost Light - 41 - Green - Satin finish,2024-02-29,71,64,1
+cs_194,Adidas,organic,,organic,adi_98,ADI-S-0029,Ultraboost Light - 50ml - Green - HEPA H13,2024-03-19,157,141,1
+cs_98,Adidas,organic,,organic,adi_99,ADI-S-0023,Stan Smith - 43 - White/Silver - Boost midsole,2024-11-27,156,140,1
+cs_98,Adidas,organic,,organic,adi_99,ADI-S-0041,Ultraboost Light - 160x200cm - Blue/Copper - Laptop sleeve,2024-02-24,126,113,1
+cs_98,Adidas,organic,,organic,adi_99,ADI-S-0042,Ultraboost Light - M - Black - Laptop sleeve,2024-02-26,32,29,1
+cs_209,Adidas,organic,,organic,adi_100,ADI-S-0048,Ultraboost Light - 140x200cm - White - AEROREADY,2024-03-29,92,83,1
+cs_209,Adidas,organic,,organic,adi_100,ADI-S-0053,Ultraboost Light - M - Navy - Ortholite insole,2024-02-24,93,84,1
+cs_33,dyson,DY_B2S_2024_001,DY_B2S_SEM_BR_1,Back-to-School Home Essentials,dy_1,DYS-S-0019,Airwrap Multi-Styler - S - White - Boost midsole,2024-09-15,947,852,1
+cs_299,dyson,DY_B2S_2024_001,DY_B2S_SEM_BR_1,Back-to-School Home Essentials,dy_2,DYS-S-0020,Filter Replacement - 200g - Grey - HEPA H13,2024-09-11,83,75,1
+cs_299,dyson,DY_B2S_2024_001,DY_B2S_SEM_BR_1,Back-to-School Home Essentials,dy_3,DYS-S-0011,Filter Replacement - 375g - Blue/Copper - Removable cover,2024-09-14,934,841,1
+cs_115,dyson,DY_B2S_2024_001,,Back-to-School Home Essentials,dy_4,DYS-S-0015,Purifier Cool - 43 - White/Silver - Removable cover,2024-09-08,909,818,1
+cs_73,dyson,DY_B2S_2024_001,,Back-to-School Home Essentials,dy_5,DYS-S-0034,Purifier Cool - S - White - Coanda styling,2024-09-05,462,416,1
+cs_277,dyson,DY_B2S_2024_001,,Back-to-School Home Essentials,dy_6,DYS-S-0011,Filter Replacement - 375g - Blue/Copper - Removable cover,2024-09-18,934,841,1
+cs_154,dyson,DY_B2S_2024_001,,Back-to-School Home Essentials,dy_7,DYS-S-0038,Airwrap Multi-Styler - 140x200cm - Navy - 7-zone support,2024-08-19,459,413,1
+cs_161,dyson,DY_V15_2024_001,DY_V15_SEM_GEN_1,Dyson V15 Smart Home Launch,dy_8,DYS-S-0033,V15 Detect Absolute - 200g - Green - Ortholite insole,2024-03-31,601,541,1
+cs_4,dyson,DY_V15_2024_001,DY_V15_SEM_GEN_1,Dyson V15 Smart Home Launch,dy_9,DYS-S-0012,V15 Detect Absolute - 200g - Grey - Removable cover,2024-03-27,159,143,1
+cs_295,dyson,DY_V15_2024_001,DY_V15_SEM_BR_1,Dyson V15 Smart Home Launch,dy_10,DYS-S-0006,V15 Detect Absolute - S - White/Silver - Coanda styling,2024-03-21,998,898,1
+cs_220,dyson,DY_V15_2024_001,DY_V15_SEM_BR_1,Dyson V15 Smart Home Launch,dy_11,DYS-S-0006,V15 Detect Absolute - S - White/Silver - Coanda styling,2024-03-15,998,898,1
+cs_192,dyson,DY_V15_2024_001,DY_V15_SEM_BR_1,Dyson V15 Smart Home Launch,dy_12,DYS-S-0022,V15 Detect Absolute - One Size - Beige - AEROREADY,2024-03-08,903,813,1
+cs_19,dyson,DY_V15_2024_001,DY_V15_SEM_BR_1,Dyson V15 Smart Home Launch,dy_13,DYS-S-0026,V15 Detect Absolute - L - Beige - Hyaluronic acid,2024-04-06,811,730,1
+cs_172,dyson,DY_V15_2024_001,DY_V15_SEM_BR_1,Dyson V15 Smart Home Launch,dy_14,DYS-S-0012,V15 Detect Absolute - 200g - Grey - Removable cover,2024-04-01,159,143,1
+cs_172,dyson,DY_V15_2024_001,,Dyson V15 Smart Home Launch,dy_14,DYS-S-0026,V15 Detect Absolute - L - Beige - Hyaluronic acid,2024-04-11,811,730,1
+cs_98,dyson,DY_V15_2024_001,,Dyson V15 Smart Home Launch,dy_15,DYS-S-0026,V15 Detect Absolute - L - Beige - Hyaluronic acid,2024-04-11,811,730,1
+cs_192,dyson,DY_V15_2024_001,,Dyson V15 Smart Home Launch,dy_16,DYS-S-0022,V15 Detect Absolute - One Size - Beige - AEROREADY,2024-03-03,903,813,1
+cs_166,dyson,DY_V15_2024_001,,Dyson V15 Smart Home Launch,dy_17,DYS-S-0006,V15 Detect Absolute - S - White/Silver - Coanda styling,2024-04-13,998,898,1
+cs_253,dyson,DY_V15_2024_001,,Dyson V15 Smart Home Launch,dy_18,DYS-S-0022,V15 Detect Absolute - One Size - Beige - AEROREADY,2024-04-12,903,813,1
+cs_253,dyson,DY_V15_2024_001,,Dyson V15 Smart Home Launch,dy_18,DYS-S-0026,V15 Detect Absolute - L - Beige - Hyaluronic acid,2024-03-10,811,730,1
+cs_178,dyson,DY_HOL_2024_001,DY_HOL_META_PR_1,Holiday Cleaning Event,dy_19,DYS-S-0013,V15 Detect Absolute - 50ml - Blue/Copper - Ortholite insole,2024-12-15,308,277,1
+cs_269,dyson,DY_HOL_2024_001,DY_HOL_AWIN_1,Holiday Cleaning Event,dy_20,DYS-S-0013,V15 Detect Absolute - 50ml - Blue/Copper - Ortholite insole,2024-12-11,308,277,1
+cs_8,dyson,DY_HOL_2024_001,DY_HOL_AWIN_1,Holiday Cleaning Event,dy_21,DYS-S-0005,Gen5 Detect - 140x200cm - Green - Satin finish,2024-11-10,349,314,1
+cs_8,dyson,DY_HOL_2024_001,DY_HOL_SEM_GEN_1,Holiday Cleaning Event,dy_21,DYS-S-0013,V15 Detect Absolute - 50ml - Blue/Copper - Ortholite insole,2024-12-17,308,277,1
+cs_29,dyson,DY_HOL_2024_001,DY_HOL_SEM_GEN_1,Holiday Cleaning Event,dy_22,DYS-S-0008,Gen5 Detect - 200g - Beige - Boost midsole,2024-11-13,884,796,1
+cs_16,dyson,DY_HOL_2024_001,DY_HOL_SEM_GEN_1,Holiday Cleaning Event,dy_23,DYS-S-0013,V15 Detect Absolute - 50ml - Blue/Copper - Ortholite insole,2024-12-10,308,277,1
+cs_16,dyson,DY_HOL_2024_001,DY_HOL_META_RT_1,Holiday Cleaning Event,dy_23,DYS-S-0011,Filter Replacement - 375g - Blue/Copper - Removable cover,2024-11-20,934,841,1
+cs_105,dyson,DY_HOL_2024_001,DY_HOL_META_RT_1,Holiday Cleaning Event,dy_24,DYS-S-0028,Filter Replacement - M - Nickel - AEROREADY,2024-12-01,865,778,1
+cs_282,dyson,DY_HOL_2024_001,DY_HOL_META_RT_1,Holiday Cleaning Event,dy_25,DYS-S-0008,Gen5 Detect - 200g - Beige - Boost midsole,2024-11-14,884,796,1
+cs_295,dyson,DY_HOL_2024_001,DY_HOL_GDN_RT_1,Holiday Cleaning Event,dy_26,DYS-S-0005,Gen5 Detect - 140x200cm - Green - Satin finish,2024-12-13,349,314,1
+cs_197,dyson,DY_HOL_2024_001,DY_HOL_GDN_RT_1,Holiday Cleaning Event,dy_27,DYS-S-0033,V15 Detect Absolute - 200g - Green - Ortholite insole,2024-11-30,601,541,1
+cs_214,dyson,DY_HOL_2024_001,DY_HOL_GDN_RT_1,Holiday Cleaning Event,dy_28,DYS-S-0026,V15 Detect Absolute - L - Beige - Hyaluronic acid,2024-11-11,811,730,1
+cs_214,dyson,DY_HOL_2024_001,DY_HOL_EMAIL_1,Holiday Cleaning Event,dy_28,DYS-S-0039,Filter Replacement - 200g - Beige - Coanda styling,2024-11-28,347,312,1
+cs_141,dyson,DY_HOL_2024_001,DY_HOL_EMAIL_1,Holiday Cleaning Event,dy_29,DYS-S-0035,Filter Replacement - 200ml - Beige - Hyaluronic acid,2024-12-03,625,562,1
+cs_259,dyson,DY_HOL_2024_001,DY_HOL_EMAIL_1,Holiday Cleaning Event,dy_30,DYS-S-0040,V15 Detect Absolute - 50ml - Green - HEPA H13,2024-12-03,343,309,1
+cs_12,dyson,DY_HOL_2024_001,DY_HOL_SEM_BR_1,Holiday Cleaning Event,dy_31,DYS-S-0011,Filter Replacement - 375g - Blue/Copper - Removable cover,2024-12-10,934,841,1
+cs_267,dyson,DY_HOL_2024_001,DY_HOL_SEM_BR_1,Holiday Cleaning Event,dy_32,DYS-S-0030,Gen5 Detect - XL - Black - Instant coffee,2024-11-19,232,209,1
+cs_56,dyson,DY_HOL_2024_001,DY_HOL_SEM_BR_1,Holiday Cleaning Event,dy_33,DYS-S-0013,V15 Detect Absolute - 50ml - Blue/Copper - Ortholite insole,2024-11-07,308,277,1
+cs_29,dyson,DY_HOL_2024_001,DY_HOL_SEM_BR_1,Holiday Cleaning Event,dy_34,DYS-S-0008,Gen5 Detect - 200g - Beige - Boost midsole,2024-11-10,884,796,1
+cs_230,dyson,DY_HOL_2024_001,DY_HOL_SEM_BR_1,Holiday Cleaning Event,dy_35,DYS-S-0007,V15 Detect Absolute - M - Blue/Copper - Laptop sleeve,2024-12-17,530,477,1
+cs_196,dyson,DY_HOL_2024_001,DY_HOL_SEM_BR_1,Holiday Cleaning Event,dy_36,DYS-S-0030,Gen5 Detect - XL - Black - Instant coffee,2024-11-21,232,209,1
+cs_282,dyson,DY_HOL_2024_001,DY_HOL_SEM_BR_1,Holiday Cleaning Event,dy_37,DYS-S-0006,V15 Detect Absolute - S - White/Silver - Coanda styling,2024-11-04,998,898,1
+cs_154,dyson,DY_HOL_2024_001,DY_HOL_SEM_BR_1,Holiday Cleaning Event,dy_38,DYS-S-0008,Gen5 Detect - 200g - Beige - Boost midsole,2024-12-09,884,796,1
+cs_86,dyson,DY_HOL_2024_001,DY_HOL_SEM_BR_1,Holiday Cleaning Event,dy_39,DYS-S-0027,Filter Replacement - 200ml - Navy - Removable cover,2024-11-11,200,180,1
+cs_57,dyson,DY_HOL_2024_001,DY_HOL_SEM_BR_1,Holiday Cleaning Event,dy_40,DYS-S-0027,Filter Replacement - 200ml - Navy - Removable cover,2024-11-11,200,180,1
+cs_148,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_41,DYS-S-0006,V15 Detect Absolute - S - White/Silver - Coanda styling,2024-12-03,998,898,1
+cs_101,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_42,DYS-S-0013,V15 Detect Absolute - 50ml - Blue/Copper - Ortholite insole,2024-12-03,308,277,1
+cs_194,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_43,DYS-S-0006,V15 Detect Absolute - S - White/Silver - Coanda styling,2024-11-18,998,898,1
+cs_194,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_43,DYS-S-0030,Gen5 Detect - XL - Black - Instant coffee,2024-12-11,232,209,1
+cs_23,dyson,DYSON_MD_2024_001,DY_MD_META_PR_1,Mother’s Day Gift Event,dy_44,DYS-S-0003,Airwrap Multi-Styler - 160x200cm - Blue/Copper - 7-zone support,2024-05-04,937,843,1
+cs_262,dyson,DYSON_MD_2024_001,DY_MD_META_RT_1,Mother’s Day Gift Event,dy_45,DYS-S-0003,Airwrap Multi-Styler - 160x200cm - Blue/Copper - 7-zone support,2024-04-24,937,843,1
+cs_162,dyson,DYSON_MD_2024_001,DY_MD_TT_PR_1,Mother’s Day Gift Event,dy_46,DYS-S-0002,Airwrap Multi-Styler - S - N/A - Boost midsole,2024-05-26,447,403,1
+cs_42,dyson,DYSON_MD_2024_001,DY_MD_GDN_RT_1,Mother’s Day Gift Event,dy_47,DYS-S-0014,Airwrap Multi-Styler - XL - Beige - Laptop sleeve,2024-05-03,702,632,1
+cs_243,dyson,DYSON_MD_2024_001,DY_MD_EMAIL_1,Mother’s Day Gift Event,dy_48,DYS-S-0032,Airwrap Multi-Styler - 41 - Blue/Copper - 7-zone support,2024-05-10,941,847,1
+cs_243,dyson,DYSON_MD_2024_001,DY_MD_SEM_GEN_1,Mother’s Day Gift Event,dy_48,DYS-S-0003,Airwrap Multi-Styler - 160x200cm - Blue/Copper - 7-zone support,2024-05-01,937,843,1
+cs_73,dyson,DYSON_MD_2024_001,DY_MD_SEM_BR_1,Mother’s Day Gift Event,dy_49,DYS-S-0019,Airwrap Multi-Styler - S - White - Boost midsole,2024-05-31,947,852,1
+cs_73,dyson,DYSON_MD_2024_001,DY_MD_SEM_BR_1,Mother’s Day Gift Event,dy_49,DYS-S-0014,Airwrap Multi-Styler - XL - Beige - Laptop sleeve,2024-05-18,702,632,1
+cs_8,dyson,DYSON_MD_2024_001,DY_MD_SEM_BR_1,Mother’s Day Gift Event,dy_50,DYS-S-0038,Airwrap Multi-Styler - 140x200cm - Navy - 7-zone support,2024-05-14,459,413,1
+cs_82,dyson,DYSON_MD_2024_001,DY_MD_SEM_BR_1,Mother’s Day Gift Event,dy_51,DYS-S-0024,Airwrap Multi-Styler - 200g - Nickel - Coanda styling,2024-05-13,761,685,1
+cs_82,dyson,DYSON_MD_2024_001,,Mother’s Day Gift Event,dy_51,DYS-S-0014,Airwrap Multi-Styler - XL - Beige - Laptop sleeve,2024-05-26,702,632,1
+cs_273,dyson,DYSON_MD_2024_001,,Mother’s Day Gift Event,dy_52,DYS-S-0003,Airwrap Multi-Styler - 160x200cm - Blue/Copper - 7-zone support,2024-05-21,937,843,1
+cs_84,dyson,DYSON_MD_2024_001,,Mother’s Day Gift Event,dy_53,DYS-S-0032,Airwrap Multi-Styler - 41 - Blue/Copper - 7-zone support,2024-05-16,941,847,1
+cs_294,dyson,DYSON_MD_2024_001,,Mother’s Day Gift Event,dy_54,DYS-S-0014,Airwrap Multi-Styler - XL - Beige - Laptop sleeve,2024-05-02,702,632,1
+cs_294,dyson,DYSON_MD_2024_001,,Mother’s Day Gift Event,dy_54,DYS-S-0002,Airwrap Multi-Styler - S - N/A - Boost midsole,2024-05-01,447,403,1
+cs_249,dyson,DY_COOL_2024_001,DY_COOL_META_PR_1,Summer Cooling Series,dy_55,DYS-S-0009,Purifier Cool - One Size - Grey - Satin finish,2024-07-07,841,757,1
+cs_292,dyson,DY_COOL_2024_001,DY_COOL_META_PR_1,Summer Cooling Series,dy_56,DYS-S-0034,Purifier Cool - S - White - Coanda styling,2024-07-02,462,416,1
+cs_211,dyson,DY_COOL_2024_001,DY_COOL_META_RT_1,Summer Cooling Series,dy_57,DYS-S-0009,Purifier Cool - One Size - Grey - Satin finish,2024-06-18,841,757,1
+cs_82,dyson,DY_COOL_2024_001,DY_COOL_META_RT_1,Summer Cooling Series,dy_58,DYS-S-0031,Purifier Cool - One Size - White - Removable cover,2024-07-20,383,344,1
+cs_145,dyson,DY_COOL_2024_001,DY_COOL_GDN_1,Summer Cooling Series,dy_59,DYS-S-0015,Purifier Cool - 43 - White/Silver - Removable cover,2024-06-25,909,818,1
+cs_145,dyson,DY_COOL_2024_001,DY_COOL_GDN_1,Summer Cooling Series,dy_59,DYS-S-0009,Purifier Cool - One Size - Grey - Satin finish,2024-07-04,841,757,1
+cs_143,dyson,DY_COOL_2024_001,DY_COOL_SEM_BR_1,Summer Cooling Series,dy_60,DYS-S-0034,Purifier Cool - S - White - Coanda styling,2024-07-10,462,416,1
+cs_22,dyson,DY_COOL_2024_001,DY_COOL_SEM_BR_1,Summer Cooling Series,dy_61,DYS-S-0015,Purifier Cool - 43 - White/Silver - Removable cover,2024-07-21,909,818,1
+cs_22,dyson,DY_COOL_2024_001,DY_COOL_SEM_BR_1,Summer Cooling Series,dy_61,DYS-S-0009,Purifier Cool - One Size - Grey - Satin finish,2024-06-15,841,757,1
+cs_221,dyson,DY_COOL_2024_001,DY_COOL_SEM_BR_1,Summer Cooling Series,dy_62,DYS-S-0009,Purifier Cool - One Size - Grey - Satin finish,2024-06-16,841,757,1
+cs_155,dyson,DY_COOL_2024_001,,Summer Cooling Series,dy_63,DYS-S-0021,Purifier Cool - 160x200cm - Blue/Copper - Ortholite insole,2024-06-24,457,412,1
+cs_155,dyson,DY_COOL_2024_001,,Summer Cooling Series,dy_64,DYS-S-0015,Purifier Cool - 43 - White/Silver - Removable cover,2024-07-29,909,818,1
+cs_280,dyson,DY_WIN_2024_001,DY_WIN_SEM_GEN_1,Winter Smart Tech Push,dy_65,DYS-S-0008,Gen5 Detect - 200g - Beige - Boost midsole,2025-01-28,884,707,1
+cs_53,dyson,DY_WIN_2024_001,DY_WIN_SEM_GEN_1,Winter Smart Tech Push,dy_66,DYS-S-0005,Gen5 Detect - 140x200cm - Green - Satin finish,2025-01-16,349,279,1
+cs_45,dyson,DY_WIN_2024_001,DY_WIN_META_PR_1,Winter Smart Tech Push,dy_67,DYS-S-0001,Gen5 Detect - 41 - White - Coanda styling,2025-01-31,283,226,1
+cs_45,dyson,DY_WIN_2024_001,DY_WIN_META_PR_1,Winter Smart Tech Push,dy_67,DYS-S-0029,Gen5 Detect - XL - White/Silver - 7-zone support,2024-12-24,339,271,1
+cs_293,dyson,DY_WIN_2024_001,DY_WIN_EMAIL_1,Winter Smart Tech Push,dy_68,DYS-S-0029,Gen5 Detect - XL - White/Silver - 7-zone support,2025-01-12,339,271,1
+cs_293,dyson,DY_WIN_2024_001,DY_WIN_EMAIL_1,Winter Smart Tech Push,dy_68,DYS-S-0005,Gen5 Detect - 140x200cm - Green - Satin finish,2025-01-10,349,279,1
+cs_205,dyson,DY_WIN_2024_001,DY_WIN_AWIN_1,Winter Smart Tech Push,dy_69,DYS-S-0025,Gen5 Detect - 375g - Grey - Ortholite insole,2025-01-05,886,709,1
+cs_158,dyson,DY_WIN_2024_001,DY_WIN_AWIN_1,Winter Smart Tech Push,dy_70,DYS-S-0001,Gen5 Detect - 41 - White - Coanda styling,2025-01-23,283,226,1
+cs_177,dyson,DY_WIN_2024_001,DY_WIN_META_RT_1,Winter Smart Tech Push,dy_71,DYS-S-0004,Gen5 Detect - 140x200cm - Beige - Laptop sleeve,2025-01-13,301,241,1
+cs_259,dyson,DY_WIN_2024_001,DY_WIN_META_RT_1,Winter Smart Tech Push,dy_72,DYS-S-0018,Gen5 Detect - 50ml - White/Silver - HEPA H13,2025-01-14,719,576,1
+cs_259,dyson,DY_WIN_2024_001,DY_WIN_META_RT_1,Winter Smart Tech Push,dy_72,DYS-S-0008,Gen5 Detect - 200g - Beige - Boost midsole,2024-12-24,884,707,1
+cs_142,dyson,DY_WIN_2024_001,DY_WIN_GDN_RT_1,Winter Smart Tech Push,dy_73,DYS-S-0001,Gen5 Detect - 41 - White - Coanda styling,2024-12-26,283,226,1
+cs_28,dyson,DY_WIN_2024_001,DY_WIN_GDN_RT_1,Winter Smart Tech Push,dy_74,DYS-S-0029,Gen5 Detect - XL - White/Silver - 7-zone support,2025-01-28,339,271,1
+cs_28,dyson,DY_WIN_2024_001,DY_WIN_GDN_RT_1,Winter Smart Tech Push,dy_74,DYS-S-0005,Gen5 Detect - 140x200cm - Green - Satin finish,2024-12-22,349,279,1
+cs_266,dyson,DY_WIN_2024_001,DY_WIN_SEM_BR_1,Winter Smart Tech Push,dy_75,DYS-S-0029,Gen5 Detect - XL - White/Silver - 7-zone support,2025-01-06,339,271,1
+cs_266,dyson,DY_WIN_2024_001,DY_WIN_SEM_BR_1,Winter Smart Tech Push,dy_75,DYS-S-0023,Gen5 Detect - 140x200cm - Navy - Instant coffee,2024-12-22,147,117,1
+cs_270,dyson,DY_WIN_2024_001,DY_WIN_SEM_BR_1,Winter Smart Tech Push,dy_76,DYS-S-0018,Gen5 Detect - 50ml - White/Silver - HEPA H13,2025-01-06,719,576,1
+cs_87,dyson,DY_WIN_2024_001,DY_WIN_SEM_BR_1,Winter Smart Tech Push,dy_77,DYS-S-0008,Gen5 Detect - 200g - Beige - Boost midsole,2025-01-24,884,707,1
+cs_5,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_78,DYS-S-0001,Gen5 Detect - 41 - White - Coanda styling,2025-01-13,283,226,1
+cs_92,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_79,DYS-S-0005,Gen5 Detect - 140x200cm - Green - Satin finish,2025-01-09,349,279,1
+cs_268,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_80,DYS-S-0025,Gen5 Detect - 375g - Grey - Ortholite insole,2025-01-01,886,709,1
+cs_291,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_81,DYS-S-0030,Gen5 Detect - XL - Black - Instant coffee,2025-01-15,232,186,1
+cs_224,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_82,DYS-S-0023,Gen5 Detect - 140x200cm - Navy - Instant coffee,2025-01-28,147,117,1
+cs_75,dyson,organic,,organic,dy_83,DYS-S-0016,V15 Detect Absolute - M - Nickel - Removable cover,2024-11-09,91,82,1
+cs_163,dyson,organic,,organic,dy_84,DYS-S-0026,V15 Detect Absolute - L - Beige - Hyaluronic acid,2024-03-06,811,730,1
+cs_163,dyson,organic,,organic,dy_84,DYS-S-0012,V15 Detect Absolute - 200g - Grey - Removable cover,2024-03-18,159,143,1
+cs_52,dyson,organic,,organic,dy_85,DYS-S-0007,V15 Detect Absolute - M - Blue/Copper - Laptop sleeve,2024-11-27,530,477,1
+cs_242,dyson,organic,,organic,dy_86,DYS-S-0016,V15 Detect Absolute - M - Nickel - Removable cover,2024-11-05,91,82,1
+cs_182,dyson,organic,,organic,dy_87,DYS-S-0014,Airwrap Multi-Styler - XL - Beige - Laptop sleeve,2024-05-13,702,632,1
+cs_58,dyson,organic,,organic,dy_88,DYS-S-0040,V15 Detect Absolute - 50ml - Green - HEPA H13,2024-12-05,343,309,1
+cs_58,dyson,organic,,organic,dy_88,DYS-S-0003,Airwrap Multi-Styler - 160x200cm - Blue/Copper - 7-zone support,2024-04-22,937,843,1
+cs_66,dyson,organic,,organic,dy_89,DYS-S-0007,V15 Detect Absolute - M - Blue/Copper - Laptop sleeve,2024-11-25,530,477,1
+cs_257,dyson,organic,,organic,dy_90,DYS-S-0007,V15 Detect Absolute - M - Blue/Copper - Laptop sleeve,2024-12-10,530,477,1
+cs_71,dyson,organic,,organic,dy_91,DYS-S-0007,V15 Detect Absolute - M - Blue/Copper - Laptop sleeve,2024-12-02,530,477,1
+cs_4,dyson,organic,,organic,dy_92,DYS-S-0017,Purifier Cool - 200ml - Grey - Instant coffee,2024-12-05,980,882,1
+cs_4,dyson,organic,,organic,dy_92,DYS-S-0037,V15 Detect Absolute - 50ml - Nickel - AEROREADY,2024-11-07,543,489,1
+cs_130,dyson,organic,,organic,dy_93,DYS-S-0002,Airwrap Multi-Styler - S - N/A - Boost midsole,2024-05-17,447,403,1
+cs_130,dyson,organic,,organic,dy_93,DYS-S-0031,Purifier Cool - One Size - White - Removable cover,2024-06-29,383,344,1
+cs_193,dyson,organic,,organic,dy_94,DYS-S-0026,V15 Detect Absolute - L - Beige - Hyaluronic acid,2024-03-20,811,730,1
+cs_193,dyson,organic,,organic,dy_94,DYS-S-0017,Purifier Cool - 200ml - Grey - Instant coffee,2024-12-08,980,882,1
+cs_179,dyson,organic,,organic,dy_95,DYS-S-0038,Airwrap Multi-Styler - 140x200cm - Navy - 7-zone support,2024-05-03,459,413,1
+cs_203,dyson,organic,,organic,dy_96,DYS-S-0007,V15 Detect Absolute - M - Blue/Copper - Laptop sleeve,2024-12-02,530,477,1
+cs_244,dyson,organic,,organic,dy_97,DYS-S-0037,V15 Detect Absolute - 50ml - Nickel - AEROREADY,2024-11-25,543,489,1
+cs_202,dyson,organic,,organic,dy_98,DYS-S-0036,Airwrap Multi-Styler - M - Nickel - Coanda styling,2024-11-29,230,207,1
+cs_202,dyson,organic,,organic,dy_98,DYS-S-0015,Purifier Cool - 43 - White/Silver - Removable cover,2024-07-26,909,818,1
+cs_108,dyson,organic,,organic,dy_99,DYS-S-0014,Airwrap Multi-Styler - XL - Beige - Laptop sleeve,2024-05-11,702,632,1
+cs_108,dyson,organic,,organic,dy_99,DYS-S-0009,Purifier Cool - One Size - Grey - Satin finish,2024-07-09,841,757,1
+cs_23,dyson,organic,,organic,dy_100,DYS-S-0021,Purifier Cool - 160x200cm - Blue/Copper - Ortholite insole,2024-07-18,457,412,1
+cs_175,dyson,organic,,organic,dy_101,DYS-S-0034,Purifier Cool - S - White - Coanda styling,2024-07-27,462,416,1
+cs_219,dyson,organic,,organic,dy_102,DYS-S-0021,Purifier Cool - 160x200cm - Blue/Copper - Ortholite insole,2024-07-30,457,412,1
+cs_33,dyson,DY_B2S_2024_001,,Back-to-School Home Essentials,dy_1,DYS-S-0019,Airwrap Multi-Styler - S - White - Boost midsole,2024-09-28,947,852,1
+cs_299,dyson,DY_B2S_2024_001,,Back-to-School Home Essentials,dy_2,DYS-S-0020,Filter Replacement - 200g - Grey - HEPA H13,2024-09-15,83,75,1
+cs_299,dyson,DY_B2S_2024_001,,Back-to-School Home Essentials,dy_3,DYS-S-0011,Filter Replacement - 375g - Blue/Copper - Removable cover,2024-09-09,934,841,1
+cs_115,dyson,DY_B2S_2024_001,,Back-to-School Home Essentials,dy_4,DYS-S-0015,Purifier Cool - 43 - White/Silver - Removable cover,2024-08-14,909,818,1
+cs_73,dyson,DY_B2S_2024_001,,Back-to-School Home Essentials,dy_5,DYS-S-0034,Purifier Cool - S - White - Coanda styling,2024-09-27,462,416,1
+cs_277,dyson,DY_B2S_2024_001,,Back-to-School Home Essentials,dy_6,DYS-S-0011,Filter Replacement - 375g - Blue/Copper - Removable cover,2024-09-24,934,841,1
+cs_154,dyson,DY_B2S_2024_001,,Back-to-School Home Essentials,dy_7,DYS-S-0038,Airwrap Multi-Styler - 140x200cm - Navy - 7-zone support,2024-09-05,459,413,1
+cs_161,dyson,DY_V15_2024_001,,Dyson V15 Smart Home Launch,dy_8,DYS-S-0033,V15 Detect Absolute - 200g - Green - Ortholite insole,2024-04-10,601,541,1
+cs_4,dyson,DY_V15_2024_001,,Dyson V15 Smart Home Launch,dy_9,DYS-S-0012,V15 Detect Absolute - 200g - Grey - Removable cover,2024-03-29,159,143,1
+cs_295,dyson,DY_V15_2024_001,,Dyson V15 Smart Home Launch,dy_10,DYS-S-0006,V15 Detect Absolute - S - White/Silver - Coanda styling,2024-03-15,998,898,1
+cs_220,dyson,DY_V15_2024_001,,Dyson V15 Smart Home Launch,dy_11,DYS-S-0006,V15 Detect Absolute - S - White/Silver - Coanda styling,2024-04-11,998,898,1
+cs_192,dyson,DY_V15_2024_001,,Dyson V15 Smart Home Launch,dy_12,DYS-S-0022,V15 Detect Absolute - One Size - Beige - AEROREADY,2024-04-07,903,813,1
+cs_19,dyson,DY_V15_2024_001,,Dyson V15 Smart Home Launch,dy_13,DYS-S-0026,V15 Detect Absolute - L - Beige - Hyaluronic acid,2024-03-22,811,730,1
+cs_172,dyson,DY_V15_2024_001,,Dyson V15 Smart Home Launch,dy_14,DYS-S-0012,V15 Detect Absolute - 200g - Grey - Removable cover,2024-03-06,159,143,1
+cs_172,dyson,DY_V15_2024_001,,Dyson V15 Smart Home Launch,dy_14,DYS-S-0026,V15 Detect Absolute - L - Beige - Hyaluronic acid,2024-03-11,811,730,1
+cs_98,dyson,DY_V15_2024_001,,Dyson V15 Smart Home Launch,dy_15,DYS-S-0026,V15 Detect Absolute - L - Beige - Hyaluronic acid,2024-03-23,811,730,1
+cs_192,dyson,DY_V15_2024_001,,Dyson V15 Smart Home Launch,dy_16,DYS-S-0022,V15 Detect Absolute - One Size - Beige - AEROREADY,2024-03-15,903,813,1
+cs_166,dyson,DY_V15_2024_001,,Dyson V15 Smart Home Launch,dy_17,DYS-S-0006,V15 Detect Absolute - S - White/Silver - Coanda styling,2024-03-02,998,898,1
+cs_253,dyson,DY_V15_2024_001,,Dyson V15 Smart Home Launch,dy_18,DYS-S-0022,V15 Detect Absolute - One Size - Beige - AEROREADY,2024-03-28,903,813,1
+cs_253,dyson,DY_V15_2024_001,,Dyson V15 Smart Home Launch,dy_18,DYS-S-0026,V15 Detect Absolute - L - Beige - Hyaluronic acid,2024-04-10,811,730,1
+cs_178,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_19,DYS-S-0013,V15 Detect Absolute - 50ml - Blue/Copper - Ortholite insole,2024-11-28,308,277,1
+cs_269,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_20,DYS-S-0013,V15 Detect Absolute - 50ml - Blue/Copper - Ortholite insole,2024-12-09,308,277,1
+cs_8,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_21,DYS-S-0005,Gen5 Detect - 140x200cm - Green - Satin finish,2024-12-11,349,314,1
+cs_8,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_21,DYS-S-0013,V15 Detect Absolute - 50ml - Blue/Copper - Ortholite insole,2024-12-02,308,277,1
+cs_29,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_22,DYS-S-0008,Gen5 Detect - 200g - Beige - Boost midsole,2024-12-06,884,796,1
+cs_16,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_23,DYS-S-0013,V15 Detect Absolute - 50ml - Blue/Copper - Ortholite insole,2024-12-17,308,277,1
+cs_16,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_23,DYS-S-0011,Filter Replacement - 375g - Blue/Copper - Removable cover,2024-11-09,934,841,1
+cs_105,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_24,DYS-S-0028,Filter Replacement - M - Nickel - AEROREADY,2024-11-12,865,778,1
+cs_282,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_25,DYS-S-0008,Gen5 Detect - 200g - Beige - Boost midsole,2024-12-17,884,796,1
+cs_295,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_26,DYS-S-0005,Gen5 Detect - 140x200cm - Green - Satin finish,2024-11-30,349,314,1
+cs_197,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_27,DYS-S-0033,V15 Detect Absolute - 200g - Green - Ortholite insole,2024-12-09,601,541,1
+cs_214,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_28,DYS-S-0026,V15 Detect Absolute - L - Beige - Hyaluronic acid,2024-12-18,811,730,1
+cs_214,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_28,DYS-S-0039,Filter Replacement - 200g - Beige - Coanda styling,2024-12-03,347,312,1
+cs_141,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_29,DYS-S-0035,Filter Replacement - 200ml - Beige - Hyaluronic acid,2024-11-26,625,562,1
+cs_259,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_30,DYS-S-0040,V15 Detect Absolute - 50ml - Green - HEPA H13,2024-12-04,343,309,1
+cs_12,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_31,DYS-S-0011,Filter Replacement - 375g - Blue/Copper - Removable cover,2024-11-12,934,841,1
+cs_267,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_32,DYS-S-0030,Gen5 Detect - XL - Black - Instant coffee,2024-11-28,232,209,1
+cs_56,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_33,DYS-S-0013,V15 Detect Absolute - 50ml - Blue/Copper - Ortholite insole,2024-11-23,308,277,1
+cs_29,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_34,DYS-S-0008,Gen5 Detect - 200g - Beige - Boost midsole,2024-11-17,884,796,1
+cs_230,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_35,DYS-S-0007,V15 Detect Absolute - M - Blue/Copper - Laptop sleeve,2024-11-18,530,477,1
+cs_196,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_36,DYS-S-0030,Gen5 Detect - XL - Black - Instant coffee,2024-11-21,232,209,1
+cs_282,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_37,DYS-S-0006,V15 Detect Absolute - S - White/Silver - Coanda styling,2024-12-01,998,898,1
+cs_154,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_38,DYS-S-0008,Gen5 Detect - 200g - Beige - Boost midsole,2024-11-22,884,796,1
+cs_86,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_39,DYS-S-0027,Filter Replacement - 200ml - Navy - Removable cover,2024-12-05,200,180,1
+cs_57,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_40,DYS-S-0027,Filter Replacement - 200ml - Navy - Removable cover,2024-11-15,200,180,1
+cs_148,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_41,DYS-S-0006,V15 Detect Absolute - S - White/Silver - Coanda styling,2024-12-13,998,898,1
+cs_101,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_42,DYS-S-0013,V15 Detect Absolute - 50ml - Blue/Copper - Ortholite insole,2024-11-19,308,277,1
+cs_194,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_43,DYS-S-0006,V15 Detect Absolute - S - White/Silver - Coanda styling,2024-12-15,998,898,1
+cs_194,dyson,DY_HOL_2024_001,,Holiday Cleaning Event,dy_43,DYS-S-0030,Gen5 Detect - XL - Black - Instant coffee,2024-12-08,232,209,1
+cs_23,dyson,DYSON_MD_2024_001,,Mother’s Day Gift Event,dy_44,DYS-S-0003,Airwrap Multi-Styler - 160x200cm - Blue/Copper - 7-zone support,2024-05-03,937,843,1
+cs_262,dyson,DYSON_MD_2024_001,,Mother’s Day Gift Event,dy_45,DYS-S-0003,Airwrap Multi-Styler - 160x200cm - Blue/Copper - 7-zone support,2024-05-25,937,843,1
+cs_162,dyson,DYSON_MD_2024_001,,Mother’s Day Gift Event,dy_46,DYS-S-0002,Airwrap Multi-Styler - S - N/A - Boost midsole,2024-04-22,447,403,1
+cs_42,dyson,DYSON_MD_2024_001,,Mother’s Day Gift Event,dy_47,DYS-S-0014,Airwrap Multi-Styler - XL - Beige - Laptop sleeve,2024-05-28,702,632,1
+cs_243,dyson,DYSON_MD_2024_001,,Mother’s Day Gift Event,dy_48,DYS-S-0032,Airwrap Multi-Styler - 41 - Blue/Copper - 7-zone support,2024-04-26,941,847,1
+cs_243,dyson,DYSON_MD_2024_001,,Mother’s Day Gift Event,dy_48,DYS-S-0003,Airwrap Multi-Styler - 160x200cm - Blue/Copper - 7-zone support,2024-05-12,937,843,1
+cs_73,dyson,DYSON_MD_2024_001,,Mother’s Day Gift Event,dy_49,DYS-S-0019,Airwrap Multi-Styler - S - White - Boost midsole,2024-05-10,947,852,1
+cs_73,dyson,DYSON_MD_2024_001,,Mother’s Day Gift Event,dy_49,DYS-S-0014,Airwrap Multi-Styler - XL - Beige - Laptop sleeve,2024-04-30,702,632,1
+cs_8,dyson,DYSON_MD_2024_001,,Mother’s Day Gift Event,dy_50,DYS-S-0038,Airwrap Multi-Styler - 140x200cm - Navy - 7-zone support,2024-05-28,459,413,1
+cs_82,dyson,DYSON_MD_2024_001,,Mother’s Day Gift Event,dy_51,DYS-S-0024,Airwrap Multi-Styler - 200g - Nickel - Coanda styling,2024-05-12,761,685,1
+cs_82,dyson,DYSON_MD_2024_001,,Mother’s Day Gift Event,dy_51,DYS-S-0014,Airwrap Multi-Styler - XL - Beige - Laptop sleeve,2024-05-10,702,632,1
+cs_273,dyson,DYSON_MD_2024_001,,Mother’s Day Gift Event,dy_52,DYS-S-0003,Airwrap Multi-Styler - 160x200cm - Blue/Copper - 7-zone support,2024-05-17,937,843,1
+cs_84,dyson,DYSON_MD_2024_001,,Mother’s Day Gift Event,dy_53,DYS-S-0032,Airwrap Multi-Styler - 41 - Blue/Copper - 7-zone support,2024-05-03,941,847,1
+cs_294,dyson,DYSON_MD_2024_001,,Mother’s Day Gift Event,dy_54,DYS-S-0014,Airwrap Multi-Styler - XL - Beige - Laptop sleeve,2024-05-28,702,632,1
+cs_294,dyson,DYSON_MD_2024_001,,Mother’s Day Gift Event,dy_54,DYS-S-0002,Airwrap Multi-Styler - S - N/A - Boost midsole,2024-05-30,447,403,1
+cs_249,dyson,DY_COOL_2024_001,,Summer Cooling Series,dy_55,DYS-S-0009,Purifier Cool - One Size - Grey - Satin finish,2024-07-13,841,757,1
+cs_292,dyson,DY_COOL_2024_001,,Summer Cooling Series,dy_56,DYS-S-0034,Purifier Cool - S - White - Coanda styling,2024-07-17,462,416,1
+cs_211,dyson,DY_COOL_2024_001,,Summer Cooling Series,dy_57,DYS-S-0009,Purifier Cool - One Size - Grey - Satin finish,2024-07-30,841,757,1
+cs_82,dyson,DY_COOL_2024_001,,Summer Cooling Series,dy_58,DYS-S-0031,Purifier Cool - One Size - White - Removable cover,2024-06-18,383,344,1
+cs_145,dyson,DY_COOL_2024_001,,Summer Cooling Series,dy_59,DYS-S-0015,Purifier Cool - 43 - White/Silver - Removable cover,2024-07-27,909,818,1
+cs_145,dyson,DY_COOL_2024_001,,Summer Cooling Series,dy_59,DYS-S-0009,Purifier Cool - One Size - Grey - Satin finish,2024-07-09,841,757,1
+cs_143,dyson,DY_COOL_2024_001,,Summer Cooling Series,dy_60,DYS-S-0034,Purifier Cool - S - White - Coanda styling,2024-07-14,462,416,1
+cs_22,dyson,DY_COOL_2024_001,,Summer Cooling Series,dy_61,DYS-S-0015,Purifier Cool - 43 - White/Silver - Removable cover,2024-07-10,909,818,1
+cs_22,dyson,DY_COOL_2024_001,,Summer Cooling Series,dy_61,DYS-S-0009,Purifier Cool - One Size - Grey - Satin finish,2024-07-04,841,757,1
+cs_221,dyson,DY_COOL_2024_001,,Summer Cooling Series,dy_62,DYS-S-0009,Purifier Cool - One Size - Grey - Satin finish,2024-07-22,841,757,1
+cs_155,dyson,DY_COOL_2024_001,,Summer Cooling Series,dy_63,DYS-S-0021,Purifier Cool - 160x200cm - Blue/Copper - Ortholite insole,2024-07-23,457,412,1
+cs_155,dyson,DY_COOL_2024_001,,Summer Cooling Series,dy_64,DYS-S-0015,Purifier Cool - 43 - White/Silver - Removable cover,2024-07-31,909,818,1
+cs_280,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_65,DYS-S-0008,Gen5 Detect - 200g - Beige - Boost midsole,2025-01-07,884,707,1
+cs_53,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_66,DYS-S-0005,Gen5 Detect - 140x200cm - Green - Satin finish,2025-01-29,349,279,1
+cs_45,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_67,DYS-S-0001,Gen5 Detect - 41 - White - Coanda styling,2024-12-27,283,226,1
+cs_45,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_67,DYS-S-0029,Gen5 Detect - XL - White/Silver - 7-zone support,2025-01-15,339,271,1
+cs_293,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_68,DYS-S-0029,Gen5 Detect - XL - White/Silver - 7-zone support,2025-01-17,339,271,1
+cs_293,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_68,DYS-S-0005,Gen5 Detect - 140x200cm - Green - Satin finish,2025-01-24,349,279,1
+cs_205,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_69,DYS-S-0025,Gen5 Detect - 375g - Grey - Ortholite insole,2024-12-28,886,709,1
+cs_158,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_70,DYS-S-0001,Gen5 Detect - 41 - White - Coanda styling,2025-01-20,283,226,1
+cs_177,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_71,DYS-S-0004,Gen5 Detect - 140x200cm - Beige - Laptop sleeve,2025-01-05,301,241,1
+cs_259,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_72,DYS-S-0018,Gen5 Detect - 50ml - White/Silver - HEPA H13,2025-01-22,719,576,1
+cs_259,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_72,DYS-S-0008,Gen5 Detect - 200g - Beige - Boost midsole,2025-01-18,884,707,1
+cs_142,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_73,DYS-S-0001,Gen5 Detect - 41 - White - Coanda styling,2025-01-22,283,226,1
+cs_28,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_74,DYS-S-0029,Gen5 Detect - XL - White/Silver - 7-zone support,2025-01-31,339,271,1
+cs_28,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_74,DYS-S-0005,Gen5 Detect - 140x200cm - Green - Satin finish,2025-01-01,349,279,1
+cs_266,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_75,DYS-S-0029,Gen5 Detect - XL - White/Silver - 7-zone support,2024-12-23,339,271,1
+cs_266,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_75,DYS-S-0023,Gen5 Detect - 140x200cm - Navy - Instant coffee,2024-12-31,147,117,1
+cs_270,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_76,DYS-S-0018,Gen5 Detect - 50ml - White/Silver - HEPA H13,2025-01-20,719,576,1
+cs_87,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_77,DYS-S-0008,Gen5 Detect - 200g - Beige - Boost midsole,2025-01-05,884,707,1
+cs_5,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_78,DYS-S-0001,Gen5 Detect - 41 - White - Coanda styling,2025-01-10,283,226,1
+cs_92,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_79,DYS-S-0005,Gen5 Detect - 140x200cm - Green - Satin finish,2024-12-29,349,279,1
+cs_268,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_80,DYS-S-0025,Gen5 Detect - 375g - Grey - Ortholite insole,2025-01-17,886,709,1
+cs_291,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_81,DYS-S-0030,Gen5 Detect - XL - Black - Instant coffee,2025-01-30,232,186,1
+cs_224,dyson,DY_WIN_2024_001,,Winter Smart Tech Push,dy_82,DYS-S-0023,Gen5 Detect - 140x200cm - Navy - Instant coffee,2024-12-21,147,117,1
+cs_75,dyson,organic,,organic,dy_83,DYS-S-0016,V15 Detect Absolute - M - Nickel - Removable cover,2024-11-03,91,82,1
+cs_163,dyson,organic,,organic,dy_84,DYS-S-0026,V15 Detect Absolute - L - Beige - Hyaluronic acid,2024-03-22,811,730,1
+cs_163,dyson,organic,,organic,dy_84,DYS-S-0012,V15 Detect Absolute - 200g - Grey - Removable cover,2024-03-09,159,143,1
+cs_52,dyson,organic,,organic,dy_85,DYS-S-0007,V15 Detect Absolute - M - Blue/Copper - Laptop sleeve,2024-11-12,530,477,1
+cs_242,dyson,organic,,organic,dy_86,DYS-S-0016,V15 Detect Absolute - M - Nickel - Removable cover,2024-11-12,91,82,1
+cs_182,dyson,organic,,organic,dy_87,DYS-S-0014,Airwrap Multi-Styler - XL - Beige - Laptop sleeve,2024-05-15,702,632,1
+cs_58,dyson,organic,,organic,dy_88,DYS-S-0040,V15 Detect Absolute - 50ml - Green - HEPA H13,2024-11-22,343,309,1
+cs_58,dyson,organic,,organic,dy_88,DYS-S-0003,Airwrap Multi-Styler - 160x200cm - Blue/Copper - 7-zone support,2024-05-29,937,843,1
+cs_66,dyson,organic,,organic,dy_89,DYS-S-0007,V15 Detect Absolute - M - Blue/Copper - Laptop sleeve,2024-11-03,530,477,1
+cs_257,dyson,organic,,organic,dy_90,DYS-S-0007,V15 Detect Absolute - M - Blue/Copper - Laptop sleeve,2024-11-15,530,477,1
+cs_71,dyson,organic,,organic,dy_91,DYS-S-0007,V15 Detect Absolute - M - Blue/Copper - Laptop sleeve,2024-11-30,530,477,1
+cs_4,dyson,organic,,organic,dy_92,DYS-S-0017,Purifier Cool - 200ml - Grey - Instant coffee,2024-12-16,980,882,1
+cs_4,dyson,organic,,organic,dy_92,DYS-S-0037,V15 Detect Absolute - 50ml - Nickel - AEROREADY,2024-11-14,543,489,1
+cs_130,dyson,organic,,organic,dy_93,DYS-S-0002,Airwrap Multi-Styler - S - N/A - Boost midsole,2024-05-19,447,403,1
+cs_130,dyson,organic,,organic,dy_93,DYS-S-0031,Purifier Cool - One Size - White - Removable cover,2024-06-29,383,344,1
+cs_193,dyson,organic,,organic,dy_94,DYS-S-0026,V15 Detect Absolute - L - Beige - Hyaluronic acid,2024-03-29,811,730,1
+cs_193,dyson,organic,,organic,dy_94,DYS-S-0017,Purifier Cool - 200ml - Grey - Instant coffee,2024-11-21,980,882,1
+cs_179,dyson,organic,,organic,dy_95,DYS-S-0038,Airwrap Multi-Styler - 140x200cm - Navy - 7-zone support,2024-05-16,459,413,1
+cs_203,dyson,organic,,organic,dy_96,DYS-S-0007,V15 Detect Absolute - M - Blue/Copper - Laptop sleeve,2024-12-08,530,477,1
+cs_244,dyson,organic,,organic,dy_97,DYS-S-0037,V15 Detect Absolute - 50ml - Nickel - AEROREADY,2024-12-06,543,489,1
+cs_202,dyson,organic,,organic,dy_98,DYS-S-0036,Airwrap Multi-Styler - M - Nickel - Coanda styling,2024-11-01,230,207,1
+cs_202,dyson,organic,,organic,dy_98,DYS-S-0015,Purifier Cool - 43 - White/Silver - Removable cover,2024-06-28,909,818,1
+cs_108,dyson,organic,,organic,dy_99,DYS-S-0014,Airwrap Multi-Styler - XL - Beige - Laptop sleeve,2024-05-23,702,632,1
+cs_108,dyson,organic,,organic,dy_99,DYS-S-0009,Purifier Cool - One Size - Grey - Satin finish,2024-07-18,841,757,1
+cs_23,dyson,organic,,organic,dy_100,DYS-S-0021,Purifier Cool - 160x200cm - Blue/Copper - Ortholite insole,2024-07-31,457,412,1
+cs_175,dyson,organic,,organic,dy_101,DYS-S-0034,Purifier Cool - S - White - Coanda styling,2024-07-19,462,416,1
+cs_219,dyson,organic,,organic,dy_102,DYS-S-0021,Purifier Cool - 160x200cm - Blue/Copper - Ortholite insole,2024-06-22,457,412,1
+cs_173,emma,EM_AUT_2024_001,EM_AUT_SEM_BR_1,Autumn_Comfort_Promotion,em_1,EMM-S-0008,Mattress Protector - 160x200cm - Beige - Boost midsole,2024-09-09,743,669,1
+cs_75,emma,EM_AUT_2024_001,EM_AUT_SEM_BR_1,Autumn_Comfort_Promotion,em_2,EMM-S-0017,Emma Foam Pillow - 160x200cm - Blue/Copper - Hyaluronic acid,2024-09-01,753,678,1
+cs_224,emma,EM_AUT_2024_001,EM_AUT_SEM_BR_1,Autumn_Comfort_Promotion,em_3,EMM-S-0030,Mattress Protector - 140x200cm - Nickel - Ortholite insole,2024-09-24,762,686,1
+cs_224,emma,EM_AUT_2024_001,EM_AUT_SEM_BR_1,Autumn_Comfort_Promotion,em_3,EMM-S-0008,Mattress Protector - 160x200cm - Beige - Boost midsole,2024-10-04,743,669,1
+cs_81,emma,EM_AUT_2024_001,EM_AUT_SEM_BR_1,Autumn_Comfort_Promotion,em_4,EMM-S-0030,Mattress Protector - 140x200cm - Nickel - Ortholite insole,2024-09-30,762,686,1
+cs_234,emma,EM_AUT_2024_001,EM_AUT_META_RT_1,Autumn_Comfort_Promotion,em_5,EMM-S-0030,Mattress Protector - 140x200cm - Nickel - Ortholite insole,2024-09-21,762,686,1
+cs_25,emma,EM_AUT_2024_001,EM_AUT_META_RT_1,Autumn_Comfort_Promotion,em_6,EMM-S-0001,Emma Foam Pillow - 40 - Nickel - Removable cover,2024-10-03,516,464,1
+cs_177,emma,EM_AUT_2024_001,EM_AUT_META_RT_1,Autumn_Comfort_Promotion,em_7,EMM-S-0030,Mattress Protector - 140x200cm - Nickel - Ortholite insole,2024-10-11,762,686,1
+cs_83,emma,EM_AUT_2024_001,EM_AUT_EMAIL_1,Autumn_Comfort_Promotion,em_8,EMM-S-0034,Emma Foam Pillow - 40 - Navy - Satin finish,2024-10-15,320,288,1
+cs_2,emma,EM_AUT_2024_001,EM_AUT_EMAIL_1,Autumn_Comfort_Promotion,em_9,EMM-S-0030,Mattress Protector - 140x200cm - Nickel - Ortholite insole,2024-09-07,762,686,1
+cs_41,emma,EM_AUT_2024_001,EM_AUT_SEM_GEN_1,Autumn_Comfort_Promotion,em_10,EMM-S-0028,Mattress Protector - 43 - N/A - Laptop sleeve,2024-10-01,459,413,1
+cs_224,emma,EM_AUT_2024_001,EM_AUT_TIK_PR_1,Autumn_Comfort_Promotion,em_11,EMM-S-0034,Emma Foam Pillow - 40 - Navy - Satin finish,2024-10-05,320,288,1
+cs_125,emma,EM_AUT_2024_001,EM_AUT_YT_1,Autumn_Comfort_Promotion,em_12,EMM-S-0035,Emma Foam Pillow - One Size - Nickel - Removable cover,2024-10-10,757,681,1
+cs_190,emma,EM_AUT_2024_001,EM_AUT_AWIN_1,Autumn_Comfort_Promotion,em_13,EMM-S-0034,Emma Foam Pillow - 40 - Navy - Satin finish,2024-09-30,320,288,1
+cs_188,emma,EM_AUT_2024_001,,Autumn_Comfort_Promotion,em_14,EMM-S-0025,Emma Foam Pillow - 41 - N/A - AEROREADY,2024-10-15,776,698,1
+cs_208,emma,EM_BEDSET_2024_001,EM_BED_SEM_BR_1,Bedroom Essentials Sale,em_15,EMM-S-0034,Emma Foam Pillow - 40 - Navy - Satin finish,2024-07-24,320,288,1
+cs_224,emma,EM_BEDSET_2024_001,EM_BED_SEM_BR_1,Bedroom Essentials Sale,em_16,EMM-S-0024,Emma Topper - 43 - White/Silver - Hyaluronic acid,2024-07-08,93,83,1
+cs_83,emma,EM_BEDSET_2024_001,EM_BED_SEM_BR_1,Bedroom Essentials Sale,em_17,EMM-S-0027,Emma Topper - 200ml - Nickel - Hyaluronic acid,2024-07-04,502,452,1
+cs_83,emma,EM_BEDSET_2024_001,EM_BED_SEM_BR_1,Bedroom Essentials Sale,em_17,EMM-S-0018,Emma Metal Bed - 42 - Grey - Satin finish,2024-07-08,426,383,1
+cs_150,emma,EM_BEDSET_2024_001,EM_BED_SEM_BR_1,Bedroom Essentials Sale,em_18,EMM-S-0032,Emma Metal Bed - 160x200cm - Black - Boost midsole,2024-07-05,592,533,1
+cs_150,emma,EM_BEDSET_2024_001,EM_BED_SEM_BR_1,Bedroom Essentials Sale,em_18,EMM-S-0005,Emma Metal Bed - 160x200cm - Beige - Satin finish,2024-07-10,419,377,1
+cs_136,emma,EM_BEDSET_2024_001,EM_BED_SOC_PR_1,Bedroom Essentials Sale,em_19,EMM-S-0016,Emma Foam Pillow - 140x200cm - Blue/Copper - HEPA H13,2024-07-03,551,496,1
+cs_220,emma,EM_BEDSET_2024_001,EM_BED_SOC_PR_1,Bedroom Essentials Sale,em_20,EMM-S-0005,Emma Metal Bed - 160x200cm - Beige - Satin finish,2024-08-15,419,377,1
+cs_98,emma,EM_BEDSET_2024_001,EM_BED_YT_1,Bedroom Essentials Sale,em_21,EMM-S-0036,Emma Foam Pillow - S - Blue/Copper - AEROREADY,2024-07-26,899,809,1
+cs_109,emma,EM_BEDSET_2024_001,EM_BED_YT_1,Bedroom Essentials Sale,em_22,EMM-S-0035,Emma Foam Pillow - One Size - Nickel - Removable cover,2024-07-12,757,681,1
+cs_105,emma,EM_BEDSET_2024_001,EM_BED_AWIN_1,Bedroom Essentials Sale,em_23,EMM-S-0005,Emma Metal Bed - 160x200cm - Beige - Satin finish,2024-07-02,419,377,1
+cs_243,emma,EM_BEDSET_2024_001,EM_BED_AWIN_1,Bedroom Essentials Sale,em_24,EMM-S-0027,Emma Topper - 200ml - Nickel - Hyaluronic acid,2024-07-25,502,452,1
+cs_13,emma,EM_BEDSET_2024_001,EM_BED_EMAIL_1,Bedroom Essentials Sale,em_25,EMM-S-0001,Emma Foam Pillow - 40 - Nickel - Removable cover,2024-08-07,516,464,1
+cs_46,emma,EM_BEDSET_2024_001,EM_BED_EMAIL_1,Bedroom Essentials Sale,em_26,EMM-S-0001,Emma Foam Pillow - 40 - Nickel - Removable cover,2024-07-06,516,464,1
+cs_299,emma,EM_BEDSET_2024_001,,Bedroom Essentials Sale,em_27,EMM-S-0018,Emma Metal Bed - 42 - Grey - Satin finish,2024-08-08,426,383,1
+cs_208,emma,EM_BEDSET_2024_001,,Bedroom Essentials Sale,em_28,EMM-S-0001,Emma Foam Pillow - 40 - Nickel - Removable cover,2024-07-20,516,464,1
+cs_64,emma,EM_NGHYB_2024_001,EM_NG_SEM_BR_1,Emma NextGen Hybrid Launch Campaign,em_29,EMM-S-0040,Emma Hybrid Mattress - 42 - Green - 7-zone support,2024-04-13,183,165,1
+cs_42,emma,EM_NGHYB_2024_001,EM_NG_SEM_BR_1,Emma NextGen Hybrid Launch Campaign,em_30,EMM-S-0020,Emma Hybrid Mattress - One Size - White/Silver - Boost midsole,2024-04-14,653,587,1
+cs_68,emma,EM_NGHYB_2024_001,EM_NG_SEM_BR_1,Emma NextGen Hybrid Launch Campaign,em_31,EMM-S-0031,Emma Hybrid Mattress - 160x200cm - Blue/Copper - AEROREADY,2024-04-30,819,737,1
+cs_62,emma,EM_NGHYB_2024_001,EM_NG_SEM_BR_1,Emma NextGen Hybrid Launch Campaign,em_32,EMM-S-0013,Emma Hybrid Mattress - L - Black - Boost midsole,2024-04-04,708,638,1
+cs_241,emma,EM_NGHYB_2024_001,EM_NG_SEM_BR_1,Emma NextGen Hybrid Launch Campaign,em_33,EMM-S-0021,Emma Hybrid Mattress - One Size - Beige - 7-zone support,2024-04-30,807,726,1
+cs_160,emma,EM_NGHYB_2024_001,EM_NG_SEM_BR_1,Emma NextGen Hybrid Launch Campaign,em_34,EMM-S-0020,Emma Hybrid Mattress - One Size - White/Silver - Boost midsole,2024-04-05,653,587,1
+cs_273,emma,EM_NGHYB_2024_001,EM_NG_SEM_BR_1,Emma NextGen Hybrid Launch Campaign,em_35,EMM-S-0015,Emma Hybrid Mattress - 200g - White - Satin finish,2024-03-16,154,138,1
+cs_229,emma,EM_NGHYB_2024_001,EM_NG_SEM_BR_1,Emma NextGen Hybrid Launch Campaign,em_36,EMM-S-0033,Emma Hybrid Mattress - 375g - White/Silver - Ortholite insole,2024-03-24,82,74,1
+cs_66,emma,EM_NGHYB_2024_001,EM_NG_SEM_BR_1,Emma NextGen Hybrid Launch Campaign,em_37,EMM-S-0040,Emma Hybrid Mattress - 42 - Green - 7-zone support,2024-03-22,183,165,1
+cs_66,emma,EM_NGHYB_2024_001,EM_NG_SEM_BR_1,Emma NextGen Hybrid Launch Campaign,em_37,EMM-S-0031,Emma Hybrid Mattress - 160x200cm - Blue/Copper - AEROREADY,2024-04-27,819,737,1
+cs_248,emma,EM_NGHYB_2024_001,EM_NG_META_RT_1,Emma NextGen Hybrid Launch Campaign,em_38,EMM-S-0003,Emma Hybrid Mattress - 160x200cm - N/A - Removable cover,2024-04-17,388,349,1
+cs_248,emma,EM_NGHYB_2024_001,EM_NG_META_RT_1,Emma NextGen Hybrid Launch Campaign,em_38,EMM-S-0023,Emma Hybrid Mattress - 50ml - Navy - Boost midsole,2024-04-01,396,356,1
+cs_288,emma,EM_NGHYB_2024_001,EM_NG_META_RT_1,Emma NextGen Hybrid Launch Campaign,em_39,EMM-S-0010,Emma Hybrid Mattress - S - Black - Laptop sleeve,2024-03-18,885,797,1
+cs_113,emma,EM_NGHYB_2024_001,EM_NG_META_RT_1,Emma NextGen Hybrid Launch Campaign,em_40,EMM-S-0010,Emma Hybrid Mattress - S - Black - Laptop sleeve,2024-04-12,885,797,1
+cs_283,emma,EM_NGHYB_2024_001,EM_NG_META_RT_1,Emma NextGen Hybrid Launch Campaign,em_41,EMM-S-0031,Emma Hybrid Mattress - 160x200cm - Blue/Copper - AEROREADY,2024-04-11,819,737,1
+cs_35,emma,EM_NGHYB_2024_001,EM_NG_GDN_RT_1,Emma NextGen Hybrid Launch Campaign,em_42,EMM-S-0019,Emma Hybrid Mattress - 375g - Green - HEPA H13,2024-03-19,456,410,1
+cs_275,emma,EM_NGHYB_2024_001,EM_NG_GDN_RT_1,Emma NextGen Hybrid Launch Campaign,em_43,EMM-S-0021,Emma Hybrid Mattress - One Size - Beige - 7-zone support,2024-04-13,807,726,1
+cs_286,emma,EM_NGHYB_2024_001,EM_NG_GDN_RT_1,Emma NextGen Hybrid Launch Campaign,em_44,EMM-S-0003,Emma Hybrid Mattress - 160x200cm - N/A - Removable cover,2024-04-05,388,349,1
+cs_90,emma,EM_NGHYB_2024_001,EM_NG_EMAIL_1,Emma NextGen Hybrid Launch Campaign,em_45,EMM-S-0014,Emma Hybrid Mattress - L - Blue/Copper - Satin finish,2024-03-21,82,74,1
+cs_227,emma,EM_NGHYB_2024_001,EM_NG_EMAIL_1,Emma NextGen Hybrid Launch Campaign,em_46,EMM-S-0033,Emma Hybrid Mattress - 375g - White/Silver - Ortholite insole,2024-04-14,82,74,1
+cs_63,emma,EM_NGHYB_2024_001,EM_NG_EMAIL_1,Emma NextGen Hybrid Launch Campaign,em_47,EMM-S-0010,Emma Hybrid Mattress - S - Black - Laptop sleeve,2024-04-01,885,797,1
+cs_273,emma,EM_NGHYB_2024_001,EM_NG_SEM_GEN_1,Emma NextGen Hybrid Launch Campaign,em_48,EMM-S-0013,Emma Hybrid Mattress - L - Black - Boost midsole,2024-04-26,708,638,1
+cs_44,emma,EM_NGHYB_2024_001,EM_NG_SEM_GEN_1,Emma NextGen Hybrid Launch Campaign,em_49,EMM-S-0014,Emma Hybrid Mattress - L - Blue/Copper - Satin finish,2024-04-01,82,74,1
+cs_44,emma,EM_NGHYB_2024_001,EM_NG_META_PR_1,Emma NextGen Hybrid Launch Campaign,em_49,EMM-S-0002,Emma Hybrid Mattress - 41 - Nickel - Instant coffee,2024-03-30,682,614,1
+cs_188,emma,EM_NGHYB_2024_001,EM_NG_META_PR_1,Emma NextGen Hybrid Launch Campaign,em_50,EMM-S-0010,Emma Hybrid Mattress - S - Black - Laptop sleeve,2024-04-17,885,797,1
+cs_195,emma,EM_NGHYB_2024_001,EM_NG_YT_1,Emma NextGen Hybrid Launch Campaign,em_51,EMM-S-0009,Emma Hybrid Mattress - 140x200cm - Green - Laptop sleeve,2024-04-11,733,659,1
+cs_246,emma,EM_NGHYB_2024_001,EM_NG_YT_1,Emma NextGen Hybrid Launch Campaign,em_52,EMM-S-0013,Emma Hybrid Mattress - L - Black - Boost midsole,2024-03-15,708,638,1
+cs_67,emma,EM_NGHYB_2024_001,,Emma NextGen Hybrid Launch Campaign,em_53,EMM-S-0040,Emma Hybrid Mattress - 42 - Green - 7-zone support,2024-04-24,183,165,1
+cs_67,emma,EM_NGHYB_2024_001,,Emma NextGen Hybrid Launch Campaign,em_53,EMM-S-0033,Emma Hybrid Mattress - 375g - White/Silver - Ortholite insole,2024-04-04,82,74,1
+cs_210,emma,EM_NGHYB_2024_001,,Emma NextGen Hybrid Launch Campaign,em_54,EMM-S-0040,Emma Hybrid Mattress - 42 - Green - 7-zone support,2024-03-31,183,165,1
+cs_283,emma,EM_NGHYB_2024_001,,Emma NextGen Hybrid Launch Campaign,em_55,EMM-S-0039,Emma Hybrid Mattress - L - White/Silver - Instant coffee,2024-03-20,137,124,1
+cs_283,emma,EM_NGHYB_2024_001,,Emma NextGen Hybrid Launch Campaign,em_55,EMM-S-0003,Emma Hybrid Mattress - 160x200cm - N/A - Removable cover,2024-03-28,388,349,1
+cs_27,emma,EM_SW_2024_001,EM_SW_META_RT_1,Emma x SCHÖNER WOHNEN Sleep Design Story,em_56,EMM-S-0034,Emma Foam Pillow - 40 - Navy - Satin finish,2024-03-28,320,288,1
+cs_121,emma,EM_SW_2024_001,EM_SW_META_RT_1,Emma x SCHÖNER WOHNEN Sleep Design Story,em_57,EMM-S-0029,Emma Topper - 41 - White/Silver - AEROREADY,2024-03-17,373,336,1
+cs_299,emma,EM_SW_2024_001,EM_SW_META_RT_1,Emma x SCHÖNER WOHNEN Sleep Design Story,em_58,EMM-S-0005,Emma Metal Bed - 160x200cm - Beige - Satin finish,2024-03-21,419,377,1
+cs_32,emma,EM_SW_2024_001,EM_SW_META_RT_1,Emma x SCHÖNER WOHNEN Sleep Design Story,em_59,EMM-S-0027,Emma Topper - 200ml - Nickel - Hyaluronic acid,2024-03-22,502,452,1
+cs_297,emma,EM_SW_2024_001,EM_SW_PARTNER_1,Emma x SCHÖNER WOHNEN Sleep Design Story,em_60,EMM-S-0018,Emma Metal Bed - 42 - Grey - Satin finish,2024-03-29,426,383,1
+cs_283,emma,EM_SW_2024_001,EM_SW_PARTNER_1,Emma x SCHÖNER WOHNEN Sleep Design Story,em_61,EMM-S-0018,Emma Metal Bed - 42 - Grey - Satin finish,2024-03-28,426,383,1
+cs_161,emma,EM_SW_2024_001,EM_SW_PARTNER_1,Emma x SCHÖNER WOHNEN Sleep Design Story,em_62,EMM-S-0024,Emma Topper - 43 - White/Silver - Hyaluronic acid,2024-03-28,93,83,1
+cs_55,emma,EM_SW_2024_001,EM_SW_META_PR_1,Emma x SCHÖNER WOHNEN Sleep Design Story,em_63,EMM-S-0018,Emma Metal Bed - 42 - Grey - Satin finish,2024-02-16,426,383,1
+cs_55,emma,EM_SW_2024_001,,Emma x SCHÖNER WOHNEN Sleep Design Story,em_63,EMM-S-0016,Emma Foam Pillow - 140x200cm - Blue/Copper - HEPA H13,2024-03-14,551,496,1
+cs_187,emma,EM_UPG_2024_001,EM_UPG_SEM_BR_1,Mattress Upgrade Campaign,em_64,EMM-S-0040,Emma Hybrid Mattress - 42 - Green - 7-zone support,2024-05-31,183,165,1
+cs_268,emma,EM_UPG_2024_001,EM_UPG_META_RT_1,Mattress Upgrade Campaign,em_65,EMM-S-0038,Emma Original Mattress - XL - Navy - AEROREADY,2024-06-10,573,516,1
+cs_82,emma,EM_UPG_2024_001,EM_UPG_GDN_RT_1,Mattress Upgrade Campaign,em_66,EMM-S-0031,Emma Hybrid Mattress - 160x200cm - Blue/Copper - AEROREADY,2024-05-25,819,737,1
+cs_24,emma,EM_UPG_2024_001,EM_UPG_EMAIL_1,Mattress Upgrade Campaign,em_67,EMM-S-0004,Emma Original Mattress - One Size - Green - Laptop sleeve,2024-06-12,409,368,1
+cs_103,emma,EM_UPG_2024_001,EM_UPG_AWIN_1,Mattress Upgrade Campaign,em_68,EMM-S-0021,Emma Hybrid Mattress - One Size - Beige - 7-zone support,2024-06-08,807,726,1
+cs_276,emma,EM_WSF_2024_001,EM_WSF_SEM_BR_1,Winter Sleep Festival,em_69,EMM-S-0008,Mattress Protector - 160x200cm - Beige - Boost midsole,2024-12-21,743,594,1
+cs_160,emma,EM_WSF_2024_001,EM_WSF_SEM_BR_1,Winter Sleep Festival,em_70,EMM-S-0008,Mattress Protector - 160x200cm - Beige - Boost midsole,2024-11-14,743,594,1
+cs_281,emma,EM_WSF_2024_001,EM_WSF_SEM_BR_1,Winter Sleep Festival,em_71,EMM-S-0021,Emma Hybrid Mattress - One Size - Beige - 7-zone support,2024-11-11,807,646,1
+cs_177,emma,EM_WSF_2024_001,EM_WSF_SEM_BR_1,Winter Sleep Festival,em_72,EMM-S-0033,Emma Hybrid Mattress - 375g - White/Silver - Ortholite insole,2024-11-25,82,66,1
+cs_140,emma,EM_WSF_2024_001,EM_WSF_META_RT_1,Winter Sleep Festival,em_73,EMM-S-0020,Emma Hybrid Mattress - One Size - White/Silver - Boost midsole,2024-11-12,653,522,1
+cs_67,emma,EM_WSF_2024_001,EM_WSF_META_RT_1,Winter Sleep Festival,em_74,EMM-S-0003,Emma Hybrid Mattress - 160x200cm - N/A - Removable cover,2024-11-28,388,311,1
+cs_21,emma,EM_WSF_2024_001,EM_WSF_YT_1,Winter Sleep Festival,em_75,EMM-S-0025,Emma Foam Pillow - 41 - N/A - AEROREADY,2024-12-24,776,621,1
+cs_180,emma,EM_WSF_2024_001,EM_WSF_YT_1,Winter Sleep Festival,em_76,EMM-S-0030,Mattress Protector - 140x200cm - Nickel - Ortholite insole,2024-11-13,762,609,1
+cs_11,emma,EM_WSF_2024_001,EM_WSF_EMAIL_1,Winter Sleep Festival,em_77,EMM-S-0009,Emma Hybrid Mattress - 140x200cm - Green - Laptop sleeve,2024-12-04,733,586,1
+cs_137,emma,EM_WSF_2024_001,EM_WSF_EMAIL_1,Winter Sleep Festival,em_78,EMM-S-0009,Emma Hybrid Mattress - 140x200cm - Green - Laptop sleeve,2024-12-15,733,586,1
+cs_161,emma,EM_WSF_2024_001,EM_WSF_AWIN_1,Winter Sleep Festival,em_79,EMM-S-0017,Emma Foam Pillow - 160x200cm - Blue/Copper - Hyaluronic acid,2024-12-11,753,603,1
+cs_151,emma,EM_WSF_2024_001,,Winter Sleep Festival,em_80,EMM-S-0003,Emma Hybrid Mattress - 160x200cm - N/A - Removable cover,2024-12-11,388,311,1
+cs_116,emma,organic,,organic,em_81,EMM-S-0033,Emma Hybrid Mattress - 375g - White/Silver - Ortholite insole,2024-04-11,82,74,1
+cs_116,emma,organic,,organic,em_81,EMM-S-0001,Emma Foam Pillow - 40 - Nickel - Removable cover,2024-07-02,516,464,1
+cs_228,emma,organic,,organic,em_82,EMM-S-0040,Emma Hybrid Mattress - 42 - Green - 7-zone support,2024-05-01,183,165,1
+cs_60,emma,organic,,organic,em_83,EMM-S-0035,Emma Foam Pillow - One Size - Nickel - Removable cover,2024-08-14,757,681,1
+cs_182,emma,organic,,organic,em_84,EMM-S-0016,Emma Foam Pillow - 140x200cm - Blue/Copper - HEPA H13,2024-03-03,551,496,1
+cs_182,emma,organic,,organic,em_84,EMM-S-0015,Emma Hybrid Mattress - 200g - White - Satin finish,2024-04-01,154,138,1
+cs_55,emma,organic,,organic,em_85,EMM-S-0001,Emma Foam Pillow - 40 - Nickel - Removable cover,2024-07-31,516,464,1
+cs_40,emma,organic,,organic,em_86,EMM-S-0013,Emma Hybrid Mattress - L - Black - Boost midsole,2024-03-20,708,638,1
+cs_17,emma,organic,,organic,em_87,EMM-S-0040,Emma Hybrid Mattress - 42 - Green - 7-zone support,2024-04-22,183,165,1
+cs_17,emma,organic,,organic,em_87,EMM-S-0035,Emma Foam Pillow - One Size - Nickel - Removable cover,2024-08-08,757,681,1
+cs_273,emma,organic,,organic,em_88,EMM-S-0017,Emma Foam Pillow - 160x200cm - Blue/Copper - Hyaluronic acid,2024-09-23,753,678,1
+cs_264,emma,organic,,organic,em_89,EMM-S-0010,Emma Hybrid Mattress - S - Black - Laptop sleeve,2024-04-29,885,797,1
+cs_151,emma,organic,,organic,em_90,EMM-S-0035,Emma Foam Pillow - One Size - Nickel - Removable cover,2024-08-14,757,681,1
+cs_151,emma,organic,,organic,em_90,EMM-S-0016,Emma Foam Pillow - 140x200cm - Blue/Copper - HEPA H13,2024-03-11,551,496,1
+cs_4,emma,organic,,organic,em_91,EMM-S-0010,Emma Hybrid Mattress - S - Black - Laptop sleeve,2024-04-30,885,797,1
+cs_257,emma,organic,,organic,em_92,EMM-S-0033,Emma Hybrid Mattress - 375g - White/Silver - Ortholite insole,2024-04-23,82,74,1
+cs_238,emma,organic,,organic,em_93,EMM-S-0015,Emma Hybrid Mattress - 200g - White - Satin finish,2024-03-30,154,138,1
+cs_224,emma,organic,,organic,em_94,EMM-S-0015,Emma Hybrid Mattress - 200g - White - Satin finish,2024-04-21,154,138,1
+cs_64,emma,organic,,organic,em_95,EMM-S-0035,Emma Foam Pillow - One Size - Nickel - Removable cover,2024-07-25,757,681,1
+cs_262,emma,organic,,organic,em_96,EMM-S-0017,Emma Foam Pillow - 160x200cm - Blue/Copper - Hyaluronic acid,2024-10-13,753,678,1
+cs_60,emma,organic,,organic,em_97,EMM-S-0002,Emma Hybrid Mattress - 41 - Nickel - Instant coffee,2024-04-19,682,614,1
+cs_158,emma,organic,,organic,em_98,EMM-S-0017,Emma Foam Pillow - 160x200cm - Blue/Copper - Hyaluronic acid,2024-09-16,753,678,1
+cs_47,emma,organic,,organic,em_99,EMM-S-0036,Emma Foam Pillow - S - Blue/Copper - AEROREADY,2024-08-13,899,809,1
+cs_214,emma,organic,,organic,em_100,EMM-S-0009,Emma Hybrid Mattress - 140x200cm - Green - Laptop sleeve,2024-04-23,733,659,1
+cs_274,Estee Lauder,EL_AUT_2024_001,EL_AUT_SEM_BR_1,Autumn Beauty Revival,el_1,EL-S-0005,Pure Color Lipstick - 200ml - White - Coanda styling,2024-10-11,123,111,1
+cs_274,Estee Lauder,EL_AUT_2024_001,EL_AUT_SEM_BR_1,Autumn Beauty Revival,el_1,EL-S-0010,Pure Color Lipstick - 140x200cm - Green - Coanda styling,2024-09-12,126,113,1
+cs_272,Estee Lauder,EL_AUT_2024_001,EL_AUT_SEM_BR_1,Autumn Beauty Revival,el_2,EL-S-0011,Pure Color Lipstick - 200ml - White/Silver - Satin finish,2024-10-05,79,72,1
+cs_272,Estee Lauder,EL_AUT_2024_001,EL_AUT_SEM_BR_1,Autumn Beauty Revival,el_2,EL-S-0001,Pure Color Lipstick - 50ml - White - Ortholite insole,2024-09-25,146,131,1
+cs_187,Estee Lauder,EL_AUT_2024_001,EL_AUT_SEM_BR_1,Autumn Beauty Revival,el_3,EL-S-0010,Pure Color Lipstick - 140x200cm - Green - Coanda styling,2024-10-12,126,113,1
+cs_187,Estee Lauder,EL_AUT_2024_001,EL_AUT_SEM_BR_1,Autumn Beauty Revival,el_3,EL-S-0011,Pure Color Lipstick - 200ml - White/Silver - Satin finish,2024-09-29,79,72,1
+cs_176,Estee Lauder,EL_AUT_2024_001,EL_AUT_SEM_BR_1,Autumn Beauty Revival,el_4,EL-S-0014,Pure Color Lipstick - 160x200cm - Nickel - 7-zone support,2024-10-01,29,26,1
+cs_134,Estee Lauder,EL_AUT_2024_001,EL_AUT_SEM_BR_1,Autumn Beauty Revival,el_5,EL-S-0010,Pure Color Lipstick - 140x200cm - Green - Coanda styling,2024-09-13,126,113,1
+cs_94,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_BR_1,Estee Lauder Double Wear Radiance Launch,el_6,EL-S-0029,Micro Essence Lotion - One Size - Black - HEPA H13,2024-04-15,41,37,1
+cs_34,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_BR_1,Estee Lauder Double Wear Radiance Launch,el_7,EL-S-0029,Micro Essence Lotion - One Size - Black - HEPA H13,2024-03-11,41,37,1
+cs_12,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_BR_1,Estee Lauder Double Wear Radiance Launch,el_8,EL-S-0019,Micro Essence Lotion - 50ml - White/Silver - Instant coffee,2024-04-09,114,103,1
+cs_137,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_BR_1,Estee Lauder Double Wear Radiance Launch,el_9,EL-S-0009,Double Wear Foundation - 50ml - Grey - Hyaluronic acid,2024-04-14,47,42,1
+cs_275,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_BR_1,Estee Lauder Double Wear Radiance Launch,el_10,EL-S-0020,Double Wear Foundation - 200ml - Black - Boost midsole,2024-03-09,62,56,1
+cs_184,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_BR_1,Estee Lauder Double Wear Radiance Launch,el_11,EL-S-0021,Double Wear Foundation - 50ml - Navy - Removable cover,2024-04-19,108,97,1
+cs_124,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_BR_1,Estee Lauder Double Wear Radiance Launch,el_12,EL-S-0008,Double Wear Foundation - M - Nickel - 7-zone support,2024-04-04,104,94,1
+cs_80,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_BR_1,Estee Lauder Double Wear Radiance Launch,el_13,EL-S-0008,Double Wear Foundation - M - Nickel - 7-zone support,2024-03-03,104,94,1
+cs_228,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_BR_1,Estee Lauder Double Wear Radiance Launch,el_14,EL-S-0021,Double Wear Foundation - 50ml - Navy - Removable cover,2024-03-11,108,97,1
+cs_159,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_BR_1,Estee Lauder Double Wear Radiance Launch,el_15,EL-S-0009,Double Wear Foundation - 50ml - Grey - Hyaluronic acid,2024-04-09,47,42,1
+cs_159,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_BR_1,Estee Lauder Double Wear Radiance Launch,el_15,EL-S-0021,Double Wear Foundation - 50ml - Navy - Removable cover,2024-04-02,108,97,1
+cs_282,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_BR_1,Estee Lauder Double Wear Radiance Launch,el_16,EL-S-0020,Double Wear Foundation - 200ml - Black - Boost midsole,2024-04-14,62,56,1
+cs_225,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_BR_1,Estee Lauder Double Wear Radiance Launch,el_17,EL-S-0020,Double Wear Foundation - 200ml - Black - Boost midsole,2024-03-10,62,56,1
+cs_266,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_BR_1,Estee Lauder Double Wear Radiance Launch,el_18,EL-S-0019,Micro Essence Lotion - 50ml - White/Silver - Instant coffee,2024-03-21,114,103,1
+cs_266,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_BR_1,Estee Lauder Double Wear Radiance Launch,el_18,EL-S-0008,Double Wear Foundation - M - Nickel - 7-zone support,2024-03-08,104,94,1
+cs_159,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_BR_1,Estee Lauder Double Wear Radiance Launch,el_19,EL-S-0033,Micro Essence Lotion - S - Green - Satin finish,2024-04-19,39,35,1
+cs_14,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_BR_1,Estee Lauder Double Wear Radiance Launch,el_20,EL-S-0020,Double Wear Foundation - 200ml - Black - Boost midsole,2024-03-23,62,56,1
+cs_267,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_BR_1,Estee Lauder Double Wear Radiance Launch,el_21,EL-S-0033,Micro Essence Lotion - S - Green - Satin finish,2024-03-28,39,35,1
+cs_267,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_BR_1,Estee Lauder Double Wear Radiance Launch,el_21,EL-S-0037,Double Wear Foundation - 160x200cm - N/A - Coanda styling,2024-03-18,53,48,1
+cs_288,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_BR_1,Estee Lauder Double Wear Radiance Launch,el_22,EL-S-0037,Double Wear Foundation - 160x200cm - N/A - Coanda styling,2024-04-05,53,48,1
+cs_35,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_GEN_1,Estee Lauder Double Wear Radiance Launch,el_23,EL-S-0031,Micro Essence Lotion - 140x200cm - White/Silver - Boost midsole,2024-03-12,134,121,1
+cs_35,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_GEN_1,Estee Lauder Double Wear Radiance Launch,el_23,EL-S-0025,Micro Essence Lotion - 40 - White - HEPA H13,2024-04-11,144,129,1
+cs_44,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_GEN_1,Estee Lauder Double Wear Radiance Launch,el_24,EL-S-0020,Double Wear Foundation - 200ml - Black - Boost midsole,2024-04-04,62,56,1
+cs_44,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_GEN_1,Estee Lauder Double Wear Radiance Launch,el_24,EL-S-0029,Micro Essence Lotion - One Size - Black - HEPA H13,2024-04-12,41,37,1
+cs_292,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_GEN_1,Estee Lauder Double Wear Radiance Launch,el_25,EL-S-0021,Double Wear Foundation - 50ml - Navy - Removable cover,2024-04-01,108,97,1
+cs_292,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_GEN_1,Estee Lauder Double Wear Radiance Launch,el_25,EL-S-0029,Micro Essence Lotion - One Size - Black - HEPA H13,2024-04-04,41,37,1
+cs_171,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_GEN_1,Estee Lauder Double Wear Radiance Launch,el_26,EL-S-0037,Double Wear Foundation - 160x200cm - N/A - Coanda styling,2024-03-29,53,48,1
+cs_257,Estee Lauder,EL_DWR_2024_001,EL_DWR_SEM_GEN_1,Estee Lauder Double Wear Radiance Launch,el_27,EL-S-0019,Micro Essence Lotion - 50ml - White/Silver - Instant coffee,2024-03-21,114,103,1
+cs_257,Estee Lauder,EL_DWR_2024_001,EL_DWR_META_RT_1,Estee Lauder Double Wear Radiance Launch,el_27,EL-S-0021,Double Wear Foundation - 50ml - Navy - Removable cover,2024-03-03,108,97,1
+cs_134,Estee Lauder,EL_DWR_2024_001,EL_DWR_META_RT_1,Estee Lauder Double Wear Radiance Launch,el_28,EL-S-0003,Double Wear Foundation - 41 - Navy - Boost midsole,2024-03-05,99,89,1
+cs_275,Estee Lauder,EL_DWR_2024_001,EL_DWR_META_RT_1,Estee Lauder Double Wear Radiance Launch,el_29,EL-S-0021,Double Wear Foundation - 50ml - Navy - Removable cover,2024-03-11,108,97,1
+cs_84,Estee Lauder,EL_DWR_2024_001,EL_DWR_GDN_1,Estee Lauder Double Wear Radiance Launch,el_30,EL-S-0031,Micro Essence Lotion - 140x200cm - White/Silver - Boost midsole,2024-03-28,134,121,1
+cs_84,Estee Lauder,EL_DWR_2024_001,EL_DWR_GDN_1,Estee Lauder Double Wear Radiance Launch,el_30,EL-S-0003,Double Wear Foundation - 41 - Navy - Boost midsole,2024-03-02,99,89,1
+cs_195,Estee Lauder,EL_DWR_2024_001,EL_DWR_GDN_1,Estee Lauder Double Wear Radiance Launch,el_31,EL-S-0025,Micro Essence Lotion - 40 - White - HEPA H13,2024-03-27,144,129,1
+cs_142,Estee Lauder,EL_DWR_2024_001,EL_DWR_EMAIL_1,Estee Lauder Double Wear Radiance Launch,el_32,EL-S-0019,Micro Essence Lotion - 50ml - White/Silver - Instant coffee,2024-03-04,114,103,1
+cs_264,Estee Lauder,EL_DWR_2024_001,EL_DWR_EMAIL_1,Estee Lauder Double Wear Radiance Launch,el_33,EL-S-0033,Micro Essence Lotion - S - Green - Satin finish,2024-04-19,39,35,1
+cs_134,Estee Lauder,EL_DWR_2024_001,EL_DWR_EMAIL_1,Estee Lauder Double Wear Radiance Launch,el_34,EL-S-0029,Micro Essence Lotion - One Size - Black - HEPA H13,2024-04-03,41,37,1
+cs_134,Estee Lauder,EL_DWR_2024_001,EL_DWR_META_PR_1,Estee Lauder Double Wear Radiance Launch,el_34,EL-S-0031,Micro Essence Lotion - 140x200cm - White/Silver - Boost midsole,2024-04-19,134,121,1
+cs_45,Estee Lauder,EL_DWR_2024_001,EL_DWR_INFL_1,Estee Lauder Double Wear Radiance Launch,el_35,EL-S-0020,Double Wear Foundation - 200ml - Black - Boost midsole,2024-03-13,62,56,1
+cs_202,Estee Lauder,EL_DWR_2024_001,EL_DWR_YT_1,Estee Lauder Double Wear Radiance Launch,el_36,EL-S-0008,Double Wear Foundation - M - Nickel - 7-zone support,2024-03-11,104,94,1
+cs_277,Estee Lauder,EL_DWR_2024_001,EL_DWR_VOGUE_1,Estee Lauder Double Wear Radiance Launch,el_37,EL-S-0025,Micro Essence Lotion - 40 - White - HEPA H13,2024-03-30,144,129,1
+cs_277,Estee Lauder,EL_DWR_2024_001,,Estee Lauder Double Wear Radiance Launch,el_37,EL-S-0020,Double Wear Foundation - 200ml - Black - Boost midsole,2024-03-14,62,56,1
+cs_245,Estee Lauder,EL_DWR_2024_001,,Estee Lauder Double Wear Radiance Launch,el_38,EL-S-0029,Micro Essence Lotion - One Size - Black - HEPA H13,2024-04-09,41,37,1
+cs_107,Estee Lauder,EL_DWR_2024_001,,Estee Lauder Double Wear Radiance Launch,el_39,EL-S-0029,Micro Essence Lotion - One Size - Black - HEPA H13,2024-03-18,41,37,1
+cs_133,Estee Lauder,EL_DWR_2024_001,,Estee Lauder Double Wear Radiance Launch,el_40,EL-S-0025,Micro Essence Lotion - 40 - White - HEPA H13,2024-04-03,144,129,1
+cs_244,Estee Lauder,EL_DWR_2024_001,,Estee Lauder Double Wear Radiance Launch,el_41,EL-S-0020,Double Wear Foundation - 200ml - Black - Boost midsole,2024-04-18,62,56,1
+cs_244,Estee Lauder,EL_DWR_2024_001,,Estee Lauder Double Wear Radiance Launch,el_41,EL-S-0029,Micro Essence Lotion - One Size - Black - HEPA H13,2024-03-27,41,37,1
+cs_87,Estee Lauder,EL_DWR_2024_001,,Estee Lauder Double Wear Radiance Launch,el_42,EL-S-0020,Double Wear Foundation - 200ml - Black - Boost midsole,2024-04-05,62,56,1
+cs_33,Estee Lauder,EL_DWR_2024_001,,Estee Lauder Double Wear Radiance Launch,el_43,EL-S-0003,Double Wear Foundation - 41 - Navy - Boost midsole,2024-03-10,99,89,1
+cs_44,Estee Lauder,EL_DWR_2024_001,,Estee Lauder Double Wear Radiance Launch,el_44,EL-S-0009,Double Wear Foundation - 50ml - Grey - Hyaluronic acid,2024-03-19,47,42,1
+cs_80,Estee Lauder,EL_DWR_2024_001,,Estee Lauder Double Wear Radiance Launch,el_45,EL-S-0031,Micro Essence Lotion - 140x200cm - White/Silver - Boost midsole,2024-03-21,134,121,1
+cs_186,Estee Lauder,EL_DWR_2024_001,,Estee Lauder Double Wear Radiance Launch,el_46,EL-S-0009,Double Wear Foundation - 50ml - Grey - Hyaluronic acid,2024-03-31,47,42,1
+cs_297,Estee Lauder,EL_DWR_2024_001,,Estee Lauder Double Wear Radiance Launch,el_47,EL-S-0020,Double Wear Foundation - 200ml - Black - Boost midsole,2024-03-02,62,56,1
+cs_250,Estee Lauder,EL_HOL_2024_001,EL_HOL_SEM_BR_1,Holiday Glow Collection 2024,el_48,EL-S-0023,Beautiful Eau de Parfum - 43 - Beige - 7-zone support,2024-11-28,113,102,1
+cs_250,Estee Lauder,EL_HOL_2024_001,EL_HOL_SEM_BR_1,Holiday Glow Collection 2024,el_48,EL-S-0027,Revitalizing Supreme+ Cream - 50ml - N/A - HEPA H13,2024-11-29,100,90,1
+cs_265,Estee Lauder,EL_HOL_2024_001,EL_HOL_META_RT_1,Holiday Glow Collection 2024,el_49,EL-S-0028,Advanced Night Repair Serum - 375g - Navy - Removable cover,2024-12-02,53,48,1
+cs_263,Estee Lauder,EL_HOL_2024_001,EL_HOL_EMAIL_1,Holiday Glow Collection 2024,el_50,EL-S-0004,Beautiful Eau de Parfum - XL - White - Removable cover,2024-11-18,131,118,1
+cs_167,Estee Lauder,EL_HOL_2024_001,EL_HOL_GDN_RT_1,Holiday Glow Collection 2024,el_51,EL-S-0015,Revitalizing Supreme+ Cream - L - White/Silver - Laptop sleeve,2024-12-03,69,62,1
+cs_145,Estee Lauder,EL_HOL_2024_001,,Holiday Glow Collection 2024,el_52,EL-S-0023,Beautiful Eau de Parfum - 43 - Beige - 7-zone support,2024-11-29,113,102,1
+cs_100,Estee Lauder,EL_MD_2024_001,EL_MD_SEM_BR_1,Mother’s Day Gift with Love 2024,el_53,EL-S-0023,Beautiful Eau de Parfum - 43 - Beige - 7-zone support,2024-05-21,113,102,1
+cs_100,Estee Lauder,EL_MD_2024_001,EL_MD_SEM_BR_1,Mother’s Day Gift with Love 2024,el_53,EL-S-0035,Beautiful Eau de Parfum - S - Grey - Ortholite insole,2024-05-11,126,114,1
+cs_230,Estee Lauder,EL_MD_2024_001,EL_MD_SEM_BR_1,Mother’s Day Gift with Love 2024,el_54,EL-S-0023,Beautiful Eau de Parfum - 43 - Beige - 7-zone support,2024-05-13,113,102,1
+cs_223,Estee Lauder,EL_MD_2024_001,EL_MD_SEM_BR_1,Mother’s Day Gift with Love 2024,el_55,EL-S-0012,Beautiful Eau de Parfum - 160x200cm - Green - 7-zone support,2024-05-18,131,118,1
+cs_248,Estee Lauder,EL_MD_2024_001,EL_MD_SEM_BR_1,Mother’s Day Gift with Love 2024,el_56,EL-S-0004,Beautiful Eau de Parfum - XL - White - Removable cover,2024-05-29,131,118,1
+cs_27,Estee Lauder,EL_MD_2024_001,EL_MD_SEM_GEN_1,Mother’s Day Gift with Love 2024,el_57,EL-S-0035,Beautiful Eau de Parfum - S - Grey - Ortholite insole,2024-04-30,126,114,1
+cs_27,Estee Lauder,EL_MD_2024_001,EL_MD_SEM_GEN_1,Mother’s Day Gift with Love 2024,el_57,EL-S-0035,Beautiful Eau de Parfum - S - Grey - Ortholite insole,2024-05-28,126,114,1
+cs_132,Estee Lauder,EL_MD_2024_001,EL_MD_SEM_GEN_1,Mother’s Day Gift with Love 2024,el_58,EL-S-0023,Beautiful Eau de Parfum - 43 - Beige - 7-zone support,2024-05-08,113,102,1
+cs_132,Estee Lauder,EL_MD_2024_001,EL_MD_META_RT_1,Mother’s Day Gift with Love 2024,el_58,EL-S-0012,Beautiful Eau de Parfum - 160x200cm - Green - 7-zone support,2024-05-11,131,118,1
+cs_53,Estee Lauder,EL_MD_2024_001,EL_MD_META_RT_1,Mother’s Day Gift with Love 2024,el_59,EL-S-0035,Beautiful Eau de Parfum - S - Grey - Ortholite insole,2024-05-20,126,114,1
+cs_53,Estee Lauder,EL_MD_2024_001,EL_MD_EMAIL_1,Mother’s Day Gift with Love 2024,el_59,EL-S-0035,Beautiful Eau de Parfum - S - Grey - Ortholite insole,2024-05-06,126,114,1
+cs_74,Estee Lauder,EL_MD_2024_001,EL_MD_EMAIL_1,Mother’s Day Gift with Love 2024,el_60,EL-S-0026,Beautiful Eau de Parfum - L - Navy - Laptop sleeve,2024-05-23,117,106,1
+cs_186,Estee Lauder,EL_MD_2024_001,EL_MD_GDN_RT_1,Mother’s Day Gift with Love 2024,el_61,EL-S-0023,Beautiful Eau de Parfum - 43 - Beige - 7-zone support,2024-04-28,113,102,1
+cs_1,Estee Lauder,EL_MD_2024_001,EL_MD_CRIT_RT_1,Mother’s Day Gift with Love 2024,el_62,EL-S-0004,Beautiful Eau de Parfum - XL - White - Removable cover,2024-04-27,131,118,1
+cs_1,Estee Lauder,EL_MD_2024_001,,Mother’s Day Gift with Love 2024,el_62,EL-S-0035,Beautiful Eau de Parfum - S - Grey - Ortholite insole,2024-05-29,126,114,1
+cs_221,Estee Lauder,EL_MD_2024_001,,Mother’s Day Gift with Love 2024,el_63,EL-S-0012,Beautiful Eau de Parfum - 160x200cm - Green - 7-zone support,2024-05-10,131,118,1
+cs_100,Estee Lauder,EL_MD_2024_001,,Mother’s Day Gift with Love 2024,el_64,EL-S-0026,Beautiful Eau de Parfum - L - Navy - Laptop sleeve,2024-05-01,117,106,1
+cs_100,Estee Lauder,EL_MD_2024_001,,Mother’s Day Gift with Love 2024,el_64,EL-S-0026,Beautiful Eau de Parfum - L - Navy - Laptop sleeve,2024-05-09,117,106,1
+cs_94,Estee Lauder,EL_MD_2024_001,,Mother’s Day Gift with Love 2024,el_65,EL-S-0023,Beautiful Eau de Parfum - 43 - Beige - 7-zone support,2024-05-14,113,102,1
+cs_16,Estee Lauder,EL_MD_2024_001,,Mother’s Day Gift with Love 2024,el_66,EL-S-0012,Beautiful Eau de Parfum - 160x200cm - Green - 7-zone support,2024-05-26,131,118,1
+cs_16,Estee Lauder,EL_MD_2024_001,,Mother’s Day Gift with Love 2024,el_66,EL-S-0026,Beautiful Eau de Parfum - L - Navy - Laptop sleeve,2024-05-14,117,106,1
+cs_160,Estee Lauder,EL_SUM_2024_001,EL_SUM_SEM_BR_1,Summer Essentials Promo,el_67,EL-S-0033,Micro Essence Lotion - S - Green - Satin finish,2024-07-02,39,35,1
+cs_81,Estee Lauder,EL_SUM_2024_001,EL_SUM_SEM_BR_1,Summer Essentials Promo,el_68,EL-S-0014,Pure Color Lipstick - 160x200cm - Nickel - 7-zone support,2024-07-24,29,26,1
+cs_169,Estee Lauder,EL_SUM_2024_001,EL_SUM_META_RT_1,Summer Essentials Promo,el_69,EL-S-0007,Pure Color Lipstick - 140x200cm - Beige - AEROREADY,2024-07-23,131,118,1
+cs_22,Estee Lauder,EL_SUM_2024_001,EL_SUM_EMAIL_1,Summer Essentials Promo,el_70,EL-S-0031,Micro Essence Lotion - 140x200cm - White/Silver - Boost midsole,2024-07-31,134,121,1
+cs_22,Estee Lauder,EL_SUM_2024_001,EL_SUM_CRIT_RT_1,Summer Essentials Promo,el_70,EL-S-0038,Pure Color Lipstick - 41 - White/Silver - Satin finish,2024-07-22,62,56,1
+cs_235,Estee Lauder,EL_SUM_2024_001,EL_SUM_CRIT_RT_1,Summer Essentials Promo,el_71,EL-S-0039,Pure Color Lipstick - 41 - Green - Coanda styling,2024-07-16,103,92,1
+cs_235,Estee Lauder,EL_SUM_2024_001,EL_SUM_CRIT_RT_1,Summer Essentials Promo,el_71,EL-S-0014,Pure Color Lipstick - 160x200cm - Nickel - 7-zone support,2024-06-26,29,26,1
+cs_246,Estee Lauder,EL_VOGUE_2024_001,EL_VOGUE_SEM_BR_1,Winter Skincare Week with Vogue DE,el_72,EL-S-0019,Micro Essence Lotion - 50ml - White/Silver - Instant coffee,2025-01-03,114,91,1
+cs_246,Estee Lauder,EL_VOGUE_2024_001,EL_VOGUE_SEM_BR_1,Winter Skincare Week with Vogue DE,el_72,EL-S-0031,Micro Essence Lotion - 140x200cm - White/Silver - Boost midsole,2024-12-28,134,107,1
+cs_115,Estee Lauder,EL_VOGUE_2024_001,EL_VOGUE_SEM_BR_1,Winter Skincare Week with Vogue DE,el_73,EL-S-0034,Advanced Night Repair Serum - 41 - White/Silver - Boost midsole,2024-12-12,97,78,1
+cs_115,Estee Lauder,EL_VOGUE_2024_001,EL_VOGUE_SEM_BR_1,Winter Skincare Week with Vogue DE,el_73,EL-S-0034,Advanced Night Repair Serum - 41 - White/Silver - Boost midsole,2024-12-16,97,78,1
+cs_4,Estee Lauder,EL_VOGUE_2024_001,EL_VOGUE_META_RT_1,Winter Skincare Week with Vogue DE,el_74,EL-S-0025,Micro Essence Lotion - 40 - White - HEPA H13,2025-01-10,144,115,1
+cs_4,Estee Lauder,EL_VOGUE_2024_001,EL_VOGUE_META_RT_1,Winter Skincare Week with Vogue DE,el_74,EL-S-0025,Micro Essence Lotion - 40 - White - HEPA H13,2024-12-22,144,115,1
+cs_188,Estee Lauder,EL_VOGUE_2024_001,EL_VOGUE_GDN_RT_1,Winter Skincare Week with Vogue DE,el_75,EL-S-0034,Advanced Night Repair Serum - 41 - White/Silver - Boost midsole,2024-12-04,97,78,1
+cs_57,Estee Lauder,EL_VOGUE_2024_001,EL_VOGUE_GDN_RT_1,Winter Skincare Week with Vogue DE,el_76,EL-S-0028,Advanced Night Repair Serum - 375g - Navy - Removable cover,2024-12-04,53,43,1
+cs_57,Estee Lauder,EL_VOGUE_2024_001,EL_VOGUE_EMAIL_1,Winter Skincare Week with Vogue DE,el_76,EL-S-0002,Advanced Night Repair Serum - 160x200cm - Black - Removable cover,2024-12-11,97,78,1
+cs_118,Estee Lauder,EL_VOGUE_2024_001,EL_VOGUE_EMAIL_1,Winter Skincare Week with Vogue DE,el_77,EL-S-0034,Advanced Night Repair Serum - 41 - White/Silver - Boost midsole,2024-12-20,97,78,1
+cs_118,Estee Lauder,EL_VOGUE_2024_001,,Winter Skincare Week with Vogue DE,el_77,EL-S-0019,Micro Essence Lotion - 50ml - White/Silver - Instant coffee,2025-01-05,114,91,1
+cs_84,Estee Lauder,EL_VOGUE_2024_001,,Winter Skincare Week with Vogue DE,el_78,EL-S-0034,Advanced Night Repair Serum - 41 - White/Silver - Boost midsole,2024-12-02,97,78,1
+cs_136,Estee Lauder,EL_VOGUE_2024_001,,Winter Skincare Week with Vogue DE,el_79,EL-S-0031,Micro Essence Lotion - 140x200cm - White/Silver - Boost midsole,2025-01-13,134,107,1
+cs_136,Estee Lauder,EL_VOGUE_2024_001,,Winter Skincare Week with Vogue DE,el_79,EL-S-0033,Micro Essence Lotion - S - Green - Satin finish,2024-12-07,39,31,1
+cs_212,Estee Lauder,EL_VOGUE_2024_001,,Winter Skincare Week with Vogue DE,el_80,EL-S-0029,Micro Essence Lotion - One Size - Black - HEPA H13,2024-12-02,41,33,1
+cs_16,Estee Lauder,EL_VOGUE_2024_001,,Winter Skincare Week with Vogue DE,el_81,EL-S-0019,Micro Essence Lotion - 50ml - White/Silver - Instant coffee,2024-12-27,114,91,1
+cs_288,Estee Lauder,organic,,organic,el_82,EL-S-0032,Pure Color Lipstick - One Size - White/Silver - Satin finish,2024-11-22,80,72,1
+cs_75,Estee Lauder,organic,,organic,el_83,EL-S-0001,Pure Color Lipstick - 50ml - White - Ortholite insole,2024-10-11,146,131,1
+cs_79,Estee Lauder,organic,,organic,el_84,EL-S-0038,Pure Color Lipstick - 41 - White/Silver - Satin finish,2024-06-24,62,56,1
+cs_76,Estee Lauder,organic,,organic,el_85,EL-S-0034,Advanced Night Repair Serum - 41 - White/Silver - Boost midsole,2025-01-10,97,87,1
+cs_76,Estee Lauder,organic,,organic,el_85,EL-S-0039,Pure Color Lipstick - 41 - Green - Coanda styling,2024-07-29,103,92,1
+cs_9,Estee Lauder,organic,,organic,el_86,EL-S-0014,Pure Color Lipstick - 160x200cm - Nickel - 7-zone support,2024-06-21,29,26,1
+cs_9,Estee Lauder,organic,,organic,el_86,EL-S-0032,Pure Color Lipstick - One Size - White/Silver - Satin finish,2024-12-12,80,72,1
+cs_104,Estee Lauder,organic,,organic,el_87,EL-S-0011,Pure Color Lipstick - 200ml - White/Silver - Satin finish,2024-10-13,79,72,1
+cs_151,Estee Lauder,organic,,organic,el_88,EL-S-0029,Micro Essence Lotion - One Size - Black - HEPA H13,2024-03-16,41,37,1
+cs_9,Estee Lauder,organic,,organic,el_89,EL-S-0005,Pure Color Lipstick - 200ml - White - Coanda styling,2024-09-28,123,111,1
+cs_279,Estee Lauder,organic,,organic,el_90,EL-S-0039,Pure Color Lipstick - 41 - Green - Coanda styling,2024-07-25,103,92,1
+cs_218,Estee Lauder,organic,,organic,el_91,EL-S-0013,Advanced Night Repair Serum - One Size - White/Silver - Laptop sleeve,2024-11-28,119,107,1
+cs_123,Estee Lauder,organic,,organic,el_92,EL-S-0034,Advanced Night Repair Serum - 41 - White/Silver - Boost midsole,2024-12-12,97,87,1
+cs_123,Estee Lauder,organic,,organic,el_92,EL-S-0040,Pure Color Lipstick - 50ml - White - Laptop sleeve,2024-11-05,103,93,1
+cs_83,Estee Lauder,organic,,organic,el_93,EL-S-0032,Pure Color Lipstick - One Size - White/Silver - Satin finish,2024-12-14,80,72,1
+cs_279,Estee Lauder,organic,,organic,el_94,EL-S-0019,Micro Essence Lotion - 50ml - White/Silver - Instant coffee,2024-03-11,114,103,1
+cs_5,Estee Lauder,organic,,organic,el_95,EL-S-0028,Advanced Night Repair Serum - 375g - Navy - Removable cover,2024-12-03,53,48,1
+cs_5,Estee Lauder,organic,,organic,el_95,EL-S-0034,Advanced Night Repair Serum - 41 - White/Silver - Boost midsole,2024-12-22,97,87,1
+cs_233,Estee Lauder,organic,,organic,el_96,EL-S-0030,Advanced Night Repair Serum - S - Blue/Copper - Removable cover,2024-11-01,112,101,1
+cs_150,Estee Lauder,organic,,organic,el_97,EL-S-0019,Micro Essence Lotion - 50ml - White/Silver - Instant coffee,2024-03-20,114,103,1
+cs_220,Estee Lauder,organic,,organic,el_98,EL-S-0032,Pure Color Lipstick - One Size - White/Silver - Satin finish,2024-12-13,80,72,1
+cs_220,Estee Lauder,organic,,organic,el_98,EL-S-0007,Pure Color Lipstick - 140x200cm - Beige - AEROREADY,2024-06-20,131,118,1
+cs_219,Estee Lauder,organic,,organic,el_99,EL-S-0030,Advanced Night Repair Serum - S - Blue/Copper - Removable cover,2024-11-01,112,101,1
+cs_219,Estee Lauder,organic,,organic,el_99,EL-S-0040,Pure Color Lipstick - 50ml - White - Laptop sleeve,2024-11-19,103,93,1
+cs_291,Estee Lauder,organic,,organic,el_100,EL-S-0013,Advanced Night Repair Serum - One Size - White/Silver - Laptop sleeve,2024-11-07,119,107,1
+cs_291,Estee Lauder,organic,,organic,el_100,EL-S-0007,Pure Color Lipstick - 140x200cm - Beige - AEROREADY,2024-07-15,131,118,1
+cs_102,Estee Lauder,organic,,organic,el_101,EL-S-0034,Advanced Night Repair Serum - 41 - White/Silver - Boost midsole,2024-12-17,97,87,1
+cs_102,Estee Lauder,organic,,organic,el_101,EL-S-0010,Pure Color Lipstick - 140x200cm - Green - Coanda styling,2024-09-17,126,113,1
+cs_233,Nestle,NS_GG_2024_001,NS_GG_SEM_BR_1,Garden Gourmet Spring Refresh Promotion,ns_1,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-04-29,7,6,1
+cs_233,Nestle,NS_GG_2024_001,NS_GG_SEM_BR_1,Garden Gourmet Spring Refresh Promotion,ns_1,NES-S-0010,KitKat 4-Finger - 50ml - Nickel - Removable cover,2024-04-01,7,6,1
+cs_233,Nestle,NS_GG_2024_001,NS_GG_SEM_BR_1,Garden Gourmet Spring Refresh Promotion,ns_1,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-03-22,6,5,1
+cs_233,Nestle,NS_GG_2024_001,NS_GG_SEM_BR_1,Garden Gourmet Spring Refresh Promotion,ns_1,NES-S-0011,After Eight Mints - 42 - White - Coanda styling,2024-03-30,2,2,1
+cs_233,Nestle,NS_GG_2024_001,NS_GG_SEM_BR_1,Garden Gourmet Spring Refresh Promotion,ns_1,NES-S-0015,After Eight Mints - 200g - Green - Ortholite insole,2024-04-05,12,11,1
+cs_213,Nestle,NS_GG_2024_001,NS_GG_SEM_BR_1,Garden Gourmet Spring Refresh Promotion,ns_2,NES-S-0017,After Eight Mints - 40 - Beige - Instant coffee,2024-04-13,3,3,1
+cs_213,Nestle,NS_GG_2024_001,NS_GG_SEM_BR_1,Garden Gourmet Spring Refresh Promotion,ns_2,NES-S-0016,After Eight Mints - 140x200cm - White/Silver - Boost midsole,2024-04-22,7,6,1
+cs_213,Nestle,NS_GG_2024_001,NS_GG_GDN_RT_1,Garden Gourmet Spring Refresh Promotion,ns_2,NES-S-0015,After Eight Mints - 200g - Green - Ortholite insole,2024-04-24,12,11,1
+cs_213,Nestle,NS_GG_2024_001,NS_GG_GDN_RT_1,Garden Gourmet Spring Refresh Promotion,ns_2,NES-S-0016,After Eight Mints - 140x200cm - White/Silver - Boost midsole,2024-04-05,7,6,1
+cs_213,Nestle,NS_GG_2024_001,NS_GG_GDN_RT_1,Garden Gourmet Spring Refresh Promotion,ns_2,NES-S-0001,KitKat 4-Finger - 140x200cm - White - Ortholite insole,2024-04-09,4,4,1
+cs_104,Nestle,NS_GG_2024_001,NS_GG_EMAIL_1,Garden Gourmet Spring Refresh Promotion,ns_3,NES-S-0001,KitKat 4-Finger - 140x200cm - White - Ortholite insole,2024-04-22,4,4,1
+cs_104,Nestle,NS_GG_2024_001,NS_GG_EMAIL_1,Garden Gourmet Spring Refresh Promotion,ns_3,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-04-14,3,3,1
+cs_104,Nestle,NS_GG_2024_001,NS_GG_META_PR_1,Garden Gourmet Spring Refresh Promotion,ns_3,NES-S-0011,After Eight Mints - 42 - White - Coanda styling,2024-04-06,2,2,1
+cs_104,Nestle,NS_GG_2024_001,NS_GG_YT_1,Garden Gourmet Spring Refresh Promotion,ns_3,NES-S-0005,KitKat 4-Finger - 200ml - N/A - Instant coffee,2024-04-04,10,9,1
+cs_104,Nestle,NS_GG_2024_001,NS_GG_AWIN_1,Garden Gourmet Spring Refresh Promotion,ns_3,NES-S-0014,KitKat 4-Finger - 160x200cm - Black - Ortholite insole,2024-04-24,7,6,1
+cs_186,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_4,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-04-09,6,5,1
+cs_186,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_4,NES-S-0014,KitKat 4-Finger - 160x200cm - Black - Ortholite insole,2024-04-24,7,6,1
+cs_186,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_4,NES-S-0001,KitKat 4-Finger - 140x200cm - White - Ortholite insole,2024-03-26,4,4,1
+cs_186,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_4,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-04-01,4,4,1
+cs_186,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_4,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-04-14,7,6,1
+cs_232,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_5,NES-S-0020,KitKat 4-Finger - One Size - Beige - Boost midsole,2024-04-28,12,11,1
+cs_232,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_5,NES-S-0015,After Eight Mints - 200g - Green - Ortholite insole,2024-04-19,12,11,1
+cs_232,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_5,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-04-12,6,5,1
+cs_232,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_5,NES-S-0016,After Eight Mints - 140x200cm - White/Silver - Boost midsole,2024-04-19,7,6,1
+cs_232,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_5,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-03-30,6,5,1
+cs_238,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_6,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-03-29,6,5,1
+cs_238,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_6,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-03-30,6,5,1
+cs_238,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_6,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-04-03,7,6,1
+cs_238,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_6,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-04-15,3,3,1
+cs_238,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_6,NES-S-0004,KitKat 4-Finger - 50ml - White/Silver - Boost midsole,2024-04-29,9,8,1
+cs_117,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_7,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-03-23,3,3,1
+cs_117,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_7,NES-S-0012,After Eight Mints - 50ml - Beige - Coanda styling,2024-04-13,5,4,1
+cs_117,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_7,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-04-27,4,4,1
+cs_117,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_7,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-04-01,4,4,1
+cs_117,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_7,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-04-13,6,5,1
+cs_236,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_8,NES-S-0017,After Eight Mints - 40 - Beige - Instant coffee,2024-03-21,3,3,1
+cs_236,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_8,NES-S-0016,After Eight Mints - 140x200cm - White/Silver - Boost midsole,2024-04-17,7,6,1
+cs_236,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_8,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-04-11,3,3,1
+cs_236,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_8,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-04-09,6,5,1
+cs_236,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_8,NES-S-0011,After Eight Mints - 42 - White - Coanda styling,2024-04-28,2,2,1
+cs_116,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_9,NES-S-0012,After Eight Mints - 50ml - Beige - Coanda styling,2024-04-24,5,4,1
+cs_116,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_9,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-04-01,7,6,1
+cs_116,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_9,NES-S-0001,KitKat 4-Finger - 140x200cm - White - Ortholite insole,2024-04-24,4,4,1
+cs_116,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_9,NES-S-0010,KitKat 4-Finger - 50ml - Nickel - Removable cover,2024-04-17,7,6,1
+cs_116,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_9,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-04-28,4,4,1
+cs_267,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_10,NES-S-0017,After Eight Mints - 40 - Beige - Instant coffee,2024-04-26,3,3,1
+cs_267,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_10,NES-S-0020,KitKat 4-Finger - One Size - Beige - Boost midsole,2024-04-07,12,11,1
+cs_267,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_10,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-03-23,4,4,1
+cs_267,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_10,NES-S-0020,KitKat 4-Finger - One Size - Beige - Boost midsole,2024-03-26,12,11,1
+cs_267,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_10,NES-S-0012,After Eight Mints - 50ml - Beige - Coanda styling,2024-04-06,5,4,1
+cs_138,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_11,NES-S-0016,After Eight Mints - 140x200cm - White/Silver - Boost midsole,2024-04-24,7,6,1
+cs_138,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_11,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-04-19,3,3,1
+cs_138,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_11,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-04-04,7,6,1
+cs_138,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_11,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-04-15,3,3,1
+cs_138,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_11,NES-S-0014,KitKat 4-Finger - 160x200cm - Black - Ortholite insole,2024-03-23,7,6,1
+cs_247,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_12,NES-S-0010,KitKat 4-Finger - 50ml - Nickel - Removable cover,2024-03-24,7,6,1
+cs_247,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_12,NES-S-0004,KitKat 4-Finger - 50ml - White/Silver - Boost midsole,2024-04-22,9,8,1
+cs_247,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_12,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-04-01,6,5,1
+cs_247,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_12,NES-S-0004,KitKat 4-Finger - 50ml - White/Silver - Boost midsole,2024-03-27,9,8,1
+cs_247,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_12,NES-S-0014,KitKat 4-Finger - 160x200cm - Black - Ortholite insole,2024-03-27,7,6,1
+cs_202,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_13,NES-S-0001,KitKat 4-Finger - 140x200cm - White - Ortholite insole,2024-04-27,4,4,1
+cs_202,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_13,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-04-28,6,5,1
+cs_202,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_13,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-03-21,7,6,1
+cs_202,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_13,NES-S-0005,KitKat 4-Finger - 200ml - N/A - Instant coffee,2024-04-22,10,9,1
+cs_202,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_13,NES-S-0017,After Eight Mints - 40 - Beige - Instant coffee,2024-04-22,3,3,1
+cs_288,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_14,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-04-17,6,5,1
+cs_288,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_14,NES-S-0016,After Eight Mints - 140x200cm - White/Silver - Boost midsole,2024-04-28,7,6,1
+cs_288,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_14,NES-S-0001,KitKat 4-Finger - 140x200cm - White - Ortholite insole,2024-04-29,4,4,1
+cs_288,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_14,NES-S-0004,KitKat 4-Finger - 50ml - White/Silver - Boost midsole,2024-03-29,9,8,1
+cs_288,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_14,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-04-11,7,6,1
+cs_237,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_15,NES-S-0014,KitKat 4-Finger - 160x200cm - Black - Ortholite insole,2024-04-05,7,6,1
+cs_237,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_15,NES-S-0010,KitKat 4-Finger - 50ml - Nickel - Removable cover,2024-03-20,7,6,1
+cs_237,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_15,NES-S-0017,After Eight Mints - 40 - Beige - Instant coffee,2024-04-17,3,3,1
+cs_237,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_15,NES-S-0012,After Eight Mints - 50ml - Beige - Coanda styling,2024-04-13,5,4,1
+cs_237,Nestle,NS_GG_2024_001,,Garden Gourmet Spring Refresh Promotion,ns_15,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-04-10,7,6,1
+cs_73,Nestle,NS_MAG_2024_001,NS_MAG_SEM_BR_1,Maggi Autumn Wellness Program,ns_16,NES-S-0017,After Eight Mints - 40 - Beige - Instant coffee,2024-10-07,3,3,1
+cs_73,Nestle,NS_MAG_2024_001,NS_MAG_SEM_BR_1,Maggi Autumn Wellness Program,ns_16,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-10-21,7,6,1
+cs_73,Nestle,NS_MAG_2024_001,NS_MAG_SEM_BR_1,Maggi Autumn Wellness Program,ns_16,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-11-09,6,5,1
+cs_73,Nestle,NS_MAG_2024_001,NS_MAG_SEM_BR_1,Maggi Autumn Wellness Program,ns_16,NES-S-0011,After Eight Mints - 42 - White - Coanda styling,2024-10-15,2,2,1
+cs_73,Nestle,NS_MAG_2024_001,NS_MAG_SEM_BR_1,Maggi Autumn Wellness Program,ns_16,NES-S-0012,After Eight Mints - 50ml - Beige - Coanda styling,2024-10-15,5,4,1
+cs_274,Nestle,NS_MAG_2024_001,NS_MAG_GDN_RT_1,Maggi Autumn Wellness Program,ns_17,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-10-20,6,5,1
+cs_274,Nestle,NS_MAG_2024_001,NS_MAG_GDN_RT_1,Maggi Autumn Wellness Program,ns_17,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-11-07,7,6,1
+cs_274,Nestle,NS_MAG_2024_001,NS_MAG_EMAIL_1,Maggi Autumn Wellness Program,ns_17,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-10-11,4,4,1
+cs_274,Nestle,NS_MAG_2024_001,NS_MAG_EMAIL_1,Maggi Autumn Wellness Program,ns_17,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-10-12,7,6,1
+cs_274,Nestle,NS_MAG_2024_001,NS_MAG_META_PR_1,Maggi Autumn Wellness Program,ns_17,NES-S-0016,After Eight Mints - 140x200cm - White/Silver - Boost midsole,2024-10-24,7,6,1
+cs_134,Nestle,NS_MAG_2024_001,NS_MAG_AWIN_1,Maggi Autumn Wellness Program,ns_18,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-10-16,7,6,1
+cs_134,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_18,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-10-14,4,4,1
+cs_134,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_18,NES-S-0017,After Eight Mints - 40 - Beige - Instant coffee,2024-10-18,3,3,1
+cs_134,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_18,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-10-08,4,4,1
+cs_134,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_18,NES-S-0012,After Eight Mints - 50ml - Beige - Coanda styling,2024-10-20,5,4,1
+cs_104,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_19,NES-S-0016,After Eight Mints - 140x200cm - White/Silver - Boost midsole,2024-10-24,7,6,1
+cs_104,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_19,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-10-20,3,3,1
+cs_104,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_19,NES-S-0016,After Eight Mints - 140x200cm - White/Silver - Boost midsole,2024-10-17,7,6,1
+cs_104,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_19,NES-S-0011,After Eight Mints - 42 - White - Coanda styling,2024-10-19,2,2,1
+cs_104,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_19,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-10-19,6,5,1
+cs_191,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_20,NES-S-0012,After Eight Mints - 50ml - Beige - Coanda styling,2024-10-29,5,4,1
+cs_191,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_20,NES-S-0012,After Eight Mints - 50ml - Beige - Coanda styling,2024-11-04,5,4,1
+cs_191,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_20,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-11-08,6,5,1
+cs_191,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_20,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-10-25,4,4,1
+cs_191,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_20,NES-S-0012,After Eight Mints - 50ml - Beige - Coanda styling,2024-10-22,5,4,1
+cs_236,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_21,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-10-27,4,4,1
+cs_236,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_21,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-10-19,7,6,1
+cs_236,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_21,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-11-08,6,5,1
+cs_236,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_21,NES-S-0015,After Eight Mints - 200g - Green - Ortholite insole,2024-11-10,12,11,1
+cs_236,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_21,NES-S-0017,After Eight Mints - 40 - Beige - Instant coffee,2024-10-09,3,3,1
+cs_170,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_22,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-10-07,4,4,1
+cs_170,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_22,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-10-26,6,5,1
+cs_170,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_22,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-11-01,3,3,1
+cs_170,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_22,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-10-15,7,6,1
+cs_170,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_22,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-10-05,3,3,1
+cs_21,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_23,NES-S-0011,After Eight Mints - 42 - White - Coanda styling,2024-10-07,2,2,1
+cs_21,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_23,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-10-27,4,4,1
+cs_21,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_23,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-10-16,4,4,1
+cs_21,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_23,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-10-16,3,3,1
+cs_21,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_23,NES-S-0016,After Eight Mints - 140x200cm - White/Silver - Boost midsole,2024-10-11,7,6,1
+cs_8,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_24,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-10-21,6,5,1
+cs_8,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_24,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-10-09,7,6,1
+cs_8,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_24,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-10-15,3,3,1
+cs_8,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_24,NES-S-0011,After Eight Mints - 42 - White - Coanda styling,2024-10-22,2,2,1
+cs_8,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_24,NES-S-0016,After Eight Mints - 140x200cm - White/Silver - Boost midsole,2024-10-24,7,6,1
+cs_285,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_25,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-10-26,6,5,1
+cs_285,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_25,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-10-26,3,3,1
+cs_285,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_25,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-11-03,6,5,1
+cs_285,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_25,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-10-11,4,4,1
+cs_285,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_25,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-10-23,7,6,1
+cs_131,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_26,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-10-13,3,3,1
+cs_131,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_26,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-10-28,4,4,1
+cs_131,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_26,NES-S-0015,After Eight Mints - 200g - Green - Ortholite insole,2024-11-08,12,11,1
+cs_131,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_26,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-10-11,7,6,1
+cs_131,Nestle,NS_MAG_2024_001,,Maggi Autumn Wellness Program,ns_26,NES-S-0015,After Eight Mints - 200g - Green - Ortholite insole,2024-10-25,12,11,1
+cs_227,Nestle,NS_NESC_2024_001,NS_NESC_SEM_BR_1,Nescafé Winter Warmth Campaign,ns_27,NES-S-0013,Nescaf챕 Gold - XL - N/A - Coanda styling,2024-12-30,12,9,1
+cs_227,Nestle,NS_NESC_2024_001,NS_NESC_SEM_BR_1,Nescafé Winter Warmth Campaign,ns_27,NES-S-0011,After Eight Mints - 42 - White - Coanda styling,2024-12-11,2,2,1
+cs_227,Nestle,NS_NESC_2024_001,NS_NESC_SEM_BR_1,Nescafé Winter Warmth Campaign,ns_27,NES-S-0008,Nespresso Original Capsules - 200ml - Green - Coanda styling,2024-12-17,9,8,1
+cs_227,Nestle,NS_NESC_2024_001,NS_NESC_SEM_BR_1,Nescafé Winter Warmth Campaign,ns_27,NES-S-0018,Nespresso Original Capsules - 40 - Nickel - Satin finish,2024-12-29,5,4,1
+cs_227,Nestle,NS_NESC_2024_001,NS_NESC_SEM_BR_1,Nescafé Winter Warmth Campaign,ns_27,NES-S-0012,After Eight Mints - 50ml - Beige - Coanda styling,2024-12-11,5,4,1
+cs_250,Nestle,NS_NESC_2024_001,NS_NESC_SEM_BR_1,Nescafé Winter Warmth Campaign,ns_28,NES-S-0013,Nescaf챕 Gold - XL - N/A - Coanda styling,2024-12-12,12,9,1
+cs_250,Nestle,NS_NESC_2024_001,NS_NESC_SEM_GEN_1,Nescafé Winter Warmth Campaign,ns_28,NES-S-0017,After Eight Mints - 40 - Beige - Instant coffee,2024-12-18,3,2,1
+cs_250,Nestle,NS_NESC_2024_001,NS_NESC_SEM_GEN_1,Nescafé Winter Warmth Campaign,ns_28,NES-S-0017,After Eight Mints - 40 - Beige - Instant coffee,2024-12-30,3,2,1
+cs_250,Nestle,NS_NESC_2024_001,NS_NESC_SEM_GEN_1,Nescafé Winter Warmth Campaign,ns_28,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-12-11,7,5,1
+cs_250,Nestle,NS_NESC_2024_001,NS_NESC_META_RT_1,Nescafé Winter Warmth Campaign,ns_28,NES-S-0007,Nespresso Original Capsules - 200g - Green - Ortholite insole,2024-12-13,3,2,1
+cs_115,Nestle,NS_NESC_2024_001,NS_NESC_META_RT_1,Nescafé Winter Warmth Campaign,ns_29,NES-S-0017,After Eight Mints - 40 - Beige - Instant coffee,2024-12-31,3,2,1
+cs_115,Nestle,NS_NESC_2024_001,NS_NESC_EMAIL_1,Nescafé Winter Warmth Campaign,ns_29,NES-S-0013,Nescaf챕 Gold - XL - N/A - Coanda styling,2024-12-01,12,9,1
+cs_115,Nestle,NS_NESC_2024_001,NS_NESC_EMAIL_1,Nescafé Winter Warmth Campaign,ns_29,NES-S-0006,Nespresso Original Capsules - 41 - White - HEPA H13,2024-12-15,4,3,1
+cs_115,Nestle,NS_NESC_2024_001,NS_NESC_META_PR_1,Nescafé Winter Warmth Campaign,ns_29,NES-S-0011,After Eight Mints - 42 - White - Coanda styling,2024-12-10,2,2,1
+cs_115,Nestle,NS_NESC_2024_001,NS_NESC_GDN_PR_1,Nescafé Winter Warmth Campaign,ns_29,NES-S-0018,Nespresso Original Capsules - 40 - Nickel - Satin finish,2024-12-07,5,4,1
+cs_83,Nestle,NS_NESC_2024_001,NS_NESC_GDN_RT_1,Nescafé Winter Warmth Campaign,ns_30,NES-S-0007,Nespresso Original Capsules - 200g - Green - Ortholite insole,2024-12-06,3,2,1
+cs_83,Nestle,NS_NESC_2024_001,NS_NESC_CRITEO_RT_1,Nescafé Winter Warmth Campaign,ns_30,NES-S-0011,After Eight Mints - 42 - White - Coanda styling,2024-12-22,2,2,1
+cs_83,Nestle,NS_NESC_2024_001,NS_NESC_AWIN_1,Nescafé Winter Warmth Campaign,ns_30,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-12-20,7,5,1
+cs_83,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_30,NES-S-0007,Nespresso Original Capsules - 200g - Green - Ortholite insole,2024-12-20,3,2,1
+cs_83,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_30,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-12-14,7,5,1
+cs_93,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_31,NES-S-0018,Nespresso Original Capsules - 40 - Nickel - Satin finish,2024-12-09,5,4,1
+cs_93,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_31,NES-S-0016,After Eight Mints - 140x200cm - White/Silver - Boost midsole,2024-12-31,7,5,1
+cs_93,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_31,NES-S-0013,Nescaf챕 Gold - XL - N/A - Coanda styling,2024-12-29,12,9,1
+cs_93,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_31,NES-S-0015,After Eight Mints - 200g - Green - Ortholite insole,2024-12-01,12,10,1
+cs_93,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_31,NES-S-0008,Nespresso Original Capsules - 200ml - Green - Coanda styling,2024-12-25,9,8,1
+cs_41,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_32,NES-S-0013,Nescaf챕 Gold - XL - N/A - Coanda styling,2024-12-28,12,9,1
+cs_41,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_32,NES-S-0011,After Eight Mints - 42 - White - Coanda styling,2024-12-24,2,2,1
+cs_41,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_32,NES-S-0012,After Eight Mints - 50ml - Beige - Coanda styling,2024-12-21,5,4,1
+cs_41,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_32,NES-S-0015,After Eight Mints - 200g - Green - Ortholite insole,2024-12-05,12,10,1
+cs_41,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_32,NES-S-0006,Nespresso Original Capsules - 41 - White - HEPA H13,2024-12-19,4,3,1
+cs_196,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_33,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-12-14,7,5,1
+cs_196,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_33,NES-S-0011,After Eight Mints - 42 - White - Coanda styling,2024-12-09,2,2,1
+cs_196,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_33,NES-S-0018,Nespresso Original Capsules - 40 - Nickel - Satin finish,2024-12-16,5,4,1
+cs_196,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_33,NES-S-0016,After Eight Mints - 140x200cm - White/Silver - Boost midsole,2024-12-06,7,5,1
+cs_196,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_33,NES-S-0017,After Eight Mints - 40 - Beige - Instant coffee,2024-12-05,3,2,1
+cs_172,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_34,NES-S-0017,After Eight Mints - 40 - Beige - Instant coffee,2024-12-22,3,2,1
+cs_172,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_34,NES-S-0017,After Eight Mints - 40 - Beige - Instant coffee,2024-12-07,3,2,1
+cs_172,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_34,NES-S-0015,After Eight Mints - 200g - Green - Ortholite insole,2024-12-16,12,10,1
+cs_172,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_34,NES-S-0017,After Eight Mints - 40 - Beige - Instant coffee,2024-12-12,3,2,1
+cs_172,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_34,NES-S-0015,After Eight Mints - 200g - Green - Ortholite insole,2024-12-31,12,10,1
+cs_178,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_35,NES-S-0013,Nescaf챕 Gold - XL - N/A - Coanda styling,2024-12-01,12,9,1
+cs_178,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_35,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-12-09,7,5,1
+cs_178,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_35,NES-S-0015,After Eight Mints - 200g - Green - Ortholite insole,2024-12-05,12,10,1
+cs_178,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_35,NES-S-0018,Nespresso Original Capsules - 40 - Nickel - Satin finish,2024-12-26,5,4,1
+cs_178,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_35,NES-S-0007,Nespresso Original Capsules - 200g - Green - Ortholite insole,2024-12-27,3,2,1
+cs_39,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_36,NES-S-0015,After Eight Mints - 200g - Green - Ortholite insole,2024-12-13,12,10,1
+cs_39,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_36,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-12-15,7,5,1
+cs_39,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_36,NES-S-0018,Nespresso Original Capsules - 40 - Nickel - Satin finish,2024-12-28,5,4,1
+cs_39,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_36,NES-S-0015,After Eight Mints - 200g - Green - Ortholite insole,2024-12-04,12,10,1
+cs_39,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_36,NES-S-0016,After Eight Mints - 140x200cm - White/Silver - Boost midsole,2024-12-15,7,5,1
+cs_28,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_37,NES-S-0008,Nespresso Original Capsules - 200ml - Green - Coanda styling,2024-12-25,9,8,1
+cs_28,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_37,NES-S-0008,Nespresso Original Capsules - 200ml - Green - Coanda styling,2024-12-31,9,8,1
+cs_28,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_37,NES-S-0012,After Eight Mints - 50ml - Beige - Coanda styling,2024-12-11,5,4,1
+cs_28,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_37,NES-S-0018,Nespresso Original Capsules - 40 - Nickel - Satin finish,2024-12-30,5,4,1
+cs_28,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_37,NES-S-0012,After Eight Mints - 50ml - Beige - Coanda styling,2024-12-05,5,4,1
+cs_214,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_38,NES-S-0013,Nescaf챕 Gold - XL - N/A - Coanda styling,2024-12-31,12,9,1
+cs_214,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_38,NES-S-0007,Nespresso Original Capsules - 200g - Green - Ortholite insole,2024-12-17,3,2,1
+cs_214,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_38,NES-S-0012,After Eight Mints - 50ml - Beige - Coanda styling,2024-12-04,5,4,1
+cs_214,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_38,NES-S-0012,After Eight Mints - 50ml - Beige - Coanda styling,2024-12-31,5,4,1
+cs_214,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_38,NES-S-0011,After Eight Mints - 42 - White - Coanda styling,2024-12-08,2,2,1
+cs_244,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_39,NES-S-0006,Nespresso Original Capsules - 41 - White - HEPA H13,2024-12-30,4,3,1
+cs_244,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_39,NES-S-0007,Nespresso Original Capsules - 200g - Green - Ortholite insole,2024-12-19,3,2,1
+cs_244,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_39,NES-S-0006,Nespresso Original Capsules - 41 - White - HEPA H13,2024-12-22,4,3,1
+cs_244,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_39,NES-S-0017,After Eight Mints - 40 - Beige - Instant coffee,2024-12-25,3,2,1
+cs_244,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_39,NES-S-0008,Nespresso Original Capsules - 200ml - Green - Coanda styling,2024-12-08,9,8,1
+cs_123,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_40,NES-S-0006,Nespresso Original Capsules - 41 - White - HEPA H13,2024-12-21,4,3,1
+cs_123,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_40,NES-S-0007,Nespresso Original Capsules - 200g - Green - Ortholite insole,2024-12-31,3,2,1
+cs_123,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_40,NES-S-0012,After Eight Mints - 50ml - Beige - Coanda styling,2024-12-12,5,4,1
+cs_123,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_40,NES-S-0007,Nespresso Original Capsules - 200g - Green - Ortholite insole,2024-12-17,3,2,1
+cs_123,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_40,NES-S-0013,Nescaf챕 Gold - XL - N/A - Coanda styling,2024-12-11,12,9,1
+cs_99,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_41,NES-S-0008,Nespresso Original Capsules - 200ml - Green - Coanda styling,2024-12-05,9,8,1
+cs_99,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_41,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-12-20,7,5,1
+cs_99,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_41,NES-S-0018,Nespresso Original Capsules - 40 - Nickel - Satin finish,2024-12-01,5,4,1
+cs_99,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_41,NES-S-0011,After Eight Mints - 42 - White - Coanda styling,2024-12-06,2,2,1
+cs_99,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_41,NES-S-0015,After Eight Mints - 200g - Green - Ortholite insole,2024-12-12,12,10,1
+cs_288,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_42,NES-S-0016,After Eight Mints - 140x200cm - White/Silver - Boost midsole,2024-12-18,7,5,1
+cs_288,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_42,NES-S-0016,After Eight Mints - 140x200cm - White/Silver - Boost midsole,2024-12-13,7,5,1
+cs_288,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_42,NES-S-0018,Nespresso Original Capsules - 40 - Nickel - Satin finish,2024-12-10,5,4,1
+cs_288,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_42,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-12-07,7,5,1
+cs_288,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_42,NES-S-0016,After Eight Mints - 140x200cm - White/Silver - Boost midsole,2024-12-29,7,5,1
+cs_6,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_43,NES-S-0011,After Eight Mints - 42 - White - Coanda styling,2024-12-07,2,2,1
+cs_6,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_43,NES-S-0013,Nescaf챕 Gold - XL - N/A - Coanda styling,2024-12-10,12,9,1
+cs_6,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_43,NES-S-0013,Nescaf챕 Gold - XL - N/A - Coanda styling,2024-12-24,12,9,1
+cs_6,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_43,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-12-13,7,5,1
+cs_6,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_43,NES-S-0013,Nescaf챕 Gold - XL - N/A - Coanda styling,2024-12-09,12,9,1
+cs_174,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_44,NES-S-0015,After Eight Mints - 200g - Green - Ortholite insole,2024-12-27,12,10,1
+cs_174,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_44,NES-S-0008,Nespresso Original Capsules - 200ml - Green - Coanda styling,2024-12-08,9,8,1
+cs_174,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_44,NES-S-0012,After Eight Mints - 50ml - Beige - Coanda styling,2024-12-23,5,4,1
+cs_174,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_44,NES-S-0017,After Eight Mints - 40 - Beige - Instant coffee,2024-12-02,3,2,1
+cs_174,Nestle,NS_NESC_2024_001,,Nescafé Winter Warmth Campaign,ns_44,NES-S-0016,After Eight Mints - 140x200cm - White/Silver - Boost midsole,2024-12-27,7,5,1
+cs_56,Nestle,NS_NESQ_2024_001,NS_NESQ_SEM_BR_1,Nesquik Back to School Nutrition,ns_45,NES-S-0004,KitKat 4-Finger - 50ml - White/Silver - Boost midsole,2024-09-13,9,8,1
+cs_56,Nestle,NS_NESQ_2024_001,NS_NESQ_SEM_BR_1,Nesquik Back to School Nutrition,ns_45,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-08-17,3,3,1
+cs_56,Nestle,NS_NESQ_2024_001,NS_NESQ_SEM_BR_1,Nesquik Back to School Nutrition,ns_45,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-08-30,6,5,1
+cs_56,Nestle,NS_NESQ_2024_001,NS_NESQ_SEM_BR_1,Nesquik Back to School Nutrition,ns_45,NES-S-0010,KitKat 4-Finger - 50ml - Nickel - Removable cover,2024-09-15,7,6,1
+cs_56,Nestle,NS_NESQ_2024_001,NS_NESQ_SEM_BR_1,Nesquik Back to School Nutrition,ns_45,NES-S-0020,KitKat 4-Finger - One Size - Beige - Boost midsole,2024-09-12,12,11,1
+cs_273,Nestle,NS_NESQ_2024_001,NS_NESQ_SEM_GEN_1,Nesquik Back to School Nutrition,ns_46,NES-S-0001,KitKat 4-Finger - 140x200cm - White - Ortholite insole,2024-08-31,4,4,1
+cs_273,Nestle,NS_NESQ_2024_001,NS_NESQ_SEM_GEN_1,Nesquik Back to School Nutrition,ns_46,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-08-30,4,4,1
+cs_273,Nestle,NS_NESQ_2024_001,NS_NESQ_SEM_GEN_1,Nesquik Back to School Nutrition,ns_46,NES-S-0014,KitKat 4-Finger - 160x200cm - Black - Ortholite insole,2024-08-14,7,6,1
+cs_273,Nestle,NS_NESQ_2024_001,NS_NESQ_META_PR_1,Nesquik Back to School Nutrition,ns_46,NES-S-0020,KitKat 4-Finger - One Size - Beige - Boost midsole,2024-08-10,12,11,1
+cs_273,Nestle,NS_NESQ_2024_001,NS_NESQ_META_RT_1,Nesquik Back to School Nutrition,ns_46,NES-S-0005,KitKat 4-Finger - 200ml - N/A - Instant coffee,2024-08-22,10,9,1
+cs_271,Nestle,NS_NESQ_2024_001,NS_NESQ_EMAIL_1,Nesquik Back to School Nutrition,ns_47,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-08-31,4,4,1
+cs_271,Nestle,NS_NESQ_2024_001,NS_NESQ_GDN_RT_1,Nesquik Back to School Nutrition,ns_47,NES-S-0001,KitKat 4-Finger - 140x200cm - White - Ortholite insole,2024-08-15,4,4,1
+cs_271,Nestle,NS_NESQ_2024_001,NS_NESQ_CRITEO_RT_1,Nesquik Back to School Nutrition,ns_47,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-09-10,4,4,1
+cs_271,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_47,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-08-18,3,3,1
+cs_271,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_47,NES-S-0004,KitKat 4-Finger - 50ml - White/Silver - Boost midsole,2024-09-16,9,8,1
+cs_298,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_48,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-09-07,4,4,1
+cs_298,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_48,NES-S-0014,KitKat 4-Finger - 160x200cm - Black - Ortholite insole,2024-09-06,7,6,1
+cs_298,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_48,NES-S-0014,KitKat 4-Finger - 160x200cm - Black - Ortholite insole,2024-08-22,7,6,1
+cs_298,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_48,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-09-18,3,3,1
+cs_298,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_48,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-09-09,3,3,1
+cs_266,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_49,NES-S-0020,KitKat 4-Finger - One Size - Beige - Boost midsole,2024-08-21,12,11,1
+cs_266,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_49,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-08-29,4,4,1
+cs_266,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_49,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-09-15,4,4,1
+cs_266,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_49,NES-S-0005,KitKat 4-Finger - 200ml - N/A - Instant coffee,2024-09-03,10,9,1
+cs_266,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_49,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-08-18,4,4,1
+cs_209,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_50,NES-S-0014,KitKat 4-Finger - 160x200cm - Black - Ortholite insole,2024-09-13,7,6,1
+cs_209,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_50,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-09-12,3,3,1
+cs_209,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_50,NES-S-0014,KitKat 4-Finger - 160x200cm - Black - Ortholite insole,2024-09-06,7,6,1
+cs_209,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_50,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-09-10,3,3,1
+cs_209,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_50,NES-S-0005,KitKat 4-Finger - 200ml - N/A - Instant coffee,2024-09-02,10,9,1
+cs_174,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_51,NES-S-0004,KitKat 4-Finger - 50ml - White/Silver - Boost midsole,2024-08-29,9,8,1
+cs_174,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_51,NES-S-0001,KitKat 4-Finger - 140x200cm - White - Ortholite insole,2024-09-17,4,4,1
+cs_174,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_51,NES-S-0001,KitKat 4-Finger - 140x200cm - White - Ortholite insole,2024-08-21,4,4,1
+cs_174,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_51,NES-S-0001,KitKat 4-Finger - 140x200cm - White - Ortholite insole,2024-08-15,4,4,1
+cs_174,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_51,NES-S-0020,KitKat 4-Finger - One Size - Beige - Boost midsole,2024-08-13,12,11,1
+cs_226,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_52,NES-S-0004,KitKat 4-Finger - 50ml - White/Silver - Boost midsole,2024-09-09,9,8,1
+cs_226,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_52,NES-S-0020,KitKat 4-Finger - One Size - Beige - Boost midsole,2024-09-20,12,11,1
+cs_226,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_52,NES-S-0001,KitKat 4-Finger - 140x200cm - White - Ortholite insole,2024-08-30,4,4,1
+cs_226,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_52,NES-S-0010,KitKat 4-Finger - 50ml - Nickel - Removable cover,2024-08-25,7,6,1
+cs_226,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_52,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-08-28,3,3,1
+cs_91,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_53,NES-S-0001,KitKat 4-Finger - 140x200cm - White - Ortholite insole,2024-09-13,4,4,1
+cs_91,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_53,NES-S-0010,KitKat 4-Finger - 50ml - Nickel - Removable cover,2024-09-12,7,6,1
+cs_91,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_53,NES-S-0020,KitKat 4-Finger - One Size - Beige - Boost midsole,2024-09-03,12,11,1
+cs_91,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_53,NES-S-0005,KitKat 4-Finger - 200ml - N/A - Instant coffee,2024-08-22,10,9,1
+cs_91,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_53,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-08-10,4,4,1
+cs_250,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_54,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-09-04,3,3,1
+cs_250,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_54,NES-S-0014,KitKat 4-Finger - 160x200cm - Black - Ortholite insole,2024-08-26,7,6,1
+cs_250,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_54,NES-S-0005,KitKat 4-Finger - 200ml - N/A - Instant coffee,2024-08-31,10,9,1
+cs_250,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_54,NES-S-0001,KitKat 4-Finger - 140x200cm - White - Ortholite insole,2024-08-25,4,4,1
+cs_250,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_54,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-08-11,6,5,1
+cs_277,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_55,NES-S-0020,KitKat 4-Finger - One Size - Beige - Boost midsole,2024-09-09,12,11,1
+cs_277,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_55,NES-S-0005,KitKat 4-Finger - 200ml - N/A - Instant coffee,2024-09-15,10,9,1
+cs_277,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_55,NES-S-0014,KitKat 4-Finger - 160x200cm - Black - Ortholite insole,2024-08-19,7,6,1
+cs_277,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_55,NES-S-0020,KitKat 4-Finger - One Size - Beige - Boost midsole,2024-09-03,12,11,1
+cs_277,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_55,NES-S-0010,KitKat 4-Finger - 50ml - Nickel - Removable cover,2024-08-22,7,6,1
+cs_76,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_56,NES-S-0020,KitKat 4-Finger - One Size - Beige - Boost midsole,2024-08-20,12,11,1
+cs_76,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_56,NES-S-0020,KitKat 4-Finger - One Size - Beige - Boost midsole,2024-08-19,12,11,1
+cs_76,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_56,NES-S-0005,KitKat 4-Finger - 200ml - N/A - Instant coffee,2024-09-12,10,9,1
+cs_76,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_56,NES-S-0001,KitKat 4-Finger - 140x200cm - White - Ortholite insole,2024-08-19,4,4,1
+cs_76,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_56,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-08-30,6,5,1
+cs_222,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_57,NES-S-0005,KitKat 4-Finger - 200ml - N/A - Instant coffee,2024-09-06,10,9,1
+cs_222,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_57,NES-S-0020,KitKat 4-Finger - One Size - Beige - Boost midsole,2024-09-14,12,11,1
+cs_222,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_57,NES-S-0001,KitKat 4-Finger - 140x200cm - White - Ortholite insole,2024-09-15,4,4,1
+cs_222,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_57,NES-S-0010,KitKat 4-Finger - 50ml - Nickel - Removable cover,2024-08-19,7,6,1
+cs_222,Nestle,NS_NESQ_2024_001,,Nesquik Back to School Nutrition,ns_57,NES-S-0005,KitKat 4-Finger - 200ml - N/A - Instant coffee,2024-09-13,10,9,1
+cs_8,Nestle,NS_FIT_2024_001,NS_FIT_SEM_BR_1,Nestle Fitness Healthy Start Challenge,ns_58,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-03-02,4,4,1
+cs_8,Nestle,NS_FIT_2024_001,NS_FIT_SEM_BR_1,Nestle Fitness Healthy Start Challenge,ns_58,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-02-19,4,4,1
+cs_8,Nestle,NS_FIT_2024_001,NS_FIT_SEM_BR_1,Nestle Fitness Healthy Start Challenge,ns_58,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-02-02,3,3,1
+cs_8,Nestle,NS_FIT_2024_001,NS_FIT_SEM_BR_1,Nestle Fitness Healthy Start Challenge,ns_58,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-03-14,6,5,1
+cs_8,Nestle,NS_FIT_2024_001,NS_FIT_SEM_BR_1,Nestle Fitness Healthy Start Challenge,ns_58,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-02-10,3,3,1
+cs_119,Nestle,NS_FIT_2024_001,NS_FIT_SEM_BR_1,Nestle Fitness Healthy Start Challenge,ns_59,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-03-07,6,5,1
+cs_119,Nestle,NS_FIT_2024_001,NS_FIT_SEM_BR_1,Nestle Fitness Healthy Start Challenge,ns_59,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-02-25,6,5,1
+cs_119,Nestle,NS_FIT_2024_001,NS_FIT_SEM_BR_1,Nestle Fitness Healthy Start Challenge,ns_59,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-02-08,3,3,1
+cs_119,Nestle,NS_FIT_2024_001,NS_FIT_SEM_GEN_1,Nestle Fitness Healthy Start Challenge,ns_59,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-03-09,4,4,1
+cs_119,Nestle,NS_FIT_2024_001,NS_FIT_SEM_GEN_1,Nestle Fitness Healthy Start Challenge,ns_59,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-02-08,3,3,1
+cs_253,Nestle,NS_FIT_2024_001,NS_FIT_SEM_GEN_1,Nestle Fitness Healthy Start Challenge,ns_60,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-02-11,4,4,1
+cs_253,Nestle,NS_FIT_2024_001,NS_FIT_SEM_GEN_1,Nestle Fitness Healthy Start Challenge,ns_60,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-02-08,3,3,1
+cs_253,Nestle,NS_FIT_2024_001,NS_FIT_META_PR_1,Nestle Fitness Healthy Start Challenge,ns_60,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-02-14,3,3,1
+cs_253,Nestle,NS_FIT_2024_001,NS_FIT_META_RT_1,Nestle Fitness Healthy Start Challenge,ns_60,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-02-13,3,3,1
+cs_253,Nestle,NS_FIT_2024_001,NS_FIT_YT_1,Nestle Fitness Healthy Start Challenge,ns_60,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-03-12,3,3,1
+cs_187,Nestle,NS_FIT_2024_001,NS_FIT_GDN_RT_1,Nestle Fitness Healthy Start Challenge,ns_61,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-02-07,4,4,1
+cs_187,Nestle,NS_FIT_2024_001,NS_FIT_EMAIL_1,Nestle Fitness Healthy Start Challenge,ns_61,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-02-06,4,4,1
+cs_187,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_61,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-03-10,3,3,1
+cs_187,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_61,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-03-07,6,5,1
+cs_187,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_61,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-02-24,6,5,1
+cs_95,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_62,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-03-08,4,4,1
+cs_95,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_62,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-02-03,3,3,1
+cs_95,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_62,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-02-25,3,3,1
+cs_95,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_62,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-02-15,6,5,1
+cs_95,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_62,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-03-01,6,5,1
+cs_90,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_63,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-03-03,3,3,1
+cs_90,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_63,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-03-13,3,3,1
+cs_90,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_63,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-02-28,3,3,1
+cs_90,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_63,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-02-24,4,4,1
+cs_90,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_63,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-03-06,3,3,1
+cs_235,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_64,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-02-02,3,3,1
+cs_235,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_64,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-03-11,3,3,1
+cs_235,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_64,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-03-03,4,4,1
+cs_235,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_64,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-03-07,3,3,1
+cs_235,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_64,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-03-10,6,5,1
+cs_211,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_65,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-02-10,3,3,1
+cs_211,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_65,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-03-04,3,3,1
+cs_211,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_65,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-02-10,6,5,1
+cs_211,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_65,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-02-10,3,3,1
+cs_211,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_65,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-03-03,3,3,1
+cs_103,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_66,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-02-13,3,3,1
+cs_103,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_66,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-03-04,3,3,1
+cs_103,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_66,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-02-18,6,5,1
+cs_103,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_66,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-03-11,3,3,1
+cs_103,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_66,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-03-11,4,4,1
+cs_262,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_67,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-02-18,6,5,1
+cs_262,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_67,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-02-29,4,4,1
+cs_262,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_67,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-03-09,6,5,1
+cs_262,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_67,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-03-06,3,3,1
+cs_262,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_67,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-02-15,3,3,1
+cs_285,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_68,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-02-26,4,4,1
+cs_285,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_68,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-02-20,6,5,1
+cs_285,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_68,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-02-11,6,5,1
+cs_285,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_68,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-03-12,6,5,1
+cs_285,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_68,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-03-13,6,5,1
+cs_26,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_69,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-02-15,6,5,1
+cs_26,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_69,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-03-10,4,4,1
+cs_26,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_69,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-02-17,4,4,1
+cs_26,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_69,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-03-06,4,4,1
+cs_26,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_69,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-02-20,3,3,1
+cs_182,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_70,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-02-16,4,4,1
+cs_182,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_70,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-02-24,3,3,1
+cs_182,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_70,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-03-13,6,5,1
+cs_182,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_70,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-02-14,6,5,1
+cs_182,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_70,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-02-09,3,3,1
+cs_4,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_71,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-02-20,4,4,1
+cs_4,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_71,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-02-01,6,5,1
+cs_4,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_71,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-02-12,6,5,1
+cs_4,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_71,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-02-03,4,4,1
+cs_4,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_71,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-02-03,4,4,1
+cs_266,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_72,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-02-07,6,5,1
+cs_266,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_72,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-03-14,3,3,1
+cs_266,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_72,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-02-20,4,4,1
+cs_266,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_72,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-02-08,6,5,1
+cs_266,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_72,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-03-12,3,3,1
+cs_63,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_73,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-02-28,3,3,1
+cs_63,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_73,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-03-02,4,4,1
+cs_63,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_73,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-02-24,6,5,1
+cs_63,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_73,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-03-06,6,5,1
+cs_63,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_73,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-02-07,3,3,1
+cs_66,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_74,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-02-28,4,4,1
+cs_66,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_74,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-02-01,3,3,1
+cs_66,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_74,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-02-14,6,5,1
+cs_66,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_74,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-02-20,6,5,1
+cs_66,Nestle,NS_FIT_2024_001,,Nestle Fitness Healthy Start Challenge,ns_74,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-03-15,3,3,1
+cs_114,Nestle,NS_VIT_2024_001,NS_VIT_SEM_BR_1,Vittel Summer Hydration Drive,ns_75,NES-S-0005,KitKat 4-Finger - 200ml - N/A - Instant coffee,2024-07-09,10,9,1
+cs_114,Nestle,NS_VIT_2024_001,NS_VIT_SEM_BR_1,Vittel Summer Hydration Drive,ns_75,NES-S-0004,KitKat 4-Finger - 50ml - White/Silver - Boost midsole,2024-06-13,9,8,1
+cs_114,Nestle,NS_VIT_2024_001,NS_VIT_META_RT_1,Vittel Summer Hydration Drive,ns_75,NES-S-0007,Nespresso Original Capsules - 200g - Green - Ortholite insole,2024-07-05,3,2,1
+cs_114,Nestle,NS_VIT_2024_001,NS_VIT_GDN_RT_1,Vittel Summer Hydration Drive,ns_75,NES-S-0004,KitKat 4-Finger - 50ml - White/Silver - Boost midsole,2024-06-06,9,8,1
+cs_114,Nestle,NS_VIT_2024_001,NS_VIT_EMAIL_1,Vittel Summer Hydration Drive,ns_75,NES-S-0005,KitKat 4-Finger - 200ml - N/A - Instant coffee,2024-06-02,10,9,1
+cs_5,Nestle,NS_VIT_2024_001,NS_VIT_EMAIL_1,Vittel Summer Hydration Drive,ns_76,NES-S-0001,KitKat 4-Finger - 140x200cm - White - Ortholite insole,2024-07-13,4,4,1
+cs_5,Nestle,NS_VIT_2024_001,NS_VIT_EMAIL_1,Vittel Summer Hydration Drive,ns_76,NES-S-0018,Nespresso Original Capsules - 40 - Nickel - Satin finish,2024-06-09,5,4,1
+cs_5,Nestle,NS_VIT_2024_001,,Vittel Summer Hydration Drive,ns_76,NES-S-0005,KitKat 4-Finger - 200ml - N/A - Instant coffee,2024-06-23,10,9,1
+cs_5,Nestle,NS_VIT_2024_001,,Vittel Summer Hydration Drive,ns_76,NES-S-0010,KitKat 4-Finger - 50ml - Nickel - Removable cover,2024-07-11,7,6,1
+cs_5,Nestle,NS_VIT_2024_001,,Vittel Summer Hydration Drive,ns_76,NES-S-0004,KitKat 4-Finger - 50ml - White/Silver - Boost midsole,2024-07-12,9,8,1
+cs_106,Nestle,NS_VIT_2024_001,,Vittel Summer Hydration Drive,ns_77,NES-S-0006,Nespresso Original Capsules - 41 - White - HEPA H13,2024-06-03,4,4,1
+cs_106,Nestle,NS_VIT_2024_001,,Vittel Summer Hydration Drive,ns_77,NES-S-0018,Nespresso Original Capsules - 40 - Nickel - Satin finish,2024-06-29,5,4,1
+cs_106,Nestle,NS_VIT_2024_001,,Vittel Summer Hydration Drive,ns_77,NES-S-0008,Nespresso Original Capsules - 200ml - Green - Coanda styling,2024-07-02,9,9,1
+cs_106,Nestle,NS_VIT_2024_001,,Vittel Summer Hydration Drive,ns_77,NES-S-0006,Nespresso Original Capsules - 41 - White - HEPA H13,2024-06-04,4,4,1
+cs_106,Nestle,NS_VIT_2024_001,,Vittel Summer Hydration Drive,ns_77,NES-S-0001,KitKat 4-Finger - 140x200cm - White - Ortholite insole,2024-06-18,4,4,1
+cs_33,Nestle,NS_VIT_2024_001,,Vittel Summer Hydration Drive,ns_78,NES-S-0014,KitKat 4-Finger - 160x200cm - Black - Ortholite insole,2024-07-07,7,6,1
+cs_33,Nestle,NS_VIT_2024_001,,Vittel Summer Hydration Drive,ns_78,NES-S-0014,KitKat 4-Finger - 160x200cm - Black - Ortholite insole,2024-06-21,7,6,1
+cs_33,Nestle,NS_VIT_2024_001,,Vittel Summer Hydration Drive,ns_78,NES-S-0008,Nespresso Original Capsules - 200ml - Green - Coanda styling,2024-07-03,9,9,1
+cs_33,Nestle,NS_VIT_2024_001,,Vittel Summer Hydration Drive,ns_78,NES-S-0001,KitKat 4-Finger - 140x200cm - White - Ortholite insole,2024-06-12,4,4,1
+cs_33,Nestle,NS_VIT_2024_001,,Vittel Summer Hydration Drive,ns_78,NES-S-0014,KitKat 4-Finger - 160x200cm - Black - Ortholite insole,2024-07-01,7,6,1
+cs_278,Nestle,NS_VIT_2024_001,,Vittel Summer Hydration Drive,ns_79,NES-S-0004,KitKat 4-Finger - 50ml - White/Silver - Boost midsole,2024-07-08,9,8,1
+cs_278,Nestle,NS_VIT_2024_001,,Vittel Summer Hydration Drive,ns_79,NES-S-0008,Nespresso Original Capsules - 200ml - Green - Coanda styling,2024-06-30,9,9,1
+cs_278,Nestle,NS_VIT_2024_001,,Vittel Summer Hydration Drive,ns_79,NES-S-0004,KitKat 4-Finger - 50ml - White/Silver - Boost midsole,2024-06-21,9,8,1
+cs_278,Nestle,NS_VIT_2024_001,,Vittel Summer Hydration Drive,ns_79,NES-S-0001,KitKat 4-Finger - 140x200cm - White - Ortholite insole,2024-06-22,4,4,1
+cs_278,Nestle,NS_VIT_2024_001,,Vittel Summer Hydration Drive,ns_79,NES-S-0010,KitKat 4-Finger - 50ml - Nickel - Removable cover,2024-06-18,7,6,1
+cs_200,Nestle,organic,,organic,ns_80,NES-S-0016,After Eight Mints - 140x200cm - White/Silver - Boost midsole,2024-03-29,7,6,1
+cs_200,Nestle,organic,,organic,ns_80,NES-S-0006,Nespresso Original Capsules - 41 - White - HEPA H13,2024-06-20,4,4,1
+cs_200,Nestle,organic,,organic,ns_80,NES-S-0010,KitKat 4-Finger - 50ml - Nickel - Removable cover,2024-03-22,7,6,1
+cs_200,Nestle,organic,,organic,ns_80,NES-S-0010,KitKat 4-Finger - 50ml - Nickel - Removable cover,2024-03-24,7,6,1
+cs_200,Nestle,organic,,organic,ns_80,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-02-23,4,4,1
+cs_8,Nestle,organic,,organic,ns_81,NES-S-0001,KitKat 4-Finger - 140x200cm - White - Ortholite insole,2024-03-29,4,4,1
+cs_8,Nestle,organic,,organic,ns_81,NES-S-0011,After Eight Mints - 42 - White - Coanda styling,2024-03-20,2,2,1
+cs_8,Nestle,organic,,organic,ns_81,NES-S-0005,KitKat 4-Finger - 200ml - N/A - Instant coffee,2024-03-23,10,9,1
+cs_8,Nestle,organic,,organic,ns_81,NES-S-0016,After Eight Mints - 140x200cm - White/Silver - Boost midsole,2024-03-27,7,6,1
+cs_8,Nestle,organic,,organic,ns_81,NES-S-0016,After Eight Mints - 140x200cm - White/Silver - Boost midsole,2024-03-29,7,6,1
+cs_197,Nestle,organic,,organic,ns_82,NES-S-0011,After Eight Mints - 42 - White - Coanda styling,2024-03-23,2,2,1
+cs_197,Nestle,organic,,organic,ns_82,NES-S-0001,KitKat 4-Finger - 140x200cm - White - Ortholite insole,2024-03-24,4,4,1
+cs_197,Nestle,organic,,organic,ns_82,NES-S-0015,After Eight Mints - 200g - Green - Ortholite insole,2024-03-20,12,11,1
+cs_197,Nestle,organic,,organic,ns_82,NES-S-0005,KitKat 4-Finger - 200ml - N/A - Instant coffee,2024-03-21,10,9,1
+cs_197,Nestle,organic,,organic,ns_82,NES-S-0020,KitKat 4-Finger - One Size - Beige - Boost midsole,2024-03-23,12,11,1
+cs_98,Nestle,organic,,organic,ns_83,NES-S-0004,KitKat 4-Finger - 50ml - White/Silver - Boost midsole,2024-03-21,9,8,1
+cs_98,Nestle,organic,,organic,ns_83,NES-S-0018,Nespresso Original Capsules - 40 - Nickel - Satin finish,2024-07-06,5,4,1
+cs_98,Nestle,organic,,organic,ns_83,NES-S-0015,After Eight Mints - 200g - Green - Ortholite insole,2024-03-24,12,11,1
+cs_98,Nestle,organic,,organic,ns_83,NES-S-0013,Nescaf챕 Gold - XL - N/A - Coanda styling,2024-12-17,12,10,1
+cs_98,Nestle,organic,,organic,ns_83,NES-S-0010,KitKat 4-Finger - 50ml - Nickel - Removable cover,2024-03-29,7,6,1
+cs_79,Nestle,organic,,organic,ns_84,NES-S-0011,After Eight Mints - 42 - White - Coanda styling,2024-03-29,2,2,1
+cs_79,Nestle,organic,,organic,ns_84,NES-S-0016,After Eight Mints - 140x200cm - White/Silver - Boost midsole,2024-03-29,7,6,1
+cs_79,Nestle,organic,,organic,ns_84,NES-S-0017,After Eight Mints - 40 - Beige - Instant coffee,2024-03-21,3,3,1
+cs_79,Nestle,organic,,organic,ns_84,NES-S-0005,KitKat 4-Finger - 200ml - N/A - Instant coffee,2024-03-29,10,9,1
+cs_79,Nestle,organic,,organic,ns_84,NES-S-0013,Nescaf챕 Gold - XL - N/A - Coanda styling,2024-12-04,12,10,1
+cs_150,Nestle,organic,,organic,ns_85,NES-S-0008,Nespresso Original Capsules - 200ml - Green - Coanda styling,2024-06-22,9,9,1
+cs_150,Nestle,organic,,organic,ns_85,NES-S-0011,After Eight Mints - 42 - White - Coanda styling,2024-03-21,2,2,1
+cs_150,Nestle,organic,,organic,ns_85,NES-S-0013,Nescaf챕 Gold - XL - N/A - Coanda styling,2024-12-22,12,10,1
+cs_150,Nestle,organic,,organic,ns_85,NES-S-0007,Nespresso Original Capsules - 200g - Green - Ortholite insole,2024-07-07,3,2,1
+cs_150,Nestle,organic,,organic,ns_85,NES-S-0006,Nespresso Original Capsules - 41 - White - HEPA H13,2024-06-26,4,4,1
+cs_158,Nestle,organic,,organic,ns_86,NES-S-0016,After Eight Mints - 140x200cm - White/Silver - Boost midsole,2024-03-20,7,6,1
+cs_158,Nestle,organic,,organic,ns_86,NES-S-0012,After Eight Mints - 50ml - Beige - Coanda styling,2024-03-20,5,4,1
+cs_158,Nestle,organic,,organic,ns_86,NES-S-0016,After Eight Mints - 140x200cm - White/Silver - Boost midsole,2024-03-22,7,6,1
+cs_158,Nestle,organic,,organic,ns_86,NES-S-0017,After Eight Mints - 40 - Beige - Instant coffee,2024-03-20,3,3,1
+cs_158,Nestle,organic,,organic,ns_86,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-03-20,7,6,1
+cs_104,Nestle,organic,,organic,ns_87,NES-S-0006,Nespresso Original Capsules - 41 - White - HEPA H13,2024-07-14,4,4,1
+cs_104,Nestle,organic,,organic,ns_87,NES-S-0020,KitKat 4-Finger - One Size - Beige - Boost midsole,2024-03-21,12,11,1
+cs_104,Nestle,organic,,organic,ns_87,NES-S-0015,After Eight Mints - 200g - Green - Ortholite insole,2024-03-24,12,11,1
+cs_104,Nestle,organic,,organic,ns_87,NES-S-0018,Nespresso Original Capsules - 40 - Nickel - Satin finish,2024-07-07,5,4,1
+cs_104,Nestle,organic,,organic,ns_87,NES-S-0017,After Eight Mints - 40 - Beige - Instant coffee,2024-03-24,3,3,1
+cs_21,Nestle,organic,,organic,ns_88,NES-S-0008,Nespresso Original Capsules - 200ml - Green - Coanda styling,2024-06-05,9,9,1
+cs_21,Nestle,organic,,organic,ns_88,NES-S-0008,Nespresso Original Capsules - 200ml - Green - Coanda styling,2024-07-09,9,9,1
+cs_21,Nestle,organic,,organic,ns_88,NES-S-0018,Nespresso Original Capsules - 40 - Nickel - Satin finish,2024-06-01,5,4,1
+cs_21,Nestle,organic,,organic,ns_88,NES-S-0015,After Eight Mints - 200g - Green - Ortholite insole,2024-03-29,12,11,1
+cs_21,Nestle,organic,,organic,ns_88,NES-S-0007,Nespresso Original Capsules - 200g - Green - Ortholite insole,2024-06-08,3,2,1
+cs_62,Nestle,organic,,organic,ns_89,NES-S-0012,After Eight Mints - 50ml - Beige - Coanda styling,2024-03-24,5,4,1
+cs_62,Nestle,organic,,organic,ns_89,NES-S-0005,KitKat 4-Finger - 200ml - N/A - Instant coffee,2024-03-28,10,9,1
+cs_62,Nestle,organic,,organic,ns_89,NES-S-0008,Nespresso Original Capsules - 200ml - Green - Coanda styling,2024-06-29,9,9,1
+cs_62,Nestle,organic,,organic,ns_89,NES-S-0010,KitKat 4-Finger - 50ml - Nickel - Removable cover,2024-03-27,7,6,1
+cs_62,Nestle,organic,,organic,ns_89,NES-S-0004,KitKat 4-Finger - 50ml - White/Silver - Boost midsole,2024-03-24,9,8,1
+cs_163,Nestle,organic,,organic,ns_90,NES-S-0015,After Eight Mints - 200g - Green - Ortholite insole,2024-03-27,12,11,1
+cs_163,Nestle,organic,,organic,ns_90,NES-S-0014,KitKat 4-Finger - 160x200cm - Black - Ortholite insole,2024-03-27,7,6,1
+cs_163,Nestle,organic,,organic,ns_90,NES-S-0008,Nespresso Original Capsules - 200ml - Green - Coanda styling,2024-06-08,9,9,1
+cs_163,Nestle,organic,,organic,ns_90,NES-S-0008,Nespresso Original Capsules - 200ml - Green - Coanda styling,2024-06-01,9,9,1
+cs_163,Nestle,organic,,organic,ns_90,NES-S-0012,After Eight Mints - 50ml - Beige - Coanda styling,2024-03-24,5,4,1
+cs_139,Nestle,organic,,organic,ns_91,NES-S-0010,KitKat 4-Finger - 50ml - Nickel - Removable cover,2024-03-20,7,6,1
+cs_139,Nestle,organic,,organic,ns_91,NES-S-0011,After Eight Mints - 42 - White - Coanda styling,2024-03-29,2,2,1
+cs_139,Nestle,organic,,organic,ns_91,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-02-10,3,3,1
+cs_139,Nestle,organic,,organic,ns_91,NES-S-0020,KitKat 4-Finger - One Size - Beige - Boost midsole,2024-03-23,12,11,1
+cs_139,Nestle,organic,,organic,ns_91,NES-S-0010,KitKat 4-Finger - 50ml - Nickel - Removable cover,2024-03-21,7,6,1
+cs_89,Nestle,organic,,organic,ns_92,NES-S-0007,Nespresso Original Capsules - 200g - Green - Ortholite insole,2024-06-15,3,2,1
+cs_89,Nestle,organic,,organic,ns_92,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-03-09,6,5,1
+cs_89,Nestle,organic,,organic,ns_92,NES-S-0006,Nespresso Original Capsules - 41 - White - HEPA H13,2024-06-06,4,4,1
+cs_89,Nestle,organic,,organic,ns_92,NES-S-0010,KitKat 4-Finger - 50ml - Nickel - Removable cover,2024-03-21,7,6,1
+cs_89,Nestle,organic,,organic,ns_92,NES-S-0008,Nespresso Original Capsules - 200ml - Green - Coanda styling,2024-06-07,9,9,1
+cs_216,Nestle,organic,,organic,ns_93,NES-S-0004,KitKat 4-Finger - 50ml - White/Silver - Boost midsole,2024-03-23,9,8,1
+cs_216,Nestle,organic,,organic,ns_93,NES-S-0008,Nespresso Original Capsules - 200ml - Green - Coanda styling,2024-06-29,9,9,1
+cs_216,Nestle,organic,,organic,ns_93,NES-S-0008,Nespresso Original Capsules - 200ml - Green - Coanda styling,2024-06-05,9,9,1
+cs_216,Nestle,organic,,organic,ns_93,NES-S-0007,Nespresso Original Capsules - 200g - Green - Ortholite insole,2024-06-02,3,2,1
+cs_216,Nestle,organic,,organic,ns_93,NES-S-0005,KitKat 4-Finger - 200ml - N/A - Instant coffee,2024-03-25,10,9,1
+cs_136,Nestle,organic,,organic,ns_94,NES-S-0004,KitKat 4-Finger - 50ml - White/Silver - Boost midsole,2024-03-30,9,8,1
+cs_136,Nestle,organic,,organic,ns_94,NES-S-0012,After Eight Mints - 50ml - Beige - Coanda styling,2024-03-27,5,4,1
+cs_136,Nestle,organic,,organic,ns_94,NES-S-0017,After Eight Mints - 40 - Beige - Instant coffee,2024-03-20,3,3,1
+cs_136,Nestle,organic,,organic,ns_94,NES-S-0004,KitKat 4-Finger - 50ml - White/Silver - Boost midsole,2024-03-27,9,8,1
+cs_136,Nestle,organic,,organic,ns_94,NES-S-0011,After Eight Mints - 42 - White - Coanda styling,2024-03-24,2,2,1
+cs_146,Nestle,organic,,organic,ns_95,NES-S-0020,KitKat 4-Finger - One Size - Beige - Boost midsole,2024-03-24,12,11,1
+cs_146,Nestle,organic,,organic,ns_95,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-03-29,7,6,1
+cs_146,Nestle,organic,,organic,ns_95,NES-S-0012,After Eight Mints - 50ml - Beige - Coanda styling,2024-03-26,5,4,1
+cs_146,Nestle,organic,,organic,ns_95,NES-S-0020,KitKat 4-Finger - One Size - Beige - Boost midsole,2024-03-27,12,11,1
+cs_146,Nestle,organic,,organic,ns_95,NES-S-0008,Nespresso Original Capsules - 200ml - Green - Coanda styling,2024-07-09,9,9,1
+cs_43,Nestle,organic,,organic,ns_96,NES-S-0018,Nespresso Original Capsules - 40 - Nickel - Satin finish,2024-07-13,5,4,1
+cs_43,Nestle,organic,,organic,ns_96,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-02-12,6,5,1
+cs_43,Nestle,organic,,organic,ns_96,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-02-21,6,5,1
+cs_43,Nestle,organic,,organic,ns_96,NES-S-0009,Cheerios Multigrain - 200g - Green - Satin finish,2024-02-06,3,3,1
+cs_43,Nestle,organic,,organic,ns_96,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-03-25,7,6,1
+cs_216,Nestle,organic,,organic,ns_97,NES-S-0014,KitKat 4-Finger - 160x200cm - Black - Ortholite insole,2024-03-20,7,6,1
+cs_216,Nestle,organic,,organic,ns_97,NES-S-0011,After Eight Mints - 42 - White - Coanda styling,2024-03-20,2,2,1
+cs_216,Nestle,organic,,organic,ns_97,NES-S-0007,Nespresso Original Capsules - 200g - Green - Ortholite insole,2024-07-15,3,2,1
+cs_216,Nestle,organic,,organic,ns_97,NES-S-0007,Nespresso Original Capsules - 200g - Green - Ortholite insole,2024-06-15,3,2,1
+cs_216,Nestle,organic,,organic,ns_97,NES-S-0002,Cheerios Multigrain - M - Grey - AEROREADY,2024-02-06,6,5,1
+cs_226,Nestle,organic,,organic,ns_98,NES-S-0005,KitKat 4-Finger - 200ml - N/A - Instant coffee,2024-03-28,10,9,1
+cs_226,Nestle,organic,,organic,ns_98,NES-S-0017,After Eight Mints - 40 - Beige - Instant coffee,2024-03-20,3,3,1
+cs_226,Nestle,organic,,organic,ns_98,NES-S-0019,After Eight Mints - 375g - Blue/Copper - AEROREADY,2024-03-28,7,6,1
+cs_226,Nestle,organic,,organic,ns_98,NES-S-0011,After Eight Mints - 42 - White - Coanda styling,2024-03-25,2,2,1
+cs_226,Nestle,organic,,organic,ns_98,NES-S-0012,After Eight Mints - 50ml - Beige - Coanda styling,2024-03-20,5,4,1
+cs_4,Nestle,organic,,organic,ns_99,NES-S-0003,Cheerios Multigrain - 42 - Green - AEROREADY,2024-03-06,4,4,1
+cs_4,Nestle,organic,,organic,ns_99,NES-S-0001,KitKat 4-Finger - 140x200cm - White - Ortholite insole,2024-03-24,4,4,1
+cs_4,Nestle,organic,,organic,ns_99,NES-S-0014,KitKat 4-Finger - 160x200cm - Black - Ortholite insole,2024-03-23,7,6,1
+cs_4,Nestle,organic,,organic,ns_99,NES-S-0012,After Eight Mints - 50ml - Beige - Coanda styling,2024-03-29,5,4,1
+cs_4,Nestle,organic,,organic,ns_99,NES-S-0010,KitKat 4-Finger - 50ml - Nickel - Removable cover,2024-03-29,7,6,1
