@@ -1523,7 +1523,6 @@ if __name__ == '__main__':
         products_df.to_csv(os.path.join(script_dir, 'products.csv'), index=False)
         print(f"Successfully generated and saved {len(products_df)} products.")
     if not po_df.empty:
-        po_df = pd.DataFrame(po_data)
         # Reorder columns
         cols = po_df.columns.tolist()
         if 'item' in cols:
