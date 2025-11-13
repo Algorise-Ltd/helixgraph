@@ -27,30 +27,68 @@ UNDER_REP_PERCENT = 15
 
 def create_supplier_dictionary(suppliers_df, output_dir):
     print("\n--- Creating Supplier Dictionary ---")
-    supplier_dict = {}
+    supplier_list = []
     for index, row in suppliers_df.iterrows():
         legal_name = row.get("legalName")
         vendor_code = row.get("vendorCode")
+        category = row.get("category_L4")
+        last_annual_revenue = row.get("lastAnnualRevenue")
+
         if legal_name and vendor_code and legal_name != "N/A":
-            supplier_dict[legal_name] = {
-                "aliases": [legal_name],
-                "vendor_code": vendor_code
-            }
+            # Generate aliases with Ollama
+            prompt = f"Generate a list of 3-5 realistic aliases for the supplier name '{legal_name}'. Include common abbreviations (e.g., 'Corp' for 'Corporation'), acronyms, and variations without legal suffixes (e.g., 'Inc', 'Ltd'). Output the result as a JSON object with a single key 'aliases' which is a list of strings."
+            system_message = "You are a helpful assistant that only outputs JSON."
+            alias_data = generate_with_ollama(prompt, system_message=system_message)
+            
+            aliases = [legal_name]
+            if alias_data and 'aliases' in alias_data and isinstance(alias_data['aliases'], list):
+                aliases.extend(alias_data['aliases'])
+            
+            # Remove duplicates
+            aliases = sorted(list(set(aliases)))
+
+            supplier_list.append({
+                "id": vendor_code,
+                "name": legal_name,
+                "aliases": aliases,
+                "category": category,
+                "last_annual_revenue": last_annual_revenue
+            })
+
     output_path = os.path.join(output_dir, 'suppliers.json')
     with open(output_path, mode='w', encoding='utf-8') as json_file:
-        json.dump(supplier_dict, json_file, indent=4)
+        json.dump(supplier_list, json_file, indent=4)
     print(f"Successfully created {output_path}")
 
 def create_po_dictionary(po_df, output_dir):
     print("\n--- Creating Purchase Order Dictionary ---")
     po_dict = {}
-    for index, row in po_df.iterrows():
-        order_number = row.get("orderNumber")
-        description = row.get("description")
-        if order_number:
-            po_dict[order_number] = {
-                "description": description
-            }
+    # Group by order number to handle multi-line POs correctly
+    for order_number, group in po_df.groupby('orderNumber'):
+        # Get the item with the largest total value to represent the main category/description
+        main_item = group.loc[group['orderTotalValue'].idxmax()]
+
+        line_items = []
+        for _, line in group.iterrows():
+            line_items.append({
+                'item_number': line.get('item'),
+                'category': line.get('category'),
+                'description': line.get('description'),
+                'quantity': line.get('quantity'),
+                'unitPrice': line.get('unitPrice'),
+                'lineTotalValue': line.get('orderTotalValue'),
+                'productSku': line.get('productSku')
+            })
+
+        po_dict[order_number] = {
+            "description": main_item.get("description"),
+            "orderTotalValue": group['orderTotalValue'].sum(),
+            "dateIssued": main_item.get("dateIssued").isoformat() if pd.notna(main_item.get("dateIssued")) else None,
+            "orderStatus": main_item.get("orderStatus"),
+            "category": main_item.get("category"),
+            "supplierVendorCode": main_item.get("supplierVendorCode"),
+            "line_items": line_items
+        }
     output_path = os.path.join(output_dir, 'pos.json')
     with open(output_path, mode='w', encoding='utf-8') as json_file:
         json.dump(po_dict, json_file, indent=4)
@@ -59,10 +97,20 @@ def create_po_dictionary(po_df, output_dir):
 def create_contract_dictionary(po_df, output_dir):
     print("\n--- Creating Contract Dictionary ---")
     contract_dict = {}
-    for index, row in po_df.iterrows():
-        contract_reference = row.get("contractReference")
-        if contract_reference and pd.notna(contract_reference):
-            contract_dict[contract_reference] = {}
+    
+    # Filter out POs without a contract reference
+    contract_pos = po_df[po_df['contractReference'].notna()]
+    
+    for contract_ref, group in contract_pos.groupby('contractReference'):
+        suppliers = group['supplierVendorCode'].unique().tolist()
+        pos = group['orderNumber'].unique().tolist()
+        
+        contract_dict[contract_ref] = {
+            "suppliers": suppliers,
+            "po_count": len(pos),
+            "purchase_orders": pos
+        }
+        
     output_path = os.path.join(output_dir, 'contracts.json')
     with open(output_path, mode='w', encoding='utf-8') as json_file:
         json.dump(contract_dict, json_file, indent=4)
@@ -386,6 +434,17 @@ def get_all_l4(sub_taxonomy):
                 l4_list.extend(l4_items)
     return l4_list
 
+
+def find_category_hierarchy(taxonomy, l4_category):
+    for l1, l2_dict in taxonomy.items():
+        for l2, l3_dict in l2_dict.items():
+            for l3, l4_list in l3_dict.items():
+                if l4_category in l4_list:
+                    return {'L1': l1, 'L2': l2, 'L3': l3}
+    return None
+
+
+
 def generate_suppliers_with_ollama(num_suppliers):
     """
     Generates a list of synthetic suppliers using Ollama for realistic data.
@@ -475,17 +534,31 @@ def generate_suppliers_with_ollama(num_suppliers):
             # Fallback to a random L4 category if the mapping is empty
             all_l4 = get_all_l4(taxonomy.get("Indirect Services and Materials", {})) + get_all_l4(taxonomy.get("Direct Materials", {})) + get_all_l4(taxonomy.get("Technical Materials", {}))
             if not all_l4:
-                category = "General" # Ultimate fallback
+                category_l4 = "General" # Ultimate fallback
             else:
-                category = random.choice(all_l4)
+                category_l4 = random.choice(all_l4)
         else:
-            category = random.choice(l4_pool)
+            category_l4 = random.choice(l4_pool)
+
+        hierarchy = find_category_hierarchy(taxonomy, category_l4)
+        if not hierarchy:
+            # This should be rare, but as a fallback...
+            print(f"Warning: Could not find hierarchy for L4 category '{category_l4}'. Assigning generic hierarchy.")
+            # Find a valid hierarchy from the product categories as a fallback
+            fallback_cat_info = random.choice(parse_categories(ontology_path))
+            category_l1 = fallback_cat_info['L1CategoryName']
+            category_l2 = fallback_cat_info['L2CategoryName']
+            category_l3 = fallback_cat_info['L3CategoryName']
+        else:
+            category_l1 = hierarchy['L1']
+            category_l2 = hierarchy['L2']
+            category_l3 = hierarchy['L3']
 
         payment_terms = random.choice(['Net 30', 'Net 60', 'Net 90'])
 
-        print(f"Generating supplier {i+1}/{num_suppliers} for country: {country}, category: {category}...")
+        print(f"Generating supplier {i+1}/{num_suppliers} for country: {country}, category: {category_l4}...")
 
-        prompt = f"Generate a realistic and unique supplier name and a contact person's full name for a company that is a '{category}' supplier located at this address in {country}: {address}. Output the result in JSON format with keys: 'name', 'contact_person'."
+        prompt = f"Generate a realistic and unique supplier name and a contact person's full name for a company that is a '{category_l4}' supplier located at this address in {country}: {address}. Output the result in JSON format with keys: 'name', 'contact_person'."
         system_message = "You are a helpful assistant that only outputs JSON. Your response should be a single JSON object with keys 'name' and 'contact_person'."
         supplier_data = generate_with_ollama(prompt, system_message=system_message)
 
@@ -496,18 +569,64 @@ def generate_suppliers_with_ollama(num_suppliers):
             suppliers.append({
                 'vendorCode': f"SUP-{str(uuid.uuid4().hex)[:8]}",
                 'legalName': name,
-                'category': category,
+                'category_L1': category_l1,
+                'category_L2': category_l2,
+                'category_L3': category_l3,
+                'category_L4': category_l4,
                 'address': address,
                 'country': country,
                 'contactPerson': contact_person,
                 'isActive': random.choices([True, False], weights=[0.9, 0.1], k=1)[0],
                 'financialHealth': random.choices(['High', 'Medium', 'Low'], weights=[0.1, 0.3, 0.6], k=1)[0],
                 'paymentTerms': payment_terms,
+                'masterContractId': f"CTR-{str(uuid.uuid4().hex)[:10]}" if random.random() < 0.7 else None,
             })
         else:
             print(f"Failed to generate data for supplier {i+1}.")
 
     return suppliers
+
+def generate_single_supplier(category_l1, category_l2, category_l3, category_l4, country_locales):
+    """
+    Generates a single synthetic supplier for a given category.
+    """
+    # Pick a random country and create a Faker instance
+    country = random.choice(list(country_locales.keys()))
+    locale = country_locales.get(country, 'en_US')
+    fake = Faker(locale)
+    raw_address = fake.address()
+    address = " ".join(line.strip() for line in raw_address.splitlines() if line.strip())
+    payment_terms = random.choice(['Net 30', 'Net 60', 'Net 90'])
+
+    print(f"Generating new supplier for category: {category_l4}...")
+
+    prompt = f"Generate a realistic and unique supplier name and a contact person's full name for a company that is a '{category_l4}' supplier located at this address in {country}: {address}. Output the result in JSON format with keys: 'name', 'contact_person'."
+    system_message = "You are a helpful assistant that only outputs JSON. Your response should be a single JSON object with keys 'name' and 'contact_person'."
+    supplier_data = generate_with_ollama(prompt, system_message=system_message)
+
+    if supplier_data:
+        name = supplier_data.get('name') if isinstance(supplier_data.get('name'), str) else 'N/A'
+        contact_person = supplier_data.get('contact_person') if isinstance(supplier_data.get('contact_person'), str) else 'N/A'
+
+        return {
+            'vendorCode': f"SUP-{str(uuid.uuid4().hex)[:8]}",
+            'legalName': name,
+            'category_L1': category_l1,
+            'category_L2': category_l2,
+            'category_L3': category_l3,
+            'category_L4': category_l4,
+            'address': address,
+            'country': country,
+            'contactPerson': contact_person,
+            'isActive': True,
+            'financialHealth': random.choices(['High', 'Medium', 'Low'], weights=[0.1, 0.3, 0.6], k=1)[0],
+            'paymentTerms': payment_terms,
+            'masterContractId': f"CTR-{str(uuid.uuid4().hex)[:10]}" if random.random() < 0.7 else None,
+        }
+    else:
+        print(f"Failed to generate data for the new supplier.")
+        return None
+
 
 def generate_products_with_ollama(categories, num_products=50):
     """
@@ -570,20 +689,24 @@ def generate_purchase_orders(suppliers, products, num_pos=600, exclude_l3_catego
         exclude_l3_categories = []
     fake = Faker()
     purchase_orders = []
+    newly_created_suppliers = []
 
-    # 1. Supplier-PO Relationship Distribution
-    num_suppliers = len(suppliers)
-    high_volume_suppliers = int(0.2 * num_suppliers)
-    regular_suppliers = int(0.5 * num_suppliers)
-    occasional_suppliers = num_suppliers - high_volume_suppliers - regular_suppliers
+    # Create a mutable list of suppliers that can be appended to
+    suppliers_list = list(suppliers)
 
-    shuffled_suppliers = random.sample(suppliers, k=num_suppliers)
+    # --- Supplier-PO Relationship Distribution ---
+    # These pools are based on the initial set of suppliers
+    num_initial_suppliers = len(suppliers_list)
+    high_volume_suppliers = int(0.2 * num_initial_suppliers)
+    regular_suppliers = int(0.5 * num_initial_suppliers)
+    
+    shuffled_suppliers = random.sample(suppliers_list, k=num_initial_suppliers)
     
     high_volume_pool = shuffled_suppliers[:high_volume_suppliers]
     regular_pool = shuffled_suppliers[high_volume_suppliers : high_volume_suppliers + regular_suppliers]
     occasional_pool = shuffled_suppliers[high_volume_suppliers + regular_suppliers :]
 
-    # 2. Log-normal distribution for PO amounts
+    # --- Log-normal distribution for PO amounts ---
     amounts = np.random.lognormal(mean=10, sigma=1.5, size=num_pos)
     amounts = np.clip(amounts, 500, 250000)
     
@@ -591,37 +714,90 @@ def generate_purchase_orders(suppliers, products, num_pos=600, exclude_l3_catego
     if not filtered_products:
         filtered_products = products
 
-    for i in range(num_pos):
-        # Select supplier based on distribution
-        rand_val = random.random()
-        if rand_val < 0.5 and high_volume_pool:
-            supplier = random.choice(high_volume_pool)
-        elif rand_val < 0.9 and regular_pool:
-            supplier = random.choice(regular_pool)
-        elif occasional_pool:
-            supplier = random.choice(occasional_pool)
-        else:
-            supplier = random.choice(suppliers)
+    generated_pos_count = 0
+    max_attempts = num_pos * 2  # Prevent infinite loops
+    attempt = 0
 
-        # Decide if this is a multi-line PO
+    while generated_pos_count < num_pos and attempt < max_attempts:
+        attempt += 1
+        
+        # 1. Pick a product first
+        product = random.choice(filtered_products)
+
+        # 2. Find a matching supplier using hierarchical search
+        # L4 Match
+        matching_suppliers = [s for s in suppliers_list if s['category_L4'] == product['category_L4']]
+        # L3 Fallback
+        if not matching_suppliers:
+            matching_suppliers = [s for s in suppliers_list if s['category_L3'] == product['category_L3']]
+        # L2 Fallback
+        if not matching_suppliers:
+            matching_suppliers = [s for s in suppliers_list if s['category_L2'] == product['category_L2']]
+
+        supplier = None
+        if not matching_suppliers:
+            # Final Fallback: Create a new supplier
+            print(f"No L2 match for product '{product['name']}' (L4: {product['category_L4']}). Creating new supplier.")
+            new_supplier = generate_single_supplier(
+                product['category_L1'], product['category_L2'], product['category_L3'], product['category_L4'], country_locales
+            )
+            if new_supplier:
+                suppliers_list.append(new_supplier)
+                newly_created_suppliers.append(new_supplier)
+                # Also add to one of the pools for future selection
+                occasional_pool.append(new_supplier)
+                supplier = new_supplier
+            else:
+                continue # Failed to create supplier, try with another product
+        else:
+            # Select a supplier from the matched list, trying to respect distribution
+            matched_codes = {s['vendorCode'] for s in matching_suppliers}
+            high_matches = [s for s in high_volume_pool if s['vendorCode'] in matched_codes]
+            reg_matches = [s for s in regular_pool if s['vendorCode'] in matched_codes]
+            occ_matches = [s for s in occasional_pool if s['vendorCode'] in matched_codes]
+
+            rand_val = random.random()
+            if rand_val < 0.5 and high_matches:
+                supplier = random.choice(high_matches)
+            elif rand_val < 0.9 and reg_matches:
+                supplier = random.choice(reg_matches)
+            elif occ_matches:
+                supplier = random.choice(occ_matches)
+            else:
+                # This can happen if matched suppliers are not in the pools (e.g. newly created)
+                supplier = random.choice(matching_suppliers)
+        
+        if not supplier:
+            continue
+
+        # --- From here, the logic is similar to the original, but for a single PO ---
         is_multi_line = random.random() < 0.1 # 10% chance of multi-line PO
         num_lines = random.randint(2, 4) if is_multi_line else 1
         
         po_number = f"PO-{str(uuid.uuid4().hex)[:10]}"
         
         # Distribute the total amount among the line items
-        line_item_amounts = np.random.dirichlet(np.ones(num_lines), size=1)[0] * amounts[i]
+        po_total_amount = amounts[generated_pos_count]
+        line_item_amounts = np.random.dirichlet(np.ones(num_lines), size=1)[0] * po_total_amount
 
         for j in range(num_lines):
-            # 3. Temporal Patterns for PO dates
-            # Q4 spike (2x probability)
+            # For the first line item, we use the product we already selected
+            # For subsequent lines in a multi-line PO, we should pick a related product
+            if j > 0:
+                # Try to find another product in the same L3 category for variety
+                related_products = [p for p in filtered_products if p['category_L3'] == product['category_L3']]
+                if related_products:
+                    current_product = random.choice(related_products)
+                else:
+                    current_product = product # Fallback to same product
+            else:
+                current_product = product
+
+            # Temporal Patterns for PO dates
             month = random.choices(range(1, 13), weights=[1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2], k=1)[0]
-            # Month-end clustering (last 5 days are 3x more likely)
             day_weights = [1]*25 + [3]*6
             day = random.choices(range(1, 32), weights=day_weights, k=1)[0]
-            # Weekday bias (95% on weekdays)
             is_weekday = random.random() < 0.95
-            
             year = random.choice([2023, 2024, 2025])
             
             try:
@@ -634,30 +810,26 @@ def generate_purchase_orders(suppliers, products, num_pos=600, exclude_l3_catego
                     while date_issued.weekday() < 5:
                         date_issued += timedelta(days=1)
             except ValueError:
-                # Handle invalid date combinations like Feb 30
                 day = min(day, 28)
                 date_issued = fake.date_time_between(start_date=f"-{36-month}m", end_date="now").replace(year=year, month=month, day=day)
 
-
-            # 4. Status Distribution
+            # Status Distribution
             if date_issued.year == 2025:
                 status = random.choices(['completed', 'approved', 'pending', 'cancelled'], weights=[0.75, 0.15, 0.07, 0.03], k=1)[0]
                 if status == 'pending' and (datetime.now() - date_issued).days > 30:
-                    status = 'approved' # Old pending POs should be approved
+                    status = 'approved'
             else:
-                status = 'completed' # POs from previous years are completed
+                status = 'completed'
 
-            # 5. Delivery Date Distribution
+            # Delivery Date Distribution
             if date_issued.year == 2024:
                 delivery_date = date_issued + timedelta(days=random.randint(30, 365))
                 if delivery_date.year == 2024:
                     delivery_date = delivery_date.replace(year=2025)
             else:
                 delivery_date = date_issued + timedelta(days=random.randint(7, 60))
-
-            product = random.choice(filtered_products)
             
-            if product['category_L1'] in ['Direct Materials', 'Technical Materials']:
+            if current_product['category_L1'] in ['Direct Materials', 'Technical Materials']:
                 quantity = np.random.geometric(p=0.5)
                 quantity = np.clip(quantity, 1, 20)
             else:
@@ -666,18 +838,27 @@ def generate_purchase_orders(suppliers, products, num_pos=600, exclude_l3_catego
             line_item_amount = round(line_item_amounts[j], 2)
             unit_price = round(line_item_amount / quantity, 2) if quantity > 0 else 0
 
+            contract_ref = None
+            if supplier.get('masterContractId'):
+                if random.random() < 0.9:
+                    contract_ref = supplier['masterContractId']
+                elif random.random() < 0.3:
+                    contract_ref = f"CTR-{str(uuid.uuid4().hex)[:10]}"
+            elif random.random() < 0.3:
+                contract_ref = f"CTR-{str(uuid.uuid4().hex)[:10]}"
+
             purchase_orders.append({
                 'orderNumber': po_number,
-                'item': j + 1, # Line item number
+                'item': j + 1,
                 'supplierVendorCode': supplier['vendorCode'],
                 'orderTotalValue': line_item_amount,
                 'dateIssued': date_issued,
                 'orderStatus': status,
-                'category': product['category_L4'],
-                'description': product['description'],
+                'category': current_product['category_L4'],
+                'description': current_product['description'],
                 'deliveryDate': delivery_date,
-                'productSku': product['sku'],
-                'temp_id': product['temp_id'], # Internal linking ID
+                'productSku': current_product['sku'],
+                'temp_id': current_product['temp_id'],
                 'quantity': quantity,
                 'unitPrice': unit_price,
                 'dateChanged': date_issued + timedelta(days=random.randint(1, 30)),
@@ -686,13 +867,15 @@ def generate_purchase_orders(suppliers, products, num_pos=600, exclude_l3_catego
                 'still_to_be_delivered_value': 0,
                 'still_to_be_invoiced_qty': 0,
                 'still_to_be_invoiced_value': 0,
-                'contractReference': f"CTR-{str(uuid.uuid4().hex)[:10]}" if random.random() < 0.3 else None,
+                'contractReference': contract_ref,
                 'paymentTerms': supplier['paymentTerms'],
                 'requisitioner': fake.name(),
                 'costCenter': f"CC-{random.randint(100, 180)}",
             })
         
-    return purchase_orders
+        generated_pos_count += 1
+        
+    return purchase_orders, newly_created_suppliers
 
 def generate_marketing_purchase_orders(campaigns_df, suppliers, products, taxonomy):
     """
@@ -711,16 +894,11 @@ def generate_marketing_purchase_orders(campaigns_df, suppliers, products, taxono
     except (AttributeError, KeyError):
         mkt_l4_categories = []
 
-    marketing_suppliers = [s for s in suppliers if s['category'] in all_mkt_l4s]
+    marketing_suppliers = [s for s in suppliers if s['category_L4'] in all_mkt_l4s]
     if not marketing_suppliers:
         # Fallback to all suppliers if no specific marketing suppliers are found
         print("Warning: No specific marketing suppliers found. Falling back to all suppliers for marketing POs.")
-        marketing_suppliers = suppliers
-
-    # Filter products to only include those relevant to Marketing & Advertising.
-    marketing_products = [p for p in products if p['category_L3'] == 'Marketing & Advertising']
-    if not marketing_products:
-        print("Warning: No specific marketing products found. Marketing POs will be generated as generic services.")
+        marketing_suppliers = list(suppliers)
 
     for _, campaign in campaigns_df.iterrows():
         # Only consider active or completed campaigns
@@ -731,33 +909,63 @@ def generate_marketing_purchase_orders(campaigns_df, suppliers, products, taxono
             # Create a single, unique cost center for this campaign, derived from its ID.
             campaign_cost_center = f"CC-MKT-{campaign['campaign_id']}"
 
-            for _ in range(num_pos_per_campaign):
+            # Clean budget and spend columns
+            budget_str = str(campaign.get(' budget ', '0')).replace(',', '').strip()
+            spend_str = str(campaign.get(' actual_spend ', '0')).replace(',', '').strip()
+            
+            try:
+                budget = float(budget_str)
+            except (ValueError, TypeError):
+                budget = 0.0
+
+            try:
+                spend = float(spend_str)
+            except (ValueError, TypeError):
+                spend = 0.0
+
+            # Allocate a portion of the campaign's actual spend or budget to this PO
+            total_campaign_spend = spend if spend > 0 else budget
+            
+            if num_pos_per_campaign > 1:
+                po_amounts = np.random.dirichlet(np.ones(num_pos_per_campaign), size=1)[0] * total_campaign_spend
+            else:
+                po_amounts = [total_campaign_spend]
+
+            # Ensure minimum PO amount and rescale if necessary
+            current_total = sum(po_amounts)
+            if current_total > 0 and not np.isclose(current_total, total_campaign_spend):
+                rescale_factor = total_campaign_spend / current_total
+                po_amounts = [amount * rescale_factor for amount in po_amounts]
+
+            for i in range(num_pos_per_campaign):
                 if not marketing_suppliers:
                     continue
                 
-                supplier = random.choice(marketing_suppliers)
-                product = random.choice(marketing_products) if marketing_products else None
+                product = None
                 
-                # Clean budget and spend columns
-                budget_str = str(campaign.get(' budget ', '0')).replace(',', '').strip()
-                spend_str = str(campaign.get(' actual_spend ', '0')).replace(',', '').strip()
-                
-                try:
-                    budget = float(budget_str)
-                except (ValueError, TypeError):
-                    budget = 0.0
+                # Find a matching supplier
+                supplier = None
+                if product:
+                    # L4 Match
+                    matching_suppliers = [s for s in marketing_suppliers if s['category_L4'] == product['category_L4']]
+                    # L3 Fallback
+                    if not matching_suppliers:
+                        matching_suppliers = [s for s in marketing_suppliers if s['category_L3'] == product['category_L3']]
+                    # L2 Fallback
+                    if not matching_suppliers:
+                        matching_suppliers = [s for s in marketing_suppliers if s['category_L2'] == product['category_L2']]
+                    
+                    if matching_suppliers:
+                        supplier = random.choice(matching_suppliers)
 
-                try:
-                    spend = float(spend_str)
-                except (ValueError, TypeError):
-                    spend = 0.0
+                if not supplier:
+                    # Fallback to a random marketing supplier if no product or no match
+                    supplier = random.choice(marketing_suppliers)
 
-                # Allocate a portion of the campaign's actual spend or budget to this PO
-                po_amount = (spend if spend > 0 else budget) / num_pos_per_campaign
-                po_amount = round(po_amount, 2)
+                po_amount = round(po_amounts[i], 2)
                 
                 # Ensure PO amount is within a reasonable range
-                po_amount = max(500.0, po_amount)
+                # po_amount = max(500.0, po_amount)
                 
                 try:
                     start_date = pd.to_datetime(campaign['start_date'])
@@ -791,6 +999,14 @@ def generate_marketing_purchase_orders(campaigns_df, suppliers, products, taxono
                 
                 temp_id = product['temp_id'] if product else None
 
+                contract_ref = None
+                if supplier.get('masterContractId'):
+                    if random.random() < 0.9:  # 90% chance to use master contract
+                        contract_ref = supplier['masterContractId']
+                    elif random.random() < 0.3:  # Of the remaining 10%, 30% get a random one-off contract
+                        contract_ref = f"CTR-{str(uuid.uuid4().hex)[:10]}"
+                elif random.random() < 0.3:  # For suppliers without master contract, 30% get a random one-off contract
+                    contract_ref = f"CTR-{str(uuid.uuid4().hex)[:10]}"
 
                 purchase_orders.append({
                     'orderNumber': f"PO-{str(uuid.uuid4().hex)[:10]}",
@@ -812,7 +1028,7 @@ def generate_marketing_purchase_orders(campaigns_df, suppliers, products, taxono
                     'still_to_be_delivered_value': 0,
                     'still_to_be_invoiced_qty': 0,
                     'still_to_be_invoiced_value': 0,
-                    'contractReference': f"CTR-{str(uuid.uuid4().hex)[:10]}" if random.random() < 0.3 else None,
+                    'contractReference': contract_ref,
                     'paymentTerms': supplier['paymentTerms'],
                     'requisitioner': fake.name(),
                     'costCenter': campaign_cost_center,
@@ -915,6 +1131,15 @@ def generate_single_po_item(po_number, supplier, order_date, cost_center, produc
     if product['category_L1'] in ['Direct Materials', 'Technical Materials']:
         product_sku = product['sku']
 
+    contract_ref = None
+    if supplier.get('masterContractId'):
+        if random.random() < 0.9:  # 90% chance to use master contract
+            contract_ref = supplier['masterContractId']
+        elif random.random() < 0.3:  # Of the remaining 10%, 30% get a random one-off contract
+            contract_ref = f"CTR-{str(uuid.uuid4().hex)[:10]}"
+    elif random.random() < 0.3:  # For suppliers without master contract, 30% get a random one-off contract
+        contract_ref = f"CTR-{str(uuid.uuid4().hex)[:10]}"
+
     return {
         'orderNumber': po_number,
         'item': 1, # Assuming one item per new PO for simplicity
@@ -932,7 +1157,7 @@ def generate_single_po_item(po_number, supplier, order_date, cost_center, produc
         'still_to_be_delivered_value': still_to_be_delivered_qty * unit_price,
         'still_to_be_invoiced_qty': still_to_be_invoiced_qty,
         'still_to_be_invoiced_value': still_to_be_invoiced_qty * unit_price,
-        'contractReference': f"CTR-{str(uuid.uuid4().hex)[:10]}" if random.random() < 0.3 else None,
+        'contractReference': contract_ref,
         'paymentTerms': random.choice(['Net 30', 'Net 60', 'Net 90']),
         'requisitioner': fake.name(),
         'costCenter': cost_center,
@@ -946,92 +1171,134 @@ def balance_spend_distribution(purchase_orders, products, suppliers, max_iterati
     """
     po_df = pd.DataFrame(purchase_orders)
     products_df = pd.DataFrame(products)
-    
+
+    # Ensure merge keys are of the same string type to prevent merge errors
+    po_df['temp_id'] = po_df['temp_id'].astype(str)
+    products_df['temp_id'] = products_df['temp_id'].astype(str)
+
     for i in range(max_iterations):
-        # Use the temporary ID for a reliable merge
-        merged_df = pd.merge(po_df, products_df, on='temp_id', how='left')
-        
-        total_spend = merged_df['orderTotalValue'].sum()
+        # Create a calculation dataframe with a reliable 'category_L1' column
+        calc_df = pd.merge(po_df, products_df[['temp_id', 'category_L1', 'category_L3']], on='temp_id', how='left')
+
+        # For marketing POs, temp_id is None, so category fields will be NaN.
+        # Identify marketing POs (e.g., by cost center) and fill in their category info.
+        is_marketing_po = calc_df['costCenter'].str.startswith('CC-MKT-', na=False)
+        calc_df.loc[is_marketing_po, 'category_L1'] = 'Indirect Services and Materials'
+        # Also fill L3 to ensure they are not removed accidentally if 'Marketing & Advertising' is over-represented
+        calc_df.loc[is_marketing_po, 'category_L3'] = 'Marketing & Advertising'
+
+        # Drop any remaining rows where category_L1 is null, as they can't be balanced.
+        if calc_df['category_L1'].isnull().any():
+            print(f"Warning: Found {calc_df['category_L1'].isnull().sum()} POs with no category_L1. Excluding from balancing.")
+            calc_df.dropna(subset=['category_L1'], inplace=True)
+
+        total_spend = calc_df['orderTotalValue'].sum()
         if total_spend == 0:
             return po_df.to_dict('records')
-            
-        category_spend = merged_df.groupby('category_L1')['orderTotalValue'].sum()
+
+        category_spend = calc_df.groupby('category_L1')['orderTotalValue'].sum()
         spend_distribution = (category_spend / total_spend) * 100
-        
+
         # Ensure all L1 categories are present in the distribution
         all_l1_categories = list(parse_ontology_taxonomy(os.path.join(os.path.dirname(__file__), '../../ontologies/procurement_v0.9.md')).keys())
         for cat in all_l1_categories:
             if cat not in spend_distribution:
                 spend_distribution[cat] = 0
-        
+
         print(f"\n--- Iteration {i+1}: Spend Distribution Check ---")
         print(spend_distribution)
-        
+
         under_represented = spend_distribution[spend_distribution < UNDER_REP_PERCENT]
         over_represented = spend_distribution[spend_distribution > OVER_REP_PERCENT]
-        
+
         if under_represented.empty and over_represented.empty:
             print("Spend distribution is within the desired range.")
             return po_df.to_dict('records')
 
         # Add POs for under-represented categories
         for category, percentage in under_represented.items():
-            spend_needed = ((UNDER_REP_PERCENT/100) * total_spend) - category_spend.get(category, 0)
-            
+            spend_needed = ((UNDER_REP_PERCENT / 100) * total_spend) - category_spend.get(category, 0)
+
             products_in_cat = products_df[products_df['category_L1'] == category]
-            
+
             if products_in_cat.empty:
                 print(f"Warning: No products found for category '{category}'. Cannot add POs to balance spend.")
                 continue
 
+            suppliers_df = pd.DataFrame(suppliers)
             added_spend = 0
+            new_pos = []
             while added_spend < spend_needed:
-                product = products_in_cat.sample(1).iloc[0]
-                supplier = random.choice(suppliers)
+                product = products_in_cat.sample(1).iloc[0].to_dict()
+
+                # Find matching supplier
+                matching_suppliers_df = suppliers_df[suppliers_df['category_L4'] == product['category_L4']]
+                if matching_suppliers_df.empty:
+                    matching_suppliers_df = suppliers_df[suppliers_df['category_L3'] == product['category_L3']]
+                if matching_suppliers_df.empty:
+                    matching_suppliers_df = suppliers_df[suppliers_df['category_L2'] == product['category_L2']]
+
+                if matching_suppliers_df.empty:
+                    # For balancing, we'll just pick another product rather than create a new supplier
+                    continue
+
+                supplier = matching_suppliers_df.sample(1).iloc[0].to_dict()
+
                 fake = Faker()
                 order_date = fake.date_time_between(start_date='-2y', end_date='now')
-                po_number = f"PO-{str(uuid.uuid4().hex)[:10]}" # Removed 'ADJ'
+                po_number = f"PO-{str(uuid.uuid4().hex)[:10]}"
                 cost_center = f"CC-{random.randint(100, 180)}"
-                
-                # Generate a target PO amount using log-normal distribution, ensuring it's not too small
+
                 target_po_amount = np.random.lognormal(mean=10, sigma=1.5)
-                target_po_amount = np.clip(target_po_amount, 1000, 250000) # Ensure a reasonable range for balancing POs
-                target_po_amount = round(min(target_po_amount, spend_needed - added_spend + 100), 2) # Ensure it doesn't overshoot too much
-                
-                new_po_item = generate_single_po_item(po_number, supplier, order_date, cost_center, product) # Pass product object
+                target_po_amount = np.clip(target_po_amount, 1000, 250000)
+                # Cap the amount to not overshoot the target
+                if spend_needed - added_spend > 0:
+                    target_po_amount = round(min(target_po_amount, spend_needed - added_spend), 2)
+                else:
+                    break  # No more spend needed
+
+                if target_po_amount <= 0:
+                    break
+
+                new_po_item = generate_single_po_item(po_number, supplier, order_date, cost_center, product)
                 new_po_item['orderTotalValue'] = target_po_amount
-                new_po_item['unitPrice'] = target_po_amount / new_po_item['quantity']
-                
-                # Add temp_id to the new PO item for merging
+                new_po_item['unitPrice'] = target_po_amount / new_po_item['quantity'] if new_po_item['quantity'] > 0 else 0
                 new_po_item['temp_id'] = product['temp_id']
 
-                po_df = pd.concat([po_df, pd.DataFrame([new_po_item])], ignore_index=True)
+                new_pos.append(new_po_item)
                 added_spend += new_po_item['orderTotalValue']
+
+            if new_pos:
+                po_df = pd.concat([po_df, pd.DataFrame(new_pos)], ignore_index=True)
+
 
         # Remove POs from over-represented categories
         for category, percentage in over_represented.items():
-            spend_to_remove = category_spend[category] - ((OVER_REP_PERCENT/100) * total_spend)
-            
-            merged_df_for_removal = pd.merge(po_df, products_df, on='temp_id', how='left')
-            
+            spend_to_remove = category_spend[category] - ((OVER_REP_PERCENT / 100) * total_spend)
+
+            # Use the already built calc_df which has correct category info
             # Exclude marketing POs from the pool of removable POs
-            non_marketing_pos = merged_df_for_removal[merged_df_for_removal['category_L3'] != 'Marketing & Advertising']
-            
+            non_marketing_pos = calc_df[calc_df['category_L3'] != 'Marketing & Advertising']
+
             pos_in_cat = non_marketing_pos[non_marketing_pos['category_L1'] == category]
-            
+
             pos_to_remove = pos_in_cat.sort_values('orderTotalValue', ascending=True)
-            
+
             removed_spend = 0
+            order_numbers_to_remove = []
             for idx, po_to_remove in pos_to_remove.iterrows():
                 if removed_spend >= spend_to_remove:
                     break
-                
-                order_number_to_remove = po_to_remove['orderNumber']
-                
-                po_spend = po_df[po_df['orderNumber'] == order_number_to_remove]['orderTotalValue'].sum()
 
-                po_df = po_df[po_df['orderNumber'] != order_number_to_remove]
-                removed_spend += po_spend
+                order_number = po_to_remove['orderNumber']
+                # Ensure we don't re-add an order number we're removing
+                if order_number not in order_numbers_to_remove:
+                    po_spend = po_df[po_df['orderNumber'] == order_number]['orderTotalValue'].sum()
+                    order_numbers_to_remove.append(order_number)
+                    removed_spend += po_spend
+
+            if order_numbers_to_remove:
+                po_df = po_df[~po_df['orderNumber'].isin(order_numbers_to_remove)]
 
     print("Could not balance spend distribution within max iterations.")
     return po_df.to_dict('records')
@@ -1045,7 +1312,7 @@ def create_campaign_po_links(input_path, output_path):
 
     # Extract campaign_id from description using regex
     # Assuming campaign_id is in the format "(ID: CAMPAIGN_ID)"
-    po_df['campaign_id'] = po_df['description'].str.extract(r'\(ID:\s*([A-Z0-9_]+)\)')
+    po_df['campaign_id'] = po_df['description'].str.extract(r'Campaign ID:\s*([A-Z0-9_]+)')
 
     # Filter out rows where campaign_id could not be extracted
     campaign_links = po_df[po_df['campaign_id'].notna()][['campaign_id', 'orderNumber']]
@@ -1128,9 +1395,12 @@ if __name__ == '__main__':
     # Generate other POs, excluding 'Marketing & Advertising' L3 category
     num_other_pos = NUM_PURCHASES
     if num_other_pos > 0:
-        other_po_data = generate_purchase_orders(suppliers_data, products_data, num_other_pos, exclude_l3_categories=['Marketing & Advertising'])
+        other_po_data, new_suppliers_from_pos = generate_purchase_orders(suppliers_data, products_data, num_other_pos, exclude_l3_categories=['Marketing & Advertising'])
         po_data.extend(other_po_data)
+        suppliers_data.extend(new_suppliers_from_pos)
         print(f"Generated {len(other_po_data)} other purchase orders.")
+        if new_suppliers_from_pos:
+            print(f"Generated {len(new_suppliers_from_pos)} new suppliers during PO generation.")
     else:
         print("No additional non-marketing POs needed as NUM_PURCHASES is set to 0.")
 
@@ -1242,9 +1512,9 @@ if __name__ == '__main__':
     # 8. Clean up and Save DataFrames
     # Drop the temporary ID column before saving
     if 'temp_id' in po_df.columns:
-        po_df = po_df.drop(columns=['temp_id'])
+        po_df.drop(columns=['temp_id'], inplace=True)
     if 'temp_id' in products_df.columns:
-        products_df = products_df.drop(columns=['temp_id'])
+        products_df.drop(columns=['temp_id'], inplace=True)
 
     if not suppliers_df.empty:
         suppliers_df.to_csv(os.path.join(script_dir, 'suppliers.csv'), index=False)

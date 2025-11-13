@@ -20,7 +20,7 @@
 - [x] Generate supplier attributes: `id`, `name`, `category`, `risk_score`, `country`, `payment_terms`, `last_annual_revenue`.
 
 **Part 2: Purchase Order Generation**
-- [ ] Generate `data/processed/procurement/pos.csv` with 200 realistic POs.
+- [x] Generate `data/processed/procurement/pos.csv` with 200 realistic POs.
 - [x] Use log-normal distribution for PO amounts.
 - [x] Implement supplier-PO relationship distribution (20% suppliers get 50% POs, etc.).
 - [x] Implement PO status distribution for 2025 POs (75% completed, 15% approved, etc.).
@@ -41,20 +41,22 @@
 
 **Part 4: Dictionary Creation for Entity Linking**
 - [x] Create `data/dictionaries/procurement/suppliers.json` with aliases.
+- [x] Aliases logic with ollama, last annual spend and category to be added.
 - [x] Create `data/dictionaries/procurement/pos.json`.
+- [x] Enrich PO dictionary with more metadata.
 - [x] Create `data/dictionaries/procurement/contracts.json` (if applicable).
+- [x] Enrich metadata, at least add supplier num and POs under a contract.
 - [x] Create validation script `etl/validate_procurement_data.py`.
 - [x] Create documentation for the data generation process in `data/raw/data_generation_documentation.md`.
 
 **Part 5: Data Model Documentation**
-- [ ] Run `python temp_create_campaign_links.py`. This is now integrated within data generation process.
+- [x] Run `python temp_create_campaign_links.py`. This should be integrated within data generation.
 - [x] Create `ontologies/joins_sprint2.md` with comprehensive documentation.
 - [x] Include an entity-relationship diagram (e.g., using Mermaid).
 - [x] Provide at least 3 example Cypher queries.
 - [x] Document business scenarios.
-- [ ] Generate `data/processed/campaign_po_links.csv` with 50-100 links.
+- [x] Generate `data/processed/campaign_po_links.csv` with 50-100 links. This should be integrated within data generation.
 - [ ] Validate `campaign_po_links.csv`.
-- [ ] Double check previously completed tasks in this segment since procurement data generation logic is enriched with the marketign campaign POs.
 
 **Part 6: Set Up RAG Environment & Gemini API**
 - [x] Set up Gemini API Key as an environment variable.

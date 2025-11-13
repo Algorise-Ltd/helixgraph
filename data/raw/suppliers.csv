@@ -1,301 +1,302 @@
-vendorCode,legalName,category,address,country,contactPerson,isActive,financialHealth,paymentTerms,lastAnnualRevenue,riskScore
-SUP-1743874f,SecureTech Solutions GmbH,Access Control Systems,Eigenwilligring 679 22469 Schweinfurt,Germany,Anna Müller,True,Medium,Net 90,27488.24,25.0
-SUP-f94ade6c,StrategieConsult GmbH,Management & Strategy Consulting,Martha-Wernecke-Platz 398 42962 Sulzbach-Rosenberg,Germany,Anna Müller,True,Low,Net 90,72138.65,15.0
-SUP-734800c5,UK Influencer Solutions,Influencer & Social Media Marketing,Flat 62x Paige wall Conorfurt FK69 3SJ,United Kingdom,Emma Thompson,True,Medium,Net 90,42583.15,10.0
-SUP-5966eb50,OceanAir Logistics GmbH,Air & Ocean Freight,Scheibestr. 29-54 97350 Wanzleben,Germany,Anna Müller,True,Low,Net 90,0.0,15.0
-SUP-3cf3abd3,Public Relations Solutions Ltd.,Public Relations (PR) Firms,"7119 Jankauskas Curve Apt. 269 Akelisshire, OK 47023",Lithuania,Anna Kowalczyk,False,Low,Net 30,104736.09000000001,25.0
-SUP-f5f728d9,CloudHosting Solutions GmbH,"Cloud & Hosting (IaaS, PaaS, SaaS)",Traudel-Davids-Allee 34-49 07035 Eichstätt,Germany,Anna Müller,True,High,Net 30,0.0,40.0
-SUP-b16cf983,N/A,"Productivity & Collaboration Suites (Office, Email)",Jüttnerstr. 4021 16392 Quedlinburg,Germany,Anna Müller,True,Medium,Net 60,0.0,25.0
-SUP-c7a7f3a2,Security Solutions GmbH,Alarm Systems & Monitoring,Hofmannallee 3937 78714 Hechingen,Germany,Anna Schmidt,True,High,Net 90,0.0,40.0
-SUP-4502eb41,Slovak Warehouse Solutions,Warehouse Rental & Storage,Šípová 40 061 78 Ruská Bystrá,Slovakia,Jana Novak,True,Low,Net 90,0.0,0.0
-SUP-a2f74f34,N/A,"Utilities (Gas, Electricity, Water)",Doris-Fischer-Allee 4-9 67990 Göttingen,Germany,Doris Fischer,True,Low,Net 30,8814.34,15.0
-SUP-4a1efe4c,Luxembourg Sales Solutions,Sales Incentive & Reward Programs,"221, rue de Briand 89833 RémyVille",Luxembourg,Rémy Ville,True,Low,Net 60,136924.46000000002,25.0
-SUP-c7d2ccd3,Bulgarian Express Logistics,Parcel & Courier Services,"438 Биянка Fort Еролberg, MI 86458",Bulgaria,Stefan Ivanov,True,Low,Net 90,89255.54000000001,0.0
-SUP-7fb49389,Office Supplies GmbH,Stationery & Consumables,Giovanni-Patberg-Allee 94/86 56479 Ravensburg,Germany,Michael Schmidt,True,Low,Net 60,0.0,15.0
-SUP-650a24ee,Bayerisch Transport GmbH,"Road Freight (FTL, LTL)",Ismet-Klemt-Allee 710 05989 Bamberg,Germany,Anna Müller,True,Medium,Net 30,1606.84,25.0
-SUP-e3282ef8,N/A,Printed Circuit Boards (PCBs),Dörrstraße 99/26 65275 Wolgast,Germany,Max Mustermann,True,Low,Net 60,40528.67,15.0
-SUP-6a660309,LogiStore GmbH,Merchandising Services,Otfried-Drubin-Straße 231 57319 Mellrichstadt,Germany,Anna Becker,True,Medium,Net 30,13666.67,25.0
-SUP-31705392,Kraftstoffe GmbH,"Fuel, Fuel Cards & Management",Gundula-Austermühle-Straße 6-7 15212 Kitzingen,Germany,Anna Schneider,True,Low,Net 60,8465.41,15.0
-SUP-303f6a9f,N/A,"Managed Services (Helpdesk, Network Management)",Lehmannring 49-25 39258 Gotha,Germany,Anna Müller,True,Low,Net 90,474469.44,15.0
-SUP-c0aff094,N/A,"Networking (Routers, Switches, Firewalls)",Marcel-Bohlander-Ring 1544 74474 Schwerin,Germany,Thomas Müller,True,Low,Net 90,0.0,15.0
-SUP-e0171823,IT Support Solutions GmbH,"Managed Services (Helpdesk, Network Management)",Sölzerweg 724 67701 Rastatt,Germany,Anna Müller,True,Low,Net 90,6774.45,15.0
-SUP-f8b94442,Precision Molding Solutions GmbH,Molds & Patterns,Höfiggasse 3-5 29190 Hersbruck,Germany,Anna Müller,True,Low,Net 90,218883.88,15.0
-SUP-31c835cb,Analytics Brand Solutions GmbH,Brand Tracking & Analytics,Schleichallee 9115 74242 Freudenstadt,Germany,Max Mustermann,False,Low,Net 60,84292.59,15.0
-SUP-fa253fe5,Birgit Schneider - Corporate & Commercial Law Services GmbH,Corporate & Commercial Law,Birger-Metz-Straße 6-3 11088 Werdau,Germany,Anna Müller,True,Medium,Net 90,122267.33,25.0
-SUP-307489f4,Alarm Systeme & Überwachung GmbH,Alarm Systems & Monitoring,Raphaela-Schaaf-Straße 7/3 34965 Büsingen am Hochrhein,Germany,Raphaela Schäfer,True,Low,Net 60,0.0,15.0
-SUP-31a7b68c,Loyal Parcel Logistics GmbH,Parcel & Courier Services,Klaudia-Salz-Ring 3/1 05039 Wetzlar,Germany,Klaus Müller,True,Medium,Net 30,6467.82,25.0
-SUP-a2875e73,IT Support Solutions GmbH,"Managed Services (Helpdesk, Network Management)",Trudi-Etzler-Weg 3-9 17712 Crailsheim,Germany,Anna Schmidt,True,High,Net 90,942.63,40.0
-SUP-c07a2cb2,TeleConnect Romania,"Telecommunications (Mobile, Fixed Line, Internet)","Bulevardul Ramona Stănescu Nr. 279 Bl. 79  Sc. 91 Ap. 855 Murfatlar, 955513",Romania,Ana Maria Popescu,True,Low,Net 90,8705.33,25.0
-SUP-5bd25f3c,IT Support Solutions GmbH,"Managed Services (Helpdesk, Network Management)",Nikolai-Weller-Straße 2 36724 Wolfach,Germany,Anna Müller,True,Medium,Net 90,34222.840000000004,25.0
-SUP-bc018677,Wohlstand für Mitarbeiter GmbH,Employee Welfare & Assistance Programs,Swetlana-Schottin-Ring 35/69 49141 Wolfenbüttel,Germany,Andreas Müller,True,Low,Net 30,3065.34,15.0
-SUP-4b861dcf,TechFusion Semiconductors GmbH,Semiconductors & Integrated Circuits,Klemtring 6 69992 Anklam,Germany,Anna Müller,True,Low,Net 60,658.17,15.0
-SUP-7d781b87,SecureGuard Alarm Systeme GmbH,Alarm Systems & Monitoring,Mohamed-Ehlert-Straße 94-53 02421 Osterburg,Germany,Annika Müller,True,Medium,Net 60,31540.93,25.0
-SUP-48a5197d,Trans Europe Logistics,"Road Freight (FTL, LTL)","Bulevardul Preda Aiud, 377243",Romania,Gheorghe Ivan,True,Low,Net 60,18873.690000000002,0.0
-SUP-f69410d9,Programmes Ventae Inc.,Sales Incentive & Reward Programs,avenue de Picard 19477 Sainte Astrid,France,Claude Dubois,True,Low,Net 90,18690.0,10.0
-SUP-ca848cd7,N/A,"Mobile Devices (Tablets, Smartphones, Accessories)",Carlos-Lachmann-Platz 32/87 61844 Eckernförde,Germany,Anna Müller,True,Low,Net 30,0.0,15.0
-SUP-cc5fefe0,GreenEarth Waste Solutions Ltd,Waste Management & Recycling,554 Mason Avenue Sarahland 7047,New Zealand,Sarah Thompson,True,Medium,Net 90,6498.79,10.0
-SUP-5a414024,SecureGuard Solutions GmbH,Security & Compliance Software,Friederike-Fliegner-Allee 9/3 84947 Jessen,Germany,Anna Schneider,False,Low,Net 30,39737.119999999995,15.0
-SUP-4abc1170,NetzwerkSysteme GmbH,"Networking (Routers, Switches, Firewalls)",Möchlichenring 26-56 37471 Osterburg,Germany,Anna Schmidt,True,Low,Net 60,0.0,15.0
-SUP-47bd9708,DataInsight Solutions Polska,"Business Intelligence & Analytics (BI, Data Visualization)",ulica Gołębia 551 80-656 Zamość,Poland,Anna Krzysztof,True,Low,Net 30,0.0,0.0
-SUP-6a511391,Penthouse Events GmbH,Event Management & Production,Kuschgasse 58 49790 Brilon,Germany,Anna Müller,True,Medium,Net 30,57591.71,35.0
-SUP-643cfe8e,Algerian Road Freight Solutions,"Road Freight (FTL, LTL)","63, avenue de Chauveau 66327 Jean-sur-Mace",Algeria,Jean-Pierre Lemaire,True,Medium,Net 90,332.78999999999996,65.0
-SUP-427a4907,MediaNetz Austria GmbH,"Media Buying (Print, Broadcast, Digital)",Mayerhoferring 2 4107 Rohrbach in Oberösterreich,Austria,Anna Schwarzer,True,Low,Net 60,70933.58,0.0
-SUP-595a80b3,WärmeTechnik GmbH,Building Maintenance & HVAC,Heinz Dieter-Sauer-Ring 0 74830 Wanzleben,Germany,Johannes Müller,True,Medium,Net 60,0.0,25.0
-SUP-c1ac1ea7,Hendrik Rust Service GmbH & Co KG,Janitorial & Cleaning Services,Hendrik-Rust-Ring 3-8 04452 Großenhain,Germany,Anna Schmidt,True,Medium,Net 60,28570.04,25.0
-SUP-728beb09,Inova Semiconductores LTDA,Semiconductors & Integrated Circuits,"Loteamento Valentim Pires, 4 São Salvador 38276722 Garcia / PE",Brazil,Ana Maria Santos,False,Medium,Net 60,120979.6,25.0
-SUP-3f7ba103,LogiLux Solutions,3rd Party Logistics (3PL) Services,"49, avenue Fabre 72388 Texier-les-Bains",Luxembourg,Jean Dupont,True,High,Net 60,0.0,25.0
-SUP-7ecac82b,N/A,Landscaping & Groundskeeping,"Av. Tucumán N° 5122 La Rioja 5300, La Rioja",Argentina,Luz María González,True,Medium,Net 30,697.68,25.0
-SUP-ba63be13,Eckernförder Logistik Systeme GmbH,Inventory Management Systems,Amalie-Kroker-Platz 21/22 78601 Eckernförde,Germany,Anna Müller,True,Medium,Net 30,72738.19,25.0
-SUP-09d4d910,LubriTech España S.A.,"Lubricants, Oils & Greases","Acceso de Joaquina Berrocal 31 Zamora, 44177",Spain,Ana Martínez López,True,Low,Net 60,0.0,0.0
-SUP-b7dc8606,LegalShield GmbH,Litigation & Dispute Resolution,Antonie-Hellwig-Allee 0 47295 Bad Mergentheim,Germany,Hans Müller,True,Low,Net 90,0.0,15.0
-SUP-b1a6c046,TechDesign Engineering GmbH,"Engineering & Design (CAD, PLM)",Ina-Vollbrecht-Platz 837 04203 Warendorf,Germany,Anna Müller,True,Low,Net 30,0.0,15.0
-SUP-1a84cee3,N/A,Management & Strategy Consulting,"Ruta T-80, km 24, Región del Libertador General Bernardo O'Higgins",Chile,Carlos Méndez González,True,Low,Net 90,38584.78,15.0
-SUP-5a787076,N/A,"Creative, Content & Branding Agencies",Schmidtgasse 44 22893 Luckenwalde,Germany,Emma Wagner,True,Medium,Net 90,156334.88,35.0
-SUP-a4b1badd,Estonian PR Solutions Ltd.,Public Relations (PR) Firms,"40992 Nina Roads Apt. 565 Saraptown, MN 33568",Estonia,Anna Koppel,True,Medium,Net 90,13666.66,10.0
-SUP-3dfafef1,B2B Logistics Solutions GmbH,Order Fulfillment & Value-Added Services,Scholzring 38-95 46898 Bad Kissingen,Germany,Anna Müller,True,Low,Net 30,11377.9,15.0
-SUP-6cba01f0,N/A,"Utilities (Gas, Electricity, Water)",Vítězná 42 174 79 Štíty,Czech Republic,N/A,True,Low,Net 90,0.0,0.0
-SUP-c7904748,VÁC MEGHATAROSító és Élelmiszergyár,"Utilities (Gas, Electricity, Water)",Ady endre utca 246. H-7312 Váctamásihalas,Hungary,Éva Szentirmai,True,Low,Net 90,37775.78,0.0
-SUP-fcf6ea4b,ExpressLogistics GmbH,Parcel & Courier Services,Langerngasse 6829 03368 Dachau,Germany,Anna Schmidt,True,Medium,Net 90,147854.84,25.0
-SUP-4841e678,NetConnect Italia SpA,"Networking (Routers, Switches, Firewalls)","Rotonda Traetta, 556 Appartamento 72 13867, Flecchia (BI)",Italy,Marco Rossi,True,Low,Net 60,10328.4,25.0
-SUP-166c4b4d,EnergieManagement GmbH,Energy Management & Sustainability Services,Mara-Blümel-Weg 5-2 14644 Miesbach,Germany,Anna Schmidt,True,Low,Net 30,0.0,15.0
-SUP-ca75baba,Norsk End-User Computing AS,"End-User Computing (Laptops, Desktops, Monitors)","Thorsenstien 88, 0613 Karleid",Norway,Ann-Marie Larsen,True,Medium,Net 30,0.0,10.0
-SUP-5636c81f,EchoVision Technologies,"Audio/Visual Equipment (Projectors, Conferencing Systems)","973 Диван(надядоДианидядоИван) Crescent Suite 300 Рангеловmouth, VT 44209",Bulgaria,Maria Petrova,True,Medium,Net 30,44798.24,10.0
-SUP-1f2d42bd,N/A,"Fibers (Cotton, Wool)",Frederik-Niemeier-Ring 602 38101 Havelberg,Germany,Gunnar Schmidt,False,Low,Net 90,3742.7,15.0
-SUP-d870a279,IntelligenzService GmbH,Competitor Intelligence Services,Henriette-Fliegner-Gasse 5 05079 Lüneburg,Germany,Anna Müller,True,Low,Net 60,25047.2,40.0
-SUP-1513d8d9,WelfarePlus GmbH,Employee Welfare & Assistance Programs,Weißallee 2/8 29305 Wittstock,Germany,Anna Müller,True,Low,Net 90,0.0,15.0
-SUP-e48af997,N/A,"Cloud & Hosting (IaaS, PaaS, SaaS)",Miesstr. 96-37 73221 Borken,Germany,Anna Müller,True,High,Net 90,4866.74,40.0
-SUP-4e6130e7,TechServe Solutions GmbH,"Data Center (Servers, Storage)",Conradigasse 4-3 68649 Helmstedt,Germany,Michael Schneider,True,Low,Net 90,51548.31,15.0
-SUP-af1e9be2,Furniture Haus Deutschland,Office Furniture & Fixtures,Andrey-Döhn-Weg 8 98445 Coburg,Germany,Oliver Schmidt,True,Low,Net 60,50377.3,25.0
-SUP-42e268c7,EuroLease Properties,Property Leases & Rent,"91022 Севастин Squares New Мартиниянville, MN 59013",Bulgaria,Anna Petrova,True,Medium,Net 90,3701.01,10.0
-SUP-e81d1be3,SocialSphere Influencers,Influencer & Social Media Marketing,"PSC 3385, Box 8360 APO AE 41616",Malaysia,Jane Doe,True,Low,Net 60,40833.33,15.0
-SUP-f30105b4,SecureNet Solutions,"Cybersecurity Services (Pen Testing, Monitoring, SOC)",Leskovičeva ulica 8a 8895 Turnišče,Slovenia,Jane Doe,True,Low,Net 90,88842.21,0.0
-SUP-d469b3f3,Drewes Warengewerbe GmbH,Warehouse Rental & Storage,Drewesring 3/7 24076 Auerbach,Germany,Anna Müller,True,Low,Net 30,108790.62,15.0
-SUP-c4871d5a,EcoSolutions Consulting,Environmental & Sustainability Consulting,Tomas-Heß-Gasse 6390 44919 Ludwigsburg,Germany,Anna Müller,True,Low,Net 30,48859.39,15.0
-SUP-279bf018,Communicatie & Public Relations Experts,Public Relations (PR) Firms,Kayleighstraat 61 9415 OG Koolwijk,Netherlands,Johan van der Meer,True,Medium,Net 90,14813.33,10.0
-SUP-4d9294a3,Mittelstand-Kontaktvermittlung GmbH,Lead Generation Services,Boucseinplatz 7-8 64490 Biedenkopf,Germany,Anna Müller,True,Low,Net 90,41270.0,15.0
-SUP-b4e68c8d,SecureNet Cybersecurity Solutions,"Cybersecurity Services (Pen Testing, Monitoring, SOC)",Kaulstr. 33/27 54604 Nürtingen,Germany,Anna Müller,True,Medium,Net 90,0.0,25.0
-SUP-1ac0b312,Optima Partner-Veranstaltungen GmbH,Sponsorships & Partnerships,Säuberlichring 6/2 28288 Kleve,Germany,Anna Wagner,False,Low,Net 90,291290.32,15.0
-SUP-2f5282c9,Recycling Solutions GmbH,Waste Management & Recycling,Hörleallee 21-12 44149 Säckingen,Germany,Anna Müller,True,Medium,Net 60,0.0,25.0
-SUP-f8809b66,SkyHost Solutions GmbH,"Cloud & Hosting (IaaS, PaaS, SaaS)",Boucseingasse 946 75328 Stollberg,Germany,Anna Becker,True,Medium,Net 30,0.0,25.0
-SUP-6ebf517d,PrintMaster Solutions SA,Print & Copy Services,Hunzikerstrasse 733 1628 Le Grand-Saconnex,Switzerland,Jeanette Müller,True,Medium,Net 60,404518.74,10.0
-SUP-b45b2de2,TechSpares GmbH,"General Industrial Spares (Valves, Belts)",Kitzmanngasse 7 11397 Bautzen,Germany,Anna Müller,True,Medium,Net 60,93380.31,25.0
-SUP-d355d1c7,AutoLease GmbH,Vehicle Leasing & Purchase,Drewesstr. 96/24 48541 Wurzen,Germany,Anna Müller,True,Medium,Net 30,0.0,25.0
-SUP-b6e4b6e7,EnergieManagement Sorgfalt GmbH,Energy Management & Sustainability Services,Evi-Segebahn-Platz 39/35 45296 Altötting,Germany,Anna Wagner,True,Low,Net 30,10890.46,15.0
-SUP-dc2a58f2,SeguridadPro Expertos en Consultoría y Evaluación de Riesgos,Security Consulting & Risk Assessment,"Calle 107 # 31L-6 549054 Convención, Norte de Santander",Colombia,Carlos Mendez,False,Medium,Net 30,0.0,25.0
-SUP-2e2f16f8,TechVision Solutions GmbH,IT Consulting & Implementation,Sieglinde-Heser-Ring 1/7 84954 Rottweil,Germany,Anna Müller,True,Low,Net 90,0.0,15.0
-SUP-881bce5b,Incentive Rewards Solutions Singapore,Sales Incentive & Reward Programs,"594 Cabrera Green Suite 106 East Rachelberg, ME 66469",Singapore,Jane Doe,True,Medium,Net 30,343014.95,10.0
-SUP-03afe7dd,Clorofilas Servicios de Limpieza,Janitorial & Cleaning Services,"Avenida 8 N° 4866 La Plata 1900, Buenos Aires",Argentina,Carlos Mendoza,True,Low,Net 30,5974.63,15.0
-SUP-bd969ccc,OptiCore Data Solutions GmbH,"Data Center (Servers, Storage)",Jasmin-Pechel-Weg 2-8 06795 Meppen,Germany,Thomas Schmidt,True,High,Net 60,250000.0,40.0
-SUP-3a6d242c,Kreative Design Solutions,"Creative, Content & Branding Agencies","Jorge Barrios 570 Of. 806 Bulnes, Región de Ñuble, 6818190",Chile,Ana Sofia Morales,True,Low,Net 60,71285.15,15.0
-SUP-4226cc9f,TechNova End-User Computing,"End-User Computing (Laptops, Desktops, Monitors)","1202 Amanda Lodge Suite 530 Port Cheryltown, NS V1N7H5",Canada,Emily Johnson,False,Low,Net 90,31563.4,0.0
-SUP-f4e1ba38,N/A,"Media Buying (Print, Broadcast, Digital)",Krogagervej 9 5020 Jerup,Denmark,N/A,True,Low,Net 30,54724.53,0.0
-SUP-2a42d0f3,SecureTech Solutions GmbH,Access Control Systems,Bernhard-Zorbach-Allee 2 45759 Gießen,Germany,Anna Müller,True,Low,Net 30,0.0,15.0
-SUP-665eafbc,Systèmes Optimaux Gestion de Services,"Managed Services (Helpdesk, Network Management)","16, boulevard Thibault Louis 21656 Danielnec",France,Jean-Pierre Moreau,True,Medium,Net 90,123265.29000000001,10.0
-SUP-6e80cee3,N/A,"Coatings, Pigments & Dyes",van der Dussenstraße 611 10124 Burglengenfeld,Germany,Anna Müller,True,Low,Net 90,0.0,15.0
-SUP-cf822a50,AutoPro Service GmbH,Vehicle Maintenance & Repair,Junkenallee 4-1 08106 Plauen,Germany,Michael Schmidt,True,Low,Net 90,0.0,15.0
-SUP-12ec4c41,N/A,Stamped Metal Parts,Zdravko-Hänel-Ring 4-9 73084 Ilmenau,Germany,Anna Müller,True,Medium,Net 90,0.0,25.0
-SUP-a06783cb,Görlitzer Schutz- und Atemschutzunternehmen GmbH,Fall Protection & Respiratory Gear,Dan-Wende-Allee 2 79738 Görlitz,Germany,Anna Müller,True,Low,Net 90,125563.62,25.0
-SUP-19f5d149,Latvian Conveyor Solutions Ltd.,Conveyor Systems,"056 Celms Hill New Kārliston, HI 55016",Latvia,Jonas Zalmanovics,True,Low,Net 90,0.0,0.0
-SUP-ad734c6e,N/A,Building Maintenance & HVAC,Ehlertweg 51 85517 Neuruppin,Germany,Anna Müller,True,Low,Net 60,0.0,15.0
-SUP-d7f41347,Slovak Inventory Solutions s.r.o.,Inventory Management Systems,Pri Starom háji 696 010 90 Ladzany,Slovakia,Jana Novak,True,Medium,Net 30,611724.58,35.0
-SUP-e7090b29,N/A,"Telecommunications (Mobile, Fixed Line, Internet)",Bärerstr. 6 37235 Sangerhausen,Germany,Anna Becker,False,High,Net 30,0.0,40.0
-SUP-0630c4eb,DataInsight Solutions A/S,"Business Intelligence & Analytics (BI, Data Visualization)",Fredericiagade 9 7492 Vejby,Denmark,Thomas Jensen,True,Low,Net 90,0.0,0.0
-SUP-799eed80,Innovative Rewards Solutions Inc.,Sales Incentive & Reward Programs,"2591 James Throughway Apt. 013 Martinhaven, WI 09533",United States,Emily Johnson,True,Low,Net 30,40666.67,0.0
-SUP-94dee42c,Servicios Energéticos Chile S.A.,"Utilities (Gas, Electricity, Water)","Juan Mackenna 94 Colbún, Región del Maule, 2317060",Chile,Ana Patricia Rojas,True,Low,Net 60,0.0,15.0
-SUP-47725468,Optima Solutions GmbH,Operations & Process Improvement,Jakob-Hauffer-Straße 24/39 42115 Wernigerode,Germany,Anna Schmidt,True,Low,Net 30,0.0,15.0
-SUP-73e5063b,N/A,Telematics & Fleet Tracking,Bolnbachweg 19/60 58551 Aurich,Germany,Anna Becker,True,Low,Net 90,0.0,15.0
-SUP-fe876beb,Arbeitsvermittlung GmbH,Payroll & Benefits Administration,Schollstr. 1 38741 Euskirchen,Germany,Anna Müller,True,Low,Net 90,0.0,15.0
-SUP-1e58ae32,Netzwerk-Experts GmbH,Digital Marketing & SEO/SEM,Hans-Jürgen-Hölzenbecher-Allee 434 65740 Lobenstein,Germany,Hans-Peter Schmid,True,Medium,Net 90,44620.33,25.0
-SUP-57d481e5,RegenSuppliers GmbH,Bearings & Gears,Henckring 64-24 96356 Regensburg,Germany,Anna Müller,True,Low,Net 60,197240.15000000002,15.0
-SUP-9ad7fa80,SvetoAnalitika d.o.o.,"Data, Surveys & Analysis",Raičeva ulica 763 6463 Tolmin,Slovenia,Marko Javor,True,Low,Net 60,109580.67,0.0
-SUP-50d60be9,AutoLease GmbH,Vehicle Leasing & Purchase,Schleichallee 82 93196 Bad Mergentheim,Germany,Michael Schmidt,True,Medium,Net 90,0.0,25.0
-SUP-c6dec6f1,Ireland Gas & Power Ltd,"Utilities (Gas, Electricity, Water)",23 Cormican Street C309RAE Siobhan Ville,Ireland,Siobhan O'Connor,True,Low,Net 30,0.0,0.0
-SUP-f3113d70,Ausbildungs- und Entwicklungsunternehmen GmbH,Training & Development,Jockelgasse 4/3 97008 Brilon,Germany,Anna Müller,True,Medium,Net 30,131842.02,25.0
-SUP-7a14b81f,Philippine Motor Leasing & Purchase Co.,Vehicle Leasing & Purchase,"B07 L03 Cucumber Road, Kamias Homes 3, Binangonan, 5400 Apayao",Philippines,Ramon S. Dela Cruz,True,Low,Net 30,0.0,15.0
-SUP-986abf60,TechSpares GmbH,"General Industrial Spares (Valves, Belts)",Huhnring 749 57111 Rothenburg ob der Tauber,Germany,Michael Schneider,True,Low,Net 30,3635.75,15.0
-SUP-602bbc8a,Witzenhausen Events GmbH,Event Management & Production,Abdul-Martin-Straße 76-23 09267 Witzenhausen,Germany,Sophie Müller,True,Low,Net 90,52626.67,15.0
-SUP-4b91e5e3,Kommunikationswerkstatt GmbH,Public Relations (PR) Firms,Gunpfring 20/60 63373 Lippstadt,Germany,Anna Becker,True,Low,Net 90,28747.660000000003,15.0
-SUP-b19363e3,TechMaster Scandinavia A/S,"End-User Computing (Laptops, Desktops, Monitors)",Tønnesvej 1 5422 Glamsbjerg,Denmark,Lars Jensen,True,Low,Net 60,55887.01,0.0
-SUP-4a16ed4a,Romanian Order Fulfillment Solutions,Order Fulfillment & Value-Added Services,"Aleea Tudor Floresti, 378927",Romania,Ana Maria Popescu,True,Low,Net 90,0.0,0.0
-SUP-2db25626,MediaLink PR Services,Public Relations (PR) Firms,"23, rue Brun 31799 Vincentboeuf",Luxembourg,Marie Dupont,True,Low,Net 30,78022.49,0.0
-SUP-0baf905d,MediaKraft GmbH,"Media Buying (Print, Broadcast, Digital)",Liliane-Weihmann-Weg 479 01487 Iserlohn,Germany,Lars Becker,True,Low,Net 60,53758.62,15.0
-SUP-0c48a6b9,N/A,3rd Party Logistics (3PL) Services,Antonietta-Krebs-Gasse 199 51982 Kitzingen,Germany,Max Mustermann,True,Medium,Net 30,0.0,25.0
-SUP-de579933,Dessauer Wasser und Gas GmbH,"Utilities (Gas, Electricity, Water)",Biggenallee 92/85 72566 Dessau,Germany,Anna Becker,True,Medium,Net 90,0.0,25.0
-SUP-06240afe,Eisenhütten-Unternehmen für Energie und Wasser,"Utilities (Gas, Electricity, Water)",Löchelgasse 4 74775 Eisenhüttenstadt,Germany,Max Mustermann,True,Low,Net 90,0.0,15.0
-SUP-7ac13ebf,LexSchweinfurt Verwaltungs GmbH,Corporate & Commercial Law,Adem-Siering-Weg 4/5 15435 Schweinfurt,Germany,Anna Müller,True,Low,Net 90,0.0,15.0
-SUP-20e61387,N/A,Employee Welfare & Assistance Programs,95 Macrea Street H26 D430 Cherie Ville,Ireland,John O'Malley,True,Low,Net 90,56439.34,0.0
-SUP-a81357c8,Carburant Solutions Francais,"Fuel, Fuel Cards & Management","918, chemin de Noël 28907 Barbier",France,Jean Dubois,True,Low,Net 30,28921.72,0.0
-SUP-4285ee74,ColdClimate HVAC Supplies Ltd.,Building Maintenance & HVAC,"16159 David Trail Port Bryanport, NL X2J1J3",Canada,Emily Thompson,True,Low,Net 30,29646.26,0.0
-SUP-fff3df42,TeleLink Deutschland GmbH,"Telecommunications (Mobile, Fixed Line, Internet)",Koch IIstraße 1944 00253 Wernigerode,Germany,Anna Müller,True,Low,Net 90,56254.46,15.0
-SUP-7dd9f1d8,WebSphere Digital Solutions GmbH,Digital Marketing & SEO/SEM,Nuray-Zimmer-Platz 8/8 98705 Heiligenstadt,Germany,Anna Müller,True,Low,Net 90,80972.65,15.0
-SUP-7e26d474,N/A,"Data, Surveys & Analysis",Kensystr. 1-9 28850 Starnberg,Germany,Anna Müller,True,Low,Net 30,60735.350000000006,15.0
-SUP-3c8113c5,CleanPro Hungary Ltd.,Janitorial & Cleaning Services,Tótnémetii utca 26. H-2089 Győr,Hungary,János Kovács,True,Low,Net 30,14589.01,0.0
-SUP-d3f16b29,Tech4You Germany GmbH,"End-User Computing (Laptops, Desktops, Monitors)",Netteweg 9 02528 Rockenhausen,Germany,Michael Schmidt,True,High,Net 30,0.0,40.0
-SUP-ca9d9d10,Creative Event Solutions UK,Event Management & Production,Studio 53x Davies creek Franklinfurt E0K 9DN,United Kingdom,Emma Johnson,True,Low,Net 90,305100.36,0.0
-SUP-73a8bc1f,SecureShield Luxembourg,Manned Guarding,"3, avenue Arthur Perrier 06399 Étienne",Luxembourg,Étienne Dubois,True,Medium,Net 30,0.0,10.0
-SUP-9c39f955,Tolmin Transport Solutions,3rd Party Logistics (3PL) Services,Peščena pot 1a 0130 Tolmin,Slovenia,Janez Novak,True,Medium,Net 90,95099.01,10.0
-SUP-64283999,Zentrale Logistik GmbH & Co. KG,Merchandising Services,Hedy-Wagner-Allee 35 74463 Oschatz,Germany,Hans Müller,False,Medium,Net 60,14666.67,25.0
-SUP-1f66c781,Virtuoso CRM Solutions,Customer Relationship Management (CRM) Tools,"R. do Cidral de Cima, S/N 4566-441 Cartaxo",Portugal,Ana Sofia Ferreira,True,High,Net 60,35032.18,25.0
-SUP-9cdd818e,Müller's Marketing Supplies GmbH,Promotional Goods & Branded Merchandise,Tabea-Hermann-Allee 2258 44943 Mühlhausen,Germany,Tina Schmitt,True,Medium,Net 90,34166.66,25.0
-SUP-755c02f8,Logistico Solutions SA,3rd Party Logistics (3PL) Services,"Pasadizo Asdrubal Hervás 74 Burgos, 29866",Uruguay,María Elena Montes,True,Low,Net 30,66467.64,15.0
-SUP-3ccc182b,Incentivos e Recompensas S.A.,Sales Incentive & Reward Programs,"Av João Araújo, 7 0173-311 Póvoa de Varzim",Portugal,Maria da Conceição Almeida,True,Low,Net 90,103755.66,0.0
-SUP-7a2c35a8,N/A,Digital Marketing & SEO/SEM,Heydrichstraße 4-2 29788 Grevenbroich,Germany,Anna Müller,True,Low,Net 90,57287.0,15.0
-SUP-863574e9,SwissNet Solutions,"Networking (Routers, Switches, Firewalls)",Fehrstrasse 56 3936 Gland,Switzerland,Anna Müller,True,Low,Net 90,0.0,0.0
-SUP-bb2e2894,"Managed Services (Helpdesk, Network Management)","Managed Services (Helpdesk, Network Management)",Siegbert-Tintzmann-Ring 73-47 71125 Lüdinghausen,Germany,Anna Müller,True,Low,Net 60,287137.35,15.0
-SUP-606c1eb5,SecureNet Solutions GmbH,Security & Compliance Software,Till-Noack-Allee 5/2 10361 Sebnitz,Germany,Anna Müller,True,High,Net 90,0.0,40.0
-SUP-156892c7,N/A,Payment Processing,"Calle Freire 520 Tomé, Región del Biobío",Chile,María Fernanda López González,True,Low,Net 90,0.0,15.0
-SUP-5b2d0af3,Veranstaltungsmanagement & Produktion GmbH,Event Management & Production,Claas-Kambs-Ring 5/3 60051 Tuttlingen,Germany,Anna Schmidt,True,Medium,Net 30,65996.34,25.0
-SUP-fea22bcb,N/A,Equipment-Specific Spare Parts,Taavetti Laitisen bulevardi 2 85337 Humppila,Finland,Anna Kallinen,True,Low,Net 30,114107.57,0.0
-SUP-a444d5cd,BagSupply GmbH,"Bags, Pouches & Wrappers",Dörrallee 4 44903 Fallingbostel,Germany,Max Mustermann,True,Low,Net 60,268202.7,25.0
-SUP-6c271cbb,LogiMaster GmbH,3rd Party Logistics (3PL) Services,Trommlerweg 3-8 53580 Schlüchtern,Germany,Anna Müller,True,Low,Net 60,0.0,15.0
-SUP-0bb6e4ff,ExpressLogistics GmbH,Parcel & Courier Services,Jörgen-Rogner-Straße 60-18 80234 Einbeck,Germany,Anna Müller,True,High,Net 60,0.0,40.0
-SUP-28408286,Digital Solutions Marketing,Digital Marketing & SEO/SEM,"Alameda de Abreu, S/N 8513-723 Reguengos de Monsaraz",Portugal,Ana Sofia Lopes,False,Low,Net 60,88564.38,0.0
-SUP-7f519513,AuditPro Polska,"Audit, Tax & Advisory Services",ul. Sawickiej 74 03-209 Żywiec,Poland,Anna Kowalska,True,Medium,Net 60,136023.02,10.0
-SUP-7dd5d33c,Lithuania Tech Solutions,IT Consulting & Implementation,"646 Sakalauskas Curve New Aronasland, NV 14633",Lithuania,Anna Kowalczyk,True,Low,Net 60,0.0,0.0
-SUP-9fb59c13,Bulgarian Automotive Leasing Solutions,Vehicle Leasing & Purchase,"7045 Топков Greens Suite 155 Чупетловскаburgh, AS 12311",Bulgaria,Ivan Petrov,True,Low,Net 90,0.0,0.0
-SUP-8b48af5b,N/A,Trade Show & Exhibition Services,"Avenida Miriam Soares, 30 9325-686 Tarouca",Portugal,Mariana Silva,True,Medium,Net 30,78100.0,10.0
-SUP-e85f0659,KreativDesign GmbH,"Creative, Content & Branding Agencies",Grit-Pölitz-Straße 5-8 70489 Prenzlau,Germany,Sandra Müller,True,Medium,Net 60,61360.479999999996,25.0
-SUP-9077081e,N/A,Sales Incentive & Reward Programs,"441 Jēkaubs Fords Suite 089 Krievsville, NC 98056",Latvia,Anna Ivanova,True,Low,Net 90,22333.34,0.0
-SUP-4b297537,Eire Lease Solutions,Vehicle Leasing & Purchase,53 Howley Street R02 FYXP Chelsey Ville,Ireland,Mary O'Connor,True,Medium,Net 90,4584.6,10.0
-SUP-17612817,TechMate Mobile Solutions,"Mobile Devices (Tablets, Smartphones, Accessories)",Trüballee 8998 34026 Schwerin,Germany,Anna Müller,False,Medium,Net 30,302034.18,25.0
-SUP-a448f7c5,Versicherungsunternehmen GmbH,"Insurance (Property, Liability, Health, Travel)",Preißstr. 7-6 76653 Dieburg,Germany,Hans Müller,True,Medium,Net 30,227803.17,25.0
-SUP-55a84a7d,Armonia Office Solutions,Office Furniture & Fixtures,"Strada Ricciotti, 51 23881, Airuno (LC)",Italy,Luca Bianchi,True,Low,Net 90,0.0,0.0
-SUP-f6f1c6aa,N/A,Security Consulting & Risk Assessment,Hornichallee 9 76002 Strausberg,Germany,Anna Müller,True,High,Net 60,77239.5,40.0
-SUP-c723eeaa,Precision Machining GmbH,Machined Parts,Barthstraße 2-5 40877 Marienberg,Germany,Anna Müller,True,Low,Net 30,130467.8,15.0
-SUP-b13757e2,N/A,"Engineering & Design (CAD, PLM)","Jalan BKR No. 7 Bukittinggi, Maluku Utara 05831",Indonesia,Siti Nur Aisyah,True,Low,Net 60,0.0,30.0
-SUP-b1cc1e09,Fibers GmbH - Premium Cotton & Wool Supplies,"Fibers (Cotton, Wool)",Karin-Hein-Allee 6-1 54909 Viechtach,Germany,Anna Müller,False,Medium,Net 90,0.0,25.0
-SUP-04b045f7,SoundVision Solutions,"Audio/Visual Equipment (Projectors, Conferencing Systems)","00106 Dufour Flat Apt. 102 Michelmouth, AK 14250",Belgium,Léonard Dubois,True,Low,Net 60,60818.619999999995,0.0
-SUP-d566c818,Croatian Telecom Solutions,"Telecommunications (Mobile, Fixed Line, Internet)",Jurjevska 6c 65650 Vrbovsko,Croatia,Ana Petrovic,True,High,Net 30,16223.33,25.0
-SUP-1a313d5d,TechAccess Supplies GmbH,"Peripherals & Accessories (Printers, Keyboards)",Wagenknechtring 9/4 58405 Jessen,Germany,Anna Müller,True,Low,Net 60,42600.58,15.0
-SUP-9201a975,Analytica Solutions GmbH,"Data, Surveys & Analysis",Birnbaumallee 3/2 29463 Osterburg,Germany,Hans Müller,True,Low,Net 30,11166.67,15.0
-SUP-6d26c2a5,Weltweit Wohlbefinden GmbH,Employee Welfare & Assistance Programs,Schenkweg 930 12625 Diepholz,Germany,Anna Becker,False,High,Net 30,0.0,40.0
-SUP-cd3b4558,SecureGuard Solutions GmbH,Manned Guarding,Hedwig-Speer-Gasse 90 88046 Ingolstadt,Germany,Anna Müller,True,Low,Net 60,0.0,40.0
-SUP-58f13cc2,Analytica Solutions GmbH,"Data, Surveys & Analysis",Catharina-Schmiedecke-Gasse 41-85 10441 Worbis,Germany,Anna Becker,True,Medium,Net 60,113324.46,25.0
-SUP-dfc024f1,N/A,Stationery & Consumables,"53165 Chandler Meadow Tranburgh, NU N8S 3B8",Canada,Emily Thompson,False,Low,Net 60,0.0,0.0
-SUP-c96b5f0e,Metallwerkstatt GmbH,"Non-Ferrous Metals (Aluminum, Copper, Lithium)",Köhlergasse 76 25123 Saarbrücken,Germany,Anna Weber,True,Low,Net 60,27117.18,15.0
-SUP-4eb48d3a,N/A,Building Maintenance & HVAC,Sagerstr. 90/58 05194 Eberswalde,Germany,Michael Schmidt,True,Medium,Net 60,1298.3899999999999,25.0
-SUP-37ffc3e8,TechInnovate Semiconductors GmbH,Semiconductors & Integrated Circuits,Vassilios-Hartung-Ring 77-17 47113 Bremen,Germany,Vassilios Hartung,True,High,Net 30,1776.63,40.0
-SUP-319abaae,Precision Machined Components GmbH,Machined Parts,Spießallee 104 71773 Eisenberg,Germany,Anna Becker,True,Low,Net 90,142795.76,25.0
-SUP-abd4830f,AutoLease GmbH,Vehicle Leasing & Purchase,Loni-Hartung-Platz 102 24308 Ueckermünde,Germany,Hans Müller,True,Low,Net 60,0.0,15.0
-SUP-38092080,ArbeitsGesellschaft GmbH,Payroll & Benefits Administration,Dörschnerstr. 7-2 49477 Mayen,Germany,Anna Müller,True,Medium,Net 30,9885.11,25.0
-SUP-bf51919d,Druck & Kopi Service GmbH,Print & Copy Services,Agnes-Weihmann-Platz 31-58 45630 Hettstedt,Germany,Hans Müller,True,Low,Net 30,0.0,15.0
-SUP-515e9561,Nordwest Express Transport GmbH,"Road Freight (FTL, LTL)",Hasan-Stiffel-Platz 5-3 24510 Nordhausen,Germany,Birgit Schulz,True,Medium,Net 90,0.0,25.0
-SUP-35a1b051,TransTrack Solutions,Telematics & Fleet Tracking,"Pasaje de Norberto Arellano 46 Ávila, 36983",Spain,Carlos Mendez Sanchez,True,Low,Net 60,0.0,0.0
-SUP-4a551f59,N/A,"Recruitment & Staffing (Permanent, Temporary)",Carmine-Tintzmann-Weg 86 18252 Kamenz,Germany,Anna Becker,True,Medium,Net 30,0.0,25.0
-SUP-2a69ce38,Événementiel et Production Détaillée,Event Management & Production,"19, boulevard Laure Prévost 25394 Coste",France,Sophie Dubois,True,Medium,Net 30,78186.42,10.0
-SUP-5fc8afb1,TechSound Solutions GmbH,"Audio/Visual Equipment (Projectors, Conferencing Systems)",Kraushaargasse 7869 58830 Demmin,Germany,Anna Schneider,True,Low,Net 60,152915.26,15.0
-SUP-6bdf4dc4,Influencer & Social Media Marketing Solutions Mexico,Influencer & Social Media Marketing,"Circuito Sur Carmona 454 Edif. 565 , Depto. 945 San Felix de la Montaña, VER 86645-5246",Mexico,Carlos Mendez Rivera,True,Low,Net 30,107598.93,15.0
-SUP-9d9c4cd6,Eire Landscapes Ltd,Landscaping & Groundskeeping,46 O'Gallagher Street T50VV85 Eimhear Ville,Ireland,Aodh Gallagher,True,Low,Net 60,0.0,0.0
-SUP-02221aa0,AutoCare Deutschland GmbH,Vehicle Maintenance & Repair,Bergerplatz 50-14 48915 Pritzwalk,Germany,Hans Müller,True,Medium,Net 60,91294.0,25.0
-SUP-81626446,N/A,3rd Party Logistics (3PL) Services,Seifertweg 62 25039 Belzig,Germany,Anna Müller,True,Low,Net 60,77562.48,15.0
-SUP-d5cec2c7,TechPower Data Centers GmbH,"Data Center (Servers, Storage)",Gunpfring 51-14 61668 Emmendingen,Germany,Anna Müller,False,Low,Net 60,0.0,15.0
-SUP-b9457468,Netherlands Microelectronics Solutions,Semiconductors & Integrated Circuits,Fatimadreef 1 7662OM Schiermonnikoog,Netherlands,Anna van der Meer,False,Low,Net 60,0.0,0.0
-SUP-211cb055,Sofá & Aparadores Office,Office Furniture & Fixtures,"C. de Amparo Casado 85 Girona, 38238",Venezuela,María Elena Gómez,True,Low,Net 60,0.0,15.0
-SUP-0d8c27e2,Precision Equipment Solutions GmbH,Equipment-Specific Spare Parts,Fechnerweg 0 00709 Quedlinburg,Germany,Dr. Anna Becker,True,Medium,Net 90,63387.28,25.0
-SUP-8a41bae6,Messe und Ausstellung Dienstleistungen GmbH,Trade Show & Exhibition Services,Römerring 3992 43834 Ingolstadt,Germany,Anna Becker,True,Low,Net 60,13400.0,15.0
-SUP-3d63ab52,Gourmet Solutions Ro,Catering & Vending Services,"Strada Ababei Bistrita, 980798",Romania,Ana Maria Popescu,True,Low,Net 90,0.0,0.0
-SUP-07c53771,LegalShield GmbH,Litigation & Dispute Resolution,Beierplatz 5-7 40616 Cuxhaven,Germany,Anna Müller,True,Medium,Net 90,3790.75,25.0
-SUP-18ae7a61,Swiss Financial Solutions AG,Banking & Treasury Services,Stockerstrasse 540 8289 Urdorf,Switzerland,Michael Schneider,True,Medium,Net 60,0.0,10.0
-SUP-04209abf,N/A,IT Consulting & Implementation,"Ana Correa 77 Chanco, Región del Maule",Chile,Ana María Correa,True,Low,Net 90,250000.0,15.0
-SUP-c5a39609,Norwegian Telemetry Solutions AS,Telematics & Fleet Tracking,"Rasmussenlia 97, 3745 Adrianeid",Norway,Ingrid Sorensen,True,Low,Net 30,320493.83999999997,0.0
-SUP-d4167331,Bangladesh Event Solutions Pvt Ltd,Event Management & Production,"বাসা নং ১৩, বটিয়ামাটি, বটিয়ানগর, ঝালকাঠি, ৬৪৩০",Bangladesh,Mehedi Hasan,True,Medium,Net 90,39966.67,40.0
-SUP-97e1f6ec,Alliance Métallurgique,Stamped Metal Parts,"33, boulevard Alix Texier 07863 Guillot-sur-Chrétien",France,Jean Dupont,True,Low,Net 30,118572.09,0.0
-SUP-d23bf9f7,Warehousing Solutions Polska Sp. z o.o.,Warehouse Rental & Storage,ulica Orzechowa 59 46-776 Bielsk Podlaski,Poland,Anna Nowak,True,High,Net 30,0.0,25.0
-SUP-e7b341ce,PrintPro Slovakia,Print & Copy Services,Listová 2 947 12 Trebostovo,Slovakia,Anna Novak,True,Low,Net 90,0.0,0.0
-SUP-5b720aef,ExpressLogistics UR,Parcel & Courier Services,"Pasaje Edelmiro Alberdi 883 Jaén, 17074",Uruguay,Luisa Fernández,True,Low,Net 30,20595.41,15.0
-SUP-5703e664,SecureComply Solutions,Security & Compliance Software,"Pasadizo Nacio Clemente 31 Puerta 4 Cáceres, 04580",Spain,Ana Sofia Ruiz,True,Medium,Net 30,0.0,10.0
-SUP-34e68731,TechNova Mobile Solutions GmbH,"Mobile Devices (Tablets, Smartphones, Accessories)",Heydrichstraße 1035 69084 Backnang,Germany,Anna Müller,True,Medium,Net 30,0.0,25.0
-SUP-f32f6fff,LuxTrain Solutions,Training & Development,avenue Hubert 31206 Collin,Luxembourg,Marie Dubois,True,Low,Net 60,0.0,0.0
-SUP-8895d7c1,EcoCycle Solutions GmbH,Waste Management & Recycling,Gudestr. 431 31297 Ingolstadt,Germany,Anna Müller,False,Low,Net 30,0.0,15.0
-SUP-70ca7423,N/A,Promotional Goods & Branded Merchandise,Bohrsgade 16 4196 Havdrup,Denmark,Lars Jensen,True,Low,Net 60,52500.51,0.0
-SUP-c28971d3,Droit et Commerce Algérien SAS,Corporate & Commercial Law,"16, avenue Hernandez 04122 Dufour",Algeria,Mme Fatima Ben Salah,True,Low,Net 30,28358.9,30.0
-SUP-d37a9f0d,Systèmes d'Alarma et Surveillance,Alarm Systems & Monitoring,"40, avenue Arnaud 10807 Gros-sur-Benoit",France,Jean Dupont,True,Low,Net 90,7793.74,0.0
-SUP-bee146f2,Kunstdruck Kassel GmbH,Print & Copy Services,Warmerplatz 67-34 78462 Kassel,Germany,Anna Müller,True,Medium,Net 60,15246.36,25.0
-SUP-c6b11f7f,Mittelhessen Catering GmbH,Catering & Vending Services,Hartmannring 718 13290 Augsburg,Germany,Anna Müller,True,Low,Net 90,1845.94,40.0
-SUP-28fc9189,Innovative Solutions for Enhanced Operations,Operations & Process Improvement,"Incrocio Carla, 8 Piano 4 25057, Sale Marasino (BS)",Italy,Marco Rossi,True,Low,Net 60,0.0,0.0
-SUP-46cdae12,IT-Service Experts GmbH,"Managed Services (Helpdesk, Network Management)",Corinna-Tintzmann-Allee 8 82293 Grimmen,Germany,Corinna Tintzmann,True,Low,Net 60,2840.77,47.5
-SUP-b7f4b9f8,Hochqualitätliche Personalwerbung GmbH,"Recruitment & Staffing (Permanent, Temporary)",Gerold-Martin-Gasse 5/7 80511 Suhl,Germany,Anna Becker,True,Low,Net 30,49213.55,15.0
-SUP-9fa6bc71,TechMaster Deutschland GmbH,"End-User Computing (Laptops, Desktops, Monitors)",Vlado-Faust-Allee 284 58181 Sankt Goar,Germany,Anna Müller,True,High,Net 90,75209.48,40.0
-SUP-ebbe1f72,EcoPower Solutions GmbH,Energy Management & Sustainability Services,Seidelweg 5498 84658 Oberviechtach,Germany,Anna Müller,False,Low,Net 60,0.0,15.0
-SUP-37debc02,SecureGuard Access Solutions GmbH,Access Control Systems,Sara-Aumann-Straße 7040 12791 Mühlhausen,Germany,Max Mustermann,True,Low,Net 60,0.0,15.0
-SUP-b617c733,Latvian Parcel & Courier Solutions,Parcel & Courier Services,"96179 Ābols Shoal Apt. 565 New Kristsshire, AS 48834",Latvia,Anna Kupča,True,Low,Net 90,0.0,0.0
-SUP-c00a7ebc,N/A,Competitor Intelligence Services,Bizovški štradon 199 9595 Mežica,Slovenia,Jane Novak,True,Low,Net 90,98897.81,0.0
-SUP-f5edd427,Insight Analytics Ltd.,"Data, Surveys & Analysis","Diagonal Comodoro Rivadavia N° 1382 Ushuaia 9410, Tierra del Fuego",Argentina,Maria Elena Rodriguez,True,Medium,Net 60,3333.33,25.0
-SUP-b49d170d,RecyclePro Deutschland GmbH,Waste Management & Recycling,Vladimir-Meyer-Platz 20/94 84686 Mettmann,Germany,Anna Schmidt,True,Low,Net 90,0.0,15.0
-SUP-0e5356ad,TechNet Solutions GmbH,"Networking (Routers, Switches, Firewalls)",Lorchplatz 8354 36697 Säckingen,Germany,Anna Müller,False,Low,Net 60,0.0,15.0
-SUP-79ea4496,EuroIncentives Romania,Sales Incentive & Reward Programs,"Bulevardul Diaconu Targu Mures, 345028",Romania,Ludwig Hahn,True,Medium,Net 90,63666.67,10.0
-SUP-c491a24b,Bulgarian Trade Show & Exhibition Services Ltd.,Trade Show & Exhibition Services,"383 Рошльов Fords Suite 782 Искърburgh, RI 67091",Bulgaria,Ivan Petrov,True,Low,Net 30,37710.21,0.0
-SUP-9c831338,Global PR Solutions AG,Public Relations (PR) Firms,Walterstrasse 51 1517 Montreux,Switzerland,Anna Müller,True,Low,Net 30,327387.68,0.0
-SUP-eae72992,TechDocs Solutions Ltd.,Mail & Document Management,"רח 14 57, עמקה, 9117035",Israel,Avi Cohen,True,Low,Net 60,8318.87,15.0
-SUP-97feb370,Stendal Warehousing GmbH,Warehouse Rental & Storage,Hans-Bernd-Pieper-Gasse 6/1 62663 Stendal,Germany,Anna Schmidt,True,Medium,Net 30,121160.66,25.0
-SUP-e4414341,Servicios de Impresión y Copia Nueva Era,Print & Copy Services,"Glorieta Nieves Lopez 967 Almería, 25944",Peru,Luisa Fernanda Nieves López,True,High,Net 60,39781.17,40.0
-SUP-ca3956fe,Innovative CRM Solutions GmbH,Customer Relationship Management (CRM) Tools,Eberhardtring 3/4 94968 Göttingen,Germany,Anna Müller,True,Medium,Net 30,87054.09,25.0
-SUP-920c9ea5,Netzwerk-Lösungen GmbH,"Networking (Routers, Switches, Firewalls)",Juan-Wernecke-Ring 29/28 77600 Gelnhausen,Germany,Thomas Schmidt,True,Medium,Net 90,307687.13,25.0
-SUP-9bb967c3,Croatian Warehousing Solutions,Warehouse Rental & Storage,Naumovac 9b 44290 Otočac,Croatia,Ana Petkovic,True,Low,Net 30,150521.25,0.0
-SUP-9b7c3d6f,ExpressLogistics GmbH,Parcel & Courier Services,Mendeweg 1891 82035 Hünfeld,Germany,Anna Müller,True,Medium,Net 90,0.0,25.0
-SUP-0619c692,LogiSpace Warehousing GmbH,Warehouse Rental & Storage,Etzlerstraße 7238 09019 Kitzingen,Germany,Anna Müller,True,Medium,Net 30,0.0,25.0
-SUP-898eb4a4,N/A,Order Fulfillment & Value-Added Services,Metzstr. 44/28 21929 Düren,Germany,Anna Müller,True,Medium,Net 30,13674.35,25.0
-SUP-793c1d8a,TechInnovate Solutions GmbH,"Enterprise Applications (ERP, CRM, SCM)",Malte-Döhn-Platz 9/6 61094 Brandenburg,Germany,Anna Müller,True,Low,Net 60,0.0,15.0
-SUP-86577098,FleetTech Scandinavia,Telematics & Fleet Tracking,Rosbæks Allé 5 2743 Stoholm,Denmark,Lars Jensen,False,Low,Net 90,250000.0,0.0
-SUP-48d380a8,TechVista Colombia,"Audio/Visual Equipment (Projectors, Conferencing Systems)","Avenida Bogotá, D.C. # 12-43 Sur 522840 La Llanada, Nariño",Colombia,Maria Elena Rojas,True,Medium,Net 30,240960.19,25.0
-SUP-df26f22b,Artemis Energy Solutions GmbH,"Fuel, Fuel Cards & Management",Janus-Hettner-Weg 38 29895 Artern,Germany,Greta Fischer,True,High,Net 60,0.0,40.0
-SUP-cb174833,NetzwerkSolutions GmbH,"Telecommunications (Mobile, Fixed Line, Internet)",Häringstraße 12 84458 Pegnitz,Germany,Anna Müller,True,Low,Net 60,0.0,15.0
-SUP-520336d5,N/A,"Passive Components (Resistors, Capacitors)",Flat 43U Alex plains North Howard M3K 7GU,United Kingdom,Emma Thompson,True,Medium,Net 60,81860.08,10.0
-SUP-7f6acca1,SecureShield Consulting GmbH,Security Consulting & Risk Assessment,Wagnerallee 58 89553 Parchim,Germany,Anna Müller,True,Medium,Net 60,0.0,25.0
-SUP-aa5727c9,DocuSecure Solutions,Mail & Document Management,"Alameda Oriana Ferrer 15 Alicante, 41530",Spain,Ana María Gómez López,True,Medium,Net 90,35224.869999999995,10.0
-SUP-a02cab26,Weimar Warehousing GmbH,Warehouse Rental & Storage,Zobelallee 735 63808 Weimar,Germany,Anna Schmidt,True,Low,Net 60,0.0,15.0
-SUP-0dbdea21,Comunicaciones Nucleares S.A.,"Telecommunications (Mobile, Fixed Line, Internet)","Ruta T-25, km 10, Región de Magallanes y de la Antártica Chilena",Chile,Ana María González Torres,True,Low,Net 90,0.0,15.0
-SUP-1160f45a,DataInsight Solutions GmbH,"Data, Surveys & Analysis",Bonbachring 1/7 20008 Einbeck,Germany,Anna Müller,True,Low,Net 30,24024.32,15.0
-SUP-67a13e9c,Inova Partnerships Group,Sponsorships & Partnerships,"Largo Gabriel Miranda, 623 3920-818 Rio Maior",Portugal,Maria Silva Santos,False,Medium,Net 30,37643.33,10.0
-SUP-7d8553d4,Wohlfahrts-Service GmbH,Employee Welfare & Assistance Programs,Leonie-Roskoth-Ring 76/50 31756 Malchin,Germany,Anna Becker,True,Low,Net 60,30100.71,15.0
-SUP-6e12666a,Estonian Media Solutions Ltd,Public Relations (PR) Firms,"36003 Meelis River Suite 337 Aasview, AS 00580",Estonia,Anna Koppel,False,Medium,Net 30,25733.34,10.0
-SUP-254fd774,Tech Solutions GmbH,"End-User Computing (Laptops, Desktops, Monitors)",Leonhard-Fischer-Platz 2508 07368 Neunburg vorm Wald,Germany,Anna Müller,False,Low,Net 90,0.0,15.0
-SUP-6e2277bb,Slovakian Guard Services,Manned Guarding,Karloveská 35 812 58 Považská Bystrica,Slovakia,Ján Novak,True,Low,Net 30,5595.56,0.0
-SUP-a2aabeb0,Blick Stationer,Stationery & Consumables,Ralf-Wilms-Ring 1323 23302 Burg,Germany,Anna Kühn,True,Medium,Net 90,17647.93,25.0
-SUP-2ee9c785,Catering & Vending Services IJsselham,Catering & Vending Services,Kayleebaan 8 3998 XG IJsselham,Netherlands,Anna de Groot,True,Medium,Net 30,25721.51,10.0
-SUP-11032fcf,SecureTech Access Solutions GmbH,Access Control Systems,auch Schlauchinplatz 341 79298 Bad Kissingen,Germany,Anna Becker,False,High,Net 30,10071.34,40.0
-SUP-1e734ce4,Gourmet Catering Solutions GmbH,Catering & Vending Services,Löfflerstr. 4137 98993 Bad Brückenau,Germany,Anna Schneider,True,High,Net 30,37686.58,40.0
-SUP-fa5194a6,Precision Stamped Solutions GmbH,Stamped Metal Parts,Dorle-Stolze-Gasse 4/4 48922 Lobenstein,Germany,Anna Müller,False,Medium,Net 30,49438.06,25.0
-SUP-04c4f624,Løstør Property Solutions,Property Leases & Rent,Falke Allé 48 7966 Løgstør,Denmark,Johannes Nielsen,True,Low,Net 60,0.0,0.0
-SUP-850d4164,Slovak Road Freight Solutions,"Road Freight (FTL, LTL)",Modrý chodník 81 073 22 Strihovce,Slovakia,Ján Novak,True,Medium,Net 60,0.0,10.0
-SUP-06fd476a,VistaSoft CRM GmbH,Customer Relationship Management (CRM) Tools,Jovan-Hamann-Platz 0 85506 Melsungen,Germany,Anna Müller,True,Medium,Net 90,50277.06,25.0
-SUP-e284fb81,SecureGuard Solutions UK,Manned Guarding,9 Taylor street South Oliver S0C 7FX,United Kingdom,John Oliver,True,Low,Net 60,0.0,0.0
-SUP-418d9229,MediaBuy GmbH,"Media Buying (Print, Broadcast, Digital)",Imke-Rose-Ring 86/34 25404 Auerbach,Germany,Imke Rose,True,Low,Net 30,94438.09,15.0
-SUP-f875f27a,PostManager GmbH,Mail & Document Management,Dussen vanplatz 68 59985 Herzberg,Germany,Anna Müller,True,Low,Net 90,39812.47,15.0
-SUP-23822f36,N/A,Bearings & Gears,Eimerstr. 5-1 21944 Säckingen,Germany,Anna Müller,True,Medium,Net 60,0.0,25.0
-SUP-ec2ca830,SocialSphere GmbH,Influencer & Social Media Marketing,Iwona-Becker-Ring 62-64 02970 Prenzlau,Germany,Anna Müller,True,Medium,Net 60,20740.33,25.0
-SUP-b2e2c8f8,Saskia Catering Solutions Ltd,Catering & Vending Services,15 MacCormack Street Y80 8902 Saskia Ville,Ireland,Emma O'Reilly,True,Medium,Net 90,133518.32,10.0
-SUP-37e2d43b,AutoLease GmbH,Vehicle Leasing & Purchase,Maja-Hertrampf-Gasse 72/81 81641 Geithain,Germany,Hans Müller,True,Medium,Net 30,0.0,25.0
-SUP-96eee878,EcoSustain Solutions FR,Environmental & Sustainability Consulting,boulevard de Morin 73523 Sainte Étienne-les-Bains,France,Jean Dupont,True,Medium,Net 60,181520.13,10.0
-SUP-68c89549,Creative Solutions GmbH,3D Printing Services,Köhlerweg 6/2 10487 Arnstadt,Germany,Anna Müller,True,Low,Net 90,111534.83,15.0
-SUP-1363632c,Mittel für Forschung GmbH,Chemicals & Reagents,Girschnerplatz 8 94966 Meißen,Germany,Anna Becker,True,Low,Net 30,160391.58,15.0
-SUP-7a909695,ServerTech Solutions GmbH,"Data Center (Servers, Storage)",Geert-Bonbach-Gasse 16-73 19524 Northeim,Germany,Anna Müller,True,Medium,Net 60,380867.36,25.0
-SUP-4cb69125,Slovak Employee Wellness Solutions,Employee Welfare & Assistance Programs,Strážny dom 13 057 06 Selec,Slovakia,Anna Novak,True,Low,Net 30,0.0,0.0
-SUP-64654eb0,DataInsight Solutions GmbH,"Business Intelligence & Analytics (BI, Data Visualization)",Hettnergasse 27/20 83465 Pößneck,Germany,Anna Müller,True,Medium,Net 60,0.0,25.0
-SUP-6afc3a6a,Austrian Road Transport Solutions GmbH,"Road Freight (FTL, LTL)",Marius-Hütter-Ring 973 9595 Schwaz,Austria,Marius Hütter,True,Low,Net 30,187617.04,0.0
-SUP-c44cf978,AcoustiTech Audiovisual GmbH,"Audio/Visual Equipment (Projectors, Conferencing Systems)",Herrmannallee 99/78 30059 Gera,Germany,Thomas Schmidt,True,Low,Net 60,191106.47,15.0
-SUP-35e0c23c,SecureGuard Alarm Systeme GmbH,Alarm Systems & Monitoring,Georgia-Trupp-Weg 336 81870 Neustrelitz,Germany,Anna Müller,True,Low,Net 60,0.0,15.0
-SUP-ae263658,N/A,Influencer & Social Media Marketing,Agatha-Margraf-Platz 56/44 61369 Northeim,Germany,Marie Schneider,True,High,Net 90,118066.34,40.0
-SUP-9d50f9a1,GuardForce Europe GmbH,Manned Guarding,Hövelallee 6/2 94875 Neu-Ulm,Germany,Thomas Müller,True,Low,Net 90,6760.38,15.0
-SUP-e99acbd5,N/A,Freight Forwarding & Customs Brokerage,Zorbachallee 5/5 97639 Wertingen,Germany,Anna Müller,True,Medium,Net 30,0.0,25.0
-SUP-8fd4d0db,N/A,Payroll & Benefits Administration,Ira-Ladeck-Gasse 5789 75084 Mittweida,Germany,Hans Müller,True,Low,Net 30,0.0,15.0
-SUP-9accd95e,N/A,Security Consulting & Risk Assessment,Süleyman-Schleich-Platz 86/48 49760 Mühlhausen,Germany,Anna Schmidt,True,Medium,Net 60,0.0,25.0
-SUP-07c60f29,EcoSustain Consulting GmbH,Environmental & Sustainability Consulting,Orhan-Bohlander-Ring 85/80 55679 Jena,Germany,Anna Schmidt,True,Low,Net 90,301198.11,15.0
-SUP-93bf3d05,N/A,Landscaping & Groundskeeping,Amalia-Martin-Gasse 6845 48299 Rastatt,Germany,Hans Müller,True,Low,Net 60,0.0,15.0
-SUP-91100f1c,TechVision Audio-Visuell GmbH,"Audio/Visual Equipment (Projectors, Conferencing Systems)",Damaris-Werner-Straße 7/9 28344 Kaiserslautern,Germany,Anna Müller,True,Medium,Net 30,0.0,25.0
-SUP-81a3991e,Armea Textilien GmbH,"Fibers (Cotton, Wool)",Gernot-van der Dussen-Weg 80 80986 Aue,Germany,Karin Meyer,True,Low,Net 30,0.0,15.0
-SUP-1193064b,LogiServe GmbH,Order Fulfillment & Value-Added Services,Caren-Hering-Gasse 945 34831 Eberswalde,Germany,Anna Schmid,True,Low,Net 60,150809.25,15.0
-SUP-73537855,WebMasters GmbH,Digital Marketing & SEO/SEM,Judith-Faust-Allee 892 41425 Burglengenfeld,Germany,Anna Schmidt,True,Medium,Net 60,75666.66,50.0
-SUP-dd283bf4,N/A,Telematics & Fleet Tracking,auch Schlauchinweg 1-3 59121 Hohenmölsen,Germany,Anna Müller,True,Low,Net 60,24591.35,15.0
-SUP-c6532f1a,N/A,Intellectual Property & Patents,Josefine-Margraf-Platz 1-6 37264 Starnberg,Germany,Josefine Margraf,True,Low,Net 30,12810.79,25.0
-SUP-e168c724,Mitteldeutsche Catering & Vending GmbH,Catering & Vending Services,Herta-Schlosser-Ring 1-8 08447 Melsungen,Germany,Anna Schmidt,False,Medium,Net 90,0.0,25.0
-SUP-d0797cec,GrünHaus Landschafts- und Unterhaltungspaket GmbH,Landscaping & Groundskeeping,Louis-Graf-Platz 612 71335 Konstanz,Germany,Anna Müller,True,Low,Net 30,435374.57,15.0
-SUP-4cccc265,Post-Organisation GmbH,Mail & Document Management,Säuberlichstr. 8 32573 Grafenau,Germany,Anna Müller,False,High,Net 30,33618.19,40.0
-SUP-69550003,Nordhausen Catering Solutions GmbH,Catering & Vending Services,Ottokar-Roht-Ring 92 47223 Nordhausen,Germany,Anna Schneider,True,Low,Net 60,0.0,15.0
-SUP-912f6802,TransEurope Logistics GmbH,"Road Freight (FTL, LTL)",Juri-Bruder-Weg 73/70 73421 Grevenbroich,Germany,Anna Becker,False,High,Net 30,0.0,40.0
-SUP-fd3d4400,N/A,"Data Center (Servers, Storage)",André-Ruppersberger-Gasse 39/78 90607 Badoberan,Germany,Max Mustermann,True,Low,Net 90,0.0,15.0
-SUP-4092ef2e,N/A,Intellectual Property & Patents,Vinterca 1a 9028 Slovenska Bistrica,Slovenia,Jane Doe,True,Low,Net 60,0.0,10.0
-SUP-59d231f2,Ost-West Metallhandel GmbH,"Ferrous Metals (Steel, Iron)",Oestrovskyring 1/7 14842 Rathenow,Germany,Hans Müller,True,Low,Net 60,6578.97,15.0
-SUP-a48963c7,N/A,Security Consulting & Risk Assessment,Mosonmagyaróvári utca 48. H-5322 Szerbtamásivég,Hungary,János Kőrös,True,Low,Net 90,173561.23,0.0
-SUP-c1694a68,N/A,Vehicle Maintenance & Repair,"84, boulevard Delannoy 57229 Lacombedan",France,Jean Dupont,True,Medium,Net 30,0.0,10.0
-SUP-8d243e48,TechSupplies GmbH,"Mobile Devices (Tablets, Smartphones, Accessories)",Lachmannring 8-4 43216 Eisenberg,Germany,Anna Schmidt,True,Low,Net 60,32003.980000000003,15.0
+vendorCode,legalName,category_L1,category_L2,category_L3,category_L4,address,country,contactPerson,isActive,financialHealth,paymentTerms,masterContractId,lastAnnualRevenue,riskScore
+SUP-d0028978,Creative Connect GmbH,Indirect Services and Materials,Marketing & Sales,Marketing & Advertising,Sponsorships & Partnerships,Melita-Schuster-Ring 30 68358 Schongau,Germany,Anna Müller,True,High,Net 60,,42138.24,40.0
+SUP-14ba6be1,Slovenian Data Solutions,Indirect Services and Materials,IT & Technology,Hardware,"Data Center (Servers, Storage)",Slavčja ulica 846 6109 Ljutomer,Slovenia,Marko Novak,True,Low,Net 30,CTR-8c70356024,0.0,0.0
+SUP-17d8c234,Aluminum Bottle Solutions B.V.,Direct Materials,Packaging Materials,Primary Packaging,"Bottles, Jars & Cans","35100 De Coster Plains Apt. 447 West Christophe, GA 23341",Belgium,Marie-Christine Van de Velde,True,Low,Net 30,CTR-9fbe0faae7,0.0,0.0
+SUP-1279e8c5,N/A,Indirect Services and Materials,Facility Services,Facility Management,Janitorial & Cleaning Services,"221 Angela Rapids Suite 092 Port Johnfurt, MP 54589",Nigeria,Osita Nnamani,True,Medium,Net 60,,0.0,40.0
+SUP-29376f6c,TeleNet Polska,Indirect Services and Materials,IT & Technology,IT Services & Telecom,"Telecommunications (Mobile, Fixed Line, Internet)",ulica Osiedlowa 085 15-888 Piekary Śląskie,Poland,Anna Nowak,True,Medium,Net 60,CTR-3a65d832d2,0.0,10.0
+SUP-ed255416,Optima Inventory Solutions GmbH,Indirect Services and Materials,Logistics,Warehousing & Distribution,Inventory Management Systems,Krauseplatz 89/52 98553 Duderstadt,Germany,Anna Müller,True,Low,Net 60,CTR-a1692a3343,28900.12,15.0
+SUP-ddc0811d,SkyHost Solutions GmbH,Indirect Services and Materials,IT & Technology,IT Services & Telecom,"Cloud & Hosting (IaaS, PaaS, SaaS)",Jonas-Hörle-Ring 12 99213 Anklam,Germany,Max Mustermann,True,Medium,Net 60,CTR-8204c2b2dc,0.0,25.0
+SUP-b66034ca,SwissCom Communications AG,Indirect Services and Materials,IT & Technology,IT Services & Telecom,"Telecommunications (Mobile, Fixed Line, Internet)",Kellerstrasse 2 5211 Volketswil,Switzerland,Marie Dupont,True,Medium,Net 90,CTR-23e8ba1d3c,0.0,10.0
+SUP-5193065e,CanWest Media Solutions,Indirect Services and Materials,Marketing & Sales,Marketing & Advertising,"Media Buying (Print, Broadcast, Digital)","5216 James Lights Myersfurt, NU J1G 7L4",Canada,Emily Thompson,True,Low,Net 60,,24059.96,0.0
+SUP-a1f01e14,Hannoveraner Getreiseinrichtung GmbH,Direct Materials,Raw Materials,Agricultural Products,Grains & Cereals,Heydrichgasse 5/5 35257 Hannover,Germany,Anna Schmidt,True,Low,Net 90,CTR-f1ede081f7,0.0,15.0
+SUP-ff3b8c28,LITIGATION CONSULTING GMBH,Indirect Services and Materials,Corporate & Professional Services,Legal Services,Litigation & Dispute Resolution,Diether-Holzapfel-Weg 8 08639 Eggenfelden,Germany,Anna Müller,False,Low,Net 90,CTR-32d4faa36e,0.0,15.0
+SUP-e8f9c593,GuardShield Europe GmbH,Indirect Services and Materials,Facility Services,Security Services,Manned Guarding,Ferenc-Schottin-Weg 7-3 88035 Ludwigslust,Germany,Anna Schmidt,True,Low,Net 60,CTR-0681ca1bc7,17413.38,15.0
+SUP-b07d40de,Hydraulik-Technik GmbH,Direct Materials,Components & Sub-Assemblies,Mechanical Components,Motors & Pumps,Kenneth-Trupp-Straße 6 83029 Parchim,Germany,Anna Müller,True,Medium,Net 90,CTR-120ece3d5e,0.0,25.0
+SUP-5f8353e2,Asistencia Litigial y Resolución de Conflictos S.A.,Indirect Services and Materials,Corporate & Professional Services,Legal Services,Litigation & Dispute Resolution,"Pasaje Nacio Céspedes 51 Álava, 18661",Venezuela,Ana María González Fernández,True,Low,Net 90,CTR-41440e0d1a,66995.95,15.0
+SUP-f6cb4057,SecureGuard Solutions AG,Indirect Services and Materials,Facility Services,Security Services,Security Consulting & Risk Assessment,Wettsteinstrasse 79 4159 Langenthal,Switzerland,Anna Fischer,True,Low,Net 30,,4085.95,0.0
+SUP-4a231aed,Data Insights GmbH,Indirect Services and Materials,Marketing & Sales,Market Research,"Data, Surveys & Analysis",Janina-Reuter-Gasse 9/1 01773 Jena,Germany,Anna Becker,True,Medium,Net 60,CTR-5f62f658d3,52809.18,25.0
+SUP-46039deb,SecureGuard Alarm Solutions,Indirect Services and Materials,Facility Services,Security Services,Alarm Systems & Monitoring,"Hellandstranda 74, 3814 Jensen",Norway,Ingrid Larsen,True,Low,Net 60,CTR-c0d570b439,0.0,0.0
+SUP-df9e0a51,Insightful Analytics Solutions GmbH,Indirect Services and Materials,Marketing & Sales,Market Research,Brand Tracking & Analytics,Margrafgasse 52 90033 Sömmerda,Germany,Anna Müller,True,Medium,Net 90,,44894.68,25.0
+SUP-9af6c358,Muster Rechtsanwaltskanzlei GmbH,Indirect Services and Materials,Corporate & Professional Services,Legal Services,Corporate & Commercial Law,Heinstr. 8146 87863 Darmstadt,Germany,Anna Becker,True,Low,Net 30,CTR-6d4b4758e6,0.0,15.0
+SUP-3cd13045,TransRoad Logistics GmbH,Indirect Services and Materials,Logistics,Transportation & Freight,"Road Freight (FTL, LTL)",Hans-Jörg-Loos-Platz 3684 10836 Erkelenz,Germany,Michael Schmidt,True,Medium,Net 60,CTR-16d5d1022f,72181.6,25.0
+SUP-183a7496,AdVenture Promotions GmbH,Indirect Services and Materials,Marketing & Sales,Events & Promotions,Promotional Goods & Branded Merchandise,Michael-Schulz-Weg 22 09470 Mainburg,Germany,Thomas Müller,True,Low,Net 60,CTR-690ba2c117,43634.729999999996,15.0
+SUP-297b7509,DataVision Solutions ApS,Indirect Services and Materials,IT & Technology,Software,"Business Intelligence & Analytics (BI, Data Visualization)",Kasematgade 8 4306 Rungsted Kyst,Denmark,Lars Jensen,True,Low,Net 90,,0.0,0.0
+SUP-92ab2577,EcoSustainable Energy Solutions,Indirect Services and Materials,Facility Services,Real Estate & Utilities,Energy Management & Sustainability Services,rue de De Sousa 24809 MaréchalBourg,Luxembourg,Jean-Marie Dubois,True,Low,Net 60,,8812.51,0.0
+SUP-b3411103,SecureFuture Consulting GmbH,Indirect Services and Materials,Facility Services,Security Services,Security Consulting & Risk Assessment,Putzstr. 77 83177 Burglengenfeld,Germany,Anna Müller,True,Medium,Net 90,CTR-6d5f318f8d,0.0,25.0
+SUP-d4ec788b,N/A,Indirect Services and Materials,Corporate & Professional Services,Human Resources Services,Employee Welfare & Assistance Programs,Strohgasse 40/95 21361 Amberg,Germany,Anna Müller,False,Low,Net 30,,23265.25,15.0
+SUP-1697fff9,WebMastery GmbH,Indirect Services and Materials,Marketing & Sales,Marketing & Advertising,Digital Marketing & SEO/SEM,Zänkerstraße 19 98559 Freudenstadt,Germany,Anna Müller,True,High,Net 30,CTR-71f56f44c6,19651.219999999998,40.0
+SUP-8679b3df,MediaCorp Argentina,Indirect Services and Materials,Marketing & Sales,Marketing & Advertising,"Media Buying (Print, Broadcast, Digital)","Blv. Güemes N° 755 Piso 1 Dto. 9 San Luis 5700, San Luis",Argentina,Juan Antonio Ramirez,True,Low,Net 90,,33853.75,15.0
+SUP-c3b424cd,N/A,Indirect Services and Materials,Facility Services,Office Supplies & Services,Stationery & Consumables,"Alameda de Fortunata Calderón 7 Pontevedra, 21314",Uruguay,Ana María Fernández,True,Low,Net 60,,0.0,15.0
+SUP-4c3654bb,LabelMasters AB,Direct Materials,Packaging Materials,Tertiary Packaging & Shipping Supplies,Labels & Inserts,Strandvägen 659 36072 Halmstad,Sweden,Anna Lindberg,True,Low,Net 30,CTR-283a5733f9,29942.22,0.0
+SUP-1e76ec0f,EcoClean Solutions,Technical Materials,"MRO (Maintenance, Repair & Operations)",Industrial Consumables,Cleaning Agents & Janitorial Supplies,"Soseaua Pușcașu Nr. 33 Pecica, 359710",Romania,Ana Maria Popescu,True,Low,Net 60,,0.0,25.0
+SUP-81d28ce1,N/A,Direct Materials,Packaging Materials,Secondary Packaging,Trays & Dividers,"771 Зоичка Isle Suite 579 New Китомир, ME 93929",Bulgaria,Ivan Petrov,True,Medium,Net 90,CTR-02961da4ce,0.0,10.0
+SUP-ae53d2a1,GreenScape Bulgaria,Indirect Services and Materials,Facility Services,Facility Management,Landscaping & Groundskeeping,"49923 Видима Causeway Port Юлияmouth, CA 00901",Bulgaria,John Petrov,True,Medium,Net 90,CTR-78eb80b6e1,0.0,10.0
+SUP-bf4a398c,N/A,Indirect Services and Materials,Logistics,Fleet Management,"Fuel, Fuel Cards & Management",Gunter-Nette-Straße 5-5 80831 Fürstenwalde,Germany,Anna Müller,True,Low,Net 90,CTR-ed06ff2f5e,0.0,15.0
+SUP-2e4ea2cd,Elevate Sales Solutions,Indirect Services and Materials,Marketing & Sales,Sales Support,Sales Training,"H.No. 919, Raja Nagar Deoghar 278667",India,Anita Sharma,True,Low,Net 30,,26721.35,30.0
+SUP-2a4138d8,MediaSphere PR Solutions GmbH,Indirect Services and Materials,Marketing & Sales,Marketing & Advertising,Public Relations (PR) Firms,Jonas-Hauffer-Straße 20 98483 Amberg,Germany,Anna Müller,True,Low,Net 60,,166097.22,15.0
+SUP-7c062cc2,N/A,Indirect Services and Materials,Logistics,Warehousing & Distribution,Inventory Management Systems,Monja-Warmer-Weg 49 45877 Neubrandenburg,Germany,Anna Müller,True,Medium,Net 30,CTR-2e366d9446,0.0,25.0
+SUP-4b94d4e7,GrünLand Landschafts- und Gartenbau GmbH,Indirect Services and Materials,Facility Services,Facility Management,Landscaping & Groundskeeping,Stollplatz 7-5 06404 Düren,Germany,Anna Schmidt,True,Low,Net 30,CTR-c8173d3057,0.0,15.0
+SUP-7fde8db3,Konzern für Lead Generationsdienste GmbH,Indirect Services and Materials,Marketing & Sales,Sales Support,Lead Generation Services,Bayram-Wagner-Weg 3/6 82803 Kamenz,Germany,Anna Müller,True,Low,Net 90,CTR-d5f640b2f0,25387.309999999998,15.0
+SUP-68cd94dc,N/A,Indirect Services and Materials,Facility Services,Real Estate & Utilities,"Utilities (Gas, Electricity, Water)",Wähnerstr. 43-18 77798 Weißwasser,Germany,N/A,True,Low,Net 90,,0.0,15.0
+SUP-1a392848,TechForus End-User Computing GmbH,Indirect Services and Materials,IT & Technology,Hardware,"End-User Computing (Laptops, Desktops, Monitors)",Manuel-Oderwald-Straße 56-71 67300 Deggendorf,Germany,Anna Müller,True,Medium,Net 90,CTR-b49e183c70,110897.87,25.0
+SUP-5b0b66c1,CRM Solutions AG,Indirect Services and Materials,Marketing & Sales,Sales Support,Customer Relationship Management (CRM) Tools,Freystrasse 50 7973 Biel/Bienne,Switzerland,Johannes Müller,True,Low,Net 90,CTR-fd5d85498f,31101.28,0.0
+SUP-7aa8cee7,Media Communications GmbH,Indirect Services and Materials,Marketing & Sales,Marketing & Advertising,Public Relations (PR) Firms,Möchlichenallee 6/1 68155 Scheinfeld,Germany,Anna Müller,True,Low,Net 30,,79685.58,15.0
+SUP-53490df4,Klein & Partner Corporate Law GmbH,Indirect Services and Materials,Corporate & Professional Services,Legal Services,Corporate & Commercial Law,Kobeltweg 9/6 96060 Prenzlau,Germany,Anna Schmitt,True,Low,Net 90,,0.0,15.0
+SUP-5728dc03,Auto Lease Solutions s.r.o.,Indirect Services and Materials,Logistics,Fleet Management,Vehicle Leasing & Purchase,V Padolině 2 157 32 Loučná pod Klínovcem,Czech Republic,Jan Novak,True,Low,Net 90,CTR-69dda614cf,2070.74,0.0
+SUP-d0c643f2,Schweinfurter Papier & Tinte GmbH,Indirect Services and Materials,Facility Services,Office Supplies & Services,Stationery & Consumables,Hans-Werner-Trapp-Platz 1-1 00440 Schweinfurt,Germany,Anna Müller,True,Low,Net 90,,0.0,15.0
+SUP-c399cf1f,SecureGuard Alarm Systeme GmbH,Indirect Services and Materials,Facility Services,Security Services,Alarm Systems & Monitoring,Geislerplatz 8 95085 Staßfurt,Germany,Anna Schmidt,False,Low,Net 60,CTR-6563fb3f94,0.0,15.0
+SUP-37d281c9,ProSafe Protective Equipment GmbH,Technical Materials,"MRO (Maintenance, Repair & Operations)",Safety & PPE (Personal Protective Equipment),"Safety Gloves, Goggles & Hard Hats",Wieslaw-Drub-Allee 58 72171 Fallingbostel,Germany,Wieslaw Drub,True,Low,Net 30,CTR-56f5545afc,152125.19,55.0
+SUP-4b5bf68d,N/A,Indirect Services and Materials,Facility Services,Office Supplies & Services,Office Furniture & Fixtures,"Calle de Darío Bernal 47 Huelva, 46158",Spain,Juan Pérez Gómez,True,Medium,Net 30,,0.0,10.0
+SUP-3db79ae0,Precision Machined Solutions GmbH,Direct Materials,Components & Sub-Assemblies,Fabricated Parts,Machined Parts,Junitzstraße 81-14 37991 Hainichen,Germany,Anna Müller,True,High,Net 60,,22609.06,40.0
+SUP-a1919a18,Lern & Entwickeln GmbH,Indirect Services and Materials,Corporate & Professional Services,Human Resources Services,Training & Development,Ralf-Dieter-Gutknecht-Straße 3-3 75638 Neuruppin,Germany,Anna Müller,True,Low,Net 30,,0.0,15.0
+SUP-5d06fa76,EuroPallet Solutions GmbH,Direct Materials,Packaging Materials,Tertiary Packaging & Shipping Supplies,Pallets & Crates,Fechnerweg 72/41 97531 Nabburg,Germany,Anna Schmidt,True,Low,Net 60,CTR-fae2bc23c2,138619.00999999998,40.0
+SUP-01b5b22e,TechSupport GmbH,Indirect Services and Materials,IT & Technology,IT Services & Telecom,"Managed Services (Helpdesk, Network Management)",Mülichenallee 8 54326 Aachen,Germany,Anna Müller,True,Medium,Net 30,CTR-e5baa1a290,65127.65,25.0
+SUP-a6f04e7c,Slovenian Influence Agency,Indirect Services and Materials,Marketing & Sales,Marketing & Advertising,Influencer & Social Media Marketing,Trdinova ulica 3a 1164 Ptuj,Slovenia,Marko Novak,True,Medium,Net 90,CTR-898a1cf434,68820.82,10.0
+SUP-5eeb608a,Merchandising Solutions S.A.,Indirect Services and Materials,Marketing & Sales,Sales Support,Merchandising Services,"Esmeralda 5500 Of. 204 Licantén, Región del Maule, 5084630",Chile,Juan Carlos Méndez Pérez,True,Medium,Net 90,CTR-56c8b77c58,122962.81,25.0
+SUP-808cbf4f,Hainer Wasser- und Elektrizitätsgesellschaft mbH,Indirect Services and Materials,Facility Services,Real Estate & Utilities,"Utilities (Gas, Electricity, Water)",Pieperstraße 6/7 93528 Hainichen,Germany,Anna Müller,True,Low,Net 60,,14330.25,15.0
+SUP-2c524cef,TechPerf Supplies GmbH,Indirect Services and Materials,IT & Technology,Hardware,"Peripherals & Accessories (Printers, Keyboards)",Ottokar-Kühnert-Ring 56-13 22544 Fulda,Germany,Anna Müller,True,High,Net 60,,0.0,40.0
+SUP-6855fa15,Swiss Process Machinery AG,Technical Materials,Manufacturing Equipment,Production Machinery,Processing Equipment,Knechtstrasse 63 7781 Riehen,Switzerland,Anna Müller,True,Low,Net 30,CTR-5afb05115d,414412.58,17.5
+SUP-39418671,SecureNet Solutions GmbH,Indirect Services and Materials,IT & Technology,IT Services & Telecom,"Cybersecurity Services (Pen Testing, Monitoring, SOC)",Ernstweg 466 24190 Germersheim,Germany,Anna Müller,True,Low,Net 60,CTR-501e39fe1a,250000.0,15.0
+SUP-40e17d33,Herramientas Humanitarias S.A.,Indirect Services and Materials,Corporate & Professional Services,Human Resources Services,"Recruitment & Staffing (Permanent, Temporary)","Vial Nico Aragonés 72 Piso 7 Baleares, 06307",Venezuela,Ana Maria Guzmán,True,High,Net 60,CTR-f20bd29d25,0.0,40.0
+SUP-50651f5b,LuxGuard Services SAS,Indirect Services and Materials,Facility Services,Security Services,Manned Guarding,"441, rue de Morin 08936 Leclerc",Luxembourg,Jean Leclerc,True,Low,Net 60,CTR-a0f0890d19,0.0,0.0
+SUP-ed9db816,MobilityTech Solutions d.o.o.,Indirect Services and Materials,Logistics,Fleet Management,Telematics & Fleet Tracking,Sadinja vas 7a 2658 Nova Gorica,Slovenia,Marko Novak,True,Low,Net 60,CTR-31967236ca,0.0,0.0
+SUP-1b87ca43,TransLink Telematics GmbH,Indirect Services and Materials,Logistics,Fleet Management,Telematics & Fleet Tracking,Kati-Ladeck-Platz 9-9 63938 Nördlingen,Germany,Anna Becker,True,Low,Net 90,CTR-10ff9ddee9,14925.91,15.0
+SUP-ffe7f598,SmartTech Perú S.A.,Indirect Services and Materials,IT & Technology,Hardware,"Mobile Devices (Tablets, Smartphones, Accessories)","Pasadizo Evaristo Alemán 83 Puerta 0 Huelva, 20004",Peru,Carlos Mendez,False,Low,Net 30,CTR-1fae9d8e27,45608.04,15.0
+SUP-1f8285e6,SecureNet Cybersecurity Solutions GmbH,Indirect Services and Materials,IT & Technology,IT Services & Telecom,"Cybersecurity Services (Pen Testing, Monitoring, SOC)",Loosstr. 5951 83352 Regensburg,Germany,Anna Becker,True,Low,Net 30,CTR-ddd0e37a4a,0.0,15.0
+SUP-ff40f17c,Dehmel Korvax,Direct Materials,Packaging Materials,Secondary Packaging,Corrugated Boxes & Cartons,Dehmelstr. 4/5 01435 Dessau,Germany,Anna Müller,True,Low,Net 60,CTR-317ea799c3,71603.06,15.0
+SUP-5a93defb,ExpressLogistics GmbH,Indirect Services and Materials,Logistics,Transportation & Freight,Parcel & Courier Services,Bolnbachgasse 1 86691 Strasburg,Germany,Anna Müller,True,Low,Net 30,,0.0,15.0
+SUP-b48f14b7,AutoService Plus GmbH,Indirect Services and Materials,Logistics,Fleet Management,Vehicle Maintenance & Repair,Ebertgasse 5388 88738 Lüdenscheid,Germany,Michael Bauer,True,Medium,Net 90,CTR-ab8679d026,0.0,25.0
+SUP-27d7ad94,EuroFasteners GmbH,Direct Materials,Components & Sub-Assemblies,Mechanical Components,"Fasteners (Nuts, Bolts, Screws)",Selim-Ruppert-Allee 25-20 91305 Erbisdorf,Germany,Anna Schmidt,True,Low,Net 60,CTR-71814a9e33,0.0,40.0
+SUP-e9dafab9,SecureTech Access Solutions GmbH,Indirect Services and Materials,Facility Services,Security Services,Access Control Systems,Wiekring 89-11 17448 Konstanz,Germany,Anna Müller,True,Medium,Net 90,CTR-77c225e6a6,0.0,25.0
+SUP-7caf7791,Labels y Envoltorios Innovadores,Direct Materials,Packaging Materials,Tertiary Packaging & Shipping Supplies,Labels & Inserts,"Cañada Yaiza Sanmartín 15 Apt. 27 Madrid, 01104",Spain,María López Pérez,True,Medium,Net 30,CTR-055a45bb2b,78878.1,10.0
+SUP-a0b79fd3,FleetTech Telematics GmbH,Indirect Services and Materials,Logistics,Fleet Management,Telematics & Fleet Tracking,Ottogasse 6874 43660 Eisenhüttenstadt,Germany,Anna Müller,True,Medium,Net 30,CTR-1ee3110989,0.0,25.0
+SUP-ae310d67,Klima-Master Deutschland GmbH,Indirect Services and Materials,Facility Services,Facility Management,Building Maintenance & HVAC,Marietta-Säuberlich-Ring 16 50697 Kelheim,Germany,Anna Meier,True,Low,Net 60,,13840.22,15.0
+SUP-c8ffa7a4,GreenCycle Solutions Inc.,Indirect Services and Materials,Facility Services,Real Estate & Utilities,Waste Management & Recycling,"517 Ralph Drive Suite 238 Martinezview, PE N6C7J6",Canada,Emily Thompson,True,Medium,Net 60,CTR-1cb965d376,27090.69,10.0
+SUP-a67b81ea,ElectroTech Solutions GmbH,Direct Materials,Components & Sub-Assemblies,Electronic Components,Printed Circuit Boards (PCBs),Hänelring 7/3 52269 Angermünde,Germany,Anna Müller,False,Low,Net 60,CTR-cebbed6fc7,0.0,15.0
+SUP-dfe17f75,NetAssist Sweden AB,Indirect Services and Materials,IT & Technology,IT Services & Telecom,"Managed Services (Helpdesk, Network Management)",Grangatan 49 95373 Eskilstuna,Sweden,Anna Johansson,True,Low,Net 60,CTR-e9c482102f,97858.69,0.0
+SUP-45d806ea,SecureGuard Consulting GmbH,Indirect Services and Materials,Facility Services,Security Services,Security Consulting & Risk Assessment,Herlinde-Gumprich-Allee 53-73 03896 Geithain,Germany,Herbert Schmidt,True,Low,Net 30,CTR-f1b02a73c2,0.0,15.0
+SUP-a8f9aacf,N/A,Indirect Services and Materials,Logistics,Warehousing & Distribution,3rd Party Logistics (3PL) Services,Hermannstr. 684 10035 Weimar,Germany,Anna Schneider,True,Low,Net 30,CTR-15210e017b,100997.12,15.0
+SUP-1a1fc626,LogiMart Solutions,Indirect Services and Materials,Logistics,Warehousing & Distribution,3rd Party Logistics (3PL) Services,"61, rue Michaud 62196 DidierVille",Morocco,Didier Ville,True,Low,Net 90,CTR-e86bd0793f,0.0,15.0
+SUP-62966486,Verkaufskraft GmbH,Indirect Services and Materials,Marketing & Sales,Sales Support,Sales Training,Canan-Rädel-Allee 8695 13161 Gütersloh,Germany,Anna Schmidt,True,Low,Net 90,CTR-acc4a1d4ba,46925.59,15.0
+SUP-eaa5dda3,Innovative Learning Solutions Sp. z o.o.,Indirect Services and Materials,Corporate & Professional Services,Human Resources Services,Training & Development,pl. Urocza 237 49-617 Bydgoszcz,Poland,Anna Jankowska,True,Low,Net 30,,0.0,0.0
+SUP-6f5ed546,GreenLand Solutions s.r.o.,Indirect Services and Materials,Facility Services,Facility Management,Landscaping & Groundskeeping,Ke Hrázi 376 697 67 Červená Řečice,Czech Republic,Jana Novak,True,Low,Net 60,CTR-44292dbbe8,0.0,0.0
+SUP-cbe7f4fd,Stretch & Shrinkwrap GmbH,Direct Materials,Packaging Materials,Tertiary Packaging & Shipping Supplies,Stretch & Shrink Wrap,Gertzweg 23-65 10191 Sigmaringen,Germany,Anna Müller,True,Medium,Net 90,CTR-b222730e1c,0.0,25.0
+SUP-f981d5a0,N/A,Indirect Services and Materials,Marketing & Sales,Sales Support,Sales Incentive & Reward Programs,Úpská 432 658 61 Chlumec nad Cidlinou,Czech Republic,Jana Novak,True,Low,Net 90,,9424.86,0.0
+SUP-e2f075ee,SecureGuard Solutions,Indirect Services and Materials,IT & Technology,Software,Security & Compliance Software,"2886 Lebrun Walks Apt. 220 Amandineport, AK 19160",Belgium,Amanda Van Deventer,True,Low,Net 30,CTR-c404e5fe43,0.0,0.0
+SUP-e2378943,N/A,Indirect Services and Materials,Facility Services,Real Estate & Utilities,Waste Management & Recycling,PO Box 1 Murphystone 6436,New Zealand,Emily Green,True,Low,Net 90,CTR-6ae5073a7b,5606.76,0.0
+SUP-e89504d1,SofaStuhl GmbH,Indirect Services and Materials,Facility Services,Office Supplies & Services,Office Furniture & Fixtures,Roskothweg 89 89754 Sigmaringen,Germany,Anna Müller,True,Low,Net 30,CTR-258de9e7b1,0.0,15.0
+SUP-4aab6e64,TechRecruit Solutions GmbH,Indirect Services and Materials,Corporate & Professional Services,Human Resources Services,HR Consulting & Technology,Neureutherweg 2980 86396 Werdau,Germany,Anna Müller,True,High,Net 60,CTR-1da71ead83,48631.96,40.0
+SUP-65b20c81,ProCollab Office Solutions,Indirect Services and Materials,IT & Technology,Software,"Productivity & Collaboration Suites (Office, Email)","Piazza Pizzo, 71 51031, San Piero (PT)",Italy,Marco Bianchi,True,Low,Net 60,CTR-2713ceaf70,130445.88,0.0
+SUP-72ef0778,SriLanka Fuel Solutions Ltd.,Indirect Services and Materials,Logistics,Fleet Management,"Fuel, Fuel Cards & Management","5535 Edgar Summit Apt. 810 North Davidfort, OK 38364",Sri Lanka,Johnathan Kumar,False,Low,Net 90,,65006.75,15.0
+SUP-88fa5b2d,SecureShield Technologies AS,Indirect Services and Materials,IT & Technology,Software,Security & Compliance Software,"Nielsenkroken 9, 0447 Engen",Norway,Anders Lund,True,Medium,Net 60,,0.0,10.0
+SUP-52dc5132,Auto-Maintenance GmbH,Indirect Services and Materials,Logistics,Fleet Management,Vehicle Maintenance & Repair,Arzu-Nerger-Ring 6/7 26073 Wismar,Germany,Anna Schneider,True,Medium,Net 90,,0.0,25.0
+SUP-ace0e4e6,CloudSphere Solutions GmbH,Indirect Services and Materials,IT & Technology,IT Services & Telecom,"Cloud & Hosting (IaaS, PaaS, SaaS)",Loosweg 8-7 82097 Helmstedt,Germany,Anna Müller,False,Medium,Net 30,CTR-bba55b2783,0.0,25.0
+SUP-0aa7643f,Druck & Kopie Spezialisten GmbH,Indirect Services and Materials,Facility Services,Office Supplies & Services,Print & Copy Services,Köhlerring 3285 21787 Paderborn,Germany,Anna Müller,True,Low,Net 90,CTR-6c3cef39eb,0.0,15.0
+SUP-35c552a6,EuroPack Supplies GmbH,Direct Materials,Packaging Materials,Primary Packaging,"Bags, Pouches & Wrappers",Schmidtkeallee 75-62 53601 Eilenburg,Germany,Anna Müller,True,Low,Net 30,,14800.89,15.0
+SUP-f747d4ae,Slovenian Harvest Co.,Direct Materials,Raw Materials,Agricultural Products,Grains & Cereals,Topniška ulica 62 5450 Prevalje,Slovenia,Jane Novak,True,Low,Net 30,CTR-ccac4a4e7e,47047.53,0.0
+SUP-db57387b,LuxGuard Services,Indirect Services and Materials,Facility Services,Security Services,Manned Guarding,rue de Techer 70917 Ruiz,Luxembourg,Jean-Pierre Leclerc,True,Low,Net 30,,0.0,0.0
+SUP-182ee5a9,Skydda Media AB,Indirect Services and Materials,Marketing & Sales,Marketing & Advertising,"Media Buying (Print, Broadcast, Digital)",Ekgränd 9 38724 Lidingö,Sweden,Anna Lindqvist,True,Low,Net 60,,60109.45,0.0
+SUP-8ba5cea5,TechHire Solutions GmbH,Indirect Services and Materials,Corporate & Professional Services,Human Resources Services,HR Consulting & Technology,Rotraut-Blümel-Weg 78-53 42976 Dessau,Germany,Anna Schmitt,True,High,Net 30,CTR-979ec2598c,21026.68,40.0
+SUP-874719ff,CleanPro Solutions,Indirect Services and Materials,Facility Services,Facility Management,Janitorial & Cleaning Services,Dulovo námestie 132 994 19 Veľké Raškovce,Slovakia,Ján Svätoš,True,Medium,Net 30,CTR-472994d444,0.0,10.0
+SUP-f7d3e893,N/A,Indirect Services and Materials,Facility Services,Facility Management,Building Maintenance & HVAC,Berta-Meister-Platz 32-34 61319 Emmendingen,Germany,Thomas Müller,False,Low,Net 30,,0.0,15.0
+SUP-51888cd4,N/A,Indirect Services and Materials,Marketing & Sales,Sales Support,Customer Relationship Management (CRM) Tools,Erdal-Wernecke-Platz 41-76 55236 Badibling,Germany,Anna Müller,True,Medium,Net 30,,234984.73,25.0
+SUP-25c83d23,OceanFlight Logistics Ltd.,Indirect Services and Materials,Logistics,Transportation & Freight,Air & Ocean Freight,"94, chemin de Besnard 53493 BouvetBourg",Luxembourg,Marie Dupont,True,High,Net 60,CTR-6ae2935883,0.0,25.0
+SUP-d8c0d19c,N/A,Indirect Services and Materials,Corporate & Professional Services,Financial Services,Payment Processing,Bogtrykkervej 39 8875 Herlufmagle,Denmark,Johan Larsen,True,Low,Net 90,CTR-646dcfc2c1,2466.98,0.0
+SUP-b682e920,SecurTech Alarm Systeme GmbH,Indirect Services and Materials,Facility Services,Security Services,Alarm Systems & Monitoring,Tina-Barth-Allee 8 53051 Uelzen,Germany,Marta Schmidt,True,Medium,Net 90,,41912.56,25.0
+SUP-f45b314d,MediaBuy GmbH,Indirect Services and Materials,Marketing & Sales,Marketing & Advertising,"Media Buying (Print, Broadcast, Digital)",Hans-Wilhelm-Hartmann-Platz 5171 15013 Hoyerswerda,Germany,Anna Müller,True,Medium,Net 90,,46197.31,25.0
+SUP-e9dcf167,Swedish Office Supplies AB,Indirect Services and Materials,Facility Services,Office Supplies & Services,Stationery & Consumables,Ekgränd 6 61544 Ängelholm,Sweden,Anna Lindberg,True,Low,Net 90,CTR-195e9f3e66,24053.96,0.0
+SUP-1a35ca9a,EnergieManagement GmbH,Indirect Services and Materials,Facility Services,Real Estate & Utilities,Energy Management & Sustainability Services,Krausestr. 601 24486 Karlsruhe,Germany,Anna Müller,True,Low,Net 60,CTR-4218a6012f,26673.05,15.0
+SUP-2cea963d,N/A,Indirect Services and Materials,Logistics,Warehousing & Distribution,Warehouse Rental & Storage,Heserplatz 95 05611 Witzenhausen,Germany,Anna Becker,True,Medium,Net 60,CTR-a0a75d92cb,0.0,25.0
+SUP-9d3e64ae,IT Solutions Karlsruhe GmbH,Indirect Services and Materials,IT & Technology,IT Services & Telecom,"Managed Services (Helpdesk, Network Management)",Mosemannallee 1 78494 Karlsruhe,Germany,Anna Müller,True,Low,Net 30,CTR-b5dc649af7,0.0,15.0
+SUP-aa37e98b,N/A,Indirect Services and Materials,Logistics,Fleet Management,Vehicle Leasing & Purchase,Ziegertallee 27/86 21311 Bad Freienwalde,Germany,Anna Schmidt,True,Medium,Net 30,CTR-34c3f16c85,0.0,25.0
+SUP-ac0035d7,AeroOcean Logistics Ltd.,Indirect Services and Materials,Logistics,Transportation & Freight,Air & Ocean Freight,"Cl. 4ª # 3-5 Oficina 17 155762 Paya, Boyacá",Colombia,María Fernanda Gómez,False,High,Net 90,,0.0,40.0
+SUP-ba5c9407,GlobalEngagement GmbH,Indirect Services and Materials,Marketing & Sales,Marketing & Advertising,Sponsorships & Partnerships,Kreinallee 29-68 22416 Beilngries,Germany,Anna Müller,True,Low,Net 60,CTR-3ec5737645,26909.69,15.0
+SUP-f12b6f74,TechNet Solutions S.A.,Indirect Services and Materials,IT & Technology,Hardware,"Networking (Routers, Switches, Firewalls)","Viaducto Vera 501 Edif. 812 , Depto. 983 San Porfirio los bajos, TAB 92951",Mexico,Carlos Mendez,True,Low,Net 90,CTR-d76ba0dd65,14407.23,15.0
+SUP-5089a348,Innovative Sales Solutions GmbH,Indirect Services and Materials,Marketing & Sales,Sales Support,Sales Incentive & Reward Programs,Säuberlichweg 705 76088 Mayen,Germany,Anna Müller,True,Low,Net 30,CTR-e2819a503b,160122.09999999998,15.0
+SUP-a8745894,SecureMail Solutions AB,Indirect Services and Materials,Facility Services,Office Supplies & Services,Mail & Document Management,Gengatan 451 24416 Motala,Sweden,Anna Lindberg,True,Medium,Net 60,CTR-a3ac268515,0.0,10.0
+SUP-df8a450c,N/A,Indirect Services and Materials,Corporate & Professional Services,Human Resources Services,Payroll & Benefits Administration,Wulfgasse 43 32499 Altentreptow,Germany,Anna Müller,True,Low,Net 90,CTR-4a5b447a6c,19564.21,15.0
+SUP-1972ec6a,"Konzern für Flaschen, Schrauben und Krügen",Direct Materials,Packaging Materials,Primary Packaging,"Bottles, Jars & Cans",Gertzweg 7/3 37404 Kyritz,Germany,Anna Schmidt,False,High,Net 90,,2450.3,40.0
+SUP-aab42e88,SecureShield Consulting AS,Indirect Services and Materials,Facility Services,Security Services,Security Consulting & Risk Assessment,"Sætheralléen 4, 1331 Rønning",Norway,Einar Olsen,True,High,Net 90,,151696.46,25.0
+SUP-9a3c5e51,Taller de Reparaciones Automotrices S.A.,Indirect Services and Materials,Logistics,Fleet Management,Vehicle Maintenance & Repair,"Via Anastasio Heredia 27 Zaragoza, 44954",Venezuela,Juan Pérez López,True,Low,Net 60,CTR-822a848e10,0.0,15.0
+SUP-891e00b3,N/A,Indirect Services and Materials,Marketing & Sales,Marketing & Advertising,Sponsorships & Partnerships,"Blv. Malvinas Argentinas N° 455 Torre 4 Dto. 1 Resistencia 3500, Chaco",Argentina,Luisa Fernanda Garcés,True,Low,Net 90,CTR-d3356856f9,16152.92,15.0
+SUP-0636b752,Max Tiefener Forklift GmbH,Technical Materials,Manufacturing Equipment,Material Handling Equipment,Forklifts & Pallet Jacks,Kreszentia-Gröttner-Platz 1/2 03543 Grimmen,Germany,Anna Schröder,True,Low,Net 90,CTR-1cba6963db,0.0,15.0
+SUP-74b2779b,SecureGuard Solutions,Indirect Services and Materials,Facility Services,Security Services,Security Consulting & Risk Assessment,"Via de Saturnino Moreno 50 Navarra, 11464",Spain,Maria Lopez Sanchez,True,Low,Net 60,CTR-a35f3c7045,4435.34,0.0
+SUP-136a6ef6,LegalShield Consulting GmbH,Indirect Services and Materials,Corporate & Professional Services,Legal Services,Litigation & Dispute Resolution,Hans-Uwe-Liebelt-Allee 1 12377 Sulzbach-Rosenberg,Germany,Anna Müller,True,Low,Net 60,,0.0,15.0
+SUP-2ca36147,EuroTrans Logistics GmbH,Indirect Services and Materials,Logistics,Transportation & Freight,"Road Freight (FTL, LTL)",Leonore-Pieper-Gasse 72 97873 Viersen,Germany,Max Mustermann,False,Low,Net 30,,89142.26,15.0
+SUP-e8681702,Institut für Datenanalyse GmbH,Indirect Services and Materials,Marketing & Sales,Market Research,"Data, Surveys & Analysis",Tintzmannplatz 61 87548 München,Germany,Anna Müller,True,Medium,Net 60,,7163.28,25.0
+SUP-80c4a9cc,LogiCore Solutions GmbH,Indirect Services and Materials,Logistics,Warehousing & Distribution,3rd Party Logistics (3PL) Services,Rohtallee 9/4 86500 Luckenwalde,Germany,Anna Müller,True,Low,Net 30,CTR-7e68bdc419,0.0,15.0
+SUP-a76a7707,Stretch & Shrink Wrap GmbH,Direct Materials,Packaging Materials,Tertiary Packaging & Shipping Supplies,Stretch & Shrink Wrap,Sabina-Koch-Platz 12/14 31219 Bergzabern,Germany,Sabina Koch,True,Low,Net 60,CTR-2d5a7e6bc5,0.0,15.0
+SUP-4aff8a29,StaffLink Recruitment Ltd.,Indirect Services and Materials,Corporate & Professional Services,Human Resources Services,"Recruitment & Staffing (Permanent, Temporary)",Urheilukatu 6 72766 Loviisa,Finland,Jarmo Kalliomäki,True,Low,Net 90,CTR-83362cef62,2463.32,0.0
+SUP-c8e9bc4c,StaffLink Recruitment GmbH,Indirect Services and Materials,Corporate & Professional Services,Human Resources Services,"Recruitment & Staffing (Permanent, Temporary)",Huhnring 690 36482 Gadebusch,Germany,Anna Müller,True,Low,Net 30,CTR-b41d7e8246,0.0,15.0
+SUP-3d231066,Romanian Fuel Solutions,Indirect Services and Materials,Logistics,Fleet Management,"Fuel, Fuel Cards & Management","Soseaua Stănescu Nr. 541 Bl. 46  Sc. 38 Ap. 597 Iernut, 178020",Romania,Maria Elena Petrescu,True,Low,Net 90,CTR-fabac602fb,9961.51,0.0
+SUP-ba1264e9,Innovative Data Solutions GmbH,Indirect Services and Materials,IT & Technology,Hardware,"Data Center (Servers, Storage)",Scheelring 7508 01765 Kamenz,Germany,Anna Schneider,True,Low,Net 90,CTR-374cda2a3f,68462.47,15.0
+SUP-3b322f04,CollaborWorks GmbH,Indirect Services and Materials,IT & Technology,Software,"Productivity & Collaboration Suites (Office, Email)",Jovan-Tintzmann-Gasse 3987 43986 Neuss,Germany,Anna Müller,True,Low,Net 60,CTR-735e3d41a2,95845.23,15.0
+SUP-ac0df41b,SkyWave Air & Ocean Logistics,Indirect Services and Materials,Logistics,Transportation & Freight,Air & Ocean Freight,Strmé sady 264 835 51 Ďurkovce,Slovakia,Ján Novak,True,Medium,Net 30,CTR-324a6d2d09,0.0,10.0
+SUP-8db37998,Kredit- und Treuhanddienstleistungen GmbH,Indirect Services and Materials,Corporate & Professional Services,Financial Services,Banking & Treasury Services,Leander-Girschner-Allee 21/46 28954 Dinslaken,Germany,Anna Müller,True,Medium,Net 30,CTR-71803a7dd9,165882.2,25.0
+SUP-72ed4922,SecureGuardian Technologies GmbH,Indirect Services and Materials,Facility Services,Security Services,Access Control Systems,Muharrem-Otto-Ring 9 00763 Großenhain,Germany,Anna Becker,True,Low,Net 60,,0.0,15.0
+SUP-54a84215,EnerGesund GmbH,Indirect Services and Materials,Facility Services,Real Estate & Utilities,Energy Management & Sustainability Services,Jäkelgasse 520 50688 Oschatz,Germany,Anna Müller,True,Low,Net 30,,0.0,15.0
+SUP-98f67f83,EffiTech Solutions GmbH,Indirect Services and Materials,IT & Technology,Software,"Productivity & Collaboration Suites (Office, Email)",van der Dussenweg 13-15 91556 Ribnitz-Damgarten,Germany,Anna Müller,True,Medium,Net 30,,87703.70999999999,25.0
+SUP-c3d9256e,GreeCloud Solutions,Indirect Services and Materials,IT & Technology,IT Services & Telecom,"Cloud & Hosting (IaaS, PaaS, SaaS)","Πλατεία Μικρού Βάλτου 92, 92303 Καρδίτσα",Greece,Maria Vassilopoulou,True,High,Net 90,,0.0,25.0
+SUP-0d144f32,Mitarbeiterguthaben GmbH,Indirect Services and Materials,Corporate & Professional Services,Human Resources Services,Payroll & Benefits Administration,Ziegertplatz 7910 51650 Wanzleben,Germany,Anna Becker,True,Low,Net 90,,0.0,15.0
+SUP-f51119f3,N/A,Technical Materials,"MRO (Maintenance, Repair & Operations)",Industrial Consumables,Cleaning Agents & Janitorial Supplies,Hannah-Zimmer-Platz 577 71082 Bützow,Germany,Anna Schmidt,True,Low,Net 60,,170505.66,47.5
+SUP-a6b23536,ShowExpo Solutions GmbH,Indirect Services and Materials,Marketing & Sales,Events & Promotions,Trade Show & Exhibition Services,Emin-Gotthard-Gasse 28 58090 Königs Wusterhausen,Germany,Anna Müller,True,High,Net 90,CTR-4e2b93e6f9,27000.79,40.0
+SUP-fd16abfe,EuroMetals AG,Direct Materials,Raw Materials,Metals & Minerals,"Non-Ferrous Metals (Aluminum, Copper, Lithium)",Reystrasse 7 7207 Münsingen,Switzerland,Anna Müller,True,Low,Net 30,CTR-0111f9c65f,63940.02,0.0
+SUP-b1d7cfa6,N/A,Indirect Services and Materials,Logistics,Transportation & Freight,Parcel & Courier Services,3 Wakanui Street Mokoroa 8401,New Zealand,John Smith,True,Low,Net 90,CTR-3d319a02ab,3072.88,0.0
+SUP-f9e1f383,SecurePay Solutions Schweiz,Indirect Services and Materials,Corporate & Professional Services,Financial Services,Payment Processing,Bucherstrasse 48 8994 Vernier,Switzerland,Anna Müller,True,Low,Net 30,CTR-f8033d6876,249210.44,0.0
+SUP-b1d59396,FleetTech Solutions GmbH,Indirect Services and Materials,Logistics,Fleet Management,Telematics & Fleet Tracking,Martinstraße 23/74 20557 Plauen,Germany,Anna Müller,True,Low,Net 60,,0.0,15.0
+SUP-a5295d54,TransCargo Deutschland GmbH,Indirect Services and Materials,Logistics,Transportation & Freight,"Road Freight (FTL, LTL)",Fechnerplatz 45 96049 Stadtsteinach,Germany,Anna Müller,False,Medium,Net 30,CTR-8fcc5dab45,69560.37,25.0
+SUP-8354a842,Austrian Insurance Solutions GmbH,Indirect Services and Materials,Corporate & Professional Services,Financial Services,"Insurance (Property, Liability, Health, Travel)",Weiglstr. 267 1681 Bad Vöslau,Austria,Anna Müller,True,Medium,Net 60,,19401.93,10.0
+SUP-72431d42,N/A,Technical Materials,R&D and Laboratory,Lab Equipment,Measurement & Testing Instruments,Timm-Jäkel-Ring 2892 17937 Bautzen,Germany,Anna Müller,False,High,Net 60,CTR-448f8466db,131033.15,80.0
+SUP-701d0bfd,SkyNet Solutions,Indirect Services and Materials,IT & Technology,IT Services & Telecom,"Cloud & Hosting (IaaS, PaaS, SaaS)","Πευκοφύτου 63-19, ΤΚ 96552 Άμφισσα",Greece,Maria Papadopoulou,True,Medium,Net 90,,0.0,10.0
+SUP-5b652025,CloudHosting Solutions GmbH,Indirect Services and Materials,IT & Technology,IT Services & Telecom,"Cloud & Hosting (IaaS, PaaS, SaaS)",Wenzel-Wilms-Weg 20 14846 Grevesmühlen,Germany,Anna Müller,True,Low,Net 60,CTR-59e57604d8,0.0,15.0
+SUP-ac3246fa,Konstanzer Flaschen- und Behälterdienstleistungen GmbH,Direct Materials,Packaging Materials,Primary Packaging,"Bottles, Jars & Cans",Pohlplatz 7632 64912 Konstanz,Germany,Anna Müller,True,Medium,Net 30,CTR-a3ceadb97f,0.0,25.0
+SUP-adb16df0,Kemnath Equipment Solutions GmbH,Technical Materials,"MRO (Maintenance, Repair & Operations)",Spare Parts,Equipment-Specific Spare Parts,Kochweg 3-4 16968 Kemnath,Germany,Anna Müller,True,Low,Net 60,,39207.119999999995,15.0
+SUP-40b7ebcc,KreativContent GmbH,Indirect Services and Materials,Marketing & Sales,Marketing & Advertising,"Creative, Content & Branding Agencies",Jockelgasse 3-1 22379 Melle,Germany,Anna Müller,True,Low,Net 30,,20402.93,15.0
+SUP-b2e14004,Expo Solutions Hungary,Indirect Services and Materials,Marketing & Sales,Events & Promotions,Trade Show & Exhibition Services,József attila tér 81. H-6310 Salgótarján,Hungary,Ádám Kovács,True,High,Net 90,,82584.58,25.0
+SUP-70e4594c,ShowExpo Solutions GmbH,Indirect Services and Materials,Marketing & Sales,Events & Promotions,Trade Show & Exhibition Services,Kambsgasse 54/26 15957 Gifhorn,Germany,Anna Müller,True,Low,Net 30,CTR-4ff2eb9143,28662.89,15.0
+SUP-5159595b,TechLog Solutions Pvt Ltd,Indirect Services and Materials,Logistics,Warehousing & Distribution,Inventory Management Systems,83/783 Bakshi Circle Guntur 962431,India,Arun Kumar Reddy,True,Low,Net 90,CTR-17361f027f,0.0,30.0
+SUP-8b11174d,N/A,Indirect Services and Materials,Facility Services,Office Supplies & Services,Office Furniture & Fixtures,Georg-Schleich-Allee 5-1 30661 Berlin,Germany,Anna Müller,True,Medium,Net 30,CTR-45b383da56,0.0,25.0
+SUP-bc2e819b,Greece Alarm Security Solutions,Indirect Services and Materials,Facility Services,Security Services,Alarm Systems & Monitoring,"Τρυπών 45, 356 55 Τρίκαλα",Greece,Ioannis Papadopoulos,True,Low,Net 90,,0.0,0.0
+SUP-682bae37,CloudHosting Solutions GmbH,Indirect Services and Materials,IT & Technology,IT Services & Telecom,"Cloud & Hosting (IaaS, PaaS, SaaS)",Helmtrud-Liebelt-Allee 9659 68186 Rostock,Germany,Helmtrud Liebelt,True,Medium,Net 60,,0.0,25.0
+SUP-3d100df2,SecureGuard Solutions Ltd.,Indirect Services and Materials,Facility Services,Security Services,Security Consulting & Risk Assessment,71 Sloan Street C34KRDE Macauley Ville,Ireland,John O'Reilly,True,Low,Net 90,CTR-3daf7041be,0.0,0.0
+SUP-8b9c7534,GuardSecure International GmbH,Indirect Services and Materials,Facility Services,Security Services,Manned Guarding,Linkering 3-7 58507 Saarbrücken,Germany,Anna Müller,True,High,Net 30,,0.0,40.0
+SUP-5f422b5f,AgricultureGrains GmbH,Direct Materials,Raw Materials,Agricultural Products,Grains & Cereals,Sontagstraße 6412 08969 Sankt Goarshausen,Germany,Thomas Müller,True,Low,Net 30,,0.0,15.0
+SUP-0b9bd6af,Aurich Lead Solutions GmbH,Indirect Services and Materials,Marketing & Sales,Sales Support,Lead Generation Services,Sigmund-Hofmann-Allee 3-5 07494 Aurich,Germany,Anna Schmidt,True,Medium,Net 30,CTR-3b13b3f1c9,101950.46,25.0
+SUP-55d83791,N/A,Indirect Services and Materials,Marketing & Sales,Sales Support,Lead Generation Services,"Distrito Anthony Rocha, 463 Estrela 66397-628 Novaes do Galho / SP",Brazil,Ana Maria da Silva,True,Low,Net 30,CTR-2594128ec3,37419.7,15.0
+SUP-720cf8be,Optima Trays GmbH,Direct Materials,Packaging Materials,Secondary Packaging,Trays & Dividers,Hörlegasse 6-8 94252 Garmisch-Partenkirchen,Germany,Anna Müller,True,High,Net 60,CTR-79563377d6,0.0,40.0
+SUP-06650690,Estonian Data Solutions Ltd.,Indirect Services and Materials,IT & Technology,Hardware,"Data Center (Servers, Storage)","566 Andrei Pine West Annamouth, CA 26814",Estonia,Jaanika Mikk,True,Low,Net 60,CTR-0170a4fa70,132488.47,0.0
+SUP-c276d14d,Ocean Air Logistics GmbH,Indirect Services and Materials,Logistics,Transportation & Freight,Air & Ocean Freight,Cengiz-Gutknecht-Gasse 643 30323 Mainburg,Germany,Anna Becker,True,Low,Net 90,CTR-7efaded036,0.0,15.0
+SUP-c2b0c3cc,Innovatech Solutions Ltd.,Indirect Services and Materials,IT & Technology,Software,"Enterprise Applications (ERP, CRM, SCM)","563, rue de Mary 59759 Leclerc-sur-Imbert",Luxembourg,Sophie Dupont,True,Medium,Net 90,CTR-b64440145b,0.0,10.0
+SUP-6ed2ca64,Ocean Air Logistics SA,Indirect Services and Materials,Logistics,Transportation & Freight,Air & Ocean Freight,"Calle Omar Nuñez N° 693 Santa Fe 3000, Santa Fe",Argentina,Carlos Mendoza,True,Medium,Net 60,,0.0,25.0
+SUP-c16fa3ca,PostOffice Solutions GmbH,Indirect Services and Materials,Facility Services,Office Supplies & Services,Mail & Document Management,Sergej-Wiek-Ring 3/6 48421 Wiedenbrück,Germany,Sergej Wieck,True,Low,Net 60,,58852.45,15.0
+SUP-446c3d80,N/A,Indirect Services and Materials,Logistics,Transportation & Freight,"Road Freight (FTL, LTL)",Steuergasse 545 76996 Hohenmölsen,Germany,Anna Müller,True,Medium,Net 30,,0.0,25.0
+SUP-8cb0d228,Magyar Kommunikációs Kft.,Indirect Services and Materials,Marketing & Sales,Marketing & Advertising,Public Relations (PR) Firms,Rácmártoni utca 124. H-6862 Ligetháza,Hungary,Éva Horváth,True,Low,Net 30,CTR-62a4089cdd,29494.83,0.0
+SUP-f613f07b,SecureGuard Solutions,Indirect Services and Materials,Facility Services,Security Services,Security Consulting & Risk Assessment,"933 Tournay Stravenue Suite 908 Port Floraton, IL 47714",Belgium,Johnathan M. Wallace,True,Medium,Net 90,,0.0,10.0
+SUP-7d6a9f8e,N/A,Indirect Services and Materials,IT & Technology,Software,Security & Compliance Software,Lorenzo-Ebert-Allee 3/3 38398 Schwäbisch Hall,Germany,Elena Müller,True,Medium,Net 90,CTR-677823240f,0.0,25.0
+SUP-2a1b9116,N/A,Indirect Services and Materials,Facility Services,Facility Management,Landscaping & Groundskeeping,"19763 Sakalauskas Roads Suite 979 North Miglė, ME 60823",Lithuania,N/A,False,High,Net 90,CTR-279ae76f22,0.0,25.0
+SUP-91baea64,N/A,Indirect Services and Materials,Marketing & Sales,Market Research,"Data, Surveys & Analysis",Jyväpolku 7 57084 Keuruu,Finland,Anna Kallio,False,Low,Net 90,,94685.95,0.0
+SUP-dc617bfa,Celle Marketing Supplies GmbH,Indirect Services and Materials,Marketing & Sales,Events & Promotions,Promotional Goods & Branded Merchandise,Harloffplatz 4/8 07415 Celle,Germany,Anna Müller,False,Medium,Net 30,,185056.02000000002,25.0
+SUP-cd47dc34,Innovative IT Solutions GmbH,Indirect Services and Materials,IT & Technology,IT Services & Telecom,IT Consulting & Implementation,Ljudmila-Stumpf-Ring 74-88 91821 Pasewalk,Germany,Ludwig Becker,True,High,Net 60,CTR-258db029c4,0.0,40.0
+SUP-360063a2,LogiTech Solutions GmbH,Indirect Services and Materials,Logistics,Warehousing & Distribution,3rd Party Logistics (3PL) Services,Ferdi-Beer-Ring 16-98 12176 Ingolstadt,Germany,Anna Müller,True,Low,Net 30,,44517.86,15.0
+SUP-7ff715e3,Mediennetz PR-Agentur GmbH,Indirect Services and Materials,Marketing & Sales,Marketing & Advertising,Public Relations (PR) Firms,Niko-Wulf-Straße 234 30895 Saarbrücken,Germany,Laura Becker,True,Medium,Net 60,,11537.289999999999,25.0
+SUP-196c6284,Storage Solutions France,Indirect Services and Materials,Logistics,Warehousing & Distribution,Warehouse Rental & Storage,rue Grenier 36213 Descampsdan,France,Jean Dupont,True,Low,Net 60,CTR-6f20d1816e,6466.8,0.0
+SUP-ef5223cc,SecureGuard Alarm Systems A/S,Indirect Services and Materials,Facility Services,Security Services,Alarm Systems & Monitoring,Per Henrik Lingsgade 738 9527 Ikast,Denmark,Thomas Jensen,True,Low,Net 60,CTR-d1a57ee2d4,23168.95,0.0
+SUP-decb458f,Hansa Express Transport GmbH,Indirect Services and Materials,Logistics,Transportation & Freight,Parcel & Courier Services,Schmiedeckeweg 12/28 43369 Hansestadttralsund,Germany,Anna Becker,True,Low,Net 60,CTR-a0837da711,0.0,15.0
+SUP-51ec3069,Melsungen Event Productions GmbH,Indirect Services and Materials,Marketing & Sales,Events & Promotions,Event Management & Production,Gröttnerplatz 74 17507 Melsungen,Germany,Anna Müller,True,High,Net 60,,148486.26,40.0
+SUP-221546f5,Sicherheitsanlagen GmbH,Indirect Services and Materials,Facility Services,Security Services,Alarm Systems & Monitoring,Janett-Hande-Straße 7 73235 Koblenz,Germany,Max Mustermann,True,Low,Net 60,,3419.0,15.0
+SUP-047ef4d7,LuxMetrics Brand Insights,Indirect Services and Materials,Marketing & Sales,Market Research,Brand Tracking & Analytics,"88, boulevard de Fernandez 64177 Sainte Robert",Luxembourg,Jeanette Vanier,True,Low,Net 90,CTR-2eb35076bd,68905.41,0.0
+SUP-514dfd9a,Teléfonos y Servicios de Comunicación S.A.,Indirect Services and Materials,IT & Technology,IT Services & Telecom,"Telecommunications (Mobile, Fixed Line, Internet)","Av. Corrientes N° 923 Local 8 Córdoba 5000, Córdoba",Argentina,Luz Fernández,True,Low,Net 90,CTR-1e6e25e7f7,29547.55,15.0
+SUP-5be37cf4,TechSolutions GmbH,Indirect Services and Materials,IT & Technology,Software,"Enterprise Applications (ERP, CRM, SCM)",Roskothweg 290 65345 Gifhorn,Germany,Anna Müller,True,Low,Net 30,,0.0,15.0
+SUP-e36f0754,N/A,Indirect Services and Materials,Corporate & Professional Services,Human Resources Services,Employee Welfare & Assistance Programs,Eberhardtplatz 428 40453 Schweinfurt,Germany,Anna Müller,True,Medium,Net 90,,50404.42,25.0
+SUP-cc344ada,TechVision Audiovisual Solutions GmbH,Indirect Services and Materials,IT & Technology,Hardware,"Audio/Visual Equipment (Projectors, Conferencing Systems)",Dowergplatz 24-12 01304 Schwarzenberg,Germany,Anna Müller,True,Low,Net 90,,129137.58,15.0
+SUP-909d90b4,TechInnovate Solutions GmbH,Indirect Services and Materials,IT & Technology,Software,"Enterprise Applications (ERP, CRM, SCM)",Matteo-Heger-Ring 054 5399 Leibnitz,Austria,Anna Müller,True,Low,Net 30,CTR-cc52f4c481,3691.47,0.0
+SUP-e12f717e,SecurePay Europe GmbH,Indirect Services and Materials,Corporate & Professional Services,Financial Services,Payment Processing,Hermannstr. 918 06910 Sankt Goarshausen,Germany,Anna Müller,True,Low,Net 90,CTR-658cf5ecd6,224548.91,15.0
+SUP-105562bd,N/A,Indirect Services and Materials,Logistics,Transportation & Freight,Freight Forwarding & Customs Brokerage,Stolzeplatz 2-2 43359 Lüdenscheid,Germany,Anna Becker,True,High,Net 30,CTR-01f56a641f,254169.18,40.0
+SUP-4d8db9a4,Precision Castings Inc.,Direct Materials,Components & Sub-Assemblies,Fabricated Parts,Castings & Forgings,"1939 Eric Square Suite 310 Lake Bradley, NC 27236",United States,Michael Thompson,True,Medium,Net 60,CTR-b783c2e8c1,148251.13,10.0
+SUP-75ae9ca4,TechAccess Supply GmbH,Indirect Services and Materials,IT & Technology,Hardware,"Peripherals & Accessories (Printers, Keyboards)",Valeska-Stiebitz-Straße 50 00882 Wanzleben,Germany,Anna Müller,True,High,Net 90,CTR-3150ebe807,13081.859999999999,40.0
+SUP-95094909,N/A,Indirect Services and Materials,Logistics,Fleet Management,Vehicle Leasing & Purchase,Etzoldstraße 1-5 23072 Melsungen,Germany,Anna Schmidt,False,Low,Net 60,CTR-5706f516df,0.0,15.0
+SUP-1fb7b638,Legal Compliance GmbH,Indirect Services and Materials,Corporate & Professional Services,Legal Services,Corporate & Commercial Law,Seifertstr. 5804 39656 Lichtenfels,Germany,Anna Müller,True,Low,Net 90,,0.0,15.0
+SUP-6c87b61f,MediaMasters GmbH,Indirect Services and Materials,Marketing & Sales,Marketing & Advertising,Public Relations (PR) Firms,Staudestr. 5909 46830 Naila,Germany,Anna Müller,True,Low,Net 60,CTR-571555e51d,40999.04,15.0
+SUP-fab4a36a,ColorTech Deutschland GmbH,Direct Materials,Raw Materials,Chemicals,"Coatings, Pigments & Dyes",Paulina-Schüler-Gasse 13 77243 Greiz,Germany,Anna Müller,True,Medium,Net 90,CTR-cc779ef166,7672.780000000001,50.0
+SUP-c5aa43da,N/A,Indirect Services and Materials,IT & Technology,Software,"Enterprise Applications (ERP, CRM, SCM)","Intrarea Simina Mocanu Slobozia, 953279",Romania,Ana Maria Popescu,True,Low,Net 60,CTR-759d802d4d,18796.59,0.0
+SUP-2f260fca,Eryns Energy Solutions,Indirect Services and Materials,Logistics,Fleet Management,"Fuel, Fuel Cards & Management",64 McCrann Street K28DXP7 Eryn Ville,Ireland,Aisling O'Connor,True,Low,Net 90,,0.0,0.0
+SUP-f01bab8b,Trnava Energy Solutions,Indirect Services and Materials,Facility Services,Real Estate & Utilities,"Utilities (Gas, Electricity, Water)",Belopotockého 61 819 12 Trnava,Slovakia,Anna Novak,True,High,Net 30,CTR-da27d57384,1910.36,25.0
+SUP-319c45b4,KreativContent GmbH,Indirect Services and Materials,Marketing & Sales,Marketing & Advertising,"Creative, Content & Branding Agencies",Veli-van der Dussen-Ring 74/93 49705 Strausberg,Germany,Julia Schneider,True,Low,Net 30,CTR-03eb8913f8,24419.89,15.0
+SUP-b6a2e60c,Netzwerkmanagement GmbH,Indirect Services and Materials,IT & Technology,IT Services & Telecom,"Managed Services (Helpdesk, Network Management)",Roseplatz 33-49 25225 Prenzlau,Germany,Anna Müller,True,Low,Net 90,,0.0,15.0
+SUP-f59118b3,Tecnologia Móvil MX,Indirect Services and Materials,IT & Technology,Hardware,"Mobile Devices (Tablets, Smartphones, Accessories)","Circunvalación Filipinas 967 Edif. 504 , Depto. 651 Nueva Saint Kitts y Nevis, TLAX 87783",Mexico,Carlos Mendez,True,High,Net 90,CTR-b8f4bbd82c,19964.19,40.0
+SUP-73bfdc6c,StaffLink Recruitment Polska,Indirect Services and Materials,Corporate & Professional Services,Human Resources Services,"Recruitment & Staffing (Permanent, Temporary)",ul. Srebrna 180 99-229 Jaworzno,Poland,Anna Kowalska,True,Low,Net 90,CTR-45f5042e5a,0.0,0.0
+SUP-f5a5cdcf,Estonian Valves and Spares Ltd,Technical Materials,"MRO (Maintenance, Repair & Operations)",Spare Parts,"General Industrial Spares (Valves, Belts)","024 Adamson Lake Toomasborough, TN 89015",Estonia,Marina Petrova,True,Low,Net 30,CTR-a00fbe2591,351565.14999999997,0.0
+SUP-664f3069,EcoOffice Supplies,Indirect Services and Materials,Facility Services,Office Supplies & Services,Stationery & Consumables,10 Rowan Street T98 6CN2 Janet Ville,Ireland,Alicia O'Reilly,True,Low,Net 30,CTR-425b02948c,4118.32,0.0
+SUP-98d7a329,Kenya Express Logistics Solutions,Indirect Services and Materials,Logistics,Warehousing & Distribution,Order Fulfillment & Value-Added Services,"2513 Ochola Ridges Odhiambofort, TN 86499",Kenya,David Mwangi,True,Low,Net 30,CTR-2fc429ee8d,3285.69,30.0
+SUP-8e7db664,Kontrateil GmbH,Indirect Services and Materials,Logistics,Warehousing & Distribution,Warehouse Rental & Storage,Mudeallee 6-4 86683 Konstanz,Germany,Anna Müller,True,High,Net 90,CTR-f0595bfe88,0.0,40.0
+SUP-fbc0d551,Rechtsanwaltskanzlei Müller & Partner,Indirect Services and Materials,Corporate & Professional Services,Legal Services,Litigation & Dispute Resolution,Freudenbergerstr. 72-56 93362 Kulmbach,Germany,Anna Schmitt,True,Low,Net 90,,1280.9199999999998,15.0
+SUP-e9e9b5e2,N/A,Indirect Services and Materials,Corporate & Professional Services,Financial Services,"Audit, Tax & Advisory Services",Gottlob-Textor-Ring 7-7 10219 Greifswald,Germany,Hans Müller,True,Low,Net 30,,291900.85,15.0
+SUP-a3ec51f7,PostOffice Supplies GmbH,Indirect Services and Materials,Facility Services,Office Supplies & Services,Stationery & Consumables,Heserring 6/1 79980 Eutin,Germany,Anna Müller,False,Medium,Net 90,CTR-806d3326c6,9994.63,25.0
+SUP-c850a50e,GartenCare Deutschland GmbH,Indirect Services and Materials,Facility Services,Facility Management,Landscaping & Groundskeeping,Pohlallee 7-6 95402 Dinkelsbühl,Germany,Anna Müller,True,Low,Net 30,CTR-a7e18234a2,51413.48,15.0
+SUP-f61e8538,Techno-Passive Elektronik GmbH,Direct Materials,Components & Sub-Assemblies,Electronic Components,"Passive Components (Resistors, Capacitors)",Peukertgasse 23 62040 Cloppenburg,Germany,Anna Becker,True,Low,Net 60,CTR-c5aadde3cf,1605.01,15.0
+SUP-4e1e99e2,AnalyticsTrack Solutions GmbH,Indirect Services and Materials,Marketing & Sales,Market Research,Brand Tracking & Analytics,Anastasia-Matthäi-Ring 7/8 57058 Greifswald,Germany,Anastasia Matthäi,True,High,Net 90,,60650.72,40.0
+SUP-2245e6fc,N/A,Indirect Services and Materials,Logistics,Warehousing & Distribution,Order Fulfillment & Value-Added Services,Emil-Gröttner-Allee 4778 39766 Gera,Germany,Anna Müller,True,Medium,Net 90,CTR-c19bc29774,31646.31,25.0
+SUP-dfd923fa,Eutech Legal Solutions GmbH,Indirect Services and Materials,Corporate & Professional Services,Legal Services,Litigation & Dispute Resolution,Eigenwilligallee 5 17876 Eutin,Germany,Anna Müller,True,Low,Net 30,,0.0,15.0
+SUP-511ced30,ExpressLogistics GmbH,Indirect Services and Materials,Logistics,Transportation & Freight,Parcel & Courier Services,Gorlitzring 8671 52885 Viechtach,Germany,Anna Müller,True,Low,Net 90,CTR-5d555982bf,261194.84999999998,15.0
+SUP-24e2bdb5,Romanian Print Solutions,Indirect Services and Materials,Facility Services,Office Supplies & Services,Print & Copy Services,"Soseaua Tabacu Nr. 70 Bl. 91  Sc. 63 Ap. 140 Vlahita, 138489",Romania,Ana Maria Popescu,True,Low,Net 30,CTR-dcfecee430,51046.93,0.0
+SUP-11539307,N/A,Technical Materials,Manufacturing Equipment,Production Machinery,Assembly Line Automation & Robotics,Ralf-Junitz-Straße 58 59866 Borna,Germany,Anna Müller,True,Low,Net 60,CTR-d4af82d02f,126719.84,62.5
+SUP-7b2079ec,N/A,Indirect Services and Materials,IT & Technology,Software,Security & Compliance Software,Andy-Kühnert-Weg 4 79297 Paderborn,Germany,Anna Müller,True,Low,Net 90,,0.0,15.0
+SUP-efa0b95a,Rohfeld Gas und Wasser GmbH,Indirect Services and Materials,Facility Services,Real Estate & Utilities,"Utilities (Gas, Electricity, Water)",Rohlederstr. 77-41 18195 Herzberg,Germany,Anna Müller,True,Low,Net 90,CTR-3cff0323c8,20220.49,15.0
+SUP-6e9c173e,Finland Oils and Fats Co.,Direct Materials,Raw Materials,Agricultural Products,Oils & Fats,Saramäenkuja 0 12160 Virrat,Finland,Erik Strand,True,Medium,Net 30,CTR-4c5624b0a8,0.0,10.0
+SUP-0ce546bf,EcoCycle Solutions GmbH,Indirect Services and Materials,Facility Services,Real Estate & Utilities,Waste Management & Recycling,Hendriksplatz 260 85740 Calau,Germany,Anna Schmidt,True,Low,Net 30,CTR-8cdc73e42b,0.0,15.0
+SUP-84fa81a5,TrainerSolutions GmbH,Indirect Services and Materials,Marketing & Sales,Sales Support,Sales Training,Elsa-Bauer-Straße 674 78621 Mettmann,Germany,Anna Müller,False,Low,Net 90,CTR-bbed10f9d2,27488.7,15.0
+SUP-6e792eed,DataInsight Solutions ApS,Indirect Services and Materials,IT & Technology,Software,"Business Intelligence & Analytics (BI, Data Visualization)",Pistolvej 678 7955 Løgstør,Denmark,Thomas Jensen,True,Medium,Net 30,,0.0,10.0
+SUP-1489b676,Romanian Managed Services Solutions,Indirect Services and Materials,IT & Technology,IT Services & Telecom,"Managed Services (Helpdesk, Network Management)","Strada Alis Nemeș Nr. 46 Bl. 37  Sc. 91 Ap. 865 Braila, 514153",Romania,Alexandru Petrov,True,Low,Net 60,,43549.6,0.0
+SUP-14aded26,TechNova Română,Indirect Services and Materials,IT & Technology,Hardware,"Mobile Devices (Tablets, Smartphones, Accessories)","Drumul Tudor Marin Orsova, 590243",Romania,Alexandra Ionut,True,Medium,Net 30,CTR-b6863e21eb,12188.97,10.0
+SUP-bd72f5ee,CineFilm Distributors S.A.,Direct Materials,Raw Materials,Plastics & Polymers,Films & Sheeting,"Manuel Rodríguez 7678 Piso 23 Contulmo, Región del Biobío, 3559390",Chile,Carlos Méndez,True,Low,Net 90,CTR-d4b7e0308d,121904.16,40.0
+SUP-3012c84c,EuroPay Solutions GmbH,Indirect Services and Materials,Corporate & Professional Services,Financial Services,Payment Processing,Ruppersbergerweg 63 53754 Berlin,Germany,Anna Müller,True,Low,Net 60,,0.0,15.0
+SUP-d9f394f3,MesseEvents Deutschland GmbH,Indirect Services and Materials,Marketing & Sales,Events & Promotions,Trade Show & Exhibition Services,Niemeierweg 3-5 79998 Großenhain,Germany,Anna Schmidt,True,Low,Net 30,,11036.68,15.0
+SUP-4944d6aa,KleanPro Deutschland GmbH,Indirect Services and Materials,Facility Services,Facility Management,Janitorial & Cleaning Services,Hertrampfgasse 5382 29020 Bruchsal,Germany,Anna Müller,True,Medium,Net 60,CTR-f38bde4e14,51609.159999999996,25.0
+SUP-6b33e838,Netzwerke von morgen GmbH,Indirect Services and Materials,IT & Technology,IT Services & Telecom,"Telecommunications (Mobile, Fixed Line, Internet)",Hessegasse 6 80804 Regensburg,Germany,Anna Müller,False,Medium,Net 30,CTR-22fd785dbe,141048.82,25.0
+SUP-bdc2e307,Luminary HR Solutions,Indirect Services and Materials,Corporate & Professional Services,Human Resources Services,HR Consulting & Technology,"15, boulevard Guillet 38173 Saint Olivie",Luxembourg,Marcel Dubois,True,Low,Net 90,CTR-c20c380013,0.0,0.0
+SUP-895bd93d,SecureTech Access Solutions,Indirect Services and Materials,Facility Services,Security Services,Access Control Systems,"Intrarea Pleșu Diaconescu Nr. 195 Covasna, 209293",Romania,Ana Maria Popescu,True,Low,Net 30,CTR-dba316bb90,0.0,0.0
+SUP-9329da71,Naturölwerke GmbH,Direct Materials,Raw Materials,Agricultural Products,Oils & Fats,Ehlertgasse 66/34 08644 Rudolstadt,Germany,Anna Müller,True,Low,Net 30,,0.0,15.0
+SUP-e765c634,N/A,Indirect Services and Materials,Facility Services,Real Estate & Utilities,Energy Management & Sustainability Services,Casparring 32/47 08989 Oschatz,Germany,Dr. Anna Müller,True,Low,Net 90,CTR-0ecac4ef58,48232.03,15.0
+SUP-8f21ecfa,TechForYou GmbH,Indirect Services and Materials,IT & Technology,Hardware,"End-User Computing (Laptops, Desktops, Monitors)",Stiffelallee 1/6 40660 Erkelenz,Germany,Anna Müller,True,Low,Net 30,CTR-0f673aa8ca,0.0,15.0
+SUP-f28a60a7,N/A,Indirect Services and Materials,Marketing & Sales,Sales Support,Customer Relationship Management (CRM) Tools,Beyerstr. 7/8 30810 Kyritz,Germany,Anna Müller,True,Low,Net 60,,32253.53,15.0
+SUP-ae436243,Kulinarische Dienstleistungen GmbH,Indirect Services and Materials,Facility Services,Office Supplies & Services,Catering & Vending Services,Huhngasse 74/73 43284 Kassel,Germany,Anna Becker,True,Low,Net 90,,9274.189999999999,15.0
+SUP-e23bb8e2,N/A,Indirect Services and Materials,Corporate & Professional Services,Human Resources Services,Payroll & Benefits Administration,Oskar-Mälzer-Allee 8/6 76936 Guben,Germany,Hans Müller,True,Medium,Net 60,CTR-10c5bb2bd9,0.0,25.0
+SUP-3ece9ff2,Precision Tool Solutions GmbH,Technical Materials,Manufacturing Equipment,Tooling & Molds,"Dies, Jigs & Fixtures",Karl-Hans-Gertz-Platz 1-6 69204 Kronach,Germany,Anna Müller,True,Low,Net 30,CTR-080041994f,236803.43,40.0
+SUP-ca9a99a9,Optima Logistik Systeme GmbH,Indirect Services and Materials,Logistics,Warehousing & Distribution,Inventory Management Systems,Joseph-Eigenwillig-Gasse 20-23 25645 Pritzwalk,Germany,Anna Schmidt,True,Low,Net 30,CTR-6dd162989b,0.0,15.0
+SUP-40f1e2d9,Muster Service GmbH,Indirect Services and Materials,Marketing & Sales,Sales Support,Merchandising Services,Alexej-Fliegner-Allee 2239 98638 Pinneberg,Germany,Anna Müller,True,Medium,Net 60,CTR-ede4e17b6a,101529.77,25.0
+SUP-09f9c390,Data Insights Analytics Ltd.,Indirect Services and Materials,Marketing & Sales,Market Research,"Data, Surveys & Analysis","03383 Колчев Spur Apt. 852 Пройковаshire, VT 91390",Bulgaria,Ana Petrova,True,Low,Net 60,CTR-9588ad58be,138908.05,0.0
+SUP-84c5d3d9,N/A,Indirect Services and Materials,IT & Technology,IT Services & Telecom,IT Consulting & Implementation,"Stretto Iolanda, 66 Appartamento 51 18024, Nava (IM)",Italy,Luisa Rossi,True,Low,Net 60,,0.0,0.0
+SUP-0db7e33b,Grimmen Analytics Solutions GmbH,Indirect Services and Materials,Marketing & Sales,Market Research,Competitor Intelligence Services,Kramerstr. 23 76300 Grimmen,Germany,Anna Müller,True,Low,Net 30,CTR-eb04e06ccd,369134.05000000005,15.0
+SUP-0417133f,NetzwerkExpress GmbH,Indirect Services and Materials,IT & Technology,IT Services & Telecom,"Telecommunications (Mobile, Fixed Line, Internet)",Karl-Peter-Mosemann-Ring 159 38763 Ludwigslust,Germany,Anna Schmidt,True,Low,Net 60,CTR-fc20cbd173,0.0,15.0
+SUP-edc83481,Mega Trays GmbH,Direct Materials,Packaging Materials,Secondary Packaging,Trays & Dividers,Margret-Hertrampf-Platz 1477 87864 Anklam,Germany,Anna Schmidt,False,Medium,Net 30,CTR-c81a6ac6db,0.0,25.0
+SUP-a000d212,Warehaus Miete GmbH,Indirect Services and Materials,Logistics,Warehousing & Distribution,Warehouse Rental & Storage,Weimerplatz 34 99021 Tecklenburg,Germany,Anna Müller,True,Medium,Net 30,CTR-7c7bf34f22,0.0,25.0
+SUP-b822fa62,WorkFlow Solutions GmbH,Indirect Services and Materials,IT & Technology,Software,"Productivity & Collaboration Suites (Office, Email)",Aribert-Mies-Platz 87/19 28864 Kulmbach,Germany,Anna Schmidt,True,Low,Net 60,CTR-eac8775a1e,0.0,15.0
+SUP-66685df8,N/A,Indirect Services and Materials,Facility Services,Real Estate & Utilities,Waste Management & Recycling,Semra-Hauffer-Allee 29-13 15425 Schwarzenberg,Germany,Anna Müller,True,Low,Net 60,CTR-7d2bb33105,0.0,15.0
+SUP-19456b96,EcoSolutions Energy Management,Indirect Services and Materials,Facility Services,Real Estate & Utilities,Energy Management & Sustainability Services,"Drumul Semenica Dima Nr. 829 Bl. 36  Sc. 65 Ap. 878 1 Decembrie, 579432",Romania,Ana Maria Popescu,True,Low,Net 90,CTR-cd8612751a,185100.68,0.0
+SUP-53518001,Latvia Forklift Solutions,Technical Materials,Manufacturing Equipment,Material Handling Equipment,Forklifts & Pallet Jacks,"8953 Zālīte Islands Suite 548 Bērziņabury, MT 13202",Latvia,Anna Krūmāne,True,Medium,Net 30,CTR-d70c5a3604,0.0,10.0
+SUP-6d9de8ca,SecureShield Cybersecurity GmbH,Indirect Services and Materials,IT & Technology,IT Services & Telecom,"Cybersecurity Services (Pen Testing, Monitoring, SOC)",Tintzmannweg 62 25778 Hainichen,Germany,Max Mustermann,True,Low,Net 90,,0.0,15.0
+SUP-c5679c6c,AdMedia Partner Solutions GmbH,Indirect Services and Materials,Marketing & Sales,Marketing & Advertising,Sponsorships & Partnerships,Nada-Dehmel-Straße 2 51946 Bad Mergentheim,Germany,Anna Schmidt,True,Medium,Net 60,CTR-3f8c061859,83525.96,25.0
+SUP-8382e2d3,Klaus-Michael Rechtsanwälte GmbH,Indirect Services and Materials,Corporate & Professional Services,Legal Services,Corporate & Commercial Law,Diethelm-Kabus-Gasse 70/35 44083 Hagenow,Germany,Anna Becker,False,Low,Net 90,CTR-60ae6e567b,100904.1,15.0
+SUP-847a5cdc,Suppliers Motors y Bombillas S.L.,Direct Materials,Components & Sub-Assemblies,Mechanical Components,Motors & Pumps,"Plaza Guadalupe Cervera 174 Las Palmas, 44772",Spain,María López Pérez,True,Medium,Net 60,CTR-9b8990973d,0.0,10.0
+SUP-491922e0,MediaLink PR Solutions GmbH,Indirect Services and Materials,Marketing & Sales,Marketing & Advertising,Public Relations (PR) Firms,Vincent-Berger-Weg 6716 95167 Niesky,Germany,Anna Müller,True,High,Net 30,CTR-8f46ffeced,16880.68,40.0
+SUP-15162f5c,IP Solutions GmbH,Indirect Services and Materials,Corporate & Professional Services,Legal Services,Intellectual Property & Patents,Witold-Rogge-Platz 51 36216 Riesa,Germany,Max Mustermann,True,Medium,Net 30,,75546.05,25.0
+SUP-843c2200,BrandInsight Analytics GmbH,Indirect Services and Materials,Marketing & Sales,Market Research,Brand Tracking & Analytics,Wagnerstraße 77/10 93146 Sangerhausen,Germany,Anna Müller,True,Low,Net 30,CTR-d986836182,53950.600000000006,15.0
+SUP-39cd8dd7,Hochqualifizierte Talente GmbH,Indirect Services and Materials,Corporate & Professional Services,Human Resources Services,"Recruitment & Staffing (Permanent, Temporary)",Kuschplatz 3 73332 Gießen,Germany,Anna Weber,True,Low,Net 90,CTR-92f866df91,4878.97,15.0
+SUP-7794997d,N/A,Indirect Services and Materials,IT & Technology,Hardware,"Peripherals & Accessories (Printers, Keyboards)",Finkestr. 4 23480 Prenzlau,Germany,Anna Müller,True,Low,Net 90,CTR-b2ba50e19b,42622.38,15.0
+SUP-1cfedbe1,N/A,Indirect Services and Materials,IT & Technology,Hardware,"Mobile Devices (Tablets, Smartphones, Accessories)",Badjurova ulica 3c 4326 Radeče,Slovenia,Jane Novak,False,Low,Net 30,,29181.68,0.0
+SUP-d1a3d315,LogiCore Danmark ApS,Indirect Services and Materials,Logistics,Warehousing & Distribution,3rd Party Logistics (3PL) Services,Pernille Allé 4 5333 Oksbøl,Denmark,Mikkel Jensen,True,Medium,Net 60,,27799.52,10.0
+SUP-c8a54081,SecureGuard Services Canada,Indirect Services and Materials,Facility Services,Security Services,Manned Guarding,"8478 Jeffrey Prairie Suite 944 Danieltown, NT A8B7G8",Canada,James Thompson,True,Low,Net 60,CTR-3b29bc67b4,0.0,0.0
+SUP-e324ed7f,AutoCare GmbH,Indirect Services and Materials,Logistics,Fleet Management,Vehicle Maintenance & Repair,Jäntschplatz 6/1 65564 Dessau,Germany,Thomas Müller,True,Medium,Net 90,CTR-ff1f01a698,0.0,25.0
+SUP-95ad817c,Slovak Mail Solutions,Indirect Services and Materials,Facility Services,Office Supplies & Services,Mail & Document Management,Cesta na Senec 102 818 53 Hybe,Slovakia,Jana Novak,True,Medium,Net 90,,0.0,10.0
+SUP-6f8b2a04,Jülicher Werbeprodukte GmbH,Indirect Services and Materials,Marketing & Sales,Events & Promotions,Promotional Goods & Branded Merchandise,Ackermannstr. 1703 44735 Jülich,Germany,Anna Müller,True,Medium,Net 60,CTR-dd6840cf27,16816.440000000002,25.0
+SUP-e2e82153,SkyNet Solutions,Indirect Services and Materials,IT & Technology,IT Services & Telecom,"Cloud & Hosting (IaaS, PaaS, SaaS)",Viela Cavalcante Diamante 56151468 Costa do Norte / SC,Brazil,Ana Lúcia Silva,False,Low,Net 30,,0.0,15.0
+SUP-e83cbac8,N/A,Indirect Services and Materials,Facility Services,Office Supplies & Services,Office Furniture & Fixtures,Vincent-Fröhlich-Allee 83-40 18114 Kitzingen,Germany,Anna Müller,False,Low,Net 60,,0.0,15.0
+SUP-c96ab7a5,SecureGuard Solutions Polska,Indirect Services and Materials,Facility Services,Security Services,Security Consulting & Risk Assessment,plac Orkana 32 25-598 Brzeg,Poland,Anna Kowalska,False,Low,Net 60,CTR-16034b0ef3,0.0,0.0
+SUP-b07b1a7d,Inovasi Conveyal Solutions,Technical Materials,Manufacturing Equipment,Material Handling Equipment,Conveyor Systems,"Gang Ciwastra No. 62 Subulussalam, Riau 36416",Indonesia,Adi Setiawan,True,Low,Net 30,CTR-fdf54bf854,42992.63,55.0
+SUP-6e2de703,TechSolutions GmbH,Indirect Services and Materials,IT & Technology,IT Services & Telecom,"Managed Services (Helpdesk, Network Management)",Junkgasse 99 28770 Husum,Germany,Anna Müller,True,Low,Net 60,CTR-65803590db,0.0,15.0
+SUP-44543e72,IT Service Solutions GmbH,Indirect Services and Materials,IT & Technology,IT Services & Telecom,"Managed Services (Helpdesk, Network Management)",Donata-Lindner-Ring 1 45618 Duderstadt,Germany,Anna Schmidt,False,Low,Net 60,,124994.18,15.0
+SUP-8851fdd0,MediaLink Austria Media Buying GmbH,Indirect Services and Materials,Marketing & Sales,Marketing & Advertising,"Media Buying (Print, Broadcast, Digital)",Simon-Kocher-Gasse 5/5 2295 Oberwart,Austria,Anna Müller,True,Low,Net 90,CTR-94ba196406,25316.1,0.0
+SUP-498304ca,CleanPro Deutschland GmbH,Indirect Services and Materials,Facility Services,Facility Management,Janitorial & Cleaning Services,Adolphring 2-3 33078 Plauen,Germany,Thomas Müller,False,Low,Net 90,CTR-0ffda37188,44322.44,15.0
+SUP-57ccbfef,Mitteldeutsche Castings GmbH,Direct Materials,Components & Sub-Assemblies,Fabricated Parts,Castings & Forgings,Schollplatz 29 99519 Tübingen,Germany,Anna Weber,True,Medium,Net 60,,0.0,25.0
+SUP-7e81538c,Kulinaria Catering GmbH,Indirect Services and Materials,Facility Services,Office Supplies & Services,Catering & Vending Services,Sigrun-Schaaf-Ring 9/6 85874 Rochlitz,Germany,Anna Müller,True,Low,Net 30,CTR-18d15aae31,215793.47999999998,15.0
+SUP-6e21aad1,N/A,Indirect Services and Materials,IT & Technology,IT Services & Telecom,"Managed Services (Helpdesk, Network Management)","98348 Andrée Spring Lake Aurélieshire, UT 16393",Belgium,Gilles Van der Meer,True,Low,Net 90,CTR-211b8f3101,5172.62,0.0
+SUP-4614bb6a,Gasoline Solutions GmbH,Indirect Services and Materials,Logistics,Fleet Management,"Fuel, Fuel Cards & Management",Stiffelring 3 64302 Rochlitz,Germany,Anna Müller,True,Low,Net 60,CTR-07b43cce19,0.0,15.0
+SUP-782fa559,TrackInsight Solutions,Indirect Services and Materials,Marketing & Sales,Market Research,Brand Tracking & Analytics,"29946 Adam Parkway West Meganhaven, SK G4V 3L7",Canada,Emily Hartman,True,Medium,Net 30,CTR-32edc5d963,95759.23,10.0
+SUP-ac914266,SecureTech Solutions GmbH,Indirect Services and Materials,IT & Technology,IT Services & Telecom,"Cybersecurity Services (Pen Testing, Monitoring, SOC)",Werneckestraße 7-9 82956 Ludwigsburg,Germany,Anna Müller,True,High,Net 60,CTR-59295c4ebd,18160.6,40.0
+SUP-fc9ffb32,SecureTech Solutions,Indirect Services and Materials,IT & Technology,Software,Security & Compliance Software,"Cañada de Telmo Barroso 5 Badajoz, 12409",Spain,Ana Torres,True,High,Net 30,,0.0,25.0
+SUP-3ac26f3e,Klötzer Influencer- & Social Media Marketing GmbH,Indirect Services and Materials,Marketing & Sales,Marketing & Advertising,Influencer & Social Media Marketing,Antonie-Wagenknecht-Gasse 4 59378 Klötze,Germany,Max Mustermann,False,Low,Net 90,CTR-5796e55308,16645.260000000002,15.0
+SUP-14844515,GreenCycle GmbH,Indirect Services and Materials,Facility Services,Real Estate & Utilities,Waste Management & Recycling,Stolzeallee 89/66 55710 Lüdenscheid,Germany,Anna Müller,True,Medium,Net 90,CTR-d0ad1147aa,0.0,25.0
+SUP-73342946,SecureRisk Consulting GmbH,Indirect Services and Materials,Facility Services,Security Services,Security Consulting & Risk Assessment,Birthe-Budig-Allee 7 12020 Artern,Germany,Max Mustermann,True,Low,Net 90,,0.0,15.0
+SUP-21b4f653,BodenOptimierungs-Systeme GmbH,Indirect Services and Materials,Logistics,Warehousing & Distribution,Inventory Management Systems,Giuseppe-Boucsein-Platz 2 68408 Freising,Germany,Dr. Anna Müller,True,Low,Net 90,CTR-ee2006df8b,0.0,15.0
+SUP-27b720d2,Greece Print & Copy Solutions,Indirect Services and Materials,Facility Services,Office Supplies & Services,Print & Copy Services,"Λεωφ. Κορυσχάδων 89, ΤΚ 542 63 Ηγουμενίτσα",Greece,Maria Georgiou,True,Medium,Net 30,,0.0,10.0
+SUP-b3ffb4f7,Precision Machined Components GmbH,Direct Materials,Components & Sub-Assemblies,Fabricated Parts,Machined Parts,Gesa-Reising-Ring 1190 02599 Grafenau,Germany,Anna Schmidt,True,Medium,Net 60,,0.0,35.0
+SUP-8726696c,AutomateTech Solutions Ltd,Technical Materials,Manufacturing Equipment,Production Machinery,Assembly Line Automation & Robotics,70 McCarra Street W85 YD24 Leon Ville,Ireland,John O'Reilly,True,Medium,Net 30,CTR-14d5396ed2,461389.7,20.0
+SUP-f7fd1448,N/A,Indirect Services and Materials,Facility Services,Real Estate & Utilities,Energy Management & Sustainability Services,"Cuesta de Santos Bejarano 21 Castellón, 36399",Spain,Ana López Gómez,True,Low,Net 60,CTR-7facce6e2c,0.0,0.0
+SUP-2aa518af,DataVision Solutions GmbH,Indirect Services and Materials,IT & Technology,Software,"Business Intelligence & Analytics (BI, Data Visualization)",Petros-Jäntsch-Weg 89 23401 Mallersdorf,Germany,Anna Müller,True,Medium,Net 90,,6141.88,25.0
+SUP-e3b57ba5,N/A,Indirect Services and Materials,Logistics,Transportation & Freight,Air & Ocean Freight,Višnjica 929 59166 Zaprešić,Croatia,Marko Petrovic,True,Low,Net 30,CTR-6d4b72647d,0.0,0.0
+SUP-8931730f,N/A,Indirect Services and Materials,Logistics,Transportation & Freight,Air & Ocean Freight,Vetvová 4 983 70 Lehôtka pod Brehmi,Slovakia,John Michael Smith,True,Medium,Net 30,CTR-73ca6db78a,0.0,10.0
+SUP-eb3dbdda,N/A,Indirect Services and Materials,Logistics,Transportation & Freight,Air & Ocean Freight,"Travessa da Asprela, S/N 1695-107 Sabugal",Portugal,Maria do Carmo Silva,True,Low,Net 60,CTR-a032277498,0.0,0.0
+SUP-5c25a19f,Kleine Energie Löschung GmbH,Indirect Services and Materials,Logistics,Warehousing & Distribution,Inventory Management Systems,Junkplatz 3/9 71861 Kleve,Germany,Anna Musterfrau,True,Low,Net 30,CTR-ad64c0c749,0.0,15.0
+SUP-c1e7ee2b,N/A,Technical Materials,R&D and Laboratory,Prototyping Services & Materials,3D Printing Services,Heinfried-Eckbauer-Platz 140 59782 Werdau,Germany,Anna Müller,True,High,Net 90,,180991.8,80.0
+SUP-5ca66772,PowerTech Motors & Pumps,Direct Materials,Components & Sub-Assemblies,Mechanical Components,Motors & Pumps,Priemyselná 307 961 99 Vinohrady nad Váhom,Slovakia,Ján Novák,True,Medium,Net 60,,0.0,20.0
+SUP-b886069a,Exotic Car Rentals Pvt Ltd,Indirect Services and Materials,Corporate Travel,Transportation,Car Rentals,"2325 Talat Villages Awanville, SD 58296",Pakistan,Ahmed Khan,True,Low,Net 30,CTR-3e2576be71,2785953.94,40.0

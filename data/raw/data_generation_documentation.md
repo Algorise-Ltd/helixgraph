@@ -35,6 +35,23 @@ The script integrates marketing campaign data from `data/processed/marketing/cam
 
 A spend balancing mechanism is in place to ensure a realistic distribution of spend across the main L1 procurement categories. The target distribution is defined in the script and the process iteratively adds or removes POs to meet the targets. 
 
+#### Supplier-Product Matching
+
+1.  **Product-First Selection:** The process starts by selecting a product.
+2.  **Hierarchical Search:** It then searches for a suitable supplier by matching the product's category against the supplier's category in a specific order:
+    -   **L4 Match:** An exact match on the most specific category level (L4).
+    -   **L3 Fallback:** If no L4 match is found, it searches for suppliers in the same L3 category.
+    -   **L2 Fallback:** If still no match, it broadens the search to the L2 category.
+3.  **New Supplier Generation:** If no suitable supplier is found even at the L2 level, a new supplier is generated on-the-fly with the correct category to fulfill the PO.
+
+#### Contract Assignment
+
+Contract assignment logic is supplier-centric:
+
+-   Each supplier has a 70% chance of having a **Master Contract**.
+-   When a PO is generated for a supplier with a Master Contract, there is a **90% chance** it will be assigned to that contract.
+-   The remaining 10% of POs (and POs for suppliers without a master contract) may be assigned a random, one-off contract number.
+
 #### Purchase Order Logic
 
 - **Multi-line POs:** Approximately 10% of purchase orders are generated with multiple line items (between 2 and 4 lines) to simulate more complex orders.

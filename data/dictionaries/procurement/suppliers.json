@@ -1,1424 +1,3391 @@
-{
-    "SecureTech Solutions GmbH": {
+[
+    {
+        "id": "SUP-d0028978",
+        "name": "Creative Connect GmbH",
         "aliases": [
-            "SecureTech Solutions GmbH"
+            "CC Corp",
+            "CC-Group",
+            "CCT Ltd.",
+            "Connect Creative GmbH",
+            "Creative Connect AG",
+            "Creative Connect GmbH"
         ],
-        "vendor_code": "SUP-2a42d0f3"
+        "category": "Sponsorships & Partnerships",
+        "last_annual_revenue": 42138.24
     },
-    "StrategieConsult GmbH": {
+    {
+        "id": "SUP-14ba6be1",
+        "name": "Slovenian Data Solutions",
         "aliases": [
-            "StrategieConsult GmbH"
+            "Data Solutions Corp.",
+            "SDS Solutions Ltd.",
+            "Slovenian Data Solutions",
+            "Slovenian Data Tech"
         ],
-        "vendor_code": "SUP-f94ade6c"
+        "category": "Data Center (Servers, Storage)",
+        "last_annual_revenue": 0.0
     },
-    "UK Influencer Solutions": {
+    {
+        "id": "SUP-17d8c234",
+        "name": "Aluminum Bottle Solutions B.V.",
         "aliases": [
-            "UK Influencer Solutions"
+            "ABS Corporation",
+            "Alu Bottle Innovations B.V.",
+            "Alu Bottles Inc",
+            "AluBottle Solutions Corp",
+            "Aluminum Bottle Solutions B.V.",
+            "Aluminum Bottle Tech Ltd"
         ],
-        "vendor_code": "SUP-734800c5"
+        "category": "Bottles, Jars & Cans",
+        "last_annual_revenue": 0.0
     },
-    "OceanAir Logistics GmbH": {
+    {
+        "id": "SUP-29376f6c",
+        "name": "TeleNet Polska",
         "aliases": [
-            "OceanAir Logistics GmbH"
+            "TelCo Polska Ltd.",
+            "TelNet Polska Group",
+            "TeleNet Polska",
+            "TeleNet Polska Corp",
+            "TelePolska Enterprise"
         ],
-        "vendor_code": "SUP-5966eb50"
+        "category": "Telecommunications (Mobile, Fixed Line, Internet)",
+        "last_annual_revenue": 0.0
     },
-    "Public Relations Solutions Ltd.": {
+    {
+        "id": "SUP-ed255416",
+        "name": "Optima Inventory Solutions GmbH",
         "aliases": [
-            "Public Relations Solutions Ltd."
+            "OIS GmbH",
+            "Optima Inventory Services",
+            "Optima Inventory Solutions GmbH",
+            "Optima Logistics",
+            "Optima Solutions Corp",
+            "Optima Supply Co"
         ],
-        "vendor_code": "SUP-3cf3abd3"
+        "category": "Inventory Management Systems",
+        "last_annual_revenue": 28900.12
     },
-    "CloudHosting Solutions GmbH": {
+    {
+        "id": "SUP-ddc0811d",
+        "name": "SkyHost Solutions GmbH",
         "aliases": [
+            "SHS Ltd.",
+            "SkyHost Dynamics",
+            "SkyHost Sols AG",
+            "SkyHost Solutions GmbH",
+            "SkyHost Solutions GmbH Corp"
+        ],
+        "category": "Cloud & Hosting (IaaS, PaaS, SaaS)",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-b66034ca",
+        "name": "SwissCom Communications AG",
+        "aliases": [
+            "SCC Ltd.",
+            "SWISSCOM Comm AG",
+            "Succo Communications AG",
+            "SwissCom Communications AG",
+            "SwissCom Corp"
+        ],
+        "category": "Telecommunications (Mobile, Fixed Line, Internet)",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-5193065e",
+        "name": "CanWest Media Solutions",
+        "aliases": [
+            "CM Solutions Corp",
+            "CWMedia Solutions",
+            "CanWest MDS",
+            "CanWest Media",
+            "CanWest Media Solutions"
+        ],
+        "category": "Media Buying (Print, Broadcast, Digital)",
+        "last_annual_revenue": 24059.96
+    },
+    {
+        "id": "SUP-a1f01e14",
+        "name": "Hannoveraner Getreiseinrichtung GmbH",
+        "aliases": [
+            "Getreiseinrichtung AG",
+            "HG Corp",
+            "HGTEI",
+            "Hannoveraner Getreiseinrichtung GmbH",
+            "Hannoveraner GmbH"
+        ],
+        "category": "Grains & Cereals",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-ff3b8c28",
+        "name": "LITIGATION CONSULTING GMBH",
+        "aliases": [
+            "LIT CONSULTING",
+            "LITIGATION CONSULTING GMBH",
+            "Legal Consulting GMBH",
+            "Litigation Corp",
+            "Litigation Solutions GmbH"
+        ],
+        "category": "Litigation & Dispute Resolution",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-e8f9c593",
+        "name": "GuardShield Europe GmbH",
+        "aliases": [
+            "Europe Defense Solutions",
+            "GS Group",
+            "GSH Corp",
+            "GUARD Shield Europe GmbH",
+            "GuardShield Europe Co.",
+            "GuardShield Europe GmbH"
+        ],
+        "category": "Manned Guarding",
+        "last_annual_revenue": 17413.38
+    },
+    {
+        "id": "SUP-b07d40de",
+        "name": "Hydraulik-Technik GmbH",
+        "aliases": [
+            "HT Tech Solutions",
+            "HTG GmbH",
+            "HydTech Corp",
+            "Hydraulik Engineering AG",
+            "Hydraulik Solutions Ltd.",
+            "Hydraulik-Technik GmbH"
+        ],
+        "category": "Motors & Pumps",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-5f8353e2",
+        "name": "Asistencia Litigial y Resoluci\u00f3n de Conflictos S.A.",
+        "aliases": [
+            "ALRC S.A.",
+            "Asistencia Conf Resol S.A.",
+            "Asistencia Litigial Corp",
+            "Asistencia Litigial y Resoluci\u00f3n de Conflictos S.A."
+        ],
+        "category": "Litigation & Dispute Resolution",
+        "last_annual_revenue": 66995.95
+    },
+    {
+        "id": "SUP-f6cb4057",
+        "name": "SecureGuard Solutions AG",
+        "aliases": [
+            "SGS Solutions AG",
+            "SecuTech Solutions",
+            "SecureGuard Corp",
+            "SecureGuard Ltd",
+            "SecureGuard Solutions AG",
+            "SecureShield Corp"
+        ],
+        "category": "Security Consulting & Risk Assessment",
+        "last_annual_revenue": 4085.95
+    },
+    {
+        "id": "SUP-4a231aed",
+        "name": "Data Insights GmbH",
+        "aliases": [
+            "DI GmbH",
+            "Data Insights GmbH",
+            "Data Insights Solutions",
+            "DataInsights Corp"
+        ],
+        "category": "Data, Surveys & Analysis",
+        "last_annual_revenue": 52809.18
+    },
+    {
+        "id": "SUP-46039deb",
+        "name": "SecureGuard Alarm Solutions",
+        "aliases": [
+            "AlarmTech SecurCorp",
+            "SG Alarm Systems",
+            "SecureGuard Alarm Solutions",
+            "SecureGuard Alarms",
+            "SecureGuard Security Corp",
+            "SecureGuard Solutions Corp"
+        ],
+        "category": "Alarm Systems & Monitoring",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-df9e0a51",
+        "name": "Insightful Analytics Solutions GmbH",
+        "aliases": [
+            "Analytics Insights AG",
+            "IA Solutions Co.",
+            "IaS Corp.",
+            "Insight Analytics Solutions GmbH",
+            "Insightful Analytics Solutions GmbH"
+        ],
+        "category": "Brand Tracking & Analytics",
+        "last_annual_revenue": 44894.68
+    },
+    {
+        "id": "SUP-9af6c358",
+        "name": "Muster Rechtsanwaltskanzlei GmbH",
+        "aliases": [
+            "Legal Solutions Muster",
+            "MRK Ltd",
+            "Muster Law Firm GmbH",
+            "Muster Legal Services",
+            "Muster Rechtsanwaltskanzlei Corp",
+            "Muster Rechtsanwaltskanzlei GmbH"
+        ],
+        "category": "Corporate & Commercial Law",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-3cd13045",
+        "name": "TransRoad Logistics GmbH",
+        "aliases": [
+            "TRL Logistics GmbH",
+            "TRL Transport GmbH",
+            "TransRoad Corp.",
+            "TransRoad Logistics Corp",
+            "TransRoad Logistics GmbH",
+            "TruckLogics Ltd."
+        ],
+        "category": "Road Freight (FTL, LTL)",
+        "last_annual_revenue": 72181.6
+    },
+    {
+        "id": "SUP-183a7496",
+        "name": "AdVenture Promotions GmbH",
+        "aliases": [
+            "AdVenture Corp",
+            "AdVenture Promotions GmbH",
+            "AdVentures Ltd.",
+            "Adventure Promotions GmbH",
+            "Promo Ventures AG",
+            "VentureAds Co."
+        ],
+        "category": "Promotional Goods & Branded Merchandise",
+        "last_annual_revenue": 43634.729999999996
+    },
+    {
+        "id": "SUP-297b7509",
+        "name": "DataVision Solutions ApS",
+        "aliases": [
+            "DV Solutions Inc.",
+            "DataVis Corp.",
+            "DataVis Ltd.",
+            "DataVis Solutions A/S",
+            "DataVision Solutions ApS"
+        ],
+        "category": "Business Intelligence & Analytics (BI, Data Visualization)",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-92ab2577",
+        "name": "EcoSustainable Energy Solutions",
+        "aliases": [
+            "ES Energy Solutions Ltd.",
+            "EcoEnergy",
+            "EcoSustainable Energy Solutions",
+            "EcoSustainable Solutions Corp",
+            "GreenTech Energy",
+            "Sustainable Power Corp"
+        ],
+        "category": "Energy Management & Sustainability Services",
+        "last_annual_revenue": 8812.51
+    },
+    {
+        "id": "SUP-b3411103",
+        "name": "SecureFuture Consulting GmbH",
+        "aliases": [
+            "FutureCorp Consulting",
+            "SFC Consulting Corp.",
+            "SecureFuture Consulting GmbH",
+            "SecureFuture Solutions GmbH",
+            "SecureFuture Tech Services"
+        ],
+        "category": "Security Consulting & Risk Assessment",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-1697fff9",
+        "name": "WebMastery GmbH",
+        "aliases": [
+            "WMC GmbH",
+            "WMG GmbH",
+            "WebMasters AB",
+            "WebMastery Corp",
+            "WebMastery GmbH"
+        ],
+        "category": "Digital Marketing & SEO/SEM",
+        "last_annual_revenue": 19651.219999999998
+    },
+    {
+        "id": "SUP-8679b3df",
+        "name": "MediaCorp Argentina",
+        "aliases": [
+            "MC Arg",
+            "MCA",
+            "MCAnt",
+            "Media Corp Argentina",
+            "MediaCorp Argentina",
+            "MediaCorp Ltd."
+        ],
+        "category": "Media Buying (Print, Broadcast, Digital)",
+        "last_annual_revenue": 33853.75
+    },
+    {
+        "id": "SUP-4c3654bb",
+        "name": "LabelMasters AB",
+        "aliases": [
+            "LMAB Ltd.",
+            "Label Solutions AB",
+            "LabelCorp AB",
+            "LabelMasters AB",
+            "LabelMasters AB Corp",
+            "LabelTech AB Inc."
+        ],
+        "category": "Labels & Inserts",
+        "last_annual_revenue": 29942.22
+    },
+    {
+        "id": "SUP-1e76ec0f",
+        "name": "EcoClean Solutions",
+        "aliases": [
+            "CleanEarth Services",
+            "ECOSolutions Ltd.",
+            "EcoClean Corp",
+            "EcoClean Solutions",
+            "EcoTech Solutions Inc",
+            "GreenClean Corp"
+        ],
+        "category": "Cleaning Agents & Janitorial Supplies",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-ae53d2a1",
+        "name": "GreenScape Bulgaria",
+        "aliases": [
+            "EcoGrow Bulg.",
+            "GS Bulgaria",
+            "GSCA Bulgaria",
+            "GreenScape Bulgaria",
+            "GreenScape Corp."
+        ],
+        "category": "Landscaping & Groundskeeping",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-2e4ea2cd",
+        "name": "Elevate Sales Solutions",
+        "aliases": [
+            "ESG Services",
+            "ESS Solutions",
+            "Elevate Sales Corp",
+            "Elevate Sales Inc.",
+            "Elevate Sales Solutions",
+            "Elevated Sales Group"
+        ],
+        "category": "Sales Training",
+        "last_annual_revenue": 26721.35
+    },
+    {
+        "id": "SUP-2a4138d8",
+        "name": "MediaSphere PR Solutions GmbH",
+        "aliases": [
+            "MSPR Solutions GmbH",
+            "MSPS AG",
+            "MediaSphere Communications Inc",
+            "MediaSphere PR Solutions Corp",
+            "MediaSphere PR Solutions GmbH",
+            "MediaSphere Public Relations Ltd"
+        ],
+        "category": "Public Relations (PR) Firms",
+        "last_annual_revenue": 166097.22
+    },
+    {
+        "id": "SUP-4b94d4e7",
+        "name": "Gr\u00fcnLand Landschafts- und Gartenbau GmbH",
+        "aliases": [
+            "Gr\u00fcnLand AG",
+            "Gr\u00fcnLand Corp",
+            "Gr\u00fcnLand Enterprises",
+            "Gr\u00fcnLand Land & Garden GmbH",
+            "Gr\u00fcnLand Landschafts- und Gartenbau GmbH",
+            "Gr\u00fcnLand Solutions"
+        ],
+        "category": "Landscaping & Groundskeeping",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-7fde8db3",
+        "name": "Konzern f\u00fcr Lead Generationsdienste GmbH",
+        "aliases": [
+            "Konzern f\u00fcr Lead Generationsdienste GmbH",
+            "LG Solutions GmbH",
+            "LGD Corp",
+            "Lead Gen Services Inc."
+        ],
+        "category": "Lead Generation Services",
+        "last_annual_revenue": 25387.309999999998
+    },
+    {
+        "id": "SUP-1a392848",
+        "name": "TechForus End-User Computing GmbH",
+        "aliases": [
+            "End-User TechCorp",
+            "TFC Computing GmbH",
+            "TechForus Computing Corp",
+            "TechForus End-User Computing GmbH",
+            "TechForus Solutions Ltd",
+            "TechForus Systems"
+        ],
+        "category": "End-User Computing (Laptops, Desktops, Monitors)",
+        "last_annual_revenue": 110897.87
+    },
+    {
+        "id": "SUP-5b0b66c1",
+        "name": "CRM Solutions AG",
+        "aliases": [
+            "CRM Solutions AG",
+            "CRM Solutions AG Corp",
+            "CRM Solutions Group",
+            "CrimSolutions AG",
+            "Customer Relationship Mgmt Ltd."
+        ],
+        "category": "Customer Relationship Management (CRM) Tools",
+        "last_annual_revenue": 31101.28
+    },
+    {
+        "id": "SUP-7aa8cee7",
+        "name": "Media Communications GmbH",
+        "aliases": [
+            "MC Corp.",
+            "MCMedia Ltd.",
+            "Media Communications GmbH",
+            "MediaCom GmbH",
+            "MediaComm GmbH",
+            "MediaCon Corp."
+        ],
+        "category": "Public Relations (PR) Firms",
+        "last_annual_revenue": 79685.58
+    },
+    {
+        "id": "SUP-53490df4",
+        "name": "Klein & Partner Corporate Law GmbH",
+        "aliases": [
+            "Corporate Klein & Partner",
+            "KL Partners",
+            "KP Law",
+            "Klein & Partner Corp",
+            "Klein & Partner Corporate Law GmbH"
+        ],
+        "category": "Corporate & Commercial Law",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-5728dc03",
+        "name": "Auto Lease Solutions s.r.o.",
+        "aliases": [
+            "AL Solutions",
+            "ALS Ltd",
+            "Alesolutions s.r.o.",
+            "Auto Lease Corp",
+            "Auto Lease Solutions s.r.o.",
+            "Auto Leasing Co."
+        ],
+        "category": "Vehicle Leasing & Purchase",
+        "last_annual_revenue": 2070.74
+    },
+    {
+        "id": "SUP-d0c643f2",
+        "name": "Schweinfurter Papier & Tinte GmbH",
+        "aliases": [
+            "SPT GmbH",
+            "Schweinfurter P&P Corp",
+            "Schweinfurter Paper Co.",
+            "Schweinfurter Papier & Tinte GmbH",
+            "TP & T GmbH"
+        ],
+        "category": "Stationery & Consumables",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-c399cf1f",
+        "name": "SecureGuard Alarm Systeme GmbH",
+        "aliases": [
+            "SG Security Systems Corp.",
+            "SGA Security Corp.",
+            "SecureAlarm Group GmbH",
+            "SecureGuard Alarm Solutions GmbH",
+            "SecureGuard Alarm Systeme GmbH",
+            "SecureGuard Alarms GmbH"
+        ],
+        "category": "Alarm Systems & Monitoring",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-37d281c9",
+        "name": "ProSafe Protective Equipment GmbH",
+        "aliases": [
+            "PSPE Corp",
+            "ProSafe Equip",
+            "ProSafe Protective Equipment GmbH",
+            "ProSafe Solutions GmbH",
+            "Protective Equipment Co."
+        ],
+        "category": "Safety Gloves, Goggles & Hard Hats",
+        "last_annual_revenue": 152125.19
+    },
+    {
+        "id": "SUP-3db79ae0",
+        "name": "Precision Machined Solutions GmbH",
+        "aliases": [
+            "Machined Precision Ltd.",
+            "PMS Corporation",
+            "PMS Group Corp",
+            "Precise Machining Co.",
+            "Precision Machined Solutions GmbH",
+            "Precision Mfg Solutions GmbH"
+        ],
+        "category": "Machined Parts",
+        "last_annual_revenue": 22609.06
+    },
+    {
+        "id": "SUP-a1919a18",
+        "name": "Lern & Entwickeln GmbH",
+        "aliases": [
+            "DE Corp",
+            "LE Corp",
+            "LEN GmbH",
+            "Learning & Develop Co.",
+            "Lern & Entwickeln GmbH"
+        ],
+        "category": "Training & Development",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-5d06fa76",
+        "name": "EuroPallet Solutions GmbH",
+        "aliases": [
+            "EurPallet Solutions Corp",
+            "EurPallets Ltd",
+            "EuroPallet Solutions AB",
+            "EuroPallet Solutions AG",
+            "EuroPallet Solutions GmbH",
+            "EuroPallet Solutions GmbH Inc."
+        ],
+        "category": "Pallets & Crates",
+        "last_annual_revenue": 138619.00999999998
+    },
+    {
+        "id": "SUP-01b5b22e",
+        "name": "TechSupport GmbH",
+        "aliases": [
+            "TS Group",
+            "TSG GmbH",
+            "TechSupp Corp",
+            "TechSupport GmbH",
+            "TechSupport Solutions",
+            "TechSupport Systems"
+        ],
+        "category": "Managed Services (Helpdesk, Network Management)",
+        "last_annual_revenue": 65127.65
+    },
+    {
+        "id": "SUP-a6f04e7c",
+        "name": "Slovenian Influence Agency",
+        "aliases": [
+            "AgencySI",
+            "Influence Corp",
+            "SI Agency",
+            "SIA Group",
+            "SloveniaCorp",
+            "Slovenian Influence Agency"
+        ],
+        "category": "Influencer & Social Media Marketing",
+        "last_annual_revenue": 68820.82
+    },
+    {
+        "id": "SUP-5eeb608a",
+        "name": "Merchandising Solutions S.A.",
+        "aliases": [
+            "M&S Solutions",
+            "MS Corp",
+            "MS Group",
+            "Merchandising Corp",
+            "Merchandising Solutions S.A.",
+            "SolutionCorp"
+        ],
+        "category": "Merchandising Services",
+        "last_annual_revenue": 122962.81
+    },
+    {
+        "id": "SUP-808cbf4f",
+        "name": "Hainer Wasser- und Elektrizit\u00e4tsgesellschaft mbH",
+        "aliases": [
+            "HW&E Elektrizit\u00e4tsgesellschaft",
+            "HW&E Wasser- und Elektrizit\u00e4tsgesellschaft",
+            "Hainer Corp (Water/Elec)",
+            "Hainer Wasser- und Elektrizit\u00e4tsgesellschaft mbH",
+            "Hainer Water & Power Corp"
+        ],
+        "category": "Utilities (Gas, Electricity, Water)",
+        "last_annual_revenue": 14330.25
+    },
+    {
+        "id": "SUP-2c524cef",
+        "name": "TechPerf Supplies GmbH",
+        "aliases": [
+            "TechPerf Innovations GmbH",
+            "TechPerf Solutions Corp",
+            "TechPerf Supplies GmbH",
+            "TechPerf Supplies Ltd."
+        ],
+        "category": "Peripherals & Accessories (Printers, Keyboards)",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-6855fa15",
+        "name": "Swiss Process Machinery AG",
+        "aliases": [
+            "SPM Corp",
+            "SPMA",
+            "SPro",
+            "SpaCorp",
+            "Swiss Process Machinery AG"
+        ],
+        "category": "Processing Equipment",
+        "last_annual_revenue": 414412.58
+    },
+    {
+        "id": "SUP-39418671",
+        "name": "SecureNet Solutions GmbH",
+        "aliases": [
+            "SecurIT Solutions",
+            "SecureNet Corp",
+            "SecureNet Eng",
+            "SecureNet Solut",
+            "SecureNet Solutions GmbH",
+            "SecureNet Systems GmbH"
+        ],
+        "category": "Cybersecurity Services (Pen Testing, Monitoring, SOC)",
+        "last_annual_revenue": 250000.0
+    },
+    {
+        "id": "SUP-40e17d33",
+        "name": "Herramientas Humanitarias S.A.",
+        "aliases": [
+            "Herr S.A.",
+            "Herr Tools A.S.",
+            "Herramientas Humanitarias S.A.",
+            "Humanitarian Supplies Ltd",
+            "Humanitarian Tools Corp",
+            "Tools for Good Inc"
+        ],
+        "category": "Recruitment & Staffing (Permanent, Temporary)",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-50651f5b",
+        "name": "LuxGuard Services SAS",
+        "aliases": [
+            "LG Services SAS",
+            "LUX Guard Inc.",
+            "LuxGuard Corp",
+            "LuxGuard Services SAS",
+            "LuxTech Solutions"
+        ],
+        "category": "Manned Guarding",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-ed9db816",
+        "name": "MobilityTech Solutions d.o.o.",
+        "aliases": [
+            "MTS Corp",
+            "MobTec S.A.",
+            "MobTech Solutions",
+            "Mobility Solutions Inc.",
+            "MobilityTech Solutions d.o.o.",
+            "MobilityTech Srl"
+        ],
+        "category": "Telematics & Fleet Tracking",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-1b87ca43",
+        "name": "TransLink Telematics GmbH",
+        "aliases": [
+            "TLLink Tech Solutions",
+            "Telematics TransCorp",
+            "TransLink TMS Group",
+            "TransLink Telematics Corp",
+            "TransLink Telematics GmbH"
+        ],
+        "category": "Telematics & Fleet Tracking",
+        "last_annual_revenue": 14925.91
+    },
+    {
+        "id": "SUP-ffe7f598",
+        "name": "SmartTech Per\u00fa S.A.",
+        "aliases": [
+            "Peru Tech Solutions Ltd",
+            "STP S.A.",
+            "SmartTech Peru Group",
+            "SmartTech Per\u00fa Corp",
+            "SmartTech Per\u00fa S.A."
+        ],
+        "category": "Mobile Devices (Tablets, Smartphones, Accessories)",
+        "last_annual_revenue": 45608.04
+    },
+    {
+        "id": "SUP-1f8285e6",
+        "name": "SecureNet Cybersecurity Solutions GmbH",
+        "aliases": [
+            "CyberShield Corp",
+            "NetDefender Inc",
+            "SNC Security GmbH",
+            "SecureNet CyberSec Solutions",
+            "SecureNet Cybersecurity Solutions GmbH",
+            "SecureNet Systems"
+        ],
+        "category": "Cybersecurity Services (Pen Testing, Monitoring, SOC)",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-ff40f17c",
+        "name": "Dehmel Korvax",
+        "aliases": [
+            "D.K. Industries",
+            "Dehmel Corp",
+            "Dehmel Korvax",
+            "Korvax Group"
+        ],
+        "category": "Corrugated Boxes & Cartons",
+        "last_annual_revenue": 71603.06
+    },
+    {
+        "id": "SUP-5a93defb",
+        "name": "ExpressLogistics GmbH",
+        "aliases": [
+            "ELogistics Inc.",
+            "ExpLogistics GmbH",
+            "Express Logistics Corp",
+            "ExpressDelivery Solutions",
+            "ExpressLogistics GmbH",
+            "ExpressMFG Co."
+        ],
+        "category": "Parcel & Courier Services",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-b48f14b7",
+        "name": "AutoService Plus GmbH",
+        "aliases": [
+            "AS Plus GmbH",
+            "ApS Plus Corporation",
+            "Asp Auto Services Ltd.",
+            "AutoService Plus GmbH",
+            "AutoService Plus GmbH Corp",
+            "Autoserv Plus AG"
+        ],
+        "category": "Vehicle Maintenance & Repair",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-27d7ad94",
+        "name": "EuroFasteners GmbH",
+        "aliases": [
+            "E-Fast Pty",
+            "EuroFast Corp",
+            "EuroFasteners GmbH",
+            "EuroFix Ltd.",
+            "Fastener Solutions GmbH",
+            "SpeedFix AG"
+        ],
+        "category": "Fasteners (Nuts, Bolts, Screws)",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-e9dafab9",
+        "name": "SecureTech Access Solutions GmbH",
+        "aliases": [
+            "STAS GmbH",
+            "STAccess",
+            "SecureTech Access Corp",
+            "SecureTech Access Solutions GmbH",
+            "SecureTech Corp",
+            "SecureTech Solutions"
+        ],
+        "category": "Access Control Systems",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-7caf7791",
+        "name": "Labels y Envoltorios Innovadores",
+        "aliases": [
+            "EnvPack Innovadores",
+            "Innovative Labels",
+            "LabelTech Solutions",
+            "Labels & Packaging Corp.",
+            "Labels y Envoltorios Innovadores",
+            "Pack Innovation"
+        ],
+        "category": "Labels & Inserts",
+        "last_annual_revenue": 78878.1
+    },
+    {
+        "id": "SUP-a0b79fd3",
+        "name": "FleetTech Telematics GmbH",
+        "aliases": [
+            "FTT Corp",
+            "FleetTech GmbH",
+            "FleetTech Telematics GmbH",
+            "Telematic Solutions GmbH"
+        ],
+        "category": "Telematics & Fleet Tracking",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-ae310d67",
+        "name": "Klima-Master Deutschland GmbH",
+        "aliases": [
+            "Climate Control Systems",
+            "KM DE GmbH",
+            "KMD Group",
+            "Klima-Master Corp",
+            "Klima-Master Deutschland GmbH",
+            "KlimaTech Solutions"
+        ],
+        "category": "Building Maintenance & HVAC",
+        "last_annual_revenue": 13840.22
+    },
+    {
+        "id": "SUP-c8ffa7a4",
+        "name": "GreenCycle Solutions Inc.",
+        "aliases": [
+            "EcoCycle Inc.",
+            "GCS Solutions",
+            "GreenCycle Co.",
+            "GreenCycle Corp",
+            "GreenCycle Solutions Inc."
+        ],
+        "category": "Waste Management & Recycling",
+        "last_annual_revenue": 27090.69
+    },
+    {
+        "id": "SUP-a67b81ea",
+        "name": "ElectroTech Solutions GmbH",
+        "aliases": [
+            "E.T. Corp.",
+            "ET Solutions",
+            "ElectroTech Co.",
+            "ElectroTech Corp.",
+            "ElectroTech Solutions GmbH"
+        ],
+        "category": "Printed Circuit Boards (PCBs)",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-dfe17f75",
+        "name": "NetAssist Sweden AB",
+        "aliases": [
+            "NA Sweden Ltd",
+            "NET Assis AB",
+            "NetAssist Sverige AB",
+            "NetAssist Sweden AB",
+            "NetAssist Sweden AB Corp",
+            "NetSolv Sweden"
+        ],
+        "category": "Managed Services (Helpdesk, Network Management)",
+        "last_annual_revenue": 97858.69
+    },
+    {
+        "id": "SUP-45d806ea",
+        "name": "SecureGuard Consulting GmbH",
+        "aliases": [
+            "SG Consulting GmbH",
+            "Safehold Associates",
+            "SecureGuard Consulting GmbH",
+            "SecureGuard Corp",
+            "SecureTech LLC",
+            "Securitron Solutions"
+        ],
+        "category": "Security Consulting & Risk Assessment",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-1a1fc626",
+        "name": "LogiMart Solutions",
+        "aliases": [
+            "LMS Corp",
+            "LogiMart Services Co.",
+            "LogiMart Solutions",
+            "LogiMart Solutions Inc.",
+            "LogiMart Tech Solutions LLC",
+            "MART Solutions Corp"
+        ],
+        "category": "3rd Party Logistics (3PL) Services",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-62966486",
+        "name": "Verkaufskraft GmbH",
+        "aliases": [
+            "SalesForce GmbH",
+            "VKG GmbH",
+            "VKr Kraft GmbH",
+            "Verkaufskraft Corp",
+            "Verkaufskraft GmbH"
+        ],
+        "category": "Sales Training",
+        "last_annual_revenue": 46925.59
+    },
+    {
+        "id": "SUP-eaa5dda3",
+        "name": "Innovative Learning Solutions Sp. z o.o.",
+        "aliases": [
+            "IL Solutions Sp. z o.o.",
+            "ILS Sp. z o.o.",
+            "Innovative Learning Corp",
+            "Innovative Learning Solutions Sp. z o.o."
+        ],
+        "category": "Training & Development",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-6f5ed546",
+        "name": "GreenLand Solutions s.r.o.",
+        "aliases": [
+            "EcoInnovate s.r.o.",
+            "GLS Corporation",
+            "GardenTech S.R.O.",
+            "GreenLand Solutions Corp",
+            "GreenLand Solutions s.r.o."
+        ],
+        "category": "Landscaping & Groundskeeping",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-cbe7f4fd",
+        "name": "Stretch & Shrinkwrap GmbH",
+        "aliases": [
+            "SSW GmbH",
+            "Shrinkwrap Solutions",
+            "Stretch & Shrinkwrap Corp",
+            "Stretch & Shrinkwrap GmbH",
+            "StretchCorp"
+        ],
+        "category": "Stretch & Shrink Wrap",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-e2f075ee",
+        "name": "SecureGuard Solutions",
+        "aliases": [
+            "SGS Corp",
+            "SecureGuard Solutions",
+            "SecureGuard Solutions Ltd.",
+            "SecureSolutions Inc.",
+            "SecureTech LLC"
+        ],
+        "category": "Security & Compliance Software",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-e89504d1",
+        "name": "SofaStuhl GmbH",
+        "aliases": [
+            "SS Corp.",
+            "SSGmbH",
+            "SofaStuhl AG",
+            "SofaStuhl Co.",
+            "SofaStuhl Corp.",
+            "SofaStuhl GmbH"
+        ],
+        "category": "Office Furniture & Fixtures",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-4aab6e64",
+        "name": "TechRecruit Solutions GmbH",
+        "aliases": [
+            "TRC Corporation",
+            "TRec Solutions GmbH",
+            "TechRec Solutions",
+            "TechRecruit Group",
+            "TechRecruit Solutions Corp",
+            "TechRecruit Solutions GmbH"
+        ],
+        "category": "HR Consulting & Technology",
+        "last_annual_revenue": 48631.96
+    },
+    {
+        "id": "SUP-65b20c81",
+        "name": "ProCollab Office Solutions",
+        "aliases": [
+            "PC Office Services",
+            "PCO Solutions",
+            "ProCollab Corp.",
+            "ProCollab Office Solutions",
+            "ProCollab Solutions"
+        ],
+        "category": "Productivity & Collaboration Suites (Office, Email)",
+        "last_annual_revenue": 130445.88
+    },
+    {
+        "id": "SUP-72ef0778",
+        "name": "SriLanka Fuel Solutions Ltd.",
+        "aliases": [
+            "FuelTech Sri Lanka",
+            "SLFuels Ltd.",
+            "SLSolutions",
+            "SriLanka Energy Supplies Inc.",
+            "SriLanka Fuel Solutions Corp",
+            "SriLanka Fuel Solutions Ltd."
+        ],
+        "category": "Fuel, Fuel Cards & Management",
+        "last_annual_revenue": 65006.75
+    },
+    {
+        "id": "SUP-88fa5b2d",
+        "name": "SecureShield Technologies AS",
+        "aliases": [
+            "SS Tech Solutions",
+            "SS Technologies Inc.",
+            "SecureShield AS",
+            "SecureShield Corp",
+            "SecureShield Ltd.",
+            "SecureShield Technologies AS"
+        ],
+        "category": "Security & Compliance Software",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-52dc5132",
+        "name": "Auto-Maintenance GmbH",
+        "aliases": [
+            "Auto-Maintenance GmbH",
+            "AutoCare GmbH",
+            "AutoMntg Corp",
+            "AutoSrv Co.",
+            "Automnt GmbH"
+        ],
+        "category": "Vehicle Maintenance & Repair",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-ace0e4e6",
+        "name": "CloudSphere Solutions GmbH",
+        "aliases": [
+            "CS Solutions GmbH",
+            "CSP Solutions GmbH",
+            "CloudSphere Enterprises",
+            "CloudSphere Group",
+            "CloudSphere Solutions Corp",
+            "CloudSphere Solutions GmbH"
+        ],
+        "category": "Cloud & Hosting (IaaS, PaaS, SaaS)",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-0aa7643f",
+        "name": "Druck & Kopie Spezialisten GmbH",
+        "aliases": [
+            "Corp Druck & Kopie",
+            "D&S Sp\u00e9cialistes en Druck & Copie",
+            "Drk&KoSpz.GmbH",
+            "Druck & Kopie Spezialisten GmbH",
+            "DruckKopie Spezialisten GmbH"
+        ],
+        "category": "Print & Copy Services",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-35c552a6",
+        "name": "EuroPack Supplies GmbH",
+        "aliases": [
+            "EP Supplies Corp",
+            "EPCS GmbH",
+            "EURO Pack Distributors",
+            "EuroPack Logistics",
+            "EuroPack Solutions Ltd",
+            "EuroPack Supplies GmbH"
+        ],
+        "category": "Bags, Pouches & Wrappers",
+        "last_annual_revenue": 14800.89
+    },
+    {
+        "id": "SUP-f747d4ae",
+        "name": "Slovenian Harvest Co.",
+        "aliases": [
+            "Harvest SCo Ltd",
+            "SH Corporation",
+            "SHC Corp",
+            "Slovenian Harvest Co."
+        ],
+        "category": "Grains & Cereals",
+        "last_annual_revenue": 47047.53
+    },
+    {
+        "id": "SUP-db57387b",
+        "name": "LuxGuard Services",
+        "aliases": [
+            "Guard Lux Associates",
+            "LG Services",
+            "LuxGuard Corp",
+            "LuxGuard Services",
+            "LuxSolutions Inc.",
+            "LuxeGuard LLC"
+        ],
+        "category": "Manned Guarding",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-182ee5a9",
+        "name": "Skydda Media AB",
+        "aliases": [
+            "SMD AB",
+            "Sky Media AB",
+            "SkyMedia Corp",
+            "Skydda Media AB",
+            "Skydda Media Corp",
+            "Skydda Media Ltd."
+        ],
+        "category": "Media Buying (Print, Broadcast, Digital)",
+        "last_annual_revenue": 60109.45
+    },
+    {
+        "id": "SUP-8ba5cea5",
+        "name": "TechHire Solutions GmbH",
+        "aliases": [
+            "THS GmbH",
+            "TechHire Corp",
+            "TechHire Solutions Corp",
+            "TechHire Solutions GmbH",
+            "TechHire Solutions GmbH AG",
+            "TechHire Solutions GmbH Ltd."
+        ],
+        "category": "HR Consulting & Technology",
+        "last_annual_revenue": 21026.68
+    },
+    {
+        "id": "SUP-874719ff",
+        "name": "CleanPro Solutions",
+        "aliases": [
+            "CPA Corporation",
+            "CPS Inc.",
+            "CleanPro Service Ltd",
+            "CleanPro Services Group",
+            "CleanPro Solutions",
+            "CleanPro Solutions Corp"
+        ],
+        "category": "Janitorial & Cleaning Services",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-25c83d23",
+        "name": "OceanFlight Logistics Ltd.",
+        "aliases": [
+            "OFL Ltd.",
+            "Ocean Freight Solutions",
+            "OceanAir Cargo Co",
+            "OceanFlight Logistics Corp",
+            "OceanFlight Logistics Ltd.",
+            "OceanFlights Inc"
+        ],
+        "category": "Air & Ocean Freight",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-b682e920",
+        "name": "SecurTech Alarm Systeme GmbH",
+        "aliases": [
+            "ST Alarm Solutions Inc.",
+            "ST Security Corp.",
+            "SecurTech Alarm Systeme GmbH",
+            "SecurTech Alarms GmbH",
+            "SecureAlarm Systems Corp.",
+            "SecureTech Alarm GmbH"
+        ],
+        "category": "Alarm Systems & Monitoring",
+        "last_annual_revenue": 41912.56
+    },
+    {
+        "id": "SUP-f45b314d",
+        "name": "MediaBuy GmbH",
+        "aliases": [
+            "MB Media Solutions",
+            "MediaBuy AG",
+            "MediaBuy Corp",
+            "MediaBuy GmbH",
+            "MediaBuy GmbH & Co KG"
+        ],
+        "category": "Media Buying (Print, Broadcast, Digital)",
+        "last_annual_revenue": 46197.31
+    },
+    {
+        "id": "SUP-e9dcf167",
+        "name": "Swedish Office Supplies AB",
+        "aliases": [
+            "SOS Supplies Ltd.",
+            "SOSS A B",
+            "SoSup Corp",
+            "SwedOffSup AB",
+            "Swedish Office Equip",
+            "Swedish Office Supplies AB"
+        ],
+        "category": "Stationery & Consumables",
+        "last_annual_revenue": 24053.96
+    },
+    {
+        "id": "SUP-1a35ca9a",
+        "name": "EnergieManagement GmbH",
+        "aliases": [
+            "EM Tech Solutions",
+            "EnerG Corp",
+            "EnergieManagement GmbH",
+            "EnergyMan GmbH",
+            "EnvironTech Corp"
+        ],
+        "category": "Energy Management & Sustainability Services",
+        "last_annual_revenue": 26673.05
+    },
+    {
+        "id": "SUP-9d3e64ae",
+        "name": "IT Solutions Karlsruhe GmbH",
+        "aliases": [
+            "ISolutions KK",
+            "IT Solutions GmbH",
+            "IT Solutions Karlsruhe GmbH",
+            "ITSolutions",
+            "ITSolutions Karlsruhe"
+        ],
+        "category": "Managed Services (Helpdesk, Network Management)",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-ac0035d7",
+        "name": "AeroOcean Logistics Ltd.",
+        "aliases": [
+            "AO Logistics",
+            "AO Logistics Corp",
+            "AeroOcean Logistics Corp",
+            "AeroOcean Logistics Ltd.",
+            "AeroOcean Ltd.",
+            "AeroOcean Services"
+        ],
+        "category": "Air & Ocean Freight",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-ba5c9407",
+        "name": "GlobalEngagement GmbH",
+        "aliases": [
+            "GE Global",
+            "GEGlobal Corp",
+            "Global Eng Ltd",
+            "GlobalEng Co.",
+            "GlobalEngagement GmbH",
+            "GlobalEngagement Group"
+        ],
+        "category": "Sponsorships & Partnerships",
+        "last_annual_revenue": 26909.69
+    },
+    {
+        "id": "SUP-f12b6f74",
+        "name": "TechNet Solutions S.A.",
+        "aliases": [
+            "TECHNET",
+            "TechNet Group",
+            "TechNet S.A.",
+            "TechNet Solutions Corp.",
+            "TechNet Solutions S.A.",
+            "Technet Solutions"
+        ],
+        "category": "Networking (Routers, Switches, Firewalls)",
+        "last_annual_revenue": 14407.23
+    },
+    {
+        "id": "SUP-5089a348",
+        "name": "Innovative Sales Solutions GmbH",
+        "aliases": [
+            "IS Solutions GmbH",
+            "InnoSolutions AG",
+            "Innovate Sales Corp",
+            "Innovative Sales Solutions GmbH",
+            "Sales Innovations Ltd."
+        ],
+        "category": "Sales Incentive & Reward Programs",
+        "last_annual_revenue": 160122.09999999998
+    },
+    {
+        "id": "SUP-a8745894",
+        "name": "SecureMail Solutions AB",
+        "aliases": [
+            "SMA Security Services Ltd.",
+            "SecurMail Solutions Inc.",
+            "SecureMail Network Corp",
+            "SecureMail Solutions AB",
+            "SecureMail Solutions AB Corp",
+            "SecureMail Technologies AB"
+        ],
+        "category": "Mail & Document Management",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-1972ec6a",
+        "name": "Konzern f\u00fcr Flaschen, Schrauben und Kr\u00fcgen",
+        "aliases": [
+            "FCL Corp",
+            "Flaschenschraubenkrug GmbH",
+            "Konsor Corp",
+            "Konzern f\u00fcr Flaschen, Schrauben und Kr\u00fcgen"
+        ],
+        "category": "Bottles, Jars & Cans",
+        "last_annual_revenue": 2450.3
+    },
+    {
+        "id": "SUP-aab42e88",
+        "name": "SecureShield Consulting AS",
+        "aliases": [
+            "SS Consulting AS",
+            "SSC Ltd.",
+            "SecurShield Solutions AS",
+            "SecureShield Consulting AS",
+            "SecureShield Corp."
+        ],
+        "category": "Security Consulting & Risk Assessment",
+        "last_annual_revenue": 151696.46
+    },
+    {
+        "id": "SUP-9a3c5e51",
+        "name": "Taller de Reparaciones Automotrices S.A.",
+        "aliases": [
+            "Auto Reparation Corp",
+            "RepAuto Corp",
+            "Repar Autos A.S.",
+            "Taller Rep Autom S.A.",
+            "Taller de Rep S.A.",
+            "Taller de Reparaciones Automotrices S.A."
+        ],
+        "category": "Vehicle Maintenance & Repair",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-0636b752",
+        "name": "Max Tiefener Forklift GmbH",
+        "aliases": [
+            "Forklift Max T.",
+            "M. Tiefener",
+            "Max Tiefener Forklift GmbH",
+            "Max Tiefener Forklift GmbH Corp",
+            "Tiefener Lift Corp."
+        ],
+        "category": "Forklifts & Pallet Jacks",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-74b2779b",
+        "name": "SecureGuard Solutions",
+        "aliases": [
+            "SGS Solutions",
+            "SafeTech Group",
+            "SecureGuard Corp",
+            "SecureGuard Solutions",
+            "Shield Enterprises"
+        ],
+        "category": "Security Consulting & Risk Assessment",
+        "last_annual_revenue": 4435.34
+    },
+    {
+        "id": "SUP-136a6ef6",
+        "name": "LegalShield Consulting GmbH",
+        "aliases": [
+            "LegShield Solutions Ltd",
+            "LegalShield Advisory Corp",
+            "LegalShield Consulting Corp",
+            "LegalShield Consulting GmbH"
+        ],
+        "category": "Litigation & Dispute Resolution",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-2ca36147",
+        "name": "EuroTrans Logistics GmbH",
+        "aliases": [
+            "ETL Logistics GmbH",
+            "EuroLogis GmbH",
+            "EuroTran Logistics Inc.",
+            "EuroTrans Logistics Corp",
+            "EuroTrans Logistics GmbH"
+        ],
+        "category": "Road Freight (FTL, LTL)",
+        "last_annual_revenue": 89142.26
+    },
+    {
+        "id": "SUP-e8681702",
+        "name": "Institut f\u00fcr Datenanalyse GmbH",
+        "aliases": [
+            "AnalyticCorp Ltd.",
+            "DataAnalysis Corp",
+            "IDA Corporation",
+            "IDF GmbH",
+            "InfoAnalyst Solutions",
+            "Institut f\u00fcr Datenanalyse GmbH"
+        ],
+        "category": "Data, Surveys & Analysis",
+        "last_annual_revenue": 7163.28
+    },
+    {
+        "id": "SUP-80c4a9cc",
+        "name": "LogiCore Solutions GmbH",
+        "aliases": [
+            "LGS Group",
+            "LogiCor Solutions Ltd.",
+            "LogiCore Corp",
+            "LogiCore Solutions GmbH",
+            "Logitech Solut."
+        ],
+        "category": "3rd Party Logistics (3PL) Services",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-a76a7707",
+        "name": "Stretch & Shrink Wrap GmbH",
+        "aliases": [
+            "ShrinkWrap Experts LLC",
+            "ShrinkWrap Solutions GmbH",
+            "Stretch & Shrink Wrap GmbH",
+            "StretchWrap Corp",
+            "Stretched Wrap Corporation"
+        ],
+        "category": "Stretch & Shrink Wrap",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-4aff8a29",
+        "name": "StaffLink Recruitment Ltd.",
+        "aliases": [
+            "SLink Corp",
+            "SLink Recruitment Corp",
+            "StaffCorp",
+            "StaffLink Rec Ltd",
+            "StaffLink Recruitment Ltd.",
+            "StaffRecorp Ltd"
+        ],
+        "category": "Recruitment & Staffing (Permanent, Temporary)",
+        "last_annual_revenue": 2463.32
+    },
+    {
+        "id": "SUP-c8e9bc4c",
+        "name": "StaffLink Recruitment GmbH",
+        "aliases": [
+            "SFL Co.",
+            "SLR Corp",
+            "STLR GmbH",
+            "StaffLink AG",
+            "StaffLink Recruitment GmbH"
+        ],
+        "category": "Recruitment & Staffing (Permanent, Temporary)",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-3d231066",
+        "name": "Romanian Fuel Solutions",
+        "aliases": [
+            "Fuel Solutions RO",
+            "RFS Corp",
+            "RO Fuel Corp",
+            "Romanian Energy Co",
+            "Romanian Fuel Solutions"
+        ],
+        "category": "Fuel, Fuel Cards & Management",
+        "last_annual_revenue": 9961.51
+    },
+    {
+        "id": "SUP-ba1264e9",
+        "name": "Innovative Data Solutions GmbH",
+        "aliases": [
+            "IDS Corp",
+            "InnoData Solutions GmbH",
+            "Innovate Data Services AG",
+            "Innovative Data Solutions GmbH",
+            "IntelliTech Ltd."
+        ],
+        "category": "Data Center (Servers, Storage)",
+        "last_annual_revenue": 68462.47
+    },
+    {
+        "id": "SUP-3b322f04",
+        "name": "CollaborWorks GmbH",
+        "aliases": [
+            "CollabWorks Corp",
+            "CollabWorks GmbH Co.",
+            "CollabWorks GmbH Inc.",
+            "CollaborCorp Ltd.",
+            "CollaborWorks AG",
+            "CollaborWorks GmbH"
+        ],
+        "category": "Productivity & Collaboration Suites (Office, Email)",
+        "last_annual_revenue": 95845.23
+    },
+    {
+        "id": "SUP-ac0df41b",
+        "name": "SkyWave Air & Ocean Logistics",
+        "aliases": [
+            "S&O Logistics Ltd.",
+            "SkyWave Air & Ocean Logistics",
+            "SkyWave Air Logistics Corp",
+            "SkyWave Ocean Delivery Co."
+        ],
+        "category": "Air & Ocean Freight",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-8db37998",
+        "name": "Kredit- und Treuhanddienstleistungen GmbH",
+        "aliases": [
+            "Corporate Credit and Trust LLC",
+            "KTG Corporate Solutions",
+            "Kredit & Trust Services Ltd.",
+            "Kredit- und Treuhanddienstleistungen GmbH",
+            "Kredit- und Treuhanddienstleistungen GmbH Corp",
+            "Treustiftung Corporation"
+        ],
+        "category": "Banking & Treasury Services",
+        "last_annual_revenue": 165882.2
+    },
+    {
+        "id": "SUP-72ed4922",
+        "name": "SecureGuardian Technologies GmbH",
+        "aliases": [
+            "SG Tech Solutions GmbH",
+            "SafeGuard Technologies LLC",
+            "SecureGuardian Systems AG",
+            "SecureGuardian Tech Corp",
+            "SecureGuardian Technologies GmbH"
+        ],
+        "category": "Access Control Systems",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-54a84215",
+        "name": "EnerGesund GmbH",
+        "aliases": [
+            "EnerGesund GmbH",
+            "EnerGesund Solutions Corp",
+            "EnergyHealth GmbH",
+            "GesundPower Corp",
+            "NutriTech Energy LLC",
+            "WellnessCorp EnerGesund"
+        ],
+        "category": "Energy Management & Sustainability Services",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-98f67f83",
+        "name": "EffiTech Solutions GmbH",
+        "aliases": [
+            "EffiTec Solutions Inc.",
+            "EffiTech Solutions AG",
+            "EffiTech Solutions Corp",
+            "EffiTech Solutions GmbH",
+            "Efficacy Tech GmbH",
+            "Efficient Tech Ltd."
+        ],
+        "category": "Productivity & Collaboration Suites (Office, Email)",
+        "last_annual_revenue": 87703.70999999999
+    },
+    {
+        "id": "SUP-c3d9256e",
+        "name": "GreeCloud Solutions",
+        "aliases": [
+            "GreEnergy Cloud Ltd",
+            "GreeCloud Services",
+            "GreeCloud Solutions",
+            "GreeSolutions Inc",
+            "GreeTech Solutions Corp",
+            "GreenCloud Tech Corp"
+        ],
+        "category": "Cloud & Hosting (IaaS, PaaS, SaaS)",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-0d144f32",
+        "name": "Mitarbeiterguthaben GmbH",
+        "aliases": [
+            "Employee Benefit Holdings",
+            "M GmbH",
+            "MEG Group",
+            "MG Corp",
+            "Mitarbeiterguthaben GmbH",
+            "Mitarbeiterguthaben Solutions"
+        ],
+        "category": "Payroll & Benefits Administration",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-a6b23536",
+        "name": "ShowExpo Solutions GmbH",
+        "aliases": [
+            "SE Solutions",
+            "SE Solutions GmbH",
+            "SHOWEXPO LLC",
+            "ShowExpo Corp.",
+            "ShowExpo Ltd.",
+            "ShowExpo Solutions GmbH"
+        ],
+        "category": "Trade Show & Exhibition Services",
+        "last_annual_revenue": 27000.79
+    },
+    {
+        "id": "SUP-fd16abfe",
+        "name": "EuroMetals AG",
+        "aliases": [
+            "EUM Metals Ltd.",
+            "EUROMETALS AG",
+            "EuroMetals AG",
+            "EuroMetals Corp",
+            "EuroMetals Inc."
+        ],
+        "category": "Non-Ferrous Metals (Aluminum, Copper, Lithium)",
+        "last_annual_revenue": 63940.02
+    },
+    {
+        "id": "SUP-f9e1f383",
+        "name": "SecurePay Solutions Schweiz",
+        "aliases": [
+            "SPS Group Corp",
+            "SecurPay Services Ltd.",
+            "SecurePay Schweiz AG",
+            "SecurePay Solutions",
+            "SecurePay Solutions Schweiz",
+            "SecurePay Suisse"
+        ],
+        "category": "Payment Processing",
+        "last_annual_revenue": 249210.44
+    },
+    {
+        "id": "SUP-b1d59396",
+        "name": "FleetTech Solutions GmbH",
+        "aliases": [
+            "FTS Group Ltd.",
+            "FleetTech Solutions GmbH",
+            "FleetTech Solutions GmbH AG",
+            "FleetTech Solutions GmbH Corp",
+            "FleetTech TechCorp"
+        ],
+        "category": "Telematics & Fleet Tracking",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-a5295d54",
+        "name": "TransCargo Deutschland GmbH",
+        "aliases": [
+            "TC Deutschland GmbH",
+            "TCD AG",
+            "TransCargo DE Corp",
+            "TransCargo Deutschland GmbH",
+            "TransCargo Logistics GmbH",
+            "TransCargo Systems GmbH"
+        ],
+        "category": "Road Freight (FTL, LTL)",
+        "last_annual_revenue": 69560.37
+    },
+    {
+        "id": "SUP-8354a842",
+        "name": "Austrian Insurance Solutions GmbH",
+        "aliases": [
+            "AIS",
+            "Austrian Ins.",
+            "Austrian Insurance Corp",
+            "Austrian Insurance Solutions GmbH",
+            "InsAustria Solutions"
+        ],
+        "category": "Insurance (Property, Liability, Health, Travel)",
+        "last_annual_revenue": 19401.93
+    },
+    {
+        "id": "SUP-701d0bfd",
+        "name": "SkyNet Solutions",
+        "aliases": [
+            "SKYNET LLC",
+            "SNS Solutions Ltd.",
+            "SkyNet Enterprises",
+            "SkyNet Network Services",
+            "SkyNet Solutions",
+            "SkyNet Tech Corp"
+        ],
+        "category": "Cloud & Hosting (IaaS, PaaS, SaaS)",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-5b652025",
+        "name": "CloudHosting Solutions GmbH",
+        "aliases": [
+            "C Hosting Ltd.",
+            "CH Solutions",
+            "ChSolutions GmbH",
+            "CloudHost GmbH",
+            "CloudHosting Corp",
             "CloudHosting Solutions GmbH"
         ],
-        "vendor_code": "SUP-f5f728d9"
+        "category": "Cloud & Hosting (IaaS, PaaS, SaaS)",
+        "last_annual_revenue": 0.0
     },
-    "Security Solutions GmbH": {
+    {
+        "id": "SUP-ac3246fa",
+        "name": "Konstanzer Flaschen- und Beh\u00e4lterdienstleistungen GmbH",
         "aliases": [
-            "Security Solutions GmbH"
+            "KF & B Services",
+            "KFF Corp",
+            "Konstanzer Flaschen Beh\u00e4lter Solutions",
+            "Konstanzer Flaschen- und Beh\u00e4lterdienstleistungen GmbH"
         ],
-        "vendor_code": "SUP-c7a7f3a2"
+        "category": "Bottles, Jars & Cans",
+        "last_annual_revenue": 0.0
     },
-    "Slovak Warehouse Solutions": {
+    {
+        "id": "SUP-adb16df0",
+        "name": "Kemnath Equipment Solutions GmbH",
         "aliases": [
-            "Slovak Warehouse Solutions"
+            "EquipTech Kemnath",
+            "KE Solutions GmbH",
+            "Kemnath Equip Co",
+            "Kemnath Equip Corp",
+            "Kemnath Equip Ltd",
+            "Kemnath Equipment Solutions GmbH"
         ],
-        "vendor_code": "SUP-4502eb41"
+        "category": "Equipment-Specific Spare Parts",
+        "last_annual_revenue": 39207.119999999995
     },
-    "Luxembourg Sales Solutions": {
+    {
+        "id": "SUP-40b7ebcc",
+        "name": "KreativContent GmbH",
         "aliases": [
-            "Luxembourg Sales Solutions"
+            "Creative Content Solutions",
+            "K-Corp GmbH",
+            "KC Group",
+            "KCC Holdings",
+            "KreativContent Corp",
+            "KreativContent GmbH"
         ],
-        "vendor_code": "SUP-4a1efe4c"
+        "category": "Creative, Content & Branding Agencies",
+        "last_annual_revenue": 20402.93
     },
-    "Bulgarian Express Logistics": {
+    {
+        "id": "SUP-b2e14004",
+        "name": "Expo Solutions Hungary",
         "aliases": [
-            "Bulgarian Express Logistics"
+            "EHS Corp.",
+            "EuroTech Ltd.",
+            "Expo Hungary Solutions",
+            "Expo Solutions Hungary",
+            "HUN Expo Solutions",
+            "Hungary Expo Group"
         ],
-        "vendor_code": "SUP-c7d2ccd3"
+        "category": "Trade Show & Exhibition Services",
+        "last_annual_revenue": 82584.58
     },
-    "Office Supplies GmbH": {
+    {
+        "id": "SUP-70e4594c",
+        "name": "ShowExpo Solutions GmbH",
         "aliases": [
-            "Office Supplies GmbH"
+            "SE Solutions",
+            "SHOWCO",
+            "SeSolution",
+            "ShowExpo Corp.",
+            "ShowExpo Solutions GmbH",
+            "ShowExpo Tech"
         ],
-        "vendor_code": "SUP-7fb49389"
+        "category": "Trade Show & Exhibition Services",
+        "last_annual_revenue": 28662.89
     },
-    "Bayerisch Transport GmbH": {
+    {
+        "id": "SUP-5159595b",
+        "name": "TechLog Solutions Pvt Ltd",
         "aliases": [
-            "Bayerisch Transport GmbH"
+            "TLog Enterprises",
+            "TechLog Innovations",
+            "TechLog Pvt Ltd",
+            "TechLog Solutions Corp",
+            "TechLog Solutions Pvt Ltd",
+            "TechLog Systems Inc."
         ],
-        "vendor_code": "SUP-650a24ee"
+        "category": "Inventory Management Systems",
+        "last_annual_revenue": 0.0
     },
-    "LogiStore GmbH": {
+    {
+        "id": "SUP-bc2e819b",
+        "name": "Greece Alarm Security Solutions",
         "aliases": [
-            "LogiStore GmbH"
+            "GAS Secur",
+            "GAS Security Services",
+            "GAS Solutions Corp.",
+            "Greece Alarm Sec",
+            "Greece Alarm Security Solutions",
+            "Greece Alarms Inc."
         ],
-        "vendor_code": "SUP-6a660309"
+        "category": "Alarm Systems & Monitoring",
+        "last_annual_revenue": 0.0
     },
-    "Kraftstoffe GmbH": {
+    {
+        "id": "SUP-682bae37",
+        "name": "CloudHosting Solutions GmbH",
         "aliases": [
-            "Kraftstoffe GmbH"
+            "CHS GmbH",
+            "CloudHost Solutions",
+            "CloudHosting AB",
+            "CloudHosting Corp.",
+            "CloudHosting Solutions AG",
+            "CloudHosting Solutions GmbH"
         ],
-        "vendor_code": "SUP-31705392"
+        "category": "Cloud & Hosting (IaaS, PaaS, SaaS)",
+        "last_annual_revenue": 0.0
     },
-    "IT Support Solutions GmbH": {
+    {
+        "id": "SUP-3d100df2",
+        "name": "SecureGuard Solutions Ltd.",
         "aliases": [
-            "IT Support Solutions GmbH"
+            "Safeguard Solutions Ltd.",
+            "SecuTech Inc.",
+            "SecureGuard Corp",
+            "SecureGuard Solutions Ltd."
         ],
-        "vendor_code": "SUP-5bd25f3c"
+        "category": "Security Consulting & Risk Assessment",
+        "last_annual_revenue": 0.0
     },
-    "Precision Molding Solutions GmbH": {
+    {
+        "id": "SUP-8b9c7534",
+        "name": "GuardSecure International GmbH",
         "aliases": [
-            "Precision Molding Solutions GmbH"
+            "G-Sec International GmbH",
+            "GS Global Solutions",
+            "GUARDSEC Corp",
+            "GuardSecure International GmbH",
+            "GuardSecure Intl."
         ],
-        "vendor_code": "SUP-f8b94442"
+        "category": "Manned Guarding",
+        "last_annual_revenue": 0.0
     },
-    "Analytics Brand Solutions GmbH": {
+    {
+        "id": "SUP-5f422b5f",
+        "name": "AgricultureGrains GmbH",
         "aliases": [
-            "Analytics Brand Solutions GmbH"
+            "AGS Grains Inc.",
+            "AgriGrains Corp",
+            "Agricorp AG",
+            "AgricultureGrains GmbH"
         ],
-        "vendor_code": "SUP-31c835cb"
+        "category": "Grains & Cereals",
+        "last_annual_revenue": 0.0
     },
-    "Birgit Schneider - Corporate & Commercial Law Services GmbH": {
+    {
+        "id": "SUP-0b9bd6af",
+        "name": "Aurich Lead Solutions GmbH",
         "aliases": [
-            "Birgit Schneider - Corporate & Commercial Law Services GmbH"
+            "ALS Group",
+            "ALSS GmbH",
+            "Aurich Lead Solutions AG",
+            "Aurich Lead Solutions Corp",
+            "Aurich Lead Solutions GmbH",
+            "Lead Solutions Aurich"
         ],
-        "vendor_code": "SUP-fa253fe5"
+        "category": "Lead Generation Services",
+        "last_annual_revenue": 101950.46
     },
-    "Alarm Systeme & \u00dcberwachung GmbH": {
+    {
+        "id": "SUP-720cf8be",
+        "name": "Optima Trays GmbH",
         "aliases": [
-            "Alarm Systeme & \u00dcberwachung GmbH"
+            "Optima Corp.",
+            "Optima Enterprises",
+            "Optima Ltd.",
+            "Optima Solutions GmbH",
+            "Optima Trays GmbH"
         ],
-        "vendor_code": "SUP-307489f4"
+        "category": "Trays & Dividers",
+        "last_annual_revenue": 0.0
     },
-    "Loyal Parcel Logistics GmbH": {
+    {
+        "id": "SUP-06650690",
+        "name": "Estonian Data Solutions Ltd.",
         "aliases": [
-            "Loyal Parcel Logistics GmbH"
+            "DataTech Estonia",
+            "EDS",
+            "EST Solutions Ltd.",
+            "Estonian Data Solutions Corp.",
+            "Estonian Data Solutions Ltd."
         ],
-        "vendor_code": "SUP-31a7b68c"
+        "category": "Data Center (Servers, Storage)",
+        "last_annual_revenue": 132488.47
     },
-    "TeleConnect Romania": {
+    {
+        "id": "SUP-c276d14d",
+        "name": "Ocean Air Logistics GmbH",
         "aliases": [
-            "TeleConnect Romania"
+            "OAL GmbH",
+            "Ocean Air Logistics Corp",
+            "Ocean Air Logistics GmbH",
+            "Ocean Logistics Co.",
+            "OceanAir",
+            "OceanCorp Logistics"
         ],
-        "vendor_code": "SUP-c07a2cb2"
+        "category": "Air & Ocean Freight",
+        "last_annual_revenue": 0.0
     },
-    "Wohlstand f\u00fcr Mitarbeiter GmbH": {
+    {
+        "id": "SUP-c2b0c3cc",
+        "name": "Innovatech Solutions Ltd.",
         "aliases": [
-            "Wohlstand f\u00fcr Mitarbeiter GmbH"
+            "InnoTech Solutions",
+            "Innovatech Group",
+            "Innovatech Solutions Ltd.",
+            "Intech Corp",
+            "SoluTech Ltd."
         ],
-        "vendor_code": "SUP-bc018677"
+        "category": "Enterprise Applications (ERP, CRM, SCM)",
+        "last_annual_revenue": 0.0
     },
-    "TechFusion Semiconductors GmbH": {
+    {
+        "id": "SUP-6ed2ca64",
+        "name": "Ocean Air Logistics SA",
         "aliases": [
-            "TechFusion Semiconductors GmbH"
+            "OAL SA",
+            "Ocean Air LLC",
+            "Ocean Air Logistics Corp",
+            "Ocean Air Logistics SA",
+            "Ocean Air Transport Co",
+            "OceanAir Logistics Ltd"
         ],
-        "vendor_code": "SUP-4b861dcf"
+        "category": "Air & Ocean Freight",
+        "last_annual_revenue": 0.0
     },
-    "SecureGuard Alarm Systeme GmbH": {
+    {
+        "id": "SUP-c16fa3ca",
+        "name": "PostOffice Solutions GmbH",
         "aliases": [
-            "SecureGuard Alarm Systeme GmbH"
+            "PO Solutions",
+            "POS GmbH",
+            "PostOffice Group",
+            "PostOffice Solutions Corp",
+            "PostOffice Solutions GmbH"
         ],
-        "vendor_code": "SUP-35e0c23c"
+        "category": "Mail & Document Management",
+        "last_annual_revenue": 58852.45
     },
-    "Trans Europe Logistics": {
+    {
+        "id": "SUP-8cb0d228",
+        "name": "Magyar Kommunik\u00e1ci\u00f3s Kft.",
         "aliases": [
-            "Trans Europe Logistics"
+            "Comunic Corp",
+            "Corp Magyarmkt",
+            "Kommunik\u00e1ci\u00f3zam",
+            "MKT Corp",
+            "Magyar Kommunik\u00e1ci\u00f3s Kft.",
+            "Magyar Kommuniqu\u00e9"
         ],
-        "vendor_code": "SUP-48a5197d"
+        "category": "Public Relations (PR) Firms",
+        "last_annual_revenue": 29494.83
     },
-    "Programmes Ventae Inc.": {
+    {
+        "id": "SUP-f613f07b",
+        "name": "SecureGuard Solutions",
         "aliases": [
-            "Programmes Ventae Inc."
+            "SGS Solutions",
+            "SafeGuard Services",
+            "SecureGuard Solutions",
+            "SecureGuard Solutions Corp",
+            "SecureTech Solutions",
+            "SolutionsSec Corp"
         ],
-        "vendor_code": "SUP-f69410d9"
+        "category": "Security Consulting & Risk Assessment",
+        "last_annual_revenue": 0.0
     },
-    "GreenEarth Waste Solutions Ltd": {
+    {
+        "id": "SUP-dc617bfa",
+        "name": "Celle Marketing Supplies GmbH",
         "aliases": [
-            "GreenEarth Waste Solutions Ltd"
+            "Cell Marketing Co.",
+            "Celle Marketing Supplies GmbH",
+            "Celle Mktg Supplies Corp",
+            "CelleCorp MarkSupplies",
+            "Marketing Supplies Cell"
         ],
-        "vendor_code": "SUP-cc5fefe0"
+        "category": "Promotional Goods & Branded Merchandise",
+        "last_annual_revenue": 185056.02000000002
     },
-    "SecureGuard Solutions GmbH": {
+    {
+        "id": "SUP-cd47dc34",
+        "name": "Innovative IT Solutions GmbH",
         "aliases": [
-            "SecureGuard Solutions GmbH"
+            "Digital IT Corp.",
+            "IIS Group",
+            "IT Innovations Corp.",
+            "InfraTech Systems Ltd.",
+            "InnoTech Solutions GmbH",
+            "Innovative IT Solutions GmbH"
         ],
-        "vendor_code": "SUP-cd3b4558"
+        "category": "IT Consulting & Implementation",
+        "last_annual_revenue": 0.0
     },
-    "NetzwerkSysteme GmbH": {
+    {
+        "id": "SUP-360063a2",
+        "name": "LogiTech Solutions GmbH",
         "aliases": [
-            "NetzwerkSysteme GmbH"
+            "LogiTech Corp",
+            "LogiTech LLC",
+            "LogiTech Solutions GmbH",
+            "Logitech Services GmbH",
+            "Logitech Solutions AG"
         ],
-        "vendor_code": "SUP-4abc1170"
+        "category": "3rd Party Logistics (3PL) Services",
+        "last_annual_revenue": 44517.86
     },
-    "DataInsight Solutions Polska": {
+    {
+        "id": "SUP-7ff715e3",
+        "name": "Mediennetz PR-Agentur GmbH",
         "aliases": [
-            "DataInsight Solutions Polska"
+            "M-Netz Communications",
+            "MNetzPR AG",
+            "MNetzPR Ltd.",
+            "Media Netz PR",
+            "Mediennetz PR",
+            "Mediennetz PR-Agentur GmbH"
         ],
-        "vendor_code": "SUP-47bd9708"
+        "category": "Public Relations (PR) Firms",
+        "last_annual_revenue": 11537.289999999999
     },
-    "Penthouse Events GmbH": {
+    {
+        "id": "SUP-196c6284",
+        "name": "Storage Solutions France",
         "aliases": [
-            "Penthouse Events GmbH"
+            "SS France",
+            "STS France",
+            "SoluStor FR",
+            "StoSol Corp",
+            "Storage Solutions France",
+            "StorageCorp FR"
         ],
-        "vendor_code": "SUP-6a511391"
+        "category": "Warehouse Rental & Storage",
+        "last_annual_revenue": 6466.8
     },
-    "Algerian Road Freight Solutions": {
+    {
+        "id": "SUP-ef5223cc",
+        "name": "SecureGuard Alarm Systems A/S",
         "aliases": [
-            "Algerian Road Freight Solutions"
+            "SGAS A/S",
+            "SafeProtect Inc.",
+            "SecureAlarm Systems",
+            "SecureGuard Alarm Systems A/S",
+            "SecureGuard Alarm Systems Corp",
+            "SecureGuard Security Solutions Ltd"
         ],
-        "vendor_code": "SUP-643cfe8e"
+        "category": "Alarm Systems & Monitoring",
+        "last_annual_revenue": 23168.95
     },
-    "MediaNetz Austria GmbH": {
+    {
+        "id": "SUP-decb458f",
+        "name": "Hansa Express Transport GmbH",
         "aliases": [
-            "MediaNetz Austria GmbH"
+            "HE Trans GmbH",
+            "Hans Transport Co.",
+            "Hansa Express Corp",
+            "Hansa Express Transport GmbH",
+            "Hansa Logistics Group"
         ],
-        "vendor_code": "SUP-427a4907"
+        "category": "Parcel & Courier Services",
+        "last_annual_revenue": 0.0
     },
-    "W\u00e4rmeTechnik GmbH": {
+    {
+        "id": "SUP-51ec3069",
+        "name": "Melsungen Event Productions GmbH",
         "aliases": [
-            "W\u00e4rmeTechnik GmbH"
+            "Events by Melsungen",
+            "Mels Productions",
+            "Mels. Event Prod.",
+            "Melsungen Event Pro Corp",
+            "Melsungen Event Productions GmbH",
+            "Melsungen Events GmbH"
         ],
-        "vendor_code": "SUP-595a80b3"
+        "category": "Event Management & Production",
+        "last_annual_revenue": 148486.26
     },
-    "Hendrik Rust Service GmbH & Co KG": {
+    {
+        "id": "SUP-221546f5",
+        "name": "Sicherheitsanlagen GmbH",
         "aliases": [
-            "Hendrik Rust Service GmbH & Co KG"
+            "SafeGuard Solutions",
+            "Safety Systems GmbH",
+            "SecTech Corp",
+            "Secure Infrastructure Ltd.",
+            "Sicherheitsanlagen GmbH",
+            "Trustworth Inc."
         ],
-        "vendor_code": "SUP-c1ac1ea7"
+        "category": "Alarm Systems & Monitoring",
+        "last_annual_revenue": 3419.0
     },
-    "Inova Semiconductores LTDA": {
+    {
+        "id": "SUP-047ef4d7",
+        "name": "LuxMetrics Brand Insights",
         "aliases": [
-            "Inova Semiconductores LTDA"
+            "BrandInsights LLC",
+            "LuxMetrics Brand Insights",
+            "LuxMetrics Brand Ltd.",
+            "LuxMetrics Insight Corp",
+            "LuxMetrics Insights Corp."
         ],
-        "vendor_code": "SUP-728beb09"
+        "category": "Brand Tracking & Analytics",
+        "last_annual_revenue": 68905.41
     },
-    "LogiLux Solutions": {
+    {
+        "id": "SUP-514dfd9a",
+        "name": "Tel\u00e9fonos y Servicios de Comunicaci\u00f3n S.A.",
         "aliases": [
-            "LogiLux Solutions"
+            "Comunicaci\u00f3n Ltd",
+            "T&C Corp",
+            "TelServ Comun",
+            "Telecom S.A.",
+            "Tel\u00e9fonos y Servicios de Comunicaci\u00f3n S.A."
         ],
-        "vendor_code": "SUP-3f7ba103"
+        "category": "Telecommunications (Mobile, Fixed Line, Internet)",
+        "last_annual_revenue": 29547.55
     },
-    "Eckernf\u00f6rder Logistik Systeme GmbH": {
+    {
+        "id": "SUP-5be37cf4",
+        "name": "TechSolutions GmbH",
         "aliases": [
-            "Eckernf\u00f6rder Logistik Systeme GmbH"
+            "Tech Solutions GmbH",
+            "TechSolutions AG",
+            "TechSolutions Corp",
+            "TechSolutions GmbH",
+            "TechSolutions Group",
+            "TechSolutions Inc."
         ],
-        "vendor_code": "SUP-ba63be13"
+        "category": "Enterprise Applications (ERP, CRM, SCM)",
+        "last_annual_revenue": 0.0
     },
-    "LubriTech Espa\u00f1a S.A.": {
+    {
+        "id": "SUP-cc344ada",
+        "name": "TechVision Audiovisual Solutions GmbH",
         "aliases": [
-            "LubriTech Espa\u00f1a S.A."
+            "AV TechVision Corp.",
+            "AVTech Solutions GmbH",
+            "TechVision AV Ltd.",
+            "TechVision AV Services",
+            "TechVision AV Solutions",
+            "TechVision Audiovisual Solutions GmbH"
         ],
-        "vendor_code": "SUP-09d4d910"
+        "category": "Audio/Visual Equipment (Projectors, Conferencing Systems)",
+        "last_annual_revenue": 129137.58
     },
-    "LegalShield GmbH": {
+    {
+        "id": "SUP-909d90b4",
+        "name": "TechInnovate Solutions GmbH",
         "aliases": [
-            "LegalShield GmbH"
+            "InnoTech Solutions GmbH",
+            "TECHCorp",
+            "TIS GmbH",
+            "TechInnovate Solutions GmbH",
+            "TechInnovate Solutions GmbH Corp",
+            "TechSolutions Corp"
         ],
-        "vendor_code": "SUP-07c53771"
+        "category": "Enterprise Applications (ERP, CRM, SCM)",
+        "last_annual_revenue": 3691.47
     },
-    "TechDesign Engineering GmbH": {
+    {
+        "id": "SUP-e12f717e",
+        "name": "SecurePay Europe GmbH",
         "aliases": [
-            "TechDesign Engineering GmbH"
+            "SPE AG",
+            "SecurPay EMEA Ltd.",
+            "SecurePay Europe Corp",
+            "SecurePay Europe GmbH",
+            "SecurePay Europe GmbH.",
+            "SecurePay Solutions"
         ],
-        "vendor_code": "SUP-b1a6c046"
+        "category": "Payment Processing",
+        "last_annual_revenue": 224548.91
     },
-    "Estonian PR Solutions Ltd.": {
+    {
+        "id": "SUP-4d8db9a4",
+        "name": "Precision Castings Inc.",
         "aliases": [
-            "Estonian PR Solutions Ltd."
+            "Cast Precision Inc.",
+            "Precise Casting LLC",
+            "Precise Castings Ltd.",
+            "Precision Castings Corp",
+            "Precision Castings Inc.",
+            "Precision Metals Co."
         ],
-        "vendor_code": "SUP-a4b1badd"
+        "category": "Castings & Forgings",
+        "last_annual_revenue": 148251.13
     },
-    "B2B Logistics Solutions GmbH": {
+    {
+        "id": "SUP-75ae9ca4",
+        "name": "TechAccess Supply GmbH",
         "aliases": [
-            "B2B Logistics Solutions GmbH"
+            "TAS Group",
+            "TechAccess Corp",
+            "TechAccess Enterprises",
+            "TechAccess Solutions GmbH",
+            "TechAccess Supply AG",
+            "TechAccess Supply GmbH"
         ],
-        "vendor_code": "SUP-3dfafef1"
+        "category": "Peripherals & Accessories (Printers, Keyboards)",
+        "last_annual_revenue": 13081.859999999999
     },
-    "V\u00c1C MEGHATAROS\u00edt\u00f3 \u00e9s \u00c9lelmiszergy\u00e1r": {
+    {
+        "id": "SUP-1fb7b638",
+        "name": "Legal Compliance GmbH",
         "aliases": [
-            "V\u00c1C MEGHATAROS\u00edt\u00f3 \u00e9s \u00c9lelmiszergy\u00e1r"
+            "Compliance Solutions GmbH",
+            "LCG GmbH",
+            "LGA",
+            "Legal Compliance Corp",
+            "Legal Compliance GmbH",
+            "LegalCorp"
         ],
-        "vendor_code": "SUP-c7904748"
+        "category": "Corporate & Commercial Law",
+        "last_annual_revenue": 0.0
     },
-    "ExpressLogistics GmbH": {
+    {
+        "id": "SUP-6c87b61f",
+        "name": "MediaMasters GmbH",
         "aliases": [
+            "MM Solutions GmbH",
+            "MMD LLC",
+            "MediaMaster Corp",
+            "MediaMasters AG",
+            "MediaMasters GmbH"
+        ],
+        "category": "Public Relations (PR) Firms",
+        "last_annual_revenue": 40999.04
+    },
+    {
+        "id": "SUP-fab4a36a",
+        "name": "ColorTech Deutschland GmbH",
+        "aliases": [
+            "C.T.DE Corp.",
+            "CT Germany",
+            "ColorTech DMG",
+            "ColorTech Deutschland GmbH",
+            "ColorTech GmbH",
+            "ColourTech DE"
+        ],
+        "category": "Coatings, Pigments & Dyes",
+        "last_annual_revenue": 7672.780000000001
+    },
+    {
+        "id": "SUP-2f260fca",
+        "name": "Eryns Energy Solutions",
+        "aliases": [
+            "Energy Solutions Inc.",
+            "Eryns E&S Ltd",
+            "Eryns Energy Corp",
+            "Eryns Energy Solutions"
+        ],
+        "category": "Fuel, Fuel Cards & Management",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-f01bab8b",
+        "name": "Trnava Energy Solutions",
+        "aliases": [
+            "Energy Solutions TNS",
+            "TENERGY Solutions",
+            "TN Energy Co.",
+            "TNS Energy Corp",
+            "Trnava Energy Solutions",
+            "Trnava Power Ltd"
+        ],
+        "category": "Utilities (Gas, Electricity, Water)",
+        "last_annual_revenue": 1910.36
+    },
+    {
+        "id": "SUP-319c45b4",
+        "name": "KreativContent GmbH",
+        "aliases": [
+            "K-C Corp",
+            "Kreativ Content Ltd.",
+            "KreativContent GmbH",
+            "KreativCorp",
+            "KreativeContent GmbH"
+        ],
+        "category": "Creative, Content & Branding Agencies",
+        "last_annual_revenue": 24419.89
+    },
+    {
+        "id": "SUP-b6a2e60c",
+        "name": "Netzwerkmanagement GmbH",
+        "aliases": [
+            "NWG Tech Corp",
+            "Netzwerk Solutions GmbH",
+            "NetzwerkCorp",
+            "Netzwerkmanagement GmbH"
+        ],
+        "category": "Managed Services (Helpdesk, Network Management)",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-f59118b3",
+        "name": "Tecnologia M\u00f3vil MX",
+        "aliases": [
+            "MobilTech MX Group",
+            "Mobile Tech MX Inc.",
+            "TecMob MX Ltd.",
+            "Tech Mobile Solutions MX",
+            "Tecnologia M\u00f3vil MX",
+            "Tecnolog\u00eda M\u00f3vil MX Corp"
+        ],
+        "category": "Mobile Devices (Tablets, Smartphones, Accessories)",
+        "last_annual_revenue": 19964.19
+    },
+    {
+        "id": "SUP-73bfdc6c",
+        "name": "StaffLink Recruitment Polska",
+        "aliases": [
+            "RecPol Ltd.",
+            "SLR Recruitment",
+            "StaffLink Corp",
+            "StaffLink Inc.",
+            "StaffLink Rec Polska",
+            "StaffLink Recruitment Polska"
+        ],
+        "category": "Recruitment & Staffing (Permanent, Temporary)",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-f5a5cdcf",
+        "name": "Estonian Valves and Spares Ltd",
+        "aliases": [
+            "EV&S Corporation",
+            "EVS Ltd.",
+            "EstValve Co.",
+            "Estonian Valves & Spares",
+            "Estonian Valves and Spares Ltd"
+        ],
+        "category": "General Industrial Spares (Valves, Belts)",
+        "last_annual_revenue": 351565.14999999997
+    },
+    {
+        "id": "SUP-664f3069",
+        "name": "EcoOffice Supplies",
+        "aliases": [
+            "EcoOffice Supplies",
+            "EcoOffice Supplies Corp",
+            "EcoSupply Solutions",
+            "EnviroDocs Inc.",
+            "GreenPaperWorks Ltd",
+            "SustainaOffice Co."
+        ],
+        "category": "Stationery & Consumables",
+        "last_annual_revenue": 4118.32
+    },
+    {
+        "id": "SUP-98d7a329",
+        "name": "Kenya Express Logistics Solutions",
+        "aliases": [
+            "KELS Logistics Corp.",
+            "KEN EXPO LOG",
+            "KXLS Solutions",
+            "Kenya Express Logistics",
+            "Kenya Express Logistics Solutions"
+        ],
+        "category": "Order Fulfillment & Value-Added Services",
+        "last_annual_revenue": 3285.69
+    },
+    {
+        "id": "SUP-8e7db664",
+        "name": "Kontrateil GmbH",
+        "aliases": [
+            "KT Corp",
+            "Ko GmbH",
+            "Kontrateil AG",
+            "Kontrateil Corp",
+            "Kontrateil GmbH"
+        ],
+        "category": "Warehouse Rental & Storage",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-fbc0d551",
+        "name": "Rechtsanwaltskanzlei M\u00fcller & Partner",
+        "aliases": [
+            "Corporate Legal Solutions LLC",
+            "Legal Associates M&P",
+            "M&K Law Office",
+            "M\u00fcller & Partner Advocates",
+            "Rechtsanwaltskanzlei M\u00fcller & Partner"
+        ],
+        "category": "Litigation & Dispute Resolution",
+        "last_annual_revenue": 1280.9199999999998
+    },
+    {
+        "id": "SUP-a3ec51f7",
+        "name": "PostOffice Supplies GmbH",
+        "aliases": [
+            "P.O.S.",
+            "POS GmbH",
+            "POSupplyCo",
+            "PostOffice Supplies Corp",
+            "PostOffice Supplies GmbH",
+            "PostSupplies"
+        ],
+        "category": "Stationery & Consumables",
+        "last_annual_revenue": 9994.63
+    },
+    {
+        "id": "SUP-c850a50e",
+        "name": "GartenCare Deutschland GmbH",
+        "aliases": [
+            "GDE GmbH",
+            "Garden Solutions DE",
+            "GardenCare Germany Corp",
+            "GartenCare Deutschland GmbH",
+            "GartenCorp",
+            "GartenCorp GmbH"
+        ],
+        "category": "Landscaping & Groundskeeping",
+        "last_annual_revenue": 51413.48
+    },
+    {
+        "id": "SUP-f61e8538",
+        "name": "Techno-Passive Elektronik GmbH",
+        "aliases": [
+            "TEKON",
+            "TechPass Elektronik",
+            "TechPass GmbH",
+            "Techno-Passive Elektronik GmbH"
+        ],
+        "category": "Passive Components (Resistors, Capacitors)",
+        "last_annual_revenue": 1605.01
+    },
+    {
+        "id": "SUP-4e1e99e2",
+        "name": "AnalyticsTrack Solutions GmbH",
+        "aliases": [
+            "ANALYTICS Track Ltd.",
+            "AT Analytics Solutions",
+            "AnalyticsTrack Corp.",
+            "AnalyticsTrack Solutions GmbH",
+            "AnalyzeTech Solutions",
+            "TrackData Analytics"
+        ],
+        "category": "Brand Tracking & Analytics",
+        "last_annual_revenue": 60650.72
+    },
+    {
+        "id": "SUP-dfd923fa",
+        "name": "Eutech Legal Solutions GmbH",
+        "aliases": [
+            "ETech Legal Corp",
+            "Eutech Legal Solutions GmbH",
+            "Eutech Solutions Ltd",
+            "EutechCorp Legal Services",
+            "Legal Tech Eutech Group"
+        ],
+        "category": "Litigation & Dispute Resolution",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-511ced30",
+        "name": "ExpressLogistics GmbH",
+        "aliases": [
+            "ELG Logistics Corp.",
+            "ExpoLogis AG",
+            "ExprLogi Co.",
+            "Express Logistik Ltd.",
             "ExpressLogistics GmbH"
         ],
-        "vendor_code": "SUP-9b7c3d6f"
-    },
-    "NetConnect Italia SpA": {
-        "aliases": [
-            "NetConnect Italia SpA"
-        ],
-        "vendor_code": "SUP-4841e678"
-    },
-    "EnergieManagement GmbH": {
-        "aliases": [
-            "EnergieManagement GmbH"
-        ],
-        "vendor_code": "SUP-166c4b4d"
-    },
-    "Norsk End-User Computing AS": {
-        "aliases": [
-            "Norsk End-User Computing AS"
-        ],
-        "vendor_code": "SUP-ca75baba"
-    },
-    "EchoVision Technologies": {
-        "aliases": [
-            "EchoVision Technologies"
-        ],
-        "vendor_code": "SUP-5636c81f"
-    },
-    "IntelligenzService GmbH": {
-        "aliases": [
-            "IntelligenzService GmbH"
-        ],
-        "vendor_code": "SUP-d870a279"
-    },
-    "WelfarePlus GmbH": {
-        "aliases": [
-            "WelfarePlus GmbH"
-        ],
-        "vendor_code": "SUP-1513d8d9"
-    },
-    "TechServe Solutions GmbH": {
-        "aliases": [
-            "TechServe Solutions GmbH"
-        ],
-        "vendor_code": "SUP-4e6130e7"
-    },
-    "Furniture Haus Deutschland": {
-        "aliases": [
-            "Furniture Haus Deutschland"
-        ],
-        "vendor_code": "SUP-af1e9be2"
-    },
-    "EuroLease Properties": {
-        "aliases": [
-            "EuroLease Properties"
-        ],
-        "vendor_code": "SUP-42e268c7"
-    },
-    "SocialSphere Influencers": {
-        "aliases": [
-            "SocialSphere Influencers"
-        ],
-        "vendor_code": "SUP-e81d1be3"
-    },
-    "SecureNet Solutions": {
-        "aliases": [
-            "SecureNet Solutions"
-        ],
-        "vendor_code": "SUP-f30105b4"
-    },
-    "Drewes Warengewerbe GmbH": {
-        "aliases": [
-            "Drewes Warengewerbe GmbH"
-        ],
-        "vendor_code": "SUP-d469b3f3"
-    },
-    "EcoSolutions Consulting": {
-        "aliases": [
-            "EcoSolutions Consulting"
-        ],
-        "vendor_code": "SUP-c4871d5a"
-    },
-    "Communicatie & Public Relations Experts": {
-        "aliases": [
-            "Communicatie & Public Relations Experts"
-        ],
-        "vendor_code": "SUP-279bf018"
-    },
-    "Mittelstand-Kontaktvermittlung GmbH": {
-        "aliases": [
-            "Mittelstand-Kontaktvermittlung GmbH"
-        ],
-        "vendor_code": "SUP-4d9294a3"
-    },
-    "SecureNet Cybersecurity Solutions": {
-        "aliases": [
-            "SecureNet Cybersecurity Solutions"
-        ],
-        "vendor_code": "SUP-b4e68c8d"
-    },
-    "Optima Partner-Veranstaltungen GmbH": {
-        "aliases": [
-            "Optima Partner-Veranstaltungen GmbH"
-        ],
-        "vendor_code": "SUP-1ac0b312"
-    },
-    "Recycling Solutions GmbH": {
-        "aliases": [
-            "Recycling Solutions GmbH"
-        ],
-        "vendor_code": "SUP-2f5282c9"
-    },
-    "SkyHost Solutions GmbH": {
-        "aliases": [
-            "SkyHost Solutions GmbH"
-        ],
-        "vendor_code": "SUP-f8809b66"
-    },
-    "PrintMaster Solutions SA": {
-        "aliases": [
-            "PrintMaster Solutions SA"
-        ],
-        "vendor_code": "SUP-6ebf517d"
-    },
-    "TechSpares GmbH": {
-        "aliases": [
-            "TechSpares GmbH"
-        ],
-        "vendor_code": "SUP-986abf60"
-    },
-    "AutoLease GmbH": {
-        "aliases": [
-            "AutoLease GmbH"
-        ],
-        "vendor_code": "SUP-37e2d43b"
-    },
-    "EnergieManagement Sorgfalt GmbH": {
-        "aliases": [
-            "EnergieManagement Sorgfalt GmbH"
-        ],
-        "vendor_code": "SUP-b6e4b6e7"
-    },
-    "SeguridadPro Expertos en Consultor\u00eda y Evaluaci\u00f3n de Riesgos": {
-        "aliases": [
-            "SeguridadPro Expertos en Consultor\u00eda y Evaluaci\u00f3n de Riesgos"
-        ],
-        "vendor_code": "SUP-dc2a58f2"
-    },
-    "TechVision Solutions GmbH": {
-        "aliases": [
-            "TechVision Solutions GmbH"
-        ],
-        "vendor_code": "SUP-2e2f16f8"
-    },
-    "Incentive Rewards Solutions Singapore": {
-        "aliases": [
-            "Incentive Rewards Solutions Singapore"
-        ],
-        "vendor_code": "SUP-881bce5b"
-    },
-    "Clorofilas Servicios de Limpieza": {
-        "aliases": [
-            "Clorofilas Servicios de Limpieza"
-        ],
-        "vendor_code": "SUP-03afe7dd"
-    },
-    "OptiCore Data Solutions GmbH": {
-        "aliases": [
-            "OptiCore Data Solutions GmbH"
-        ],
-        "vendor_code": "SUP-bd969ccc"
-    },
-    "Kreative Design Solutions": {
-        "aliases": [
-            "Kreative Design Solutions"
-        ],
-        "vendor_code": "SUP-3a6d242c"
-    },
-    "TechNova End-User Computing": {
-        "aliases": [
-            "TechNova End-User Computing"
-        ],
-        "vendor_code": "SUP-4226cc9f"
-    },
-    "Syst\u00e8mes Optimaux Gestion de Services": {
-        "aliases": [
-            "Syst\u00e8mes Optimaux Gestion de Services"
-        ],
-        "vendor_code": "SUP-665eafbc"
-    },
-    "AutoPro Service GmbH": {
-        "aliases": [
-            "AutoPro Service GmbH"
-        ],
-        "vendor_code": "SUP-cf822a50"
-    },
-    "G\u00f6rlitzer Schutz- und Atemschutzunternehmen GmbH": {
-        "aliases": [
-            "G\u00f6rlitzer Schutz- und Atemschutzunternehmen GmbH"
-        ],
-        "vendor_code": "SUP-a06783cb"
-    },
-    "Latvian Conveyor Solutions Ltd.": {
-        "aliases": [
-            "Latvian Conveyor Solutions Ltd."
-        ],
-        "vendor_code": "SUP-19f5d149"
-    },
-    "Slovak Inventory Solutions s.r.o.": {
-        "aliases": [
-            "Slovak Inventory Solutions s.r.o."
-        ],
-        "vendor_code": "SUP-d7f41347"
-    },
-    "DataInsight Solutions A/S": {
-        "aliases": [
-            "DataInsight Solutions A/S"
-        ],
-        "vendor_code": "SUP-0630c4eb"
-    },
-    "Innovative Rewards Solutions Inc.": {
-        "aliases": [
-            "Innovative Rewards Solutions Inc."
-        ],
-        "vendor_code": "SUP-799eed80"
-    },
-    "Servicios Energ\u00e9ticos Chile S.A.": {
-        "aliases": [
-            "Servicios Energ\u00e9ticos Chile S.A."
-        ],
-        "vendor_code": "SUP-94dee42c"
-    },
-    "Optima Solutions GmbH": {
-        "aliases": [
-            "Optima Solutions GmbH"
-        ],
-        "vendor_code": "SUP-47725468"
-    },
-    "Arbeitsvermittlung GmbH": {
-        "aliases": [
-            "Arbeitsvermittlung GmbH"
-        ],
-        "vendor_code": "SUP-fe876beb"
-    },
-    "Netzwerk-Experts GmbH": {
-        "aliases": [
-            "Netzwerk-Experts GmbH"
-        ],
-        "vendor_code": "SUP-1e58ae32"
-    },
-    "RegenSuppliers GmbH": {
-        "aliases": [
-            "RegenSuppliers GmbH"
-        ],
-        "vendor_code": "SUP-57d481e5"
-    },
-    "SvetoAnalitika d.o.o.": {
-        "aliases": [
-            "SvetoAnalitika d.o.o."
-        ],
-        "vendor_code": "SUP-9ad7fa80"
-    },
-    "Ireland Gas & Power Ltd": {
-        "aliases": [
-            "Ireland Gas & Power Ltd"
-        ],
-        "vendor_code": "SUP-c6dec6f1"
-    },
-    "Ausbildungs- und Entwicklungsunternehmen GmbH": {
-        "aliases": [
-            "Ausbildungs- und Entwicklungsunternehmen GmbH"
-        ],
-        "vendor_code": "SUP-f3113d70"
-    },
-    "Philippine Motor Leasing & Purchase Co.": {
-        "aliases": [
-            "Philippine Motor Leasing & Purchase Co."
-        ],
-        "vendor_code": "SUP-7a14b81f"
-    },
-    "Witzenhausen Events GmbH": {
-        "aliases": [
-            "Witzenhausen Events GmbH"
-        ],
-        "vendor_code": "SUP-602bbc8a"
-    },
-    "Kommunikationswerkstatt GmbH": {
-        "aliases": [
-            "Kommunikationswerkstatt GmbH"
-        ],
-        "vendor_code": "SUP-4b91e5e3"
-    },
-    "TechMaster Scandinavia A/S": {
-        "aliases": [
-            "TechMaster Scandinavia A/S"
-        ],
-        "vendor_code": "SUP-b19363e3"
-    },
-    "Romanian Order Fulfillment Solutions": {
-        "aliases": [
-            "Romanian Order Fulfillment Solutions"
-        ],
-        "vendor_code": "SUP-4a16ed4a"
-    },
-    "MediaLink PR Services": {
-        "aliases": [
-            "MediaLink PR Services"
-        ],
-        "vendor_code": "SUP-2db25626"
-    },
-    "MediaKraft GmbH": {
-        "aliases": [
-            "MediaKraft GmbH"
-        ],
-        "vendor_code": "SUP-0baf905d"
-    },
-    "Dessauer Wasser und Gas GmbH": {
-        "aliases": [
-            "Dessauer Wasser und Gas GmbH"
-        ],
-        "vendor_code": "SUP-de579933"
-    },
-    "Eisenh\u00fctten-Unternehmen f\u00fcr Energie und Wasser": {
-        "aliases": [
-            "Eisenh\u00fctten-Unternehmen f\u00fcr Energie und Wasser"
-        ],
-        "vendor_code": "SUP-06240afe"
-    },
-    "LexSchweinfurt Verwaltungs GmbH": {
-        "aliases": [
-            "LexSchweinfurt Verwaltungs GmbH"
-        ],
-        "vendor_code": "SUP-7ac13ebf"
-    },
-    "Carburant Solutions Francais": {
-        "aliases": [
-            "Carburant Solutions Francais"
-        ],
-        "vendor_code": "SUP-a81357c8"
-    },
-    "ColdClimate HVAC Supplies Ltd.": {
-        "aliases": [
-            "ColdClimate HVAC Supplies Ltd."
-        ],
-        "vendor_code": "SUP-4285ee74"
-    },
-    "TeleLink Deutschland GmbH": {
-        "aliases": [
-            "TeleLink Deutschland GmbH"
-        ],
-        "vendor_code": "SUP-fff3df42"
-    },
-    "WebSphere Digital Solutions GmbH": {
-        "aliases": [
-            "WebSphere Digital Solutions GmbH"
-        ],
-        "vendor_code": "SUP-7dd9f1d8"
-    },
-    "CleanPro Hungary Ltd.": {
-        "aliases": [
-            "CleanPro Hungary Ltd."
-        ],
-        "vendor_code": "SUP-3c8113c5"
-    },
-    "Tech4You Germany GmbH": {
-        "aliases": [
-            "Tech4You Germany GmbH"
-        ],
-        "vendor_code": "SUP-d3f16b29"
-    },
-    "Creative Event Solutions UK": {
-        "aliases": [
-            "Creative Event Solutions UK"
-        ],
-        "vendor_code": "SUP-ca9d9d10"
-    },
-    "SecureShield Luxembourg": {
-        "aliases": [
-            "SecureShield Luxembourg"
-        ],
-        "vendor_code": "SUP-73a8bc1f"
-    },
-    "Tolmin Transport Solutions": {
-        "aliases": [
-            "Tolmin Transport Solutions"
-        ],
-        "vendor_code": "SUP-9c39f955"
-    },
-    "Zentrale Logistik GmbH & Co. KG": {
-        "aliases": [
-            "Zentrale Logistik GmbH & Co. KG"
-        ],
-        "vendor_code": "SUP-64283999"
-    },
-    "Virtuoso CRM Solutions": {
-        "aliases": [
-            "Virtuoso CRM Solutions"
-        ],
-        "vendor_code": "SUP-1f66c781"
-    },
-    "M\u00fcller's Marketing Supplies GmbH": {
-        "aliases": [
-            "M\u00fcller's Marketing Supplies GmbH"
-        ],
-        "vendor_code": "SUP-9cdd818e"
-    },
-    "Logistico Solutions SA": {
-        "aliases": [
-            "Logistico Solutions SA"
-        ],
-        "vendor_code": "SUP-755c02f8"
-    },
-    "Incentivos e Recompensas S.A.": {
-        "aliases": [
-            "Incentivos e Recompensas S.A."
-        ],
-        "vendor_code": "SUP-3ccc182b"
-    },
-    "SwissNet Solutions": {
-        "aliases": [
-            "SwissNet Solutions"
-        ],
-        "vendor_code": "SUP-863574e9"
-    },
-    "Managed Services (Helpdesk, Network Management)": {
-        "aliases": [
-            "Managed Services (Helpdesk, Network Management)"
-        ],
-        "vendor_code": "SUP-bb2e2894"
-    },
-    "SecureNet Solutions GmbH": {
-        "aliases": [
-            "SecureNet Solutions GmbH"
-        ],
-        "vendor_code": "SUP-606c1eb5"
-    },
-    "Veranstaltungsmanagement & Produktion GmbH": {
-        "aliases": [
-            "Veranstaltungsmanagement & Produktion GmbH"
-        ],
-        "vendor_code": "SUP-5b2d0af3"
-    },
-    "BagSupply GmbH": {
-        "aliases": [
-            "BagSupply GmbH"
-        ],
-        "vendor_code": "SUP-a444d5cd"
-    },
-    "LogiMaster GmbH": {
-        "aliases": [
-            "LogiMaster GmbH"
-        ],
-        "vendor_code": "SUP-6c271cbb"
-    },
-    "Digital Solutions Marketing": {
-        "aliases": [
-            "Digital Solutions Marketing"
-        ],
-        "vendor_code": "SUP-28408286"
-    },
-    "AuditPro Polska": {
-        "aliases": [
-            "AuditPro Polska"
-        ],
-        "vendor_code": "SUP-7f519513"
-    },
-    "Lithuania Tech Solutions": {
-        "aliases": [
-            "Lithuania Tech Solutions"
-        ],
-        "vendor_code": "SUP-7dd5d33c"
-    },
-    "Bulgarian Automotive Leasing Solutions": {
-        "aliases": [
-            "Bulgarian Automotive Leasing Solutions"
-        ],
-        "vendor_code": "SUP-9fb59c13"
-    },
-    "KreativDesign GmbH": {
-        "aliases": [
-            "KreativDesign GmbH"
-        ],
-        "vendor_code": "SUP-e85f0659"
-    },
-    "Eire Lease Solutions": {
-        "aliases": [
-            "Eire Lease Solutions"
-        ],
-        "vendor_code": "SUP-4b297537"
-    },
-    "TechMate Mobile Solutions": {
-        "aliases": [
-            "TechMate Mobile Solutions"
-        ],
-        "vendor_code": "SUP-17612817"
-    },
-    "Versicherungsunternehmen GmbH": {
-        "aliases": [
-            "Versicherungsunternehmen GmbH"
-        ],
-        "vendor_code": "SUP-a448f7c5"
-    },
-    "Armonia Office Solutions": {
-        "aliases": [
-            "Armonia Office Solutions"
-        ],
-        "vendor_code": "SUP-55a84a7d"
-    },
-    "Precision Machining GmbH": {
-        "aliases": [
-            "Precision Machining GmbH"
-        ],
-        "vendor_code": "SUP-c723eeaa"
-    },
-    "Fibers GmbH - Premium Cotton & Wool Supplies": {
-        "aliases": [
-            "Fibers GmbH - Premium Cotton & Wool Supplies"
-        ],
-        "vendor_code": "SUP-b1cc1e09"
-    },
-    "SoundVision Solutions": {
-        "aliases": [
-            "SoundVision Solutions"
-        ],
-        "vendor_code": "SUP-04b045f7"
-    },
-    "Croatian Telecom Solutions": {
-        "aliases": [
-            "Croatian Telecom Solutions"
-        ],
-        "vendor_code": "SUP-d566c818"
-    },
-    "TechAccess Supplies GmbH": {
-        "aliases": [
-            "TechAccess Supplies GmbH"
-        ],
-        "vendor_code": "SUP-1a313d5d"
-    },
-    "Analytica Solutions GmbH": {
-        "aliases": [
-            "Analytica Solutions GmbH"
-        ],
-        "vendor_code": "SUP-58f13cc2"
-    },
-    "Weltweit Wohlbefinden GmbH": {
-        "aliases": [
-            "Weltweit Wohlbefinden GmbH"
-        ],
-        "vendor_code": "SUP-6d26c2a5"
-    },
-    "Metallwerkstatt GmbH": {
-        "aliases": [
-            "Metallwerkstatt GmbH"
-        ],
-        "vendor_code": "SUP-c96b5f0e"
-    },
-    "TechInnovate Semiconductors GmbH": {
-        "aliases": [
-            "TechInnovate Semiconductors GmbH"
-        ],
-        "vendor_code": "SUP-37ffc3e8"
-    },
-    "Precision Machined Components GmbH": {
-        "aliases": [
-            "Precision Machined Components GmbH"
-        ],
-        "vendor_code": "SUP-319abaae"
-    },
-    "ArbeitsGesellschaft GmbH": {
-        "aliases": [
-            "ArbeitsGesellschaft GmbH"
-        ],
-        "vendor_code": "SUP-38092080"
-    },
-    "Druck & Kopi Service GmbH": {
-        "aliases": [
-            "Druck & Kopi Service GmbH"
-        ],
-        "vendor_code": "SUP-bf51919d"
-    },
-    "Nordwest Express Transport GmbH": {
-        "aliases": [
-            "Nordwest Express Transport GmbH"
-        ],
-        "vendor_code": "SUP-515e9561"
-    },
-    "TransTrack Solutions": {
-        "aliases": [
-            "TransTrack Solutions"
-        ],
-        "vendor_code": "SUP-35a1b051"
-    },
-    "\u00c9v\u00e9nementiel et Production D\u00e9taill\u00e9e": {
-        "aliases": [
-            "\u00c9v\u00e9nementiel et Production D\u00e9taill\u00e9e"
-        ],
-        "vendor_code": "SUP-2a69ce38"
-    },
-    "TechSound Solutions GmbH": {
-        "aliases": [
-            "TechSound Solutions GmbH"
-        ],
-        "vendor_code": "SUP-5fc8afb1"
-    },
-    "Influencer & Social Media Marketing Solutions Mexico": {
-        "aliases": [
-            "Influencer & Social Media Marketing Solutions Mexico"
-        ],
-        "vendor_code": "SUP-6bdf4dc4"
-    },
-    "Eire Landscapes Ltd": {
-        "aliases": [
-            "Eire Landscapes Ltd"
-        ],
-        "vendor_code": "SUP-9d9c4cd6"
-    },
-    "AutoCare Deutschland GmbH": {
-        "aliases": [
-            "AutoCare Deutschland GmbH"
-        ],
-        "vendor_code": "SUP-02221aa0"
-    },
-    "TechPower Data Centers GmbH": {
-        "aliases": [
-            "TechPower Data Centers GmbH"
-        ],
-        "vendor_code": "SUP-d5cec2c7"
-    },
-    "Netherlands Microelectronics Solutions": {
-        "aliases": [
-            "Netherlands Microelectronics Solutions"
-        ],
-        "vendor_code": "SUP-b9457468"
-    },
-    "Sof\u00e1 & Aparadores Office": {
-        "aliases": [
-            "Sof\u00e1 & Aparadores Office"
-        ],
-        "vendor_code": "SUP-211cb055"
-    },
-    "Precision Equipment Solutions GmbH": {
-        "aliases": [
-            "Precision Equipment Solutions GmbH"
-        ],
-        "vendor_code": "SUP-0d8c27e2"
-    },
-    "Messe und Ausstellung Dienstleistungen GmbH": {
-        "aliases": [
-            "Messe und Ausstellung Dienstleistungen GmbH"
-        ],
-        "vendor_code": "SUP-8a41bae6"
-    },
-    "Gourmet Solutions Ro": {
-        "aliases": [
-            "Gourmet Solutions Ro"
-        ],
-        "vendor_code": "SUP-3d63ab52"
-    },
-    "Swiss Financial Solutions AG": {
-        "aliases": [
-            "Swiss Financial Solutions AG"
-        ],
-        "vendor_code": "SUP-18ae7a61"
-    },
-    "Norwegian Telemetry Solutions AS": {
-        "aliases": [
-            "Norwegian Telemetry Solutions AS"
-        ],
-        "vendor_code": "SUP-c5a39609"
-    },
-    "Bangladesh Event Solutions Pvt Ltd": {
-        "aliases": [
-            "Bangladesh Event Solutions Pvt Ltd"
-        ],
-        "vendor_code": "SUP-d4167331"
-    },
-    "Alliance M\u00e9tallurgique": {
-        "aliases": [
-            "Alliance M\u00e9tallurgique"
-        ],
-        "vendor_code": "SUP-97e1f6ec"
-    },
-    "Warehousing Solutions Polska Sp. z o.o.": {
-        "aliases": [
-            "Warehousing Solutions Polska Sp. z o.o."
-        ],
-        "vendor_code": "SUP-d23bf9f7"
-    },
-    "PrintPro Slovakia": {
-        "aliases": [
-            "PrintPro Slovakia"
-        ],
-        "vendor_code": "SUP-e7b341ce"
-    },
-    "ExpressLogistics UR": {
-        "aliases": [
-            "ExpressLogistics UR"
-        ],
-        "vendor_code": "SUP-5b720aef"
-    },
-    "SecureComply Solutions": {
-        "aliases": [
-            "SecureComply Solutions"
-        ],
-        "vendor_code": "SUP-5703e664"
-    },
-    "TechNova Mobile Solutions GmbH": {
-        "aliases": [
-            "TechNova Mobile Solutions GmbH"
-        ],
-        "vendor_code": "SUP-34e68731"
-    },
-    "LuxTrain Solutions": {
-        "aliases": [
-            "LuxTrain Solutions"
-        ],
-        "vendor_code": "SUP-f32f6fff"
-    },
-    "EcoCycle Solutions GmbH": {
-        "aliases": [
-            "EcoCycle Solutions GmbH"
-        ],
-        "vendor_code": "SUP-8895d7c1"
-    },
-    "Droit et Commerce Alg\u00e9rien SAS": {
-        "aliases": [
-            "Droit et Commerce Alg\u00e9rien SAS"
-        ],
-        "vendor_code": "SUP-c28971d3"
-    },
-    "Syst\u00e8mes d'Alarma et Surveillance": {
-        "aliases": [
-            "Syst\u00e8mes d'Alarma et Surveillance"
-        ],
-        "vendor_code": "SUP-d37a9f0d"
-    },
-    "Kunstdruck Kassel GmbH": {
-        "aliases": [
-            "Kunstdruck Kassel GmbH"
-        ],
-        "vendor_code": "SUP-bee146f2"
-    },
-    "Mittelhessen Catering GmbH": {
-        "aliases": [
-            "Mittelhessen Catering GmbH"
-        ],
-        "vendor_code": "SUP-c6b11f7f"
-    },
-    "Innovative Solutions for Enhanced Operations": {
-        "aliases": [
-            "Innovative Solutions for Enhanced Operations"
-        ],
-        "vendor_code": "SUP-28fc9189"
-    },
-    "IT-Service Experts GmbH": {
-        "aliases": [
-            "IT-Service Experts GmbH"
-        ],
-        "vendor_code": "SUP-46cdae12"
-    },
-    "Hochqualit\u00e4tliche Personalwerbung GmbH": {
-        "aliases": [
-            "Hochqualit\u00e4tliche Personalwerbung GmbH"
-        ],
-        "vendor_code": "SUP-b7f4b9f8"
-    },
-    "TechMaster Deutschland GmbH": {
-        "aliases": [
-            "TechMaster Deutschland GmbH"
-        ],
-        "vendor_code": "SUP-9fa6bc71"
-    },
-    "EcoPower Solutions GmbH": {
-        "aliases": [
-            "EcoPower Solutions GmbH"
-        ],
-        "vendor_code": "SUP-ebbe1f72"
-    },
-    "SecureGuard Access Solutions GmbH": {
-        "aliases": [
-            "SecureGuard Access Solutions GmbH"
-        ],
-        "vendor_code": "SUP-37debc02"
-    },
-    "Latvian Parcel & Courier Solutions": {
-        "aliases": [
-            "Latvian Parcel & Courier Solutions"
-        ],
-        "vendor_code": "SUP-b617c733"
-    },
-    "Insight Analytics Ltd.": {
-        "aliases": [
-            "Insight Analytics Ltd."
-        ],
-        "vendor_code": "SUP-f5edd427"
-    },
-    "RecyclePro Deutschland GmbH": {
-        "aliases": [
-            "RecyclePro Deutschland GmbH"
-        ],
-        "vendor_code": "SUP-b49d170d"
-    },
-    "TechNet Solutions GmbH": {
-        "aliases": [
-            "TechNet Solutions GmbH"
-        ],
-        "vendor_code": "SUP-0e5356ad"
-    },
-    "EuroIncentives Romania": {
-        "aliases": [
-            "EuroIncentives Romania"
-        ],
-        "vendor_code": "SUP-79ea4496"
-    },
-    "Bulgarian Trade Show & Exhibition Services Ltd.": {
-        "aliases": [
-            "Bulgarian Trade Show & Exhibition Services Ltd."
-        ],
-        "vendor_code": "SUP-c491a24b"
-    },
-    "Global PR Solutions AG": {
-        "aliases": [
-            "Global PR Solutions AG"
-        ],
-        "vendor_code": "SUP-9c831338"
-    },
-    "TechDocs Solutions Ltd.": {
-        "aliases": [
-            "TechDocs Solutions Ltd."
-        ],
-        "vendor_code": "SUP-eae72992"
-    },
-    "Stendal Warehousing GmbH": {
-        "aliases": [
-            "Stendal Warehousing GmbH"
-        ],
-        "vendor_code": "SUP-97feb370"
-    },
-    "Servicios de Impresi\u00f3n y Copia Nueva Era": {
-        "aliases": [
-            "Servicios de Impresi\u00f3n y Copia Nueva Era"
-        ],
-        "vendor_code": "SUP-e4414341"
-    },
-    "Innovative CRM Solutions GmbH": {
-        "aliases": [
-            "Innovative CRM Solutions GmbH"
-        ],
-        "vendor_code": "SUP-ca3956fe"
-    },
-    "Netzwerk-L\u00f6sungen GmbH": {
-        "aliases": [
-            "Netzwerk-L\u00f6sungen GmbH"
-        ],
-        "vendor_code": "SUP-920c9ea5"
-    },
-    "Croatian Warehousing Solutions": {
-        "aliases": [
-            "Croatian Warehousing Solutions"
-        ],
-        "vendor_code": "SUP-9bb967c3"
-    },
-    "LogiSpace Warehousing GmbH": {
-        "aliases": [
-            "LogiSpace Warehousing GmbH"
-        ],
-        "vendor_code": "SUP-0619c692"
-    },
-    "TechInnovate Solutions GmbH": {
-        "aliases": [
-            "TechInnovate Solutions GmbH"
-        ],
-        "vendor_code": "SUP-793c1d8a"
-    },
-    "FleetTech Scandinavia": {
-        "aliases": [
-            "FleetTech Scandinavia"
-        ],
-        "vendor_code": "SUP-86577098"
-    },
-    "TechVista Colombia": {
-        "aliases": [
-            "TechVista Colombia"
-        ],
-        "vendor_code": "SUP-48d380a8"
-    },
-    "Artemis Energy Solutions GmbH": {
-        "aliases": [
-            "Artemis Energy Solutions GmbH"
-        ],
-        "vendor_code": "SUP-df26f22b"
-    },
-    "NetzwerkSolutions GmbH": {
-        "aliases": [
-            "NetzwerkSolutions GmbH"
-        ],
-        "vendor_code": "SUP-cb174833"
-    },
-    "SecureShield Consulting GmbH": {
-        "aliases": [
-            "SecureShield Consulting GmbH"
-        ],
-        "vendor_code": "SUP-7f6acca1"
-    },
-    "DocuSecure Solutions": {
-        "aliases": [
-            "DocuSecure Solutions"
-        ],
-        "vendor_code": "SUP-aa5727c9"
-    },
-    "Weimar Warehousing GmbH": {
-        "aliases": [
-            "Weimar Warehousing GmbH"
-        ],
-        "vendor_code": "SUP-a02cab26"
-    },
-    "Comunicaciones Nucleares S.A.": {
-        "aliases": [
-            "Comunicaciones Nucleares S.A."
-        ],
-        "vendor_code": "SUP-0dbdea21"
-    },
-    "DataInsight Solutions GmbH": {
-        "aliases": [
-            "DataInsight Solutions GmbH"
-        ],
-        "vendor_code": "SUP-64654eb0"
-    },
-    "Inova Partnerships Group": {
-        "aliases": [
-            "Inova Partnerships Group"
-        ],
-        "vendor_code": "SUP-67a13e9c"
-    },
-    "Wohlfahrts-Service GmbH": {
-        "aliases": [
-            "Wohlfahrts-Service GmbH"
-        ],
-        "vendor_code": "SUP-7d8553d4"
-    },
-    "Estonian Media Solutions Ltd": {
-        "aliases": [
-            "Estonian Media Solutions Ltd"
-        ],
-        "vendor_code": "SUP-6e12666a"
-    },
-    "Tech Solutions GmbH": {
-        "aliases": [
-            "Tech Solutions GmbH"
-        ],
-        "vendor_code": "SUP-254fd774"
-    },
-    "Slovakian Guard Services": {
-        "aliases": [
-            "Slovakian Guard Services"
-        ],
-        "vendor_code": "SUP-6e2277bb"
-    },
-    "Blick Stationer": {
-        "aliases": [
-            "Blick Stationer"
-        ],
-        "vendor_code": "SUP-a2aabeb0"
-    },
-    "Catering & Vending Services IJsselham": {
-        "aliases": [
-            "Catering & Vending Services IJsselham"
-        ],
-        "vendor_code": "SUP-2ee9c785"
-    },
-    "SecureTech Access Solutions GmbH": {
-        "aliases": [
-            "SecureTech Access Solutions GmbH"
-        ],
-        "vendor_code": "SUP-11032fcf"
-    },
-    "Gourmet Catering Solutions GmbH": {
-        "aliases": [
-            "Gourmet Catering Solutions GmbH"
-        ],
-        "vendor_code": "SUP-1e734ce4"
-    },
-    "Precision Stamped Solutions GmbH": {
-        "aliases": [
-            "Precision Stamped Solutions GmbH"
-        ],
-        "vendor_code": "SUP-fa5194a6"
-    },
-    "L\u00f8st\u00f8r Property Solutions": {
-        "aliases": [
-            "L\u00f8st\u00f8r Property Solutions"
-        ],
-        "vendor_code": "SUP-04c4f624"
-    },
-    "Slovak Road Freight Solutions": {
-        "aliases": [
-            "Slovak Road Freight Solutions"
-        ],
-        "vendor_code": "SUP-850d4164"
-    },
-    "VistaSoft CRM GmbH": {
-        "aliases": [
-            "VistaSoft CRM GmbH"
-        ],
-        "vendor_code": "SUP-06fd476a"
-    },
-    "SecureGuard Solutions UK": {
-        "aliases": [
-            "SecureGuard Solutions UK"
-        ],
-        "vendor_code": "SUP-e284fb81"
-    },
-    "MediaBuy GmbH": {
-        "aliases": [
-            "MediaBuy GmbH"
-        ],
-        "vendor_code": "SUP-418d9229"
-    },
-    "PostManager GmbH": {
-        "aliases": [
-            "PostManager GmbH"
-        ],
-        "vendor_code": "SUP-f875f27a"
-    },
-    "SocialSphere GmbH": {
-        "aliases": [
-            "SocialSphere GmbH"
-        ],
-        "vendor_code": "SUP-ec2ca830"
-    },
-    "Saskia Catering Solutions Ltd": {
-        "aliases": [
-            "Saskia Catering Solutions Ltd"
-        ],
-        "vendor_code": "SUP-b2e2c8f8"
-    },
-    "EcoSustain Solutions FR": {
-        "aliases": [
-            "EcoSustain Solutions FR"
-        ],
-        "vendor_code": "SUP-96eee878"
-    },
-    "Creative Solutions GmbH": {
-        "aliases": [
-            "Creative Solutions GmbH"
-        ],
-        "vendor_code": "SUP-68c89549"
-    },
-    "Mittel f\u00fcr Forschung GmbH": {
-        "aliases": [
-            "Mittel f\u00fcr Forschung GmbH"
-        ],
-        "vendor_code": "SUP-1363632c"
-    },
-    "ServerTech Solutions GmbH": {
-        "aliases": [
-            "ServerTech Solutions GmbH"
-        ],
-        "vendor_code": "SUP-7a909695"
-    },
-    "Slovak Employee Wellness Solutions": {
-        "aliases": [
-            "Slovak Employee Wellness Solutions"
-        ],
-        "vendor_code": "SUP-4cb69125"
-    },
-    "Austrian Road Transport Solutions GmbH": {
-        "aliases": [
-            "Austrian Road Transport Solutions GmbH"
-        ],
-        "vendor_code": "SUP-6afc3a6a"
-    },
-    "AcoustiTech Audiovisual GmbH": {
-        "aliases": [
-            "AcoustiTech Audiovisual GmbH"
-        ],
-        "vendor_code": "SUP-c44cf978"
-    },
-    "GuardForce Europe GmbH": {
-        "aliases": [
-            "GuardForce Europe GmbH"
-        ],
-        "vendor_code": "SUP-9d50f9a1"
-    },
-    "EcoSustain Consulting GmbH": {
-        "aliases": [
-            "EcoSustain Consulting GmbH"
-        ],
-        "vendor_code": "SUP-07c60f29"
-    },
-    "TechVision Audio-Visuell GmbH": {
-        "aliases": [
-            "TechVision Audio-Visuell GmbH"
-        ],
-        "vendor_code": "SUP-91100f1c"
-    },
-    "Armea Textilien GmbH": {
-        "aliases": [
-            "Armea Textilien GmbH"
-        ],
-        "vendor_code": "SUP-81a3991e"
-    },
-    "LogiServe GmbH": {
-        "aliases": [
-            "LogiServe GmbH"
-        ],
-        "vendor_code": "SUP-1193064b"
-    },
-    "WebMasters GmbH": {
-        "aliases": [
-            "WebMasters GmbH"
-        ],
-        "vendor_code": "SUP-73537855"
-    },
-    "Mitteldeutsche Catering & Vending GmbH": {
-        "aliases": [
-            "Mitteldeutsche Catering & Vending GmbH"
-        ],
-        "vendor_code": "SUP-e168c724"
-    },
-    "Gr\u00fcnHaus Landschafts- und Unterhaltungspaket GmbH": {
-        "aliases": [
-            "Gr\u00fcnHaus Landschafts- und Unterhaltungspaket GmbH"
-        ],
-        "vendor_code": "SUP-d0797cec"
-    },
-    "Post-Organisation GmbH": {
-        "aliases": [
-            "Post-Organisation GmbH"
-        ],
-        "vendor_code": "SUP-4cccc265"
-    },
-    "Nordhausen Catering Solutions GmbH": {
-        "aliases": [
-            "Nordhausen Catering Solutions GmbH"
-        ],
-        "vendor_code": "SUP-69550003"
-    },
-    "TransEurope Logistics GmbH": {
-        "aliases": [
-            "TransEurope Logistics GmbH"
-        ],
-        "vendor_code": "SUP-912f6802"
-    },
-    "Ost-West Metallhandel GmbH": {
-        "aliases": [
-            "Ost-West Metallhandel GmbH"
-        ],
-        "vendor_code": "SUP-59d231f2"
-    },
-    "TechSupplies GmbH": {
-        "aliases": [
-            "TechSupplies GmbH"
-        ],
-        "vendor_code": "SUP-8d243e48"
+        "category": "Parcel & Courier Services",
+        "last_annual_revenue": 261194.84999999998
+    },
+    {
+        "id": "SUP-24e2bdb5",
+        "name": "Romanian Print Solutions",
+        "aliases": [
+            "Print Solutions Romania LLC",
+            "RPS Ltd.",
+            "Romanian PrinSolutions Inc.",
+            "Romanian Print Solutions",
+            "Romanian Print Solutions Corp"
+        ],
+        "category": "Print & Copy Services",
+        "last_annual_revenue": 51046.93
+    },
+    {
+        "id": "SUP-efa0b95a",
+        "name": "Rohfeld Gas und Wasser GmbH",
+        "aliases": [
+            "Gas und Wasser Rohfeld Solutions",
+            "RGW GmbH",
+            "Rohfeld Gas & Wasser Corp",
+            "Rohfeld Gas und Wasser GmbH",
+            "Rohfeld Utilities Ltd.",
+            "Rohfeld Water and Gas Services"
+        ],
+        "category": "Utilities (Gas, Electricity, Water)",
+        "last_annual_revenue": 20220.49
+    },
+    {
+        "id": "SUP-6e9c173e",
+        "name": "Finland Oils and Fats Co.",
+        "aliases": [
+            "F&F Oils Ltd.",
+            "FinOil Fats Co.",
+            "FinaFats Group",
+            "Finland Foods Inc.",
+            "Finland Oil & Fat Corp",
+            "Finland Oils and Fats Co."
+        ],
+        "category": "Oils & Fats",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-0ce546bf",
+        "name": "EcoCycle Solutions GmbH",
+        "aliases": [
+            "ECOSol GmbH",
+            "EcoCycle AG",
+            "EcoCycle Solutions Corp.",
+            "EcoCycle Solutions GmbH",
+            "EcoCyclist Solutions"
+        ],
+        "category": "Waste Management & Recycling",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-84fa81a5",
+        "name": "TrainerSolutions GmbH",
+        "aliases": [
+            "ProTrain Solutions",
+            "TSG Acme Inc.",
+            "TechTrainers Ltd.",
+            "TrainerSolutions GmbH",
+            "TrainerSolutions GmbH Corp",
+            "TrainersAlliance Group"
+        ],
+        "category": "Sales Training",
+        "last_annual_revenue": 27488.7
+    },
+    {
+        "id": "SUP-6e792eed",
+        "name": "DataInsight Solutions ApS",
+        "aliases": [
+            "D.I.S.ApS",
+            "DataCorp Solutions",
+            "DataInTech Corp",
+            "DataInsight Solutions ApS",
+            "DataInsight Solutions Ltd."
+        ],
+        "category": "Business Intelligence & Analytics (BI, Data Visualization)",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-1489b676",
+        "name": "Romanian Managed Services Solutions",
+        "aliases": [
+            "RMS Solutii",
+            "RMS Solutions",
+            "RMSSoft",
+            "Romanian Managed Services Corp",
+            "Romanian Managed Services Solutions",
+            "Romanian Mgmt Serv"
+        ],
+        "category": "Managed Services (Helpdesk, Network Management)",
+        "last_annual_revenue": 43549.6
+    },
+    {
+        "id": "SUP-14aded26",
+        "name": "TechNova Rom\u00e2n\u0103",
+        "aliases": [
+            "TN Rom",
+            "TNR Corp",
+            "TechNova Group",
+            "TechNova Ltd",
+            "TechNova Romania",
+            "TechNova Rom\u00e2n\u0103"
+        ],
+        "category": "Mobile Devices (Tablets, Smartphones, Accessories)",
+        "last_annual_revenue": 12188.97
+    },
+    {
+        "id": "SUP-bd72f5ee",
+        "name": "CineFilm Distributors S.A.",
+        "aliases": [
+            "CFD Distributors Corp.",
+            "CineFilm Distrib",
+            "CineFilm Distribution Ltd.",
+            "CineFilm Distributors S.A.",
+            "CineFilm Media Solutions"
+        ],
+        "category": "Films & Sheeting",
+        "last_annual_revenue": 121904.16
+    },
+    {
+        "id": "SUP-3012c84c",
+        "name": "EuroPay Solutions GmbH",
+        "aliases": [
+            "EPOS AG",
+            "EPS Group",
+            "EPSA Inc.",
+            "EuroPay Services Ltd.",
+            "EuroPay Solutions GmbH",
+            "EuroPay Solutions GmbH Corp"
+        ],
+        "category": "Payment Processing",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-d9f394f3",
+        "name": "MesseEvents Deutschland GmbH",
+        "aliases": [
+            "MEDE Corp.",
+            "MEDE GmbH",
+            "Messe Events",
+            "MesseEvents AG",
+            "MesseEvents Deutschland GmbH",
+            "Messie GmbH"
+        ],
+        "category": "Trade Show & Exhibition Services",
+        "last_annual_revenue": 11036.68
+    },
+    {
+        "id": "SUP-4944d6aa",
+        "name": "KleanPro Deutschland GmbH",
+        "aliases": [
+            "KDP DE",
+            "KPD",
+            "KPRD GmbH",
+            "KleanPro AG",
+            "KleanPro Corp",
+            "KleanPro Deutschland GmbH"
+        ],
+        "category": "Janitorial & Cleaning Services",
+        "last_annual_revenue": 51609.159999999996
+    },
+    {
+        "id": "SUP-6b33e838",
+        "name": "Netzwerke von morgen GmbH",
+        "aliases": [
+            "FutureNet Corp",
+            "NVMG Inc.",
+            "Networks Ltd.",
+            "Netzwerke von morgen GmbH",
+            "NetzwerkeCorp",
+            "NvM GmbH"
+        ],
+        "category": "Telecommunications (Mobile, Fixed Line, Internet)",
+        "last_annual_revenue": 141048.82
+    },
+    {
+        "id": "SUP-bdc2e307",
+        "name": "Luminary HR Solutions",
+        "aliases": [
+            "HR Luminary Solutions Inc.",
+            "LHS Group",
+            "Luminary HR Services Corp",
+            "Luminary HR Solutions",
+            "Luminary Staffing Ltd."
+        ],
+        "category": "HR Consulting & Technology",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-895bd93d",
+        "name": "SecureTech Access Solutions",
+        "aliases": [
+            "STAS",
+            "SecurTech Solutions Inc.",
+            "SecureTech Access",
+            "SecureTech Access Corp",
+            "SecureTech Access Ltd.",
+            "SecureTech Access Solutions"
+        ],
+        "category": "Access Control Systems",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-9329da71",
+        "name": "Natur\u00f6lwerke GmbH",
+        "aliases": [
+            "NO GmbH",
+            "NO Group",
+            "Naturel Oil Works Ltd.",
+            "Natur\u00f6lwerke Corp",
+            "Natur\u00f6lwerke GmbH"
+        ],
+        "category": "Oils & Fats",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-8f21ecfa",
+        "name": "TechForYou GmbH",
+        "aliases": [
+            "TFT Technologies AG",
+            "TFY Solutions GmbH",
+            "TechForYou Corp",
+            "TechForYou GmbH",
+            "TechFusion Systems"
+        ],
+        "category": "End-User Computing (Laptops, Desktops, Monitors)",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-ae436243",
+        "name": "Kulinarische Dienstleistungen GmbH",
+        "aliases": [
+            "Kitchen Solutions Ltd.",
+            "Kulinar Services GmbH",
+            "KulinarCorp",
+            "KulinarTech Corp",
+            "Kulinarische Dienstleistungen GmbH"
+        ],
+        "category": "Catering & Vending Services",
+        "last_annual_revenue": 9274.189999999999
+    },
+    {
+        "id": "SUP-3ece9ff2",
+        "name": "Precision Tool Solutions GmbH",
+        "aliases": [
+            "P.T.S. Solutions GmbH",
+            "PTSS GmbH",
+            "Precise Tool Tech",
+            "Precision Tool Solutions GmbH",
+            "Precision Tools Corp"
+        ],
+        "category": "Dies, Jigs & Fixtures",
+        "last_annual_revenue": 236803.43
+    },
+    {
+        "id": "SUP-ca9a99a9",
+        "name": "Optima Logistik Systeme GmbH",
+        "aliases": [
+            "OPLS AG",
+            "Optima Logistics Corp",
+            "Optima Logistics Solutions",
+            "Optima Logistik",
+            "Optima Logistik Systeme GmbH",
+            "Optima Systems GmbH"
+        ],
+        "category": "Inventory Management Systems",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-40f1e2d9",
+        "name": "Muster Service GmbH",
+        "aliases": [
+            "MSG Solutions",
+            "Muster Corp",
+            "Muster Group",
+            "Muster Service GmbH",
+            "MusterCorp"
+        ],
+        "category": "Merchandising Services",
+        "last_annual_revenue": 101529.77
+    },
+    {
+        "id": "SUP-09f9c390",
+        "name": "Data Insights Analytics Ltd.",
+        "aliases": [
+            "DIA Analytics Ltd.",
+            "Data Insights Analytics Ltd.",
+            "Data Insights Group",
+            "DataInsights Corp",
+            "InsightAnalytics Co."
+        ],
+        "category": "Data, Surveys & Analysis",
+        "last_annual_revenue": 138908.05
+    },
+    {
+        "id": "SUP-0db7e33b",
+        "name": "Grimmen Analytics Solutions GmbH",
+        "aliases": [
+            "GrAnalytics Solutions Ltd.",
+            "Grimmen Analytics Corp",
+            "Grimmen Analytics Solutions GmbH",
+            "Grimmen Data Insights GmbH",
+            "Grimmen Tech Solutions"
+        ],
+        "category": "Competitor Intelligence Services",
+        "last_annual_revenue": 369134.05000000005
+    },
+    {
+        "id": "SUP-0417133f",
+        "name": "NetzwerkExpress GmbH",
+        "aliases": [
+            "Express Net Services",
+            "NE GmbH",
+            "NXG Group",
+            "NetzExp Ltd.",
+            "NetzwerkExpress Corp",
+            "NetzwerkExpress GmbH"
+        ],
+        "category": "Telecommunications (Mobile, Fixed Line, Internet)",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-edc83481",
+        "name": "Mega Trays GmbH",
+        "aliases": [
+            "MT GmbH",
+            "Mega Trays GmbH",
+            "MegaCorp LLC",
+            "MegaTrays Corp",
+            "Megatray Solutions Inc."
+        ],
+        "category": "Trays & Dividers",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-a000d212",
+        "name": "Warehaus Miete GmbH",
+        "aliases": [
+            "WMG Corp",
+            "Warehaus Miete GmbH",
+            "Warehouse Rental Co.",
+            "Wm GmbH"
+        ],
+        "category": "Warehouse Rental & Storage",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-b822fa62",
+        "name": "WorkFlow Solutions GmbH",
+        "aliases": [
+            "WF Solutions Ltd.",
+            "WFS GmbH",
+            "WorkFlow Solutions AG",
+            "WorkFlow Solutions GmbH",
+            "Workflow Corp",
+            "Workflow Tech Solutions"
+        ],
+        "category": "Productivity & Collaboration Suites (Office, Email)",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-19456b96",
+        "name": "EcoSolutions Energy Management",
+        "aliases": [
+            "ES Energy Mgmt.",
+            "EcoEnergy Solutions",
+            "EcoEnergyTech",
+            "EcoSolutions Energy",
+            "EcoSolutions Energy Management",
+            "EnergyMgt Corp"
+        ],
+        "category": "Energy Management & Sustainability Services",
+        "last_annual_revenue": 185100.68
+    },
+    {
+        "id": "SUP-53518001",
+        "name": "Latvia Forklift Solutions",
+        "aliases": [
+            "Alfa Lift Parts",
+            "FSL Solutions",
+            "LFS Corp",
+            "LV Forklift Co.",
+            "Latvia Forklift Solutions",
+            "Latvia Lift Tech"
+        ],
+        "category": "Forklifts & Pallet Jacks",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-6d9de8ca",
+        "name": "SecureShield Cybersecurity GmbH",
+        "aliases": [
+            "SS CyberSec GmbH",
+            "SecureShield Corp",
+            "SecureShield Cybersecurity GmbH",
+            "SecureShield Solutions GmbH"
+        ],
+        "category": "Cybersecurity Services (Pen Testing, Monitoring, SOC)",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-c5679c6c",
+        "name": "AdMedia Partner Solutions GmbH",
+        "aliases": [
+            "ADMS AG",
+            "AMPS GmbH",
+            "AdMedia Partner Solutions Corp",
+            "AdMedia Partner Solutions GmbH",
+            "AdMedia Solutions Partners"
+        ],
+        "category": "Sponsorships & Partnerships",
+        "last_annual_revenue": 83525.96
+    },
+    {
+        "id": "SUP-8382e2d3",
+        "name": "Klaus-Michael Rechtsanw\u00e4lte GmbH",
+        "aliases": [
+            "Corporate Counsel Group",
+            "KM Law Corp",
+            "Klaus-Michael RechtsanwaltsgmbH",
+            "Klaus-Michael Rechtsanw\u00e4lte GmbH",
+            "Legal Solutions GmbH"
+        ],
+        "category": "Corporate & Commercial Law",
+        "last_annual_revenue": 100904.1
+    },
+    {
+        "id": "SUP-847a5cdc",
+        "name": "Suppliers Motors y Bombillas S.L.",
+        "aliases": [
+            "Motores Bombillas S.L.",
+            "SM y B SL",
+            "Sup Motors Corp",
+            "Suppliers Motor Co.",
+            "Suppliers Motors y Bombillas S.L."
+        ],
+        "category": "Motors & Pumps",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-491922e0",
+        "name": "MediaLink PR Solutions GmbH",
+        "aliases": [
+            "MLPSS",
+            "MediaLink PR Solutions Corp",
+            "MediaLink PR Solutions GmbH",
+            "PR Solutions MediaCorp"
+        ],
+        "category": "Public Relations (PR) Firms",
+        "last_annual_revenue": 16880.68
+    },
+    {
+        "id": "SUP-15162f5c",
+        "name": "IP Solutions GmbH",
+        "aliases": [
+            "Global IP Services Ltd.",
+            "IP Solutions GmbH",
+            "IP Solutions GmbH Corp",
+            "IP Solutioz LLC",
+            "IP Tech Corp",
+            "IPSolutions AG"
+        ],
+        "category": "Intellectual Property & Patents",
+        "last_annual_revenue": 75546.05
+    },
+    {
+        "id": "SUP-843c2200",
+        "name": "BrandInsight Analytics GmbH",
+        "aliases": [
+            "Analitix Brand Insights GmbH",
+            "BI Analytics GmbH",
+            "Brand Insight Solutions AG",
+            "BrandInsight Analytics Corp",
+            "BrandInsight Analytics GmbH"
+        ],
+        "category": "Brand Tracking & Analytics",
+        "last_annual_revenue": 53950.600000000006
+    },
+    {
+        "id": "SUP-39cd8dd7",
+        "name": "Hochqualifizierte Talente GmbH",
+        "aliases": [
+            "HQT Corp",
+            "HQT GmbH",
+            "HQT Partners",
+            "High-Quality Talent Team Ltd",
+            "Hochqualifizierte Talente GmbH",
+            "Top-Talent Solutions GmbH"
+        ],
+        "category": "Recruitment & Staffing (Permanent, Temporary)",
+        "last_annual_revenue": 4878.97
+    },
+    {
+        "id": "SUP-d1a3d315",
+        "name": "LogiCore Danmark ApS",
+        "aliases": [
+            "LC Danmark",
+            "LCO Logistics ApS",
+            "LogiCore A/S",
+            "LogiCore Corp.",
+            "LogiCore Danmark ApS"
+        ],
+        "category": "3rd Party Logistics (3PL) Services",
+        "last_annual_revenue": 27799.52
+    },
+    {
+        "id": "SUP-c8a54081",
+        "name": "SecureGuard Services Canada",
+        "aliases": [
+            "SGS Canada",
+            "Secure Guard Services",
+            "Secure Solutions Ltd",
+            "SecureGuard Corp",
+            "SecureGuard Services Canada",
+            "SecureGuard Services Inc."
+        ],
+        "category": "Manned Guarding",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-e324ed7f",
+        "name": "AutoCare GmbH",
+        "aliases": [
+            "ACG AutoTech",
+            "AutoCare Corp",
+            "AutoCare GmbH",
+            "Automotive Solutions GmbH"
+        ],
+        "category": "Vehicle Maintenance & Repair",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-95ad817c",
+        "name": "Slovak Mail Solutions",
+        "aliases": [
+            "Mail Solutions Slovakia (MSS)",
+            "SLC Mail Services",
+            "SMC Corp",
+            "SMS Corp",
+            "Slovak Mail Solutions",
+            "Slovak Mail Solutions Corp"
+        ],
+        "category": "Mail & Document Management",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-6f8b2a04",
+        "name": "J\u00fclicher Werbeprodukte GmbH",
+        "aliases": [
+            "JW GmbH",
+            "JW Werbe",
+            "JW Werbeprodukte AG",
+            "J\u00fclicher Werbeprodukte Corp",
+            "J\u00fclicher Werbeprodukte GmbH",
+            "Werbeprodukte J\u00fclicher"
+        ],
+        "category": "Promotional Goods & Branded Merchandise",
+        "last_annual_revenue": 16816.440000000002
+    },
+    {
+        "id": "SUP-e2e82153",
+        "name": "SkyNet Solutions",
+        "aliases": [
+            "SNET Solutions",
+            "SkyNet Services",
+            "SkyNet Solutions",
+            "SkyNet Systems Corp",
+            "SkyTech Corp",
+            "Solutions by SkyNet"
+        ],
+        "category": "Cloud & Hosting (IaaS, PaaS, SaaS)",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-c96ab7a5",
+        "name": "SecureGuard Solutions Polska",
+        "aliases": [
+            "SG Solutions",
+            "SecurAid Corp",
+            "SecureGuard Polska",
+            "SecureGuard Solutions Polska",
+            "SecureTech Polska"
+        ],
+        "category": "Security Consulting & Risk Assessment",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-b07b1a7d",
+        "name": "Inovasi Conveyal Solutions",
+        "aliases": [
+            "Conveyal Solutions Inc.",
+            "Innovate Conveyal Ltd",
+            "Inovasi Conveyal Solutions",
+            "Inovasi Corp",
+            "Inovasys Corp"
+        ],
+        "category": "Conveyor Systems",
+        "last_annual_revenue": 42992.63
+    },
+    {
+        "id": "SUP-6e2de703",
+        "name": "TechSolutions GmbH",
+        "aliases": [
+            "TSG GmbH",
+            "TechCorp",
+            "TechSolutions Corp",
+            "TechSolutions GmbH",
+            "TechSolutions Group"
+        ],
+        "category": "Managed Services (Helpdesk, Network Management)",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-44543e72",
+        "name": "IT Service Solutions GmbH",
+        "aliases": [
+            "IT Service Solutions GmbH",
+            "IT Services Alliance Inc.",
+            "IT Solutions Network Ltd.",
+            "ITSS GmbH",
+            "ITSolutions Corp"
+        ],
+        "category": "Managed Services (Helpdesk, Network Management)",
+        "last_annual_revenue": 124994.18
+    },
+    {
+        "id": "SUP-8851fdd0",
+        "name": "MediaLink Austria Media Buying GmbH",
+        "aliases": [
+            "Austrian Media Corp.",
+            "ML-MB",
+            "MLO Media Buying GmbH",
+            "MediaLink Aust.",
+            "MediaLink Austria",
+            "MediaLink Austria Media Buying GmbH"
+        ],
+        "category": "Media Buying (Print, Broadcast, Digital)",
+        "last_annual_revenue": 25316.1
+    },
+    {
+        "id": "SUP-498304ca",
+        "name": "CleanPro Deutschland GmbH",
+        "aliases": [
+            "C.Pro Deutschland",
+            "CLEANPRO.DE",
+            "CleanPro DE Corp",
+            "CleanPro Deutschland GmbH",
+            "CleanPro GmbH",
+            "CleanPro Logistics"
+        ],
+        "category": "Janitorial & Cleaning Services",
+        "last_annual_revenue": 44322.44
+    },
+    {
+        "id": "SUP-57ccbfef",
+        "name": "Mitteldeutsche Castings GmbH",
+        "aliases": [
+            "Castings GmbH",
+            "MC Corp",
+            "MD Castings Solutions",
+            "Mid Castings Group",
+            "Mitteldeutsche Castings Corp",
+            "Mitteldeutsche Castings GmbH"
+        ],
+        "category": "Castings & Forgings",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-7e81538c",
+        "name": "Kulinaria Catering GmbH",
+        "aliases": [
+            "Kulinaria Catering Corp",
+            "Kulinaria Catering GmbH",
+            "Kulinaria Foods GmbH",
+            "Kulinaria Group",
+            "Kulinaria Solutions GmbH"
+        ],
+        "category": "Catering & Vending Services",
+        "last_annual_revenue": 215793.47999999998
+    },
+    {
+        "id": "SUP-4614bb6a",
+        "name": "Gasoline Solutions GmbH",
+        "aliases": [
+            "GS GmbH",
+            "GasCo GmbH",
+            "GasoCorp",
+            "Gasoline Solutions Corp",
+            "Gasoline Solutions GmbH",
+            "SolGas Solutions"
+        ],
+        "category": "Fuel, Fuel Cards & Management",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-782fa559",
+        "name": "TrackInsight Solutions",
+        "aliases": [
+            "TI Solutions",
+            "TIS",
+            "TrackInsight Enterprise",
+            "TrackInsight Solutions",
+            "TrackInsight Solutions Corp",
+            "TrackInsight Systems Inc."
+        ],
+        "category": "Brand Tracking & Analytics",
+        "last_annual_revenue": 95759.23
+    },
+    {
+        "id": "SUP-ac914266",
+        "name": "SecureTech Solutions GmbH",
+        "aliases": [
+            "ST Solutions",
+            "SecurTech Solutions GmbH",
+            "SecureTech Corp",
+            "SecureTech Solutions GmbH",
+            "SecureTech Sys"
+        ],
+        "category": "Cybersecurity Services (Pen Testing, Monitoring, SOC)",
+        "last_annual_revenue": 18160.6
+    },
+    {
+        "id": "SUP-fc9ffb32",
+        "name": "SecureTech Solutions",
+        "aliases": [
+            "STC Corp",
+            "SecurTech Svc.",
+            "Secure Tech Systems",
+            "SecureTech Solutions",
+            "SecureTech Solutions Inc."
+        ],
+        "category": "Security & Compliance Software",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-3ac26f3e",
+        "name": "Kl\u00f6tzer Influencer- & Social Media Marketing GmbH",
+        "aliases": [
+            "Influencer & Social Media Marketing GmbH",
+            "Kl\u00f6tzer Digital Agency",
+            "Kl\u00f6tzer Influencer- & Social Media Marketing GmbH",
+            "Kl\u00f6tzer Media Solutions Corp",
+            "Social Media Kl\u00f6tzer Experts"
+        ],
+        "category": "Influencer & Social Media Marketing",
+        "last_annual_revenue": 16645.260000000002
+    },
+    {
+        "id": "SUP-14844515",
+        "name": "GreenCycle GmbH",
+        "aliases": [
+            "GC GmbH",
+            "GCG Inc",
+            "GreenCycle Corp",
+            "GreenCycle GmbH",
+            "GreenCycles Ltd"
+        ],
+        "category": "Waste Management & Recycling",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-73342946",
+        "name": "SecureRisk Consulting GmbH",
+        "aliases": [
+            "RiskSecure LLC",
+            "SR Consulting GmbH",
+            "SafeGuard Consulting AG",
+            "SecureRisk Advisors Inc.",
+            "SecureRisk Consulting GmbH",
+            "SecureRisk Solutions Corp"
+        ],
+        "category": "Security Consulting & Risk Assessment",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-21b4f653",
+        "name": "BodenOptimierungs-Systeme GmbH",
+        "aliases": [
+            "BO Systeme GmbH",
+            "BODEN OPTIMS GmbH",
+            "BODENOPT SYSTEMS Corp",
+            "BodenOptimierungs-Systeme GmbH",
+            "OptSys Solutions Ltd"
+        ],
+        "category": "Inventory Management Systems",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-27b720d2",
+        "name": "Greece Print & Copy Solutions",
+        "aliases": [
+            "GCP&S Ltd.",
+            "Greece Copy Services",
+            "Greece Print & Copy Solutions",
+            "Greece Print Solutions Corp",
+            "Greek Prints Inc.",
+            "Print & Copy Corp Greece"
+        ],
+        "category": "Print & Copy Services",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-b3ffb4f7",
+        "name": "Precision Machined Components GmbH",
+        "aliases": [
+            "PMC Corp.",
+            "PMC Group",
+            "PMC Solutions",
+            "PreciseMachines AG",
+            "Precision Machined Components GmbH",
+            "PrecisionMachinedComponents GmbH"
+        ],
+        "category": "Machined Parts",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-8726696c",
+        "name": "AutomateTech Solutions Ltd",
+        "aliases": [
+            "AT Solutions Ltd",
+            "ATS Group",
+            "AutoTech Solutions",
+            "AutoTech Systems Inc.",
+            "AutomateTech Corp",
+            "AutomateTech Solutions Ltd"
+        ],
+        "category": "Assembly Line Automation & Robotics",
+        "last_annual_revenue": 461389.7
+    },
+    {
+        "id": "SUP-2aa518af",
+        "name": "DataVision Solutions GmbH",
+        "aliases": [
+            "DV Solutions",
+            "DV Solutions GmbH",
+            "DataVision Corp",
+            "DataVision Services",
+            "DataVision Solutions GmbH",
+            "DataVision Systems"
+        ],
+        "category": "Business Intelligence & Analytics (BI, Data Visualization)",
+        "last_annual_revenue": 6141.88
+    },
+    {
+        "id": "SUP-5c25a19f",
+        "name": "Kleine Energie L\u00f6schung GmbH",
+        "aliases": [
+            "EnerGie Kleine Co.",
+            "Energy Kleiner GmbH",
+            "K-Energy Solutions Ltd.",
+            "KE Energy Corp",
+            "Kleine Energie GmbH",
+            "Kleine Energie L\u00f6schung GmbH"
+        ],
+        "category": "Inventory Management Systems",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-5ca66772",
+        "name": "PowerTech Motors & Pumps",
+        "aliases": [
+            "P&T Engineering",
+            "PTM&P Corp",
+            "PTMP Solutions",
+            "PowerTech Motors & Pumps",
+            "PowerTech Motors & Pumps Inc.",
+            "PowerTech Motors Ltd."
+        ],
+        "category": "Motors & Pumps",
+        "last_annual_revenue": 0.0
+    },
+    {
+        "id": "SUP-b886069a",
+        "name": "Exotic Car Rentals Pvt Ltd",
+        "aliases": [
+            "Car Rentals Corp",
+            "Eco Car Services Pvt Ltd",
+            "Exotic Car Rentals Pvt Ltd",
+            "Exotic Rentals Pvt Ltd"
+        ],
+        "category": "Car Rentals",
+        "last_annual_revenue": 2785953.94
     }
-}
+]
