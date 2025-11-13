@@ -1,11 +1,6 @@
 ### Sprint Plan To-Do
 
 **Read the corresponding part in `sprint_plan.md` for task details.**
-
-### To be deleted once completed
-- [ ] Run a small test with data generation. 
-- [ ] If test data generation works, generate with actual numbers. 
-
 #### Previous Sprint Feedback
 - [x] Fix late payment percentage calculation to be between 5-10%.
 - [x] Adjust `region_shares` in the data generator.
@@ -30,7 +25,7 @@
 - [x] Implement supplier-PO relationship distribution (20% suppliers get 50% POs, etc.).
 - [x] Implement PO status distribution for 2025 POs (75% completed, 15% approved, etc.).
 - [x] Ensure delivery dates for 2024 POs are in 2025.
-- [ ] Link ~30% of POs to marketing campaigns (coordinate with Seonyoung for campaign IDs).
+- [x] Link ~30% of POs to marketing campaigns (coordinate with Seonyoung for campaign IDs).
 - [x] Implement temporal patterns for PO dates (Q4 spike, month-end clustering, etc.).
 - [x] Generate PO attributes (including but not limited to, no need to stickt to the exact names here): `id`, `supplier_id`, `amount`, `date`, `status`, `category`, `description`.
 
@@ -49,17 +44,16 @@
 - [x] Create `data/dictionaries/procurement/pos.json`.
 - [x] Create `data/dictionaries/procurement/contracts.json` (if applicable).
 - [x] Create validation script `etl/validate_procurement_data.py`.
-- [ ] Create documentation for the data generation process in `data/raw/data_generation_documentation.md`.
+- [x] Create documentation for the data generation process in `data/raw/data_generation_documentation.md`.
 
 **Part 5: Data Model Documentation**
-- [ ] Run `python temp_create_campaign_links.py`
+- [ ] Run `python temp_create_campaign_links.py`. This is now integrated within data generation process.
 - [x] Create `ontologies/joins_sprint2.md` with comprehensive documentation.
 - [x] Include an entity-relationship diagram (e.g., using Mermaid).
 - [x] Provide at least 3 example Cypher queries.
 - [x] Document business scenarios.
 - [ ] Generate `data/processed/campaign_po_links.csv` with 50-100 links.
 - [ ] Validate `campaign_po_links.csv`.
-- [ ] Coordinate with Seonyoung about PO IDs.
 - [ ] Double check previously completed tasks in this segment since procurement data generation logic is enriched with the marketign campaign POs.
 
 **Part 6: Set Up RAG Environment & Gemini API**
