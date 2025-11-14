@@ -26,7 +26,7 @@ def test_helix_rag():
 
         # --- Test Supplier Question ---
         print("\n--- Testing Supplier Question ---")
-        supplier_id = "SUP-001" # Replace with an actual supplier ID from your Neo4j data
+        supplier_id = "SUP-7611bf73" # Replace with an actual supplier ID from your Neo4j data
         supplier_question = "What is their risk score and what campaigns are they linked to?"
         print(f"Question about Supplier {supplier_id}: {supplier_question}")
         answer = rag.ask(supplier_question, "supplier", supplier_id)
@@ -36,25 +36,13 @@ def test_helix_rag():
 
         # --- Test Campaign Question ---
         print("\n--- Testing Campaign Question ---")
-        campaign_id = "CAMP_2024_Q1" # Replace with an actual campaign ID from your Neo4j data
+        campaign_id = "ADIDAS_BF_001" # Replace with an actual campaign ID from your Neo4j data
         campaign_question = "What was the budget for this campaign and which suppliers were involved?"
         print(f"Question about Campaign {campaign_id}: {campaign_question}")
         answer = rag.ask(campaign_question, "campaign", campaign_id)
         print(f"Answer: {answer}")
         if "No context found" in answer:
             print(f"WARNING: No context found for campaign ID '{campaign_id}'. Please update with a valid ID.")
-
-        # --- Test Product Question ---
-        print("\n--- Testing Product Question ---")
-        product_sku = "PROD-001" # Replace with an actual product SKU from your Neo4j data
-        product_question = "Is this product critical and what is the total spend on it?"
-        print(f"Question about Product {product_sku}: {product_question}")
-        answer = rag.ask(product_question, "product", product_sku)
-        print(f"Answer: {answer}")
-        if "No context found" in answer:
-            print(f"WARNING: No context found for product SKU '{product_sku}'. Please update with a valid ID.")
-
-        print("\n--- HelixRAG Tests Complete ---")
 
     except Exception as e:
         print(f"An error occurred during testing: {e}")

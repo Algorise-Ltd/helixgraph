@@ -14,7 +14,7 @@ from typing import Optional
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
-load_dotenv()
+load_dotenv(override=True)
 
 @dataclass
 class RAGConfig:
@@ -180,11 +180,11 @@ class RAGConfig:
             f"  temperature={self.temperature},\n"
             f"  max_tokens={self.max_output_tokens},\n"
             f"  neo4j_uri={self.neo4j_uri},\n"
+            f"  neo4j_database={self.neo4j_database},\n"
             f"  context_depth={self.context_max_depth},\n"
             f"  api_key={'*' * 10}...{self.gemini_api_key[-4:]}\n"  # Hide most of key
             f")"
         )
-
 
 # ==================== Global Configuration Instance ====================
 
@@ -213,26 +213,3 @@ def reset_config():
     """Reset global config (useful for testing)"""
     global _config
     _config = None
-
-
-# ==================== Usage Example ====================
-
-if __name__ == "__main__":
-    """
-    Test configuration loading
-    
-    Run this file directly to test your configuration:
-    python rag/config.py
-    """
-    print("Loading RAG configuration...")
-    try:
-        config = get_config()
-        print("✅ Configuration loaded successfully!")
-        print(config)
-    except ValueError as e:
-        print(f"❌ Configuration error: {e}")
-        print("\nMake sure your .env file contains:")
-        print("  GEMINI_API_KEY=your_key_here")
-        print("  NEO4J_URI=bolt://localhost:7687")
-        print("  NEO4J_USER=neo4j")
-        print("  NEO4J_PASSWORD=your_password")

@@ -32,11 +32,9 @@ class GraphContextRetriever:
         """
         query = """
         MATCH (s:Supplier {id: $supplier_id})
-        OPTIONAL MATCH (s)-[r_po:HAS_PO]->(po:PurchaseOrder)
-        OPTIONAL MATCH (po)-[r_inv:HAS_INVOICE]->(inv:Invoice)
-        OPTIONAL MATCH (po)-[r_camp:LINKED_TO_CAMPAIGN]->(c:Campaign)
-        OPTIONAL MATCH (s)-[r_risk:HAS_RISK]->(risk:Risk)
-        OPTIONAL MATCH (s)-[r_contract:HAS_CONTRACT]->(contract:Contract)
+        OPTIONAL MATCH (s)<-[:BILLED_BY]-(po:PO)
+        OPTIONAL MATCH (po)<-[:INVOICES]-(inv:Invoice)
+        OPTIONAL MATCH (po)<-[:FUNDED]-(c:Campaign)
         RETURN
             s.name AS supplierName,
             s.category AS supplierCategory,
@@ -48,9 +46,7 @@ class GraphContextRetriever:
             SUM(po.amount) AS totalSpend,
             AVG(po.amount) AS averagePOSize,
             COUNT(DISTINCT CASE WHEN inv.status = 'late' THEN inv END) AS latePayments,
-            COLLECT(DISTINCT c.name) AS linkedCampaigns,
-            COLLECT(DISTINCT risk.type) AS riskTypes,
-            COLLECT(DISTINCT contract.id) AS activeContracts
+            COLLECT(DISTINCT c.name) AS linkedCampaigns
         """
         params = {"supplier_id": supplier_id}
         result = self._run_query(query, params)
@@ -59,22 +55,25 @@ class GraphContextRetriever:
             return f"No context found for supplier ID: {supplier_id}"
 
         record = result[0]
+        
+        total_spend = record['totalSpend'] or 0
+        avg_po_size = record['averagePOSize'] or 0
+        risk_score = record['supplierRiskScore']
+        risk_level = self._get_risk_level(risk_score) if risk_score is not None else "N/A"
+        
         context = f"Supplier: {record['supplierName']}\n" \
                   f"Category: {record['supplierCategory']}\n" \
-                  f"Risk Score: {record['supplierRiskScore']} (Risk Level: {self._get_risk_level(record['supplierRiskScore'])})\n" \
+                  f"Risk Score: {risk_score} (Risk Level: {risk_level})\n" \
                   f"Country: {record['supplierCountry']}\n" \
                   f"Payment Terms: {record['supplierPaymentTerms']}\n" \
                   f"Last Annual Revenue: ${record['supplierLastAnnualRevenue']:,}\n" \
                   f"Procurement Metrics:\n" \
                   f"  Total POs: {record['totalPOs']}\n" \
-                  f"  Total Spend: ${record['totalSpend']:,}\n" \
-                  f"  Average PO Size: ${record['averagePOSize']:,}\n" \
+                  f"  Total Spend: ${total_spend:,}\n" \
+                  f"  Average PO Size: ${avg_po_size:,}\n" \
                   f"Risk Indicators:\n" \
                   f"  Late Payments: {record['latePayments']}\n" \
-                  f"  Risk Types: {', '.join(record['riskTypes']) if record['riskTypes'] else 'None'}\n" \
-                  f"Active Campaigns: {', '.join(record['linkedCampaigns']) if record['linkedCampaigns'] else 'None'}\n" \
-                  f"Active Contracts: {', '.join(record['activeContracts']) if record['activeContracts'] else 'None'}\n" \
-                  f"Recent Activity: (Not implemented yet, needs date logic)" # Placeholder
+                  f"Active Campaigns: {', '.join(record['linkedCampaigns']) if record['linkedCampaigns'] else 'None'}\n"
 
         return context
 
@@ -85,8 +84,8 @@ class GraphContextRetriever:
         """
         query = """
         MATCH (c:Campaign {id: $campaign_id})
-        OPTIONAL MATCH (c)<-[r_camp:LINKED_TO_CAMPAIGN]-(po:PurchaseOrder)
-        OPTIONAL MATCH (po)-[r_supp:HAS_SUPPLIER]->(s:Supplier)
+        OPTIONAL MATCH (c)-[:FUNDED]->(po:PO)
+        OPTIONAL MATCH (po)-[:BILLED_BY]->(s:Supplier)
         RETURN
             c.name AS campaignName,
             c.budget AS campaignBudget,
@@ -105,14 +104,18 @@ class GraphContextRetriever:
             return f"No context found for campaign ID: {campaign_id}"
 
         record = result[0]
+        
+        budget = record['campaignBudget'] or 0
+        total_spend = record['totalSpendOnCampaign'] or 0
+        
         context = f"Campaign: {record['campaignName']}\n" \
-                  f"Budget: ${record['campaignBudget']:,}\n" \
+                  f"Budget: ${budget:,}\n" \
                   f"Dates: {record['campaignStartDate']} to {record['campaignEndDate']}\n" \
                   f"Channel: {record['campaignChannel']}\n" \
                   f"KPIs: {record['campaignKPIs']}\n" \
                   f"Procurement Linkages:\n" \
                   f"  Total Linked POs: {record['totalLinkedPOs']}\n" \
-                  f"  Total Spend on Campaign: ${record['totalSpendOnCampaign']:,}\n" \
+                  f"  Total Spend on Campaign: ${total_spend:,}\n" \
                   f"  Associated Suppliers: {', '.join(record['associatedSuppliers']) if record['associatedSuppliers'] else 'None'}\n"
 
         return context
@@ -122,38 +125,7 @@ class GraphContextRetriever:
         Retrieves comprehensive context for a given product SKU.
         Includes basic info, associated POs, total spend, and suppliers.
         """
-        query = """
-        MATCH (p:Product {sku: $product_sku})
-        OPTIONAL MATCH (p)<-[r_prod:HAS_PRODUCT]-(po:PurchaseOrder)
-        OPTIONAL MATCH (po)-[r_supp:HAS_SUPPLIER]->(s:Supplier)
-        RETURN
-            p.name AS productName,
-            p.description AS productDescription,
-            p.category AS productCategory,
-            p.unit_of_measure AS productUnitOfMeasure,
-            p.is_critical AS productIsCritical,
-            COUNT(DISTINCT po) AS totalPOsForProduct,
-            SUM(po.amount) AS totalSpendOnProduct,
-            COLLECT(DISTINCT s.name) AS suppliersOfProduct
-        """
-        params = {"product_sku": product_sku}
-        result = self._run_query(query, params)
-
-        if not result or not result[0]['productName']:
-            return f"No context found for product SKU: {product_sku}"
-
-        record = result[0]
-        context = f"Product: {record['productName']} (SKU: {product_sku})\n" \
-                  f"Description: {record['productDescription']}\n" \
-                  f"Category: {record['productCategory']}\n" \
-                  f"Unit of Measure: {record['productUnitOfMeasure']}\n" \
-                  f"Is Critical: {'Yes' if record['productIsCritical'] else 'No'}\n" \
-                  f"Procurement Metrics:\n" \
-                  f"  Total POs for Product: {record['totalPOsForProduct']}\n" \
-                  f"  Total Spend on Product: ${record['totalSpendOnProduct']:,}\n" \
-                  f"  Suppliers: {', '.join(record['suppliersOfProduct']) if record['suppliersOfProduct'] else 'None'}\n"
-
-        return context
+        return "Product context not implemented yet."
 
     def _get_risk_level(self, score: int) -> str:
         """Helper to determine risk level from score."""

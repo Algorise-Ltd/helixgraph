@@ -1,4 +1,5 @@
 import google.genai as genai
+from google.genai import types
 from jinja2 import Environment, FileSystemLoader
 import os
 from rag.config import get_config
@@ -25,19 +26,20 @@ class HelixRAG:
         Sends the generated prompt to the Gemini API and returns the answer.
         """
         try:
+            cfg = types.GenerateContentConfig(
+                temperature=self.config.temperature,
+                max_output_tokens=self.config.max_output_tokens,
+                top_p=self.config.top_p,
+                top_k=self.config.top_k
+            )
             response = self.client.models.generate_content(
                 model=self.config.gemini_model,
                 contents=prompt,
-                generation_config=genai.GenerationConfig(
-                    temperature=self.config.temperature,
-                    max_output_tokens=self.config.max_output_tokens,
-                    top_p=self.config.top_p,
-                    top_k=self.config.top_k
-                )
+                config=cfg
             )
             return response.text
         except Exception as e:
-            return f"Error generating answer from Gemini: {e}"
+            raise e
 
     def ask(self, question: str, entity_type: str, entity_id: str) -> str:
         """

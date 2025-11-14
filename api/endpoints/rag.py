@@ -29,9 +29,12 @@ async def ask_rag_question(query: RAGQuery):
     """
     Endpoint to ask a natural language question to the RAG system.
     """
-    rag = get_rag_instance()
-    answer = rag.ask(query.question, query.entity_type, query.entity_id)
-    return RAGResponse(answer=answer)
+    try:
+        rag = get_rag_instance()
+        answer = rag.ask(query.question, query.entity_type, query.entity_id)
+        return RAGResponse(answer=answer)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error generating answer: {e}")
 
 @router.get("/health")
 async def health_check():
