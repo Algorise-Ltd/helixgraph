@@ -9,8 +9,8 @@ This script verifies that all RAG components can connect:
 Run: python rag/test_connections.py
 """
 
-import os
-import google.genai as genai
+from google import genai
+from google.genai import types
 from neo4j import GraphDatabase
 from rag.config import get_config
 
@@ -18,19 +18,46 @@ def test_gemini_connection(config):
     """Tests connectivity to the Gemini API."""
     print("\n--- Testing Gemini API Connection ---")
     try:
-        genai.configure(api_key=config.gemini_api_key)
-        model = genai.GenerativeModel(config.gemini_model)
-        response = model.generate_content(
-            "Explain how AI works in a few words",
-            generation_config=genai.GenerationConfig(
-                temperature=0.0, # Use 0.0 for deterministic test
-                max_output_tokens=50
-            )
+        api_key = getattr(config, "gemini_api_key", None)
+        model_name = getattr(config, "gemini_model", None)
+        if not api_key:
+            print("Missing Gemini API key in configuration.")
+            return False
+        if not model_name:
+            print("Missing Gemini model name in configuration.")
+            return False
+        client = genai.Client(api_key=api_key)
+        prompt = "Explain how AI works in a few words"
+        cfg = types.GenerateContentConfig(
+            max_output_tokens=50,
+            temperature=0.0,
         )
-        print(f"✅ Gemini API connected successfully! Response: {response.text.strip()}...")
-        return True
+        response = client.models.generate_content(
+            model=model_name,
+            contents=prompt,
+            config=cfg
+        )
+        text = None
+        if hasattr(response, "text"):
+            text = str(response.text).strip()
+        elif hasattr(response, "candidates") and response.candidates:
+            # Some responses use Content objects
+            cand = response.candidates[0]
+            if hasattr(cand, "content") and hasattr(cand.content, "parts"):
+                text_parts = []
+                for part in cand.content.parts:
+                    text_parts.append(str(getattr(part, "text", part)))
+                text = " ".join(text_parts).strip()
+
+        if text is not None:
+            print(f"Gemini API connected successfully! Response: {text}")
+            return True
+        else:
+            print(f"Gemini API connected but didn't respond.")
+            return False
+
     except Exception as e:
-        print(f"❌ Gemini API connection failed: {e}")
+        print(f"Gemini API connection failed: {type(e).__name__}: {e}")
         return False
 
 def test_neo4j_connection(config):

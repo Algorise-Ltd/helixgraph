@@ -3,3 +3,5 @@ jinja2
 python-dotenv
 neo4j
 pandas
+fastapi
+uvicorn

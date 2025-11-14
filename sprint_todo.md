@@ -80,11 +80,14 @@
 - [x] Create `rag/test_rag.py` for testing the `HelixRAG` class.
 
 **Part 8: Create RAG API endpoint**
-- [ ] Create `api/endpoints/rag.py`.
-- [ ] Add the new endpoint to `api/main.py`.
+- [x] Create `api/endpoints/rag.py`.
+- [x] Add the new endpoint to `api/main.py`.
 - [ ] Test the endpoint with `curl`.
 - [ ] Define Pydantic models for request/response.
 - [ ] Implement error handling.
+
+**Part 8.5: Test Part 7 and 8**
+- [ ] Reivew and test all the scripts crated for Part 7 and Part 8.
 
 **Part 9: Build ETL Pipeline for Graph Construction**
 - [ ] Create `etl/load_sprint2.py`.

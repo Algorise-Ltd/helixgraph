@@ -129,7 +129,7 @@ class RAGConfig:
         """
         return cls(
             gemini_api_key=os.getenv('GEMINI_API_KEY', ''),
-            gemini_model=os.getenv('GEMINI_MODEL', 'gemini-1.5-flash'),
+            gemini_model=os.getenv('GEMINI_MODEL', 'gemini-2.5-flash-lite'),
             temperature=float(os.getenv('RAG_TEMPERATURE', '0.3')),
             max_output_tokens=int(os.getenv('RAG_MAX_TOKENS', '2048')),
             neo4j_uri=os.getenv('NEO4J_URI', 'bolt://localhost:7687'),

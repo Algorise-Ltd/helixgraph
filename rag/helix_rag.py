@@ -1,4 +1,4 @@
-import google.generativeai as genai
+import google.genai as genai
 from jinja2 import Environment, FileSystemLoader
 import os
 from rag.config import get_config
@@ -13,8 +13,7 @@ class HelixRAG:
     """
     def __init__(self):
         self.config = get_config()
-        genai.configure(api_key=self.config.gemini_api_key)
-        self.model = genai.GenerativeModel(self.config.gemini_model)
+        self.client = genai.Client(api_key=self.config.gemini_api_key)
         self.context_retriever = GraphContextRetriever()
 
         # Setup Jinja2 environment for loading templates
@@ -26,8 +25,9 @@ class HelixRAG:
         Sends the generated prompt to the Gemini API and returns the answer.
         """
         try:
-            response = self.model.generate_content(
-                prompt,
+            response = self.client.models.generate_content(
+                model=self.config.gemini_model,
+                contents=prompt,
                 generation_config=genai.GenerationConfig(
                     temperature=self.config.temperature,
                     max_output_tokens=self.config.max_output_tokens,
