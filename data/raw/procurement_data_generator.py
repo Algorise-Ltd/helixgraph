@@ -1328,6 +1328,10 @@ if __name__ == '__main__':
     ontology_path = os.path.join(script_dir, '../../ontologies/procurement_v0.9.md')
     country_locales, _locale_report = sanitize_country_locales(country_locales)
 
+    # Define output directories
+    processed_procurement_dir = os.path.join(script_dir, '../../data/processed/procurement')
+    os.makedirs(processed_procurement_dir, exist_ok=True)
+
     suppliers_data = []
     products_data = []
     po_data = []
@@ -1337,25 +1341,25 @@ if __name__ == '__main__':
     if APPEND_MODE:
         print("\n--- APPEND MODE ON: Loading existing data ---\n")
         try:
-            suppliers_data = pd.read_csv(os.path.join(script_dir, 'suppliers.csv')).to_dict('records')
+            suppliers_data = pd.read_csv(os.path.join(processed_procurement_dir, 'suppliers.csv')).to_dict('records')
             print(f"Loaded {len(suppliers_data)} existing suppliers.")
         except FileNotFoundError:
             print("No existing suppliers.csv found.")
             pass
         try:
-            products_data = pd.read_csv(os.path.join(script_dir, 'products.csv')).to_dict('records')
+            products_data = pd.read_csv(os.path.join(processed_procurement_dir, 'products.csv')).to_dict('records')
             print(f"Loaded {len(products_data)} existing products.")
         except FileNotFoundError:
             print("No existing products.csv found.")
             pass
         try:
-            po_data = pd.read_csv(os.path.join(script_dir, 'purchase_orders.csv')).to_dict('records')
+            po_data = pd.read_csv(os.path.join(processed_procurement_dir, 'pos.csv')).to_dict('records')
             print(f"Loaded {len(po_data)} existing purchase orders.")
         except FileNotFoundError:
             print("No existing purchase_orders.csv found.")
             pass
         try:
-            invoice_data = pd.read_csv(os.path.join(script_dir, 'invoices.csv')).to_dict('records')
+            invoice_data = pd.read_csv(os.path.join(processed_procurement_dir, 'invoices.csv')).to_dict('records')
             print(f"Loaded {len(invoice_data)} existing invoices.")
         except FileNotFoundError:
             print("No existing invoices.csv found.")
@@ -1517,10 +1521,10 @@ if __name__ == '__main__':
         products_df.drop(columns=['temp_id'], inplace=True)
 
     if not suppliers_df.empty:
-        suppliers_df.to_csv(os.path.join(script_dir, 'suppliers.csv'), index=False)
+        suppliers_df.to_csv(os.path.join(processed_procurement_dir, 'suppliers.csv'), index=False)
         print(f"Successfully generated and saved {len(suppliers_df)} suppliers.")
     if not products_df.empty:
-        products_df.to_csv(os.path.join(script_dir, 'products.csv'), index=False)
+        products_df.to_csv(os.path.join(processed_procurement_dir, 'products.csv'), index=False)
         print(f"Successfully generated and saved {len(products_df)} products.")
     if not po_df.empty:
         # Reorder columns
@@ -1528,15 +1532,15 @@ if __name__ == '__main__':
         if 'item' in cols:
             cols.insert(cols.index('orderNumber') + 1, cols.pop(cols.index('item')))
             po_df = po_df[cols]
-        po_df.to_csv(os.path.join(script_dir, 'purchase_orders.csv'), index=False)
+        po_df.to_csv(os.path.join(processed_procurement_dir, 'pos.csv'), index=False) # Renamed to pos.csv
         print(f"Successfully generated and saved {len(po_df)} purchase orders.")
     if invoice_data:
         invoice_df = pd.DataFrame(invoice_data)
-        invoice_df.to_csv(os.path.join(script_dir, 'invoices.csv'), index=False)
+        invoice_df.to_csv(os.path.join(processed_procurement_dir, 'invoices.csv'), index=False)
         print(f"Successfully generated and saved {len(invoice_data)} invoices.")
     if risks_data:
         risks_df = pd.DataFrame(risks_data)
-        risks_df.to_csv(os.path.join(script_dir, 'risks.csv'), index=False)
+        risks_df.to_csv(os.path.join(processed_procurement_dir, 'risks.csv'), index=False)
         print(f"Successfully generated and saved {len(risks_data)} risks.")
 
     # Create Dictionaries
@@ -1548,8 +1552,8 @@ if __name__ == '__main__':
 
     # Create Campaign PO Links
     print("\n--- Creating Campaign PO Links ---")
-    po_csv_path = os.path.join(script_dir, 'purchase_orders.csv')
-    links_output_path = os.path.join(script_dir, '../processed/campaign_po_links.csv')
+    po_csv_path = os.path.join(processed_procurement_dir, 'pos.csv') # Use the new path for pos.csv
+    links_output_path = os.path.join(script_dir, '../../data/processed/campaign_po_links.csv')
     create_campaign_po_links(po_csv_path, links_output_path)
 
     print("\n--- Running Data Integrity Check ---")

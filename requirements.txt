@@ -1,4 +1,4 @@
-google-generativeai
+google-genai
 jinja2
 python-dotenv
 neo4j

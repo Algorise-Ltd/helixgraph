@@ -9,7 +9,7 @@ def check_campaign_po_integrity(campaigns_data_dir, procurement_data_dir):
     print("\n--- Checking Campaign PO Integrity ---")
     try:
         campaigns_df = pd.read_csv(os.path.join(campaigns_data_dir, 'campaigns_v1.csv'))
-        po_df = pd.read_csv(os.path.join(procurement_data_dir, 'purchase_orders.csv'))
+        po_df = pd.read_csv(os.path.join(procurement_data_dir, 'pos.csv'))
     except FileNotFoundError as e:
         print(f"Warning: Could not load campaign or PO files for integrity check: {e}")
         return
@@ -111,13 +111,13 @@ def check_data_integrity():
     Checks for null primary keys and validates foreign key linkages.
     """
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    procurement_data_dir = os.path.join(script_dir, '../../data/raw')
+    procurement_data_dir = os.path.join(script_dir, '../../data/processed/procurement')
     campaigns_data_dir = os.path.join(script_dir, '../../data/processed/marketing')
 
     try:
         suppliers_df = pd.read_csv(os.path.join(procurement_data_dir, 'suppliers.csv'))
         products_df = pd.read_csv(os.path.join(procurement_data_dir, 'products.csv'))
-        po_df = pd.read_csv(os.path.join(procurement_data_dir, 'purchase_orders.csv'))
+        po_df = pd.read_csv(os.path.join(procurement_data_dir, 'pos.csv'))
         invoices_df = pd.read_csv(os.path.join(procurement_data_dir, 'invoices.csv'))
     except FileNotFoundError as e:
         print(f"Error loading data files: {e}")

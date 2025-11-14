@@ -25,18 +25,24 @@ class RAGConfig:
     Values are loaded from environment variables for security.
     """
     
-    # ==================== Gemini API Configuration ====================
+    # ==================== Gemini API & Neo4j Configuration ====================
     
     gemini_api_key: str
     """Google Gemini API key (loaded from GEMINI_API_KEY env var)"""
-    
-    gemini_model: str = "gemini-1.5-flash"
-    """
-    Which Gemini model to use.
-    Options:
-    - "gemini-1.5-flash": Fast, 1500 req/day, good for development
-    - "gemini-1.5-pro": High quality, 50 req/day, use for production
-    """
+
+    neo4j_uri: str
+    """Neo4j connection URI (e.g., bolt://localhost:7687)"""
+
+    neo4j_user: str
+    """Neo4j username (usually 'neo4j')"""
+
+    neo4j_password: str
+    """Neo4j password"""
+
+    neo4j_database: str = "neo4j"
+    """Neo4j database name (default is 'neo4j')"""
+
+    gemini_model: str = "gemini-2.5-flash"
     
     temperature: float = 0.3
     """
@@ -65,21 +71,7 @@ class RAGConfig:
     Top-K sampling. Limits token selection pool.
     40 is Google's recommended default.
     """
-    
-    # ==================== Neo4j Configuration ====================
-    
-    neo4j_uri: str
-    """Neo4j connection URI (e.g., bolt://localhost:7687)"""
-    
-    neo4j_user: str
-    """Neo4j username (usually 'neo4j')"""
-    
-    neo4j_password: str
-    """Neo4j password"""
-    
-    neo4j_database: str = "neo4j"
-    """Neo4j database name (default is 'neo4j')"""
-    
+
     # ==================== RAG Behavior Configuration ====================
     
     context_max_depth: int = 2

@@ -56,28 +56,28 @@
 - [x] Provide at least 3 example Cypher queries.
 - [x] Document business scenarios.
 - [x] Generate `data/processed/campaign_po_links.csv` with 50-100 links. This should be integrated within data generation.
-- [ ] Validate `campaign_po_links.csv`.
+- [x] Validate `campaign_po_links.csv`.
 
 **Part 6: Set Up RAG Environment & Gemini API**
 - [x] Set up Gemini API Key as an environment variable.
-- [ ] Test the API key.
+- [x] Test the API key.
 - [x] add: `google-generativeai`, `jinja2`, `python-dotenv`to `requirements.txt`.
-- [ ] Install dependencies.
+- [x] Install dependencies.
 - [x] Create the RAG directory structure: `rag/`, `rag/templates/`, `rag/examples/`, `rag/tests/`.
 - [x] Create `rag/config.py` for configuration management.
 - [x] Create `.env` and `.env.example` files.
 - [x] Update `.gitignore` to include `.env`.
 - [x] Create `rag/test_connections.py` to test Gemini and Neo4j connections.
-- [ ] Create `docs/gemini_setup.md` documentation.
+- [x] Create `docs/gemini_setup.md` documentation.
 
 **Part 7: Build Graph Context Retriever**
-- [ ] Create `rag/context_retriever.py` with `GraphContextRetriever` class.
-- [ ] Implement `get_supplier_context()`, `get_campaign_context()`, `get_product_context()`.
-- [ ] Format context as human-readable text.
-- [ ] Create `rag/test_context.py` for testing.
-- [ ] Create Jinja2 prompt templates: `supplier.j2`, `campaign.j2`, `product.j2`.
-- [ ] Create `rag/helix_rag.py` with `HelixRAG` class.
-- [ ] Create `rag/test_rag.py` for testing the `HelixRAG` class.
+- [x] Create `rag/context_retriever.py` with `GraphContextRetriever` class.
+- [x] Implement `get_supplier_context()`, `get_campaign_context()`, `get_product_context()`.
+- [x] Format context as human-readable text.
+- [x] Create `rag/test_context.py` for testing.
+- [x] Create Jinja2 prompt templates: `supplier.j2`, `campaign.j2`, `product.j2`.
+- [x] Create `rag/helix_rag.py` with `HelixRAG` class.
+- [x] Create `rag/test_rag.py` for testing the `HelixRAG` class.
 
 **Part 8: Create RAG API endpoint**
 - [ ] Create `api/endpoints/rag.py`.
