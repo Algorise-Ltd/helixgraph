@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "version": "0.9",
+    "glossary_version": "0.9",
+    "framework": "full_funnel_marketing_strategy",
+    "context": "This taxonomy follows the principles of the full-funnel marketing strategy, which structures campaign objectives around the customer journey from first exposure to purchase. The core funnel consists of three sequential stages: (1) awareness – reaching and attracting a broad audience to build brand recognition, (2) consideration – engaging audiences who are evaluating options and comparing brands, and (3) conversion – motivating high-intent users to complete desired actions such as purchases or sign-ups. Each stage maps to KPIs that measure user progression from visibility to engagement and action. Beyond these funnel stages, a fourth objective, retention, extends the framework to post-purchase relationship management. While not part of the traditional full-funnel structure, retention reflects modern marketing practice emphasizing customer loyalty, repeat purchase, and lifetime value. Together, these four objectives provide a unified data structure that aligns marketing performance measurement across the full customer lifecycle.",
+    "description": "Objective ↔ KPI mapping with semantic definitions aligned with KPI glossary (snake_case)."
+  },
+  "mapping": [
+    {
+      "code": "AWARENESS",
+      "name": "awareness",
+      "definition": "Campaigns designed to increase brand recognition and visibility.",
+      "kpis": ["impressions", "reach", "users"]
+    },
+    {
+      "code": "CONSIDERATION",
+      "name": "consideration",
+      "definition": "Campaigns aimed at engaging potential customers to evaluate the brand or product.",
+      "kpis": ["ctr", "vtr", "cpc", "engagement_rate"]
+    },
+    {
+      "code": "CONVERSION",
+      "name": "conversion",
+      "definition": "Campaigns focused on driving customer actions such as purchases or sign-ups.",
+      "kpis": ["cpa", "cac", "roas", "revenue"]
+    },
+    {
+      "code": "RETENTION",
+      "name": "retention",
+      "definition": "Campaigns that encourage repeat purchases, customer satisfaction, and long-term loyalty.",
+      "kpis": ["rpr", "clv"]
+    }
+  ]
+}

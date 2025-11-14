@@ -1,0 +1,101 @@
+{
+  "campaign": {
+    "id": "uuid — campaign id",
+    "name": "string — e.g., luma_202501_january",
+    "brand_name": "string",
+    "category": "string",
+    "country": "string — iso 3166-1 alpha-2 (e.g., 'de')",
+
+    "start_date": "datetime — iso 8601 (authoritative)",
+    "end_date": "datetime — iso 8601 (authoritative)",
+    "status": "enum [planned, active, paused, completed, cancelled]",
+    "objective": "enum [awareness, consideration, conversion, retention]",
+    "currency": "iso 4217",
+
+    "kpi_targets": {
+      "primary_kpi": "enum [ctr, vtr, open_rate, cpc, cpa, roas, conversions, revenue]"
+    },
+
+    "metrics_total": {
+      "budget": "decimal — Σ(ad_groups.budget)",
+      "impressions": "integer — Σ(ad_groups.impressions)",
+      "clicks": "integer — Σ(ad_groups.clicks)",
+      "views": "integer — Σ(ad_groups.views)",
+      "engagement": "integer — Σ(ad_groups.engagement)",
+      "open": "integer — Σ(ad_groups.open)",
+      "ad_link_click": "integer — Σ(ad_groups.ad_link_click)",
+      "sessions": "integer — Σ(ad_groups.sessions)",
+      "conversions": "integer — Σ(ad_groups.conversions)",
+      "revenue_attributed": "decimal — Σ(ad_groups.revenue_attributed)",
+      "roas": "number — revenue_attributed ÷ budget (e.g., 3.0 = 3x)"
+    },
+
+    "ad_groups": [
+      {
+        "id": "uuid — ad group id",
+
+        "start_date": "datetime (optional; defaults to campaign.start_date)",
+        "end_date": "datetime (optional; defaults to campaign.end_date)",
+
+        "media_platform": "string — google ads | meta ads | salesforce | youtube | criteo | ...",
+        "channel": "string — top-level channel code from channel_taxonomy.json (e.g., 'search', 'social', 'email', 'display', 'affiliate'). use the taxonomy's canonical codes.",
+        "ad_placement": "string — search network | ig/fb feed+stories | in-stream skippable | responsive display | inbox ...",
+        "ad_format": "enum [text, image, video, carousel, native, other]",
+        "sem_keyword_type": "enum [brand, generic, competitor, null]",
+
+        "audience_targeting": {
+          "locations": "object[] {type,name,geo_id?,radius_km?,lat?,lon?}",
+          "retargeting": "boolean",
+          "age_groups": "string[]",
+          "genders": "enum[] [male,female,other]",
+          "devices": "enum[] [mobile,desktop,tablet,ctv]",
+          "include_audiences": "string[]",
+          "exclude_audiences": "string[]",
+          "interests": "string[]",
+          "audience_type": "enum [prospecting, retargeting, crm, lookalike, contextual]"
+        },
+
+        "billing_type": "enum [cpc, cpm, cpa, cpv, cpl, flat]",
+        "billing_unit_cost": "decimal",
+        "budget": "decimal — planned for this ad group",
+        "actual_spend": "decimal — actual for this ad group",
+
+        "impressions": "integer",
+        "clicks": "integer",
+        "ctr": "number — ctr in percent units, e.g., 2.16 (not 0.0216)",
+        "views": "integer",
+        "vtr": "number — vtr in percent units",
+        "engagement": "integer",
+        "engagement_rate": "number — engagement rate in percent units",
+        "open": "integer — email opens (count)",
+        "open_rate": "number — open rate in percent units",
+        "ad_link_click": "integer",
+
+        "sessions": "integer",
+        "conversions": "integer",
+        "conversion_rate": "number — (conversions ÷ sessions) × 100",
+        "revenue_attributed": "decimal",
+        "roas": "number — revenue_attributed ÷ actual_spend (e.g., 2.2 = 2.2x)"
+      }
+    ],
+
+    "provenance_note": "de/eu channel benchmarks were applied, ≤20% noise added per metric; typical media mix (search 35%, social 25%, email 20%, display 15%, affiliate 5%) with q4 spike; ai-assisted manual curation.",
+    "benchmark_notes": {
+      "market": "de/eu",
+      "sources": "industry benchmarks + internal assumptions",
+      "roas_ranges": {
+        "search": "3–6x",
+        "meta": "1.5–3x",
+        "gdn": "0.8–1.5x (prospecting), 2–4x (retargeting)"
+      },
+      "cpc_ctr": {
+        "google_search": { "ctr_percent": "1.5–3.5", "cpc_eur": "0.50–0.90", "notes": "non-brand baseline; brand/review terms ctr↑ cpc↑" },
+        "meta_social": { "ctr_percent": "1.3–2.5", "cpc_eur": "0.70–1.10", "notes": "feed/stories mix; catalog/ugc creative favorable" },
+        "gdn_display": { "ctr_percent": "0.10–0.15", "cpc_eur": "0.07–0.40", "notes": "retargeting more efficient; prospecting lower ctr" }
+      },
+      "example_calc": "search (beauty): aov €90, cvr 2.5%, cpc €0.70 ⇒ roas ≈ (€90×0.025)/€0.70 ≈ 3.2x",
+      "noise_policy": "per line item ≤20% perturbation on cpc/ctr/vtr/open-rate",
+      "seasonality": { "category": "makeup", "index": [90, 95, 105, 110, 100, 95, 90, 100, 110, 120, 140, 150] }
+    }
+  }
+}
