@@ -292,8 +292,32 @@ if __name__ == "__main__":
             writer.writerows(all_employee_skills)
     print(f"✓ Saved employee-skills -> data/hr/hr_employee_skills.csv")
     
+    # Save teams
+    with open('data/hr/hr_teams.json', 'w') as f:
+        json.dump(teams, f, indent=2)
+    print(f"✓ Saved teams -> data/hr/hr_teams.json")
+    
+    with open('data/hr/hr_teams.csv', 'w', newline='') as f:
+        if teams:
+            writer = csv.DictWriter(f, fieldnames=teams[0].keys())
+            writer.writeheader()
+            writer.writerows(teams)
+    print(f"✓ Saved teams -> data/hr/hr_teams.csv")
+    
+    # Save employee-team relationships
+    with open('data/hr/hr_employee_teams.json', 'w') as f:
+        json.dump(employee_teams, f, indent=2)
+    print(f"✓ Saved employee-teams -> data/hr/hr_employee_teams.json")
+    
+    with open('data/hr/hr_employee_teams.csv', 'w', newline='') as f:
+        if employee_teams:
+            writer = csv.DictWriter(f, fieldnames=employee_teams[0].keys())
+            writer.writeheader()
+            writer.writerows(employee_teams)
+    print(f"✓ Saved employee-teams -> data/hr/hr_employee_teams.csv")
+    
     # Statistics
-    print("\n[5/5] Data Generation Summary")
+    print("\n[7/7] Data Generation Summary")
     print("=" * 60)
     print(f"Total Employees:        {len(employees)}")
     print(f"Total Skills:           {len(skills)}")

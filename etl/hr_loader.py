@@ -245,12 +245,14 @@ class HRLoader(BaseLoader):
             WITH e, emp
             MATCH (d:Department {name: emp.department})
             MERGE (e)-[r1:WORKS_IN]->(d)
-            SET r1.created_at = datetime()
+            SET r1.created_at = datetime(),
+                r1.source = "hr_data"
             
             WITH e, emp
             MATCH (l:Location {name: emp.location})
             MERGE (e)-[r2:LOCATED_IN]->(l)
-            SET r2.created_at = datetime()
+            SET r2.created_at = datetime(),
+                r2.source = "hr_data"
         """
         
         count = self.batch_load(self.employees, cypher)
