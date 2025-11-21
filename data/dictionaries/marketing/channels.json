@@ -1,0 +1,194 @@
+[
+  {
+    "id": "CH_01",
+    "name": "SEM",
+    "subcategories": [
+      "Google",
+      "Microsoft",
+      "Yahoo",
+      "Bing",
+      "DuckDuckGo",
+      "Yandex"
+    ],
+    "type": "Digital"
+  },
+  {
+    "id": "CH_02",
+    "name": "SOCIAL",
+    "subcategories": [
+      "Facebook",
+      "Instagram",
+      "META",
+      "TikTok",
+      "LinkedIn",
+      "X (Twitter)",
+      "Pinterest",
+      "Snapchat"
+    ],
+    "type": "Digital"
+  },
+  {
+    "id": "CH_03",
+    "name": "DISPLAY",
+    "subcategories": [
+      "Google Display Network",
+      "The Trade Desk",
+      "Criteo",
+      "DV360",
+      "MediaMath",
+      "Yahoo DSP",
+      "YouTube",
+      "Amazon DSP"
+    ],
+    "type": "Digital"
+  },
+  {
+    "id": "CH_04",
+    "name": "AFFILIATE",
+    "subcategories": [
+      "Awin",
+      "Rakuten",
+      "CJ Affiliate",
+      "Impact",
+      "Partnerize",
+      "Trade Doubler",
+      "ClickBank",
+      "ShareASale",
+      "FlexOffers",
+      "Admitad"
+    ],
+    "type": "Digital"
+  },
+  {
+    "id": "CH_05",
+    "name": "EMAIL",
+    "subcategories": [
+      "Mailchimp",
+      "Klaviyo",
+      "Salesforce Marketing Cloud",
+      "HubSpot Email",
+      "Braze",
+      "SendGrid",
+      "Oracle Eloqua",
+      "Adobe Campaign",
+      "ActiveCampaign",
+      "Campaign Monitor"
+    ],
+    "type": "Digital"
+  },
+  {
+    "id": "CH_06",
+    "name": "PARTNERSHIP",
+    "subcategories": [
+      "YouTube Creator",
+      "TikTok Creator",
+      "Instagram Influencer",
+      "Twitch Partner",
+      "Podcast Sponsorship",
+      "Blogger Sponsorship",
+      "Other Platform Influencer"
+    ],
+    "type": "Digital"
+  },
+  {
+    "id": "CH_07",
+    "name": "PR_ONLINE",
+    "subcategories": [
+      "BBC",
+      "CNN",
+      "Reuters",
+      "Bloomberg",
+      "Forbes",
+      "The Economist",
+      "New York Times",
+      "The Guardian",
+      "TechCrunch",
+      "Vogue"
+    ],
+    "type": "Digital"
+  },
+  {
+    "id": "CH_08",
+    "name": "PRESS_PRINT",
+    "subcategories": [
+      "The Economist",
+      "Vogue",
+      "Time Magazine",
+      "National Geographic",
+      "Wall Street Journal",
+      "Financial Times",
+      "Forbes",
+      "Business Insider",
+      "Harvard Business Review",
+      "New York Times"
+    ],
+    "type": "Print"
+  },
+  {
+    "id": "CH_09",
+    "name": "TV",
+    "subcategories": [
+      "BBC One",
+      "BBC Two",
+      "BBC Three",
+      "BBC Four",
+      "ITV1",
+      "ITV2",
+      "Channel 4",
+      "Channel 5",
+      "Sky UK",
+      "TNT Sports UK",
+      "ARD",
+      "ZDF",
+      "RTL",
+      "ProSieben",
+      "Sat.1",
+      "Kabel Eins",
+      "VOX",
+      "Welt (N24)",
+      "n-tv",
+      "DW",
+      "Sky DE"
+    ],
+    "type": "TV"
+  },
+  {
+    "id": "CH_10",
+    "name": "RADIO",
+    "subcategories": [
+      "BBC Radio 1",
+      "BBC Radio 2",
+      "BBC Radio 4",
+      "Capital FM",
+      "Heart FM",
+      "Classic FM",
+      "TalkSport",
+      "Absolute Radio",
+      "Deutschlandfunk",
+      "Deutschlandfunk Kultur",
+      "Antenne Bayern",
+      "WDR 2",
+      "SWR3",
+      "NDR 2",
+      "Radio NRW"
+    ],
+    "type": "Radio"
+  },
+  {
+    "id": "CH_12",
+    "name": "OUT_OF_HOME",
+    "subcategories": [
+      "Ströer (DE)",
+      "WallDecaux (DE)",
+      "Goldbach Media (DE)",
+      "Media Frankfurt Airport (DE)",
+      "Deutsche Bahn Station Media (DE)",
+      "JCDecaux UK",
+      "Clear Channel UK",
+      "Global Outdoor (UK)",
+      "Ocean Outdoor (UK)",
+      "Transport for London (TfL) Advertising"
+    ],
+    "type": "Outdoor"
+  }
+]

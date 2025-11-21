@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "version": "0.9",
+    "skos": true,
+    "note": "Excluded from this campaign schema: Content production and platform production (e.g., video creation, blog posts, SEO), Non-digital and traditional media (e.g., TV, OOH, Radio, Print) as it's hard to measure traffic and revenue performance that occurs online, Non-measurable owned media without spend or performance metrics. This schema focuses on measurable digital marketing campaigns with identifiable spend, impressions, clicks, and conversions.",
+    "mapping_rules": {
+      "retargeting_switch": "If audience_targeting.retargeting == true → classify as RETARGETING; else → PROSPECTING.",
+      "sem_split": "For channel == SEM, use sem_keyword_type ∈ {brand,generic,competitor} as primary split; if RLSA is used, set retargeting=true.",
+      "email_default": "EMAIL typically maps to CRM/owned lists; retargeting flag may be ignored unless a paid audience extension is used."
+    }
+  },
+  "nodes": [
+    {
+      "code": "MK",
+      "skos_prefLabel": "Marketing",
+      "skos_altLabel": ["Marketing Root"],
+      "skos_note": "Root concept grouping all marketing communication channels under Paid, Owned, and Earned categories.",
+      "skos_broader": null,
+      "skos_narrower": [
+        { "code": "PAID", "label": "Paid Media" },
+        { "code": "OWNED", "label": "Owned Media" },
+        { "code": "EARNED", "label": "Earned Media" }
+      ]
+    },
+
+    {
+      "code": "PAID",
+      "skos_prefLabel": "Paid Media",
+      "skos_note": "Channels where visibility is achieved through paid placements.",
+      "skos_broader": { "code": "MK", "label": "Marketing" },
+      "skos_narrower": [
+        { "code": "SEM", "label": "Paid Search (SEM)" },
+        { "code": "SOCIAL", "label": "Paid Social" },
+        { "code": "DISPLAY", "label": "Display" },
+        { "code": "AFFILIATE", "label": "Affiliate" },
+        { "code": "EMAIL", "label": "Email (Paid CRM)" },
+        { "code": "PARTNERSHIP", "label": "Branded/Creator Partnership" }
+      ]
+    },
+
+    {
+      "code": "OWNED",
+      "skos_prefLabel": "Owned Media",
+      "skos_note": "Channels owned and controlled by the brand (web, app, etc.).",
+      "skos_broader": { "code": "MK", "label": "Marketing" },
+      "skos_narrower": [
+        { "code": "ECOM", "label": "Ecommerce" }
+      ]
+    },
+
+    {
+      "code": "EARNED",
+      "skos_prefLabel": "Earned Media",
+      "skos_note": "Publicity or exposure earned organically without direct payment.",
+      "skos_broader": { "code": "MK", "label": "Marketing" },
+      "skos_narrower": [
+        { "code": "SEO", "label": "SEO / Organic" },
+        { "code": "PR", "label": "PR" },
+        { "code": "EARNED_INFLUENCER", "label": "Influencer • Organic Mentions" }
+      ]
+    },
+
+    {
+      "code": "SEM",
+      "skos_prefLabel": "Paid Search (SEM)",
+      "skos_altLabel": ["SEM", "PPC", "Paid Search"],
+      "skos_note": "Search engine advertising (Google, Bing) with keyword bidding.",
+      "skos_scopeNote": "Mapping: use sem_keyword_type (brand/generic/competitor). If audience_targeting.retargeting == true (RLSA), mark as retargeting scenario.",
+      "skos_broader": { "code": "PAID", "label": "Paid Media" },
+      "skos_narrower": [
+        { "code": "SEM_BRAND", "label": "Brand (Search)" },
+        { "code": "SEM_GENERIC", "label": "Generic (Search)" },
+        { "code": "SEM_COMPETITOR", "label": "Competitor (Search)" }
+      ]
+    },
+    { "code": "SEM_BRAND", "skos_prefLabel": "Brand (Search)", "skos_broader": { "code": "SEM", "label": "Paid Search (SEM)" }, "skos_narrower": [] },
+    { "code": "SEM_GENERIC", "skos_prefLabel": "Generic (Search)", "skos_broader": { "code": "SEM", "label": "Paid Search (SEM)" }, "skos_narrower": [] },
+    { "code": "SEM_COMPETITOR", "skos_prefLabel": "Competitor (Search)", "skos_broader": { "code": "SEM", "label": "Paid Search (SEM)" }, "skos_narrower": [] },
+
+    {
+      "code": "SOCIAL",
+      "skos_prefLabel": "Paid Social",
+      "skos_altLabel": ["Social Media Advertising"],
+      "skos_note": "Paid promotion within social platforms (Meta, TikTok, LinkedIn, Snapchat, X, Pinterest, etc.).",
+      "skos_scopeNote": "Mapping: audience_targeting.retargeting == true → SOCIAL_RETARGETING; else → SOCIAL_PROSPECTING.",
+      "skos_broader": { "code": "PAID", "label": "Paid Media" },
+      "skos_narrower": [
+        { "code": "SOCIAL_PROSPECTING", "label": "Prospecting (Social)" },
+        { "code": "SOCIAL_RETARGETING", "label": "Retargeting (Social)" }
+      ]
+    },
+    {
+      "code": "SOCIAL_PROSPECTING",
+      "skos_prefLabel": "Prospecting (Social)",
+      "skos_altLabel": ["New Audience Campaigns"],
+      "skos_note": "Targeting new users/lookalikes with no prior interaction.",
+      "skos_scopeNote": "Derived when audience_targeting.retargeting == false or missing.",
+      "skos_broader": { "code": "SOCIAL", "label": "Paid Social" },
+      "skos_narrower": []
+    },
+    {
+      "code": "SOCIAL_RETARGETING",
+      "skos_prefLabel": "Retargeting (Social)",
+      "skos_altLabel": ["Remarketing"],
+      "skos_note": "Targeting users who previously interacted with the brand (site visitors, engagers, cart abandoners).",
+      "skos_scopeNote": "Derived when audience_targeting.retargeting == true.",
+      "skos_broader": { "code": "SOCIAL", "label": "Paid Social" },
+      "skos_narrower": []
+    },
+
+    {
+      "code": "DISPLAY",
+      "skos_prefLabel": "Display",
+      "skos_altLabel": ["Programmatic", "Banner", "Video (Non-Social)"],
+      "skos_note": "Display/DSP inventory including banner, native, and non-social video (GDN, TTD, Criteo, Adform, Taboola, publisher direct).",
+      "skos_scopeNote": "Mapping: audience_targeting.retargeting == true → DISPLAY_RETARGETING; else → DISPLAY_PROSPECTING.",
+      "skos_broader": { "code": "PAID", "label": "Paid Media" },
+      "skos_narrower": [
+        { "code": "DISPLAY_PROSPECTING", "label": "Prospecting (Display)" },
+        { "code": "DISPLAY_RETARGETING", "label": "Retargeting (Display)" }
+      ]
+    },
+    {
+      "code": "DISPLAY_PROSPECTING",
+      "skos_prefLabel": "Prospecting (Display)",
+      "skos_scopeNote": "Derived when audience_targeting.retargeting == false or missing.",
+      "skos_broader": { "code": "DISPLAY", "label": "Display" },
+      "skos_narrower": []
+    },
+    {
+      "code": "DISPLAY_RETARGETING",
+      "skos_prefLabel": "Retargeting (Display)",
+      "skos_scopeNote": "Derived when audience_targeting.retargeting == true.",
+      "skos_broader": { "code": "DISPLAY", "label": "Display" },
+      "skos_narrower": []
+    },
+
+    {
+      "code": "AFFILIATE",
+      "skos_prefLabel": "Affiliate",
+      "skos_altLabel": ["Partner Marketing"],
+      "skos_note": "Performance partnerships (Awin, Rakuten, CJ, Tradedoubler, Amazon Associates).",
+      "skos_broader": { "code": "PAID", "label": "Paid Media" },
+      "skos_narrower": [
+        { "code": "AFFILIATE_COUPON", "label": "Affiliate • Coupon" },
+        { "code": "AFFILIATE_CONTENT", "label": "Affiliate • Content" }
+      ]
+    },
+    { "code": "AFFILIATE_COUPON", "skos_prefLabel": "Affiliate • Coupon", "skos_broader": { "code": "AFFILIATE", "label": "Affiliate" }, "skos_narrower": [] },
+    { "code": "AFFILIATE_CONTENT", "skos_prefLabel": "Affiliate • Content", "skos_broader": { "code": "AFFILIATE", "label": "Affiliate" }, "skos_narrower": [] },
+
+    {
+      "code": "EMAIL",
+      "skos_prefLabel": "Email (Paid CRM)",
+      "skos_altLabel": ["CRM Email", "Newsletter"],
+      "skos_note": "Brand CRM email activities when counted as paid media (platform/sending costs).",
+      "skos_scopeNote": "Mapping: typically CRM audiences; retargeting flag may be ignored.",
+      "skos_broader": { "code": "PAID", "label": "Paid Media" },
+      "skos_narrower": []
+    },
+
+    {
+      "code": "PARTNERSHIP",
+      "skos_prefLabel": "Branded/Creator Partnership",
+      "skos_altLabel": ["Influencer Marketing", "Paid Influencer", "Branded Content"],
+      "skos_note": "Paid collaborations with creators or media brands for sponsored or co-created content.",
+      "skos_broader": { "code": "PAID", "label": "Paid Media" },
+      "skos_narrower": []
+    },
+
+    {
+      "code": "ECOM",
+      "skos_prefLabel": "Ecommerce",
+      "skos_altLabel": ["Webshop", "App Store"],
+      "skos_note": "Brand-owned transactional platforms for direct purchases or conversions.",
+      "skos_broader": { "code": "OWNED", "label": "Owned Media" },
+      "skos_narrower": []
+    },
+    {
+      "code": "SEO",
+      "skos_prefLabel": "SEO / Organic",
+      "skos_altLabel": ["Organic Search", "Content SEO"],
+      "skos_note": "Non-paid visibility on search engines through content and technical optimization.",
+      "skos_broader": { "code": "EARNED", "label": "Earned Media" },
+      "skos_narrower": []
+    },
+    {
+      "code": "PR",
+      "skos_prefLabel": "PR",
+      "skos_altLabel": ["Public Relations"],
+      "skos_note": "Brand reputation management and editorial exposure.",
+      "skos_broader": { "code": "EARNED", "label": "Earned Media" },
+      "skos_narrower": []
+    },
+    {
+      "code": "EARNED_INFLUENCER",
+      "skos_prefLabel": "Influencer • Organic Mentions",
+      "skos_altLabel": ["Earned Influencer"],
+      "skos_note": "Unpaid influencer or UGC mentions without sponsorship.",
+      "skos_broader": { "code": "EARNED", "label": "Earned Media" },
+      "skos_narrower": []
+    }
+  ]
+}

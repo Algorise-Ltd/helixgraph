@@ -1,0 +1,53 @@
+{"id":"___SECTION_SEASON_LABELS___","meta":"Season & Event Label Rules Below"}
+{"id":"P_SEASON_NAME_SUMMER","label_key":"season","label_value":"summer","applies_to":["campaign_name"],"type":"regex","pattern":"\\bsummer\\b|summer\\s*sale|cooling|heatwave","weight":0.90,"notes":"Infers summer season from campaign name keywords."}
+{"id":"P_SEASON_DATE_SUMMER","label_key":"season","label_value":"summer","applies_to":["start_date","end_date"],"type":"rule","pattern":{"any_of":[{"col":"start_date","month_in":[6,7,8]},{"col":"end_date","month_in":[6,7,8]}]},"weight":0.60,"notes":"If campaign period overlaps June–August, apply summer season label."}
+{"id":"P_SEASON_NAME_AUTUMN","label_key":"season","label_value":"autumn","applies_to":["campaign_name"],"type":"regex","pattern":"\\bautumn\\b|\\bfall\\b|back[\\s-]?to[\\s-]?school|b2s|harvest","weight":0.85,"notes":"Infers autumn/back-to-school period from campaign name keywords."}
+{"id":"P_SEASON_DATE_AUTUMN","label_key":"season","label_value":"autumn","applies_to":["start_date","end_date"],"type":"rule","pattern":{"any_of":[{"col":"start_date","month_in":[9,10,11]},{"col":"end_date","month_in":[9,10,11]}]},"weight":0.60,"notes":"If campaign period overlaps September–November, apply autumn season label."}
+{"id":"P_SEASON_NAME_WINTER","label_key":"season","label_value":"winter","applies_to":["campaign_name"],"type":"regex","pattern":"\\bwinter\\b|holiday|xmas|christmas|snow|cold|new\\s*year","weight":0.90,"notes":"Infers winter/holiday season from campaign name keywords."}
+{"id":"P_SEASON_DATE_WINTER","label_key":"season","label_value":"winter","applies_to":["start_date","end_date"],"type":"rule","pattern":{"any_of":[{"col":"start_date","month_in":[12,1,2]},{"col":"end_date","month_in":[12,1,2]}]},"weight":0.65,"notes":"If campaign period overlaps December–February, apply winter season label."}
+{"id":"P_SEASON_NAME_SPRING","label_key":"season","label_value":"spring","applies_to":["campaign_name"],"type":"regex","pattern":"\\bspring\\b|easter|bloom|refresh","weight":0.80,"notes":"Infers spring season from campaign name keywords."}
+{"id":"P_SEASON_DATE_SPRING","label_key":"season","label_value":"spring","applies_to":["start_date","end_date"],"type":"rule","pattern":{"any_of":[{"col":"start_date","month_in":[3,4,5]},{"col":"end_date","month_in":[3,4,5]}]},"weight":0.60,"notes":"If campaign period overlaps March–May, apply spring season label."}
+{"id":"P_EVENT_BLACK_FRIDAY_NAME","label_key":"event","label_value":"black_friday","applies_to":["campaign_name"],"type":"regex","pattern":"black\\s*friday|\\bbf\\b|cyber\\s*monday|cyber\\s*week","weight":0.95,"notes":"Detects Black Friday/Cyber campaigns from campaign name signals."}
+{"id":"P_EVENT_BLACK_FRIDAY_DATE","label_key":"event","label_value":"black_friday","applies_to":["start_date","end_date"],"type":"rule","pattern":{"any_of":[{"col":"start_date","month_in":[11]},{"col":"end_date","month_in":[11]}],"day_window_hint":{"start_day":20,"end_day":30}},"weight":0.55,"notes":"If campaign period overlaps ~Nov 20–30, apply Black Friday label (weaker fallback)."}
+{"id":"P_EVENT_MOTHERS_DAY_NAME","label_key":"event","label_value":"mothers_day","applies_to":["campaign_name"],"type":"regex","pattern":"mother'?s\\s*day|mothers\\s*day","weight":0.95,"notes":"Detects Mother’s Day gifting campaigns from name signals."}
+
+
+{"id":"___SECTION_BUDGET_TIER___","meta":"Budget Size Classification Rules Below"}
+{"id":"P_BUDGET_SMALL","label_key":"budget_tier","label_value":"small","applies_to":["budget"],"type":"range","pattern":{"lt":50000},"weight":0.95,"notes":"예산 < 50,000 EUR"}
+{"id":"P_BUDGET_MEDIUM","label_key":"budget_tier","label_value":"medium","applies_to":["budget"],"type":"range","pattern":{"gte":50000,"lte":200000},"weight":0.95,"notes":"50,000–200,000 EUR"}
+{"id":"P_BUDGET_LARGE","label_key":"budget_tier","label_value":"large","applies_to":["budget"],"type":"range","pattern":{"gt":200000},"weight":0.95,"notes":"예산 > 200,000 EUR"}
+
+
+{"id":"___SECTION_AUDIENCE_TYPE___","meta":"Audience Type Rules Below"}
+{"id":"P_AUDIENCE_RETARGETING","label_key":"audience_type","label_value":"retargeting","applies_to":["retargeting"],"type":"equals","pattern":true,"weight":0.98,"notes":"If retargeting flag is true, audience is retargeting."}
+{"id":"P_AUDIENCE_PROSPECTING","label_key":"audience_type","label_value":"prospecting","applies_to":["retargeting"],"type":"equals","pattern":false,"weight":0.70,"notes":"If retargeting flag is false, default to prospecting."}
+
+
+{"id":"___SECTION_BILLING_TYPE_DERIVED_SIGNAL___","meta":"Billing model category signals (no numeric computation)."}
+{"id":"P_BILLING_SIGNAL_CPC","label_key":"billing_unit","label_value":"click","applies_to":["billing_type"],"type":"equals","pattern":"cpc","weight":0.90,"notes":"Billing model charges per click → optimization unit = clicks."}
+{"id":"P_BILLING_SIGNAL_CPV","label_key":"billing_unit","label_value":"view","applies_to":["billing_type"],"type":"equals","pattern":"cpv","weight":0.90,"notes":"Billing model charges per view → optimization unit = views."}
+{"id":"P_BILLING_SIGNAL_CPA","label_key":"billing_unit","label_value":"conversion","applies_to":["billing_type"],"type":"equals","pattern":"cpa","weight":0.90,"notes":"Billing model charges per conversion → optimization unit = conversions."}
+{"id":"P_BILLING_SIGNAL_FLAT","label_key":"billing_unit","label_value":"flat_purchase","applies_to":["billing_type"],"type":"equals","pattern":"flat","weight":0.80,"notes":"Flat deals or sponsorship-style billing with no direct unit multiplier."}
+
+
+{"id":"___SECTION_BUDGET_TIER___","meta":"Budget tier rules"}
+{"id":"P_BUDGET_SMALL","label_key":"budget_tier","label_value":"small","applies_to":["budget"],"type":"range","pattern":{"lt":50000},"weight":0.95,"notes":"Budget < EUR 50,000."}
+{"id":"P_BUDGET_MEDIUM","label_key":"budget_tier","label_value":"medium","applies_to":["budget"],"type":"range","pattern":{"gte":50000,"lte":200000},"weight":0.95,"notes":"EUR 50,000–200,000."}
+{"id":"P_BUDGET_LARGE","label_key":"budget_tier","label_value":"large","applies_to":["budget"],"type":"range","pattern":{"gt":200000},"weight":0.95,"notes":"Budget > EUR 200,000."}
+
+{"id":"___SECTION_AUDIENCE_TYPE___","meta":"Audience classification from retargeting flag"}
+{"id":"P_AUDIENCE_RETARGETING","label_key":"audience_type","label_value":"retargeting","applies_to":["retargeting"],"type":"equals","pattern":true,"weight":0.98,"notes":"retargeting=True → retargeting."}
+{"id":"P_AUDIENCE_PROSPECTING","label_key":"audience_type","label_value":"prospecting","applies_to":["retargeting"],"type":"equals","pattern":false,"weight":0.95,"notes":"retargeting=False → prospecting."}
+
+{"id":"___SECTION_INTENT_FROM_CHANNEL_AND_AUDIENCE___","meta":"Campaign funnel intent from channel + audience + budget mix"}
+{"id":"P_INTENT_SOCIAL_DISPLAY_RT_CONV_STRONG","label_key":"intent","label_value":"conversion","applies_to":["channel","media_platform","ad_placement","audience_type","retargeting_budget_share","prospecting_budget_share"],"type":"rule","rule":{"all":[{"regex_any_of":{"cols":["channel","media_platform","ad_placement"],"pattern":"\\b(meta|facebook|instagram)\\b|facebook\\s*feed|google\\s*display|\\bgdn\\b"}},{"equals":{"col":"audience_type","value":"retargeting"}},{"compare_fields":{"left":"retargeting_budget_share","op":">","right":"prospecting_budget_share"}}]},"weight":0.92,"notes":"Retargeting-heavy Meta/Display campaigns are typically conversion-focused."}
+{"id":"P_INTENT_SOCIAL_DISPLAY_RT_CONV_FALLBACK","label_key":"intent","label_value":"conversion","applies_to":["channel","media_platform","ad_placement","audience_type"],"type":"rule","rule":{"all":[{"regex_any_of":{"cols":["channel","media_platform","ad_placement"],"pattern":"\\b(meta|facebook|instagram)\\b|facebook\\s*feed|google\\s*display|\\bgdn\\b"}},{"equals":{"col":"audience_type","value":"retargeting"}}]},"weight":0.85,"notes":"Social/Display + retargeting typically indicates conversion."}
+{"id":"P_INTENT_SOCIAL_DISPLAY_PR_CONSIDER","label_key":"intent","label_value":"consideration","applies_to":["channel","media_platform","ad_placement","audience_type","prospecting_budget_share","retargeting_budget_share"],"type":"rule","rule":{"all":[{"regex_any_of":{"cols":["channel","media_platform","ad_placement"],"pattern":"\\b(meta|facebook|instagram)\\b|facebook\\s*feed|google\\s*display|\\bgdn\\b"}},{"equals":{"col":"audience_type","value":"prospecting"}},{"compare_fields":{"left":"prospecting_budget_share","op":">","right":"retargeting_budget_share"}}]},"weight":0.78,"notes":"Prospecting-heavy social/display is typically mid-funnel consideration."}
+{"id":"P_INTENT_SEARCH_GENERIC_CONSIDER","label_key":"intent","label_value":"consideration","applies_to":["sem_keyword_type"],"type":"regex","pattern":"\\bgeneric\\b|\\bgen\\b","weight":0.70,"notes":"Generic search keywords indicate mid-funnel research/consideration."}
+{"id":"P_INTENT_RETARGETING_GLOBAL_CONV","label_key":"intent","label_value":"conversion","applies_to":["audience_type"],"type":"equals","pattern":"retargeting","weight":0.80,"notes":"Retargeting in general drives conversion-oriented intent."}
+
+{"id":"___SECTION_BILLING_SIGNAL___","meta":"Billing model derived primary KPI signal (not numeric inference)"}
+{"id":"P_BILLING_SIGNAL_CPC","label_key":"billing_unit_signal","label_value":"clicks","applies_to":["billing_type"],"type":"equals","pattern":"cpc","weight":0.70,"notes":"CPC → clicks are primary delivery unit."}
+{"id":"P_BILLING_SIGNAL_CPV","label_key":"billing_unit_signal","label_value":"views","applies_to":["billing_type"],"type":"equals","pattern":"cpv","weight":0.70,"notes":"CPV → views are primary delivery unit."}
+{"id":"P_BILLING_SIGNAL_CPA","label_key":"billing_unit_signal","label_value":"conversions","applies_to":["billing_type"],"type":"equals","pattern":"cpa","weight":0.70,"notes":"CPA → conversions are primary delivery unit."}
+{"id":"P_BILLING_SIGNAL_FLAT","label_key":"billing_unit_signal","label_value":"impressions","applies_to":["billing_type"],"type":"equals","pattern":"flat","weight":0.55,"notes":"Flat media buys → impressions are primary."}
