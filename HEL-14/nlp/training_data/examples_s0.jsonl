@@ -1,0 +1,3 @@
+{"text": "Campaign Apollo,Product X555,Search,Skyline Corp,INV-2043,PO-4493.", "spans": [{"start": 0, "end": 65, "label": "CAMPAIGN"}]}
+{"text": "Campaign Orion,Product P123,Email,BrightMart Ltd,INV-2041,PO-4491.", "spans": [{"start": 0, "end": 65, "label": "CAMPAIGN"}]}
+{"text": "Campaign Nova,SKU-987,Social,Acme Supplies,INV-2042,PO-4492.", "spans": [{"start": 0, "end": 59, "label": "CAMPAIGN"}]}
