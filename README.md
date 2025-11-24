@@ -198,10 +198,8 @@ pytest tests/test_api_integration.py --cov=api
 ## 📚 Documentation
 
 - **API Documentation:** `docs/API_DOCUMENTATION.md`
-- **Team Setup:** `TEAM_SETUP_GUIDE.md`
 - **RAG Integration:** `nlp/RAG_INTEGRATION_GUIDE.md`
 - **Entity Linking:** `nlp/ENTITY_LINKING_GUIDE.md`
-- **Task Completion:** `TASKS_345_COMPLETE.md`
 
 ---
 
@@ -209,8 +207,7 @@ pytest tests/test_api_integration.py --cov=api
 
 ### NER Model Files
 - Large model files (480MB) excluded from Git
-- Contact Ivan to get trained model
-- Or train locally using provided data
+- Contact Yixuan to get trained model if necessary
 
 ### Neo4j Credentials
 - **Never commit** `.env` file
@@ -221,44 +218,6 @@ pytest tests/test_api_integration.py --cov=api
 - Python 3.11+
 - FastAPI, Neo4j driver, spaCy
 - See `requirements.txt` for full list
-
----
-
-## 🎉 What's Working
-
-✅ **Entity Linking** - 96.4% accuracy on test set  
-✅ **API with Real Neo4j** - Queries 261 suppliers, 100 products  
-✅ **29 Integration Tests** - All passing  
-✅ **Complete Documentation** - Ready for team use  
-✅ **RAG Integration Interface** - Simple API for Mert
-
----
-
-## 🔄 Next Steps
-
-**Immediate:**
-1. Sun: Review PR and setup local environment
-2. Mert: Integrate entity extraction into RAG system
-3. Ivan: Share NER model files with team
-
-**Future (Sprint 3):**
-1. Deploy FastAPI to production
-2. Add authentication & rate limiting
-3. Expand Neo4j data with financial metrics
-4. Integrate RAG with frontend
-
----
-
-## 📞 Contact
-
-**Questions?**
-- GitHub Issues: https://github.com/Algorise-Ltd/helixgraph/issues
-- Email: ivan.guoyixuan@gmail.com
-- Team Slack/Discord
-
-**Documentation:**
-- Interactive API: http://localhost:8000/docs
-- ReDoc: http://localhost:8000/redoc
 
 ---
 
