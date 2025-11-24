@@ -1,0 +1,267 @@
+{
+  "info": {
+    "name": "HelixGraph API",
+    "description": "Business intelligence queries across marketing, procurement, and HR data",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "version": "1.0.0"
+  },
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/health",
+          "host": ["{{base_url}}"],
+          "path": ["health"]
+        },
+        "description": "Check API and database connectivity status"
+      },
+      "response": []
+    },
+    {
+      "name": "Top Suppliers by ROI",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/v1/suppliers/top-roi?min_roi=1.0&limit=10&sort=desc",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "suppliers", "top-roi"],
+          "query": [
+            {
+              "key": "min_roi",
+              "value": "1.0",
+              "description": "Minimum ROI threshold (>=0)"
+            },
+            {
+              "key": "limit",
+              "value": "10",
+              "description": "Maximum number of results (1-100)"
+            },
+            {
+              "key": "sort",
+              "value": "desc",
+              "description": "Sort order: asc or desc"
+            }
+          ]
+        },
+        "description": "Get suppliers ranked by Return on Investment (ROI)\n\nROI = (Total Revenue from Campaigns) / (Total Spent on POs)\n\nUse cases:\n- Supplier performance reviews\n- Budget allocation decisions\n- Strategic partnership identification"
+      },
+      "response": [
+        {
+          "name": "Success Response",
+          "originalRequest": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/v1/suppliers/top-roi?min_roi=2.0&limit=5&sort=desc",
+              "host": ["{{base_url}}"],
+              "path": ["api", "v1", "suppliers", "top-roi"],
+              "query": [
+                {"key": "min_roi", "value": "2.0"},
+                {"key": "limit", "value": "5"},
+                {"key": "sort", "value": "desc"}
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "body": "{\n  \"suppliers\": [\n    {\n      \"supplier_id\": \"SUP-001\",\n      \"supplier_name\": \"TechSupply GmbH\",\n      \"total_spent\": 150000.0,\n      \"total_revenue\": 450000.0,\n      \"roi\": 3.0,\n      \"campaign_count\": 5,\n      \"po_count\": 12\n    }\n  ],\n  \"total_count\": 1,\n  \"min_roi_filter\": 2.0\n}"
+        }
+      ]
+    },
+    {
+      "name": "Campaign Team Skill Gaps",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/v1/campaigns/:campaign_id/team-gaps",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "campaigns", ":campaign_id", "team-gaps"],
+          "variable": [
+            {
+              "key": "campaign_id",
+              "value": "CAMP-001",
+              "description": "Campaign identifier"
+            }
+          ]
+        },
+        "description": "Analyze skill gaps in a campaign team by comparing required vs available skills.\n\nSeverity Levels:\n- Critical: Gap >= 3 or required skills completely missing\n- High: Gap = 2\n- Medium: Gap = 1\n- Low: Gap < 1\n\nUse cases:\n- Hiring decisions\n- Training program planning\n- Resource reallocation\n- Risk assessment"
+      },
+      "response": [
+        {
+          "name": "Success Response",
+          "originalRequest": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/v1/campaigns/CAMP-001/team-gaps",
+              "host": ["{{base_url}}"],
+              "path": ["api", "v1", "campaigns", "CAMP-001", "team-gaps"]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "body": "{\n  \"campaign_id\": \"CAMP-001\",\n  \"campaign_name\": \"Spring Launch 2024\",\n  \"team_size\": 8,\n  \"skill_gaps\": [\n    {\n      \"skill_name\": \"Python\",\n      \"required_count\": 3,\n      \"available_count\": 1,\n      \"gap\": 2,\n      \"severity\": \"High\"\n    }\n  ],\n  \"total_gaps\": 2,\n  \"critical_gaps\": 1\n}"
+        },
+        {
+          "name": "Not Found",
+          "originalRequest": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/v1/campaigns/INVALID/team-gaps",
+              "host": ["{{base_url}}"],
+              "path": ["api", "v1", "campaigns", "INVALID", "team-gaps"]
+            }
+          },
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "body": "{\n  \"detail\": \"Campaign with ID 'INVALID' not found\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "High-Conversion Products",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/v1/products/high-conversion?min_conversion=0.01&limit=10",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "products", "high-conversion"],
+          "query": [
+            {
+              "key": "min_conversion",
+              "value": "0.01",
+              "description": "Minimum conversion rate (0-1), e.g., 0.03 = 3%"
+            },
+            {
+              "key": "category",
+              "value": "",
+              "description": "Optional product category filter",
+              "disabled": true
+            },
+            {
+              "key": "limit",
+              "value": "10",
+              "description": "Maximum number of results (1-100)"
+            }
+          ]
+        },
+        "description": "Get products with high conversion rates from marketing campaigns.\n\nConversion Rate = (Total Conversions) / (Total Impressions)\n\nBenchmarks:\n- 0.05+ (5%): Excellent\n- 0.03-0.05 (3-5%): Good\n- 0.01-0.03 (1-3%): Average\n- <0.01 (<1%): Poor\n\nUse cases:\n- Marketing budget allocation\n- Product portfolio optimization\n- Campaign planning\n- Inventory decisions"
+      },
+      "response": [
+        {
+          "name": "Success Response",
+          "originalRequest": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/v1/products/high-conversion?min_conversion=0.03&limit=5",
+              "host": ["{{base_url}}"],
+              "path": ["api", "v1", "products", "high-conversion"],
+              "query": [
+                {"key": "min_conversion", "value": "0.03"},
+                {"key": "limit", "value": "5"}
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "body": "{\n  \"products\": [\n    {\n      \"product_id\": \"PROD-123\",\n      \"product_name\": \"iPhone 15 Pro\",\n      \"category\": \"Electronics\",\n      \"total_impressions\": 100000,\n      \"total_conversions\": 5000,\n      \"conversion_rate\": 0.05,\n      \"revenue\": 5000000.0,\n      \"campaign_count\": 3\n    }\n  ],\n  \"total_count\": 1,\n  \"min_conversion_filter\": 0.03,\n  \"category_filter\": null\n}"
+        }
+      ]
+    },
+    {
+      "name": "High-Conversion Products (with Category)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/v1/products/high-conversion?min_conversion=0.01&category=Electronics&limit=10",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "products", "high-conversion"],
+          "query": [
+            {
+              "key": "min_conversion",
+              "value": "0.01"
+            },
+            {
+              "key": "category",
+              "value": "Electronics"
+            },
+            {
+              "key": "limit",
+              "value": "10"
+            }
+          ]
+        },
+        "description": "Get high-conversion products filtered by category"
+      },
+      "response": []
+    },
+    {
+      "name": "Supplier Risk Assessment",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/v1/suppliers/:supplier_id/risk",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "suppliers", ":supplier_id", "risk"],
+          "variable": [
+            {
+              "key": "supplier_id",
+              "value": "SUP-001",
+              "description": "Supplier identifier"
+            }
+          ]
+        },
+        "description": "Get comprehensive risk assessment for a supplier.\n\nRisk Scoring:\n- 0-30: Low risk\n- 31-60: Medium risk\n- 61-80: High risk\n- 81-100: Critical risk\n\nRisk Factors:\n- Payment history (30% weight)\n- Delivery performance (25% weight)\n- Quality metrics (25% weight)\n- Financial stability (20% weight)\n\nUse cases:\n- Vendor evaluation\n- Procurement decisions\n- Risk mitigation planning\n- Contract renewals"
+      },
+      "response": [
+        {
+          "name": "Success Response",
+          "originalRequest": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/v1/suppliers/SUP-001/risk",
+              "host": ["{{base_url}}"],
+              "path": ["api", "v1", "suppliers", "SUP-001", "risk"]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "body": "{\n  \"supplier_id\": \"SUP-001\",\n  \"supplier_name\": \"TechSupply GmbH\",\n  \"overall_risk_score\": 35.5,\n  \"risk_level\": \"low\",\n  \"total_outstanding\": 50000.0,\n  \"overdue_invoices\": 1,\n  \"overdue_amount\": 5000.0,\n  \"on_time_delivery_rate\": 0.95,\n  \"quality_score\": 0.92,\n  \"active_contracts\": 3,\n  \"risk_flags\": []\n}"
+        },
+        {
+          "name": "Not Found",
+          "originalRequest": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/v1/suppliers/INVALID/risk",
+              "host": ["{{base_url}}"],
+              "path": ["api", "v1", "suppliers", "INVALID", "risk"]
+            }
+          },
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "body": "{\n  \"detail\": \"Supplier with ID 'INVALID' not found\"\n}"
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:8000",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+[
+  {
+    "skill_id": "SKILL001",
+    "name": "Python",
+    "category": "Technical"
+  },
+  {
+    "skill_id": "SKILL002",
+    "name": "Java",
+    "category": "Technical"
+  },
+  {
+    "skill_id": "SKILL003",
+    "name": "JavaScript",
+    "category": "Technical"
+  },
+  {
+    "skill_id": "SKILL004",
+    "name": "TypeScript",
+    "category": "Technical"
+  },
+  {
+    "skill_id": "SKILL005",
+    "name": "C++",
+    "category": "Technical"
+  },
+  {
+    "skill_id": "SKILL006",
+    "name": "Go",
+    "category": "Technical"
+  },
+  {
+    "skill_id": "SKILL007",
+    "name": "SQL",
+    "category": "Technical"
+  },
+  {
+    "skill_id": "SKILL008",
+    "name": "React",
+    "category": "Technical"
+  },
+  {
+    "skill_id": "SKILL009",
+    "name": "Node.js",
+    "category": "Technical"
+  },
+  {
+    "skill_id": "SKILL010",
+    "name": "Machine Learning",
+    "category": "Technical"
+  },
+  {
+    "skill_id": "SKILL011",
+    "name": "Data Analysis",
+    "category": "Technical"
+  },
+  {
+    "skill_id": "SKILL012",
+    "name": "API Design",
+    "category": "Technical"
+  },
+  {
+    "skill_id": "SKILL013",
+    "name": "Docker",
+    "category": "Tool"
+  },
+  {
+    "skill_id": "SKILL014",
+    "name": "Kubernetes",
+    "category": "Tool"
+  },
+  {
+    "skill_id": "SKILL015",
+    "name": "Git",
+    "category": "Tool"
+  },
+  {
+    "skill_id": "SKILL016",
+    "name": "AWS",
+    "category": "Tool"
+  },
+  {
+    "skill_id": "SKILL017",
+    "name": "Azure",
+    "category": "Tool"
+  },
+  {
+    "skill_id": "SKILL018",
+    "name": "Salesforce",
+    "category": "Tool"
+  },
+  {
+    "skill_id": "SKILL019",
+    "name": "Tableau",
+    "category": "Tool"
+  },
+  {
+    "skill_id": "SKILL020",
+    "name": "Excel",
+    "category": "Tool"
+  },
+  {
+    "skill_id": "SKILL021",
+    "name": "Jira",
+    "category": "Tool"
+  },
+  {
+    "skill_id": "SKILL022",
+    "name": "Figma",
+    "category": "Tool"
+  },
+  {
+    "skill_id": "SKILL023",
+    "name": "Leadership",
+    "category": "Soft Skill"
+  },
+  {
+    "skill_id": "SKILL024",
+    "name": "Communication",
+    "category": "Soft Skill"
+  },
+  {
+    "skill_id": "SKILL025",
+    "name": "Problem Solving",
+    "category": "Soft Skill"
+  },
+  {
+    "skill_id": "SKILL026",
+    "name": "Team Collaboration",
+    "category": "Soft Skill"
+  },
+  {
+    "skill_id": "SKILL027",
+    "name": "Project Management",
+    "category": "Soft Skill"
+  },
+  {
+    "skill_id": "SKILL028",
+    "name": "Negotiation",
+    "category": "Soft Skill"
+  },
+  {
+    "skill_id": "SKILL029",
+    "name": "Public Speaking",
+    "category": "Soft Skill"
+  },
+  {
+    "skill_id": "SKILL030",
+    "name": "Critical Thinking",
+    "category": "Soft Skill"
+  },
+  {
+    "skill_id": "SKILL031",
+    "name": "Time Management",
+    "category": "Soft Skill"
+  },
+  {
+    "skill_id": "SKILL032",
+    "name": "Mentoring",
+    "category": "Soft Skill"
+  },
+  {
+    "skill_id": "SKILL033",
+    "name": "Digital Marketing",
+    "category": "Domain"
+  },
+  {
+    "skill_id": "SKILL034",
+    "name": "SEO/SEM",
+    "category": "Domain"
+  },
+  {
+    "skill_id": "SKILL035",
+    "name": "Content Strategy",
+    "category": "Domain"
+  },
+  {
+    "skill_id": "SKILL036",
+    "name": "Financial Modeling",
+    "category": "Domain"
+  },
+  {
+    "skill_id": "SKILL037",
+    "name": "Accounting",
+    "category": "Domain"
+  },
+  {
+    "skill_id": "SKILL038",
+    "name": "Sales Strategy",
+    "category": "Domain"
+  },
+  {
+    "skill_id": "SKILL039",
+    "name": "Customer Success",
+    "category": "Domain"
+  },
+  {
+    "skill_id": "SKILL040",
+    "name": "Recruitment",
+    "category": "Domain"
+  },
+  {
+    "skill_id": "SKILL041",
+    "name": "HR Policies",
+    "category": "Domain"
+  },
+  {
+    "skill_id": "SKILL042",
+    "name": "Supply Chain",
+    "category": "Domain"
+  },
+  {
+    "skill_id": "SKILL043",
+    "name": "Agile/Scrum",
+    "category": "Domain"
+  },
+  {
+    "skill_id": "SKILL044",
+    "name": "DevOps",
+    "category": "Domain"
+  },
+  {
+    "skill_id": "SKILL045",
+    "name": "English",
+    "category": "Language"
+  },
+  {
+    "skill_id": "SKILL046",
+    "name": "Spanish",
+    "category": "Language"
+  },
+  {
+    "skill_id": "SKILL047",
+    "name": "Mandarin",
+    "category": "Language"
+  },
+  {
+    "skill_id": "SKILL048",
+    "name": "French",
+    "category": "Language"
+  },
+  {
+    "skill_id": "SKILL049",
+    "name": "German",
+    "category": "Language"
+  },
+  {
+    "skill_id": "SKILL050",
+    "name": "Japanese",
+    "category": "Language"
+  }
+]

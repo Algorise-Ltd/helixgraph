@@ -1,0 +1,39 @@
+{
+  "overall_accuracy": 0.9644670050761421,
+  "by_type": {
+    "SUPPLIER": {
+      "correct": 25,
+      "total": 25
+    },
+    "PRODUCT": {
+      "correct": 24,
+      "total": 24
+    },
+    "CAMPAIGN": {
+      "correct": 23,
+      "total": 25
+    },
+    "CONTRACT": {
+      "correct": 23,
+      "total": 25
+    },
+    "PO": {
+      "correct": 24,
+      "total": 25
+    },
+    "INVOICE": {
+      "correct": 24,
+      "total": 25
+    },
+    "ROLE": {
+      "correct": 24,
+      "total": 25
+    },
+    "SKILL": {
+      "correct": 23,
+      "total": 23
+    }
+  },
+  "total": 197,
+  "correct": 190
+}
