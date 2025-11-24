@@ -1,3 +1,0 @@
-Campaign Apollo,Product X555,Search,Skyline Corp,INV-2043,PO-4493.
-Campaign Orion,Product P123,Email,BrightMart Ltd,INV-2041,PO-4491.
-Campaign Nova,SKU-987,Social,Acme Supplies,INV-2042,PO-4492.
