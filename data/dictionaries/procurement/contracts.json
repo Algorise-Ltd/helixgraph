@@ -1,0 +1,1878 @@
+{
+    "CTR-02a24c6cf8": {
+        "suppliers": [
+            "SUP-e3b094e6"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-c773fe5005"
+        ]
+    },
+    "CTR-042ce3d3d5": {
+        "suppliers": [
+            "SUP-40323d69"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-0c23fed2c9"
+        ]
+    },
+    "CTR-0431f4fc60": {
+        "suppliers": [
+            "SUP-f51627c3"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-d7f0077c59"
+        ]
+    },
+    "CTR-068c07d049": {
+        "suppliers": [
+            "SUP-5b644de3"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-bc8d3ac028"
+        ]
+    },
+    "CTR-081495707c": {
+        "suppliers": [
+            "SUP-b698c816"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-f9c8007918"
+        ]
+    },
+    "CTR-0b66c83171": {
+        "suppliers": [
+            "SUP-ef4f46f6"
+        ],
+        "po_count": 2,
+        "purchase_orders": [
+            "PO-f1d54a1e40",
+            "PO-0082216988"
+        ]
+    },
+    "CTR-0c2029d64e": {
+        "suppliers": [
+            "SUP-2ff4f7d2"
+        ],
+        "po_count": 10,
+        "purchase_orders": [
+            "PO-b323efa212",
+            "PO-90d8a01ab7",
+            "PO-ef1f80c659",
+            "PO-dbb01ec4d3",
+            "PO-dd4ab098e0",
+            "PO-c3f6955007",
+            "PO-b7a86b8d65",
+            "PO-87e7de225e",
+            "PO-afe5f4ccc1",
+            "PO-8e8407588a"
+        ]
+    },
+    "CTR-12e39f92ae": {
+        "suppliers": [
+            "SUP-1ad4168d"
+        ],
+        "po_count": 18,
+        "purchase_orders": [
+            "PO-50be61fdbd",
+            "PO-1d735612a3",
+            "PO-a0dceba241",
+            "PO-cc30e80046",
+            "PO-b41f05232a",
+            "PO-ec60572d7d",
+            "PO-c121cfe826",
+            "PO-922fdbb317",
+            "PO-959afc3fce",
+            "PO-ee41a3b55f",
+            "PO-464068fa65",
+            "PO-853e0ba396",
+            "PO-d956c1f534",
+            "PO-6026294350",
+            "PO-382017e20e",
+            "PO-e04ac0974c",
+            "PO-ed038ec6b2",
+            "PO-75dfd794e3"
+        ]
+    },
+    "CTR-12f42473aa": {
+        "suppliers": [
+            "SUP-9ff94fc5"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-40dfa1ca52"
+        ]
+    },
+    "CTR-143ba5535c": {
+        "suppliers": [
+            "SUP-f51627c3"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-e5d41ab3e0"
+        ]
+    },
+    "CTR-150b7505c0": {
+        "suppliers": [
+            "SUP-5b644de3"
+        ],
+        "po_count": 7,
+        "purchase_orders": [
+            "PO-6aacc27f54",
+            "PO-a1532ab998",
+            "PO-69c294e515",
+            "PO-1282f43923",
+            "PO-c051176a65",
+            "PO-29d2830546",
+            "PO-61cb0ae2ed"
+        ]
+    },
+    "CTR-1524ceca0c": {
+        "suppliers": [
+            "SUP-d5070d29"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-b54370a75a"
+        ]
+    },
+    "CTR-1561a35dbc": {
+        "suppliers": [
+            "SUP-7da5d1cd"
+        ],
+        "po_count": 8,
+        "purchase_orders": [
+            "PO-9c5ccbe27d",
+            "PO-a376078a32",
+            "PO-7f273ef2b4",
+            "PO-de956df619",
+            "PO-51e72adb9c",
+            "PO-5ec99f2c01",
+            "PO-468b12bbea",
+            "PO-e906d92a7b"
+        ]
+    },
+    "CTR-158b587efe": {
+        "suppliers": [
+            "SUP-4c1f08d1"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-fd1b68ba75"
+        ]
+    },
+    "CTR-15bda84884": {
+        "suppliers": [
+            "SUP-b3574a98"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-c2f4702323"
+        ]
+    },
+    "CTR-171ab9a4b8": {
+        "suppliers": [
+            "SUP-d5310ee0"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-1e17ca7cd8"
+        ]
+    },
+    "CTR-18d8fd6bec": {
+        "suppliers": [
+            "SUP-4c1f08d1"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-686f0ca6c3"
+        ]
+    },
+    "CTR-19562167d3": {
+        "suppliers": [
+            "SUP-c90450b4"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-6e7e1bb1d5"
+        ]
+    },
+    "CTR-1a687507ed": {
+        "suppliers": [
+            "SUP-b696b2db"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-6275bb2016"
+        ]
+    },
+    "CTR-1b9d005bd9": {
+        "suppliers": [
+            "SUP-42f4351e"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-bb99dff97a"
+        ]
+    },
+    "CTR-1d372f0a94": {
+        "suppliers": [
+            "SUP-71b0dbc0"
+        ],
+        "po_count": 7,
+        "purchase_orders": [
+            "PO-4b8d8baaaf",
+            "PO-257d9056af",
+            "PO-a41ce5f4cc",
+            "PO-684b4d3c92",
+            "PO-a14d9f68a7",
+            "PO-24c1754581",
+            "PO-f4d30dd8c7"
+        ]
+    },
+    "CTR-1dc10c8178": {
+        "suppliers": [
+            "SUP-9ab4c841"
+        ],
+        "po_count": 8,
+        "purchase_orders": [
+            "PO-8fea284cc5",
+            "PO-9670457d9f",
+            "PO-fb7be565c6",
+            "PO-0b7ef9da25",
+            "PO-c2b0d48904",
+            "PO-1471ef0ebc",
+            "PO-656579ee9e",
+            "PO-581651b6bf"
+        ]
+    },
+    "CTR-2136bba733": {
+        "suppliers": [
+            "SUP-f51627c3"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-e7bd42f5ab"
+        ]
+    },
+    "CTR-21ac72a886": {
+        "suppliers": [
+            "SUP-095755cc"
+        ],
+        "po_count": 5,
+        "purchase_orders": [
+            "PO-df87b7ff21",
+            "PO-70021f0b33",
+            "PO-e77d104c37",
+            "PO-5c439f4618",
+            "PO-37f32be03a"
+        ]
+    },
+    "CTR-22419e3865": {
+        "suppliers": [
+            "SUP-78d16a29"
+        ],
+        "po_count": 2,
+        "purchase_orders": [
+            "PO-597ca9bf55",
+            "PO-e1d2597e7d"
+        ]
+    },
+    "CTR-22d656842e": {
+        "suppliers": [
+            "SUP-6ff67a14"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-3712f8d90d"
+        ]
+    },
+    "CTR-2337891cb4": {
+        "suppliers": [
+            "SUP-a6bf43b5"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-34acc0321d"
+        ]
+    },
+    "CTR-24fcb19269": {
+        "suppliers": [
+            "SUP-7c4f57ca"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-fbee58d4ef"
+        ]
+    },
+    "CTR-251fad61cd": {
+        "suppliers": [
+            "SUP-dc7200b3"
+        ],
+        "po_count": 13,
+        "purchase_orders": [
+            "PO-e828c38b8f",
+            "PO-a8e6f82b31",
+            "PO-fabd105eda",
+            "PO-5b5294f832",
+            "PO-84b65681e8",
+            "PO-aa9377544e",
+            "PO-944d198736",
+            "PO-009174a006",
+            "PO-386a73491e",
+            "PO-c9a256361e",
+            "PO-0623fa1915",
+            "PO-0136c5c2d9",
+            "PO-e10935622a"
+        ]
+    },
+    "CTR-262164a97f": {
+        "suppliers": [
+            "SUP-951bb191"
+        ],
+        "po_count": 4,
+        "purchase_orders": [
+            "PO-39bd9af94e",
+            "PO-83c00bd20e",
+            "PO-54e88de2da",
+            "PO-1fef1036f2"
+        ]
+    },
+    "CTR-28173c7580": {
+        "suppliers": [
+            "SUP-fdba5ddb"
+        ],
+        "po_count": 2,
+        "purchase_orders": [
+            "PO-2748e6352e",
+            "PO-5c0001a857"
+        ]
+    },
+    "CTR-2bb78435ab": {
+        "suppliers": [
+            "SUP-ba9ca7ce"
+        ],
+        "po_count": 7,
+        "purchase_orders": [
+            "PO-537189dc5f",
+            "PO-95fb0c98cf",
+            "PO-eaf4007564",
+            "PO-8ced934735",
+            "PO-f393ce2f92",
+            "PO-6843bcbacd",
+            "PO-320d4cc71a"
+        ]
+    },
+    "CTR-31ae691ad6": {
+        "suppliers": [
+            "SUP-4e48d2a1"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-c0b528538c"
+        ]
+    },
+    "CTR-33bf34d76a": {
+        "suppliers": [
+            "SUP-8f130e29"
+        ],
+        "po_count": 11,
+        "purchase_orders": [
+            "PO-0787f10e96",
+            "PO-0ac3c8ba7e",
+            "PO-ce9b8cce08",
+            "PO-400a5632f7",
+            "PO-e33313f174",
+            "PO-a457aec32b",
+            "PO-542bd4db97",
+            "PO-f5f19bd922",
+            "PO-7d2d324ccc",
+            "PO-b8d8600064",
+            "PO-a9257f821f"
+        ]
+    },
+    "CTR-39e61fc831": {
+        "suppliers": [
+            "SUP-5821be90"
+        ],
+        "po_count": 8,
+        "purchase_orders": [
+            "PO-e226d3c49e",
+            "PO-2c37e51d5e",
+            "PO-9e023ee9e2",
+            "PO-1abb01a22e",
+            "PO-b47b91788e",
+            "PO-a034402388",
+            "PO-7972e2e56a",
+            "PO-15c24b0b35"
+        ]
+    },
+    "CTR-3a8152d79a": {
+        "suppliers": [
+            "SUP-8cce4e62"
+        ],
+        "po_count": 9,
+        "purchase_orders": [
+            "PO-42cb3224f2",
+            "PO-039c94fd30",
+            "PO-00be49fb81",
+            "PO-434ec03078",
+            "PO-b47bd7f644",
+            "PO-b65fa22f9a",
+            "PO-31eb7286de",
+            "PO-06b5d6e63f",
+            "PO-bf2b3dfe3d"
+        ]
+    },
+    "CTR-3e51efe7df": {
+        "suppliers": [
+            "SUP-20466636"
+        ],
+        "po_count": 6,
+        "purchase_orders": [
+            "PO-6e609d0a48",
+            "PO-bf21347b32",
+            "PO-515d128220",
+            "PO-66cd776d0f",
+            "PO-e788259e80",
+            "PO-3aadf586b3"
+        ]
+    },
+    "CTR-3ea20fe0b4": {
+        "suppliers": [
+            "SUP-42f4351e"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-053cd09fb8"
+        ]
+    },
+    "CTR-4059f63271": {
+        "suppliers": [
+            "SUP-3bb3c1bb"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-7d2edbf768"
+        ]
+    },
+    "CTR-41f9684029": {
+        "suppliers": [
+            "SUP-a18388f5"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-85c6b95923"
+        ]
+    },
+    "CTR-421da1eb04": {
+        "suppliers": [
+            "SUP-0f1b4421"
+        ],
+        "po_count": 6,
+        "purchase_orders": [
+            "PO-523a6c87ed",
+            "PO-8422f5d74a",
+            "PO-06cf2d25b3",
+            "PO-e3c5c1e612",
+            "PO-3dbb70f9ba",
+            "PO-9e46ddf86b"
+        ]
+    },
+    "CTR-448ac2b5c9": {
+        "suppliers": [
+            "SUP-71b0dbc0"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-b482853611"
+        ]
+    },
+    "CTR-4a04e1f868": {
+        "suppliers": [
+            "SUP-7e6cfcb7"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-bcb9ad5646"
+        ]
+    },
+    "CTR-4b1602d6a1": {
+        "suppliers": [
+            "SUP-5a5f9ad7"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-c8135520ba"
+        ]
+    },
+    "CTR-4cdde515a5": {
+        "suppliers": [
+            "SUP-46027d2b"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-aaa8f779ef"
+        ]
+    },
+    "CTR-4e2897ebfd": {
+        "suppliers": [
+            "SUP-70160bc7"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-527df9601a"
+        ]
+    },
+    "CTR-4edbfff4e8": {
+        "suppliers": [
+            "SUP-bf59cdda"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-8b7024d098"
+        ]
+    },
+    "CTR-53371d8f84": {
+        "suppliers": [
+            "SUP-4fcbf305"
+        ],
+        "po_count": 6,
+        "purchase_orders": [
+            "PO-408c5677b5",
+            "PO-d0409fc109",
+            "PO-9e786962a2",
+            "PO-8877aa2d27",
+            "PO-463d5079b0",
+            "PO-23f14eb568"
+        ]
+    },
+    "CTR-54c98c43d9": {
+        "suppliers": [
+            "SUP-5005b635"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-2f1b09e4e6"
+        ]
+    },
+    "CTR-55d91637ed": {
+        "suppliers": [
+            "SUP-b37e9892"
+        ],
+        "po_count": 8,
+        "purchase_orders": [
+            "PO-a2b7bbe8b9",
+            "PO-959c5de7c6",
+            "PO-ec9118604a",
+            "PO-06b8c5e5c9",
+            "PO-4d202b07c8",
+            "PO-b81f3947d8",
+            "PO-1c6bd2417e",
+            "PO-e8996200a3"
+        ]
+    },
+    "CTR-571a6ae68d": {
+        "suppliers": [
+            "SUP-e3b094e6"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-58308ff407"
+        ]
+    },
+    "CTR-571c8ffcfb": {
+        "suppliers": [
+            "SUP-e8fe7738"
+        ],
+        "po_count": 8,
+        "purchase_orders": [
+            "PO-f10f61a304",
+            "PO-e37fd90b66",
+            "PO-1fa1791550",
+            "PO-164524b62b",
+            "PO-b138bdf77c",
+            "PO-dc63595a1d",
+            "PO-531822711d",
+            "PO-be68fa4715"
+        ]
+    },
+    "CTR-581c328faf": {
+        "suppliers": [
+            "SUP-62adab5f"
+        ],
+        "po_count": 10,
+        "purchase_orders": [
+            "PO-225ccc5b43",
+            "PO-46ae754f1a",
+            "PO-8c7dba321d",
+            "PO-bdac748357",
+            "PO-1eb4e598b2",
+            "PO-9a1847c30a",
+            "PO-74a829f16f",
+            "PO-a822c1d38a",
+            "PO-4c8d43b73b",
+            "PO-1a63a0672c"
+        ]
+    },
+    "CTR-582f400036": {
+        "suppliers": [
+            "SUP-f5e2bccc"
+        ],
+        "po_count": 2,
+        "purchase_orders": [
+            "PO-94e643adcb",
+            "PO-0af55d9bdb"
+        ]
+    },
+    "CTR-5af79513a3": {
+        "suppliers": [
+            "SUP-6a7eb83b"
+        ],
+        "po_count": 12,
+        "purchase_orders": [
+            "PO-2bb12172b2",
+            "PO-a605c99786",
+            "PO-5c76afde95",
+            "PO-302b6a70e2",
+            "PO-066c7e15af",
+            "PO-4867e3ae08",
+            "PO-33ce603d22",
+            "PO-f844b628dc",
+            "PO-22a848b844",
+            "PO-135b2709dd",
+            "PO-83e45cb15a",
+            "PO-f6b3d68fb4"
+        ]
+    },
+    "CTR-5b41df3a94": {
+        "suppliers": [
+            "SUP-24da1076"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-7811fa2674"
+        ]
+    },
+    "CTR-5e9a1c9353": {
+        "suppliers": [
+            "SUP-151393d1"
+        ],
+        "po_count": 7,
+        "purchase_orders": [
+            "PO-f25b16d019",
+            "PO-9610bda842",
+            "PO-afe3b03b90",
+            "PO-3c3a944aaa",
+            "PO-32ce581786",
+            "PO-1377ba48c3",
+            "PO-3ff7377ddc"
+        ]
+    },
+    "CTR-5ecdd1098c": {
+        "suppliers": [
+            "SUP-09551065"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-58ac6f5407"
+        ]
+    },
+    "CTR-60584fc9b2": {
+        "suppliers": [
+            "SUP-d592ad64"
+        ],
+        "po_count": 9,
+        "purchase_orders": [
+            "PO-def64686d2",
+            "PO-54fd4c053b",
+            "PO-2d6ee69427",
+            "PO-ea29c313bf",
+            "PO-8b803fbb3a",
+            "PO-ef36061003",
+            "PO-8491a99c2c",
+            "PO-9e2ee5557b",
+            "PO-35b2195a10"
+        ]
+    },
+    "CTR-61a4c9c7b6": {
+        "suppliers": [
+            "SUP-cdc1dd6c"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-3b5bf11537"
+        ]
+    },
+    "CTR-647fcb0db1": {
+        "suppliers": [
+            "SUP-2effe0e0"
+        ],
+        "po_count": 5,
+        "purchase_orders": [
+            "PO-8fb29c0f71",
+            "PO-fd24cbb04e",
+            "PO-fdd2c2c505",
+            "PO-1182f9329e",
+            "PO-a9ec8b4600"
+        ]
+    },
+    "CTR-664fde6993": {
+        "suppliers": [
+            "SUP-ba631f31"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-9913c0fae5"
+        ]
+    },
+    "CTR-68781f4885": {
+        "suppliers": [
+            "SUP-5ea4afd1"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-1058c070a7"
+        ]
+    },
+    "CTR-69b0a1f9d4": {
+        "suppliers": [
+            "SUP-7c4f57ca"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-c0a0d71a5b"
+        ]
+    },
+    "CTR-6db0446113": {
+        "suppliers": [
+            "SUP-5abfa819"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-fbba85f96b"
+        ]
+    },
+    "CTR-6fad66d28c": {
+        "suppliers": [
+            "SUP-7d4ced31"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-56df77d5a7"
+        ]
+    },
+    "CTR-7175a75689": {
+        "suppliers": [
+            "SUP-e3b094e6"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-36fa460dd2"
+        ]
+    },
+    "CTR-71ee57541b": {
+        "suppliers": [
+            "SUP-396d7de2"
+        ],
+        "po_count": 5,
+        "purchase_orders": [
+            "PO-69b323d52a",
+            "PO-8aff2f5cf1",
+            "PO-98cca2fcb7",
+            "PO-e4513b5666",
+            "PO-17c3ca0463"
+        ]
+    },
+    "CTR-7317a16932": {
+        "suppliers": [
+            "SUP-c3b745c0"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-6108e2cce8"
+        ]
+    },
+    "CTR-7438e6a1b2": {
+        "suppliers": [
+            "SUP-4c1f08d1"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-91f1970413"
+        ]
+    },
+    "CTR-745b92e890": {
+        "suppliers": [
+            "SUP-7e6cfcb7"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-9e602f981f"
+        ]
+    },
+    "CTR-75277784dd": {
+        "suppliers": [
+            "SUP-4f088eae"
+        ],
+        "po_count": 4,
+        "purchase_orders": [
+            "PO-3e44d9f075",
+            "PO-78ffd35c9e",
+            "PO-fa9a76fd71",
+            "PO-d8d60215cb"
+        ]
+    },
+    "CTR-75983b036f": {
+        "suppliers": [
+            "SUP-f964762b"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-8001cb197c"
+        ]
+    },
+    "CTR-76e8ca1e07": {
+        "suppliers": [
+            "SUP-e3b094e6"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-92595edd27"
+        ]
+    },
+    "CTR-76edbde696": {
+        "suppliers": [
+            "SUP-e9f9acda"
+        ],
+        "po_count": 2,
+        "purchase_orders": [
+            "PO-73fcfde0cf",
+            "PO-22b42e217d"
+        ]
+    },
+    "CTR-7746567685": {
+        "suppliers": [
+            "SUP-e3b094e6"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-484654cf8b"
+        ]
+    },
+    "CTR-79236de0c9": {
+        "suppliers": [
+            "SUP-da7521c5"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-b852fd05c7"
+        ]
+    },
+    "CTR-79a7499b0f": {
+        "suppliers": [
+            "SUP-aa593ab7"
+        ],
+        "po_count": 5,
+        "purchase_orders": [
+            "PO-2edab5ee7f",
+            "PO-707d436b76",
+            "PO-6bb019e1a7",
+            "PO-efa92f9ca5",
+            "PO-fa8e5a9ea6"
+        ]
+    },
+    "CTR-7c7820eefd": {
+        "suppliers": [
+            "SUP-363f7c0d"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-13bd1c3759"
+        ]
+    },
+    "CTR-7d56c33ab2": {
+        "suppliers": [
+            "SUP-1cbd05e3"
+        ],
+        "po_count": 2,
+        "purchase_orders": [
+            "PO-9d2df3f142",
+            "PO-978fda8ef2"
+        ]
+    },
+    "CTR-7d993d37b4": {
+        "suppliers": [
+            "SUP-42f4351e"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-c6da36a6c2"
+        ]
+    },
+    "CTR-7ece8dd65f": {
+        "suppliers": [
+            "SUP-5821be90"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-6d51c29fed"
+        ]
+    },
+    "CTR-81dbc91baa": {
+        "suppliers": [
+            "SUP-71b0dbc0"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-1ebcb4bbb0"
+        ]
+    },
+    "CTR-8488e5e561": {
+        "suppliers": [
+            "SUP-151393d1"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-3ff7377ddc"
+        ]
+    },
+    "CTR-855ecbb798": {
+        "suppliers": [
+            "SUP-3ffe0cbe"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-e3b71d2d77"
+        ]
+    },
+    "CTR-8666be5473": {
+        "suppliers": [
+            "SUP-29578a91"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-7598009c26"
+        ]
+    },
+    "CTR-86b680a0db": {
+        "suppliers": [
+            "SUP-0093bdd6"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-429b7bcfab"
+        ]
+    },
+    "CTR-86e92055a7": {
+        "suppliers": [
+            "SUP-7c4f57ca"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-4f0e9d803c"
+        ]
+    },
+    "CTR-8744f03693": {
+        "suppliers": [
+            "SUP-dac36b63"
+        ],
+        "po_count": 8,
+        "purchase_orders": [
+            "PO-77fc8b896c",
+            "PO-188f138983",
+            "PO-00e4036620",
+            "PO-edb1e3ed59",
+            "PO-3a8a5095da",
+            "PO-166ed0c8e5",
+            "PO-5961e37d7b",
+            "PO-87ae1f1fc6"
+        ]
+    },
+    "CTR-8854210368": {
+        "suppliers": [
+            "SUP-7da5d1cd"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-b25e4545d7"
+        ]
+    },
+    "CTR-8b1a448752": {
+        "suppliers": [
+            "SUP-aa7b0b18"
+        ],
+        "po_count": 21,
+        "purchase_orders": [
+            "PO-b1d52dba33",
+            "PO-6fc9c6beee",
+            "PO-ee1d3129c0",
+            "PO-70d5a6b23c",
+            "PO-37f3ce3cd8",
+            "PO-b285bc62f5",
+            "PO-c2ffa699de",
+            "PO-9b3ef96bd1",
+            "PO-b8784b7085",
+            "PO-69b62aab16",
+            "PO-7892befa21",
+            "PO-0e7d377138",
+            "PO-e7cab856b6",
+            "PO-4930e766f1",
+            "PO-0db0ad6096",
+            "PO-fe1c9137aa",
+            "PO-0c5c751a82",
+            "PO-1a5c219686",
+            "PO-e3eb1e51e5",
+            "PO-348d1f53b2",
+            "PO-245aa5a6cd"
+        ]
+    },
+    "CTR-8b7c93fc9e": {
+        "suppliers": [
+            "SUP-a6bf43b5"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-16edf8447c"
+        ]
+    },
+    "CTR-8cefc08b7e": {
+        "suppliers": [
+            "SUP-89c2e422"
+        ],
+        "po_count": 7,
+        "purchase_orders": [
+            "PO-bb37e81026",
+            "PO-f2763649a2",
+            "PO-8930a22ab4",
+            "PO-7db35961b7",
+            "PO-e97718c50c",
+            "PO-e8d672c914",
+            "PO-e382355de9"
+        ]
+    },
+    "CTR-8e89f7eb0c": {
+        "suppliers": [
+            "SUP-c6f6d2fa"
+        ],
+        "po_count": 6,
+        "purchase_orders": [
+            "PO-5f69ec9b63",
+            "PO-01ad292aff",
+            "PO-d67aed6b3c",
+            "PO-4e7b41e7fc",
+            "PO-ba99a2a83f",
+            "PO-81a7adf9b0"
+        ]
+    },
+    "CTR-8ebde1448a": {
+        "suppliers": [
+            "SUP-ba631f31"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-761a8e18eb"
+        ]
+    },
+    "CTR-8faddbf3ca": {
+        "suppliers": [
+            "SUP-6ff67a14"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-a217162ffa"
+        ]
+    },
+    "CTR-8fdde53bef": {
+        "suppliers": [
+            "SUP-363f7c0d"
+        ],
+        "po_count": 9,
+        "purchase_orders": [
+            "PO-28ee6a579d",
+            "PO-21bb360422",
+            "PO-ca16f88b1f",
+            "PO-d5a947ce75",
+            "PO-3c63c1c4aa",
+            "PO-7bec42b1b8",
+            "PO-371e5d7946",
+            "PO-3cf443b3d0",
+            "PO-271a3dd27c"
+        ]
+    },
+    "CTR-904f71a375": {
+        "suppliers": [
+            "SUP-eb203557"
+        ],
+        "po_count": 2,
+        "purchase_orders": [
+            "PO-2ceee93519",
+            "PO-abc74daaa6"
+        ]
+    },
+    "CTR-9125689fe2": {
+        "suppliers": [
+            "SUP-0ce4837e"
+        ],
+        "po_count": 6,
+        "purchase_orders": [
+            "PO-101a87e737",
+            "PO-4a17105083",
+            "PO-5ae95a6c61",
+            "PO-7c918e844a",
+            "PO-f87e98918e",
+            "PO-d761aa3449"
+        ]
+    },
+    "CTR-92be5f3c38": {
+        "suppliers": [
+            "SUP-b81464d7"
+        ],
+        "po_count": 7,
+        "purchase_orders": [
+            "PO-d1aa1dbd9e",
+            "PO-ef1ee70bf4",
+            "PO-35222f16b6",
+            "PO-34a51e5bd5",
+            "PO-805bf1f760",
+            "PO-cdef8b2025",
+            "PO-45f723844d"
+        ]
+    },
+    "CTR-9446c9b0b2": {
+        "suppliers": [
+            "SUP-82e08eba"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-e4d84df333"
+        ]
+    },
+    "CTR-94e6213acd": {
+        "suppliers": [
+            "SUP-2c715b02"
+        ],
+        "po_count": 12,
+        "purchase_orders": [
+            "PO-9c8f433210",
+            "PO-175ba3d76d",
+            "PO-ba03d44731",
+            "PO-0cc1cbfac0",
+            "PO-4e9ecf3dac",
+            "PO-a3df9b572d",
+            "PO-b6ac2b5c73",
+            "PO-b12a38b9d4",
+            "PO-ae37a25857",
+            "PO-f1cc64df68",
+            "PO-2ba9988ab3",
+            "PO-a7916daf33"
+        ]
+    },
+    "CTR-9616cce774": {
+        "suppliers": [
+            "SUP-380136b9"
+        ],
+        "po_count": 9,
+        "purchase_orders": [
+            "PO-47a0bfac4c",
+            "PO-d3fb33fbcc",
+            "PO-d54ef47226",
+            "PO-475610b9cd",
+            "PO-8052b77ec1",
+            "PO-b37b4c99c8",
+            "PO-2b28dc47b8",
+            "PO-c64a4a1be2",
+            "PO-04836babb5"
+        ]
+    },
+    "CTR-99dbed6b63": {
+        "suppliers": [
+            "SUP-d80100a8"
+        ],
+        "po_count": 15,
+        "purchase_orders": [
+            "PO-f7769a3f2a",
+            "PO-06edffc37c",
+            "PO-8ae74037a3",
+            "PO-703800f862",
+            "PO-4550231de9",
+            "PO-4432f2ee07",
+            "PO-e6ada90aee",
+            "PO-6bf72324a7",
+            "PO-8336e45ce9",
+            "PO-40e03b7b10",
+            "PO-b5f5d7c535",
+            "PO-1b2474eed2",
+            "PO-5367c2f5ad",
+            "PO-4fa081631f",
+            "PO-5fc41f7459"
+        ]
+    },
+    "CTR-9a5b994a33": {
+        "suppliers": [
+            "SUP-d592ad64"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-a9954a0e37"
+        ]
+    },
+    "CTR-9cac1c4178": {
+        "suppliers": [
+            "SUP-5a5f9ad7"
+        ],
+        "po_count": 7,
+        "purchase_orders": [
+            "PO-ab4d43214a",
+            "PO-5d2e0c7c33",
+            "PO-9bcebf021b",
+            "PO-c95f3f34c6",
+            "PO-5530b23242",
+            "PO-ddd1411244",
+            "PO-f69edf4f95"
+        ]
+    },
+    "CTR-9d29bdb193": {
+        "suppliers": [
+            "SUP-0b59c0fe"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-1bc5e76af7"
+        ]
+    },
+    "CTR-9ed3911e8e": {
+        "suppliers": [
+            "SUP-3c5d0471"
+        ],
+        "po_count": 7,
+        "purchase_orders": [
+            "PO-77d83a2054",
+            "PO-9a7d974c27",
+            "PO-b55908b446",
+            "PO-b5288fb2c0",
+            "PO-5201c71d5f",
+            "PO-8d3ddf1c7f",
+            "PO-6727c33d88"
+        ]
+    },
+    "CTR-a09f123ee0": {
+        "suppliers": [
+            "SUP-11db6a05"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-013ffb09a5"
+        ]
+    },
+    "CTR-a13ff4983b": {
+        "suppliers": [
+            "SUP-f111fdd1"
+        ],
+        "po_count": 12,
+        "purchase_orders": [
+            "PO-6abdb65dd8",
+            "PO-6b258f4de0",
+            "PO-85421903c0",
+            "PO-d4c4b50d6f",
+            "PO-674aeb465e",
+            "PO-638da45d44",
+            "PO-23392f7ada",
+            "PO-69cc48514b",
+            "PO-8a72c5b7e8",
+            "PO-5cff5617ae",
+            "PO-e2dfd6ca91",
+            "PO-7894852e50"
+        ]
+    },
+    "CTR-a6686e8273": {
+        "suppliers": [
+            "SUP-f4975a2b"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-cd5f551e84"
+        ]
+    },
+    "CTR-a85c4d8dbf": {
+        "suppliers": [
+            "SUP-c5ec5f86"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-9b0f41c86e"
+        ]
+    },
+    "CTR-a86a51a96f": {
+        "suppliers": [
+            "SUP-460a19bc"
+        ],
+        "po_count": 3,
+        "purchase_orders": [
+            "PO-899b565784",
+            "PO-f7e2f3cac0",
+            "PO-3facdd68ec"
+        ]
+    },
+    "CTR-a8735e2d16": {
+        "suppliers": [
+            "SUP-1368db15"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-769db3678c"
+        ]
+    },
+    "CTR-aa3d8c79a7": {
+        "suppliers": [
+            "SUP-fa34a6f6"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-bdb2a0ca19"
+        ]
+    },
+    "CTR-acf73afb4d": {
+        "suppliers": [
+            "SUP-11db6a05"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-2503116ecb"
+        ]
+    },
+    "CTR-b199eee407": {
+        "suppliers": [
+            "SUP-da7521c5"
+        ],
+        "po_count": 3,
+        "purchase_orders": [
+            "PO-548f3a245b",
+            "PO-fd033e68f6",
+            "PO-c9e617d33d"
+        ]
+    },
+    "CTR-b25a0ad57a": {
+        "suppliers": [
+            "SUP-590039c3"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-40b0922e00"
+        ]
+    },
+    "CTR-b26b28727d": {
+        "suppliers": [
+            "SUP-f51627c3"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-be84d7fa5d"
+        ]
+    },
+    "CTR-b2932ddabb": {
+        "suppliers": [
+            "SUP-7a51c86f"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-c3c9dd3093"
+        ]
+    },
+    "CTR-b2959a56e9": {
+        "suppliers": [
+            "SUP-9e5bb3c9"
+        ],
+        "po_count": 15,
+        "purchase_orders": [
+            "PO-b0b5830114",
+            "PO-42bcf15ee7",
+            "PO-5860366af1",
+            "PO-80dad105bc",
+            "PO-e407324bca",
+            "PO-c3f386573b",
+            "PO-0533738255",
+            "PO-60f04f9db4",
+            "PO-e81f844b84",
+            "PO-9ae65fd93a",
+            "PO-a6c098f088",
+            "PO-078ab19741",
+            "PO-a65f5fec11",
+            "PO-5ab59c1c3d",
+            "PO-a806168a29"
+        ]
+    },
+    "CTR-b2e5211ab9": {
+        "suppliers": [
+            "SUP-3eff77c5"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-960ddea442"
+        ]
+    },
+    "CTR-b65b8bdfd5": {
+        "suppliers": [
+            "SUP-42f4351e"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-416e573a07"
+        ]
+    },
+    "CTR-b767939159": {
+        "suppliers": [
+            "SUP-1db96fe0"
+        ],
+        "po_count": 9,
+        "purchase_orders": [
+            "PO-2bf421576c",
+            "PO-e409fb1093",
+            "PO-97f429db4c",
+            "PO-e55c080fdd",
+            "PO-4002f20860",
+            "PO-92e8794da1",
+            "PO-95031b4f2f",
+            "PO-187eb596ca",
+            "PO-7eb75c9cc8"
+        ]
+    },
+    "CTR-bebb1abe19": {
+        "suppliers": [
+            "SUP-f3a44fe3"
+        ],
+        "po_count": 10,
+        "purchase_orders": [
+            "PO-9611ee3968",
+            "PO-0de2d11e78",
+            "PO-f0bae575fb",
+            "PO-e9f37aeacc",
+            "PO-dd02fe388a",
+            "PO-dc95322104",
+            "PO-22fa7e3671",
+            "PO-00748499ca",
+            "PO-bd7a4622bf",
+            "PO-73d8e0400f"
+        ]
+    },
+    "CTR-c06a90fa6f": {
+        "suppliers": [
+            "SUP-c5ec5f86"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-1ea037cb1d"
+        ]
+    },
+    "CTR-c0d0525d04": {
+        "suppliers": [
+            "SUP-5b644de3"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-88b42103e3"
+        ]
+    },
+    "CTR-c1a8b55984": {
+        "suppliers": [
+            "SUP-f51627c3"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-0b301ec1fe"
+        ]
+    },
+    "CTR-c211c13ed8": {
+        "suppliers": [
+            "SUP-c5ec5f86"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-b9df8a4ef5"
+        ]
+    },
+    "CTR-c22b0819b3": {
+        "suppliers": [
+            "SUP-051da8d0"
+        ],
+        "po_count": 7,
+        "purchase_orders": [
+            "PO-c6c24ea147",
+            "PO-351176168e",
+            "PO-0731dc4dd2",
+            "PO-b1e51e7acd",
+            "PO-3dd8e06f33",
+            "PO-c32d167db1",
+            "PO-14a53bcd66"
+        ]
+    },
+    "CTR-c3ecd31663": {
+        "suppliers": [
+            "SUP-5a5f9ad7"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-e65ef06163"
+        ]
+    },
+    "CTR-c49e156ea0": {
+        "suppliers": [
+            "SUP-50d93a9f"
+        ],
+        "po_count": 3,
+        "purchase_orders": [
+            "PO-8bac027efa",
+            "PO-4305c378fb",
+            "PO-2cdd1a7a71"
+        ]
+    },
+    "CTR-c555d04a4c": {
+        "suppliers": [
+            "SUP-20466636"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-d036865644"
+        ]
+    },
+    "CTR-c58ee99e59": {
+        "suppliers": [
+            "SUP-9c67b3ff"
+        ],
+        "po_count": 10,
+        "purchase_orders": [
+            "PO-1a63c9ba8b",
+            "PO-3ca5943ae8",
+            "PO-18355022e8",
+            "PO-259b82c88a",
+            "PO-ea19e477a4",
+            "PO-7d12fc6d3c",
+            "PO-a9975c0033",
+            "PO-8b8ffe38fb",
+            "PO-1f951002a0",
+            "PO-e39ce3f4ab"
+        ]
+    },
+    "CTR-c686910358": {
+        "suppliers": [
+            "SUP-b9a85495"
+        ],
+        "po_count": 3,
+        "purchase_orders": [
+            "PO-f2f1176c30",
+            "PO-9c3f321351",
+            "PO-2e934e1c30"
+        ]
+    },
+    "CTR-c6a0f8e43c": {
+        "suppliers": [
+            "SUP-a8cbdfc6"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-79aec74b36"
+        ]
+    },
+    "CTR-c827e9ae06": {
+        "suppliers": [
+            "SUP-9bda861c"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-bf929018f9"
+        ]
+    },
+    "CTR-cb0f255ae8": {
+        "suppliers": [
+            "SUP-f4975a2b"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-b23d2ad2db"
+        ]
+    },
+    "CTR-cc728f29eb": {
+        "suppliers": [
+            "SUP-6667cf1d"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-1a6342fa40"
+        ]
+    },
+    "CTR-cd6af7ff61": {
+        "suppliers": [
+            "SUP-df5bdd17"
+        ],
+        "po_count": 4,
+        "purchase_orders": [
+            "PO-795e5e5fe5",
+            "PO-fcb3f25761",
+            "PO-0a04b054e8",
+            "PO-11ab3456ba"
+        ]
+    },
+    "CTR-d1921f3aad": {
+        "suppliers": [
+            "SUP-f4975a2b"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-0027c94959"
+        ]
+    },
+    "CTR-d1c910546b": {
+        "suppliers": [
+            "SUP-4b7962ab"
+        ],
+        "po_count": 3,
+        "purchase_orders": [
+            "PO-cfd4738191",
+            "PO-ee633e08e7",
+            "PO-1af67f2828"
+        ]
+    },
+    "CTR-d31079a38a": {
+        "suppliers": [
+            "SUP-6a7eb83b"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-771fa84334"
+        ]
+    },
+    "CTR-d47a77394c": {
+        "suppliers": [
+            "SUP-c557f555"
+        ],
+        "po_count": 15,
+        "purchase_orders": [
+            "PO-b0e6fd33f3",
+            "PO-efe2b800ca",
+            "PO-c545f042eb",
+            "PO-abfbc0f6b5",
+            "PO-78b36f32b2",
+            "PO-18de39933c",
+            "PO-4e07570d6b",
+            "PO-61318018ac",
+            "PO-4fa9aeebc5",
+            "PO-389376e6eb",
+            "PO-3abb2aac20",
+            "PO-31b612ddba",
+            "PO-b8668e91c3",
+            "PO-0c7600bc26",
+            "PO-71ca41e8ab"
+        ]
+    },
+    "CTR-d67055e785": {
+        "suppliers": [
+            "SUP-a8cbdfc6"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-36bb5b8a33"
+        ]
+    },
+    "CTR-dc5f3a9a00": {
+        "suppliers": [
+            "SUP-ba631f31"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-91dfcf0b08"
+        ]
+    },
+    "CTR-dc876854a2": {
+        "suppliers": [
+            "SUP-b8d69ad2"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-b31b839ef7"
+        ]
+    },
+    "CTR-dd6dd8433a": {
+        "suppliers": [
+            "SUP-6ff67a14"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-88aeb6870d"
+        ]
+    },
+    "CTR-dfe6a71b62": {
+        "suppliers": [
+            "SUP-42f4351e"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-678651167c"
+        ]
+    },
+    "CTR-e089e35ad0": {
+        "suppliers": [
+            "SUP-2b3c9590"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-0cf7f2ed76"
+        ]
+    },
+    "CTR-e29f67711f": {
+        "suppliers": [
+            "SUP-dc7200b3"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-4e1d2d6f60"
+        ]
+    },
+    "CTR-e63e022563": {
+        "suppliers": [
+            "SUP-a09e1cec"
+        ],
+        "po_count": 2,
+        "purchase_orders": [
+            "PO-747af93dd8",
+            "PO-510ca7bc3d"
+        ]
+    },
+    "CTR-e65c8bb51b": {
+        "suppliers": [
+            "SUP-ba8d5db2"
+        ],
+        "po_count": 9,
+        "purchase_orders": [
+            "PO-83bbacdc85",
+            "PO-e8ac3a14d7",
+            "PO-1ff483772b",
+            "PO-8aa4531868",
+            "PO-553d579626",
+            "PO-dbda58e29e",
+            "PO-047d2f8385",
+            "PO-ea39caa65e",
+            "PO-f851bf5127"
+        ]
+    },
+    "CTR-ea2d15522f": {
+        "suppliers": [
+            "SUP-11db6a05"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-6126198f52"
+        ]
+    },
+    "CTR-ebc161f6ad": {
+        "suppliers": [
+            "SUP-92401df4"
+        ],
+        "po_count": 3,
+        "purchase_orders": [
+            "PO-22329b8635",
+            "PO-9e3379b0bb",
+            "PO-3009fe4011"
+        ]
+    },
+    "CTR-ed6e10ffdc": {
+        "suppliers": [
+            "SUP-f7a95f70"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-792b8eafe4"
+        ]
+    },
+    "CTR-ed8db1066e": {
+        "suppliers": [
+            "SUP-7c4f57ca"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-44525847c0"
+        ]
+    },
+    "CTR-f2429ba59b": {
+        "suppliers": [
+            "SUP-c557f555"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-96a8b15ff7"
+        ]
+    },
+    "CTR-f36a424f3c": {
+        "suppliers": [
+            "SUP-e3ef5768"
+        ],
+        "po_count": 7,
+        "purchase_orders": [
+            "PO-293d1fc337",
+            "PO-574dbd10df",
+            "PO-cdef4ff76e",
+            "PO-9222cc8016",
+            "PO-01740dced5",
+            "PO-e42f2dc124",
+            "PO-aae5f12a04"
+        ]
+    },
+    "CTR-faee40799c": {
+        "suppliers": [
+            "SUP-fa34a6f6"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-839a787abc"
+        ]
+    },
+    "CTR-fb548fc484": {
+        "suppliers": [
+            "SUP-3037027d"
+        ],
+        "po_count": 11,
+        "purchase_orders": [
+            "PO-68dff747d2",
+            "PO-bfe8e433c7",
+            "PO-04ddb5e917",
+            "PO-8e09bd4c8c",
+            "PO-d42b03b4e4",
+            "PO-46ff06511a",
+            "PO-62ad51755c",
+            "PO-89e0df0fc5",
+            "PO-3220ec879d",
+            "PO-774e16bac8",
+            "PO-36a3b47430"
+        ]
+    },
+    "CTR-fbe4231b04": {
+        "suppliers": [
+            "SUP-ba631f31"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-9936f9e365"
+        ]
+    },
+    "CTR-fdb61127be": {
+        "suppliers": [
+            "SUP-e3b094e6"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-414bbee1e0"
+        ]
+    },
+    "CTR-ffb31721db": {
+        "suppliers": [
+            "SUP-40323d69"
+        ],
+        "po_count": 1,
+        "purchase_orders": [
+            "PO-339c3e68e9"
+        ]
+    }
+}
