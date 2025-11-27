@@ -94,7 +94,6 @@ class GraphContextRetriever:
             c.start_date AS campaignStartDate,
             c.end_date AS campaignEndDate,
             c.channel AS campaignChannel,
-            c.kpis AS campaignKPIs,
             COUNT(DISTINCT po) AS totalLinkedPOs,
             SUM(po.amount) AS totalSpendOnCampaign,
             COLLECT(DISTINCT s.name) AS associatedSuppliers
@@ -107,18 +106,28 @@ class GraphContextRetriever:
 
         record = result[0]
         
-        budget = record['campaignBudget'] or 0
-        total_spend = record['totalSpendOnCampaign'] or 0
+        # Helper to parse currency strings like " 10,000 " to float
+        def parse_currency(value):
+            if isinstance(value, (int, float)):
+                return float(value)
+            if isinstance(value, str):
+                try:
+                    return float(value.replace(',', '').strip())
+                except ValueError:
+                    return 0.0
+            return 0.0
+
+        budget = parse_currency(record['campaignBudget'])
+        total_spend = parse_currency(record['totalSpendOnCampaign'])
         
         context = f"Campaign: {record['campaignName']}\n" \
-                  f"Budget: ${budget:,}\n" \
+                  f"Budget: ${budget:,.2f}\n" \
                   f"Dates: {record['campaignStartDate']} to {record['campaignEndDate']}\n" \
                   f"Channel: {record['campaignChannel']}\n" \
-                  f"KPIs: {record['campaignKPIs']}\n" \
                   f"Procurement Linkages:\n" \
                   f"  Total Linked POs: {record['totalLinkedPOs']}\n" \
-                  f"  Total Spend on Campaign: ${total_spend:,}\n" \
-                  f"  Associated Suppliers: {', '.join(record['associatedSuppliers']) if record['associatedSuppliers'] else 'None'}\n"
+                  f"  Total Spend on Campaign: ${total_spend:,.2f}\n" \
+                  f"  Associated Suppliers: {', '.join(str(s) for s in record['associatedSuppliers']) if record['associatedSuppliers'] else 'None'}\n"
 
         return context
 

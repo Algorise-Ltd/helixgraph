@@ -558,31 +558,44 @@ def generate_suppliers_with_ollama(num_suppliers):
 
         print(f"Generating supplier {i+1}/{num_suppliers} for country: {country}, category: {category_l4}...")
 
-        prompt = f"Generate a realistic and unique supplier name and a contact person's full name for a company that is a '{category_l4}' supplier located at this address in {country}: {address}. Output the result in JSON format with keys: 'name', 'contact_person'."
-        system_message = "You are a helpful assistant that only outputs JSON. Your response should be a single JSON object with keys 'name' and 'contact_person'."
-        supplier_data = generate_with_ollama(prompt, system_message=system_message)
+        name = 'N/A'
+        contact_person = 'N/A'
+        
+        for attempt in range(3):
+            prompt = f"Generate a realistic and unique supplier name and a contact person's full name for a company that is a '{category_l4}' supplier located at this address in {country}: {address}. Output the result in JSON format with keys: 'name', 'contact_person'."
+            system_message = "You are a helpful assistant that only outputs JSON. Your response should be a single JSON object with keys 'name' and 'contact_person'."
+            supplier_data = generate_with_ollama(prompt, system_message=system_message)
 
-        if supplier_data:
-            name = supplier_data.get('name') if isinstance(supplier_data.get('name'), str) else 'N/A'
-            contact_person = supplier_data.get('contact_person') if isinstance(supplier_data.get('contact_person'), str) else 'N/A'
+            if supplier_data:
+                if isinstance(supplier_data.get('name'), str) and supplier_data.get('name') != 'N/A':
+                    name = supplier_data.get('name')
+                if isinstance(supplier_data.get('contact_person'), str) and supplier_data.get('contact_person') != 'N/A':
+                    contact_person = supplier_data.get('contact_person')
+                
+                if name != 'N/A' and contact_person != 'N/A':
+                    break # Success
+        
+        # Fallback if still N/A
+        if name == 'N/A':
+            name = fake.company()
+        if contact_person == 'N/A':
+            contact_person = fake.name()
 
-            suppliers.append({
-                'vendorCode': f"SUP-{str(uuid.uuid4().hex)[:8]}",
-                'legalName': name,
-                'category_L1': category_l1,
-                'category_L2': category_l2,
-                'category_L3': category_l3,
-                'category_L4': category_l4,
-                'address': address,
-                'country': country,
-                'contactPerson': contact_person,
-                'isActive': random.choices([True, False], weights=[0.9, 0.1], k=1)[0],
-                'financialHealth': random.choices(['High', 'Medium', 'Low'], weights=[0.1, 0.3, 0.6], k=1)[0],
-                'paymentTerms': payment_terms,
-                'masterContractId': f"CTR-{str(uuid.uuid4().hex)[:10]}" if random.random() < 0.7 else None,
-            })
-        else:
-            print(f"Failed to generate data for supplier {i+1}.")
+        suppliers.append({
+            'vendorCode': f"SUP-{str(uuid.uuid4().hex)[:8]}",
+            'legalName': name,
+            'category_L1': category_l1,
+            'category_L2': category_l2,
+            'category_L3': category_l3,
+            'category_L4': category_l4,
+            'address': address,
+            'country': country,
+            'contactPerson': contact_person,
+            'isActive': random.choices([True, False], weights=[0.9, 0.1], k=1)[0],
+            'financialHealth': random.choices(['High', 'Medium', 'Low'], weights=[0.1, 0.3, 0.6], k=1)[0],
+            'paymentTerms': payment_terms,
+            'masterContractId': f"CTR-{str(uuid.uuid4().hex)[:10]}" if random.random() < 0.7 else None,
+        })
 
     return suppliers
 

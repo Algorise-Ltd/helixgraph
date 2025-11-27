@@ -5,3 +5,7 @@ neo4j
 pandas
 fastapi
 uvicorn
+spacy
+fuzzywuzzy
+python-Levenshtein
+spacy-transformers

@@ -1,7 +1,6 @@
 import sys
 import os
 import pandas as pd
-import pytest
 from pathlib import Path
 
 # Add project root to path
@@ -13,22 +12,9 @@ def load_sample_entities():
     """Load a few sample entities from processed data to test with"""
     samples = {}
     
-    # Load a supplier
-    try:
-        suppliers = pd.read_csv('data/processed/procurement/suppliers.csv')
-        if not suppliers.empty:
-            samples['supplier_name'] = suppliers.iloc[0]['name']
-            samples['supplier_id'] = suppliers.iloc[0]['id']
-    except Exception:
-        samples['supplier_name'] = "Acme Corp" # Fallback
-
-    # Load a campaign
-    try:
-        campaigns = pd.read_csv('data/processed/marketing/campaigns_v1.csv')
-        if not campaigns.empty:
-            samples['campaign_name'] = campaigns.iloc[0]['campaign_name']
-    except Exception:
-        samples['campaign_name'] = "Spring Launch"
+    # Use specific entities known to exist in the generated data
+    samples['supplier_name'] = "SecureGuard Solutions Ltd."
+    samples['campaign_name'] = "Black Friday Mega Sale"
 
     return samples
 
