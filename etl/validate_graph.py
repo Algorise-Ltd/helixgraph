@@ -23,7 +23,7 @@ class GraphValidator:
 
         # 1. Count nodes for each label
         print("\n--- Node Counts ---")
-        labels = ["Supplier", "PO", "Invoice", "Campaign"]
+        labels = ["Supplier", "PO", "Invoice", "Campaign", "Product"]
         for label in labels:
             query = f"MATCH (n:{label}) RETURN count(n) AS count"
             result = self.run_query(query)
@@ -32,7 +32,7 @@ class GraphValidator:
 
         # 2. Count relationships for each type
         print("\n--- Relationship Counts ---")
-        rel_types = ["BILLED_BY", "INVOICES", "FUNDED"]
+        rel_types = ["BILLED_BY", "INVOICES", "FUNDED", "ORDERS"]
         for rel_type in rel_types:
             query = f"MATCH ()-[r:{rel_type}]->() RETURN count(r) AS count"
             result = self.run_query(query)

@@ -823,9 +823,18 @@ def generate_purchase_orders(suppliers, products, num_pos=600, exclude_l3_catego
 
             # Delivery Date Distribution
             if date_issued.year == 2024:
-                delivery_date = date_issued + timedelta(days=random.randint(30, 365))
-                if delivery_date.year == 2024:
-                    delivery_date = delivery_date.replace(year=2025)
+                # Ensure delivery is within 2024 and after issue date
+                # Create a naive datetime for end of 2024 to match Faker's naive output
+                end_of_2024 = datetime(2024, 12, 31, 23, 59, 59)
+                max_days = (end_of_2024 - date_issued).days
+                
+                if max_days < 1:
+                    days_to_deliver = 0
+                else:
+                    # Deliver within remaining days of 2024, capped at 10 days for realism
+                    days_to_deliver = random.randint(1, min(max_days, 10))
+                
+                delivery_date = date_issued + timedelta(days=days_to_deliver)
             else:
                 delivery_date = date_issued + timedelta(days=random.randint(7, 60))
             

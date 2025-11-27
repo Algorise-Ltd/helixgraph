@@ -24,14 +24,15 @@ class GraphContextRetriever:
             result = session.run(query, params if params else {})
             return [record for record in result]
 
-    def get_supplier_context(self, supplier_id: str) -> str:
+    def get_supplier_context(self, identifier: str) -> str:
         """
-        Retrieves comprehensive context for a given supplier.
+        Retrieves comprehensive context for a given supplier by ID or Name.
         Includes basic info, procurement metrics, campaign relationships,
         risk indicators, and active contracts.
         """
         query = """
-        MATCH (s:Supplier {id: $supplier_id})
+        MATCH (s:Supplier)
+        WHERE s.id = $identifier OR s.name = $identifier
         OPTIONAL MATCH (s)<-[:BILLED_BY]-(po:PO)
         OPTIONAL MATCH (po)<-[:INVOICES]-(inv:Invoice)
         OPTIONAL MATCH (po)<-[:FUNDED]-(c:Campaign)
@@ -48,11 +49,11 @@ class GraphContextRetriever:
             COUNT(DISTINCT CASE WHEN inv.status = 'late' THEN inv END) AS latePayments,
             COLLECT(DISTINCT c.name) AS linkedCampaigns
         """
-        params = {"supplier_id": supplier_id}
+        params = {"identifier": identifier}
         result = self._run_query(query, params)
 
         if not result or not result[0]['supplierName']:
-            return f"No context found for supplier ID: {supplier_id}"
+            return f"No context found for supplier: {identifier}"
 
         record = result[0]
         
@@ -77,13 +78,14 @@ class GraphContextRetriever:
 
         return context
 
-    def get_campaign_context(self, campaign_id: str) -> str:
+    def get_campaign_context(self, identifier: str) -> str:
         """
-        Retrieves comprehensive context for a given marketing campaign.
+        Retrieves comprehensive context for a given marketing campaign by ID or Name.
         Includes basic info, linked POs, total spend, and associated suppliers.
         """
         query = """
-        MATCH (c:Campaign {id: $campaign_id})
+        MATCH (c:Campaign)
+        WHERE c.id = $identifier OR c.name = $identifier
         OPTIONAL MATCH (c)-[:FUNDED]->(po:PO)
         OPTIONAL MATCH (po)-[:BILLED_BY]->(s:Supplier)
         RETURN
@@ -97,11 +99,11 @@ class GraphContextRetriever:
             SUM(po.amount) AS totalSpendOnCampaign,
             COLLECT(DISTINCT s.name) AS associatedSuppliers
         """
-        params = {"campaign_id": campaign_id}
+        params = {"identifier": identifier}
         result = self._run_query(query, params)
 
         if not result or not result[0]['campaignName']:
-            return f"No context found for campaign ID: {campaign_id}"
+            return f"No context found for campaign: {identifier}"
 
         record = result[0]
         
@@ -120,12 +122,51 @@ class GraphContextRetriever:
 
         return context
 
-    def get_product_context(self, product_sku: str) -> str:
+    def get_product_context(self, identifier: str) -> str:
         """
-        Retrieves comprehensive context for a given product SKU.
+        Retrieves comprehensive context for a given product by SKU or Name.
         Includes basic info, associated POs, total spend, and suppliers.
         """
-        return "Product context not implemented yet."
+        query = """
+        MATCH (p:Product)
+        WHERE p.sku = $identifier OR p.name = $identifier
+        OPTIONAL MATCH (po:PO)-[:ORDERS]->(p)
+        OPTIONAL MATCH (po)-[:BILLED_BY]->(s:Supplier)
+        RETURN
+            p.name AS productName,
+            p.description AS productDescription,
+            p.category AS productCategory,
+            p.unit_of_measure AS unitOfMeasure,
+            p.is_critical AS isCritical,
+            COUNT(DISTINCT po) AS totalPOs,
+            SUM(po.amount) AS totalSpend,
+            AVG(po.amount) AS averagePrice,
+            COLLECT(DISTINCT s.name) AS suppliers
+        """
+        params = {"identifier": identifier}
+        result = self._run_query(query, params)
+
+        if not result or not result[0]['productName']:
+            return f"No context found for product: {identifier}"
+
+        record = result[0]
+        
+        total_spend = record['totalSpend'] or 0
+        avg_price = record['averagePrice'] or 0
+        is_critical = "Yes" if record['isCritical'] else "No"
+        
+        context = f"Product: {record['productName']}\n" \
+                  f"Description: {record['productDescription']}\n" \
+                  f"Category: {record['productCategory']}\n" \
+                  f"Unit of Measure: {record['unitOfMeasure']}\n" \
+                  f"Critical Item: {is_critical}\n" \
+                  f"Procurement Metrics:\n" \
+                  f"  Total POs: {record['totalPOs']}\n" \
+                  f"  Total Spend: ${total_spend:,}\n" \
+                  f"  Average Order Value: ${avg_price:,}\n" \
+                  f"Suppliers: {', '.join(record['suppliers']) if record['suppliers'] else 'None'}\n"
+
+        return context
 
     def _get_risk_level(self, score: int) -> str:
         """Helper to determine risk level from score."""

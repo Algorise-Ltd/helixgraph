@@ -45,9 +45,24 @@ class Neo4jLoader:
             'orderStatus': 'status'
         }, inplace=True)
         df['campaign_id'] = df['description'].str.extract(r"Campaign ID: (\S+)")
+        # Ensure productSku is present, handle NaNs
+        if 'productSku' not in df.columns:
+            df['productSku'] = None
+        else:
+            df['productSku'] = df['productSku'].where(pd.notnull(df['productSku']), None)
+
         for _, row in df.iterrows():
             self.run_query(
-                "CREATE (p:PO {id: $id, supplier_id: $supplier_id, amount: $amount, date: $date, status: $status, category: $category, campaign_id: $campaign_id, description: $description})",
+                "CREATE (p:PO {id: $id, supplier_id: $supplier_id, amount: $amount, date: $date, status: $status, category: $category, campaign_id: $campaign_id, description: $description, product_sku: $productSku, quantity: $quantity})",
+                row.to_dict()
+            )
+
+    def load_products(self, file_path):
+        df = pd.read_csv(file_path)
+        # columns: sku, name, description, unitOfMeasure, isCritical, category_L1...
+        for _, row in df.iterrows():
+            self.run_query(
+                "CREATE (p:Product {sku: $sku, name: $name, description: $description, unit_of_measure: $unitOfMeasure, is_critical: $isCritical, category: $category_L4})",
                 row.to_dict()
             )
 
@@ -96,9 +111,23 @@ class Neo4jLoader:
         CREATE (i)-[:INVOICES]->(p)
         """)
 
+        # POs to Products
+        self.run_query("""
+        MATCH (p:PO), (prod:Product)
+        WHERE p.product_sku = prod.sku
+        CREATE (p)-[:ORDERS]->(prod)
+        """)
+
+    def clean_database(self):
+        print("Cleaning database...")
+        self.run_query("MATCH (n) DETACH DELETE n")
+
 def main():
     config = get_config()
     loader = Neo4jLoader(config.neo4j_uri, config.neo4j_user, config.neo4j_password, config.neo4j_database)
+
+    # Clean the database first to avoid duplicates
+    loader.clean_database()
 
     data_path = "data/processed"
     
@@ -107,6 +136,9 @@ def main():
     
     print("Loading suppliers...")
     loader.load_suppliers(os.path.join(data_path, "procurement/suppliers.csv"))
+    
+    print("Loading products...")
+    loader.load_products(os.path.join(data_path, "procurement/products.csv"))
     
     print("Loading POs...")
     loader.load_pos(os.path.join(data_path, "procurement/pos.csv"))

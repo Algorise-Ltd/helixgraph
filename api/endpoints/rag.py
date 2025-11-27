@@ -16,23 +16,30 @@ def get_rag_instance():
             raise HTTPException(status_code=500, detail=f"Failed to initialize RAG system: {e}")
     return rag_instance
 
+from typing import Optional
+
 class RAGQuery(BaseModel):
     question: str
-    entity_type: str
-    entity_id: str
+    entity_type: Optional[str] = None
+    entity_id: Optional[str] = None
+
+import time
 
 class RAGResponse(BaseModel):
     answer: str
-    
+    execution_time: float
+
 @router.post("/ask", response_model=RAGResponse)
 async def ask_rag_question(query: RAGQuery):
     """
     Endpoint to ask a natural language question to the RAG system.
     """
+    start_time = time.time()
     try:
         rag = get_rag_instance()
         answer = rag.ask(query.question, query.entity_type, query.entity_id)
-        return RAGResponse(answer=answer)
+        execution_time = time.time() - start_time
+        return RAGResponse(answer=answer, execution_time=execution_time)
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error generating answer: {e}")
 
