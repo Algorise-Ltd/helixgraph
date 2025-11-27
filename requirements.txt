@@ -1,0 +1,11 @@
+google-genai
+jinja2
+python-dotenv
+neo4j
+pandas
+fastapi
+uvicorn
+spacy
+fuzzywuzzy
+python-Levenshtein
+spacy-transformers

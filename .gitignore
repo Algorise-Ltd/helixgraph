@@ -145,6 +145,9 @@ ENV/
 env.bak/
 venv.bak/
 
+# large model files
+/nlp/models/ner_model
+
 # Spyder project settings
 .spyderproject
 .spyproject
