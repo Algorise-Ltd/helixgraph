@@ -1,0 +1,41 @@
+{
+  "Product": {
+    "product_id": "uuid",
+    "product_name": "string",
+    "sku_id": "uuid",
+    "sku_name": "string",
+    "product_full_descrption": "string",
+
+    "brand_id": "uuid",
+    "brand_name": "string",
+
+    "category_id": "uuid",
+    "category_name": "string",
+    "sub_category_id": "uuid|null",
+    "sub_category_name": "string|null",
+
+    "price": "decimal",
+    "currency": "string",
+
+    "color": "string|null",
+    "size": "string|null",
+
+    "attributes_raw": {
+      "...": "..."
+    },
+    "attributes": {
+      "material": "cotton",
+      "fit": "regular",
+      "screen_size_inch": 55,
+      "refresh_rate_hz": 120,
+      "battery_capacity_mah": 5000,
+      "is_wireless": true,
+      "supported_protocols": ["wifi_6", "bluetooth_5_3"]
+    },
+
+    "attribute_schema_version": "string|null",
+    "is_active": true,
+    "created_at": "datetime",
+    "updated_at": "datetime"
+  }
+}

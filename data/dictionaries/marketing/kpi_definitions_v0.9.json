@@ -1,0 +1,1344 @@
+{
+  "meta": {
+    "version": "0.9-graph",
+    "updated": "2025-10-12",
+    "note": "Graph-safe export: all language and metric fields retained with null values for schema symmetry (including de.name, formula, unit when unavailable)."
+  },
+  "data": [
+    {
+      "code": "acos",
+      "formula": "ACoS = Total Ad Spend / Sales Generated from Advertising",
+      "example": "$5,000 ad spend generated $20,000 sales, ACoS = 25%.",
+      "unit": "Currency",
+      "en": {
+        "name": "Advertising Cost of Sales",
+        "definition": "Advertising Cost of Sales shows the proportion of ad spend compared to the revenue generated from those ads, indicating ad profitability."
+      },
+      "de": {
+        "name": null,
+        "definition": "Der Werbekostenanteil am Umsatz zeigt das Verhältnis zwischen Werbeausgaben und dem durch Werbung erzielten Umsatz und gibt die Rentabilität der Anzeigen an."
+      },
+      "synonyms": [
+        "advertising_cost_of_sales"
+      ]
+    },
+    {
+      "code": "ad_link_click",
+      "formula": null,
+      "example": "5,000 users clicked a Facebook ad link to visit the brand site.",
+      "unit": "Count",
+      "en": {
+        "name": "Ad Link Click",
+        "definition": "The moment a user clicks on an ad link, regardless of whether the landing page successfully loads."
+      },
+      "de": {
+        "name": null,
+        "definition": "Der Moment, in dem ein Benutzer auf einen Anzeigenlink klickt, unabhängig davon, ob die Zielseite erfolgreich geladen wird."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "ad_position",
+      "formula": null,
+      "example": "An ad appeared in the 2nd slot on Google SERP.",
+      "unit": "Count",
+      "en": {
+        "name": "Ad Position",
+        "definition": "Where an ad appears on the SERP (e.g. 1st, 2nd, 3rd)."
+      },
+      "de": {
+        "name": null,
+        "definition": "Die Position, an der eine Anzeige auf der Suchergebnisseite (SERP) erscheint (z. B. 1., 2., 3. Platz)."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "ad_rank",
+      "formula": "Bid Amount × Quality Score + Ad Extension Impact",
+      "example": "Google determined an ad position using Bid $2 × Quality Score 8 = Ad Rank 16.",
+      "unit": "Relative Score",
+      "en": {
+        "name": "Ad Rank",
+        "definition": "A Google AdWords metric that determines ad position as a combination of bid, Quality Score, and expected ad extension impact."
+      },
+      "de": {
+        "name": null,
+        "definition": "Eine Google-Ads-Kennzahl, die die Anzeigenposition anhand von Gebot, Qualitätsfaktor und der erwarteten Wirkung von Anzeigenerweiterungen bestimmt."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "add_to_basket",
+      "formula": null,
+      "example": "2,000 products were added to shopping carts.",
+      "unit": "Count",
+      "en": {
+        "name": "Add To Basket",
+        "definition": "The number of times users add products to their online shopping cart."
+      },
+      "de": {
+        "name": null,
+        "definition": "Die Anzahl der Male, die Nutzer Produkte in ihren Online-Warenkorb legen."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "add_to_basket_rate",
+      "formula": "Add-to-Basket Rate = Add-to-Basket / Sessions × 100",
+      "example": "20% of sessions added items to basket.",
+      "unit": "Percentage (%)",
+      "en": {
+        "name": "Add To Basket Rate",
+        "definition": "The percentage of sessions where a product is added to the basket, relative to total sessions or visits."
+      },
+      "de": {
+        "name": null,
+        "definition": "Der Prozentsatz der Sitzungen, in denen ein Produkt dem Warenkorb hinzugefügt wurde, bezogen auf die Gesamtzahl der Sitzungen oder Besuche."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "aov",
+      "formula": "AOV = Total revenue / Number of Orders",
+      "example": "AOV = $60 with $300,000 revenue from 5,000 orders.",
+      "unit": "Currency",
+      "en": {
+        "name": "Average Order Value",
+        "definition": "AOV is the average dollar amount spent each time a customer places an order."
+      },
+      "de": {
+        "name": null,
+        "definition": "Der durchschnittliche Bestellwert zeigt den durchschnittlichen Betrag, den ein Kunde pro Bestellung ausgibt."
+      },
+      "synonyms": [
+        "average_order_value"
+      ]
+    },
+    {
+      "code": "asp",
+      "formula": "ASP = GMV / Items Sold",
+      "example": "Items sold averaged $35. ASP = GMV / Items Sold.",
+      "unit": "Currency",
+      "en": {
+        "name": "Average Selling Price",
+        "definition": "Average Selling Price; the average revenue earned per unit sold."
+      },
+      "de": {
+        "name": null,
+        "definition": "Durchschnittlicher Verkaufspreis; der durchschnittliche Umsatz pro verkauftem Artikel."
+      },
+      "synonyms": [
+        "average_selling_price"
+      ]
+    },
+    {
+      "code": "average_session_duration",
+      "formula": "Average Session Duration = Sessions / Unique Visitors",
+      "example": "Organic visitors averaged 5 minutes per session.",
+      "unit": "Time (seconds/minutes)",
+      "en": {
+        "name": "Average Session Duration",
+        "definition": "Average time spent on the site by organic visitors."
+      },
+      "de": {
+        "name": null,
+        "definition": "Durchschnittliche Zeit, die organische Besucher auf der Website verbringen."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "backlinks",
+      "formula": null,
+      "example": "A blog article gained 50 backlinks from external websites.",
+      "unit": "Count",
+      "en": {
+        "name": "Backlinks",
+        "definition": "Number of external links pointing to the website."
+      },
+      "de": {
+        "name": null,
+        "definition": "Anzahl der externen Links, die auf die Website verweisen."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "bid_amount",
+      "formula": null,
+      "example": "The advertiser set a maximum bid of $1.50 per click.",
+      "unit": "Currency",
+      "en": {
+        "name": "Bid Amount",
+        "definition": "The highest amount an advertiser is willing to pay for a click."
+      },
+      "de": {
+        "name": null,
+        "definition": "Der Höchstbetrag, den ein Werbetreibender bereit ist, für einen Klick zu zahlen."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "bounce_rate_email",
+      "formula": "Bounce Rate = (Bounced Emails / Sent Emails) × 100",
+      "example": "Out of 20,000 emails sent, 600 bounced, resulting in a Bounce Rate of 3%.",
+      "unit": "Percentage (%)",
+      "en": {
+        "name": "Bounce Rate Email",
+        "definition": "The percentage of sent emails that could not be delivered to recipients."
+      },
+      "de": {
+        "name": null,
+        "definition": "Der Prozentsatz der gesendeten E-Mails, die nicht zugestellt werden konnten."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "bounce_rate_website",
+      "formula": "Bounce Rate = Single Page Sessions / Total Sessions × 100",
+      "example": "50% of website visitors left immediately after viewing only one page.",
+      "unit": "Percentage (%)",
+      "en": {
+        "name": "Bounce Rate Website",
+        "definition": "Share of visitors leaving after viewing only one page."
+      },
+      "de": {
+        "name": null,
+        "definition": "Anteil der Besucher, die die Website verlassen, nachdem sie nur eine Seite angesehen haben."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "cac",
+      "formula": "CAC = (Total marketing and sales expenses / number of new customers)",
+      "example": "CAC = $50 with $100,000 spend acquiring 2,000 customers.",
+      "unit": "Currency",
+      "en": {
+        "name": "Cac",
+        "definition": "CAC is the average cost of acquiring a new customer through marketing and advertising."
+      },
+      "de": {
+        "name": null,
+        "definition": "Durchschnittliche Kosten für die Gewinnung eines neuen Kunden durch Marketing und Werbung."
+      },
+      "synonyms": [
+        "customer_acquisition_cost"
+      ]
+    },
+    {
+      "code": "click_rate",
+      "formula": "Click Rate = (Clicks / Delivered Emails) × 100",
+      "example": "An email campaign achieved a 10% click rate with 2,000 clicks from 20,000 delivered emails.",
+      "unit": "Percentage (%)",
+      "en": {
+        "name": "Click Rate",
+        "definition": "The percentage of delivered emails that generated at least one click."
+      },
+      "de": {
+        "name": null,
+        "definition": "Der Prozentsatz der zugestellten E-Mails, die mindestens einen Klick erzeugten."
+      },
+      "synonyms": [
+        "ctr",
+        "click_through_rate"
+      ]
+    },
+    {
+      "code": "click_to_pay",
+      "formula": null,
+      "example": "1,200 users clicked from basket to the payment page.",
+      "unit": "Count",
+      "en": {
+        "name": "Click To Pay",
+        "definition": "The number of times users proceed from product pages or baskets to the payment step."
+      },
+      "de": {
+        "name": null,
+        "definition": "Die Anzahl der Male, die Nutzer vom Warenkorb oder Produktseiten zum Bezahlvorgang übergehen."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "clicks",
+      "formula": "CTR = (Clicks / Impressions) × 100",
+      "example": "3,500 clicks were generated from Google search results to the website.",
+      "unit": "Count",
+      "en": {
+        "name": "Clicks",
+        "definition": "Number of clicks from search result to website."
+      },
+      "de": {
+        "name": null,
+        "definition": "Anzahl der Klicks von den Suchergebnissen auf die Website."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "clv",
+      "formula": null,
+      "example": "CLV projected at $1,200 per customer lifetime value.",
+      "unit": "Currency",
+      "en": {
+        "name": "Clv",
+        "definition": "CLV estimates the total revenue a business can expect from a single customer throughout their relationship."
+      },
+      "de": {
+        "name": null,
+        "definition": "Der Customer Lifetime Value schätzt den Gesamtumsatz, den ein Unternehmen im Laufe der Kundenbeziehung von einem einzelnen Kunden erwarten kann."
+      },
+      "synonyms": [
+        "customer_lifetime_value"
+      ]
+    },
+    {
+      "code": "comments",
+      "formula": null,
+      "example": "A Facebook post gathered 350 user comments.",
+      "unit": "Count",
+      "en": {
+        "name": "Comments",
+        "definition": "The number of written responses or messages users leave on the content."
+      },
+      "de": {
+        "name": null,
+        "definition": "Die Anzahl der schriftlichen Antworten oder Kommentare, die Nutzer zu Inhalten hinterlassen."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "conversion_rate",
+      "formula": "Conversion Rate = (Conversions / sessions) × 100",
+      "example": "An email campaign generated 300 signups from 2,500 sessions, Conversion Rate = 12%.",
+      "unit": "Percentage (%)",
+      "en": {
+        "name": "Conversion Rate",
+        "definition": "The percentage of users who completed a desired action (e.g., purchase, signup)."
+      },
+      "de": {
+        "name": null,
+        "definition": "Der Prozentsatz der Nutzer, die eine gewünschte Aktion (z. B. Kauf, Anmeldung) abgeschlossen haben."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "conversions",
+      "formula": null,
+      "example": "1,500 purchases or signups were recorded as conversions.",
+      "unit": "Count",
+      "en": {
+        "name": "Conversions",
+        "definition": "Number of goals completed (purchase, signup, etc.) from SEO traffic."
+      },
+      "de": {
+        "name": null,
+        "definition": "Anzahl der abgeschlossenen Ziele (z. B. Käufe, Anmeldungen) aus SEO-Traffic."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "billing_unit_cost",
+      "formula": "Billing Unit Cost = Actual Spend / Billing Units (Clicks for CPC; Impressions/1000 for CPM; Conversions for CPA; Views for CPV; Leads for CPL; 1 for FLAT)",
+      "example": "CPC example: €7,000 spend / 10,000 clicks = €0.70 per click. CPM example: €8,000 spend / (4,000,000 impressions / 1,000) = €2.00 CPM.",
+      "unit": "Currency",
+      "en": {
+        "name": "Billing Unit Cost",
+        "definition": "The cost per billing unit based on the selected billing model (e.g., CPC, CPM, CPA, CPV, CPL, or flat fee). Used to represent the media charging rate independently of product prices."
+      },
+      "de": {
+        "name": "Kosten je Abrechnungseinheit",
+        "definition": "Kosten pro Abrechnungseinheit gemäß gewähltem Abrechnungsmodell (z. B. CPC, CPM, CPA, CPV, CPL oder Festpreis). Dient zur Abbildung des Media-Abrechnungssatzes unabhängig von Produktpreisen."
+      },
+      "synonyms": [
+        "unit_cost",
+        "billing_rate",
+        "media_unit_cost",
+        "buying_unit_cost",
+        "ad_billing_cost"
+      ]
+    },
+    {
+      "code": "cpa",
+      "formula": "CPA = Cost / Conversions",
+      "example": "$5,000 ad spend led to 200 purchases, so CPA = $25.",
+      "unit": "Currency",
+      "en": {
+        "name": "Cost per Action",
+        "definition": "Cost per defined conversion such as purchase or signup."
+      },
+      "de": {
+        "name": null,
+        "definition": "Kosten pro definierter Conversion, z. B. Kauf oder Anmeldung."
+      },
+      "synonyms": [
+        "cost_per_action"
+      ]
+    },
+    {
+      "code": "cpc",
+      "formula": "CPC = Total Advertising Costs / Number of Clicks",
+      "example": "The campaign spent $2,000 and received 4,000 clicks, yielding a CPC of $0.50.",
+      "unit": "Currency",
+      "en": {
+        "name": "Cost per Click",
+        "definition": "Average cost paid for each ad click. Indicates cost efficiency of ad spend."
+      },
+      "de": {
+        "name": null,
+        "definition": "Durchschnittliche Kosten pro Klick; zeigt die Kosteneffizienz der Werbeausgaben."
+      },
+      "synonyms": [
+        "cost_per_click"
+      ]
+    },
+    {
+      "code": "cpd",
+      "formula": null,
+      "example": "A publisher charged $1,000 per day to display a homepage takeover banner based on its CPD pricing method.",
+      "unit": "Currency",
+      "en": {
+        "name": "Cpd",
+        "definition": "A pricing model where advertisers pay a fixed fee for their ad to run for a full day, regardless of impressions or clicks."
+      },
+      "de": {
+        "name": null,
+        "definition": "Ein Preismodell, bei dem Werbetreibende eine feste Gebühr zahlen, damit ihre Anzeige einen ganzen Tag lang geschaltet wird, unabhängig von Impressionen oder Klicks."
+      },
+      "synonyms": [
+        "cost_per_day"
+      ]
+    },
+    {
+      "code": "cpe",
+      "formula": "CPE = Cost / Engagements",
+      "example": "A campaign generated 500 engagements with $250 spend, so CPE = $0.50.",
+      "unit": "Currency",
+      "en": {
+        "name": "Cost per Engagement",
+        "definition": "Cost per user engagement (like, comment, share)."
+      },
+      "de": {
+        "name": null,
+        "definition": "Kosten pro Nutzerinteraktion (Like, Kommentar, Share)."
+      },
+      "synonyms": [
+        "cost_per_engagement"
+      ]
+    },
+    {
+      "code": "cpl",
+      "formula": null,
+      "example": "A LinkedIn campaign generated 300 leads with $1,500 spend, so CPL = $5.",
+      "unit": "Currency",
+      "en": {
+        "name": "Cost per Lead",
+        "definition": "The cost incurred for acquiring a qualified lead, such as a user filling out a form or providing contact information."
+      },
+      "de": {
+        "name": null,
+        "definition": "Die Kosten für die Gewinnung eines qualifizierten Leads, z. B. durch Ausfüllen eines Formulars oder Bereitstellen von Kontaktdaten."
+      },
+      "synonyms": [
+        "cost_per_lead"
+      ]
+    },
+    {
+      "code": "cpm",
+      "formula": "CPM = (Cost / Impressions) × 1000",
+      "example": "The advertiser paid $12 CPM for 100,000 impressions, so the ad costed $12,000 in total.",
+      "unit": "Currency",
+      "en": {
+        "name": "Cost per Mille",
+        "definition": "Cost per 1,000 ad impressions."
+      },
+      "de": {
+        "name": null,
+        "definition": "Kosten pro 1.000 Anzeigenimpressionen."
+      },
+      "synonyms": [
+        "cost_per_mille"
+      ]
+    },
+    {
+      "code": "cprp",
+      "formula": "CPRP = Cost ÷ Rating Points",
+      "example": "A TV advertiser spent $8,000 to achieve 40 rating points, CPRP = $200 per rating point.",
+      "unit": "Currency",
+      "en": {
+        "name": "Cprp",
+        "definition": "The cost of achieving one rating point in the target audience."
+      },
+      "de": {
+        "name": null,
+        "definition": "Die Kosten zur Erreichung eines Ratingpunkts in der Zielgruppe."
+      },
+      "synonyms": [
+        "cost_per_rating_point",
+        "cost_per_grp"
+      ]
+    },
+    {
+      "code": "cpv",
+      "formula": "CPV = Cost / Views",
+      "example": "An advertiser paid $0.03 per view on a YouTube ad.",
+      "unit": "Currency",
+      "en": {
+        "name": "Cost per View",
+        "definition": "Cost per video view (typically after 2–30 seconds view)."
+      },
+      "de": {
+        "name": null,
+        "definition": "Kosten pro Videoansicht (typischerweise nach 2–30 Sekunden)."
+      },
+      "synonyms": [
+        "cost_per_view"
+      ]
+    },
+    {
+      "code": "crr",
+      "formula": "CRR = (Total customers – New customers / Initial customers) × 100",
+      "example": "CRR = 80% of customers retained over the period.",
+      "unit": "Percentage (%)",
+      "en": {
+        "name": "Crr",
+        "definition": "CRR measures the percentage of customers who continue buying from you over a given period."
+      },
+      "de": {
+        "name": null,
+        "definition": "Die Kundenbindungsrate misst den Prozentsatz der Kunden, die über einen bestimmten Zeitraum weiterhin einkaufen."
+      },
+      "synonyms": [
+        "customer_retention_rate"
+      ]
+    },
+    {
+      "code": "ctr",
+      "formula": "CTR = (Clicks / Opens) × 100",
+      "example": "A Google ad achieved a CTR of 4.5% with 900 clicks from 20,000 impressions.",
+      "unit": "Percentage (%)",
+      "en": {
+        "name": "Click-Through Rate",
+        "definition": "The percentage of opened emails that resulted in at least one click."
+      },
+      "de": {
+        "name": null,
+        "definition": "Der Prozentsatz der geöffneten E-Mails, die mindestens einen Klick erzeugten."
+      },
+      "synonyms": [
+        "click_through_rate"
+      ]
+    },
+    {
+      "code": "cvr",
+      "formula": "CVR = (Number of Orders / Number of Sessions) × 100",
+      "example": "2,000 sessions produced 200 orders, CVR = 10%.",
+      "unit": "Percentage (%)",
+      "en": {
+        "name": "Conversion Rate",
+        "definition": "Percentage of people who clicked your ad and then purchased. Measures ad effectiveness."
+      },
+      "de": {
+        "name": null,
+        "definition": "Prozentsatz der Personen, die auf Ihre Anzeige geklickt und anschließend gekauft haben. Misst die Wirksamkeit der Anzeige."
+      },
+      "synonyms": [
+        "conversion_rate"
+      ]
+    },
+    {
+      "code": "duration",
+      "formula": null,
+      "example": "Average user stayed on the site for 3 minutes per session.",
+      "unit": "Time (seconds/minutes)",
+      "en": {
+        "name": "Duration",
+        "definition": "The amount of time a user spends on a webpage or site during a session."
+      },
+      "de": {
+        "name": null,
+        "definition": "Die Zeitspanne, die ein Benutzer während einer Sitzung auf einer Webseite oder Website verbringt."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "engagement",
+      "formula": null,
+      "example": "An Instagram post received 1,000 likes, 200 comments, and 150 shares.",
+      "unit": "Count",
+      "en": {
+        "name": "Engagement",
+        "definition": "The total interactions with the content, such as likes, comments, shares, or clicks."
+      },
+      "de": {
+        "name": null,
+        "definition": "Die Gesamtzahl der Interaktionen mit dem Inhalt, wie Likes, Kommentare, Shares oder Klicks."
+      },
+      "synonyms": [
+        "interaction"
+      ]
+    },
+    {
+      "code": "engagement_rate",
+      "formula": "Engagement Rate = (Engagements / Impressions) × 100",
+      "example": "A Twitter post achieved an engagement rate of 6% with 600 engagements on 10,000 impressions.",
+      "unit": "Percentage (%)",
+      "en": {
+        "name": "Engagement Rate",
+        "definition": "The percentage of users who interact with content (likes, shares, comments) out of total impressions or views."
+      },
+      "de": {
+        "name": null,
+        "definition": "Der Prozentsatz der Nutzer, die mit Inhalten (Likes, Shares, Kommentare) interagieren, bezogen auf die Gesamtanzahl der Impressionen oder Ansichten."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "exchange",
+      "formula": null,
+      "example": "50 items were exchanged for alternatives after purchase.",
+      "unit": "Count",
+      "en": {
+        "name": "Exchange",
+        "definition": "The number of purchased items returned and replaced with another item."
+      },
+      "de": {
+        "name": null,
+        "definition": "Die Anzahl der gekauften Artikel, die zurückgegeben und gegen ein anderes Produkt ausgetauscht wurden."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "fixed_cost",
+      "formula": null,
+      "example": "A website charged a flat $500 fee for a week-long banner placement.",
+      "unit": "Count",
+      "en": {
+        "name": "Fixed Cost",
+        "definition": "Flat fee for fixed banner or placement package."
+      },
+      "de": {
+        "name": null,
+        "definition": "Pauschalgebühr für ein festes Banner oder Platzierungspaket."
+      },
+      "synonyms": [
+        "flat_fee"
+      ]
+    },
+    {
+      "code": "frequency",
+      "formula": "Frequency = GRP ÷ Reach",
+      "example": "On average, each reached viewer saw the ad 3 times.",
+      "unit": "Time (seconds/minutes)",
+      "en": {
+        "name": "Frequency",
+        "definition": "The average number of times the reached audience was exposed to the ad."
+      },
+      "de": {
+        "name": null,
+        "definition": "Die durchschnittliche Anzahl, wie oft die erreichte Zielgruppe der Anzeige ausgesetzt war."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "gmv",
+      "formula": "GMV = ∑(Price × Quantity)",
+      "example": "GMV reached $2M for the quarter.",
+      "unit": "Currency",
+      "en": {
+        "name": "Gross Merchandising Value",
+        "definition": "Gross Merchandising Value."
+      },
+      "de": {
+        "name": null,
+        "definition": "Bruttowarenwert; der Gesamtwert der verkauften Waren vor Abzügen."
+      },
+      "synonyms": [
+        "gross_merchandising_value"
+      ]
+    },
+    {
+      "code": "grp",
+      "formula": "GRP = Reach / Frequency",
+      "example": "TV campaign achieved 300 GRPs over the target audience.",
+      "unit": "Count",
+      "en": {
+        "name": "Gross Rating Point",
+        "definition": "Total exposure from a TV campaign relative to the target audience."
+      },
+      "de": {
+        "name": null,
+        "definition": "Gesamte Reichweite einer TV-Kampagne im Verhältnis zur Zielgruppe."
+      },
+      "synonyms": [
+        "gross_rating_point"
+      ]
+    },
+    {
+      "code": "impressions",
+      "formula": null,
+      "example": "An ad was displayed 50,000 times in Google search results during a week.",
+      "unit": "Count",
+      "en": {
+        "name": "Impressions",
+        "definition": "Number of times a page or ad appeared in search results."
+      },
+      "de": {
+        "name": null,
+        "definition": "Anzahl der Male, die eine Seite oder Anzeige in den Suchergebnissen angezeigt wurde."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "landing_page_view",
+      "formula": null,
+      "example": "4,800 users fully loaded the landing page after clicking the ad.",
+      "unit": "Count",
+      "en": {
+        "name": "Landing Page View",
+        "definition": "A completed event where the landing page has successfully loaded after an ad click."
+      },
+      "de": {
+        "name": null,
+        "definition": "Ein abgeschlossener Ladevorgang, bei dem die Zielseite nach einem Anzeigenklick vollständig angezeigt wurde."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "likes",
+      "formula": null,
+      "example": "A brand on Instagram reel received 2,500 likes.",
+      "unit": "Count",
+      "en": {
+        "name": "Likes",
+        "definition": "The count of positive reactions indicating user approval or preference for the content."
+      },
+      "de": {
+        "name": null,
+        "definition": "Die Anzahl der positiven Reaktionen, die Zustimmung oder Vorliebe der Nutzer für den Inhalt ausdrücken."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "msrp",
+      "formula": null,
+      "example": "The product’s manufacturer suggested retail price was $49.99.",
+      "unit": "Currency",
+      "en": {
+        "name": "Manufacturer’s Suggested Retail Price",
+        "definition": "Manufacturer’s Suggested Retail Price."
+      },
+      "de": {
+        "name": null,
+        "definition": "Vom Hersteller empfohlener Verkaufspreis."
+      },
+      "synonyms": [
+        "manufacturer_s_suggested_retail_price"
+      ]
+    },
+    {
+      "code": "nfr",
+      "formula": "Negative Feedback Rate = (Number of negative feedbacks / Total number of orders) × 100",
+      "example": "NFR = 2% with 100 negative feedbacks from 5,000 orders.",
+      "unit": "Percentage (%)",
+      "en": {
+        "name": "Negative Feedback Rate",
+        "definition": "Negative feedback rate shows the proportion of orders that receive poor ratings or complaints."
+      },
+      "de": {
+        "name": null,
+        "definition": "Die Rate negativer Rückmeldungen zeigt den Anteil der Bestellungen mit schlechten Bewertungen oder Beschwerden."
+      },
+      "synonyms": [
+        "negative_feedback_rate"
+      ]
+    },
+    {
+      "code": "net_sales",
+      "formula": null,
+      "example": "Net Sales after discounts and returns was $1.2M.",
+      "unit": "Currency",
+      "en": {
+        "name": "Net Sales",
+        "definition": "Net sales represent actual revenue after subtracting discounts, returns, and fees."
+      },
+      "de": {
+        "name": null,
+        "definition": "Nettoumsatz nach Abzug von Rabatten, Rücksendungen und Gebühren."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "open",
+      "formula": "Open Rate = (Opens / Delivered) × 100",
+      "example": "An email newsletter was opened 4,200 times by recipients.",
+      "unit": "Count",
+      "en": {
+        "name": "Open",
+        "definition": "The number of times an email was opened by recipients."
+      },
+      "de": {
+        "name": null,
+        "definition": "Die Anzahl der Male, die eine E-Mail von den Empfängern geöffnet wurde."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "orders",
+      "formula": null,
+      "example": "5,000 customer orders were placed in Q1.",
+      "unit": "Count",
+      "en": {
+        "name": "Orders",
+        "definition": "The count of purchase orders placed by customers, which may include multiple items."
+      },
+      "de": {
+        "name": null,
+        "definition": "Die Anzahl der von Kunden aufgegebenen Bestellungen, die mehrere Artikel enthalten können."
+      },
+      "synonyms": [
+        "transactions"
+      ]
+    },
+    {
+      "code": "pv",
+      "formula": "Pages per Session = PV / Sessions",
+      "example": "Users viewed 4.2 pages per session on average.",
+      "unit": "Count",
+      "en": {
+        "name": "Page Views",
+        "definition": "Average number of pages viewed during a session."
+      },
+      "de": {
+        "name": null,
+        "definition": "Durchschnittliche Anzahl der während einer Sitzung angesehenen Seiten."
+      },
+      "synonyms": [
+        "page_views",
+        "pages_per_session"
+      ]
+    },
+    {
+      "code": "ppc",
+      "formula": null,
+      "example": "An advertiser used PPC on Google Ads, paying only when users clicked.",
+      "unit": "Currency",
+      "en": {
+        "name": "Pay per Click",
+        "definition": "Pay-Per-Click; advertisers pay each time a user clicks on an ad."
+      },
+      "de": {
+        "name": null,
+        "definition": "Pay-per-Click; ein Werbemodell, bei dem pro Klick gezahlt wird."
+      },
+      "synonyms": [
+        "pay_per_click"
+      ]
+    },
+    {
+      "code": "price",
+      "formula": null,
+      "example": "A product was sold for $29.99.",
+      "unit": "Currency",
+      "en": {
+        "name": "Price",
+        "definition": "The monetary value assigned to a product or service."
+      },
+      "de": {
+        "name": null,
+        "definition": "Der einem Produkt oder einer Dienstleistung zugewiesene Geldwert."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "product_review_rating_reviews",
+      "formula": null,
+      "example": "Average product rating 4.5 stars from 2,000 reviews.",
+      "unit": "Score (scale 1–5)",
+      "en": {
+        "name": "Product Review Rating Reviews",
+        "definition": "Average customer rating derived from product reviews."
+      },
+      "de": {
+        "name": null,
+        "definition": "Durchschnittliche Kundenbewertung basierend auf den Produktrezensionen."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "pv_page_views",
+      "formula": null,
+      "example": "The homepage generated 15,000 total page views.",
+      "unit": "Count",
+      "en": {
+        "name": "Pv Page Views",
+        "definition": "Page Views; the total number of times a page was loaded or reloaded."
+      },
+      "de": {
+        "name": null,
+        "definition": "Seitenaufrufe; die Gesamtanzahl der Male, die eine Seite geladen oder neu geladen wurde."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "quality_score",
+      "formula": "f(Expected CTR, Ad Relevance, Landing Page Experience)",
+      "example": "Google rated the ad 9/10 for expected CTR, ad relevance, and landing page quality.",
+      "unit": "Count",
+      "en": {
+        "name": "Quality Score",
+        "definition": "Google Ads metric (1–10) measuring ad quality via CTR, relevance, and landing page experience."
+      },
+      "de": {
+        "name": null,
+        "definition": "Google-Ads-Kennzahl (1–10), die die Anzeigenqualität anhand von CTR, Relevanz und Zielseitenerlebnis misst."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "rating",
+      "formula": "Rating = (Listeners / Target Population) × 100",
+      "example": "A radio program achieved a 12% rating.",
+      "unit": "Percentage (%)",
+      "en": {
+        "name": "Rating",
+        "definition": "Percentage of target audience listening to a station during a period."
+      },
+      "de": {
+        "name": null,
+        "definition": "Prozentsatz der Zielgruppe, die während eines bestimmten Zeitraums einen Sender hört."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "reach",
+      "formula": "Reach = (Unique Audience / Target Population) × 100",
+      "example": "A TV campaign reached 70% of the target population.",
+      "unit": "Percentage (%)",
+      "en": {
+        "name": "Reach",
+        "definition": "Percentage of the target audience exposed at least once."
+      },
+      "de": {
+        "name": null,
+        "definition": "Prozentsatz der Zielgruppe, die mindestens einmal erreicht wurde."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "reach_coverage",
+      "formula": "Reach = (Unique Audience ÷ Target Population) × 100",
+      "example": "A TV campaign reached 70% of the target population at least once.",
+      "unit": "Percentage (%)",
+      "en": {
+        "name": "Reach Coverage",
+        "definition": "The percentage of the target audience exposed to the ad at least once."
+      },
+      "de": {
+        "name": null,
+        "definition": "Der Prozentsatz der Zielgruppe, die der Anzeige mindestens einmal ausgesetzt war."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "return_rate",
+      "formula": "Return Rate = Returns / Orders × 100",
+      "example": "Return Rate = 5% with 250 returns out of 5,000 orders.",
+      "unit": "Percentage (%)",
+      "en": {
+        "name": "Return Rate",
+        "definition": "The percentage of purchased items returned relative to total items sold."
+      },
+      "de": {
+        "name": null,
+        "definition": "Der Prozentsatz der gekauften Artikel, die im Verhältnis zur Gesamtzahl der verkauften Artikel zurückgegeben wurden."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "returns",
+      "formula": null,
+      "example": "200 orders were returned by customers.",
+      "unit": "Count",
+      "en": {
+        "name": "Returns",
+        "definition": "The number of purchased items returned by customers for a refund or exchange."
+      },
+      "de": {
+        "name": null,
+        "definition": "Die Anzahl der von Kunden zur Rückerstattung oder zum Umtausch zurückgegebenen Artikel."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "rev_share_revenue_share",
+      "formula": null,
+      "example": "An affiliate received 10% revenue share for each referred sale.",
+      "unit": "Percentage (%)",
+      "en": {
+        "name": "Rev Share Revenue Share",
+        "definition": "Commission-based model where fee is a percentage of sales."
+      },
+      "de": {
+        "name": null,
+        "definition": "Provisionsbasiertes Modell, bei dem die Gebühr einen Prozentsatz des Umsatzes ausmacht."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "revenue",
+      "formula": null,
+      "example": "Organic visitors generated $300,000 revenue in a month.",
+      "unit": "Currency",
+      "en": {
+        "name": "Revenue",
+        "definition": "Revenue attributed to organic search visitors."
+      },
+      "de": {
+        "name": null,
+        "definition": "Umsatz, der organischen Suchbesuchern zugeschrieben wird."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "roas",
+      "formula": "ROAS = Sales Revenue from Ads / Ad Spend",
+      "example": "A Facebook campaign generated $50,000 revenue from $10,000 spend, ROAS = 5x.",
+      "unit": "Currency",
+      "en": {
+        "name": "Return on Ad Spend",
+        "definition": "Revenue generated from advertising relative to ad spend. Inverse of ACoS."
+      },
+      "de": {
+        "name": null,
+        "definition": "Umsatz aus Werbung im Verhältnis zu den Werbeausgaben. Umgekehrte Kennzahl zu ACoS."
+      },
+      "synonyms": [
+        "return_on_ad_spend"
+      ]
+    },
+    {
+      "code": "roi",
+      "formula": "ROI = (Revenue − Cost) / Cost",
+      "example": "$10,000 spent on ads generated $25,000 profit, ROI = 150%.",
+      "unit": "Currency",
+      "en": {
+        "name": "Return on Investment",
+        "definition": "Return on Investment; measures profit relative to the cost of marketing or advertising activities."
+      },
+      "de": {
+        "name": null,
+        "definition": "Kapitalrendite; misst den Gewinn im Verhältnis zu den Kosten von Marketing- oder Werbemaßnahmen."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "rpr",
+      "formula": "RPR = (Number of repeat customers / Total number of orders) × 100",
+      "example": "RPR = 30% of orders came from repeat customers.",
+      "unit": "Percentage (%)",
+      "en": {
+        "name": "Rpr",
+        "definition": "Tracks how often customers return to buy your product again."
+      },
+      "de": {
+        "name": null,
+        "definition": "Misst, wie häufig Kunden erneut ein Produkt kaufen."
+      },
+      "synonyms": [
+        "repeat_purchase_rate"
+      ]
+    },
+    {
+      "code": "rsp",
+      "formula": null,
+      "example": "Recommended Selling Price set at $45.00.",
+      "unit": "Currency",
+      "en": {
+        "name": "Rsp",
+        "definition": "Recommended Selling Price."
+      },
+      "de": {
+        "name": null,
+        "definition": "Empfohlener Verkaufspreis."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "sent_emails_delivered_emails",
+      "formula": null,
+      "example": "20,000 promotional emails were successfully delivered.",
+      "unit": "Count",
+      "en": {
+        "name": "Sent Emails Delivered Emails",
+        "definition": "The total number of emails successfully sent to recipients."
+      },
+      "de": {
+        "name": null,
+        "definition": "Die Gesamtzahl der E-Mails, die erfolgreich an Empfänger zugestellt wurden."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "sessions",
+      "formula": null,
+      "example": "A website recorded 8,000 sessions in one month.",
+      "unit": "Count",
+      "en": {
+        "name": "Sessions",
+        "definition": "Visits initiated through organic search."
+      },
+      "de": {
+        "name": null,
+        "definition": "Besuche, die über die organische Suche initiiert wurden."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "shares",
+      "formula": "Engagement Rate = (Engagements / Followers) × 100",
+      "example": "A LinkedIn article was shared 180 times by users.",
+      "unit": "Time (seconds/minutes)",
+      "en": {
+        "name": "Shares",
+        "definition": "The number of times users redistributed the content to their own networks."
+      },
+      "de": {
+        "name": null,
+        "definition": "Die Anzahl der Male, die Nutzer Inhalte in ihre eigenen Netzwerke weitergeteilt haben."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "spam_complaint_rate_abuse_rate",
+      "formula": "Spam Complaint Rate = (Spam Complaints / Delivered Emails) × 100",
+      "example": "25 of 10,000 delivered emails were marked spam, Complaint Rate = 0.25%.",
+      "unit": "Percentage (%)",
+      "en": {
+        "name": "Spam Complaint Rate Abuse Rate",
+        "definition": "The percentage of delivered emails marked as spam by recipients."
+      },
+      "de": {
+        "name": null,
+        "definition": "Der Prozentsatz der zugestellten E-Mails, die von Empfängern als Spam markiert wurden."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "srp",
+      "formula": null,
+      "example": "Suggested Retail Price displayed as $50.00.",
+      "unit": "Currency",
+      "en": {
+        "name": "Suggested Retail Price",
+        "definition": "Suggested Retail Price."
+      },
+      "de": {
+        "name": null,
+        "definition": "Unverbindliche Preisempfehlung (UVP)."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "subscription",
+      "formula": null,
+      "example": "1,000 users subscribed to monthly service plans.",
+      "unit": "Count",
+      "en": {
+        "name": "Subscription",
+        "definition": "The number of users who enroll in a recurring service or content access plan."
+      },
+      "de": {
+        "name": null,
+        "definition": "Die Anzahl der Nutzer, die ein wiederkehrendes Service- oder Content-Abonnement abschließen."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "subscription_fee",
+      "formula": null,
+      "example": "$39 monthly subscription fee per user.",
+      "unit": "Count",
+      "en": {
+        "name": "Subscription Fee",
+        "definition": "Fixed platform usage fee (e.g., Amazon Seller subscription)."
+      },
+      "de": {
+        "name": null,
+        "definition": "Feste Plattformnutzungsgebühr (z. B. Amazon-Verkäuferabonnement)."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "tacos",
+      "formula": "TACoS = (Advertising Spend / Total Revenue) × 100",
+      "example": "$5,000 ad spend against $50,000 total sales, TACoS = 10%.",
+      "unit": "Currency",
+      "en": {
+        "name": "Total Advertising Cost of Sales",
+        "definition": "Total Advertising Cost of Sales measures ad spend relative to total revenue (organic + paid), reflecting overall ad performance and profitability."
+      },
+      "de": {
+        "name": null,
+        "definition": "Gesamte Werbekostenquote im Verhältnis zum Gesamtumsatz (organisch + bezahlt); spiegelt die Gesamtleistung und Profitabilität der Werbung wider."
+      },
+      "synonyms": [
+        "total_advertising_cost_of_sales"
+      ]
+    },
+    {
+      "code": "top_of_search_impression_share",
+      "formula": "Top of Search Impression Share = Top of Search Impressions / Eligible Top of Search Impressions × 100%",
+      "example": "The ad achieved 60% Top of Search IS, appearing in top slots 600 out of 1,000 opportunities.",
+      "unit": "Percentage (%)",
+      "en": {
+        "name": "Top Of Search Impression Share",
+        "definition": "The percentage of times an ad appears at the top of search compared to total opportunities."
+      },
+      "de": {
+        "name": null,
+        "definition": "Der Prozentsatz der Fälle, in denen eine Anzeige an der Spitze der Suchergebnisse erscheint, gemessen an allen möglichen Gelegenheiten."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "total_sales_gross_revenue",
+      "formula": null,
+      "example": "Q2 sales totaled $1.5M before discounts and returns.",
+      "unit": "Currency",
+      "en": {
+        "name": "Total Sales Gross Revenue",
+        "definition": "Total sales refers to the gross revenue generated before considering returns, discounts, or fees."
+      },
+      "de": {
+        "name": null,
+        "definition": "Gesamtumsatz vor Berücksichtigung von Rücksendungen, Rabatten oder Gebühren."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "trp",
+      "formula": "TRP = (Target Audience Impressions ÷ Target Population) × 100",
+      "example": "TRP = 150 when calculated only for target segment.",
+      "unit": "Count",
+      "en": {
+        "name": "Target Rating Point",
+        "definition": "GRP calculated only for the defined target audience segment."
+      },
+      "de": {
+        "name": null,
+        "definition": "GRP, berechnet ausschließlich für das definierte Zielgruppensegment."
+      },
+      "synonyms": [
+        "target_rating_point"
+      ]
+    },
+    {
+      "code": "unique_pv",
+      "formula": null,
+      "example": "A webpage was visited by 3,000 unique users during a session.",
+      "unit": "Count",
+      "en": {
+        "name": "Unique Pv",
+        "definition": "Unique Page Views; the number of distinct users who viewed a page at least once during a session."
+      },
+      "de": {
+        "name": null,
+        "definition": "Eindeutige Seitenaufrufe; Anzahl der unterschiedlichen Nutzer, die eine Seite während einer Sitzung mindestens einmal angesehen haben."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "_opt_out_rate",
+      "formula": "Unsubscribe Rate = (Unsubscribes / Delivered Emails) × 100",
+      "example": "100 of 5,000 delivered emails led to unsubscribes, Unsubscribe Rate = 2%.",
+      "unit": "Percentage (%)",
+      "en": {
+        "name": " Opt Out Rate",
+        "definition": "The percentage of recipients who unsubscribed after receiving the email."
+      },
+      "de": {
+        "name": null,
+        "definition": "Der Prozentsatz der Empfänger, die sich nach Erhalt der E-Mail abgemeldet haben."
+      },
+      "synonyms": [
+        "unsubscribe_rate"
+      ]
+    },
+    {
+      "code": "unsubscribes",
+      "formula": "Unsubscribe Rate = (Unsubscribes / Delivered) × 100",
+      "example": "150 users canceled their subscriptions.",
+      "unit": "Count",
+      "en": {
+        "name": "Unsubscribes",
+        "definition": "The number of users who opt out or cancel a subscription, email list, or service."
+      },
+      "de": {
+        "name": null,
+        "definition": "Die Anzahl der Nutzer, die ein Abonnement, eine E-Mail-Liste oder einen Dienst kündigen."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "users",
+      "formula": null,
+      "example": "12,000 unique individuals viewed or interacted with a Facebook campaign.",
+      "unit": "Count",
+      "en": {
+        "name": "Users",
+        "definition": "The number of unique individuals who interacted with or were exposed to the media content."
+      },
+      "de": {
+        "name": null,
+        "definition": "Die Anzahl eindeutiger Personen, die mit Medieninhalten interagiert haben oder ihnen ausgesetzt waren."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "uv",
+      "formula": null,
+      "example": "6,500 unique visitors accessed the website in a month.",
+      "unit": "Count",
+      "en": {
+        "name": "Unique Visitors",
+        "definition": "Distinct users arriving from search results."
+      },
+      "de": {
+        "name": null,
+        "definition": "Eindeutige Nutzer, die über Suchergebnisse auf die Website gelangen."
+      },
+      "synonyms": [
+        "unique_visitors"
+      ]
+    },
+    {
+      "code": "views",
+      "formula": null,
+      "example": "A YouTube video ad was watched 20,000 times in 3 days.",
+      "unit": "Time (seconds/minutes)",
+      "en": {
+        "name": "Views",
+        "definition": "The total number of times the content was displayed or watched, regardless of user uniqueness."
+      },
+      "de": {
+        "name": null,
+        "definition": "Die Gesamtanzahl der Wiedergaben bzw. Sichtkontakte eines Inhalts – unabhängig von der Eindeutigkeit der Nutzer."
+      },
+      "synonyms": []
+    },
+    {
+      "code": "vtr",
+      "formula": "VTR = (Views / Impressions) × 100",
+      "example": "The YouTube ad creative A recorded higher VTR than creative B due to a relevant political event that went viral.",
+      "unit": "Percentage (%)",
+      "en": {
+        "name": "Vtr",
+        "definition": "The percentage of people who viewed the entire ad or video relative to those who started it."
+      },
+      "de": {
+        "name": null,
+        "definition": "Der Prozentsatz der Personen, die eine Anzeige bzw. ein Video vollständig angesehen haben, bezogen auf diejenigen, die die Wiedergabe gestartet haben."
+      },
+      "synonyms": [
+        "view_through_rate"
+      ]
+    }
+  ]
+}
