@@ -1,0 +1,16 @@
+Q002:
+  input:
+    campaigns:
+      - id: 1
+        name: "Summer Promo"
+        impressions: 1000
+        conversions: 80
+      - id: 2
+        name: "Autumn Sale"
+        impressions: 500
+        conversions: 60
+  expected:
+    rows:
+      - campaign_id: 2
+        campaign_name: "Autumn Sale"
+        conversion_rate: 0.12

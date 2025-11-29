@@ -1,0 +1,17 @@
+Q005:
+  input:
+    inventory:
+      - product_id: 9001
+        product_name: "Widget A"
+        current_stock: 12
+        safety_stock: 20
+      - product_id: 9002
+        product_name: "Widget B"
+        current_stock: 50
+        safety_stock: 30
+  expected:
+    rows:
+      - product_id: 9001
+        product_name: "Widget A"
+        current_stock: 12
+        safety_stock: 20

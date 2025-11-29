@@ -1,0 +1,120 @@
+questions:
+  - id: Q001
+    text: "Top 10 high-value customers and their total order amounts"
+    priority: HIGH
+    required_entities: [Customer, Order]
+    required_relationships: ["Customer->Order"]
+    expected_metrics: [total_revenue, order_count]
+    test_scenario: |
+      Generate 100 customers with multiple orders, compute total revenue per customer,
+      verify the top 10 by total revenue.
+
+  - id: Q002
+    text: "Marketing campaigns with the highest conversion rates in the past 30 days"
+    priority: HIGH
+    required_entities: [MarketingCampaign, Customer]
+    required_relationships: ["MarketingCampaign->Customer"]
+    expected_metrics: [conversion_rate]
+    test_scenario: |
+      Generate multiple campaigns and customer interactions within the last 30 days,
+      calculate conversion rate per campaign and rank descending.
+
+  - id: Q003
+    text: "Average order frequency per customer by region"
+    priority: MEDIUM
+    required_entities: [Customer, Order, Region]
+    required_relationships: ["Customer->Order", "Customer->Region"]
+    expected_metrics: [average_orders]
+    test_scenario: |
+      Create customers across regions with varying numbers of orders, compute
+      average orders per customer grouped by region.
+
+  - id: Q004
+    text: "Suppliers ranked by on-time delivery rate"
+    priority: HIGH
+    required_entities: [Supplier, Product, Order]
+    required_relationships: ["Supplier->Product", "Product->Order"]
+    expected_metrics: [on_time_delivery_rate]
+    test_scenario: |
+      Simulate supplier deliveries with actual vs promised dates, compute
+      on-time percentage and rank suppliers.
+
+  - id: Q005
+    text: "Products below safety stock level"
+    priority: HIGH
+    required_entities: [Product, Inventory]
+    required_relationships: ["Product->Inventory"]
+    expected_metrics: [current_stock, safety_stock]
+    test_scenario: |
+      Create products with inventory levels and safety stock; return those
+      where current_stock < safety_stock.
+
+  - id: Q006
+    text: "Average order processing time in the last 3 months"
+    priority: MEDIUM
+    required_entities: [Order, Employee]
+    required_relationships: ["Order->Employee"]
+    expected_metrics: [processing_time_days]
+    test_scenario: |
+      Generate orders with created/fulfilled timestamps and assigned employees,
+      compute average processing duration for the last 3 months.
+
+  - id: Q007
+    text: "Employee attrition rate by department"
+    priority: HIGH
+    required_entities: [Employee, Department]
+    required_relationships: ["Employee->Department"]
+    expected_metrics: [attrition_rate]
+    test_scenario: |
+      Simulate employee join/leave dates per department, calculate
+      attrition rate by department.
+
+  - id: Q008
+    text: "Percentage of new employees completing onboarding within 3 months"
+    priority: MEDIUM
+    required_entities: [Employee, OnboardingProgram]
+    required_relationships: ["Employee->OnboardingProgram"]
+    expected_metrics: [completion_rate]
+    test_scenario: |
+      Generate onboarding completion records for new hires,
+      compute percent completed within 90 days.
+
+  - id: Q009
+    text: "Employee performance scores vs. team project completion counts"
+    priority: MEDIUM
+    required_entities: [Employee, Team, Project]
+    required_relationships: ["Employee->Team", "Team->Project"]
+    expected_metrics: [performance_score, projects_completed]
+    test_scenario: |
+      Simulate employees in teams with project completions; compare
+      performance scores with project counts.
+
+  - id: Q010
+    text: "High-value customers whose orders are most affected by supply chain delays"
+    priority: HIGH
+    required_entities: [Customer, Order, Product, Supplier]
+    required_relationships: ["Customer->Order", "Order->Product", "Product->Supplier"]
+    expected_metrics: [order_delay_days, total_revenue]
+    test_scenario: |
+      Create high-value customers and delayed orders; rank customers by
+      total revenue impacted by delays.
+
+  - id: Q011
+    text: "ROI of marketing campaigns relative to inventory fluctuations"
+    priority: MEDIUM
+    required_entities: [MarketingCampaign, Product, Inventory]
+    required_relationships: ["MarketingCampaign->Product", "Product->Inventory"]
+    expected_metrics: [roi, stock_change]
+    test_scenario: |
+      Simulate campaign-driven sales and resulting inventory changes,
+      compute ROI and correlate with stock variation.
+
+  - id: Q012
+    text: "Sales team performance vs. customer satisfaction"
+    priority: MEDIUM
+    required_entities: [Employee, Team, Customer, Order, Feedback]
+    required_relationships: ["Employee->Team", "Team->Order", "Order->Customer", "Customer->Feedback"]
+    expected_metrics: [team_sales_total, average_customer_feedback_score]
+    test_scenario: |
+      Generate team sales data and customer feedback; analyze correlation
+      between sales totals and average satisfaction scores.
